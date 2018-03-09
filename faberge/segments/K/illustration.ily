@@ -1,63 +1,149 @@
-C_GlobalSkips = {
+J_GlobalRests = {
     
-    % [C GlobalSkips measure 274]                                        %! SM4
+    % [J GlobalRests measure 642]                                        %! SM4
+    R1 * 1/2
+    
+    % [J GlobalRests measure 643]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 644]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 645]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 646]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 647]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 648]                                        %! SM4
+    R1 * 1/2
+    
+    % [J GlobalRests measure 649]                                        %! SM4
+    R1 * 1/2
+    
+    % [J GlobalRests measure 650]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 651]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 652]                                        %! SM4
+    R1 * 1/2
+    
+    % [J GlobalRests measure 653]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 654]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 655]                                        %! SM4
+    R1 * 1/2
+    
+    % [J GlobalRests measure 656]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 657]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 658]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 659]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 660]                                        %! SM4
+    R1 * 3/4
+    
+    % [J GlobalRests measure 661]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 662]                                        %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
+    \once \override Score.TimeSignature.stencil = ##f                    %! SM19
+    R1 * 1/4
+    ^ \markup {                                                          %! SM18
+        \musicglyph                                                      %! SM18
+            #"scripts.ushortfermata"                                     %! SM18
+        }                                                                %! SM18
+    
+    % [J GlobalRests measure 663]                                        %! SM4
+    R1 * 1/2
+    
+    % [J GlobalRests measure 664]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 665]                                        %! SM4
+    R1 * 1
+    
+    % [J GlobalRests measure 666]                                        %! SM4
+    R1 * 3/4
+    
+}
+
+
+J_GlobalSkips = {
+    
+    % [J GlobalSkips measure 642]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@% \markup {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%         #-6                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%         \general-align                                               %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%             #Y                                                       %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%             #DOWN                                                    %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%             \note-by-number                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #2                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #0                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%                 #1                                                   %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%     \upright                                                         %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%         {                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%             =                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%             100                                                      %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%         }                                                            %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%     \hspace                                                          %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%         #1                                                           %! SM27:EXPLICIT_METRONOME_MARK:SM30
-%@%     }                                                                %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@% \markup {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%     \fontsize                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%         #-6                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%         \general-align                                               %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%             #Y                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%             #DOWN                                                    %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%             \note-by-number                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%                 #2                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%                 #0                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%                 #1                                                   %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%     \upright                                                         %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%         {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%             =                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%             41                                                       %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%         }                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%     \hspace                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%         #1                                                           %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@%     }                                                                %! SM27:REDUNDANT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-    \markup {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-        \with-color                                                      %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-            #(x11-color 'blue)                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-            {                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                \fontsize                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                    #-6                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                    \general-align                                       %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                        #Y                                               %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                        #DOWN                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                        \note-by-number                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #2                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #0                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                            #1                                           %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                \upright                                                 %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                    {                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                        =                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                        100                                              %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                    }                                                    %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                \hspace                                                  %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-                    #1                                                   %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-            }                                                            %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30
-        }                                                                %! SM15:EXPLICIT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
+    \once \override TextSpanner.bound-details.left.text =                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+    \markup {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+        \with-color                                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+            #(x11-color 'DeepPink1)                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+            {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                \fontsize                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                    #-6                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                    \general-align                                       %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                        #Y                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                        #DOWN                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                        \note-by-number                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                            #2                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                            #0                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                            #1                                           %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                \upright                                                 %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                    {                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                        =                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                        41                                               %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                    }                                                    %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                \hspace                                                  %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+                    #1                                                   %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+            }                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+        }                                                                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30 %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.padding = 0   %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right-broken.text = ##f    %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.padding = 0          %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.right.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.dash-period = 0                          %! SM29:METRONOME_MARK_SPANNER
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \mark #3                                                             %! SM9
+    \time 2/4                                                            %! SM8:REAPPLIED_TIME_SIGNATURE:SM38:SM1
+    \mark #10                                                            %! SM9
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    \once \override Score.TimeSignature.color = #(x11-color 'green4)     %! SM6:REAPPLIED_TIME_SIGNATURE_COLOR:SM38:SM1
+    s1 * 1/2
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -68,7 +154,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (274)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (642)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -84,7 +170,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.1]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -92,7 +178,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -100,17 +186,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'28'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'25'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 275]                                        %! SM4
+    % [J GlobalSkips measure 643]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 7/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/4
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -120,7 +206,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (275)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (643)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -136,7 +222,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -144,17 +230,16 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'30'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'27'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 276]                                        %! SM4
+    % [J GlobalSkips measure 644]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 5/12                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/12
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -164,7 +249,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (276)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (644)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -180,7 +265,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.2]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -188,7 +273,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -196,66 +281,14 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'34'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'32'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 277]                                        %! SM4
+    % [J GlobalSkips measure 645]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (277)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <3>                                      %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.3]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'35'']                                 %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [C GlobalSkips measure 278]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -268,7 +301,50 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (278)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (645)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
+            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
+            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <3>                                      %! SM32:MEASURE_INDEX_MARKUP
+            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! HSS2:SPACING_MARKUP
+            %@%     {                                                    %! HSS2:SPACING_MARKUP
+            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
+            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
+            %@%                 #3                                       %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
+            %@%     }                                                    %! HSS2:SPACING_MARKUP
+            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
+            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
+            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
+            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'36'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
+            }
+        }
+    
+    % [J GlobalSkips measure 646]                                        %! SM4
+    \newSpacingSection                                                   %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1
+    ^ \markup {
+        \column
+            {
+            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (646)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -278,13 +354,21 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <4>                                      %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.3]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -292,17 +376,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'37'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'42'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 279]                                        %! SM4
+    % [J GlobalSkips measure 647]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 5/12                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/12
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -312,7 +396,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (279)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (647)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -322,21 +406,13 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <5>                                      %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.4]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -344,17 +420,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'39'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'48'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 280]                                        %! SM4
+    % [J GlobalSkips measure 648]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -364,7 +440,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (280)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (648)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -380,7 +456,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.5]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -388,7 +464,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -396,17 +472,16 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'40'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'52'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 281]                                        %! SM4
+    % [J GlobalSkips measure 649]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 7/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/4
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -416,7 +491,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (281)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (649)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -432,7 +507,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -440,17 +515,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'44'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'55'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 282]                                        %! SM4
+    % [J GlobalSkips measure 650]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -460,7 +535,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (282)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (650)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -476,7 +551,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.6]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -484,7 +559,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -492,17 +567,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'48'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [22'58'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 283]                                        %! SM4
+    % [J GlobalSkips measure 651]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -512,7 +587,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (283)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (651)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -528,7 +603,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -536,17 +611,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'51'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'03'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 284]                                        %! SM4
+    % [J GlobalSkips measure 652]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 5/12                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/12
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -556,7 +631,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (284)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (652)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -572,7 +647,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.7]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -580,7 +655,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -588,14 +663,14 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'54'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'08'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 285]                                        %! SM4
+    % [J GlobalSkips measure 653]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
@@ -608,7 +683,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (285)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (653)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -618,21 +693,13 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <11>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.8]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -640,14 +707,14 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'55'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'11'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 286]                                        %! SM4
+    % [J GlobalSkips measure 654]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -660,7 +727,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (286)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (654)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -670,13 +737,21 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <12>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.7]                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -684,17 +759,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'57'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'16'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 287]                                        %! SM4
+    % [J GlobalSkips measure 655]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 5/12                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/12
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -704,7 +779,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (287)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (655)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -714,21 +789,13 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <13>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.9]                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -736,17 +803,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [9'59'']                                 %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'22'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 288]                                        %! SM4
+    % [J GlobalSkips measure 656]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -756,7 +823,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (288)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (656)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -772,7 +839,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.10]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -780,7 +847,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -788,14 +855,14 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'00'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'25'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 289]                                        %! SM4
+    % [J GlobalSkips measure 657]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -808,7 +875,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (289)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (657)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -824,7 +891,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -832,17 +899,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'04'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'29'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 290]                                        %! SM4
+    % [J GlobalSkips measure 658]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -852,7 +919,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (290)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (658)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -868,7 +935,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.11]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.9]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -876,7 +943,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -884,14 +951,14 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'06'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'35'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 291]                                        %! SM4
+    % [J GlobalSkips measure 659]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -904,7 +971,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (291)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (659)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -920,7 +987,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/20]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -928,17 +995,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'10'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'39'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 292]                                        %! SM4
+    % [J GlobalSkips measure 660]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    s1 * 3/4
     ^ \markup {
         \column
             {
@@ -948,7 +1015,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (292)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (660)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -964,7 +1031,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.12]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.10]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -972,7 +1039,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -980,17 +1047,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'12'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'45'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 293]                                        %! SM4
+    % [J GlobalSkips measure 661]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/4
+    s1 * 1
     ^ \markup {
         \column
             {
@@ -1000,7 +1067,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (293)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (661)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1024,17 +1091,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'16'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'49'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 294]                                        %! SM4
+    % [J GlobalSkips measure 662]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
+    \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    s1 * 1/4
     ^ \markup {
         \column
             {
@@ -1044,7 +1111,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (294)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (662)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1060,7 +1127,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.13]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.11]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1068,7 +1135,7 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1076,16 +1143,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'18'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'55'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 295]                                        %! SM4
+    % [J GlobalSkips measure 663]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 3/2
+    \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
+    s1 * 1/2
     ^ \markup {
         \column
             {
@@ -1095,7 +1163,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (295)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (663)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1105,6 +1173,14 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <21>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
+            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
+            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
+            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.12]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -1119,14 +1195,14 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'21'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [23'57'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 296]                                        %! SM4
+    % [J GlobalSkips measure 664]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
+    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
@@ -1139,7 +1215,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (296)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (664)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1149,21 +1225,13 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <22>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.14]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
+            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1171,12 +1239,12 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'25'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [24'00'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 297]                                        %! SM4
+    % [J GlobalSkips measure 665]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -1190,7 +1258,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (297)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (665)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1200,57 +1268,13 @@ C_GlobalSkips = {
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
             %@%                 <23>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'27'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [C GlobalSkips measure 298]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
-    \time 7/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 7/4
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (298)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <24>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.15]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [J.13]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1258,50 +1282,6 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
             %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
             %@%                 #3                                       %! HSS2:SPACING_MARKUP
-            %@%                 [1/16]                                   %! HSS2:SPACING_MARKUP
-            %@%     }                                                    %! HSS2:SPACING_MARKUP
-            %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \with-color                                      %! SM28:CLOCK_TIME_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
-            %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'30'']                                %! SM28:CLOCK_TIME_MARKUP
-            %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
-            }
-        }
-    
-    % [C GlobalSkips measure 299]                                        %! SM4
-    \newSpacingSection                                                   %! HSS1:SPACING
-    \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
-    \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 1
-    ^ \markup {
-        \column
-            {
-            %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (299)                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \fontsize                                        %! SM32:MEASURE_INDEX_MARKUP
-            %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
-            %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <25>                                     %! SM32:MEASURE_INDEX_MARKUP
-            %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! HSS2:SPACING_MARKUP
-            %@%     {                                                    %! HSS2:SPACING_MARKUP
-            %@%         \with-color                                      %! HSS2:SPACING_MARKUP
-            %@%             #(x11-color 'DarkCyan)                       %! HSS2:SPACING_MARKUP
-            %@%             \fontsize                                    %! HSS2:SPACING_MARKUP
-            %@%                 #3                                       %! HSS2:SPACING_MARKUP
             %@%                 [1/12]                                   %! HSS2:SPACING_MARKUP
             %@%     }                                                    %! HSS2:SPACING_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
@@ -1310,17 +1290,17 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'34'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [24'05'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     
-    % [C GlobalSkips measure 300]                                        %! SM4
+    % [J GlobalSkips measure 666]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-    \time 5/12                                                           %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
+    \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
-    s1 * 5/12
+    s1 * 3/4
     \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     ^ \markup {
         \column
@@ -1331,7 +1311,7 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM31:MEASURE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM31:MEASURE_NUMBER_MARKUP
-            %@%                 (300)                                    %! SM31:MEASURE_NUMBER_MARKUP
+            %@%                 (666)                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
@@ -1339,16 +1319,8 @@ C_GlobalSkips = {
             %@%             #3                                           %! SM32:MEASURE_INDEX_MARKUP
             %@%             \with-color                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM32:MEASURE_INDEX_MARKUP
-            %@%                 <26>                                     %! SM32:MEASURE_INDEX_MARKUP
+            %@%                 <24>                                     %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \fontsize                                        %! SM3:STAGE_NUMBER_MARKUP
-            %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
-            %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [C.16]                                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
             %@%         \with-color                                      %! HSS2:SPACING_MARKUP
@@ -1363,19 +1335,19 @@ C_GlobalSkips = {
             %@%             #(x11-color 'DarkCyan)                       %! SM28:CLOCK_TIME_MARKUP
             %@%             \fontsize                                    %! SM28:CLOCK_TIME_MARKUP
             %@%                 #3                                       %! SM28:CLOCK_TIME_MARKUP
-            %@%                 [10'36'']                                %! SM28:CLOCK_TIME_MARKUP
+            %@%                 [24'11'']                                %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
     \override Score.BarLine.transparent = ##f                            %! SM5
-    \bar "|"                                                             %! SM5
+    \bar "|."                                                            %! SM5
     
 }
 
 
-C_FluteMusicVoice = {
+J_FluteMusicVoice = {
     
-    % [C FluteMusicVoice measure 274]                            %! SM4
+    % [J FluteMusicVoice measure 642]                            %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1392,7 +1364,8 @@ C_FluteMusicVoice = {
     \set FluteMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    r1
+    \makeBlue                                                    %! SM24
+    c''2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1412,159 +1385,462 @@ C_FluteMusicVoice = {
             "B. fl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [C FluteMusicVoice measure 275]                            %! SM4
-    r4
+    % [J FluteMusicVoice measure 643]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c''2.
+    \repeatTie
+    \times 4/5 {
+        
+        % [J FluteMusicVoice measure 644]                        %! SM4
+        \makeBlue                                                %! SM24
+        c''16
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J FluteMusicVoice measure 645]                        %! SM4
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        c''8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J FluteMusicVoice measure 646]                        %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J FluteMusicVoice measure 647]                        %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''8
+        ]
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8.
+        ]
+    }
+    \times 4/5 {
+        
+        % [J FluteMusicVoice measure 648]                        %! SM4
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        c''8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J FluteMusicVoice measure 649]                        %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J FluteMusicVoice measure 650]                        %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J FluteMusicVoice measure 651]                        %! SM4
+        \makeBlue                                                %! SM24
+        c''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        c''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        c''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        c''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        c''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        c''8
+    }
     
+    % [J FluteMusicVoice measure 652]                            %! SM4
+    R1 * 1/2
+    
+    % [J FluteMusicVoice measure 653]                            %! SM4
+    R1 * 3/4
+    
+    % [J FluteMusicVoice measure 654]                            %! SM4
+    R1 * 1
+    
+    % [J FluteMusicVoice measure 655]                            %! SM4
+    R1 * 1/2
+    
+    % [J FluteMusicVoice measure 656]                            %! SM4
+    R1 * 3/4
+    
+    % [J FluteMusicVoice measure 657]                            %! SM4
+    R1 * 1
+    
+    % [J FluteMusicVoice measure 658]                            %! SM4
+    R1 * 3/4
+    
+    % [J FluteMusicVoice measure 659]                            %! SM4
+    R1 * 1
+    
+    % [J FluteMusicVoice measure 660]                            %! SM4
+    R1 * 3/4
+    
+    % [J FluteMusicVoice measure 661]                            %! SM4
+    R1 * 1
+    
+    % [J FluteMusicVoice measure 662]                            %! SM4
+    R1 * 1/4
+    
+    % [J FluteMusicVoice measure 663]                            %! SM4
     \makeBlue                                                    %! SM24
     c''2
     
-    \makeBlue                                                    %! SM24
-    c''8
-    \repeatTie
-    
-    r2..
-    
-    % [C FluteMusicVoice measure 276]                            %! SM4
-    R1 * 5/12
-    
-    % [C FluteMusicVoice measure 277]                            %! SM4
-    R1 * 3/4
-    
-    % [C FluteMusicVoice measure 278]                            %! SM4
-    R1 * 1
-    
-    % [C FluteMusicVoice measure 279]                            %! SM4
-    R1 * 5/12
-    
-    % [C FluteMusicVoice measure 280]                            %! SM4
-    r2.
-    
-    r2
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [C FluteMusicVoice measure 281]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''1..
-    \repeatTie
-    
-    % [C FluteMusicVoice measure 282]                            %! SM4
-    r1
-    
-    % [C FluteMusicVoice measure 283]                            %! SM4
-    r4
-    
-    \makeBlue                                                    %! SM24
-    c''2
-    
-    \makeBlue                                                    %! SM24
-    c''8
-    \repeatTie
-    
-    r8
-    
-    r2
-    
-    % [C FluteMusicVoice measure 284]                            %! SM4
-    R1 * 5/12
-    
-    % [C FluteMusicVoice measure 285]                            %! SM4
-    R1 * 3/4
-    
-    % [C FluteMusicVoice measure 286]                            %! SM4
-    R1 * 1
-    
-    % [C FluteMusicVoice measure 287]                            %! SM4
-    R1 * 5/12
-    
-    % [C FluteMusicVoice measure 288]                            %! SM4
-    r2.
-    
-    r2
-    
-    \makeBlue                                                    %! SM24
-    c''4
-    
-    % [C FluteMusicVoice measure 289]                            %! SM4
+    % [J FluteMusicVoice measure 664]                            %! SM4
     \makeBlue                                                    %! SM24
     c''1
     \repeatTie
     
-    % [C FluteMusicVoice measure 290]                            %! SM4
-    R1 * 3/2
-    
-    % [C FluteMusicVoice measure 291]                            %! SM4
-    R1 * 1
-    
-    % [C FluteMusicVoice measure 292]                            %! SM4
-    r2.
-    
-    r2
-    
+    % [J FluteMusicVoice measure 665]                            %! SM4
     \makeBlue                                                    %! SM24
-    c''4
-    
-    % [C FluteMusicVoice measure 293]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4.
+    c''1
     \repeatTie
     
-    r4.
-    
-    % [C FluteMusicVoice measure 294]                            %! SM4
-    r2.
-    
-    r2
-    
+    % [J FluteMusicVoice measure 666]                            %! SM4
     \makeBlue                                                    %! SM24
-    c''4
-    
-    % [C FluteMusicVoice measure 295]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c''4.
+    c''2.
     \repeatTie
-    
-    r4.
-    
-    r2.
-    
-    % [C FluteMusicVoice measure 296]                            %! SM4
-    r1
-    
-    % [C FluteMusicVoice measure 297]                            %! SM4
-    r4
-    
-    \makeBlue                                                    %! SM24
-    c''2
-    
-    \makeBlue                                                    %! SM24
-    c''8
-    \repeatTie
-    
-    r8
-    
-    % [C FluteMusicVoice measure 298]                            %! SM4
-    R1 * 7/4
-    
-    % [C FluteMusicVoice measure 299]                            %! SM4
-    R1 * 1
-    
-    % [C FluteMusicVoice measure 300]                            %! SM4
-    R1 * 5/12
     
 }
 
 
-C_FluteMusicStaff = {
+J_FluteMusicStaff = {
     \context FluteMusicVoice = "FluteMusicVoice"
-    \C_FluteMusicVoice
+    \J_FluteMusicVoice
 }
 
 
-C_EnglishHornMusicVoice = {
+J_EnglishHornMusicVoice = {
     
-    % [C EnglishHornMusicVoice measure 274]                      %! SM4
+    % [J EnglishHornMusicVoice measure 642]                      %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -1585,7 +1861,7 @@ C_EnglishHornMusicVoice = {
     \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    r2
+    R1 * 1/2
     \effort_mf                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1605,180 +1881,120 @@ C_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    \makeBlue                                                    %! SM24
-    g'2
-    
-    % [C EnglishHornMusicVoice measure 275]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'4.
-    \repeatTie
-    
-    r4.
-    
-    r1
-    
-    % [C EnglishHornMusicVoice measure 276]                      %! SM4
-    R1 * 5/12
-    
-    % [C EnglishHornMusicVoice measure 277]                      %! SM4
+    % [J EnglishHornMusicVoice measure 643]                      %! SM4
     R1 * 3/4
     
-    % [C EnglishHornMusicVoice measure 278]                      %! SM4
-    R1 * 1
-    
-    % [C EnglishHornMusicVoice measure 279]                      %! SM4
-    R1 * 5/12
-    
-    % [C EnglishHornMusicVoice measure 280]                      %! SM4
-    r2
-    
-    \makeBlue                                                    %! SM24
-    g'4
-    
-    g'2
-    \repeatTie
-    
-    g'8
-    \repeatTie
-    
-    r8
-    
-    % [C EnglishHornMusicVoice measure 281]                      %! SM4
-    r1..
-    
-    % [C EnglishHornMusicVoice measure 282]                      %! SM4
-    r2
-    
-    \makeBlue                                                    %! SM24
-    g'2
-    
-    % [C EnglishHornMusicVoice measure 283]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'4.
-    \repeatTie
-    
-    r4.
-    
-    r2.
-    
-    % [C EnglishHornMusicVoice measure 284]                      %! SM4
-    R1 * 5/12
-    
-    % [C EnglishHornMusicVoice measure 285]                      %! SM4
+    % [J EnglishHornMusicVoice measure 644]                      %! SM4
     R1 * 3/4
     
-    % [C EnglishHornMusicVoice measure 286]                      %! SM4
+    % [J EnglishHornMusicVoice measure 645]                      %! SM4
     R1 * 1
     
-    % [C EnglishHornMusicVoice measure 287]                      %! SM4
-    R1 * 5/12
+    % [J EnglishHornMusicVoice measure 646]                      %! SM4
+    R1 * 1
     
-    % [C EnglishHornMusicVoice measure 288]                      %! SM4
-    r2
+    % [J EnglishHornMusicVoice measure 647]                      %! SM4
+    R1 * 3/4
     
+    % [J EnglishHornMusicVoice measure 648]                      %! SM4
+    R1 * 1/2
+    
+    % [J EnglishHornMusicVoice measure 649]                      %! SM4
+    R1 * 1/2
+    
+    % [J EnglishHornMusicVoice measure 650]                      %! SM4
     \makeBlue                                                    %! SM24
-    g'4
+    g'2.
     
-    g'2
-    \repeatTie
-    
-    g'8
-    \repeatTie
-    
-    r8
-    
-    % [C EnglishHornMusicVoice measure 289]                      %! SM4
-    r1
-    
-    % [C EnglishHornMusicVoice measure 290]                      %! SM4
-    r2
-    
-    \makeBlue                                                    %! SM24
-    g'1
-    
-    % [C EnglishHornMusicVoice measure 291]                      %! SM4
+    % [J EnglishHornMusicVoice measure 651]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [C EnglishHornMusicVoice measure 292]                      %! SM4
-    r2
-    
-    \makeBlue                                                    %! SM24
-    g'4
-    
-    g'2
-    \repeatTie
-    
-    g'8
-    \repeatTie
-    
-    r8
-    
-    % [C EnglishHornMusicVoice measure 293]                      %! SM4
-    r2.
-    
-    % [C EnglishHornMusicVoice measure 294]                      %! SM4
-    r2
-    
-    \makeBlue                                                    %! SM24
-    g'4
-    
-    g'2
-    \repeatTie
-    
-    g'8
-    \repeatTie
-    
-    r8
-    
-    % [C EnglishHornMusicVoice measure 295]                      %! SM4
-    r1.
-    
-    % [C EnglishHornMusicVoice measure 296]                      %! SM4
-    r2
-    
+    % [J EnglishHornMusicVoice measure 652]                      %! SM4
     \makeBlue                                                    %! SM24
     g'2
-    
-    % [C EnglishHornMusicVoice measure 297]                      %! SM4
-    \makeBlue                                                    %! SM24
-    g'4.
     \repeatTie
     
-    r8
-    
-    r2
-    
-    % [C EnglishHornMusicVoice measure 298]                      %! SM4
-    r2
-    
+    % [J EnglishHornMusicVoice measure 653]                      %! SM4
     \makeBlue                                                    %! SM24
-    g'4
-    
-    g'1
+    g'2.
     \repeatTie
     
-    % [C EnglishHornMusicVoice measure 299]                      %! SM4
+    % [J EnglishHornMusicVoice measure 654]                      %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [C EnglishHornMusicVoice measure 300]                      %! SM4
-    R1 * 5/12
+    % [J EnglishHornMusicVoice measure 655]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'2
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 656]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'2.
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 657]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'1
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 658]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'2.
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 659]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'1
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 660]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'2.
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 661]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'1
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 662]                      %! SM4
+    R1 * 1/4
+    
+    % [J EnglishHornMusicVoice measure 663]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'2
+    
+    % [J EnglishHornMusicVoice measure 664]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'1
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 665]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'1
+    \repeatTie
+    
+    % [J EnglishHornMusicVoice measure 666]                      %! SM4
+    \makeBlue                                                    %! SM24
+    g'2.
+    \repeatTie
     
 }
 
 
-C_EnglishHornMusicStaff = {
+J_EnglishHornMusicStaff = {
     \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-    \C_EnglishHornMusicVoice
+    \J_EnglishHornMusicVoice
 }
 
 
-C_ClarinetMusicVoice = {
+J_ClarinetMusicVoice = {
     
-    % [C ClarinetMusicVoice measure 274]                         %! SM4
+    % [J ClarinetMusicVoice measure 642]                         %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1795,7 +2011,8 @@ C_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.forceClef = ##t                      %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    r1
+    \makeBlue                                                    %! SM24
+    d''2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1815,105 +2032,632 @@ C_ClarinetMusicVoice = {
             "B. cl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [C ClarinetMusicVoice measure 275]                         %! SM4
-    r2.
-    
-    \makeBlue                                                    %! SM24
-    d''1
-    
-    % [C ClarinetMusicVoice measure 276]                         %! SM4
-    R1 * 5/12
-    
-    % [C ClarinetMusicVoice measure 277]                         %! SM4
-    R1 * 3/4
-    
-    % [C ClarinetMusicVoice measure 278]                         %! SM4
-    R1 * 1
-    
-    % [C ClarinetMusicVoice measure 279]                         %! SM4
-    R1 * 5/12
-    
-    % [C ClarinetMusicVoice measure 280]                         %! SM4
-    R1 * 3/2
-    
-    % [C ClarinetMusicVoice measure 281]                         %! SM4
-    R1 * 7/4
-    
-    % [C ClarinetMusicVoice measure 282]                         %! SM4
-    r1
-    
-    % [C ClarinetMusicVoice measure 283]                         %! SM4
-    r2.
-    
+    % [J ClarinetMusicVoice measure 643]                         %! SM4
     \makeBlue                                                    %! SM24
     d''2.
+    \repeatTie
+    \times 4/5 {
+        
+        % [J ClarinetMusicVoice measure 644]                     %! SM4
+        \makeBlue                                                %! SM24
+        d''16
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J ClarinetMusicVoice measure 645]                     %! SM4
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        d''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        d''8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ClarinetMusicVoice measure 646]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ClarinetMusicVoice measure 647]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''8
+        ]
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8.
+        ]
+    }
+    \times 4/5 {
+        
+        % [J ClarinetMusicVoice measure 648]                     %! SM4
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        d''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        d''8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ClarinetMusicVoice measure 649]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J ClarinetMusicVoice measure 650]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J ClarinetMusicVoice measure 651]                     %! SM4
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        d''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        d''8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ClarinetMusicVoice measure 652]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J ClarinetMusicVoice measure 653]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J ClarinetMusicVoice measure 654]                     %! SM4
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                                %! SM24
+        d''4
+        \repeatTie
+        
+        \makeBlue                                                %! SM24
+        d''8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ClarinetMusicVoice measure 655]                     %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''8
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
+        \makeBlue                                                %! SM24
+        d''16
+        \repeatTie
+        [
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        
+        \makeBlue                                                %! SM24
+        d''16
+        ]
+    }
     
-    % [C ClarinetMusicVoice measure 284]                         %! SM4
-    R1 * 5/12
-    
-    % [C ClarinetMusicVoice measure 285]                         %! SM4
+    % [J ClarinetMusicVoice measure 656]                         %! SM4
     R1 * 3/4
     
-    % [C ClarinetMusicVoice measure 286]                         %! SM4
+    % [J ClarinetMusicVoice measure 657]                         %! SM4
     R1 * 1
     
-    % [C ClarinetMusicVoice measure 287]                         %! SM4
-    R1 * 5/12
-    
-    % [C ClarinetMusicVoice measure 288]                         %! SM4
-    R1 * 3/2
-    
-    % [C ClarinetMusicVoice measure 289]                         %! SM4
-    R1 * 1
-    
-    % [C ClarinetMusicVoice measure 290]                         %! SM4
-    R1 * 3/2
-    
-    % [C ClarinetMusicVoice measure 291]                         %! SM4
-    R1 * 1
-    
-    % [C ClarinetMusicVoice measure 292]                         %! SM4
-    R1 * 3/2
-    
-    % [C ClarinetMusicVoice measure 293]                         %! SM4
+    % [J ClarinetMusicVoice measure 658]                         %! SM4
     R1 * 3/4
     
-    % [C ClarinetMusicVoice measure 294]                         %! SM4
-    R1 * 3/2
+    % [J ClarinetMusicVoice measure 659]                         %! SM4
+    R1 * 1
     
-    % [C ClarinetMusicVoice measure 295]                         %! SM4
-    R1 * 3/2
+    % [J ClarinetMusicVoice measure 660]                         %! SM4
+    R1 * 3/4
     
-    % [C ClarinetMusicVoice measure 296]                         %! SM4
-    r1
+    % [J ClarinetMusicVoice measure 661]                         %! SM4
+    R1 * 1
     
-    % [C ClarinetMusicVoice measure 297]                         %! SM4
-    r2.
+    % [J ClarinetMusicVoice measure 662]                         %! SM4
+    R1 * 1/4
     
+    % [J ClarinetMusicVoice measure 663]                         %! SM4
     \makeBlue                                                    %! SM24
-    d''4
+    d''2
     
-    % [C ClarinetMusicVoice measure 298]                         %! SM4
-    R1 * 7/4
+    % [J ClarinetMusicVoice measure 664]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    \repeatTie
     
-    % [C ClarinetMusicVoice measure 299]                         %! SM4
-    R1 * 1
+    % [J ClarinetMusicVoice measure 665]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''1
+    \repeatTie
     
-    % [C ClarinetMusicVoice measure 300]                         %! SM4
-    R1 * 5/12
+    % [J ClarinetMusicVoice measure 666]                         %! SM4
+    \makeBlue                                                    %! SM24
+    d''2.
+    \repeatTie
     
 }
 
 
-C_ClarinetMusicStaff = {
+J_ClarinetMusicStaff = {
     \context ClarinetMusicVoice = "ClarinetMusicVoice"
-    \C_ClarinetMusicVoice
+    \J_ClarinetMusicVoice
 }
 
 
-C_PianoRHMusicVoice = {
+J_PianoRHMusicVoice = {
     
-    % [C PianoRHMusicVoice measure 274]                      %! SM4
+    % [J PianoRHMusicVoice measure 642]                      %! SM4
     \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -1929,7 +2673,7 @@ C_PianoRHMusicVoice = {
     \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override PianoRHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set PianoRHMusicStaff.forceClef = ##t                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 1
+    R1 * 1/2
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1948,403 +2692,899 @@ C_PianoRHMusicVoice = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \override PianoRHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [C PianoRHMusicVoice measure 275]                      %! SM4
-    R1 * 7/4
-    
-    % [C PianoRHMusicVoice measure 276]                      %! SM4
-    R1 * 5/12
-    
-    % [C PianoRHMusicVoice measure 277]                      %! SM4
+    % [J PianoRHMusicVoice measure 643]                      %! SM4
     R1 * 3/4
     
-    % [C PianoRHMusicVoice measure 278]                      %! SM4
+    % [J PianoRHMusicVoice measure 644]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoRHMusicVoice measure 645]                      %! SM4
     R1 * 1
-    
-    % [C PianoRHMusicVoice measure 279]                      %! SM4
-    R1 * 5/12
-    
-    % [C PianoRHMusicVoice measure 280]                      %! SM4
-    \override NoteHead.style = #'harmonic                    %! OC1
-    \makeBlue                                                %! SM24
-    c'1.
-    
-    % [C PianoRHMusicVoice measure 281]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1..
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 282]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 283]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
+    \times 4/5 {
         
-        % [C PianoRHMusicVoice measure 284]                  %! SM4
+        % [J PianoRHMusicVoice measure 646]                  %! SM4
         \makeBlue                                            %! SM24
-        c'2
+        c'16
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
         \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
         
         \makeBlue                                            %! SM24
         c'8
         \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
     }
-    
-    % [C PianoRHMusicVoice measure 285]                      %! SM4
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-    \makeBlue                                                %! SM24
-    c'2.
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 286]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    \tweak edge-height #'(0.7 . 0)
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 647]                  %! SM4
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
     \times 2/3 {
         
-        % [C PianoRHMusicVoice measure 287]                  %! SM4
         \makeBlue                                            %! SM24
-        c'2
+        c'4
         \repeatTie
         
         \makeBlue                                            %! SM24
         c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J PianoRHMusicVoice measure 648]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
         \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 649]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J PianoRHMusicVoice measure 650]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8.
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 651]                  %! SM4
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'4
+        \repeatTie
+        
+        \makeBlue                                            %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 652]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J PianoRHMusicVoice measure 653]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8.
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 654]                  %! SM4
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'4
+        \repeatTie
+        
+        \makeBlue                                            %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 655]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J PianoRHMusicVoice measure 656]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8.
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 657]                  %! SM4
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'4
+        \repeatTie
+        
+        \makeBlue                                            %! SM24
+        c'8
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        % [J PianoRHMusicVoice measure 658]                  %! SM4
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \times 4/5 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J PianoRHMusicVoice measure 659]                  %! SM4
+        \makeBlue                                            %! SM24
+        c'8
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 4/5 {
+        
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        [
+        
+        \makeBlue                                            %! SM24
+        c'16
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'8.
+        ]
+    }
+    \times 4/5 {
+        
+        \makeBlue                                            %! SM24
+        c'16
+        \repeatTie
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
+        \makeBlue                                            %! SM24
+        c'4
+    }
+    \times 2/3 {
+        
+        \makeBlue                                            %! SM24
+        c'4
+        \repeatTie
+        
+        \makeBlue                                            %! SM24
+        c'8
     }
     
-    % [C PianoRHMusicVoice measure 288]                      %! SM4
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
+    % [J PianoRHMusicVoice measure 660]                      %! SM4
+    R1 * 3/4
     
-    % [C PianoRHMusicVoice measure 289]                      %! SM4
+    % [J PianoRHMusicVoice measure 661]                      %! SM4
+    R1 * 1
+    
+    % [J PianoRHMusicVoice measure 662]                      %! SM4
+    R1 * 1/4
+    
+    % [J PianoRHMusicVoice measure 663]                      %! SM4
+    R1 * 1/2
+    
+    % [J PianoRHMusicVoice measure 664]                      %! SM4
+    R1 * 1
+    
+    % [J PianoRHMusicVoice measure 665]                      %! SM4
     \makeBlue                                                %! SM24
     c'1
-    \repeatTie
     
-    % [C PianoRHMusicVoice measure 290]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 291]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 292]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 293]                      %! SM4
+    % [J PianoRHMusicVoice measure 666]                      %! SM4
     \makeBlue                                                %! SM24
     c'2.
     \repeatTie
-    
-    % [C PianoRHMusicVoice measure 294]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 295]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 296]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoRHMusicVoice measure 297]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    \revert NoteHead.style                                   %! OC2
-    
-    % [C PianoRHMusicVoice measure 298]                      %! SM4
-    R1 * 7/4
-    
-    % [C PianoRHMusicVoice measure 299]                      %! SM4
-    R1 * 1
-    
-    % [C PianoRHMusicVoice measure 300]                      %! SM4
-    R1 * 5/12
     
 }
 
 
-C_PianoRHMusicStaff = {
+J_PianoRHMusicStaff = {
     \context PianoRHMusicVoice = "PianoRHMusicVoice"
-    \C_PianoRHMusicVoice
+    \J_PianoRHMusicVoice
 }
 
 
-C_PianoLHMusicVoice = {
+J_PianoLHMusicVoice = {
     
-    % [C PianoLHMusicVoice measure 274]                      %! SM4
+    % [J PianoLHMusicVoice measure 642]                      %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set PianoLHMusicStaff.forceClef = ##t                   %! SM8:REAPPLIED_CLEF:SM33:SM37
-    R1 * 1
+    R1 * 1/2
     \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [C PianoLHMusicVoice measure 275]                      %! SM4
-    R1 * 7/4
-    
-    % [C PianoLHMusicVoice measure 276]                      %! SM4
-    R1 * 5/12
-    
-    % [C PianoLHMusicVoice measure 277]                      %! SM4
+    % [J PianoLHMusicVoice measure 643]                      %! SM4
     R1 * 3/4
     
-    % [C PianoLHMusicVoice measure 278]                      %! SM4
+    % [J PianoLHMusicVoice measure 644]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 645]                      %! SM4
     R1 * 1
     
-    % [C PianoLHMusicVoice measure 279]                      %! SM4
-    R1 * 5/12
-    
-    % [C PianoLHMusicVoice measure 280]                      %! SM4
-    \override NoteHead.style = #'harmonic                    %! OC1
-    \makeBlue                                                %! SM24
-    c'1.
-    
-    % [C PianoLHMusicVoice measure 281]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1..
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 282]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 283]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
-        
-        % [C PianoLHMusicVoice measure 284]                  %! SM4
-        \makeBlue                                            %! SM24
-        c'2
-        \repeatTie
-        
-        \makeBlue                                            %! SM24
-        c'8
-        \repeatTie
-    }
-    
-    % [C PianoLHMusicVoice measure 285]                      %! SM4
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-    \makeBlue                                                %! SM24
-    c'2.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 286]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    \tweak edge-height #'(0.7 . 0)
-    \times 2/3 {
-        
-        % [C PianoLHMusicVoice measure 287]                  %! SM4
-        \makeBlue                                            %! SM24
-        c'2
-        \repeatTie
-        
-        \makeBlue                                            %! SM24
-        c'8
-        \repeatTie
-    }
-    
-    % [C PianoLHMusicVoice measure 288]                      %! SM4
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 289]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 290]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 291]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 292]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 293]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'2.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 294]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 295]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1.
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 296]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    
-    % [C PianoLHMusicVoice measure 297]                      %! SM4
-    \makeBlue                                                %! SM24
-    c'1
-    \repeatTie
-    \revert NoteHead.style                                   %! OC2
-    
-    % [C PianoLHMusicVoice measure 298]                      %! SM4
-    R1 * 7/4
-    
-    % [C PianoLHMusicVoice measure 299]                      %! SM4
+    % [J PianoLHMusicVoice measure 646]                      %! SM4
     R1 * 1
     
-    % [C PianoLHMusicVoice measure 300]                      %! SM4
-    R1 * 5/12
+    % [J PianoLHMusicVoice measure 647]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 648]                      %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHMusicVoice measure 649]                      %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHMusicVoice measure 650]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 651]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 652]                      %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHMusicVoice measure 653]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 654]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 655]                      %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHMusicVoice measure 656]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 657]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 658]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 659]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 660]                      %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHMusicVoice measure 661]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 662]                      %! SM4
+    R1 * 1/4
+    
+    % [J PianoLHMusicVoice measure 663]                      %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHMusicVoice measure 664]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 665]                      %! SM4
+    R1 * 1
+    
+    % [J PianoLHMusicVoice measure 666]                      %! SM4
+    R1 * 3/4
     
 }
 
 
-C_PianoLHAttackVoice = {
+J_PianoLHAttackVoice = {
     
-    % [C PianoLHAttackVoice measure 274]                     %! SM4
+    % [J PianoLHAttackVoice measure 642]                     %! SM4
     \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
+    R1 * 1/2
     \sfz                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [C PianoLHAttackVoice measure 275]                     %! SM4
-    R1 * 7/4
-    
-    % [C PianoLHAttackVoice measure 276]                     %! SM4
-    R1 * 5/12
-    
-    % [C PianoLHAttackVoice measure 277]                     %! SM4
+    % [J PianoLHAttackVoice measure 643]                     %! SM4
     R1 * 3/4
     
-    % [C PianoLHAttackVoice measure 278]                     %! SM4
-    R1 * 1
-    
-    % [C PianoLHAttackVoice measure 279]                     %! SM4
-    R1 * 5/12
-    
-    % [C PianoLHAttackVoice measure 280]                     %! SM4
-    \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs,16
-    -\marcato                                                %! IC
-    \sfz                                                     %! SM8:EXPLICIT_DYNAMIC:IC
-    
-    s1
-    
-    s4..
-    
-    % [C PianoLHAttackVoice measure 281]                     %! SM4
-    s1..
-    
-    % [C PianoLHAttackVoice measure 282]                     %! SM4
-    R1 * 1
-    
-    % [C PianoLHAttackVoice measure 283]                     %! SM4
-    R1 * 3/2
-    
-    % [C PianoLHAttackVoice measure 284]                     %! SM4
-    R1 * 5/12
-    
-    % [C PianoLHAttackVoice measure 285]                     %! SM4
-    \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    cs,16
-    -\marcato                                                %! IC
-    \sfz                                                     %! SM8:EXPLICIT_DYNAMIC:IC
-    
-    s2
-    
-    s8.
-    
-    % [C PianoLHAttackVoice measure 286]                     %! SM4
-    s1
-    
-    % [C PianoLHAttackVoice measure 287]                     %! SM4
-    R1 * 5/12
-    
-    % [C PianoLHAttackVoice measure 288]                     %! SM4
-    R1 * 3/2
-    
-    % [C PianoLHAttackVoice measure 289]                     %! SM4
-    R1 * 1
-    
-    % [C PianoLHAttackVoice measure 290]                     %! SM4
-    R1 * 3/2
-    
-    % [C PianoLHAttackVoice measure 291]                     %! SM4
-    R1 * 1
-    
-    % [C PianoLHAttackVoice measure 292]                     %! SM4
-    R1 * 3/2
-    
-    % [C PianoLHAttackVoice measure 293]                     %! SM4
+    % [J PianoLHAttackVoice measure 644]                     %! SM4
     R1 * 3/4
     
-    % [C PianoLHAttackVoice measure 294]                     %! SM4
-    R1 * 3/2
-    
-    % [C PianoLHAttackVoice measure 295]                     %! SM4
-    R1 * 3/2
-    
-    % [C PianoLHAttackVoice measure 296]                     %! SM4
+    % [J PianoLHAttackVoice measure 645]                     %! SM4
     R1 * 1
     
-    % [C PianoLHAttackVoice measure 297]                     %! SM4
+    % [J PianoLHAttackVoice measure 646]                     %! SM4
     R1 * 1
     
-    % [C PianoLHAttackVoice measure 298]                     %! SM4
-    R1 * 7/4
+    % [J PianoLHAttackVoice measure 647]                     %! SM4
+    R1 * 3/4
     
-    % [C PianoLHAttackVoice measure 299]                     %! SM4
+    % [J PianoLHAttackVoice measure 648]                     %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHAttackVoice measure 649]                     %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHAttackVoice measure 650]                     %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHAttackVoice measure 651]                     %! SM4
     R1 * 1
     
-    % [C PianoLHAttackVoice measure 300]                     %! SM4
-    R1 * 5/12
+    % [J PianoLHAttackVoice measure 652]                     %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHAttackVoice measure 653]                     %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHAttackVoice measure 654]                     %! SM4
+    R1 * 1
+    
+    % [J PianoLHAttackVoice measure 655]                     %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHAttackVoice measure 656]                     %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHAttackVoice measure 657]                     %! SM4
+    R1 * 1
+    
+    % [J PianoLHAttackVoice measure 658]                     %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHAttackVoice measure 659]                     %! SM4
+    R1 * 1
+    
+    % [J PianoLHAttackVoice measure 660]                     %! SM4
+    R1 * 3/4
+    
+    % [J PianoLHAttackVoice measure 661]                     %! SM4
+    R1 * 1
+    
+    % [J PianoLHAttackVoice measure 662]                     %! SM4
+    R1 * 1/4
+    
+    % [J PianoLHAttackVoice measure 663]                     %! SM4
+    R1 * 1/2
+    
+    % [J PianoLHAttackVoice measure 664]                     %! SM4
+    R1 * 1
+    
+    % [J PianoLHAttackVoice measure 665]                     %! SM4
+    R1 * 1
+    
+    % [J PianoLHAttackVoice measure 666]                     %! SM4
+    R1 * 3/4
     
 }
 
 
-C_PianoLHMusicStaff = <<
+J_PianoLHMusicStaff = <<
     \context PianoLHMusicVoice = "PianoLHMusicVoice"
-    \C_PianoLHMusicVoice
+    \J_PianoLHMusicVoice
     \context PianoLHAttackVoice = "PianoLHAttackVoice"
-    \C_PianoLHAttackVoice
+    \J_PianoLHAttackVoice
 >>
 
 
-C_PercussionMusicVoice = {
+J_PercussionMusicVoice = {
     
-    % [C PercussionMusicVoice measure 274]                       %! SM4
+    % [J PercussionMusicVoice measure 642]                       %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2365,7 +3605,8 @@ C_PercussionMusicVoice = {
     \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    R1 * 1
+    \makeBlue                                                    %! SM24
+    c'2
     \effort_mf                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2385,114 +3626,105 @@ C_PercussionMusicVoice = {
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [C PercussionMusicVoice measure 275]                       %! SM4
-    R1 * 7/4
-    
-    % [C PercussionMusicVoice measure 276]                       %! SM4
-    R1 * 5/12
-    
-    % [C PercussionMusicVoice measure 277]                       %! SM4
+    % [J PercussionMusicVoice measure 643]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
+    \repeatTie
     
-    % [C PercussionMusicVoice measure 278]                       %! SM4
+    % [J PercussionMusicVoice measure 644]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    
+    % [J PercussionMusicVoice measure 645]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [C PercussionMusicVoice measure 279]                       %! SM4
-    R1 * 5/12
+    % [J PercussionMusicVoice measure 646]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
     
-    % [C PercussionMusicVoice measure 280]                       %! SM4
-    R1 * 3/2
-    
-    % [C PercussionMusicVoice measure 281]                       %! SM4
-    R1 * 7/4
-    
-    % [C PercussionMusicVoice measure 282]                       %! SM4
-    R1 * 1
-    
-    % [C PercussionMusicVoice measure 283]                       %! SM4
-    R1 * 3/2
-    
-    % [C PercussionMusicVoice measure 284]                       %! SM4
-    R1 * 5/12
-    
-    % [C PercussionMusicVoice measure 285]                       %! SM4
+    % [J PercussionMusicVoice measure 647]                       %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     
-    % [C PercussionMusicVoice measure 286]                       %! SM4
+    % [J PercussionMusicVoice measure 648]                       %! SM4
+    R1 * 1/2
+    
+    % [J PercussionMusicVoice measure 649]                       %! SM4
+    R1 * 1/2
+    
+    % [J PercussionMusicVoice measure 650]                       %! SM4
+    R1 * 3/4
+    
+    % [J PercussionMusicVoice measure 651]                       %! SM4
+    R1 * 1
+    
+    % [J PercussionMusicVoice measure 652]                       %! SM4
+    R1 * 1/2
+    
+    % [J PercussionMusicVoice measure 653]                       %! SM4
+    R1 * 3/4
+    
+    % [J PercussionMusicVoice measure 654]                       %! SM4
+    R1 * 1
+    
+    % [J PercussionMusicVoice measure 655]                       %! SM4
+    R1 * 1/2
+    
+    % [J PercussionMusicVoice measure 656]                       %! SM4
+    R1 * 3/4
+    
+    % [J PercussionMusicVoice measure 657]                       %! SM4
+    R1 * 1
+    
+    % [J PercussionMusicVoice measure 658]                       %! SM4
+    R1 * 3/4
+    
+    % [J PercussionMusicVoice measure 659]                       %! SM4
+    R1 * 1
+    
+    % [J PercussionMusicVoice measure 660]                       %! SM4
+    R1 * 3/4
+    
+    % [J PercussionMusicVoice measure 661]                       %! SM4
+    R1 * 1
+    
+    % [J PercussionMusicVoice measure 662]                       %! SM4
+    R1 * 1/4
+    
+    % [J PercussionMusicVoice measure 663]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [J PercussionMusicVoice measure 664]                       %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [C PercussionMusicVoice measure 287]                       %! SM4
-    R1 * 5/12
-    
-    % [C PercussionMusicVoice measure 288]                       %! SM4
-    R1 * 3/2
-    
-    % [C PercussionMusicVoice measure 289]                       %! SM4
-    R1 * 1
-    
-    % [C PercussionMusicVoice measure 290]                       %! SM4
-    R1 * 3/2
-    
-    % [C PercussionMusicVoice measure 291]                       %! SM4
-    R1 * 1
-    
-    % [C PercussionMusicVoice measure 292]                       %! SM4
-    r1.
-    
-    % [C PercussionMusicVoice measure 293]                       %! SM4
-    r4
-    
+    % [J PercussionMusicVoice measure 665]                       %! SM4
     \makeBlue                                                    %! SM24
-    c'2
-    :32                                                          %! IC
-    
-    % [C PercussionMusicVoice measure 294]                       %! SM4
-    r1.
-    
-    % [C PercussionMusicVoice measure 295]                       %! SM4
-    r4
-    
-    \makeBlue                                                    %! SM24
-    c'2
-    :32                                                          %! IC
-    
-    c'2.
-    :32                                                          %! IC
+    c'1
     \repeatTie
     
-    % [C PercussionMusicVoice measure 296]                       %! SM4
-    r1
-    
-    % [C PercussionMusicVoice measure 297]                       %! SM4
-    r1
-    
-    % [C PercussionMusicVoice measure 298]                       %! SM4
-    R1 * 7/4
-    
-    % [C PercussionMusicVoice measure 299]                       %! SM4
-    R1 * 1
-    
-    % [C PercussionMusicVoice measure 300]                       %! SM4
-    R1 * 5/12
+    % [J PercussionMusicVoice measure 666]                       %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
 }
 
 
-C_PercussionMusicStaff = {
+J_PercussionMusicStaff = {
     \context PercussionMusicVoice = "PercussionMusicVoice"
-    \C_PercussionMusicVoice
+    \J_PercussionMusicVoice
 }
 
 
-C_ViolinMusicVoice = {
+J_ViolinMusicVoice = {
     
-    % [C ViolinMusicVoice measure 274]                           %! SM4
+    % [J ViolinMusicVoice measure 642]                           %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2514,9 +3746,8 @@ C_ViolinMusicVoice = {
     \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
-    c'16
+    c'2
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2535,226 +3766,466 @@ C_ViolinMusicVoice = {
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    % [C ViolinMusicVoice measure 275]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    % [C ViolinMusicVoice measure 276]                           %! SM4
-    R1 * 5/12
-    
-    % [C ViolinMusicVoice measure 277]                           %! SM4
-    R1 * 3/4
-    
-    % [C ViolinMusicVoice measure 278]                           %! SM4
-    R1 * 1
-    
-    % [C ViolinMusicVoice measure 279]                           %! SM4
-    R1 * 5/12
-    
-    % [C ViolinMusicVoice measure 280]                           %! SM4
-    R1 * 3/2
-    
-    % [C ViolinMusicVoice measure 281]                           %! SM4
-    R1 * 7/4
-    
-    % [C ViolinMusicVoice measure 282]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    
-    % [C ViolinMusicVoice measure 283]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [C ViolinMusicVoice measure 284]                           %! SM4
-    R1 * 5/12
-    
-    % [C ViolinMusicVoice measure 285]                           %! SM4
-    R1 * 3/4
-    
-    % [C ViolinMusicVoice measure 286]                           %! SM4
-    R1 * 1
-    
-    % [C ViolinMusicVoice measure 287]                           %! SM4
-    R1 * 5/12
-    
-    % [C ViolinMusicVoice measure 288]                           %! SM4
-    R1 * 3/2
-    
-    % [C ViolinMusicVoice measure 289]                           %! SM4
-    R1 * 1
-    
-    % [C ViolinMusicVoice measure 290]                           %! SM4
-    R1 * 3/2
-    
-    % [C ViolinMusicVoice measure 291]                           %! SM4
-    R1 * 1
-    
-    % [C ViolinMusicVoice measure 292]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [C ViolinMusicVoice measure 293]                           %! SM4
+    % [J ViolinMusicVoice measure 643]                           %! SM4
     \makeBlue                                                    %! SM24
     c'2.
+    \repeatTie
     
-    % [C ViolinMusicVoice measure 294]                           %! SM4
+    % [J ViolinMusicVoice measure 644]                           %! SM4
     \makeBlue                                                    %! SM24
-    c'1.
+    c'2.
+    \repeatTie
     
-    % [C ViolinMusicVoice measure 295]                           %! SM4
+    % [J ViolinMusicVoice measure 645]                           %! SM4
     \makeBlue                                                    %! SM24
-    c'1.
+    c'1
+    \repeatTie
+    \times 4/5 {
+        
+        % [J ViolinMusicVoice measure 646]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ViolinMusicVoice measure 647]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J ViolinMusicVoice measure 648]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ViolinMusicVoice measure 649]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        % [J ViolinMusicVoice measure 650]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 4/5 {
+        
+        % [J ViolinMusicVoice measure 651]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 2/3 {
+        
+        % [J ViolinMusicVoice measure 652]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [J ViolinMusicVoice measure 653]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ViolinMusicVoice measure 654]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ViolinMusicVoice measure 655]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [J ViolinMusicVoice measure 656]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \times 4/7 {
+        
+        % [J ViolinMusicVoice measure 657]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/4 {
+        
+        % [J ViolinMusicVoice measure 658]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 1/1 {
+        
+        % [J ViolinMusicVoice measure 659]                       %! SM4
+        \makeBlue                                                %! SM24
+        c'8
+        [
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        
+        \makeBlue                                                %! SM24
+        c'8
+        ]
+    }
     
-    % [C ViolinMusicVoice measure 296]                           %! SM4
+    % [J ViolinMusicVoice measure 660]                           %! SM4
+    R1 * 3/4
+    
+    % [J ViolinMusicVoice measure 661]                           %! SM4
+    R1 * 1
+    
+    % [J ViolinMusicVoice measure 662]                           %! SM4
+    R1 * 1/4
+    
+    % [J ViolinMusicVoice measure 663]                           %! SM4
+    R1 * 1/2
+    
+    % [J ViolinMusicVoice measure 664]                           %! SM4
+    R1 * 1
+    
+    % [J ViolinMusicVoice measure 665]                           %! SM4
     \makeBlue                                                    %! SM24
     c'1
     
-    % [C ViolinMusicVoice measure 297]                           %! SM4
+    % [J ViolinMusicVoice measure 666]                           %! SM4
     \makeBlue                                                    %! SM24
-    c'1
-    
-    % [C ViolinMusicVoice measure 298]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1..
-    
-    % [C ViolinMusicVoice measure 299]                           %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    
-    % [C ViolinMusicVoice measure 300]                           %! SM4
-    R1 * 5/12
+    c'2.
+    \repeatTie
     
 }
 
 
-C_ViolinMusicStaff = {
+J_ViolinMusicStaff = {
     \context ViolinMusicVoice = "ViolinMusicVoice"
-    \C_ViolinMusicVoice
+    \J_ViolinMusicVoice
 }
 
 
-C_ViolaMusicVoice = {
+J_ViolaMusicVoice = {
     
-    % [C ViolaMusicVoice measure 274]                            %! SM4
+    % [J ViolaMusicVoice measure 642]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2775,7 +4246,8 @@ C_ViolaMusicVoice = {
     \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
     \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    r16
+    \makeBlue                                                    %! SM24
+    c'2
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2795,179 +4267,114 @@ C_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    % [J ViolaMusicVoice measure 643]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'8.
+    c'2.
+    \repeatTie
     
+    % [J ViolaMusicVoice measure 644]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'4.
+    c'2.
     
-    r4.
+    % [J ViolaMusicVoice measure 645]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
-    % [C ViolaMusicVoice measure 275]                            %! SM4
-    r1..
+    % [J ViolaMusicVoice measure 646]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
     
-    % [C ViolaMusicVoice measure 276]                            %! SM4
-    R1 * 5/12
+    % [J ViolaMusicVoice measure 647]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
-    % [C ViolaMusicVoice measure 277]                            %! SM4
-    R1 * 3/4
+    % [J ViolaMusicVoice measure 648]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
     
-    % [C ViolaMusicVoice measure 278]                            %! SM4
+    % [J ViolaMusicVoice measure 649]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    % [J ViolaMusicVoice measure 650]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    
+    % [J ViolaMusicVoice measure 651]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    
+    % [J ViolaMusicVoice measure 652]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    % [J ViolaMusicVoice measure 653]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
+    
+    % [J ViolaMusicVoice measure 654]                            %! SM4
     R1 * 1
     
-    % [C ViolaMusicVoice measure 279]                            %! SM4
-    R1 * 5/12
+    % [J ViolaMusicVoice measure 655]                            %! SM4
+    R1 * 1/2
     
-    % [C ViolaMusicVoice measure 280]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r2..
-    
-    % [C ViolaMusicVoice measure 281]                            %! SM4
-    r1..
-    
-    % [C ViolaMusicVoice measure 282]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r4.
-    
-    % [C ViolaMusicVoice measure 283]                            %! SM4
-    r1.
-    
-    % [C ViolaMusicVoice measure 284]                            %! SM4
-    R1 * 5/12
-    
-    % [C ViolaMusicVoice measure 285]                            %! SM4
+    % [J ViolaMusicVoice measure 656]                            %! SM4
     R1 * 3/4
     
-    % [C ViolaMusicVoice measure 286]                            %! SM4
+    % [J ViolaMusicVoice measure 657]                            %! SM4
     R1 * 1
     
-    % [C ViolaMusicVoice measure 287]                            %! SM4
-    R1 * 5/12
+    % [J ViolaMusicVoice measure 658]                            %! SM4
+    R1 * 3/4
     
-    % [C ViolaMusicVoice measure 288]                            %! SM4
-    r16
+    % [J ViolaMusicVoice measure 659]                            %! SM4
+    R1 * 1
     
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    % [J ViolaMusicVoice measure 660]                            %! SM4
+    R1 * 3/4
+    
+    % [J ViolaMusicVoice measure 661]                            %! SM4
+    R1 * 1
+    
+    % [J ViolaMusicVoice measure 662]                            %! SM4
+    R1 * 1/4
+    
+    % [J ViolaMusicVoice measure 663]                            %! SM4
+    R1 * 1/2
+    
+    % [J ViolaMusicVoice measure 664]                            %! SM4
+    R1 * 1
+    
+    % [J ViolaMusicVoice measure 665]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'8.
+    c'1
     
+    % [J ViolaMusicVoice measure 666]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'4.
-    
-    r2..
-    
-    % [C ViolaMusicVoice measure 289]                            %! SM4
-    r1
-    
-    % [C ViolaMusicVoice measure 290]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r2..
-    
-    % [C ViolaMusicVoice measure 291]                            %! SM4
-    r1
-    
-    % [C ViolaMusicVoice measure 292]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r2..
-    
-    % [C ViolaMusicVoice measure 293]                            %! SM4
-    r2.
-    
-    % [C ViolaMusicVoice measure 294]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r2..
-    
-    % [C ViolaMusicVoice measure 295]                            %! SM4
-    r1.
-    
-    % [C ViolaMusicVoice measure 296]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r4.
-    
-    % [C ViolaMusicVoice measure 297]                            %! SM4
-    r1
-    
-    % [C ViolaMusicVoice measure 298]                            %! SM4
-    r16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
-    c'8.
-    
-    \makeBlue                                                    %! SM24
-    c'4.
-    
-    r8
-    
-    r1
-    
-    % [C ViolaMusicVoice measure 299]                            %! SM4
-    r1
-    
-    % [C ViolaMusicVoice measure 300]                            %! SM4
-    R1 * 5/12
+    c'2.
+    \repeatTie
     
 }
 
 
-C_ViolaMusicStaff = {
+J_ViolaMusicStaff = {
     \context ViolaMusicVoice = "ViolaMusicVoice"
-    \C_ViolaMusicVoice
+    \J_ViolaMusicVoice
 }
 
 
-C_CelloMusicVoice = {
+J_CelloMusicVoice = {
     
-    % [C CelloMusicVoice measure 274]                            %! SM4
+    % [J CelloMusicVoice measure 642]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -2989,9 +4396,8 @@ C_CelloMusicVoice = {
     \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
-    c'16
+    c'2
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
-    [
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -3010,218 +4416,103 @@ C_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    % [C CelloMusicVoice measure 275]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r16
-    
-    r16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    % [C CelloMusicVoice measure 276]                            %! SM4
-    R1 * 5/12
-    
-    % [C CelloMusicVoice measure 277]                            %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 278]                            %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 279]                            %! SM4
-    R1 * 5/12
-    
-    % [C CelloMusicVoice measure 280]                            %! SM4
-    R1 * 3/2
-    
-    % [C CelloMusicVoice measure 281]                            %! SM4
-    R1 * 7/4
-    
-    % [C CelloMusicVoice measure 282]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1
-    
-    % [C CelloMusicVoice measure 283]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [C CelloMusicVoice measure 284]                            %! SM4
-    R1 * 5/12
-    
-    % [C CelloMusicVoice measure 285]                            %! SM4
-    R1 * 3/4
-    
-    % [C CelloMusicVoice measure 286]                            %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 287]                            %! SM4
-    R1 * 5/12
-    
-    % [C CelloMusicVoice measure 288]                            %! SM4
-    R1 * 3/2
-    
-    % [C CelloMusicVoice measure 289]                            %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 290]                            %! SM4
-    R1 * 3/2
-    
-    % [C CelloMusicVoice measure 291]                            %! SM4
-    R1 * 1
-    
-    % [C CelloMusicVoice measure 292]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [C CelloMusicVoice measure 293]                            %! SM4
+    % [J CelloMusicVoice measure 643]                            %! SM4
     \makeBlue                                                    %! SM24
     c'2.
+    \repeatTie
     
-    % [C CelloMusicVoice measure 294]                            %! SM4
+    % [J CelloMusicVoice measure 644]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1.
+    c'2.
+    \repeatTie
     
-    % [C CelloMusicVoice measure 295]                            %! SM4
-    \makeBlue                                                    %! SM24
-    c'1.
-    
-    % [C CelloMusicVoice measure 296]                            %! SM4
+    % [J CelloMusicVoice measure 645]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
+    \repeatTie
     
-    % [C CelloMusicVoice measure 297]                            %! SM4
+    % [J CelloMusicVoice measure 646]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
+    \repeatTie
     
-    % [C CelloMusicVoice measure 298]                            %! SM4
+    % [J CelloMusicVoice measure 647]                            %! SM4
     \makeBlue                                                    %! SM24
-    c'1..
+    c'2.
+    \repeatTie
     
-    % [C CelloMusicVoice measure 299]                            %! SM4
+    % [J CelloMusicVoice measure 648]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    % [J CelloMusicVoice measure 649]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    \repeatTie
+    
+    % [J CelloMusicVoice measure 650]                            %! SM4
+    R1 * 3/4
+    
+    % [J CelloMusicVoice measure 651]                            %! SM4
+    R1 * 1
+    
+    % [J CelloMusicVoice measure 652]                            %! SM4
+    R1 * 1/2
+    
+    % [J CelloMusicVoice measure 653]                            %! SM4
+    R1 * 3/4
+    
+    % [J CelloMusicVoice measure 654]                            %! SM4
+    R1 * 1
+    
+    % [J CelloMusicVoice measure 655]                            %! SM4
+    R1 * 1/2
+    
+    % [J CelloMusicVoice measure 656]                            %! SM4
+    R1 * 3/4
+    
+    % [J CelloMusicVoice measure 657]                            %! SM4
+    R1 * 1
+    
+    % [J CelloMusicVoice measure 658]                            %! SM4
+    R1 * 3/4
+    
+    % [J CelloMusicVoice measure 659]                            %! SM4
+    R1 * 1
+    
+    % [J CelloMusicVoice measure 660]                            %! SM4
+    R1 * 3/4
+    
+    % [J CelloMusicVoice measure 661]                            %! SM4
+    R1 * 1
+    
+    % [J CelloMusicVoice measure 662]                            %! SM4
+    R1 * 1/4
+    
+    % [J CelloMusicVoice measure 663]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2
+    
+    % [J CelloMusicVoice measure 664]                            %! SM4
     \makeBlue                                                    %! SM24
     c'1
+    \repeatTie
     
-    % [C CelloMusicVoice measure 300]                            %! SM4
-    R1 * 5/12
+    % [J CelloMusicVoice measure 665]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'1
+    \repeatTie
+    
+    % [J CelloMusicVoice measure 666]                            %! SM4
+    \makeBlue                                                    %! SM24
+    c'2.
+    \repeatTie
     
 }
 
 
-C_CelloMusicStaff = {
+J_CelloMusicStaff = {
     \context CelloMusicVoice = "CelloMusicVoice"
-    \C_CelloMusicVoice
+    \J_CelloMusicVoice
 }

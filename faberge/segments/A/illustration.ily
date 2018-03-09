@@ -1,6 +1,6 @@
-A_a_GlobalSkips = {
+A_GlobalSkips = {
     
-    % [A1 GlobalSkips measure 5]                                         %! SM4
+    % [A GlobalSkips measure 5]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
 %@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -84,7 +84,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.1]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.1]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -105,7 +105,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 6]                                         %! SM4
+    % [A GlobalSkips measure 6]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -149,7 +149,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 7]                                         %! SM4
+    % [A GlobalSkips measure 7]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -192,7 +192,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 8]                                         %! SM4
+    % [A GlobalSkips measure 8]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -236,7 +236,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 9]                                         %! SM4
+    % [A GlobalSkips measure 9]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -280,7 +280,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 10]                                        %! SM4
+    % [A GlobalSkips measure 10]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -324,7 +324,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 11]                                        %! SM4
+    % [A GlobalSkips measure 11]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -368,7 +368,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 12]                                        %! SM4
+    % [A GlobalSkips measure 12]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -412,7 +412,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 13]                                        %! SM4
+    % [A GlobalSkips measure 13]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -456,7 +456,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 14]                                        %! SM4
+    % [A GlobalSkips measure 14]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -500,7 +500,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 15]                                        %! SM4
+    % [A GlobalSkips measure 15]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -544,7 +544,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 16]                                        %! SM4
+    % [A GlobalSkips measure 16]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -588,7 +588,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 17]                                        %! SM4
+    % [A GlobalSkips measure 17]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -619,7 +619,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.2]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.2]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -640,7 +640,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 18]                                        %! SM4
+    % [A GlobalSkips measure 18]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -684,7 +684,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 19]                                        %! SM4
+    % [A GlobalSkips measure 19]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -728,7 +728,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 20]                                        %! SM4
+    % [A GlobalSkips measure 20]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -772,7 +772,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 21]                                        %! SM4
+    % [A GlobalSkips measure 21]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -803,7 +803,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.3]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.3]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -824,7 +824,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 22]                                        %! SM4
+    % [A GlobalSkips measure 22]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -868,7 +868,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 23]                                        %! SM4
+    % [A GlobalSkips measure 23]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -912,7 +912,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 24]                                        %! SM4
+    % [A GlobalSkips measure 24]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -956,7 +956,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 25]                                        %! SM4
+    % [A GlobalSkips measure 25]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -999,7 +999,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 26]                                        %! SM4
+    % [A GlobalSkips measure 26]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1043,7 +1043,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 27]                                        %! SM4
+    % [A GlobalSkips measure 27]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1074,7 +1074,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.4]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.4]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1095,7 +1095,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 28]                                        %! SM4
+    % [A GlobalSkips measure 28]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1139,7 +1139,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 29]                                        %! SM4
+    % [A GlobalSkips measure 29]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -1182,7 +1182,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 30]                                        %! SM4
+    % [A GlobalSkips measure 30]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1226,7 +1226,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 31]                                        %! SM4
+    % [A GlobalSkips measure 31]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -1256,7 +1256,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.5]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.5]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1277,7 +1277,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 32]                                        %! SM4
+    % [A GlobalSkips measure 32]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1321,7 +1321,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 33]                                        %! SM4
+    % [A GlobalSkips measure 33]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1365,7 +1365,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 34]                                        %! SM4
+    % [A GlobalSkips measure 34]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -1408,7 +1408,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 35]                                        %! SM4
+    % [A GlobalSkips measure 35]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1439,7 +1439,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.6]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.6]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1460,7 +1460,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 36]                                        %! SM4
+    % [A GlobalSkips measure 36]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1504,7 +1504,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 37]                                        %! SM4
+    % [A GlobalSkips measure 37]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1548,7 +1548,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 38]                                        %! SM4
+    % [A GlobalSkips measure 38]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1592,7 +1592,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 39]                                        %! SM4
+    % [A GlobalSkips measure 39]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1636,7 +1636,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 40]                                        %! SM4
+    % [A GlobalSkips measure 40]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1680,7 +1680,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 41]                                        %! SM4
+    % [A GlobalSkips measure 41]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1711,7 +1711,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.7]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.7]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1732,7 +1732,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 42]                                        %! SM4
+    % [A GlobalSkips measure 42]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1776,7 +1776,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 43]                                        %! SM4
+    % [A GlobalSkips measure 43]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1820,7 +1820,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 44]                                        %! SM4
+    % [A GlobalSkips measure 44]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1864,7 +1864,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 45]                                        %! SM4
+    % [A GlobalSkips measure 45]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1895,7 +1895,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.8]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.8]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -1916,7 +1916,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 46]                                        %! SM4
+    % [A GlobalSkips measure 46]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1960,7 +1960,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 47]                                        %! SM4
+    % [A GlobalSkips measure 47]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2004,7 +2004,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 48]                                        %! SM4
+    % [A GlobalSkips measure 48]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2048,7 +2048,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 49]                                        %! SM4
+    % [A GlobalSkips measure 49]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -2091,7 +2091,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 50]                                        %! SM4
+    % [A GlobalSkips measure 50]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2135,7 +2135,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 51]                                        %! SM4
+    % [A GlobalSkips measure 51]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -2165,7 +2165,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.9]                                   %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.9]                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2186,7 +2186,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 52]                                        %! SM4
+    % [A GlobalSkips measure 52]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2230,7 +2230,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 53]                                        %! SM4
+    % [A GlobalSkips measure 53]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2274,7 +2274,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 54]                                        %! SM4
+    % [A GlobalSkips measure 54]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2318,7 +2318,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 55]                                        %! SM4
+    % [A GlobalSkips measure 55]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -2361,7 +2361,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 56]                                        %! SM4
+    % [A GlobalSkips measure 56]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2405,7 +2405,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 57]                                        %! SM4
+    % [A GlobalSkips measure 57]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2436,7 +2436,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.10]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.10]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2457,7 +2457,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 58]                                        %! SM4
+    % [A GlobalSkips measure 58]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2501,7 +2501,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 59]                                        %! SM4
+    % [A GlobalSkips measure 59]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2532,7 +2532,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.11]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.11]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2553,7 +2553,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 60]                                        %! SM4
+    % [A GlobalSkips measure 60]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2597,7 +2597,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 61]                                        %! SM4
+    % [A GlobalSkips measure 61]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2628,7 +2628,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.12]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.12]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2649,7 +2649,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 62]                                        %! SM4
+    % [A GlobalSkips measure 62]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2693,7 +2693,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 63]                                        %! SM4
+    % [A GlobalSkips measure 63]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2737,7 +2737,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 64]                                        %! SM4
+    % [A GlobalSkips measure 64]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2781,7 +2781,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 65]                                        %! SM4
+    % [A GlobalSkips measure 65]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2825,7 +2825,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 66]                                        %! SM4
+    % [A GlobalSkips measure 66]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2869,7 +2869,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 67]                                        %! SM4
+    % [A GlobalSkips measure 67]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2900,7 +2900,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.13]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.13]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -2921,7 +2921,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 68]                                        %! SM4
+    % [A GlobalSkips measure 68]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2965,7 +2965,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 69]                                        %! SM4
+    % [A GlobalSkips measure 69]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3009,7 +3009,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 70]                                        %! SM4
+    % [A GlobalSkips measure 70]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3053,7 +3053,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 71]                                        %! SM4
+    % [A GlobalSkips measure 71]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3097,7 +3097,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 72]                                        %! SM4
+    % [A GlobalSkips measure 72]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3141,7 +3141,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 73]                                        %! SM4
+    % [A GlobalSkips measure 73]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -3184,7 +3184,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 74]                                        %! SM4
+    % [A GlobalSkips measure 74]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3228,7 +3228,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 75]                                        %! SM4
+    % [A GlobalSkips measure 75]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3259,7 +3259,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.14]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.14]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -3280,7 +3280,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 76]                                        %! SM4
+    % [A GlobalSkips measure 76]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3324,7 +3324,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 77]                                        %! SM4
+    % [A GlobalSkips measure 77]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -3367,7 +3367,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 78]                                        %! SM4
+    % [A GlobalSkips measure 78]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3411,7 +3411,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 79]                                        %! SM4
+    % [A GlobalSkips measure 79]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -3454,7 +3454,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 80]                                        %! SM4
+    % [A GlobalSkips measure 80]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3498,7 +3498,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 81]                                        %! SM4
+    % [A GlobalSkips measure 81]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3529,7 +3529,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.15]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.15]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -3550,7 +3550,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 82]                                        %! SM4
+    % [A GlobalSkips measure 82]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -3593,7 +3593,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 83]                                        %! SM4
+    % [A GlobalSkips measure 83]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3637,7 +3637,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 84]                                        %! SM4
+    % [A GlobalSkips measure 84]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3681,7 +3681,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 85]                                        %! SM4
+    % [A GlobalSkips measure 85]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3712,7 +3712,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.16]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.16]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -3733,7 +3733,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 86]                                        %! SM4
+    % [A GlobalSkips measure 86]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3777,7 +3777,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 87]                                        %! SM4
+    % [A GlobalSkips measure 87]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3821,7 +3821,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 88]                                        %! SM4
+    % [A GlobalSkips measure 88]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3865,7 +3865,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 89]                                        %! SM4
+    % [A GlobalSkips measure 89]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3909,7 +3909,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 90]                                        %! SM4
+    % [A GlobalSkips measure 90]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3953,7 +3953,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 91]                                        %! SM4
+    % [A GlobalSkips measure 91]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -3997,7 +3997,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 92]                                        %! SM4
+    % [A GlobalSkips measure 92]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -4041,7 +4041,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 93]                                        %! SM4
+    % [A GlobalSkips measure 93]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -4072,7 +4072,7 @@ A_a_GlobalSkips = {
             %@%             #3                                           %! SM3:STAGE_NUMBER_MARKUP
             %@%             \with-color                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%                 #(x11-color 'DarkCyan)                   %! SM3:STAGE_NUMBER_MARKUP
-            %@%                 [A1.17]                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%                 [A.17]                                   %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! HSS2:SPACING_MARKUP
             %@%     {                                                    %! HSS2:SPACING_MARKUP
@@ -4093,7 +4093,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 94]                                        %! SM4
+    % [A GlobalSkips measure 94]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -4137,7 +4137,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 95]                                        %! SM4
+    % [A GlobalSkips measure 95]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 2/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -4181,7 +4181,7 @@ A_a_GlobalSkips = {
             }
         }
     
-    % [A1 GlobalSkips measure 96]                                        %! SM4
+    % [A GlobalSkips measure 96]                                         %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -4231,11 +4231,11 @@ A_a_GlobalSkips = {
 }
 
 
-A_a_FluteMusicVoice = {
+A_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 5]                         %! SM4
+        % [A FluteMusicVoice measure 5]                          %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \set FluteMusicStaff.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -4300,14 +4300,14 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 6]                         %! SM4
+        % [A FluteMusicVoice measure 6]                          %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r1
         \f                                                       %! HC1
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 7]                         %! SM4
+        % [A FluteMusicVoice measure 7]                          %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4322,13 +4322,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 8]                         %! SM4
+        % [A FluteMusicVoice measure 8]                          %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 9]                         %! SM4
+        % [A FluteMusicVoice measure 9]                          %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4342,7 +4342,7 @@ A_a_FluteMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 FluteMusicVoice measure 10]                        %! SM4
+        % [A FluteMusicVoice measure 10]                         %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4357,13 +4357,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 11]                        %! SM4
+        % [A FluteMusicVoice measure 11]                         %! SM4
         r2.
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 12]                        %! SM4
+        % [A FluteMusicVoice measure 12]                         %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4387,7 +4387,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 13]                        %! SM4
+        % [A FluteMusicVoice measure 13]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
@@ -4401,7 +4401,7 @@ A_a_FluteMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 FluteMusicVoice measure 14]                        %! SM4
+        % [A FluteMusicVoice measure 14]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -4414,13 +4414,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 15]                        %! SM4
+        % [A FluteMusicVoice measure 15]                         %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 16]                        %! SM4
+        % [A FluteMusicVoice measure 16]                         %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4435,12 +4435,12 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 17]                        %! SM4
+        % [A FluteMusicVoice measure 17]                         %! SM4
         r2.
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 18]                        %! SM4
+        % [A FluteMusicVoice measure 18]                         %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4455,7 +4455,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 19]                        %! SM4
+        % [A FluteMusicVoice measure 19]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -4470,7 +4470,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 20]                        %! SM4
+        % [A FluteMusicVoice measure 20]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -4497,7 +4497,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 21]                        %! SM4
+        % [A FluteMusicVoice measure 21]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \pp                                                      %! HC1
@@ -4505,7 +4505,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 22]                        %! SM4
+        % [A FluteMusicVoice measure 22]                         %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4522,7 +4522,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 23]                        %! SM4
+        % [A FluteMusicVoice measure 23]                         %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4536,7 +4536,7 @@ A_a_FluteMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 24]                        %! SM4
+        % [A FluteMusicVoice measure 24]                         %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4551,13 +4551,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 25]                        %! SM4
+        % [A FluteMusicVoice measure 25]                         %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 26]                        %! SM4
+        % [A FluteMusicVoice measure 26]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -4572,13 +4572,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 27]                        %! SM4
+        % [A FluteMusicVoice measure 27]                         %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 FluteMusicVoice measure 28]                        %! SM4
+        % [A FluteMusicVoice measure 28]                         %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4593,7 +4593,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 29]                        %! SM4
+        % [A FluteMusicVoice measure 29]                         %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4608,7 +4608,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 30]                        %! SM4
+        % [A FluteMusicVoice measure 30]                         %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4627,7 +4627,7 @@ A_a_FluteMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 31]                        %! SM4
+        % [A FluteMusicVoice measure 31]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \f                                                       %! HC1
@@ -4644,7 +4644,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 FluteMusicVoice measure 32]                        %! SM4
+        % [A FluteMusicVoice measure 32]                         %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4659,19 +4659,19 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 33]                        %! SM4
+        % [A FluteMusicVoice measure 33]                         %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 34]                        %! SM4
+        % [A FluteMusicVoice measure 34]                         %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 FluteMusicVoice measure 35]                        %! SM4
+        % [A FluteMusicVoice measure 35]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -4684,7 +4684,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 36]                        %! SM4
+        % [A FluteMusicVoice measure 36]                         %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4699,7 +4699,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 37]                        %! SM4
+        % [A FluteMusicVoice measure 37]                         %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4714,7 +4714,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 FluteMusicVoice measure 38]                        %! SM4
+        % [A FluteMusicVoice measure 38]                         %! SM4
         r1
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4724,7 +4724,7 @@ A_a_FluteMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 39]                        %! SM4
+        % [A FluteMusicVoice measure 39]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \mf                                                      %! HC1
@@ -4746,7 +4746,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 40]                        %! SM4
+        % [A FluteMusicVoice measure 40]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \f                                                       %! HC1
@@ -4754,7 +4754,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 41]                        %! SM4
+        % [A FluteMusicVoice measure 41]                         %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4768,7 +4768,7 @@ A_a_FluteMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 42]                        %! SM4
+        % [A FluteMusicVoice measure 42]                         %! SM4
         r1
         
         r4
@@ -4785,7 +4785,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 43]                        %! SM4
+        % [A FluteMusicVoice measure 43]                         %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4800,13 +4800,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 44]                        %! SM4
+        % [A FluteMusicVoice measure 44]                         %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 FluteMusicVoice measure 45]                        %! SM4
+        % [A FluteMusicVoice measure 45]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''4
@@ -4824,7 +4824,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 46]                        %! SM4
+        % [A FluteMusicVoice measure 46]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
         \pp                                                      %! HC1
@@ -4841,7 +4841,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 47]                        %! SM4
+        % [A FluteMusicVoice measure 47]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -4858,7 +4858,7 @@ A_a_FluteMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 48]                        %! SM4
+        % [A FluteMusicVoice measure 48]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r1
         \pp                                                      %! HC1
@@ -4875,7 +4875,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 49]                        %! SM4
+        % [A FluteMusicVoice measure 49]                         %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4890,7 +4890,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 50]                        %! SM4
+        % [A FluteMusicVoice measure 50]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -4908,14 +4908,14 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 51]                        %! SM4
+        % [A FluteMusicVoice measure 51]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \pp                                                      %! HC1
     }
     \times 2/3 {
         
-        % [A1 FluteMusicVoice measure 52]                        %! SM4
+        % [A FluteMusicVoice measure 52]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''4
@@ -4928,7 +4928,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 53]                        %! SM4
+        % [A FluteMusicVoice measure 53]                         %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4948,7 +4948,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 54]                        %! SM4
+        % [A FluteMusicVoice measure 54]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
         \mf                                                      %! HC1
@@ -4966,7 +4966,7 @@ A_a_FluteMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 FluteMusicVoice measure 55]                        %! SM4
+        % [A FluteMusicVoice measure 55]                         %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -4990,13 +4990,13 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 56]                        %! SM4
+        % [A FluteMusicVoice measure 56]                         %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 57]                        %! SM4
+        % [A FluteMusicVoice measure 57]                         %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -5016,7 +5016,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 58]                        %! SM4
+        % [A FluteMusicVoice measure 58]                         %! SM4
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \f                                                       %! HC1
@@ -5024,7 +5024,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 FluteMusicVoice measure 59]                        %! SM4
+        % [A FluteMusicVoice measure 59]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''4
@@ -5037,7 +5037,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 60]                        %! SM4
+        % [A FluteMusicVoice measure 60]                         %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -5059,7 +5059,7 @@ A_a_FluteMusicVoice = {
         r8
     }
     
-    % [A1 FluteMusicVoice measure 61]                            %! SM4
+    % [A FluteMusicVoice measure 61]                             %! SM4
     \set FluteMusicStaff.instrumentName = \markup {              %! SM8:EXPLICIT_INSTRUMENT:IC
         \hcenter-in                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             #16                                                  %! SM8:EXPLICIT_INSTRUMENT:IC
@@ -5089,76 +5089,76 @@ A_a_FluteMusicVoice = {
             "B. fl."                                             %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         }                                                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
     
-    % [A1 FluteMusicVoice measure 62]                            %! SM4
+    % [A FluteMusicVoice measure 62]                             %! SM4
     r2
     
-    % [A1 FluteMusicVoice measure 63]                            %! SM4
+    % [A FluteMusicVoice measure 63]                             %! SM4
     r1
     
-    % [A1 FluteMusicVoice measure 64]                            %! SM4
+    % [A FluteMusicVoice measure 64]                             %! SM4
     r2
     
-    % [A1 FluteMusicVoice measure 65]                            %! SM4
+    % [A FluteMusicVoice measure 65]                             %! SM4
     r2.
     
-    % [A1 FluteMusicVoice measure 66]                            %! SM4
+    % [A FluteMusicVoice measure 66]                             %! SM4
     r1
     
-    % [A1 FluteMusicVoice measure 67]                            %! SM4
+    % [A FluteMusicVoice measure 67]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 68]                            %! SM4
+    % [A FluteMusicVoice measure 68]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 69]                            %! SM4
+    % [A FluteMusicVoice measure 69]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 70]                            %! SM4
+    % [A FluteMusicVoice measure 70]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 71]                            %! SM4
+    % [A FluteMusicVoice measure 71]                             %! SM4
     R1 * 1/2
     
-    % [A1 FluteMusicVoice measure 72]                            %! SM4
+    % [A FluteMusicVoice measure 72]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 73]                            %! SM4
+    % [A FluteMusicVoice measure 73]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 74]                            %! SM4
+    % [A FluteMusicVoice measure 74]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 75]                            %! SM4
+    % [A FluteMusicVoice measure 75]                             %! SM4
     R1 * 1/2
     
-    % [A1 FluteMusicVoice measure 76]                            %! SM4
+    % [A FluteMusicVoice measure 76]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 77]                            %! SM4
+    % [A FluteMusicVoice measure 77]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 78]                            %! SM4
+    % [A FluteMusicVoice measure 78]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 79]                            %! SM4
+    % [A FluteMusicVoice measure 79]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 80]                            %! SM4
+    % [A FluteMusicVoice measure 80]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 81]                            %! SM4
+    % [A FluteMusicVoice measure 81]                             %! SM4
     R1 * 1/2
     
-    % [A1 FluteMusicVoice measure 82]                            %! SM4
+    % [A FluteMusicVoice measure 82]                             %! SM4
     R1 * 1/2
     
-    % [A1 FluteMusicVoice measure 83]                            %! SM4
+    % [A FluteMusicVoice measure 83]                             %! SM4
     R1 * 3/4
     
-    % [A1 FluteMusicVoice measure 84]                            %! SM4
+    % [A FluteMusicVoice measure 84]                             %! SM4
     R1 * 1
     
-    % [A1 FluteMusicVoice measure 85]                            %! SM4
+    % [A FluteMusicVoice measure 85]                             %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs''4
@@ -5169,31 +5169,31 @@ A_a_FluteMusicVoice = {
     \repeatTie
     \p                                                           %! HC1
     
-    % [A1 FluteMusicVoice measure 86]                            %! SM4
+    % [A FluteMusicVoice measure 86]                             %! SM4
     fs''2.
     \repeatTie
     
-    % [A1 FluteMusicVoice measure 87]                            %! SM4
+    % [A FluteMusicVoice measure 87]                             %! SM4
     fs''1
     \repeatTie
     
-    % [A1 FluteMusicVoice measure 88]                            %! SM4
+    % [A FluteMusicVoice measure 88]                             %! SM4
     fs''2
     \repeatTie
     
-    % [A1 FluteMusicVoice measure 89]                            %! SM4
+    % [A FluteMusicVoice measure 89]                             %! SM4
     fs''2.
     \repeatTie
     
-    % [A1 FluteMusicVoice measure 90]                            %! SM4
+    % [A FluteMusicVoice measure 90]                             %! SM4
     fs''1
     \repeatTie
     
-    % [A1 FluteMusicVoice measure 91]                            %! SM4
+    % [A FluteMusicVoice measure 91]                             %! SM4
     fs''2.
     \repeatTie
     
-    % [A1 FluteMusicVoice measure 92]                            %! SM4
+    % [A FluteMusicVoice measure 92]                             %! SM4
     fs''2.
     \repeatTie
     
@@ -5208,7 +5208,7 @@ A_a_FluteMusicVoice = {
     r16
     \!                                                           %! HC1
     
-    % [A1 FluteMusicVoice measure 93]                            %! SM4
+    % [A FluteMusicVoice measure 93]                             %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
@@ -5222,7 +5222,7 @@ A_a_FluteMusicVoice = {
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
-    % [A1 FluteMusicVoice measure 94]                            %! SM4
+    % [A FluteMusicVoice measure 94]                             %! SM4
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -5265,7 +5265,7 @@ A_a_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 FluteMusicVoice measure 95]                        %! SM4
+        % [A FluteMusicVoice measure 95]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -5324,7 +5324,7 @@ A_a_FluteMusicVoice = {
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
-    % [A1 FluteMusicVoice measure 96]                            %! SM4
+    % [A FluteMusicVoice measure 96]                             %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
@@ -5346,15 +5346,15 @@ A_a_FluteMusicVoice = {
 }
 
 
-A_a_FluteMusicStaff = {
+A_FluteMusicStaff = {
     \context FluteMusicVoice = "FluteMusicVoice"
-    \A_a_FluteMusicVoice
+    \A_FluteMusicVoice
 }
 
 
-A_a_EnglishHornMusicVoice = {
+A_EnglishHornMusicVoice = {
     
-    % [A1 EnglishHornMusicVoice measure 5]                       %! SM4
+    % [A EnglishHornMusicVoice measure 5]                        %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -5393,40 +5393,40 @@ A_a_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [A1 EnglishHornMusicVoice measure 6]                       %! SM4
+    % [A EnglishHornMusicVoice measure 6]                        %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 7]                       %! SM4
+    % [A EnglishHornMusicVoice measure 7]                        %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 8]                       %! SM4
+    % [A EnglishHornMusicVoice measure 8]                        %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 9]                       %! SM4
+    % [A EnglishHornMusicVoice measure 9]                        %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 10]                      %! SM4
+    % [A EnglishHornMusicVoice measure 10]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 11]                      %! SM4
+    % [A EnglishHornMusicVoice measure 11]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 12]                      %! SM4
+    % [A EnglishHornMusicVoice measure 12]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 13]                      %! SM4
+    % [A EnglishHornMusicVoice measure 13]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 14]                      %! SM4
+    % [A EnglishHornMusicVoice measure 14]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 15]                      %! SM4
+    % [A EnglishHornMusicVoice measure 15]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 16]                      %! SM4
+    % [A EnglishHornMusicVoice measure 16]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 17]                      %! SM4
+    % [A EnglishHornMusicVoice measure 17]                       %! SM4
     r2
     
     r16
@@ -5437,7 +5437,7 @@ A_a_EnglishHornMusicVoice = {
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 18]                      %! SM4
+    % [A EnglishHornMusicVoice measure 18]                       %! SM4
     b'4
     \repeatTie
     
@@ -5457,7 +5457,7 @@ A_a_EnglishHornMusicVoice = {
     bqf'8.
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 19]                      %! SM4
+    % [A EnglishHornMusicVoice measure 19]                       %! SM4
     r16
     \stopTrillSpan                                               %! SC
     
@@ -5468,40 +5468,40 @@ A_a_EnglishHornMusicVoice = {
     r2
     \stopTrillSpan                                               %! SC
     
-    % [A1 EnglishHornMusicVoice measure 20]                      %! SM4
+    % [A EnglishHornMusicVoice measure 20]                       %! SM4
     r1
     
-    % [A1 EnglishHornMusicVoice measure 21]                      %! SM4
+    % [A EnglishHornMusicVoice measure 21]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 22]                      %! SM4
+    % [A EnglishHornMusicVoice measure 22]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 23]                      %! SM4
+    % [A EnglishHornMusicVoice measure 23]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 24]                      %! SM4
+    % [A EnglishHornMusicVoice measure 24]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 25]                      %! SM4
+    % [A EnglishHornMusicVoice measure 25]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 26]                      %! SM4
+    % [A EnglishHornMusicVoice measure 26]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 27]                      %! SM4
+    % [A EnglishHornMusicVoice measure 27]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 28]                      %! SM4
+    % [A EnglishHornMusicVoice measure 28]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 29]                      %! SM4
+    % [A EnglishHornMusicVoice measure 29]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 30]                      %! SM4
+    % [A EnglishHornMusicVoice measure 30]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 31]                      %! SM4
+    % [A EnglishHornMusicVoice measure 31]                       %! SM4
     r4
     
     r16
@@ -5519,7 +5519,7 @@ A_a_EnglishHornMusicVoice = {
     ctqs''4..
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 32]                      %! SM4
+    % [A EnglishHornMusicVoice measure 32]                       %! SM4
     ctqs''16
     \repeatTie
     [
@@ -5537,14 +5537,14 @@ A_a_EnglishHornMusicVoice = {
     btqs'8.
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 33]                      %! SM4
+    % [A EnglishHornMusicVoice measure 33]                       %! SM4
     btqs'16
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     cs''4..
     
-    % [A1 EnglishHornMusicVoice measure 34]                      %! SM4
+    % [A EnglishHornMusicVoice measure 34]                       %! SM4
     cs''4
     \repeatTie
     
@@ -5555,38 +5555,38 @@ A_a_EnglishHornMusicVoice = {
     ctqs''8.
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 35]                      %! SM4
+    % [A EnglishHornMusicVoice measure 35]                       %! SM4
     R1 * 3/4
     \stopTrillSpan                                               %! SC
     
-    % [A1 EnglishHornMusicVoice measure 36]                      %! SM4
+    % [A EnglishHornMusicVoice measure 36]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 37]                      %! SM4
+    % [A EnglishHornMusicVoice measure 37]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 38]                      %! SM4
+    % [A EnglishHornMusicVoice measure 38]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 39]                      %! SM4
+    % [A EnglishHornMusicVoice measure 39]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 40]                      %! SM4
+    % [A EnglishHornMusicVoice measure 40]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 41]                      %! SM4
+    % [A EnglishHornMusicVoice measure 41]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 42]                      %! SM4
+    % [A EnglishHornMusicVoice measure 42]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 43]                      %! SM4
+    % [A EnglishHornMusicVoice measure 43]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 44]                      %! SM4
+    % [A EnglishHornMusicVoice measure 44]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 45]                      %! SM4
+    % [A EnglishHornMusicVoice measure 45]                       %! SM4
     r4
     
     r16
@@ -5597,7 +5597,7 @@ A_a_EnglishHornMusicVoice = {
     \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 46]                      %! SM4
+    % [A EnglishHornMusicVoice measure 46]                       %! SM4
     ds''2
     \repeatTie
     
@@ -5615,59 +5615,59 @@ A_a_EnglishHornMusicVoice = {
     d''8.
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 47]                      %! SM4
+    % [A EnglishHornMusicVoice measure 47]                       %! SM4
     r2
     \stopTrillSpan                                               %! SC
     
-    % [A1 EnglishHornMusicVoice measure 48]                      %! SM4
+    % [A EnglishHornMusicVoice measure 48]                       %! SM4
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     dqs''2...
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 49]                      %! SM4
+    % [A EnglishHornMusicVoice measure 49]                       %! SM4
     dqs''16
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     dtqs''2...
     
-    % [A1 EnglishHornMusicVoice measure 50]                      %! SM4
+    % [A EnglishHornMusicVoice measure 50]                       %! SM4
     r2.
     \stopTrillSpan                                               %! SC
     
-    % [A1 EnglishHornMusicVoice measure 51]                      %! SM4
+    % [A EnglishHornMusicVoice measure 51]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 52]                      %! SM4
+    % [A EnglishHornMusicVoice measure 52]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 53]                      %! SM4
+    % [A EnglishHornMusicVoice measure 53]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 54]                      %! SM4
+    % [A EnglishHornMusicVoice measure 54]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 55]                      %! SM4
+    % [A EnglishHornMusicVoice measure 55]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 56]                      %! SM4
+    % [A EnglishHornMusicVoice measure 56]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 57]                      %! SM4
+    % [A EnglishHornMusicVoice measure 57]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 58]                      %! SM4
+    % [A EnglishHornMusicVoice measure 58]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 59]                      %! SM4
+    % [A EnglishHornMusicVoice measure 59]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 60]                      %! SM4
+    % [A EnglishHornMusicVoice measure 60]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 61]                      %! SM4
+    % [A EnglishHornMusicVoice measure 61]                       %! SM4
     r4
     
     r16
@@ -5678,11 +5678,11 @@ A_a_EnglishHornMusicVoice = {
     \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 62]                      %! SM4
+    % [A EnglishHornMusicVoice measure 62]                       %! SM4
     es''2
     \repeatTie
     
-    % [A1 EnglishHornMusicVoice measure 63]                      %! SM4
+    % [A EnglishHornMusicVoice measure 63]                       %! SM4
     r4
     \stopTrillSpan                                               %! SC
     
@@ -5694,75 +5694,75 @@ A_a_EnglishHornMusicVoice = {
     
     etqs''4..
     
-    % [A1 EnglishHornMusicVoice measure 64]                      %! SM4
+    % [A EnglishHornMusicVoice measure 64]                       %! SM4
     etqs''2
     \repeatTie
     
-    % [A1 EnglishHornMusicVoice measure 65]                      %! SM4
+    % [A EnglishHornMusicVoice measure 65]                       %! SM4
     etqs''2
     \repeatTie
     
     r4
     \stopTrillSpan                                               %! SC
     
-    % [A1 EnglishHornMusicVoice measure 66]                      %! SM4
+    % [A EnglishHornMusicVoice measure 66]                       %! SM4
     r1
     
-    % [A1 EnglishHornMusicVoice measure 67]                      %! SM4
+    % [A EnglishHornMusicVoice measure 67]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 68]                      %! SM4
+    % [A EnglishHornMusicVoice measure 68]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 69]                      %! SM4
+    % [A EnglishHornMusicVoice measure 69]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 70]                      %! SM4
+    % [A EnglishHornMusicVoice measure 70]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 71]                      %! SM4
+    % [A EnglishHornMusicVoice measure 71]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 72]                      %! SM4
+    % [A EnglishHornMusicVoice measure 72]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 73]                      %! SM4
+    % [A EnglishHornMusicVoice measure 73]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 74]                      %! SM4
+    % [A EnglishHornMusicVoice measure 74]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 75]                      %! SM4
+    % [A EnglishHornMusicVoice measure 75]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 76]                      %! SM4
+    % [A EnglishHornMusicVoice measure 76]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 77]                      %! SM4
+    % [A EnglishHornMusicVoice measure 77]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 78]                      %! SM4
+    % [A EnglishHornMusicVoice measure 78]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 79]                      %! SM4
+    % [A EnglishHornMusicVoice measure 79]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 80]                      %! SM4
+    % [A EnglishHornMusicVoice measure 80]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 81]                      %! SM4
+    % [A EnglishHornMusicVoice measure 81]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 82]                      %! SM4
+    % [A EnglishHornMusicVoice measure 82]                       %! SM4
     R1 * 1/2
     
-    % [A1 EnglishHornMusicVoice measure 83]                      %! SM4
+    % [A EnglishHornMusicVoice measure 83]                       %! SM4
     R1 * 3/4
     
-    % [A1 EnglishHornMusicVoice measure 84]                      %! SM4
+    % [A EnglishHornMusicVoice measure 84]                       %! SM4
     R1 * 1
     
-    % [A1 EnglishHornMusicVoice measure 85]                      %! SM4
+    % [A EnglishHornMusicVoice measure 85]                       %! SM4
     r4
     \times 4/5 {
         
@@ -5792,7 +5792,7 @@ A_a_EnglishHornMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 EnglishHornMusicVoice measure 86]                  %! SM4
+        % [A EnglishHornMusicVoice measure 86]                   %! SM4
         r8
         
         ef'8
@@ -5807,7 +5807,7 @@ A_a_EnglishHornMusicVoice = {
     r4
     \times 4/5 {
         
-        % [A1 EnglishHornMusicVoice measure 87]                  %! SM4
+        % [A EnglishHornMusicVoice measure 87]                   %! SM4
         r16
         
         eqs'4
@@ -5844,7 +5844,7 @@ A_a_EnglishHornMusicVoice = {
         ]
     }
     
-    % [A1 EnglishHornMusicVoice measure 88]                      %! SM4
+    % [A EnglishHornMusicVoice measure 88]                       %! SM4
     r4
     \times 4/5 {
         
@@ -5863,7 +5863,7 @@ A_a_EnglishHornMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 EnglishHornMusicVoice measure 89]                  %! SM4
+        % [A EnglishHornMusicVoice measure 89]                   %! SM4
         r8
         
         cs'8
@@ -5878,7 +5878,7 @@ A_a_EnglishHornMusicVoice = {
     r4
     \times 4/5 {
         
-        % [A1 EnglishHornMusicVoice measure 90]                  %! SM4
+        % [A EnglishHornMusicVoice measure 90]                   %! SM4
         r16
         
         f'4
@@ -5915,7 +5915,7 @@ A_a_EnglishHornMusicVoice = {
         ]
     }
     
-    % [A1 EnglishHornMusicVoice measure 91]                      %! SM4
+    % [A EnglishHornMusicVoice measure 91]                       %! SM4
     r4
     \times 4/5 {
         
@@ -5940,7 +5940,7 @@ A_a_EnglishHornMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 EnglishHornMusicVoice measure 92]                  %! SM4
+        % [A EnglishHornMusicVoice measure 92]                   %! SM4
         r8
         
         f'4
@@ -5961,7 +5961,7 @@ A_a_EnglishHornMusicVoice = {
         \revert NoteHead.style                                   %! OC2
     }
     
-    % [A1 EnglishHornMusicVoice measure 93]                      %! SM4
+    % [A EnglishHornMusicVoice measure 93]                       %! SM4
     r4
     
     r16
@@ -5972,7 +5972,7 @@ A_a_EnglishHornMusicVoice = {
     \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 94]                      %! SM4
+    % [A EnglishHornMusicVoice measure 94]                       %! SM4
     r16
     \stopTrillSpan                                               %! SC
     
@@ -5987,11 +5987,11 @@ A_a_EnglishHornMusicVoice = {
     gqf'4..
     \startTrillSpan                                              %! SC
     
-    % [A1 EnglishHornMusicVoice measure 95]                      %! SM4
+    % [A EnglishHornMusicVoice measure 95]                       %! SM4
     gqf'2
     \repeatTie
     
-    % [A1 EnglishHornMusicVoice measure 96]                      %! SM4
+    % [A EnglishHornMusicVoice measure 96]                       %! SM4
     gqf'16
     \repeatTie
     [
@@ -6006,17 +6006,17 @@ A_a_EnglishHornMusicVoice = {
 }
 
 
-A_a_EnglishHornMusicStaff = {
+A_EnglishHornMusicStaff = {
     \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
-    \A_a_EnglishHornMusicVoice
+    \A_EnglishHornMusicVoice
 }
 
 
-A_a_ClarinetMusicVoice = {
+A_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 5]                      %! SM4
+        % [A ClarinetMusicVoice measure 5]                       %! SM4
         \set ClarinetMusicStaff.instrumentName = \markup {       %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -6071,7 +6071,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 6]                      %! SM4
+        % [A ClarinetMusicVoice measure 6]                       %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6094,7 +6094,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 7]                      %! SM4
+        % [A ClarinetMusicVoice measure 7]                       %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6109,18 +6109,18 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 8]                      %! SM4
+        % [A ClarinetMusicVoice measure 8]                       %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 9]                      %! SM4
+        % [A ClarinetMusicVoice measure 9]                       %! SM4
         r2.
     }
     \times 2/3 {
         
-        % [A1 ClarinetMusicVoice measure 10]                     %! SM4
+        % [A ClarinetMusicVoice measure 10]                      %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''4
@@ -6133,7 +6133,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ClarinetMusicVoice measure 11]                     %! SM4
+        % [A ClarinetMusicVoice measure 11]                      %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6148,7 +6148,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 12]                     %! SM4
+        % [A ClarinetMusicVoice measure 12]                      %! SM4
         r2..
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6159,7 +6159,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 13]                     %! SM4
+        % [A ClarinetMusicVoice measure 13]                      %! SM4
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
         \f                                                       %! HC1
@@ -6175,7 +6175,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ClarinetMusicVoice measure 14]                     %! SM4
+        % [A ClarinetMusicVoice measure 14]                      %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6190,7 +6190,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 15]                     %! SM4
+        % [A ClarinetMusicVoice measure 15]                      %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6207,13 +6207,13 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 16]                     %! SM4
+        % [A ClarinetMusicVoice measure 16]                      %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ClarinetMusicVoice measure 17]                     %! SM4
+        % [A ClarinetMusicVoice measure 17]                      %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''4
@@ -6225,7 +6225,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 18]                     %! SM4
+        % [A ClarinetMusicVoice measure 18]                      %! SM4
         r1.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6236,7 +6236,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 19]                     %! SM4
+        % [A ClarinetMusicVoice measure 19]                      %! SM4
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
         \pp                                                      %! HC1
@@ -6253,7 +6253,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 20]                     %! SM4
+        % [A ClarinetMusicVoice measure 20]                      %! SM4
         r2
         
         r8
@@ -6270,7 +6270,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ClarinetMusicVoice measure 21]                     %! SM4
+        % [A ClarinetMusicVoice measure 21]                      %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6285,7 +6285,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 22]                     %! SM4
+        % [A ClarinetMusicVoice measure 22]                      %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6305,7 +6305,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 23]                     %! SM4
+        % [A ClarinetMusicVoice measure 23]                      %! SM4
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
         \mf                                                      %! HC1
@@ -6319,7 +6319,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 24]                     %! SM4
+        % [A ClarinetMusicVoice measure 24]                      %! SM4
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r1.
         \mf                                                      %! HC1
@@ -6331,7 +6331,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 25]                     %! SM4
+        % [A ClarinetMusicVoice measure 25]                      %! SM4
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \f                                                       %! HC1
@@ -6348,7 +6348,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 26]                     %! SM4
+        % [A ClarinetMusicVoice measure 26]                      %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6363,19 +6363,19 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 27]                     %! SM4
+        % [A ClarinetMusicVoice measure 27]                      %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 28]                     %! SM4
+        % [A ClarinetMusicVoice measure 28]                      %! SM4
         r2.
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 29]                     %! SM4
+        % [A ClarinetMusicVoice measure 29]                      %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         g'''8
@@ -6397,12 +6397,12 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 30]                     %! SM4
+        % [A ClarinetMusicVoice measure 30]                      %! SM4
         r1
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 31]                     %! SM4
+        % [A ClarinetMusicVoice measure 31]                      %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6426,7 +6426,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ClarinetMusicVoice measure 32]                     %! SM4
+        % [A ClarinetMusicVoice measure 32]                      %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6441,7 +6441,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 33]                     %! SM4
+        % [A ClarinetMusicVoice measure 33]                      %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6456,13 +6456,13 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 34]                     %! SM4
+        % [A ClarinetMusicVoice measure 34]                      %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ClarinetMusicVoice measure 35]                     %! SM4
+        % [A ClarinetMusicVoice measure 35]                      %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6477,13 +6477,13 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 36]                     %! SM4
+        % [A ClarinetMusicVoice measure 36]                      %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 37]                     %! SM4
+        % [A ClarinetMusicVoice measure 37]                      %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6498,7 +6498,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ClarinetMusicVoice measure 38]                     %! SM4
+        % [A ClarinetMusicVoice measure 38]                      %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''4
@@ -6510,7 +6510,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 39]                     %! SM4
+        % [A ClarinetMusicVoice measure 39]                      %! SM4
         r1
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6525,7 +6525,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 40]                     %! SM4
+        % [A ClarinetMusicVoice measure 40]                      %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6540,7 +6540,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 41]                     %! SM4
+        % [A ClarinetMusicVoice measure 41]                      %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6554,7 +6554,7 @@ A_a_ClarinetMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ClarinetMusicVoice measure 42]                     %! SM4
+        % [A ClarinetMusicVoice measure 42]                      %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -6576,7 +6576,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 43]                     %! SM4
+        % [A ClarinetMusicVoice measure 43]                      %! SM4
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \f                                                       %! HC1
@@ -6584,7 +6584,7 @@ A_a_ClarinetMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ClarinetMusicVoice measure 44]                     %! SM4
+        % [A ClarinetMusicVoice measure 44]                      %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         gs'''8
@@ -6604,7 +6604,7 @@ A_a_ClarinetMusicVoice = {
         \f                                                       %! HC1
     }
     
-    % [A1 ClarinetMusicVoice measure 45]                         %! SM4
+    % [A ClarinetMusicVoice measure 45]                          %! SM4
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:EXPLICIT_INSTRUMENT:IC
         \hcenter-in                                              %! SM8:EXPLICIT_INSTRUMENT:IC
             #16                                                  %! SM8:EXPLICIT_INSTRUMENT:IC
@@ -6634,22 +6634,22 @@ A_a_ClarinetMusicVoice = {
             "B. cl."                                             %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
         }                                                        %! SM8:REDRAWN_EXPLICIT_INSTRUMENT:SM34:IC
     
-    % [A1 ClarinetMusicVoice measure 46]                         %! SM4
+    % [A ClarinetMusicVoice measure 46]                          %! SM4
     r1
     
-    % [A1 ClarinetMusicVoice measure 47]                         %! SM4
+    % [A ClarinetMusicVoice measure 47]                          %! SM4
     r2
     
-    % [A1 ClarinetMusicVoice measure 48]                         %! SM4
+    % [A ClarinetMusicVoice measure 48]                          %! SM4
     r1
     
-    % [A1 ClarinetMusicVoice measure 49]                         %! SM4
+    % [A ClarinetMusicVoice measure 49]                          %! SM4
     r1
     
-    % [A1 ClarinetMusicVoice measure 50]                         %! SM4
+    % [A ClarinetMusicVoice measure 50]                          %! SM4
     r2.
     
-    % [A1 ClarinetMusicVoice measure 51]                         %! SM4
+    % [A ClarinetMusicVoice measure 51]                          %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e4
@@ -6665,7 +6665,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 54]                         %! SM4
+    % [A ClarinetMusicVoice measure 54]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     eqs4
     
@@ -6677,7 +6677,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 57]                         %! SM4
+    % [A ClarinetMusicVoice measure 57]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     e4
     
@@ -6692,7 +6692,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 62]                         %! SM4
+    % [A ClarinetMusicVoice measure 62]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     eqs4
     
@@ -6704,7 +6704,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 65]                         %! SM4
+    % [A ClarinetMusicVoice measure 65]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     e4
     
@@ -6725,7 +6725,7 @@ A_a_ClarinetMusicVoice = {
     r16
     \!                                                           %! HC1
     
-    % [A1 ClarinetMusicVoice measure 67]                         %! SM4
+    % [A ClarinetMusicVoice measure 67]                          %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -6737,31 +6737,31 @@ A_a_ClarinetMusicVoice = {
     \repeatTie
     \ppp                                                         %! HC1
     
-    % [A1 ClarinetMusicVoice measure 68]                         %! SM4
+    % [A ClarinetMusicVoice measure 68]                          %! SM4
     eqs1
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 69]                         %! SM4
+    % [A ClarinetMusicVoice measure 69]                          %! SM4
     eqs2.
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 70]                         %! SM4
+    % [A ClarinetMusicVoice measure 70]                          %! SM4
     eqs1
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 71]                         %! SM4
+    % [A ClarinetMusicVoice measure 71]                          %! SM4
     eqs2
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 72]                         %! SM4
+    % [A ClarinetMusicVoice measure 72]                          %! SM4
     eqs1
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 73]                         %! SM4
+    % [A ClarinetMusicVoice measure 73]                          %! SM4
     eqs1
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 74]                         %! SM4
+    % [A ClarinetMusicVoice measure 74]                          %! SM4
     eqs2
     \repeatTie
     
@@ -6776,7 +6776,7 @@ A_a_ClarinetMusicVoice = {
     r16
     \!                                                           %! HC1
     
-    % [A1 ClarinetMusicVoice measure 75]                         %! SM4
+    % [A ClarinetMusicVoice measure 75]                          %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -6793,7 +6793,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 78]                         %! SM4
+    % [A ClarinetMusicVoice measure 78]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     eqs4
     
@@ -6808,7 +6808,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 81]                         %! SM4
+    % [A ClarinetMusicVoice measure 81]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     e4
     
@@ -6829,7 +6829,7 @@ A_a_ClarinetMusicVoice = {
     r16
     \!                                                           %! HC1
     
-    % [A1 ClarinetMusicVoice measure 85]                         %! SM4
+    % [A ClarinetMusicVoice measure 85]                          %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -6841,31 +6841,31 @@ A_a_ClarinetMusicVoice = {
     \repeatTie
     \p                                                           %! HC1
     
-    % [A1 ClarinetMusicVoice measure 86]                         %! SM4
+    % [A ClarinetMusicVoice measure 86]                          %! SM4
     eqs2.
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 87]                         %! SM4
+    % [A ClarinetMusicVoice measure 87]                          %! SM4
     eqs1
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 88]                         %! SM4
+    % [A ClarinetMusicVoice measure 88]                          %! SM4
     eqs2
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 89]                         %! SM4
+    % [A ClarinetMusicVoice measure 89]                          %! SM4
     eqs2.
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 90]                         %! SM4
+    % [A ClarinetMusicVoice measure 90]                          %! SM4
     eqs1
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 91]                         %! SM4
+    % [A ClarinetMusicVoice measure 91]                          %! SM4
     eqs2.
     \repeatTie
     
-    % [A1 ClarinetMusicVoice measure 92]                         %! SM4
+    % [A ClarinetMusicVoice measure 92]                          %! SM4
     eqs2.
     \repeatTie
     
@@ -6880,7 +6880,7 @@ A_a_ClarinetMusicVoice = {
     r16
     \!                                                           %! HC1
     
-    % [A1 ClarinetMusicVoice measure 93]                         %! SM4
+    % [A ClarinetMusicVoice measure 93]                          %! SM4
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -6897,7 +6897,7 @@ A_a_ClarinetMusicVoice = {
     
     r16
     
-    % [A1 ClarinetMusicVoice measure 96]                         %! SM4
+    % [A ClarinetMusicVoice measure 96]                          %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     eqs4
     
@@ -6918,15 +6918,15 @@ A_a_ClarinetMusicVoice = {
 }
 
 
-A_a_ClarinetMusicStaff = {
+A_ClarinetMusicStaff = {
     \context ClarinetMusicVoice = "ClarinetMusicVoice"
-    \A_a_ClarinetMusicVoice
+    \A_ClarinetMusicVoice
 }
 
 
-A_a_PianoRHMusicVoice = {
+A_PianoRHMusicVoice = {
     
-    % [A1 PianoRHMusicVoice measure 5]                       %! SM4
+    % [A PianoRHMusicVoice measure 5]                        %! SM4
     \override NoteHead.style = #'harmonic                    %! OC1
     \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -6981,379 +6981,379 @@ A_a_PianoRHMusicVoice = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \override PianoRHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [A1 PianoRHMusicVoice measure 6]                       %! SM4
+    % [A PianoRHMusicVoice measure 6]                        %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 7]                       %! SM4
+    % [A PianoRHMusicVoice measure 7]                        %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 8]                       %! SM4
+    % [A PianoRHMusicVoice measure 8]                        %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 9]                       %! SM4
+    % [A PianoRHMusicVoice measure 9]                        %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 10]                      %! SM4
+    % [A PianoRHMusicVoice measure 10]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 11]                      %! SM4
+    % [A PianoRHMusicVoice measure 11]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 12]                      %! SM4
+    % [A PianoRHMusicVoice measure 12]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 13]                      %! SM4
+    % [A PianoRHMusicVoice measure 13]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 14]                      %! SM4
+    % [A PianoRHMusicVoice measure 14]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 15]                      %! SM4
+    % [A PianoRHMusicVoice measure 15]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 16]                      %! SM4
+    % [A PianoRHMusicVoice measure 16]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 17]                      %! SM4
+    % [A PianoRHMusicVoice measure 17]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 18]                      %! SM4
+    % [A PianoRHMusicVoice measure 18]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 19]                      %! SM4
+    % [A PianoRHMusicVoice measure 19]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 20]                      %! SM4
+    % [A PianoRHMusicVoice measure 20]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 21]                      %! SM4
+    % [A PianoRHMusicVoice measure 21]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 22]                      %! SM4
+    % [A PianoRHMusicVoice measure 22]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 23]                      %! SM4
+    % [A PianoRHMusicVoice measure 23]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 24]                      %! SM4
+    % [A PianoRHMusicVoice measure 24]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 25]                      %! SM4
+    % [A PianoRHMusicVoice measure 25]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 26]                      %! SM4
+    % [A PianoRHMusicVoice measure 26]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 27]                      %! SM4
+    % [A PianoRHMusicVoice measure 27]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 28]                      %! SM4
+    % [A PianoRHMusicVoice measure 28]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 29]                      %! SM4
+    % [A PianoRHMusicVoice measure 29]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 30]                      %! SM4
+    % [A PianoRHMusicVoice measure 30]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 31]                      %! SM4
+    % [A PianoRHMusicVoice measure 31]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 32]                      %! SM4
+    % [A PianoRHMusicVoice measure 32]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 33]                      %! SM4
+    % [A PianoRHMusicVoice measure 33]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 34]                      %! SM4
+    % [A PianoRHMusicVoice measure 34]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 35]                      %! SM4
+    % [A PianoRHMusicVoice measure 35]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 36]                      %! SM4
+    % [A PianoRHMusicVoice measure 36]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 37]                      %! SM4
+    % [A PianoRHMusicVoice measure 37]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 38]                      %! SM4
+    % [A PianoRHMusicVoice measure 38]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 39]                      %! SM4
+    % [A PianoRHMusicVoice measure 39]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 40]                      %! SM4
+    % [A PianoRHMusicVoice measure 40]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 41]                      %! SM4
+    % [A PianoRHMusicVoice measure 41]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 42]                      %! SM4
+    % [A PianoRHMusicVoice measure 42]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 43]                      %! SM4
+    % [A PianoRHMusicVoice measure 43]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 44]                      %! SM4
+    % [A PianoRHMusicVoice measure 44]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 45]                      %! SM4
+    % [A PianoRHMusicVoice measure 45]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 46]                      %! SM4
+    % [A PianoRHMusicVoice measure 46]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 47]                      %! SM4
+    % [A PianoRHMusicVoice measure 47]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 48]                      %! SM4
+    % [A PianoRHMusicVoice measure 48]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 49]                      %! SM4
+    % [A PianoRHMusicVoice measure 49]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 50]                      %! SM4
+    % [A PianoRHMusicVoice measure 50]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 51]                      %! SM4
+    % [A PianoRHMusicVoice measure 51]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 52]                      %! SM4
+    % [A PianoRHMusicVoice measure 52]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 53]                      %! SM4
+    % [A PianoRHMusicVoice measure 53]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 54]                      %! SM4
+    % [A PianoRHMusicVoice measure 54]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 55]                      %! SM4
+    % [A PianoRHMusicVoice measure 55]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 56]                      %! SM4
+    % [A PianoRHMusicVoice measure 56]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 57]                      %! SM4
+    % [A PianoRHMusicVoice measure 57]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 58]                      %! SM4
+    % [A PianoRHMusicVoice measure 58]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 59]                      %! SM4
+    % [A PianoRHMusicVoice measure 59]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 60]                      %! SM4
+    % [A PianoRHMusicVoice measure 60]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 61]                      %! SM4
+    % [A PianoRHMusicVoice measure 61]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 62]                      %! SM4
+    % [A PianoRHMusicVoice measure 62]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 63]                      %! SM4
+    % [A PianoRHMusicVoice measure 63]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 64]                      %! SM4
+    % [A PianoRHMusicVoice measure 64]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 65]                      %! SM4
+    % [A PianoRHMusicVoice measure 65]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 66]                      %! SM4
+    % [A PianoRHMusicVoice measure 66]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 67]                      %! SM4
+    % [A PianoRHMusicVoice measure 67]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 68]                      %! SM4
+    % [A PianoRHMusicVoice measure 68]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 69]                      %! SM4
+    % [A PianoRHMusicVoice measure 69]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 70]                      %! SM4
+    % [A PianoRHMusicVoice measure 70]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 71]                      %! SM4
+    % [A PianoRHMusicVoice measure 71]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 72]                      %! SM4
+    % [A PianoRHMusicVoice measure 72]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 73]                      %! SM4
+    % [A PianoRHMusicVoice measure 73]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 74]                      %! SM4
+    % [A PianoRHMusicVoice measure 74]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 75]                      %! SM4
+    % [A PianoRHMusicVoice measure 75]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 76]                      %! SM4
+    % [A PianoRHMusicVoice measure 76]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 77]                      %! SM4
+    % [A PianoRHMusicVoice measure 77]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 78]                      %! SM4
+    % [A PianoRHMusicVoice measure 78]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 79]                      %! SM4
+    % [A PianoRHMusicVoice measure 79]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 80]                      %! SM4
+    % [A PianoRHMusicVoice measure 80]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 81]                      %! SM4
+    % [A PianoRHMusicVoice measure 81]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 82]                      %! SM4
+    % [A PianoRHMusicVoice measure 82]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 83]                      %! SM4
+    % [A PianoRHMusicVoice measure 83]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 84]                      %! SM4
+    % [A PianoRHMusicVoice measure 84]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 85]                      %! SM4
+    % [A PianoRHMusicVoice measure 85]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 86]                      %! SM4
+    % [A PianoRHMusicVoice measure 86]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 87]                      %! SM4
+    % [A PianoRHMusicVoice measure 87]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 88]                      %! SM4
+    % [A PianoRHMusicVoice measure 88]                       %! SM4
     <d' e' fs' c'' d''>2
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 89]                      %! SM4
+    % [A PianoRHMusicVoice measure 89]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 90]                      %! SM4
+    % [A PianoRHMusicVoice measure 90]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 91]                      %! SM4
+    % [A PianoRHMusicVoice measure 91]                       %! SM4
     <d' e' fs' c'' d''>2.
     \repeatTie
     
-    % [A1 PianoRHMusicVoice measure 92]                      %! SM4
+    % [A PianoRHMusicVoice measure 92]                       %! SM4
     <d' e' fs' c'' d''>1
     \repeatTie
     \revert NoteHead.style                                   %! OC2
     
-    % [A1 PianoRHMusicVoice measure 93]                      %! SM4
+    % [A PianoRHMusicVoice measure 93]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoRHMusicVoice measure 94]                      %! SM4
+    % [A PianoRHMusicVoice measure 94]                       %! SM4
     R1 * 1
     
-    % [A1 PianoRHMusicVoice measure 95]                      %! SM4
+    % [A PianoRHMusicVoice measure 95]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoRHMusicVoice measure 96]                      %! SM4
+    % [A PianoRHMusicVoice measure 96]                       %! SM4
     R1 * 1
     
 }
 
 
-A_a_PianoRHMusicStaff = {
+A_PianoRHMusicStaff = {
     \context PianoRHMusicVoice = "PianoRHMusicVoice"
-    \A_a_PianoRHMusicVoice
+    \A_PianoRHMusicVoice
 }
 
 
-A_a_PianoLHMusicVoice = {
+A_PianoLHMusicVoice = {
     
-    % [A1 PianoLHMusicVoice measure 5]                       %! SM4
+    % [A PianoLHMusicVoice measure 5]                        %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -7361,285 +7361,285 @@ A_a_PianoLHMusicVoice = {
     R1 * 3/4
     \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [A1 PianoLHMusicVoice measure 6]                       %! SM4
+    % [A PianoLHMusicVoice measure 6]                        %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 7]                       %! SM4
+    % [A PianoLHMusicVoice measure 7]                        %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 8]                       %! SM4
+    % [A PianoLHMusicVoice measure 8]                        %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 9]                       %! SM4
+    % [A PianoLHMusicVoice measure 9]                        %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 10]                      %! SM4
+    % [A PianoLHMusicVoice measure 10]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 11]                      %! SM4
+    % [A PianoLHMusicVoice measure 11]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 12]                      %! SM4
+    % [A PianoLHMusicVoice measure 12]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 13]                      %! SM4
+    % [A PianoLHMusicVoice measure 13]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 14]                      %! SM4
+    % [A PianoLHMusicVoice measure 14]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 15]                      %! SM4
+    % [A PianoLHMusicVoice measure 15]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 16]                      %! SM4
+    % [A PianoLHMusicVoice measure 16]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 17]                      %! SM4
+    % [A PianoLHMusicVoice measure 17]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 18]                      %! SM4
+    % [A PianoLHMusicVoice measure 18]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 19]                      %! SM4
+    % [A PianoLHMusicVoice measure 19]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 20]                      %! SM4
+    % [A PianoLHMusicVoice measure 20]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 21]                      %! SM4
+    % [A PianoLHMusicVoice measure 21]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 22]                      %! SM4
+    % [A PianoLHMusicVoice measure 22]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 23]                      %! SM4
+    % [A PianoLHMusicVoice measure 23]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 24]                      %! SM4
+    % [A PianoLHMusicVoice measure 24]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 25]                      %! SM4
+    % [A PianoLHMusicVoice measure 25]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 26]                      %! SM4
+    % [A PianoLHMusicVoice measure 26]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 27]                      %! SM4
+    % [A PianoLHMusicVoice measure 27]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 28]                      %! SM4
+    % [A PianoLHMusicVoice measure 28]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 29]                      %! SM4
+    % [A PianoLHMusicVoice measure 29]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 30]                      %! SM4
+    % [A PianoLHMusicVoice measure 30]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 31]                      %! SM4
+    % [A PianoLHMusicVoice measure 31]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 32]                      %! SM4
+    % [A PianoLHMusicVoice measure 32]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 33]                      %! SM4
+    % [A PianoLHMusicVoice measure 33]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 34]                      %! SM4
+    % [A PianoLHMusicVoice measure 34]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 35]                      %! SM4
+    % [A PianoLHMusicVoice measure 35]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 36]                      %! SM4
+    % [A PianoLHMusicVoice measure 36]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 37]                      %! SM4
+    % [A PianoLHMusicVoice measure 37]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 38]                      %! SM4
+    % [A PianoLHMusicVoice measure 38]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 39]                      %! SM4
+    % [A PianoLHMusicVoice measure 39]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 40]                      %! SM4
+    % [A PianoLHMusicVoice measure 40]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 41]                      %! SM4
+    % [A PianoLHMusicVoice measure 41]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 42]                      %! SM4
+    % [A PianoLHMusicVoice measure 42]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 43]                      %! SM4
+    % [A PianoLHMusicVoice measure 43]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 44]                      %! SM4
+    % [A PianoLHMusicVoice measure 44]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 45]                      %! SM4
+    % [A PianoLHMusicVoice measure 45]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 46]                      %! SM4
+    % [A PianoLHMusicVoice measure 46]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 47]                      %! SM4
+    % [A PianoLHMusicVoice measure 47]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 48]                      %! SM4
+    % [A PianoLHMusicVoice measure 48]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 49]                      %! SM4
+    % [A PianoLHMusicVoice measure 49]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 50]                      %! SM4
+    % [A PianoLHMusicVoice measure 50]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 51]                      %! SM4
+    % [A PianoLHMusicVoice measure 51]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 52]                      %! SM4
+    % [A PianoLHMusicVoice measure 52]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 53]                      %! SM4
+    % [A PianoLHMusicVoice measure 53]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 54]                      %! SM4
+    % [A PianoLHMusicVoice measure 54]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 55]                      %! SM4
+    % [A PianoLHMusicVoice measure 55]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 56]                      %! SM4
+    % [A PianoLHMusicVoice measure 56]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 57]                      %! SM4
+    % [A PianoLHMusicVoice measure 57]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 58]                      %! SM4
+    % [A PianoLHMusicVoice measure 58]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 59]                      %! SM4
+    % [A PianoLHMusicVoice measure 59]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 60]                      %! SM4
+    % [A PianoLHMusicVoice measure 60]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 61]                      %! SM4
+    % [A PianoLHMusicVoice measure 61]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 62]                      %! SM4
+    % [A PianoLHMusicVoice measure 62]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 63]                      %! SM4
+    % [A PianoLHMusicVoice measure 63]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 64]                      %! SM4
+    % [A PianoLHMusicVoice measure 64]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 65]                      %! SM4
+    % [A PianoLHMusicVoice measure 65]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 66]                      %! SM4
+    % [A PianoLHMusicVoice measure 66]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 67]                      %! SM4
+    % [A PianoLHMusicVoice measure 67]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 68]                      %! SM4
+    % [A PianoLHMusicVoice measure 68]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 69]                      %! SM4
+    % [A PianoLHMusicVoice measure 69]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 70]                      %! SM4
+    % [A PianoLHMusicVoice measure 70]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 71]                      %! SM4
+    % [A PianoLHMusicVoice measure 71]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 72]                      %! SM4
+    % [A PianoLHMusicVoice measure 72]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 73]                      %! SM4
+    % [A PianoLHMusicVoice measure 73]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 74]                      %! SM4
+    % [A PianoLHMusicVoice measure 74]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 75]                      %! SM4
+    % [A PianoLHMusicVoice measure 75]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 76]                      %! SM4
+    % [A PianoLHMusicVoice measure 76]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 77]                      %! SM4
+    % [A PianoLHMusicVoice measure 77]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 78]                      %! SM4
+    % [A PianoLHMusicVoice measure 78]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 79]                      %! SM4
+    % [A PianoLHMusicVoice measure 79]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 80]                      %! SM4
+    % [A PianoLHMusicVoice measure 80]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 81]                      %! SM4
+    % [A PianoLHMusicVoice measure 81]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 82]                      %! SM4
+    % [A PianoLHMusicVoice measure 82]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 83]                      %! SM4
+    % [A PianoLHMusicVoice measure 83]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 84]                      %! SM4
+    % [A PianoLHMusicVoice measure 84]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 85]                      %! SM4
+    % [A PianoLHMusicVoice measure 85]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 86]                      %! SM4
+    % [A PianoLHMusicVoice measure 86]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 87]                      %! SM4
+    % [A PianoLHMusicVoice measure 87]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 88]                      %! SM4
+    % [A PianoLHMusicVoice measure 88]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 89]                      %! SM4
+    % [A PianoLHMusicVoice measure 89]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 90]                      %! SM4
+    % [A PianoLHMusicVoice measure 90]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 91]                      %! SM4
+    % [A PianoLHMusicVoice measure 91]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 92]                      %! SM4
+    % [A PianoLHMusicVoice measure 92]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 93]                      %! SM4
+    % [A PianoLHMusicVoice measure 93]                       %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHMusicVoice measure 94]                      %! SM4
+    % [A PianoLHMusicVoice measure 94]                       %! SM4
     R1 * 1
     
-    % [A1 PianoLHMusicVoice measure 95]                      %! SM4
+    % [A PianoLHMusicVoice measure 95]                       %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHMusicVoice measure 96]                      %! SM4
+    % [A PianoLHMusicVoice measure 96]                       %! SM4
     R1 * 1
     
 }
 
 
-A_a_PianoLHAttackVoice = {
+A_PianoLHAttackVoice = {
     
-    % [A1 PianoLHAttackVoice measure 5]                      %! SM4
+    % [A PianoLHAttackVoice measure 5]                       %! SM4
     \once \override Accidental.stencil = ##f
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
@@ -7663,40 +7663,40 @@ A_a_PianoLHAttackVoice = {
     
     s8.
     
-    % [A1 PianoLHAttackVoice measure 6]                      %! SM4
+    % [A PianoLHAttackVoice measure 6]                       %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 7]                      %! SM4
+    % [A PianoLHAttackVoice measure 7]                       %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 8]                      %! SM4
+    % [A PianoLHAttackVoice measure 8]                       %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 9]                      %! SM4
+    % [A PianoLHAttackVoice measure 9]                       %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 10]                     %! SM4
+    % [A PianoLHAttackVoice measure 10]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 11]                     %! SM4
+    % [A PianoLHAttackVoice measure 11]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 12]                     %! SM4
+    % [A PianoLHAttackVoice measure 12]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 13]                     %! SM4
+    % [A PianoLHAttackVoice measure 13]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 14]                     %! SM4
+    % [A PianoLHAttackVoice measure 14]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 15]                     %! SM4
+    % [A PianoLHAttackVoice measure 15]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 16]                     %! SM4
+    % [A PianoLHAttackVoice measure 16]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 17]                     %! SM4
+    % [A PianoLHAttackVoice measure 17]                      %! SM4
     \once \override Accidental.stencil = ##f
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
@@ -7720,46 +7720,46 @@ A_a_PianoLHAttackVoice = {
     
     s8.
     
-    % [A1 PianoLHAttackVoice measure 18]                     %! SM4
+    % [A PianoLHAttackVoice measure 18]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 19]                     %! SM4
+    % [A PianoLHAttackVoice measure 19]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 20]                     %! SM4
+    % [A PianoLHAttackVoice measure 20]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 21]                     %! SM4
+    % [A PianoLHAttackVoice measure 21]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 22]                     %! SM4
+    % [A PianoLHAttackVoice measure 22]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 23]                     %! SM4
+    % [A PianoLHAttackVoice measure 23]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 24]                     %! SM4
+    % [A PianoLHAttackVoice measure 24]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 25]                     %! SM4
+    % [A PianoLHAttackVoice measure 25]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 26]                     %! SM4
+    % [A PianoLHAttackVoice measure 26]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 27]                     %! SM4
+    % [A PianoLHAttackVoice measure 27]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 28]                     %! SM4
+    % [A PianoLHAttackVoice measure 28]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 29]                     %! SM4
+    % [A PianoLHAttackVoice measure 29]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 30]                     %! SM4
+    % [A PianoLHAttackVoice measure 30]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 31]                     %! SM4
+    % [A PianoLHAttackVoice measure 31]                      %! SM4
     \once \override Accidental.stencil = ##f
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
@@ -7781,46 +7781,46 @@ A_a_PianoLHAttackVoice = {
     
     s2...
     
-    % [A1 PianoLHAttackVoice measure 32]                     %! SM4
+    % [A PianoLHAttackVoice measure 32]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 33]                     %! SM4
+    % [A PianoLHAttackVoice measure 33]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 34]                     %! SM4
+    % [A PianoLHAttackVoice measure 34]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 35]                     %! SM4
+    % [A PianoLHAttackVoice measure 35]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 36]                     %! SM4
+    % [A PianoLHAttackVoice measure 36]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 37]                     %! SM4
+    % [A PianoLHAttackVoice measure 37]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 38]                     %! SM4
+    % [A PianoLHAttackVoice measure 38]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 39]                     %! SM4
+    % [A PianoLHAttackVoice measure 39]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 40]                     %! SM4
+    % [A PianoLHAttackVoice measure 40]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 41]                     %! SM4
+    % [A PianoLHAttackVoice measure 41]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 42]                     %! SM4
+    % [A PianoLHAttackVoice measure 42]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 43]                     %! SM4
+    % [A PianoLHAttackVoice measure 43]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 44]                     %! SM4
+    % [A PianoLHAttackVoice measure 44]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 45]                     %! SM4
+    % [A PianoLHAttackVoice measure 45]                      %! SM4
     \once \override Accidental.stencil = ##f
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
@@ -7844,52 +7844,52 @@ A_a_PianoLHAttackVoice = {
     
     s8.
     
-    % [A1 PianoLHAttackVoice measure 46]                     %! SM4
+    % [A PianoLHAttackVoice measure 46]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 47]                     %! SM4
+    % [A PianoLHAttackVoice measure 47]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 48]                     %! SM4
+    % [A PianoLHAttackVoice measure 48]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 49]                     %! SM4
+    % [A PianoLHAttackVoice measure 49]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 50]                     %! SM4
+    % [A PianoLHAttackVoice measure 50]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 51]                     %! SM4
+    % [A PianoLHAttackVoice measure 51]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 52]                     %! SM4
+    % [A PianoLHAttackVoice measure 52]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 53]                     %! SM4
+    % [A PianoLHAttackVoice measure 53]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 54]                     %! SM4
+    % [A PianoLHAttackVoice measure 54]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 55]                     %! SM4
+    % [A PianoLHAttackVoice measure 55]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 56]                     %! SM4
+    % [A PianoLHAttackVoice measure 56]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 57]                     %! SM4
+    % [A PianoLHAttackVoice measure 57]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 58]                     %! SM4
+    % [A PianoLHAttackVoice measure 58]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 59]                     %! SM4
+    % [A PianoLHAttackVoice measure 59]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 60]                     %! SM4
+    % [A PianoLHAttackVoice measure 60]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 61]                     %! SM4
+    % [A PianoLHAttackVoice measure 61]                      %! SM4
     \once \override Accidental.stencil = ##f
     \once \override AccidentalCautionary.stencil = ##f
     \once \override Arpeggio.X-offset = #-2
@@ -7913,127 +7913,127 @@ A_a_PianoLHAttackVoice = {
     
     s8.
     
-    % [A1 PianoLHAttackVoice measure 62]                     %! SM4
+    % [A PianoLHAttackVoice measure 62]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 63]                     %! SM4
+    % [A PianoLHAttackVoice measure 63]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 64]                     %! SM4
+    % [A PianoLHAttackVoice measure 64]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 65]                     %! SM4
+    % [A PianoLHAttackVoice measure 65]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 66]                     %! SM4
+    % [A PianoLHAttackVoice measure 66]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 67]                     %! SM4
+    % [A PianoLHAttackVoice measure 67]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 68]                     %! SM4
+    % [A PianoLHAttackVoice measure 68]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 69]                     %! SM4
+    % [A PianoLHAttackVoice measure 69]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 70]                     %! SM4
+    % [A PianoLHAttackVoice measure 70]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 71]                     %! SM4
+    % [A PianoLHAttackVoice measure 71]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 72]                     %! SM4
+    % [A PianoLHAttackVoice measure 72]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 73]                     %! SM4
+    % [A PianoLHAttackVoice measure 73]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 74]                     %! SM4
+    % [A PianoLHAttackVoice measure 74]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 75]                     %! SM4
+    % [A PianoLHAttackVoice measure 75]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 76]                     %! SM4
+    % [A PianoLHAttackVoice measure 76]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 77]                     %! SM4
+    % [A PianoLHAttackVoice measure 77]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 78]                     %! SM4
+    % [A PianoLHAttackVoice measure 78]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 79]                     %! SM4
+    % [A PianoLHAttackVoice measure 79]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 80]                     %! SM4
+    % [A PianoLHAttackVoice measure 80]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 81]                     %! SM4
+    % [A PianoLHAttackVoice measure 81]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 82]                     %! SM4
+    % [A PianoLHAttackVoice measure 82]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 83]                     %! SM4
+    % [A PianoLHAttackVoice measure 83]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 84]                     %! SM4
+    % [A PianoLHAttackVoice measure 84]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 85]                     %! SM4
+    % [A PianoLHAttackVoice measure 85]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 86]                     %! SM4
+    % [A PianoLHAttackVoice measure 86]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 87]                     %! SM4
+    % [A PianoLHAttackVoice measure 87]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 88]                     %! SM4
+    % [A PianoLHAttackVoice measure 88]                      %! SM4
     s2
     
-    % [A1 PianoLHAttackVoice measure 89]                     %! SM4
+    % [A PianoLHAttackVoice measure 89]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 90]                     %! SM4
+    % [A PianoLHAttackVoice measure 90]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 91]                     %! SM4
+    % [A PianoLHAttackVoice measure 91]                      %! SM4
     s2.
     
-    % [A1 PianoLHAttackVoice measure 92]                     %! SM4
+    % [A PianoLHAttackVoice measure 92]                      %! SM4
     s1
     
-    % [A1 PianoLHAttackVoice measure 93]                     %! SM4
+    % [A PianoLHAttackVoice measure 93]                      %! SM4
     R1 * 3/4
     
-    % [A1 PianoLHAttackVoice measure 94]                     %! SM4
+    % [A PianoLHAttackVoice measure 94]                      %! SM4
     R1 * 1
     
-    % [A1 PianoLHAttackVoice measure 95]                     %! SM4
+    % [A PianoLHAttackVoice measure 95]                      %! SM4
     R1 * 1/2
     
-    % [A1 PianoLHAttackVoice measure 96]                     %! SM4
+    % [A PianoLHAttackVoice measure 96]                      %! SM4
     R1 * 1
     
 }
 
 
-A_a_PianoLHMusicStaff = <<
+A_PianoLHMusicStaff = <<
     \context PianoLHMusicVoice = "PianoLHMusicVoice"
-    \A_a_PianoLHMusicVoice
+    \A_PianoLHMusicVoice
     \context PianoLHAttackVoice = "PianoLHAttackVoice"
-    \A_a_PianoLHAttackVoice
+    \A_PianoLHAttackVoice
 >>
 
 
-A_a_PercussionMusicVoice = {
+A_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 5]                    %! SM4
+        % [A PercussionMusicVoice measure 5]                     %! SM4
         \set PercussionMusicStaff.instrumentName = \markup {     %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -8089,12 +8089,12 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 6]                    %! SM4
+        % [A PercussionMusicVoice measure 6]                     %! SM4
         r1
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 7]                    %! SM4
+        % [A PercussionMusicVoice measure 7]                     %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'4
@@ -8108,7 +8108,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 8]                    %! SM4
+        % [A PercussionMusicVoice measure 8]                     %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -8122,7 +8122,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 9]                    %! SM4
+        % [A PercussionMusicVoice measure 9]                     %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -8138,13 +8138,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 10]                   %! SM4
+        % [A PercussionMusicVoice measure 10]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 11]                   %! SM4
+        % [A PercussionMusicVoice measure 11]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8160,7 +8160,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 12]                   %! SM4
+        % [A PercussionMusicVoice measure 12]                    %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8176,7 +8176,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 13]                   %! SM4
+        % [A PercussionMusicVoice measure 13]                    %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8192,19 +8192,19 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 14]                   %! SM4
+        % [A PercussionMusicVoice measure 14]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 15]                   %! SM4
+        % [A PercussionMusicVoice measure 15]                    %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 16]                   %! SM4
+        % [A PercussionMusicVoice measure 16]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -8218,7 +8218,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 17]                   %! SM4
+        % [A PercussionMusicVoice measure 17]                    %! SM4
         r1
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8229,7 +8229,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 18]                   %! SM4
+        % [A PercussionMusicVoice measure 18]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \pp                                                      %! HC1
@@ -8247,7 +8247,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 19]                   %! SM4
+        % [A PercussionMusicVoice measure 19]                    %! SM4
         r2
         
         r8
@@ -8261,7 +8261,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 20]                   %! SM4
+        % [A PercussionMusicVoice measure 20]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
         \pp                                                      %! HC1
@@ -8279,7 +8279,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 21]                   %! SM4
+        % [A PercussionMusicVoice measure 21]                    %! SM4
         r1
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8291,7 +8291,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 22]                   %! SM4
+        % [A PercussionMusicVoice measure 22]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r1
         \p                                                       %! HC1
@@ -8299,12 +8299,12 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 23]                   %! SM4
+        % [A PercussionMusicVoice measure 23]                    %! SM4
         r2
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 24]                   %! SM4
+        % [A PercussionMusicVoice measure 24]                    %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8319,7 +8319,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 25]                   %! SM4
+        % [A PercussionMusicVoice measure 25]                    %! SM4
         r1
         
         r4
@@ -8337,7 +8337,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 26]                   %! SM4
+        % [A PercussionMusicVoice measure 26]                    %! SM4
         r2
         
         r8
@@ -8351,7 +8351,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 27]                   %! SM4
+        % [A PercussionMusicVoice measure 27]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
         \mf                                                      %! HC1
@@ -8365,7 +8365,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 28]                   %! SM4
+        % [A PercussionMusicVoice measure 28]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \f                                                       %! HC1
@@ -8373,13 +8373,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 29]                   %! SM4
+        % [A PercussionMusicVoice measure 29]                    %! SM4
         r2.
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 30]                   %! SM4
+        % [A PercussionMusicVoice measure 30]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'8
@@ -8404,7 +8404,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 31]                   %! SM4
+        % [A PercussionMusicVoice measure 31]                    %! SM4
         r1.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8416,7 +8416,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 32]                   %! SM4
+        % [A PercussionMusicVoice measure 32]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \pp                                                      %! HC1
@@ -8424,13 +8424,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 33]                   %! SM4
+        % [A PercussionMusicVoice measure 33]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 34]                   %! SM4
+        % [A PercussionMusicVoice measure 34]                    %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8442,7 +8442,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 35]                   %! SM4
+        % [A PercussionMusicVoice measure 35]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \pp                                                      %! HC1
@@ -8450,7 +8450,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 36]                   %! SM4
+        % [A PercussionMusicVoice measure 36]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8476,13 +8476,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 37]                   %! SM4
+        % [A PercussionMusicVoice measure 37]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 38]                   %! SM4
+        % [A PercussionMusicVoice measure 38]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8497,7 +8497,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 39]                   %! SM4
+        % [A PercussionMusicVoice measure 39]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'4
@@ -8511,13 +8511,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 40]                   %! SM4
+        % [A PercussionMusicVoice measure 40]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 41]                   %! SM4
+        % [A PercussionMusicVoice measure 41]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -8533,13 +8533,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 42]                   %! SM4
+        % [A PercussionMusicVoice measure 42]                    %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 43]                   %! SM4
+        % [A PercussionMusicVoice measure 43]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8555,7 +8555,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 44]                   %! SM4
+        % [A PercussionMusicVoice measure 44]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8571,7 +8571,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 45]                   %! SM4
+        % [A PercussionMusicVoice measure 45]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8587,7 +8587,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 46]                   %! SM4
+        % [A PercussionMusicVoice measure 46]                    %! SM4
         r2..
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8599,7 +8599,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 47]                   %! SM4
+        % [A PercussionMusicVoice measure 47]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
         \pp                                                      %! HC1
@@ -8616,7 +8616,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 48]                   %! SM4
+        % [A PercussionMusicVoice measure 48]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8632,7 +8632,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 49]                   %! SM4
+        % [A PercussionMusicVoice measure 49]                    %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8648,7 +8648,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 50]                   %! SM4
+        % [A PercussionMusicVoice measure 50]                    %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8664,7 +8664,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 51]                   %! SM4
+        % [A PercussionMusicVoice measure 51]                    %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8680,13 +8680,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 52]                   %! SM4
+        % [A PercussionMusicVoice measure 52]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 53]                   %! SM4
+        % [A PercussionMusicVoice measure 53]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'8
@@ -8710,7 +8710,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 54]                   %! SM4
+        % [A PercussionMusicVoice measure 54]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8725,7 +8725,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 55]                   %! SM4
+        % [A PercussionMusicVoice measure 55]                    %! SM4
         r1
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8741,13 +8741,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 56]                   %! SM4
+        % [A PercussionMusicVoice measure 56]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 57]                   %! SM4
+        % [A PercussionMusicVoice measure 57]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'8
@@ -8771,13 +8771,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 58]                   %! SM4
+        % [A PercussionMusicVoice measure 58]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 59]                   %! SM4
+        % [A PercussionMusicVoice measure 59]                    %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8793,7 +8793,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 60]                   %! SM4
+        % [A PercussionMusicVoice measure 60]                    %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8819,7 +8819,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 61]                   %! SM4
+        % [A PercussionMusicVoice measure 61]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8841,7 +8841,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 62]                   %! SM4
+        % [A PercussionMusicVoice measure 62]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \pp                                                      %! HC1
@@ -8849,7 +8849,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 63]                   %! SM4
+        % [A PercussionMusicVoice measure 63]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -8883,7 +8883,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 64]                   %! SM4
+        % [A PercussionMusicVoice measure 64]                    %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8899,7 +8899,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 65]                   %! SM4
+        % [A PercussionMusicVoice measure 65]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8915,7 +8915,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 66]                   %! SM4
+        % [A PercussionMusicVoice measure 66]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -8939,32 +8939,32 @@ A_a_PercussionMusicVoice = {
         \pp                                                      %! HC1
     }
     
-    % [A1 PercussionMusicVoice measure 67]                       %! SM4
+    % [A PercussionMusicVoice measure 67]                        %! SM4
     R1 * 3/4
     
-    % [A1 PercussionMusicVoice measure 68]                       %! SM4
+    % [A PercussionMusicVoice measure 68]                        %! SM4
     R1 * 1
     
-    % [A1 PercussionMusicVoice measure 69]                       %! SM4
+    % [A PercussionMusicVoice measure 69]                        %! SM4
     R1 * 3/4
     
-    % [A1 PercussionMusicVoice measure 70]                       %! SM4
+    % [A PercussionMusicVoice measure 70]                        %! SM4
     R1 * 1
     
-    % [A1 PercussionMusicVoice measure 71]                       %! SM4
+    % [A PercussionMusicVoice measure 71]                        %! SM4
     R1 * 1/2
     
-    % [A1 PercussionMusicVoice measure 72]                       %! SM4
+    % [A PercussionMusicVoice measure 72]                        %! SM4
     R1 * 1
     
-    % [A1 PercussionMusicVoice measure 73]                       %! SM4
+    % [A PercussionMusicVoice measure 73]                        %! SM4
     R1 * 1
     
-    % [A1 PercussionMusicVoice measure 74]                       %! SM4
+    % [A PercussionMusicVoice measure 74]                        %! SM4
     R1 * 3/4
     \times 2/3 {
         
-        % [A1 PercussionMusicVoice measure 75]                   %! SM4
+        % [A PercussionMusicVoice measure 75]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8980,7 +8980,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 76]                   %! SM4
+        % [A PercussionMusicVoice measure 76]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -8996,7 +8996,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 77]                   %! SM4
+        % [A PercussionMusicVoice measure 77]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -9020,7 +9020,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 78]                   %! SM4
+        % [A PercussionMusicVoice measure 78]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -9049,7 +9049,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 79]                   %! SM4
+        % [A PercussionMusicVoice measure 79]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \f                                                       %! HC1
@@ -9067,7 +9067,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 80]                   %! SM4
+        % [A PercussionMusicVoice measure 80]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9083,7 +9083,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 81]                   %! SM4
+        % [A PercussionMusicVoice measure 81]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -9107,13 +9107,13 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 82]                   %! SM4
+        % [A PercussionMusicVoice measure 82]                    %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 83]                   %! SM4
+        % [A PercussionMusicVoice measure 83]                    %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9135,7 +9135,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 84]                   %! SM4
+        % [A PercussionMusicVoice measure 84]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
         \f                                                       %! HC1
@@ -9163,7 +9163,7 @@ A_a_PercussionMusicVoice = {
         r8
     }
     
-    % [A1 PercussionMusicVoice measure 85]                       %! SM4
+    % [A PercussionMusicVoice measure 85]                        %! SM4
     \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
     \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -9175,16 +9175,16 @@ A_a_PercussionMusicVoice = {
     r2
     \override PercussionMusicStaff.Clef.color = #(x11-color 'DeepSkyBlue2) %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
-    % [A1 PercussionMusicVoice measure 86]                       %! SM4
+    % [A PercussionMusicVoice measure 86]                        %! SM4
     r2.
     
-    % [A1 PercussionMusicVoice measure 87]                       %! SM4
+    % [A PercussionMusicVoice measure 87]                        %! SM4
     r1
     
-    % [A1 PercussionMusicVoice measure 88]                       %! SM4
+    % [A PercussionMusicVoice measure 88]                        %! SM4
     r2
     
-    % [A1 PercussionMusicVoice measure 89]                       %! SM4
+    % [A PercussionMusicVoice measure 89]                        %! SM4
     r4
     
     \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
@@ -9201,7 +9201,7 @@ A_a_PercussionMusicVoice = {
         }                                                        %! IC
     \startTrillSpan                                              %! SC
     
-    % [A1 PercussionMusicVoice measure 90]                       %! SM4
+    % [A PercussionMusicVoice measure 90]                        %! SM4
     r16
     \stopTrillSpan                                               %! SC
     
@@ -9209,7 +9209,7 @@ A_a_PercussionMusicVoice = {
     -\accent                                                     %! IC
     \startTrillSpan                                              %! SC
     
-    % [A1 PercussionMusicVoice measure 91]                       %! SM4
+    % [A PercussionMusicVoice measure 91]                        %! SM4
     b2.
     -\accent                                                     %! IC
     \stopTrillSpan                                               %! SC
@@ -9222,12 +9222,12 @@ A_a_PercussionMusicVoice = {
                         "bass drum"                              %! IC
         }                                                        %! IC
     
-    % [A1 PercussionMusicVoice measure 92]                       %! SM4
+    % [A PercussionMusicVoice measure 92]                        %! SM4
     r1
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 PercussionMusicVoice measure 93]                   %! SM4
+        % [A PercussionMusicVoice measure 93]                    %! SM4
         \clef "treble"                                           %! SM8:EXPLICIT_CLEF:IC
         \once \override PercussionMusicStaff.Clef.color = #(x11-color 'blue) %! SM6:EXPLICIT_CLEF_COLOR:IC
     %@% \override PercussionMusicStaff.Clef.color = ##f          %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
@@ -9261,7 +9261,7 @@ A_a_PercussionMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 PercussionMusicVoice measure 94]                   %! SM4
+        % [A PercussionMusicVoice measure 94]                    %! SM4
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \f                                                       %! HC1
@@ -9279,7 +9279,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 95]                   %! SM4
+        % [A PercussionMusicVoice measure 95]                    %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'8
@@ -9303,7 +9303,7 @@ A_a_PercussionMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 PercussionMusicVoice measure 96]                   %! SM4
+        % [A PercussionMusicVoice measure 96]                    %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9330,17 +9330,17 @@ A_a_PercussionMusicVoice = {
 }
 
 
-A_a_PercussionMusicStaff = {
+A_PercussionMusicStaff = {
     \context PercussionMusicVoice = "PercussionMusicVoice"
-    \A_a_PercussionMusicVoice
+    \A_PercussionMusicVoice
 }
 
 
-A_a_ViolinMusicVoice = {
+A_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 5]                        %! SM4
+        % [A ViolinMusicVoice measure 5]                         %! SM4
         \set ViolinMusicStaff.instrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
@@ -9397,7 +9397,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 6]                        %! SM4
+        % [A ViolinMusicVoice measure 6]                         %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9416,7 +9416,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 7]                        %! SM4
+        % [A ViolinMusicVoice measure 7]                         %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r1.
         \f                                                       %! HC1
@@ -9429,7 +9429,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 8]                        %! SM4
+        % [A ViolinMusicVoice measure 8]                         %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r8
         \f                                                       %! HC1
@@ -9446,19 +9446,19 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 9]                        %! SM4
+        % [A ViolinMusicVoice measure 9]                         %! SM4
         r2.
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 10]                       %! SM4
+        % [A ViolinMusicVoice measure 10]                        %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 11]                       %! SM4
+        % [A ViolinMusicVoice measure 11]                        %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9473,13 +9473,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 12]                       %! SM4
+        % [A ViolinMusicVoice measure 12]                        %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 13]                       %! SM4
+        % [A ViolinMusicVoice measure 13]                        %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9493,7 +9493,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolinMusicVoice measure 14]                       %! SM4
+        % [A ViolinMusicVoice measure 14]                        %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9504,7 +9504,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 15]                       %! SM4
+        % [A ViolinMusicVoice measure 15]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \f                                                       %! HC1
@@ -9523,13 +9523,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 16]                       %! SM4
+        % [A ViolinMusicVoice measure 16]                        %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 17]                       %! SM4
+        % [A ViolinMusicVoice measure 17]                        %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9543,7 +9543,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 18]                       %! SM4
+        % [A ViolinMusicVoice measure 18]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9560,7 +9560,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 19]                       %! SM4
+        % [A ViolinMusicVoice measure 19]                        %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9575,13 +9575,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 20]                       %! SM4
+        % [A ViolinMusicVoice measure 20]                        %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 21]                       %! SM4
+        % [A ViolinMusicVoice measure 21]                        %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9596,7 +9596,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 22]                       %! SM4
+        % [A ViolinMusicVoice measure 22]                        %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9611,7 +9611,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 23]                       %! SM4
+        % [A ViolinMusicVoice measure 23]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -9625,7 +9625,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 24]                       %! SM4
+        % [A ViolinMusicVoice measure 24]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9641,7 +9641,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 25]                       %! SM4
+        % [A ViolinMusicVoice measure 25]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''4
@@ -9663,7 +9663,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 26]                       %! SM4
+        % [A ViolinMusicVoice measure 26]                        %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9678,7 +9678,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 27]                       %! SM4
+        % [A ViolinMusicVoice measure 27]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -9691,13 +9691,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 28]                       %! SM4
+        % [A ViolinMusicVoice measure 28]                        %! SM4
         r2.
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 29]                       %! SM4
+        % [A ViolinMusicVoice measure 29]                        %! SM4
         r2
         
         r8
@@ -9710,14 +9710,14 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 30]                       %! SM4
+        % [A ViolinMusicVoice measure 30]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r1
         \f                                                       %! HC1
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 31]                       %! SM4
+        % [A ViolinMusicVoice measure 31]                        %! SM4
         r1
         
         r4
@@ -9734,7 +9734,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 32]                       %! SM4
+        % [A ViolinMusicVoice measure 32]                        %! SM4
         r2.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9749,13 +9749,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 33]                       %! SM4
+        % [A ViolinMusicVoice measure 33]                        %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 34]                       %! SM4
+        % [A ViolinMusicVoice measure 34]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
@@ -9768,13 +9768,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 35]                       %! SM4
+        % [A ViolinMusicVoice measure 35]                        %! SM4
         r2.
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 36]                       %! SM4
+        % [A ViolinMusicVoice measure 36]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9798,13 +9798,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 37]                       %! SM4
+        % [A ViolinMusicVoice measure 37]                        %! SM4
         r2
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 38]                       %! SM4
+        % [A ViolinMusicVoice measure 38]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9819,13 +9819,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 39]                       %! SM4
+        % [A ViolinMusicVoice measure 39]                        %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 40]                       %! SM4
+        % [A ViolinMusicVoice measure 40]                        %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9836,14 +9836,14 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 41]                       %! SM4
+        % [A ViolinMusicVoice measure 41]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2.
         \mf                                                      %! HC1
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 42]                       %! SM4
+        % [A ViolinMusicVoice measure 42]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9869,7 +9869,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 43]                       %! SM4
+        % [A ViolinMusicVoice measure 43]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9884,7 +9884,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 44]                       %! SM4
+        % [A ViolinMusicVoice measure 44]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9908,7 +9908,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 45]                       %! SM4
+        % [A ViolinMusicVoice measure 45]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9923,7 +9923,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 46]                       %! SM4
+        % [A ViolinMusicVoice measure 46]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''8
@@ -9945,12 +9945,12 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 47]                       %! SM4
+        % [A ViolinMusicVoice measure 47]                        %! SM4
         r2
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 48]                       %! SM4
+        % [A ViolinMusicVoice measure 48]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'''4
@@ -9972,7 +9972,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 49]                       %! SM4
+        % [A ViolinMusicVoice measure 49]                        %! SM4
         r2..
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -9983,7 +9983,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 50]                       %! SM4
+        % [A ViolinMusicVoice measure 50]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
         \pp                                                      %! HC1
@@ -10000,12 +10000,12 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 51]                       %! SM4
+        % [A ViolinMusicVoice measure 51]                        %! SM4
         r2.
     }
     \times 2/3 {
         
-        % [A1 ViolinMusicVoice measure 52]                       %! SM4
+        % [A ViolinMusicVoice measure 52]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10020,7 +10020,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 53]                       %! SM4
+        % [A ViolinMusicVoice measure 53]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10035,7 +10035,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 54]                       %! SM4
+        % [A ViolinMusicVoice measure 54]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10059,13 +10059,13 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 55]                       %! SM4
+        % [A ViolinMusicVoice measure 55]                        %! SM4
         r1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 56]                       %! SM4
+        % [A ViolinMusicVoice measure 56]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10080,7 +10080,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 57]                       %! SM4
+        % [A ViolinMusicVoice measure 57]                        %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10094,7 +10094,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolinMusicVoice measure 58]                       %! SM4
+        % [A ViolinMusicVoice measure 58]                        %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10105,7 +10105,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 59]                       %! SM4
+        % [A ViolinMusicVoice measure 59]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r2
         \f                                                       %! HC1
@@ -10122,7 +10122,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 60]                       %! SM4
+        % [A ViolinMusicVoice measure 60]                        %! SM4
         r2
         
         r8
@@ -10139,7 +10139,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 61]                       %! SM4
+        % [A ViolinMusicVoice measure 61]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -10160,7 +10160,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolinMusicVoice measure 62]                       %! SM4
+        % [A ViolinMusicVoice measure 62]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -10173,7 +10173,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 63]                       %! SM4
+        % [A ViolinMusicVoice measure 63]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10197,7 +10197,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 64]                       %! SM4
+        % [A ViolinMusicVoice measure 64]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
@@ -10210,7 +10210,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 65]                       %! SM4
+        % [A ViolinMusicVoice measure 65]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -10232,7 +10232,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 66]                       %! SM4
+        % [A ViolinMusicVoice measure 66]                        %! SM4
         r4.
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10247,7 +10247,7 @@ A_a_ViolinMusicVoice = {
         r8
     }
     
-    % [A1 ViolinMusicVoice measure 67]                           %! SM4
+    % [A ViolinMusicVoice measure 67]                            %! SM4
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -10349,7 +10349,7 @@ A_a_ViolinMusicVoice = {
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
-    % [A1 ViolinMusicVoice measure 68]                           %! SM4
+    % [A ViolinMusicVoice measure 68]                            %! SM4
     r8
     
     \once \override Accidental.color = #red
@@ -10447,7 +10447,7 @@ A_a_ViolinMusicVoice = {
     
     r16
     
-    % [A1 ViolinMusicVoice measure 69]                           %! SM4
+    % [A ViolinMusicVoice measure 69]                            %! SM4
     r16
     
     \once \override Accidental.color = #red
@@ -10505,16 +10505,16 @@ A_a_ViolinMusicVoice = {
     
     r4
     
-    % [A1 ViolinMusicVoice measure 70]                           %! SM4
+    % [A ViolinMusicVoice measure 70]                            %! SM4
     r1
     
-    % [A1 ViolinMusicVoice measure 71]                           %! SM4
+    % [A ViolinMusicVoice measure 71]                            %! SM4
     r2
     
-    % [A1 ViolinMusicVoice measure 72]                           %! SM4
+    % [A ViolinMusicVoice measure 72]                            %! SM4
     r1
     
-    % [A1 ViolinMusicVoice measure 73]                           %! SM4
+    % [A ViolinMusicVoice measure 73]                            %! SM4
     r16
     
     \once \override Accidental.color = #red
@@ -10612,7 +10612,7 @@ A_a_ViolinMusicVoice = {
     
     r8
     
-    % [A1 ViolinMusicVoice measure 74]                           %! SM4
+    % [A ViolinMusicVoice measure 74]                            %! SM4
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -10700,7 +10700,7 @@ A_a_ViolinMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        % [A1 ViolinMusicVoice measure 75]                       %! SM4
+        % [A ViolinMusicVoice measure 75]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -10718,7 +10718,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 76]                       %! SM4
+        % [A ViolinMusicVoice measure 76]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -10740,7 +10740,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 77]                       %! SM4
+        % [A ViolinMusicVoice measure 77]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10760,7 +10760,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 78]                       %! SM4
+        % [A ViolinMusicVoice measure 78]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
         \f                                                       %! HC1
@@ -10785,7 +10785,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 79]                       %! SM4
+        % [A ViolinMusicVoice measure 79]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -10805,7 +10805,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 80]                       %! SM4
+        % [A ViolinMusicVoice measure 80]                        %! SM4
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4.
         \f                                                       %! HC1
@@ -10822,7 +10822,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 81]                       %! SM4
+        % [A ViolinMusicVoice measure 81]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10836,7 +10836,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolinMusicVoice measure 82]                       %! SM4
+        % [A ViolinMusicVoice measure 82]                        %! SM4
         r4
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10851,7 +10851,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 83]                       %! SM4
+        % [A ViolinMusicVoice measure 83]                        %! SM4
         r2
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -10866,7 +10866,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 84]                       %! SM4
+        % [A ViolinMusicVoice measure 84]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
@@ -10895,7 +10895,7 @@ A_a_ViolinMusicVoice = {
         \f                                                       %! HC1
     }
     
-    % [A1 ViolinMusicVoice measure 85]                           %! SM4
+    % [A ViolinMusicVoice measure 85]                            %! SM4
     r8
     
     \once \override Accidental.color = #red
@@ -10955,7 +10955,7 @@ A_a_ViolinMusicVoice = {
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
-    % [A1 ViolinMusicVoice measure 86]                           %! SM4
+    % [A ViolinMusicVoice measure 86]                            %! SM4
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -11033,7 +11033,7 @@ A_a_ViolinMusicVoice = {
     
     r16
     
-    % [A1 ViolinMusicVoice measure 87]                           %! SM4
+    % [A ViolinMusicVoice measure 87]                            %! SM4
     r16
     
     \once \override Accidental.color = #red
@@ -11089,16 +11089,16 @@ A_a_ViolinMusicVoice = {
     
     r2
     
-    % [A1 ViolinMusicVoice measure 88]                           %! SM4
+    % [A ViolinMusicVoice measure 88]                            %! SM4
     r2
     
-    % [A1 ViolinMusicVoice measure 89]                           %! SM4
+    % [A ViolinMusicVoice measure 89]                            %! SM4
     r2.
     
-    % [A1 ViolinMusicVoice measure 90]                           %! SM4
+    % [A ViolinMusicVoice measure 90]                            %! SM4
     r1
     
-    % [A1 ViolinMusicVoice measure 91]                           %! SM4
+    % [A ViolinMusicVoice measure 91]                            %! SM4
     r4.
     
     \once \override Accidental.color = #red
@@ -11143,7 +11143,7 @@ A_a_ViolinMusicVoice = {
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
-    % [A1 ViolinMusicVoice measure 92]                           %! SM4
+    % [A ViolinMusicVoice measure 92]                            %! SM4
     \once \override Accidental.color = #red
     \once \override Beam.color = #red
     \once \override Dots.color = #red
@@ -11254,7 +11254,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [A1 ViolinMusicVoice measure 93]                       %! SM4
+        % [A ViolinMusicVoice measure 93]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -11280,7 +11280,7 @@ A_a_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [A1 ViolinMusicVoice measure 94]                       %! SM4
+        % [A ViolinMusicVoice measure 94]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''4
@@ -11302,7 +11302,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 95]                       %! SM4
+        % [A ViolinMusicVoice measure 95]                        %! SM4
         r8
         
         \once \override Hairpin.circled-tip = ##t                %! HC1
@@ -11317,7 +11317,7 @@ A_a_ViolinMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        % [A1 ViolinMusicVoice measure 96]                       %! SM4
+        % [A ViolinMusicVoice measure 96]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''8
@@ -11349,15 +11349,15 @@ A_a_ViolinMusicVoice = {
 }
 
 
-A_a_ViolinMusicStaff = {
+A_ViolinMusicStaff = {
     \context ViolinMusicVoice = "ViolinMusicVoice"
-    \A_a_ViolinMusicVoice
+    \A_ViolinMusicVoice
 }
 
 
-A_a_ViolaMusicVoice = {
+A_ViolaMusicVoice = {
     
-    % [A1 ViolaMusicVoice measure 5]                             %! SM4
+    % [A ViolaMusicVoice measure 5]                              %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11440,62 +11440,62 @@ A_a_ViolaMusicVoice = {
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [A1 ViolaMusicVoice measure 6]                             %! SM4
+    % [A ViolaMusicVoice measure 6]                              %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 7]                             %! SM4
+    % [A ViolaMusicVoice measure 7]                              %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 8]                             %! SM4
+    % [A ViolaMusicVoice measure 8]                              %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 9]                             %! SM4
+    % [A ViolaMusicVoice measure 9]                              %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 10]                            %! SM4
+    % [A ViolaMusicVoice measure 10]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 11]                            %! SM4
+    % [A ViolaMusicVoice measure 11]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 12]                            %! SM4
+    % [A ViolaMusicVoice measure 12]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 13]                            %! SM4
+    % [A ViolaMusicVoice measure 13]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 14]                            %! SM4
+    % [A ViolaMusicVoice measure 14]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 15]                            %! SM4
+    % [A ViolaMusicVoice measure 15]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 16]                            %! SM4
+    % [A ViolaMusicVoice measure 16]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 17]                            %! SM4
+    % [A ViolaMusicVoice measure 17]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11536,22 +11536,22 @@ A_a_ViolaMusicVoice = {
     \stopTextSpan                                                %! PCW1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 18]                            %! SM4
+    % [A ViolaMusicVoice measure 18]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 19]                            %! SM4
+    % [A ViolaMusicVoice measure 19]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 20]                            %! SM4
+    % [A ViolaMusicVoice measure 20]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 21]                            %! SM4
+    % [A ViolaMusicVoice measure 21]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11593,54 +11593,54 @@ A_a_ViolaMusicVoice = {
     \pp                                                          %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 22]                            %! SM4
+    % [A ViolaMusicVoice measure 22]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 23]                            %! SM4
+    % [A ViolaMusicVoice measure 23]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 24]                            %! SM4
+    % [A ViolaMusicVoice measure 24]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 25]                            %! SM4
+    % [A ViolaMusicVoice measure 25]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 26]                            %! SM4
+    % [A ViolaMusicVoice measure 26]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 27]                            %! SM4
+    % [A ViolaMusicVoice measure 27]                             %! SM4
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d2
     :32                                                          %! IC
     \repeatTie
     \mp                                                          %! HC1
     
-    % [A1 ViolaMusicVoice measure 28]                            %! SM4
+    % [A ViolaMusicVoice measure 28]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 29]                            %! SM4
+    % [A ViolaMusicVoice measure 29]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 30]                            %! SM4
+    % [A ViolaMusicVoice measure 30]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 31]                            %! SM4
+    % [A ViolaMusicVoice measure 31]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11681,22 +11681,22 @@ A_a_ViolaMusicVoice = {
     \stopTextSpan                                                %! PCW1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 32]                            %! SM4
+    % [A ViolaMusicVoice measure 32]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 33]                            %! SM4
+    % [A ViolaMusicVoice measure 33]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 34]                            %! SM4
+    % [A ViolaMusicVoice measure 34]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 35]                            %! SM4
+    % [A ViolaMusicVoice measure 35]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11738,54 +11738,54 @@ A_a_ViolaMusicVoice = {
     \pp                                                          %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 36]                            %! SM4
+    % [A ViolaMusicVoice measure 36]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 37]                            %! SM4
+    % [A ViolaMusicVoice measure 37]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 38]                            %! SM4
+    % [A ViolaMusicVoice measure 38]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 39]                            %! SM4
+    % [A ViolaMusicVoice measure 39]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 40]                            %! SM4
+    % [A ViolaMusicVoice measure 40]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 41]                            %! SM4
+    % [A ViolaMusicVoice measure 41]                             %! SM4
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d2.
     :32                                                          %! IC
     \repeatTie
     \mp                                                          %! HC1
     
-    % [A1 ViolaMusicVoice measure 42]                            %! SM4
+    % [A ViolaMusicVoice measure 42]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 43]                            %! SM4
+    % [A ViolaMusicVoice measure 43]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 44]                            %! SM4
+    % [A ViolaMusicVoice measure 44]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 45]                            %! SM4
+    % [A ViolaMusicVoice measure 45]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11826,32 +11826,32 @@ A_a_ViolaMusicVoice = {
     \stopTextSpan                                                %! PCW1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 46]                            %! SM4
+    % [A ViolaMusicVoice measure 46]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 47]                            %! SM4
+    % [A ViolaMusicVoice measure 47]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 48]                            %! SM4
+    % [A ViolaMusicVoice measure 48]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 49]                            %! SM4
+    % [A ViolaMusicVoice measure 49]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 50]                            %! SM4
+    % [A ViolaMusicVoice measure 50]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 51]                            %! SM4
+    % [A ViolaMusicVoice measure 51]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11893,54 +11893,54 @@ A_a_ViolaMusicVoice = {
     \pp                                                          %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 52]                            %! SM4
+    % [A ViolaMusicVoice measure 52]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 53]                            %! SM4
+    % [A ViolaMusicVoice measure 53]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 54]                            %! SM4
+    % [A ViolaMusicVoice measure 54]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 55]                            %! SM4
+    % [A ViolaMusicVoice measure 55]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 56]                            %! SM4
+    % [A ViolaMusicVoice measure 56]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 57]                            %! SM4
+    % [A ViolaMusicVoice measure 57]                             %! SM4
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d2.
     :32                                                          %! IC
     \repeatTie
     \mp                                                          %! HC1
     
-    % [A1 ViolaMusicVoice measure 58]                            %! SM4
+    % [A ViolaMusicVoice measure 58]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 59]                            %! SM4
+    % [A ViolaMusicVoice measure 59]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 60]                            %! SM4
+    % [A ViolaMusicVoice measure 60]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 61]                            %! SM4
+    % [A ViolaMusicVoice measure 61]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -11981,33 +11981,33 @@ A_a_ViolaMusicVoice = {
     \stopTextSpan                                                %! PCW1
     \startTextSpan                                               %! PCW1
     
-    % [A1 ViolaMusicVoice measure 62]                            %! SM4
+    % [A ViolaMusicVoice measure 62]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 63]                            %! SM4
+    % [A ViolaMusicVoice measure 63]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 64]                            %! SM4
+    % [A ViolaMusicVoice measure 64]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 65]                            %! SM4
+    % [A ViolaMusicVoice measure 65]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 66]                            %! SM4
+    % [A ViolaMusicVoice measure 66]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 67]                        %! SM4
+        % [A ViolaMusicVoice measure 67]                         %! SM4
         r4
         \stopTextSpan                                            %! PCW1
         
@@ -12081,7 +12081,7 @@ A_a_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 68]                        %! SM4
+        % [A ViolaMusicVoice measure 68]                         %! SM4
         r4
         
         \once \override Accidental.color = #red
@@ -12152,7 +12152,7 @@ A_a_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 69]                        %! SM4
+        % [A ViolaMusicVoice measure 69]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -12191,17 +12191,17 @@ A_a_ViolaMusicVoice = {
     
     r4
     
-    % [A1 ViolaMusicVoice measure 70]                            %! SM4
+    % [A ViolaMusicVoice measure 70]                             %! SM4
     r1
     
-    % [A1 ViolaMusicVoice measure 71]                            %! SM4
+    % [A ViolaMusicVoice measure 71]                             %! SM4
     r2
     
-    % [A1 ViolaMusicVoice measure 72]                            %! SM4
+    % [A ViolaMusicVoice measure 72]                             %! SM4
     r1
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 73]                        %! SM4
+        % [A ViolaMusicVoice measure 73]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -12290,7 +12290,7 @@ A_a_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 74]                        %! SM4
+        % [A ViolaMusicVoice measure 74]                         %! SM4
         r4
         
         \once \override Accidental.color = #red
@@ -12347,7 +12347,7 @@ A_a_ViolaMusicVoice = {
         ^ \markup { @ }                                          %! SM14
     }
     
-    % [A1 ViolaMusicVoice measure 75]                            %! SM4
+    % [A ViolaMusicVoice measure 75]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -12393,56 +12393,56 @@ A_a_ViolaMusicVoice = {
                 XFB                                              %! IC
         }                                                        %! IC
     
-    % [A1 ViolaMusicVoice measure 76]                            %! SM4
+    % [A ViolaMusicVoice measure 76]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 77]                            %! SM4
+    % [A ViolaMusicVoice measure 77]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 78]                            %! SM4
+    % [A ViolaMusicVoice measure 78]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 79]                            %! SM4
+    % [A ViolaMusicVoice measure 79]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 80]                            %! SM4
+    % [A ViolaMusicVoice measure 80]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 81]                            %! SM4
+    % [A ViolaMusicVoice measure 81]                             %! SM4
     \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d2
     :32                                                          %! IC
     \repeatTie
     \mp                                                          %! HC1
     
-    % [A1 ViolaMusicVoice measure 82]                            %! SM4
+    % [A ViolaMusicVoice measure 82]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 83]                            %! SM4
+    % [A ViolaMusicVoice measure 83]                             %! SM4
     d2.
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 84]                            %! SM4
+    % [A ViolaMusicVoice measure 84]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     \stopTextSpan                                                %! PCW1
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 85]                        %! SM4
+        % [A ViolaMusicVoice measure 85]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -12506,7 +12506,7 @@ A_a_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 86]                        %! SM4
+        % [A ViolaMusicVoice measure 86]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -12564,7 +12564,7 @@ A_a_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 87]                        %! SM4
+        % [A ViolaMusicVoice measure 87]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -12614,16 +12614,16 @@ A_a_ViolaMusicVoice = {
     
     r2
     
-    % [A1 ViolaMusicVoice measure 88]                            %! SM4
+    % [A ViolaMusicVoice measure 88]                             %! SM4
     r2
     
-    % [A1 ViolaMusicVoice measure 89]                            %! SM4
+    % [A ViolaMusicVoice measure 89]                             %! SM4
     r2.
     
-    % [A1 ViolaMusicVoice measure 90]                            %! SM4
+    % [A ViolaMusicVoice measure 90]                             %! SM4
     r1
     
-    % [A1 ViolaMusicVoice measure 91]                            %! SM4
+    % [A ViolaMusicVoice measure 91]                             %! SM4
     r4
     \times 2/3 {
         
@@ -12671,7 +12671,7 @@ A_a_ViolaMusicVoice = {
     }
     \times 2/3 {
         
-        % [A1 ViolaMusicVoice measure 92]                        %! SM4
+        % [A ViolaMusicVoice measure 92]                         %! SM4
         \once \override Accidental.color = #red
         \once \override Beam.color = #red
         \once \override Dots.color = #red
@@ -12756,7 +12756,7 @@ A_a_ViolaMusicVoice = {
         r8
     }
     
-    % [A1 ViolaMusicVoice measure 93]                            %! SM4
+    % [A ViolaMusicVoice measure 93]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -12801,17 +12801,17 @@ A_a_ViolaMusicVoice = {
                 XFB                                              %! IC
         }                                                        %! IC
     
-    % [A1 ViolaMusicVoice measure 94]                            %! SM4
+    % [A ViolaMusicVoice measure 94]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 95]                            %! SM4
+    % [A ViolaMusicVoice measure 95]                             %! SM4
     d2
     :32                                                          %! IC
     \repeatTie
     
-    % [A1 ViolaMusicVoice measure 96]                            %! SM4
+    % [A ViolaMusicVoice measure 96]                             %! SM4
     d1
     :32                                                          %! IC
     \repeatTie
@@ -12820,15 +12820,15 @@ A_a_ViolaMusicVoice = {
 }
 
 
-A_a_ViolaMusicStaff = {
+A_ViolaMusicStaff = {
     \context ViolaMusicVoice = "ViolaMusicVoice"
-    \A_a_ViolaMusicVoice
+    \A_ViolaMusicVoice
 }
 
 
-A_a_CelloMusicVoice = {
+A_CelloMusicVoice = {
     
-    % [A1 CelloMusicVoice measure 5]                             %! SM4
+    % [A CelloMusicVoice measure 5]                              %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -12899,94 +12899,94 @@ A_a_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
-    % [A1 CelloMusicVoice measure 6]                             %! SM4
+    % [A CelloMusicVoice measure 6]                              %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 7]                             %! SM4
+    % [A CelloMusicVoice measure 7]                              %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 8]                             %! SM4
+    % [A CelloMusicVoice measure 8]                              %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 9]                             %! SM4
+    % [A CelloMusicVoice measure 9]                              %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 10]                            %! SM4
+    % [A CelloMusicVoice measure 10]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 11]                            %! SM4
+    % [A CelloMusicVoice measure 11]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 12]                            %! SM4
+    % [A CelloMusicVoice measure 12]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 13]                            %! SM4
+    % [A CelloMusicVoice measure 13]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 14]                            %! SM4
+    % [A CelloMusicVoice measure 14]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 15]                            %! SM4
+    % [A CelloMusicVoice measure 15]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 16]                            %! SM4
+    % [A CelloMusicVoice measure 16]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 17]                            %! SM4
+    % [A CelloMusicVoice measure 17]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 18]                            %! SM4
+    % [A CelloMusicVoice measure 18]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 19]                            %! SM4
+    % [A CelloMusicVoice measure 19]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 20]                            %! SM4
+    % [A CelloMusicVoice measure 20]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 21]                            %! SM4
+    % [A CelloMusicVoice measure 21]                             %! SM4
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d,2.
     \repeatTie
     \f                                                           %! HC1
     \stopTextSpan                                                %! PCW1
     
-    % [A1 CelloMusicVoice measure 22]                            %! SM4
+    % [A CelloMusicVoice measure 22]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 23]                            %! SM4
+    % [A CelloMusicVoice measure 23]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 24]                            %! SM4
+    % [A CelloMusicVoice measure 24]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 25]                            %! SM4
+    % [A CelloMusicVoice measure 25]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 26]                            %! SM4
+    % [A CelloMusicVoice measure 26]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 27]                            %! SM4
+    % [A CelloMusicVoice measure 27]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -13026,102 +13026,102 @@ A_a_CelloMusicVoice = {
     \f                                                           %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 CelloMusicVoice measure 28]                            %! SM4
+    % [A CelloMusicVoice measure 28]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 29]                            %! SM4
+    % [A CelloMusicVoice measure 29]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 30]                            %! SM4
+    % [A CelloMusicVoice measure 30]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 31]                            %! SM4
+    % [A CelloMusicVoice measure 31]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 32]                            %! SM4
+    % [A CelloMusicVoice measure 32]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 33]                            %! SM4
+    % [A CelloMusicVoice measure 33]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 34]                            %! SM4
+    % [A CelloMusicVoice measure 34]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 35]                            %! SM4
+    % [A CelloMusicVoice measure 35]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 36]                            %! SM4
+    % [A CelloMusicVoice measure 36]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 37]                            %! SM4
+    % [A CelloMusicVoice measure 37]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 38]                            %! SM4
+    % [A CelloMusicVoice measure 38]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 39]                            %! SM4
+    % [A CelloMusicVoice measure 39]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 40]                            %! SM4
+    % [A CelloMusicVoice measure 40]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 41]                            %! SM4
+    % [A CelloMusicVoice measure 41]                             %! SM4
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d,2.
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PCW1
     
-    % [A1 CelloMusicVoice measure 42]                            %! SM4
+    % [A CelloMusicVoice measure 42]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 43]                            %! SM4
+    % [A CelloMusicVoice measure 43]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 44]                            %! SM4
+    % [A CelloMusicVoice measure 44]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 45]                            %! SM4
+    % [A CelloMusicVoice measure 45]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 46]                            %! SM4
+    % [A CelloMusicVoice measure 46]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 47]                            %! SM4
+    % [A CelloMusicVoice measure 47]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 48]                            %! SM4
+    % [A CelloMusicVoice measure 48]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 49]                            %! SM4
+    % [A CelloMusicVoice measure 49]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 50]                            %! SM4
+    % [A CelloMusicVoice measure 50]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 51]                            %! SM4
+    % [A CelloMusicVoice measure 51]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -13161,70 +13161,70 @@ A_a_CelloMusicVoice = {
     \p                                                           %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 CelloMusicVoice measure 52]                            %! SM4
+    % [A CelloMusicVoice measure 52]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 53]                            %! SM4
+    % [A CelloMusicVoice measure 53]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 54]                            %! SM4
+    % [A CelloMusicVoice measure 54]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 55]                            %! SM4
+    % [A CelloMusicVoice measure 55]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 56]                            %! SM4
+    % [A CelloMusicVoice measure 56]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 57]                            %! SM4
+    % [A CelloMusicVoice measure 57]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 58]                            %! SM4
+    % [A CelloMusicVoice measure 58]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 59]                            %! SM4
+    % [A CelloMusicVoice measure 59]                             %! SM4
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d,2.
     \repeatTie
     \ff                                                          %! HC1
     \stopTextSpan                                                %! PCW1
     
-    % [A1 CelloMusicVoice measure 60]                            %! SM4
+    % [A CelloMusicVoice measure 60]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 61]                            %! SM4
+    % [A CelloMusicVoice measure 61]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 62]                            %! SM4
+    % [A CelloMusicVoice measure 62]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 63]                            %! SM4
+    % [A CelloMusicVoice measure 63]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 64]                            %! SM4
+    % [A CelloMusicVoice measure 64]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 65]                            %! SM4
+    % [A CelloMusicVoice measure 65]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 66]                            %! SM4
+    % [A CelloMusicVoice measure 66]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 67]                            %! SM4
+    % [A CelloMusicVoice measure 67]                             %! SM4
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d,2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
@@ -13235,35 +13235,35 @@ A_a_CelloMusicVoice = {
                 "(poco pont.+) sub. non vib."                    %! IC
         }                                                        %! IC
     
-    % [A1 CelloMusicVoice measure 68]                            %! SM4
+    % [A CelloMusicVoice measure 68]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 69]                            %! SM4
+    % [A CelloMusicVoice measure 69]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 70]                            %! SM4
+    % [A CelloMusicVoice measure 70]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 71]                            %! SM4
+    % [A CelloMusicVoice measure 71]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 72]                            %! SM4
+    % [A CelloMusicVoice measure 72]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 73]                            %! SM4
+    % [A CelloMusicVoice measure 73]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 74]                            %! SM4
+    % [A CelloMusicVoice measure 74]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 75]                            %! SM4
+    % [A CelloMusicVoice measure 75]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -13303,43 +13303,43 @@ A_a_CelloMusicVoice = {
     \ff                                                          %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 CelloMusicVoice measure 76]                            %! SM4
+    % [A CelloMusicVoice measure 76]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 77]                            %! SM4
+    % [A CelloMusicVoice measure 77]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 78]                            %! SM4
+    % [A CelloMusicVoice measure 78]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 79]                            %! SM4
+    % [A CelloMusicVoice measure 79]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 80]                            %! SM4
+    % [A CelloMusicVoice measure 80]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 81]                            %! SM4
+    % [A CelloMusicVoice measure 81]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 82]                            %! SM4
+    % [A CelloMusicVoice measure 82]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 83]                            %! SM4
+    % [A CelloMusicVoice measure 83]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 84]                            %! SM4
+    % [A CelloMusicVoice measure 84]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 85]                            %! SM4
+    % [A CelloMusicVoice measure 85]                             %! SM4
     \once \override TextSpanner.Y-extent = ##f                   %! PCW1
     \once \override TextSpanner.arrow-width = 0.25               %! PCW1
     \once \override TextSpanner.bound-details.left-broken.text = ##f %! PCW1
@@ -13382,57 +13382,57 @@ A_a_CelloMusicVoice = {
     \pp                                                          %! HC1
     \startTextSpan                                               %! PCW1
     
-    % [A1 CelloMusicVoice measure 86]                            %! SM4
+    % [A CelloMusicVoice measure 86]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 87]                            %! SM4
+    % [A CelloMusicVoice measure 87]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 88]                            %! SM4
+    % [A CelloMusicVoice measure 88]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 89]                            %! SM4
+    % [A CelloMusicVoice measure 89]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 90]                            %! SM4
+    % [A CelloMusicVoice measure 90]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 91]                            %! SM4
+    % [A CelloMusicVoice measure 91]                             %! SM4
     d,2.
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 92]                            %! SM4
+    % [A CelloMusicVoice measure 92]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 93]                            %! SM4
+    % [A CelloMusicVoice measure 93]                             %! SM4
     \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d,2.
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PCW1
     
-    % [A1 CelloMusicVoice measure 94]                            %! SM4
+    % [A CelloMusicVoice measure 94]                             %! SM4
     d,1
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 95]                            %! SM4
+    % [A CelloMusicVoice measure 95]                             %! SM4
     d,2
     \repeatTie
     
-    % [A1 CelloMusicVoice measure 96]                            %! SM4
+    % [A CelloMusicVoice measure 96]                             %! SM4
     d,1
     \repeatTie
     
 }
 
 
-A_a_CelloMusicStaff = {
+A_CelloMusicStaff = {
     \context CelloMusicVoice = "CelloMusicVoice"
-    \A_a_CelloMusicVoice
+    \A_CelloMusicVoice
 }
