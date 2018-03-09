@@ -3032,20 +3032,12 @@ F_FluteMusicVoice = {
     \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Bass                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    flute                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bass flute"                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \line                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    B.                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    fl.                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "B. fl."                                             %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override FluteMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -3065,20 +3057,12 @@ F_FluteMusicVoice = {
     \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Bass                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    flute                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bass flute"                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \line                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    B.                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    fl.                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "B. fl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     % [F FluteMusicVoice measure 430]                            %! SM4
@@ -3401,20 +3385,12 @@ F_EnglishHornMusicVoice = {
         \set EnglishHornMusicStaff.instrumentName = \markup {    %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                \center-column                                   %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    {                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
-                        English                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-                        horn                                     %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    }                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
+                "English horn"                                   %! SM8:REAPPLIED_INSTRUMENT:SM37
             }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
         \set EnglishHornMusicStaff.shortInstrumentName = \markup { %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
-                \line                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    {                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
-                        Eng.                                     %! SM8:REAPPLIED_INSTRUMENT:SM37
-                        hn.                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    }                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
+                "Eng. hn."                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
             }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
         \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
         \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -3437,20 +3413,12 @@ F_EnglishHornMusicVoice = {
         \set EnglishHornMusicStaff.instrumentName = \markup {    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                \center-column                                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    {                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                        English                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                        horn                                     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    }                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+                "English horn"                                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \set EnglishHornMusicStaff.shortInstrumentName = \markup { %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                \line                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    {                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                        Eng.                                     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                        hn.                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    }                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+                "Eng. hn."                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         
         \makeBlue                                                %! SM24
@@ -4750,20 +4718,12 @@ F_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \center-column                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    Bass                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    clarinet                                     %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "Bass clarinet"                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
-            \line                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                {                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    B.                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
-                    cl.                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
-                }                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
+            "B. cl."                                             %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
@@ -4783,20 +4743,12 @@ F_ClarinetMusicVoice = {
     \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \center-column                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    Bass                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    clarinet                                     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "Bass clarinet"                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-            \line                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                {                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    B.                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                    cl.                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-                }                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+            "B. cl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
     
     % [F ClarinetMusicVoice measure 430]                         %! SM4
