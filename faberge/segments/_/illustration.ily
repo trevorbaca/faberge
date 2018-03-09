@@ -355,20 +355,12 @@ i_EnglishHornMusicVoice = {
     \set EnglishHornMusicStaff.instrumentName = \markup {        %! SM8:DEFAULT_INSTRUMENT:ST1
         \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
             #16                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            \center-column                                       %! SM8:DEFAULT_INSTRUMENT:ST1
-                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                    English                                      %! SM8:DEFAULT_INSTRUMENT:ST1
-                    horn                                         %! SM8:DEFAULT_INSTRUMENT:ST1
-                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+            "English horn"                                       %! SM8:DEFAULT_INSTRUMENT:ST1
         }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
     \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! SM8:DEFAULT_INSTRUMENT:ST1
         \hcenter-in                                              %! SM8:DEFAULT_INSTRUMENT:ST1
             #10                                                  %! SM8:DEFAULT_INSTRUMENT:ST1
-            \line                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                {                                                %! SM8:DEFAULT_INSTRUMENT:ST1
-                    Eng.                                         %! SM8:DEFAULT_INSTRUMENT:ST1
-                    hn.                                          %! SM8:DEFAULT_INSTRUMENT:ST1
-                }                                                %! SM8:DEFAULT_INSTRUMENT:ST1
+            "Eng. hn."                                           %! SM8:DEFAULT_INSTRUMENT:ST1
         }                                                        %! SM8:DEFAULT_INSTRUMENT:ST1
     \clef "treble"                                               %! SM8:DEFAULT_CLEF:ST3
     \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_INSTRUMENT_COLOR:ST1
@@ -385,20 +377,12 @@ i_EnglishHornMusicVoice = {
     \set EnglishHornMusicStaff.instrumentName = \markup {        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
             #16                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            \center-column                                       %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    English                                      %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    horn                                         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            "English horn"                                       %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     \set EnglishHornMusicStaff.shortInstrumentName = \markup {   %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         \hcenter-in                                              %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
             #10                                                  %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-            \line                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                {                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    Eng.                                         %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                    hn.                                          %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
-                }                                                %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
+            "Eng. hn."                                           %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
         }                                                        %! SM8:REDRAWN_DEFAULT_INSTRUMENT:SM34:ST1
     \override EnglishHornMusicStaff.Clef.color = #(x11-color 'violet) %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     

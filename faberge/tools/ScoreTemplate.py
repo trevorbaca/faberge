@@ -63,20 +63,12 @@ class ScoreTemplate(baca.ScoreTemplate):
                             \set EnglishHornMusicStaff.instrumentName = \markup {      %! ST1
                                 \hcenter-in                                            %! ST1
                                     #16                                                %! ST1
-                                    \center-column                                     %! ST1
-                                        {                                              %! ST1
-                                            English                                    %! ST1
-                                            horn                                       %! ST1
-                                        }                                              %! ST1
+                                    "English horn"                                     %! ST1
                                 }                                                      %! ST1
                             \set EnglishHornMusicStaff.shortInstrumentName = \markup { %! ST1
                                 \hcenter-in                                            %! ST1
                                     #10                                                %! ST1
-                                    \line                                              %! ST1
-                                        {                                              %! ST1
-                                            Eng.                                       %! ST1
-                                            hn.                                        %! ST1
-                                        }                                              %! ST1
+                                    "Eng. hn."                                         %! ST1
                                 }                                                      %! ST1
                             \clef "treble" %! ST3
                             s1
