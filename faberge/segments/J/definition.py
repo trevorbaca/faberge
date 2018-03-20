@@ -34,11 +34,8 @@ spacing = baca.HorizontalSpacingSpecifier(
     )
 
 maker = baca.SegmentMaker(
-    instruments=faberge.instruments,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
-    metronome_marks=faberge.metronome_marks,
-    score_template=faberge.ScoreTemplate(),
     spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
