@@ -430,6 +430,8 @@ i_EnglishHornMusicVoice = {
         \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:EXPLICIT_STAFF_LINES:IC
         \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+        \once \override EnglishHornMusicStaff.Clef.X-extent = ##f %! OC1:MEASURE_3:SHIFTED_CLEF
+        \once \override EnglishHornMusicStaff.Clef.extra-offset = #'(-2.5 . 0) %! OC1:MEASURE_3:SHIFTED_CLEF
         \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \clef "percussion"                                       %! SM8:EXPLICIT_CLEF:IC
