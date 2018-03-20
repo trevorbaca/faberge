@@ -86,7 +86,6 @@ maker = baca.SegmentMaker(
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
     metronome_marks=faberge.metronome_marks,
-    rehearsal_mark='C',
     score_template=faberge.ScoreTemplate(),
     spacing=spacing,
     time_signatures=time_signatures,
@@ -95,9 +94,10 @@ maker = baca.SegmentMaker(
     validate_stage_count=46,
     )
 
-###############################################################################
-##################################### TIME ####################################
-###############################################################################
+maker(
+    baca.scope('GlobalSkips', (1, -1)),
+    baca.rehearsal_mark('C'),
+    )
 
 ### flute (time) ###
 
