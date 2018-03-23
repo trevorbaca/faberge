@@ -400,7 +400,7 @@ maker(
     baca.make_scopes(['PianoLHAttackVoice'], [5, 8]),
     baca.dynamic('sfz'),
     baca.marcati(),
-    baca.pitches('D#2'),
+    baca.pitch('D#2'),
     )
 
 ### percussion (color) ###
