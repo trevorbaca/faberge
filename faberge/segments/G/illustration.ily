@@ -2319,22 +2319,22 @@ G_GlobalSkips = {
 G_FluteMusicVoice = {
     
     % [G FluteMusicVoice measure 429]                            %! SM4
-    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Bass flute"                                         %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "B. fl."                                             %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override FluteMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override FluteMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set FluteMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override FluteMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override FluteMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2342,14 +2342,14 @@ G_FluteMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“BassFlute”)                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override FluteMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override FluteMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set FluteMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Bass flute"                                         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set FluteMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "B. fl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -2622,7 +2622,7 @@ G_FluteMusicVoice = {
 
 
 G_FluteMusicStaff = {
-    \context FluteMusicVoice = "FluteMusicVoice"
+    \context Voice = "FluteMusicVoice"
     \G_FluteMusicVoice
 }
 
@@ -2668,27 +2668,27 @@ G_EnglishHornMusicVoice = {
         
         % [G EnglishHornMusicVoice measure 429]                  %! SM4
         \stopStaff                                               %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \once \override EnglishHornMusicStaff.StaffSymbol.line-count = 1 %! SM8:REAPPLIED_STAFF_LINES:SM37
+        \once \override Staff.StaffSymbol.line-count = 1         %! SM8:REAPPLIED_STAFF_LINES:SM37
         \startStaff                                              %! SM8:REAPPLIED_STAFF_LINES:SM37
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
-        \set EnglishHornMusicStaff.instrumentName = \markup {    %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \set Staff.instrumentName = \markup {                    %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
                 "English horn"                                   %! SM8:REAPPLIED_INSTRUMENT:SM37
             }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-        \set EnglishHornMusicStaff.shortInstrumentName = \markup { %! SM8:REAPPLIED_INSTRUMENT:SM37
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REAPPLIED_INSTRUMENT:SM37
             \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
                 #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
                 "Eng. hn."                                       %! SM8:REAPPLIED_INSTRUMENT:SM37
             }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
         \clef "percussion"                                       %! SM8:REAPPLIED_CLEF:SM37
-        \once \override EnglishHornMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-    %@% \override EnglishHornMusicStaff.Clef.color = ##f         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-        \set EnglishHornMusicStaff.forceClef = ##t               %! SM8:REAPPLIED_CLEF:SM33:SM37
-        \once \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-        \once \override EnglishHornMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-        \once \override EnglishHornMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+        \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+    %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+        \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+        \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         \makeBlue                                                %! SM24
         g'16 * 187/32
         \effort_mf                                               %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -2698,14 +2698,14 @@ G_EnglishHornMusicVoice = {
                 #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
                 (“EnglishHorn”)                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \override EnglishHornMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-        \override EnglishHornMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-        \set EnglishHornMusicStaff.instrumentName = \markup {    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+        \set Staff.instrumentName = \markup {                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 "English horn"                                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-        \set EnglishHornMusicStaff.shortInstrumentName = \markup { %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+        \set Staff.shortInstrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
                 "Eng. hn."                                       %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -2723,7 +2723,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 71/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 63/64
         ]
@@ -2768,7 +2768,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 430]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 19/32
@@ -2783,7 +2783,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 67/32
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 225/64
         ]
@@ -2876,7 +2876,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 447]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 351/64
@@ -2885,7 +2885,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 101/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 15/16
         ]
@@ -2930,7 +2930,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 448]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 57/64
@@ -2948,7 +2948,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 11/4
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 285/64
         ]
@@ -2996,7 +2996,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 450]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 381/64
@@ -3008,7 +3008,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 3/2
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 69/64
         ]
@@ -3053,7 +3053,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 451]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 13/16
@@ -3077,7 +3077,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 223/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 151/32
         ]
@@ -3125,7 +3125,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 453]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 187/32
@@ -3143,7 +3143,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 71/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 63/64
         ]
@@ -3188,7 +3188,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 454]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 57/64
@@ -3206,7 +3206,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 11/4
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 285/64
         ]
@@ -3254,7 +3254,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 456]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 351/64
@@ -3263,7 +3263,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 101/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 15/16
         ]
@@ -3308,7 +3308,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 457]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 19/32
@@ -3323,7 +3323,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 67/32
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 225/64
         ]
@@ -3383,7 +3383,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 463]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 381/64
@@ -3395,7 +3395,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 3/2
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 69/64
         ]
@@ -3440,7 +3440,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 464]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 13/16
@@ -3464,7 +3464,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 223/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 151/32
         ]
@@ -3512,7 +3512,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 466]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 351/64
@@ -3521,7 +3521,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 101/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 15/16
         ]
@@ -3566,7 +3566,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 467]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 57/64
@@ -3584,7 +3584,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 11/4
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 285/64
         ]
@@ -3632,7 +3632,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 469]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 187/32
@@ -3650,7 +3650,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 71/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 63/64
         ]
@@ -3695,7 +3695,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 470]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 19/32
@@ -3710,7 +3710,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 67/32
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 225/64
         ]
@@ -3767,7 +3767,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 475]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 381/64
@@ -3779,7 +3779,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 3/2
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 69/64
         ]
@@ -3824,7 +3824,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 476]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 13/16
@@ -3848,7 +3848,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 223/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 151/32
         ]
@@ -3905,7 +3905,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 481]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                                %! SM24
         g'16 * 351/64
@@ -3914,7 +3914,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 101/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 15/16
         ]
@@ -3959,7 +3959,7 @@ G_EnglishHornMusicVoice = {
     \times 1/1 {
         
         % [G EnglishHornMusicVoice measure 482]                  %! SM4
-        \override EnglishHornMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                                %! SM24
         g'16 * 13/16
@@ -3983,7 +3983,7 @@ G_EnglishHornMusicVoice = {
         \makeBlue                                                %! SM24
         g'16 * 223/64
         
-        \revert EnglishHornMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
         g'16 * 151/32
         ]
@@ -3997,7 +3997,7 @@ G_EnglishHornMusicVoice = {
 
 
 G_EnglishHornMusicStaff = {
-    \context EnglishHornMusicVoice = "EnglishHornMusicVoice"
+    \context Voice = "EnglishHornMusicVoice"
     \G_EnglishHornMusicVoice
 }
 
@@ -4005,22 +4005,22 @@ G_EnglishHornMusicStaff = {
 G_ClarinetMusicVoice = {
     
     % [G ClarinetMusicVoice measure 429]                         %! SM4
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "Bass clarinet"                                      %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             "B. cl."                                             %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ClarinetMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ClarinetMusicStaff.Clef.color = ##f                %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ClarinetMusicStaff.forceClef = ##t                      %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ClarinetMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4028,14 +4028,14 @@ G_ClarinetMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“BassClarinet”)                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ClarinetMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ClarinetMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ClarinetMusicStaff.instrumentName = \markup {           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "Bass clarinet"                                      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ClarinetMusicStaff.shortInstrumentName = \markup {      %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             "B. cl."                                             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -4248,7 +4248,7 @@ G_ClarinetMusicVoice = {
 
 
 G_ClarinetMusicStaff = {
-    \context ClarinetMusicVoice = "ClarinetMusicVoice"
+    \context Voice = "ClarinetMusicVoice"
     \G_ClarinetMusicVoice
 }
 
@@ -4256,39 +4256,39 @@ G_ClarinetMusicStaff = {
 G_PianoRHMusicVoice = {
     
     % [G PianoRHMusicVoice measure 429]                      %! SM4
-    \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set StaffGroup.instrumentName = \markup {               %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             Piano                                            %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set PianoStaffGroup.shortInstrumentName = \markup {     %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set StaffGroup.shortInstrumentName = \markup {          %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             Pf.                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                    %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "treble"                                           %! SM8:REAPPLIED_CLEF:SM37
-    \once \override PianoStaffGroup.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override PianoRHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override PianoRHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set PianoRHMusicStaff.forceClef = ##t                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override StaffGroup.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     R1 * 1
     ^ \markup {                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                          %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                             %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Piano”)                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                    %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override PianoStaffGroup.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set PianoStaffGroup.instrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override StaffGroup.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set StaffGroup.instrumentName = \markup {               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Piano                                            %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set PianoStaffGroup.shortInstrumentName = \markup {     %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set StaffGroup.shortInstrumentName = \markup {          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                          %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Pf.                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \override PianoRHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
     % [G PianoRHMusicVoice measure 430]                      %! SM4
     R1 * 1/2
@@ -4427,7 +4427,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 463]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                            %! SM24
         c'16 * 381/64
@@ -4439,7 +4439,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 3/2
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 69/64
         ]
@@ -4484,7 +4484,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 464]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                            %! SM24
         c'16 * 13/16
@@ -4508,7 +4508,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 223/64
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 151/32
         ]
@@ -4556,7 +4556,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 466]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                            %! SM24
         c'16 * 351/64
@@ -4565,7 +4565,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 101/64
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 15/16
         ]
@@ -4610,7 +4610,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 467]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                            %! SM24
         c'16 * 57/64
@@ -4628,7 +4628,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 11/4
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 285/64
         ]
@@ -4676,7 +4676,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 469]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                            %! SM24
         c'16 * 187/32
@@ -4694,7 +4694,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 71/64
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 63/64
         ]
@@ -4739,7 +4739,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 470]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                            %! SM24
         c'16 * 19/32
@@ -4754,7 +4754,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 67/32
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 225/64
         ]
@@ -4811,7 +4811,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 475]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                            %! SM24
         c'16 * 381/64
@@ -4823,7 +4823,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 3/2
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 69/64
         ]
@@ -4868,7 +4868,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 476]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                            %! SM24
         c'16 * 13/16
@@ -4892,7 +4892,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 223/64
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 151/32
         ]
@@ -4949,7 +4949,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 481]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \makeBlue                                            %! SM24
         c'16 * 351/64
@@ -4958,7 +4958,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 101/64
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 15/16
         ]
@@ -5003,7 +5003,7 @@ G_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [G PianoRHMusicVoice measure 482]                  %! SM4
-        \override PianoRHMusicStaff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #left
         \makeBlue                                            %! SM24
         c'16 * 13/16
@@ -5027,7 +5027,7 @@ G_PianoRHMusicVoice = {
         \makeBlue                                            %! SM24
         c'16 * 223/64
         
-        \revert PianoRHMusicStaff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length
         \makeBlue                                            %! SM24
         c'16 * 151/32
         ]
@@ -5041,7 +5041,7 @@ G_PianoRHMusicVoice = {
 
 
 G_PianoRHMusicStaff = {
-    \context PianoRHMusicVoice = "PianoRHMusicVoice"
+    \context Voice = "PianoRHMusicVoice"
     \G_PianoRHMusicVoice
 }
 
@@ -5050,11 +5050,11 @@ G_PianoLHMusicVoice = {
     
     % [G PianoLHMusicVoice measure 429]                      %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
-    \once \override PianoLHMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override PianoLHMusicStaff.Clef.color = ##f             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set PianoLHMusicStaff.forceClef = ##t                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
     R1 * 1
-    \override PianoLHMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
     % [G PianoLHMusicVoice measure 430]                      %! SM4
     R1 * 1/2
@@ -5224,7 +5224,7 @@ G_PianoLHMusicVoice = {
 G_PianoLHAttackVoice = {
     
     % [G PianoLHAttackVoice measure 429]                     %! SM4
-    \once \override PianoLHAttackVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
     \sfz                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
     
@@ -5394,9 +5394,9 @@ G_PianoLHAttackVoice = {
 
 
 G_PianoLHMusicStaff = <<
-    \context PianoLHMusicVoice = "PianoLHMusicVoice"
+    \context Voice = "PianoLHMusicVoice"
     \G_PianoLHMusicVoice
-    \context PianoLHAttackVoice = "PianoLHAttackVoice"
+    \context Voice = "PianoLHAttackVoice"
     \G_PianoLHAttackVoice
 >>
 
@@ -5405,25 +5405,25 @@ G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 429]                       %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override PercussionMusicStaff.StaffSymbol.line-count = 2 %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 2             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \set PercussionMusicStaff.instrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Percussion                                           %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Perc.                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "percussion"                                           %! SM8:REAPPLIED_CLEF:SM37
-    \once \override PercussionMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override PercussionMusicStaff.Clef.color = ##f              %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set PercussionMusicStaff.forceClef = ##t                    %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override PercussionMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override PercussionMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     c'1
     \effort_mf                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -5432,14 +5432,14 @@ G_PercussionMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Percussion”)                                       %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override PercussionMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override PercussionMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set PercussionMusicStaff.instrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Percussion                                           %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set PercussionMusicStaff.shortInstrumentName = \markup {    %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -5666,7 +5666,7 @@ G_PercussionMusicVoice = {
 
 
 G_PercussionMusicStaff = {
-    \context PercussionMusicVoice = "PercussionMusicVoice"
+    \context Voice = "PercussionMusicVoice"
     \G_PercussionMusicVoice
 }
 
@@ -5675,25 +5675,25 @@ G_ViolinMusicVoice = {
     
     % [G ViolinMusicVoice measure 429]                           %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override ViolinMusicStaff.StaffSymbol.line-count = 1  %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \set ViolinMusicStaff.instrumentName = \markup {             %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Violin                                               %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Vn.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "percussion"                                           %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ViolinMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ViolinMusicStaff.Clef.color = ##f                  %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ViolinMusicStaff.forceClef = ##t                        %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ViolinMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override ViolinMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     c'16
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -5703,14 +5703,14 @@ G_ViolinMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Violin”)                                           %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ViolinMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ViolinMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ViolinMusicStaff.instrumentName = \markup {             %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Violin                                               %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ViolinMusicStaff.shortInstrumentName = \markup {        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -6438,7 +6438,7 @@ G_ViolinMusicVoice = {
 
 
 G_ViolinMusicStaff = {
-    \context ViolinMusicVoice = "ViolinMusicVoice"
+    \context Voice = "ViolinMusicVoice"
     \G_ViolinMusicVoice
 }
 
@@ -6447,25 +6447,25 @@ G_ViolaMusicVoice = {
     
     % [G ViolaMusicVoice measure 429]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override ViolaMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \set ViolaMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Viola                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set ViolaMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Va.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "percussion"                                           %! SM8:REAPPLIED_CLEF:SM37
-    \once \override ViolaMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override ViolaMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set ViolaMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override ViolaMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override ViolaMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     c'16
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
@@ -6475,14 +6475,14 @@ G_ViolaMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Viola”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override ViolaMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override ViolaMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set ViolaMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Viola                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set ViolaMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Va.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -7158,7 +7158,7 @@ G_ViolaMusicVoice = {
 
 
 G_ViolaMusicStaff = {
-    \context ViolaMusicVoice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"
     \G_ViolaMusicVoice
 }
 
@@ -7167,25 +7167,25 @@ G_CelloMusicVoice = {
     
     % [G CelloMusicVoice measure 429]                            %! SM4
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override CelloMusicStaff.StaffSymbol.line-count = 1   %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \set CelloMusicStaff.instrumentName = \markup {              %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #16                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Cello                                                %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! SM8:REAPPLIED_INSTRUMENT:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REAPPLIED_INSTRUMENT:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_INSTRUMENT:SM37
             #10                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
             Vc.                                                  %! SM8:REAPPLIED_INSTRUMENT:SM37
         }                                                        %! SM8:REAPPLIED_INSTRUMENT:SM37
     \clef "percussion"                                           %! SM8:REAPPLIED_CLEF:SM37
-    \once \override CelloMusicStaff.Clef.color = #(x11-color 'green4) %! SM6:REAPPLIED_CLEF_COLOR:SM37
-%@% \override CelloMusicStaff.Clef.color = ##f                   %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
-    \set CelloMusicStaff.forceClef = ##t                         %! SM8:REAPPLIED_CLEF:SM33:SM37
-    \once \override CelloMusicStaff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
-    \once \override CelloMusicStaff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
-    \once \override CelloMusicVoice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
+    \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
+%@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
+    \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_INSTRUMENT_COLOR:SM37
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
+    \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 1
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -7193,14 +7193,14 @@ G_CelloMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             (“Cello”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    \override CelloMusicStaff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
-    \override CelloMusicStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
-    \set CelloMusicStaff.instrumentName = \markup {              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_INSTRUMENT_COLOR:SM37
+    \set Staff.instrumentName = \markup {                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #16                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Cello                                                %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
-    \set CelloMusicStaff.shortInstrumentName = \markup {         %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
+    \set Staff.shortInstrumentName = \markup {                   %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
         \hcenter-in                                              %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             #10                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_INSTRUMENT:SM34:SM37
@@ -7426,6 +7426,6 @@ G_CelloMusicVoice = {
 
 
 G_CelloMusicStaff = {
-    \context CelloMusicVoice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"
     \G_CelloMusicVoice
 }
