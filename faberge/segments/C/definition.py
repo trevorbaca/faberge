@@ -689,7 +689,7 @@ maker(
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
     baca.staff_lines(1),
-    #baca.pitches('C4'),
+    #baca.pitch('C4'),
     )
 
 ### clarinet (color) ###

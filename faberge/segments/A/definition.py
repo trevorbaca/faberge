@@ -399,7 +399,7 @@ maker(
 
 maker(
     ('FluteMusicVoice', 1),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     )
 
 maker(
@@ -410,7 +410,7 @@ maker(
 
 maker(
     ('FluteMusicVoice', (2, 4)),
-    baca.pitches('F6'),
+    baca.pitch('F6'),
     )
 
 maker(
@@ -430,7 +430,7 @@ maker(
 
 maker(
     ('FluteMusicVoice', (5, 7)),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     )
 
 maker(
@@ -450,7 +450,7 @@ maker(
 
 maker(
     ('FluteMusicVoice', (8, 11)),
-    baca.pitches('F6'),
+    baca.pitch('F6'),
     )
 
 maker(
@@ -475,7 +475,7 @@ maker(
 
 maker(
     ('FluteMusicVoice', 16),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     faberge.niente_swell('p'),
     )
 
@@ -535,7 +535,7 @@ maker(
 
 maker(
     ('ClarinetMusicVoice', 1),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     faberge.markup.match_sound_of_crotales(),
     )
 
@@ -546,7 +546,7 @@ maker(
 
 maker(
     ('ClarinetMusicVoice', (2, 4)),
-    baca.pitches('F6'),
+    baca.pitch('F6'),
     )
 
 maker(
@@ -566,7 +566,7 @@ maker(
 
 maker(
     ('ClarinetMusicVoice', (5, 7)),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     )
 
 maker(
@@ -647,13 +647,13 @@ maker(
 
 maker(
     ('PercussionMusicVoice', 1),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     faberge.dal_niente_hairpins('f'),
     )
 
 maker(
     ('PercussionMusicVoice', (2, 4)),
-    baca.pitches('F4'),
+    baca.pitch('F4'),
     )
 
 maker(
@@ -673,7 +673,7 @@ maker(
 
 maker(
     ('PercussionMusicVoice', (5, 7)),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     )
 
 maker(
@@ -693,7 +693,7 @@ maker(
 
 maker(
     ('PercussionMusicVoice', (8, 11)),
-    baca.pitches('F4'),
+    baca.pitch('F4'),
     )
 
 maker(
@@ -713,13 +713,13 @@ maker(
 
 maker(
     ('PercussionMusicVoice', 12),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     faberge.dal_niente_hairpins('pp'),
     )
 
 maker(
     ('PercussionMusicVoice', (14, 15)),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     )
 
 maker(
@@ -748,7 +748,7 @@ maker(
     ('PercussionMusicVoice', 17),
     baca.clef('treble'),
     baca.laissez_vibrer(),
-    baca.pitches('F#4'),
+    baca.pitch('F#4'),
     faberge.markup.bowed_crotales(),
     faberge.dal_niente_hairpins('f'),
     )
@@ -757,14 +757,14 @@ maker(
 
 maker(
     ('ViolinMusicVoice', 1),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     faberge.markup.match_sound_of_crotales(),
     faberge.dal_niente_hairpins('f'),
     )
 
 maker(
     ('ViolinMusicVoice', (2, 4)),
-    baca.pitches('F6'),
+    baca.pitch('F6'),
     )
 
 maker(
@@ -784,7 +784,7 @@ maker(
 
 maker(
     ('ViolinMusicVoice', (5, 7)),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     )
 
 maker(
@@ -804,7 +804,7 @@ maker(
 
 maker(
     ('ViolinMusicVoice', (8, 11)),
-    baca.pitches('F6'),
+    baca.pitch('F6'),
     )
 
 maker(
@@ -824,7 +824,7 @@ maker(
 
 maker(
     ('ViolinMusicVoice', 12),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     )
 
 maker(
@@ -836,12 +836,12 @@ maker(
     ('ViolinMusicVoice', 13),
     baca.effort_dynamic('f'),
     baca.markup.spazz(),
-    baca.pitches('E4'),
+    baca.pitch('E4'),
     )
 
 maker(
     ('ViolinMusicVoice', (14, 15)),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     )
 
 maker(
@@ -859,13 +859,13 @@ maker(
     ('ViolinMusicVoice', 16),
     baca.effort_dynamic('f'),
     baca.markup.spazz(),
-    baca.pitches('E4'),
+    baca.pitch('E4'),
     )
 
 maker(
     ('ViolinMusicVoice', 17),
     baca.markup.non_spazz(),
-    baca.pitches('F#6'),
+    baca.pitch('F#6'),
     faberge.dal_niente_hairpins('f'),
     )
 
@@ -875,7 +875,7 @@ maker(
     ('ViolaMusicVoice', (1, 12)),
     baca.dynamic('mp'),
     baca.markup.XFB_sempre(),
-    baca.pitches('D3'),
+    baca.pitch('D3'),
     baca.stem_tremolo(),
     )
 
@@ -974,13 +974,13 @@ maker(
     ('ViolaMusicVoice', 13),
     baca.effort_dynamic('f'),
     baca.markup.spazz(),
-    baca.pitches('E4'),
+    baca.pitch('E4'),
     )
 
 maker(
     ('ViolaMusicVoice', (14, 15)),
     baca.markup.XFB(),
-    baca.pitches('D3'),
+    baca.pitch('D3'),
     baca.stem_tremolo(),
     baca.single_segment_transition(
         baca.markup.tasto(),
@@ -995,7 +995,7 @@ maker(
 
 maker(
     ('ViolaMusicVoice', 16),
-    baca.pitches('E4'),
+    baca.pitch('E4'),
     baca.effort_dynamic('f'),
     baca.markup.spazz(),
     )
@@ -1004,7 +1004,7 @@ maker(
     ('ViolaMusicVoice', 17),
     baca.dynamic('pp'),
     baca.markup.XFB(),
-    baca.pitches('D3'),
+    baca.pitch('D3'),
     baca.stem_tremolo(),
     baca.single_segment_transition(
         baca.markup.pochiss_pont(),
@@ -1016,7 +1016,7 @@ maker(
 
 maker(
     ('CelloMusicVoice', (1, 17)),
-    baca.pitches('D2'),
+    baca.pitch('D2'),
     )
 
 maker(
