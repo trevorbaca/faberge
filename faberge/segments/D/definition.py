@@ -223,7 +223,7 @@ maker(
 ### piano (time) ###
 
 maker(
-    baca.make_scopes(
+    baca.scopes(
         ['PianoRHMusicVoice', 'PianoLHMusicVoice'],
         [(5, 14)],
         ),
@@ -231,7 +231,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['PianoLHAttackVoice'], [5, 8]),
+    baca.scopes(['PianoLHAttackVoice'], [5, 8]),
     faberge.piano_attack_rhythm(),
     )
 
@@ -392,12 +392,12 @@ maker(
 ### piano (color) ###
 
 maker(
-    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(5, 14)]),
+    baca.scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(5, 14)]),
     baca.natural_harmonics(),
     )
 
 maker(
-    baca.make_scopes(['PianoLHAttackVoice'], [5, 8]),
+    baca.scopes(['PianoLHAttackVoice'], [5, 8]),
     baca.dynamic('sfz'),
     baca.marcati(),
     baca.pitch('D#2'),

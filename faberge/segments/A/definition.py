@@ -251,7 +251,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['PercussionMusicVoice'], [12, (14, 15), 17]),
+    baca.scopes(['PercussionMusicVoice'], [12, (14, 15), 17]),
     faberge.shell_exchange_rhythm(
         extra_counts_per_division_rotation=2,
         total_parts=2,
