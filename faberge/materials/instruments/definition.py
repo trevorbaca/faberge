@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-instruments = abjad.InstrumentDictionary([
+instruments = abjad.OrderedDict([
     (
         'Flute',
         abjad.Flute(
@@ -16,20 +16,14 @@ instruments = abjad.InstrumentDictionary([
             name='bass flute',
             markup=baca.markup.instrument('Bass flute'),
             short_name='b. fl.',
-            short_markup=baca.markup.short_instrument(
-                'B. fl.',
-                column=False,
-                ),
+            short_markup=baca.markup.short_instrument('B. fl.'),
             ),
         ),
     (
         'EnglishHorn',
         abjad.EnglishHorn(
             markup=baca.markup.instrument('English horn'),
-            short_markup=baca.markup.short_instrument(
-                'Eng. hn.',
-                column=False,
-                ),
+            short_markup=baca.markup.short_instrument('Eng. hn.'),
             ),
         ),
     (
@@ -43,14 +37,9 @@ instruments = abjad.InstrumentDictionary([
         'BassClarinet',
         abjad.BassClarinet(
             name='bass clarinet',
-            markup=baca.markup.instrument(
-                'Bass clarinet',
-                ),
+            markup=baca.markup.instrument('Bass clarinet'),
             short_name='b. cl.',
-            short_markup=baca.markup.short_instrument(
-                'B. cl.',
-                column=False,
-                ),
+            short_markup=baca.markup.short_instrument('B. cl.'),
             ),
         ),
     (
