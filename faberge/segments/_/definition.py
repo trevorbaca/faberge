@@ -8,10 +8,10 @@ import faberge
 ###############################################################################
 
 stage_measure_map = baca.StageMeasureMap([
-    1,                  # 1
-    abjad.Fermata(),    # 2
-    1,                  # 3
-    abjad.Fermata(),    # 4
+    1,
+    abjad.Fermata(),
+    1,
+    abjad.Fermata(),
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
@@ -40,38 +40,20 @@ maker = baca.SegmentMaker(
     validate_stage_count=4,
     )
 
-###############################################################################
-##################################### TIME ####################################
-###############################################################################
-
-### flute (time) ###
-
-### english horn (time) ###
-
 maker(
-    baca.scope('EnglishHornMusicVoice', 3),
+    ('EnglishHornMusicVoice', 3),
     faberge.ratchet_rhythm(),
     )
 
-### clarinet (time) ###
-
-### piano (time) ###
-
-### percussion (time) ###
-
-### violin (time) ###
-
 maker(
-    baca.scope('ViolinMusicVoice', 1),
+    ('ViolinMusicVoice', 1),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
         ),
     )
 
-### viola (time) ###
-
 maker(
-    baca.scope('ViolaMusicVoice', 1),
+    ('ViolaMusicVoice', 1),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
         extra_counts_per_division=[1],
@@ -79,46 +61,24 @@ maker(
         ),
     )
 
-### cello (time) ###
-
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
-### flute (color) ###
-
-### english horn (color) ###
-
 maker(
-    baca.scope('EnglishHornMusicVoice', 3),
+    ('EnglishHornMusicVoice', 3),
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
 
-### clarinet (color) ###
-
-### piano (color) ###
-
-### percussion (color) ###
-
-### violin (color) ###
-
 maker(
-    baca.scope('ViolinMusicVoice', 1),
+    ('ViolinMusicVoice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
     baca.pitch('E4'),
     )
 
-### viola (color) ###
-
 maker(
-    baca.scope('ViolaMusicVoice', 1),
+    ('ViolaMusicVoice', 1),
     baca.effort_dynamic('f'),
     baca.markup.spazzolato(),
     baca.pitch('E4'),
     )
-
-### cello (color) ###

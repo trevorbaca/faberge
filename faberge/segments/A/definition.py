@@ -251,7 +251,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['PercussionMusicVoice'], [12, (14, 15), 17]),
+    ('PercussionMusicVoice', [12, (14, 15), 17]),
     faberge.shell_exchange_rhythm(
         extra_counts_per_division_rotation=2,
         total_parts=2,
@@ -266,9 +266,9 @@ maker(
             ~abjad.silence([-4, -3, -2]),
             ],
         start_rest_durations=[
-            abjad.Duration(0, 1), abjad.Duration(0, 1), abjad.Duration(0, 1), abjad.Duration(0, 1),
-            abjad.Duration(1, 4), abjad.Duration(1, 16), abjad.Duration(0, 1),
-            abjad.Duration(0, 1),
+            (0, 1), (0, 1), (0, 1), (0, 1),
+            (1, 4), (1, 16), (0, 1),
+            (0, 1),
             ],
         ),
     )

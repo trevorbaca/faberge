@@ -104,7 +104,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [5]),
+    (['PianoRHMusicVoice', 'PianoLHMusicVoice'], 5),
     baca.make_rests(),
     )
 
