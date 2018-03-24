@@ -102,17 +102,17 @@ maker(
 ### piano (time) ###
 
 maker(
-    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(1, 4)]),
+    baca.scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(1, 4)]),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(5, 8)]),
+    baca.scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(5, 8)]),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    baca.make_scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(9, 12)]),
+    baca.scopes(['PianoRHMusicVoice', 'PianoLHMusicVoice'], [(9, 12)]),
     faberge.shell_transition_rhythm(),
     )
 

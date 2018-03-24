@@ -150,7 +150,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['FluteMusicVoice'], [3, 5]),
+    baca.scopes(['FluteMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[2, 4],
@@ -161,7 +161,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['FluteMusicVoice'], [7, 13]),
+    baca.scopes(['FluteMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[2, 4, 10, 12, 18, 20, 26, 28],
@@ -215,7 +215,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['EnglishHornMusicVoice'], [3, 5]),
+    baca.scopes(['EnglishHornMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[1, 5],
@@ -226,7 +226,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['EnglishHornMusicVoice'], [7, 13]),
+    baca.scopes(['EnglishHornMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[1, 5, 9, 13, 17, 21, 25, 29],
@@ -285,7 +285,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ClarinetMusicVoice'], [3, 5]),
+    baca.scopes(['ClarinetMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[2, 6, 10],
@@ -296,7 +296,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ClarinetMusicVoice'], [7, 13]),
+    baca.scopes(['ClarinetMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[2, 6, 10, 32, 36, 40, 62, 66, 70],
@@ -340,7 +340,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['PianoRHMusicVoice'], [3, 5]),
+    baca.scopes(['PianoRHMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[3],
@@ -351,7 +351,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['PianoRHMusicVoice'], [7, 13]),
+    baca.scopes(['PianoRHMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[3, 11, 19, 27],
@@ -385,7 +385,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['PercussionMusicVoice'], [3, 5]),
+    baca.scopes(['PercussionMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[0, 4, 8],
@@ -396,7 +396,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['PercussionMusicVoice'], [7, 13]),
+    baca.scopes(['PercussionMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[0, 4, 8, 30, 34, 38, 60, 64, 78],
@@ -455,7 +455,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ViolinMusicVoice'], [3, 5]),
+    baca.scopes(['ViolinMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[3, 7, 11],
@@ -466,7 +466,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ViolinMusicVoice'], [7, 13]),
+    baca.scopes(['ViolinMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[3, 7, 11, 33, 37, 41, 73, 77, 81],
@@ -575,7 +575,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ViolaMusicVoice'], [3, 5]),
+    baca.scopes(['ViolaMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=7,
         my_event_indices=[0, 6],
@@ -586,7 +586,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['ViolaMusicVoice'], [7, 13]),
+    baca.scopes(['ViolaMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[0, 6, 8, 14, 16, 22, 24, 30],
@@ -650,7 +650,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['CelloMusicVoice'], [3, 5]),
+    baca.scopes(['CelloMusicVoice'], [3, 5]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[1, 5, 9],
@@ -661,7 +661,7 @@ maker(
     )
 
 maker(
-    baca.make_scopes(['CelloMusicVoice'], [7, 13]),
+    baca.scopes(['CelloMusicVoice'], [7, 13]),
     faberge.airtone_chain_rhythm(
         total_events=100,
         my_event_indices=[1, 5, 9, 31, 35, 39, 61, 65, 69],
