@@ -112,7 +112,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['FluteMusicVoice'], fortissimo_repetition_stages),
+    ('FluteMusicVoice', fortissimo_repetition_stages),
     faberge.flute_gears_rhythm(
         include_fluttertongue=True,
         include_colortrill=True,
@@ -143,7 +143,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['EnglishHornMusicVoice'], fortissimo_repetition_stages),
+    ('EnglishHornMusicVoice', fortissimo_repetition_stages),
     faberge.ratchet_rhythm(),
     )
 
@@ -184,7 +184,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['ClarinetMusicVoice'], fortissimo_repetition_stages),
+    ('ClarinetMusicVoice', fortissimo_repetition_stages),
     faberge.clarinet_gears_rhythm(
         include_colortrill=True,
         include_tone=True,
@@ -222,7 +222,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['PianoRHMusicVoice'], fortissimo_repetition_stages),
+    ('PianoRHMusicVoice', fortissimo_repetition_stages),
     faberge.piano_gears_rhythm(),
     )
 
@@ -269,7 +269,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['PercussionMusicVoice'], fortissimo_repetition_stages),
+    ('PercussionMusicVoice', fortissimo_repetition_stages),
     faberge.percussion_gears_rhythm(
         include_superball=True,
         include_fingertapping=True,
@@ -318,7 +318,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['ViolinMusicVoice'], fortissimo_repetition_stages),
+    ('ViolinMusicVoice', fortissimo_repetition_stages),
     faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -366,7 +366,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['ViolaMusicVoice'], fortissimo_repetition_stages),
+    ('ViolaMusicVoice', fortissimo_repetition_stages),
     faberge.violin_gears_rhythm(
         include_spazzolati=True,
         include_rimbalzando=True,
@@ -423,7 +423,7 @@ maker(
     )
 
 maker(
-    baca.scopes(['CelloMusicVoice'], fortissimo_repetition_stages),
+    ('CelloMusicVoice', fortissimo_repetition_stages),
     faberge.cello_gears_rhythm(
         include_oscillando=True,
         include_glissando=True,
