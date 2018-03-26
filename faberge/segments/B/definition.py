@@ -1,6 +1,7 @@
 import abjad
 import baca
 import faberge
+import os
 
 
 ###############################################################################
@@ -38,6 +39,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
@@ -50,10 +52,10 @@ maker(
     baca.rehearsal_mark('B'),
     )
 
-### flute (time) ###
+# fl
 
 maker(
-    ('FluteMusicVoice', 1),
+    ('fl', 1),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -67,7 +69,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 2),
+    ('fl', 2),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -81,7 +83,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 3),
+    ('fl', 3),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -95,7 +97,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 4),
+    ('fl', 4),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -109,7 +111,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 5),
+    ('fl', 5),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -123,7 +125,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 6),
+    ('fl', 6),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -137,7 +139,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 7),
+    ('fl', 7),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -151,7 +153,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 8),
+    ('fl', 8),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -165,7 +167,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 9),
+    ('fl', 9),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -179,7 +181,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 10),
+    ('fl', 10),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -193,7 +195,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 11),
+    ('fl', 11),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -207,7 +209,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 12),
+    ('fl', 12),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -221,7 +223,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', (13, 14)),
+    ('fl', (13, 14)),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([2, 3, 6], 9),
@@ -235,7 +237,7 @@ maker(
     )
 
 maker(
-    ('FluteMusicVoice', 16),
+    ('fl', 16),
     faberge.glow_rhythm(
         division_masks=[
             ~abjad.sustain([0, 6, 7], 9),
@@ -248,24 +250,24 @@ maker(
         ),
     )
 
-### english horn (time) ###
+# eh
 
 maker(
-    ('EnglishHornMusicVoice', (1, 3)),
+    ('eh', (1, 3)),
     faberge.keynoise_rhythm(
         division_masks=abjad.silence([0, 4], 9),
         ),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 4),
+    ('eh', 4),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 4, 8, 16, 23],
         ),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 5),
+    ('eh', 5),
     faberge.keynoise_rhythm(
         division_masks=abjad.silence([0, 4], 9),
         tuplet_ratio_rotation=-1,
@@ -274,7 +276,7 @@ maker(
 
 # approach
 maker(
-    ('EnglishHornMusicVoice', (6, 7)),
+    ('eh', (6, 7)),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
         division_masks=abjad.silence([-1]),
@@ -283,37 +285,37 @@ maker(
 
 # apotheosis
 maker(
-    ('EnglishHornMusicVoice', 8),
+    ('eh', 8),
     baca.make_repeat_tied_notes(),
     )
 
 # apotheosis cont
 maker(
-    ('EnglishHornMusicVoice', 9),
+    ('eh', 9),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', (10, 14)),
+    ('eh', (10, 14)),
     faberge.keynoise_rhythm(
         division_masks=abjad.silence([0, 4], 9),
         ),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 15),
+    ('eh', 15),
     baca.make_rests(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 16),
+    ('eh', 16),
     baca.make_repeat_tied_notes(),
     )
 
-### clarinet (time) ###
+# cl
 
 maker(
-    ('ClarinetMusicVoice', (1, 13)),
+    ('cl', (1, 13)),
     faberge.successive_tapers_rhythm(
         denominator=16,
         fuse_counts=(3, 3, 5, 3, 2, 5, 5),
@@ -323,7 +325,7 @@ maker(
     )
 
 maker(
-    ('ClarinetMusicVoice', 14),
+    ('cl', 14),
     faberge.successive_tapers_rhythm(
         denominator=16,
         fuse_counts=(3, 3, 5, 3, 2, 5, 5),
@@ -333,7 +335,7 @@ maker(
     )
 
 maker(
-    ('ClarinetMusicVoice', 16),
+    ('cl', 16),
     faberge.single_taper(
         denominator=16,
         start_talea=[4],
@@ -341,103 +343,103 @@ maker(
         ),
     )
 
-### piano (time) ###
+# pf
 
 maker(
-    ('PianoRHMusicVoice', (1, 9)),
+    ('rh', (1, 9)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('PianoLHAttackVoice', (1, 5)),
+    ('attack', (1, 5)),
     faberge.piano_attack_rhythm(),
     )
 
 maker(
-    ('PianoLHAttackVoice', (6, 17)),
+    ('attack', (6, 17)),
     faberge.piano_attack_rhythm(),
     )
 
-### percussion (time) ###
+# perc
 
 maker(
-    ('PercussionMusicVoice', 1),
+    ('perc', 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
     )
 
 maker(
-    ('PercussionMusicVoice', 2),
+    ('perc', 2),
     baca.make_rests(),
     )
 
 maker(
-    ('PercussionMusicVoice', (6, 10)),
+    ('perc', (6, 10)),
     faberge.marimba_pedal_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', (11, 13)),
+    ('perc', (11, 13)),
     faberge.marimba_pedal_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 14),
+    ('perc', 14),
     faberge.marimba_pedal_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 15),
+    ('perc', 15),
     baca.make_rests(),
     )
 
 maker(
-    ('PercussionMusicVoice', 16),
+    ('perc', 16),
     baca.make_repeat_tied_notes(),
     )
 
-### violin (time) ###
+# vn
 
 maker(
-    ('ViolinMusicVoice', 1),
+    ('vn', 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
     )
 
 maker(
-    ('ViolinMusicVoice', (2, 5)),
+    ('vn', (2, 5)),
     faberge.spazzolati_rhythm(
         counts_rotation=-20,
         ),
     )
 
 maker(
-    ('ViolinMusicVoice', (6, 11)),
+    ('vn', (6, 11)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ViolinMusicVoice', (12, 15)),
+    ('vn', (12, 15)),
     faberge.clb_rhythm(fuse_counts=[2, 2, 1]),
     )
 
 maker(
-    ('ViolinMusicVoice', 16),
+    ('vn', 16),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ViolinMusicVoice', 17),
+    ('vn', 17),
     faberge.clb_rhythm(fuse_counts=[2, 2, 1]),
     )
 
-### viola (time) ###
+# va
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
     faberge.jewelers_twilight_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', (2, 5)),
+    ('va', (2, 5)),
     faberge.spazzolati_rhythm(
         counts_rotation=-21,
         denominator=8,
@@ -446,166 +448,162 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', (6, 11)),
+    ('va', (6, 11)),
     faberge.jewelers_twilight_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', (12, 17)),
+    ('va', (12, 17)),
     faberge.clb_rhythm(fuse_counts=[1, 2, 2]),
     )
 
-### cello (time) ###
+# vc
 
 maker(
-    ('CelloMusicVoice', (1, 8)),
+    ('vc', (1, 8)),
     faberge.jewelers_twilight_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 9),
+    ('vc', 9),
     baca.make_fused_tuplet_monads(),
     )
 
 maker(
-    ('CelloMusicVoice', 10),
+    ('vc', 10),
     baca.make_fused_tuplet_monads(),
     )
 
 maker(
-    ('CelloMusicVoice', (11, 13)),
+    ('vc', (11, 13)),
     baca.make_fused_tuplet_monads(),
     )
 
 maker(
-    ('CelloMusicVoice', 14),
+    ('vc', 14),
     baca.make_fused_tuplet_monads(
         tuplet_ratio=abjad.Ratio((31, 1)),
         ),
     )
 
 maker(
-    ('CelloMusicVoice', (15, 17)),
+    ('vc', (15, 17)),
     faberge.clb_rhythm(fuse_counts=[3]),
     )
 
-###############################################################################
-#################################### COLOR ####################################
-###############################################################################
-
-### flute (color) ###
+# fl
 
 maker(
-    ('FluteMusicVoice', (1, 14)),
+    ('fl', (1, 14)),
     baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3'),
     faberge.color_fingerings(),
     )
 
 maker(
-    ('FluteMusicVoice', 1),
+    ('fl', 1),
     faberge.niente_swell('p'),
     )
 
 maker(
-    ('FluteMusicVoice', 2),
+    ('fl', 2),
     faberge.niente_swell('mp'),
     )
 
 maker(
-    ('FluteMusicVoice', 3),
+    ('fl', 3),
     faberge.niente_swell('mf'),
     )
 
 maker(
-    ('FluteMusicVoice', (4, 5)),
+    ('fl', (4, 5)),
     baca.markup.fluttertongue(),
     baca.stem_tremolo(),
     faberge.niente_swell('f'),
     )
 
 maker(
-    ('FluteMusicVoice', 6),
+    ('fl', 6),
     baca.markup.non_flutt(),
     faberge.niente_swell('mf'),
     )
 
 maker(
-    ('FluteMusicVoice', 7),
+    ('fl', 7),
     faberge.niente_swell('mp'),
     )
 
 maker(
-    ('FluteMusicVoice', 8),
+    ('fl', 8),
     faberge.niente_swell('mf'),
     )
 
 maker(
-    ('FluteMusicVoice', 9),
+    ('fl', 9),
     baca.markup.fluttertongue(),
     baca.stem_tremolo(),
     faberge.niente_swell('f'),
     )
 
 maker(
-    ('FluteMusicVoice', 10),
+    ('fl', 10),
     baca.markup.non_flutt(),
     faberge.niente_swell('mf'),
     )
 
 maker(
-    ('FluteMusicVoice', 11),
+    ('fl', 11),
     faberge.niente_swell('p'),
     )
 
 maker(
-    ('FluteMusicVoice', 12),
+    ('fl', 12),
     faberge.niente_swell('pp'),
     )
 
 maker(
-    ('FluteMusicVoice', (13, 14)),
+    ('fl', (13, 14)),
     faberge.niente_swell('ppp'),
     )
 
 maker(
-    ('FluteMusicVoice', 16),
+    ('fl', 16),
     baca.pitches('G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3'),
     faberge.color_fingerings(),
     faberge.niente_swell('ppp'),
     )
 
-### english horn (color) ###
+# eh
 
 maker(
-    ('EnglishHornMusicVoice', (1, 3)),
+    ('eh', (1, 3)),
     baca.cross_note_heads(),
     baca.effort_dynamic('f'),
     faberge.keynoise_pitches(rotation=-1)
     )
 
 maker(
-    ('EnglishHornMusicVoice', 4),
+    ('eh', 4),
     baca.dynamic('f'),
     baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 5),
+    ('eh', 5),
     baca.cross_note_heads(),
     baca.effort_dynamic('f'),
     faberge.keynoise_pitches(rotation=-2)
     )
 
 maker(
-    ('EnglishHornMusicVoice', (6, 7)),
+    ('eh', (6, 7)),
     baca.dynamic('ff'),
     baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 8),
+    ('eh', 8),
     baca.dynamic('fff'),
     baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitch('Eb4'),
@@ -613,7 +611,7 @@ maker(
     )
 
 maker(
-    ('EnglishHornMusicVoice', 9),
+    ('eh', 9),
     baca.dynamic('fff'),
     baca.map(baca.trill_spanner(), baca.runs()),
     baca.pitch('E4'),
@@ -621,89 +619,89 @@ maker(
     )
 
 maker(
-    ('EnglishHornMusicVoice', (10, 14)),
+    ('eh', (10, 14)),
     baca.cross_note_heads(),
     baca.hairpin('> niente'),
     faberge.keynoise_pitches(rotation=-3)
     )
 
 maker(
-    ('EnglishHornMusicVoice', (15, 17)),
+    ('eh', (15, 17)),
     baca.clef('percussion'),
     baca.markup.remove_staple(),
     baca.staff_lines(1),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 16),
+    ('eh', 16),
     baca.effort_dynamic('mf'),
     baca.markup.airtone(),
     baca.pitch('F3'),
     baca.repeat_ties_up(),
     )
 
-### clarinet (color) ###
+# cl
 
 maker(
-    ('ClarinetMusicVoice', (1, 10)),
+    ('cl', (1, 10)),
     faberge.niente_swell('p'),
     )
 
 maker(
-    ('ClarinetMusicVoice', (1, 9)),
+    ('cl', (1, 9)),
     baca.pitches('Eb2 E~2'),
     )
 
 maker(
-    ('ClarinetMusicVoice', 10),
+    ('cl', 10),
     baca.pitch('Eb2'),
     )
 
 maker(
-    ('ClarinetMusicVoice', (11, 13)),
+    ('cl', (11, 13)),
     baca.pitch('D2'),
     )
 
 maker(
-    ('ClarinetMusicVoice', (11, 12)),
+    ('cl', (11, 12)),
     faberge.niente_swell('pp'),
     )
 
 maker(
-    ('ClarinetMusicVoice', (13, 14)),
+    ('cl', (13, 14)),
     faberge.niente_swell('ppp'),
     )
 
 maker(
-    ('ClarinetMusicVoice', 14),
+    ('cl', 14),
     baca.pitch('C#2'),
     )
 
 maker(
-    ('ClarinetMusicVoice', 16),
+    ('cl', 16),
     baca.pitch('C2'),
     faberge.niente_swell('ppp'),
     )
 
-### piano (color) ###
+# pf
 
 maker(
-    ('PianoRHMusicVoice', (1, 9)),
+    ('rh', (1, 9)),
     faberge.chord_pitches('Eb4 F4 G4 Db5 Eb5'),
     baca.natural_harmonics(),
     )
 
 maker(
-    ('PianoLHAttackVoice', (1, 9)),
+    ('attack', (1, 9)),
     baca.marcati(),
     faberge.piano_clusters(),
     baca.reiterated_dynamic('sfz'),
     )
 
-### percussion (color) ###
+# perc
 
 maker(
-    ('PercussionMusicVoice', 1),
+    ('perc', 1),
     baca.laissez_vibrer(),
     baca.markup.lv_possibile(),
     baca.pitch('G4'),
@@ -711,19 +709,19 @@ maker(
     )
 
 maker(
-    ('PercussionMusicVoice', 2),
+    ('perc', 2),
     baca.clef('bass'),
     faberge.markup.to_marimba(baca.leaf(0)),
     )
 
 maker(
-    ('PercussionMusicVoice', (6, 14)),
+    ('perc', (6, 14)),
     baca.markup('as attackless as possible'),
     baca.stem_tremolo(),
     )
 
 maker(
-    ('PercussionMusicVoice', (6, 10)),
+    ('perc', (6, 10)),
     baca.piecewise(
         abjad.Hairpin(),
         baca.dynamics('ppp pp'),
@@ -734,22 +732,22 @@ maker(
     )
 
 maker(
-    ('PercussionMusicVoice', (11, 13)),
+    ('perc', (11, 13)),
     baca.pitch('D2'),
     )
 
 maker(
-    ('PercussionMusicVoice', (12, 14)),
+    ('perc', (12, 14)),
     baca.hairpin('pp > niente', baca.rleaves()),
     )
 
 maker(
-    ('PercussionMusicVoice', 14),
+    ('perc', 14),
     baca.pitch('C#2'),
     )
 
 maker(
-    ('PercussionMusicVoice', 16),
+    ('perc', 16),
     baca.clef('percussion'),
     baca.effort_dynamic('mf'),
     baca.markup.boxed_lines([
@@ -760,68 +758,68 @@ maker(
     baca.staff_lines(2),
     )
 
-### violin (color) ###
+# vn
 
 maker(
-    ('ViolinMusicVoice', 1),
+    ('vn', 1),
     baca.markup.lv_possibile(),
     baca.pitch('G6'),
     faberge.dal_niente_hairpins('ff'),
     )
 
 maker(
-    ('ViolinMusicVoice', (2, 5)),
+    ('vn', (2, 5)),
     baca.pitch('F4'),
     )
 
 maker(
-    ('ViolinMusicVoice', 2),
+    ('vn', 2),
     baca.effort_dynamic('ff'),
     baca.markup.spazz(),
     )
 
 maker(
-    ('ViolinMusicVoice', (3, 5)),
+    ('vn', (3, 5)),
     baca.hairpin('ff > niente'),
     )
 
 maker(
-    ('ViolinMusicVoice', (6, 11)),
+    ('vn', (6, 11)),
     baca.dynamic('ppp'),
     baca.markup.pochiss_scratch(),
     baca.pitch('E~4'),
     )
 
 maker(
-    ('ViolinMusicVoice', 9),
+    ('vn', 9),
     baca.hairpin('ppp < f', baca.rleaves()),
     )
 
 maker(
-    ('ViolinMusicVoice', (10, 11)),
+    ('vn', (10, 11)),
     baca.hairpin('f > ppp'),
     )
 
 maker(
-    ('ViolinMusicVoice', (12, 17)),
+    ('vn', (12, 17)),
     baca.clef('percussion'),
     baca.staff_lines(1),
     )
 
 maker(
-    ('ViolinMusicVoice', (12, 15)),
+    ('vn', (12, 15)),
     baca.staccati(),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-3),
     )
 
 maker(
-    ('ViolinMusicVoice', (12, 13)),
+    ('vn', (12, 13)),
     baca.hairpin('ppp < mf', baca.rleaves()),
     )
 
 maker(
-    ('ViolinMusicVoice', 16),
+    ('vn', 16),
     baca.effort_dynamic('mf'),
     baca.markup.boxed_lines([
         'bow directly on bridge;',
@@ -832,56 +830,56 @@ maker(
     )
 
 maker(
-    ('ViolinMusicVoice', 17),
+    ('vn', 17),
     baca.hairpin('mf > ppp'),
     baca.markup('col legno battuto'),
     baca.staccati(),
     faberge.clb_pitches(rotation=-3),
     )
 
-### viola (color) ###
+# va
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
     baca.pitch('Eb3'),
     baca.stem_tremolo(),
     )
 
 maker(
-    ('ViolaMusicVoice', (2, 5)),
+    ('va', (2, 5)),
     baca.pitch('F4'),
     )
 
 maker(
-    ('ViolaMusicVoice', 2),
+    ('va', 2),
     baca.effort_dynamic('ff'),
     baca.markup.spazz(),
     )
 
 maker(
-    ('ViolaMusicVoice', (3, 5)),
+    ('va', (3, 5)),
     baca.hairpin('ff > niente'),
     )
 
 maker(
-    ('ViolaMusicVoice', (6, 11)),
+    ('va', (6, 11)),
     baca.dynamic('pp'),
     baca.markup.tasto_plus_pochiss_scratch(),
     baca.pitch('G3'),
     )
 
 maker(
-    ('ViolaMusicVoice', 9),
+    ('va', 9),
     baca.hairpin('pp < f', baca.rleaves()),
     )
 
 maker(
-    ('ViolaMusicVoice', (10, 11)),
+    ('va', (10, 11)),
     baca.hairpin('f > ppp'),
     )
 
 maker(
-    ('ViolaMusicVoice', (12, 17)),
+    ('va', (12, 17)),
     baca.clef('percussion'),
     baca.staff_lines(1),
     baca.staccati(),
@@ -890,24 +888,24 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', (12, 13)),
+    ('va', (12, 13)),
     baca.hairpin('ppp < mf', baca.rleaves()),
     )
 
 maker(
-    ('ViolaMusicVoice', 17),
+    ('va', 17),
     baca.hairpin('mf > ppp'),
     )
 
-### cello (color) ###
+# vc
 
 maker(
-    ('CelloMusicVoice', (1, 8)),
+    ('vc', (1, 8)),
     baca.pitch('Eb2'),
     )
 
 maker(
-    ('CelloMusicVoice', (2, 3)),
+    ('vc', (2, 3)),
     baca.single_segment_transition(
         baca.markup.tasto_plus_poco_vib(False, False),
         baca.markup.molto_pont_plus_vib_molto(True, True),
@@ -917,7 +915,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 6),
+    ('vc', 6),
     baca.single_segment_transition(
         baca.markup.molto_pont_plus_vib_molto(False, False),
         baca.markup.tasto_plus_poco_vib(True, True),
@@ -927,7 +925,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 7),
+    ('vc', 7),
     baca.single_segment_transition(
         None,
         baca.markup.tasto_plus_non_vib(False, True),
@@ -936,7 +934,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 9),
+    ('vc', 9),
     baca.markup.lines([
         'glissando lentissimo',
         'do not reattack note heads',
@@ -945,12 +943,12 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 10),
+    ('vc', 10),
     baca.pitch('Fb2'),
     )
 
 maker(
-    ('CelloMusicVoice', (9, 10)),
+    ('vc', (9, 10)),
     baca.single_segment_transition(
         baca.markup.tasto_plus_non_vib(False, False),
         baca.markup.PO(),
@@ -960,17 +958,17 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', (11, 13)),
+    ('vc', (11, 13)),
     baca.pitch('D2'),
     )
 
 maker(
-    ('CelloMusicVoice', 14),
+    ('vc', 14),
     baca.pitches('C#2 B#1'),
     )
 
 maker(
-    ('CelloMusicVoice', (11, 14)),
+    ('vc', (11, 14)),
     baca.single_segment_transition(
         None,
         baca.markup.tasto_poss(),
@@ -980,12 +978,12 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', (9, 14)),
+    ('vc', (9, 14)),
     baca.glissando(),
     )
 
 maker(
-    ('CelloMusicVoice', (15, 17)),
+    ('vc', (15, 17)),
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.staff_lines(1),
@@ -995,6 +993,6 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 17),
+    ('vc', 17),
     baca.hairpin('mf > ppp', baca.rleaves()),
     )

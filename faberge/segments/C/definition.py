@@ -1,6 +1,7 @@
 import abjad
 import baca
 import faberge
+import os
 
 
 ###############################################################################
@@ -84,6 +85,7 @@ spacing = baca.HorizontalSpacingSpecifier(
 maker = baca.SegmentMaker(
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
@@ -99,17 +101,17 @@ maker(
 ### flute (time) ###
 
 maker(
-    ('FluteMusicVoice', (1, 2)),
+    ('fl', (1, 2)),
     faberge.glow_rhythm(),
     )
 
 maker(
-    ('FluteMusicVoice', 3),
+    ('fl', 3),
     baca.make_rests(),
     )
 
 maker(
-    ('FluteMusicVoice', 7),
+    ('fl', 7),
     faberge.shell_exchange_rhythm(
         total_parts=2,
         this_part=0,
@@ -119,42 +121,42 @@ maker(
 ### english horn (time) ###
 
 maker(
-    ('EnglishHornMusicVoice', (1, 3)),
+    ('eh', (1, 3)),
     faberge.keynoise_rhythm(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 14),
+    ('eh', 14),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 15),
+    ('eh', 15),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 16),
+    ('eh', 16),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 18),
+    ('eh', 18),
     baca.make_rests(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 21),
+    ('eh', 21),
     faberge.ratchet_rhythm(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 23),
+    ('eh', 23),
     faberge.ratchet_rhythm(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', 33),
+    ('eh', 33),
     faberge.airtone_chain_rhythm(
         my_event_indices=[1],
         total_events=2,
@@ -162,7 +164,7 @@ maker(
     )
 
 maker(
-    ('EnglishHornMusicVoice', 38),
+    ('eh', 38),
     faberge.airtone_chain_rhythm(
         my_event_indices=[1],
         total_events=2,
@@ -170,7 +172,7 @@ maker(
     )
 
 maker(
-    ('EnglishHornMusicVoice', 40),
+    ('eh', 40),
     faberge.airtone_chain_rhythm(
         my_event_indices=[1],
         total_events=2,
@@ -178,7 +180,7 @@ maker(
     )
 
 maker(
-    ('EnglishHornMusicVoice', 45),
+    ('eh', 45),
     faberge.airtone_chain_rhythm(
         my_event_indices=[1],
         total_events=3,
@@ -186,7 +188,7 @@ maker(
     )
 
 maker(
-    ('EnglishHornMusicVoice', 46),
+    ('eh', 46),
     faberge.airtone_chain_rhythm(
         my_event_indices=[1],
         total_events=3,
@@ -196,17 +198,17 @@ maker(
 ### clarinet (time) ###
 
 maker(
-    ('ClarinetMusicVoice', (1, 2)),
+    ('cl', (1, 2)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ClarinetMusicVoice', 3),
+    ('cl', 3),
     baca.make_rests(),
     )
 
 maker(
-    ('ClarinetMusicVoice', 7),
+    ('cl', 7),
     faberge.shell_exchange_rhythm(
         total_parts=2,
         this_part=0,
@@ -214,7 +216,7 @@ maker(
     )
 
 maker(
-    ('ClarinetMusicVoice', 19),
+    ('cl', 19),
     faberge.shell_exchange_rhythm(
         total_parts=2,
         this_part=0,
@@ -222,7 +224,7 @@ maker(
     )
 
 maker(
-    ('ClarinetMusicVoice', 28),
+    ('cl', 28),
     faberge.shell_exchange_rhythm(
         total_parts=2,
         this_part=0,
@@ -232,253 +234,253 @@ maker(
 ### harpsichord (time) ###
 
 maker(
-    ('PianoRHMusicVoice', 1),
+    ('rh', 1),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', (2, 3)),
+    ('rh', (2, 3)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 4),
+    ('rh', 4),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 5),
+    ('rh', 5),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', (6, 7)),
+    ('rh', (6, 7)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', (8, 9)),
+    ('rh', (8, 9)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 11),
+    ('rh', 11),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 19),
+    ('rh', 19),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 26),
+    ('rh', 26),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 28),
+    ('rh', 28),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 34),
+    ('rh', 34),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 42),
+    ('rh', 42),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 43),
+    ('rh', 43),
     baca.make_rests(),
     )
 
 ### percussion (time) ###
 
 maker(
-    ('PercussionMusicVoice', 4),
+    ('perc', 4),
     faberge.stop_release_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 5),
+    ('perc', 5),
     faberge.stop_release_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 6),
+    ('perc', 6),
     faberge.stop_release_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 9),
+    ('perc', 9),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('PercussionMusicVoice', 11),
+    ('perc', 11),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('PercussionMusicVoice', 13),
+    ('perc', 13),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 14),
+    ('perc', 14),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 15),
+    ('perc', 15),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 16),
+    ('perc', 16),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('PercussionMusicVoice', 18),
+    ('perc', 18),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('PercussionMusicVoice', 26),
+    ('perc', 26),
     faberge.percussion_cell_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', 34),
+    ('perc', 34),
     faberge.percussion_cell_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    ('ViolinMusicVoice', (1, 3)),
+    ('vn', (1, 3)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 4),
+    ('vn', 4),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 5),
+    ('vn', 5),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 6),
+    ('vn', 6),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 7),
+    ('vn', 7),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', (8, 9)),
+    ('vn', (8, 9)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 11),
+    ('vn', 11),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 19),
+    ('vn', 19),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 21),
+    ('vn', 21),
     faberge.spazzolati_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 26),
+    ('vn', 26),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 28),
+    ('vn', 28),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 34),
+    ('vn', 34),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 42),
+    ('vn', 42),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', (44, 45)),
+    ('vn', (44, 45)),
     faberge.spazzolati_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    ('ViolaMusicVoice', (1, 3)),
+    ('va', (1, 3)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 4),
+    ('va', 4),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 5),
+    ('va', 5),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 6),
+    ('va', 6),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 7),
+    ('va', 7),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', (8, 9)),
+    ('va', (8, 9)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 11),
+    ('va', 11),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 19),
+    ('va', 19),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 21),
+    ('va', 21),
     faberge.spazzolati_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 23),
+    ('va', 23),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -486,7 +488,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 25),
+    ('va', 25),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -494,17 +496,17 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 26),
+    ('va', 26),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 28),
+    ('va', 28),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 30),
+    ('va', 30),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -512,7 +514,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 32),
+    ('va', 32),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -520,7 +522,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 33),
+    ('va', 33),
     faberge.airtone_chain_rhythm(
         total_events=2,
         my_event_indices=[0],
@@ -528,12 +530,12 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 34),
+    ('va', 34),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('ViolaMusicVoice', 36),
+    ('va', 36),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -541,7 +543,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 38),
+    ('va', 38),
     faberge.airtone_chain_rhythm(
         total_events=2,
         my_event_indices=[0],
@@ -549,7 +551,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 40),
+    ('va', 40),
     faberge.airtone_chain_rhythm(
         total_events=2,
         my_event_indices=[0],
@@ -557,7 +559,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 43),
+    ('va', 43),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -565,7 +567,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 44),
+    ('va', 44),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -573,7 +575,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 45),
+    ('va', 45),
     faberge.airtone_chain_rhythm(
         total_events=3,
         my_event_indices=[0],
@@ -581,7 +583,7 @@ maker(
     )
 
 maker(
-    ('ViolaMusicVoice', 46),
+    ('va', 46),
     faberge.airtone_chain_rhythm(
         total_events=3,
         my_event_indices=[0],
@@ -591,77 +593,77 @@ maker(
 ### time (cello) ###
 
 maker(
-    ('CelloMusicVoice', (1, 3)),
+    ('vc', (1, 3)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 4),
+    ('vc', 4),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 5),
+    ('vc', 5),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 6),
+    ('vc', 6),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 7),
+    ('vc', 7),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 9),
+    ('vc', 9),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('CelloMusicVoice', 11),
+    ('vc', 11),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('CelloMusicVoice', 13),
+    ('vc', 13),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 14),
+    ('vc', 14),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 15),
+    ('vc', 15),
     faberge.rest_terminated_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 19),
+    ('vc', 19),
     faberge.percussion_cell_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 26),
+    ('vc', 26),
     faberge.percussion_cell_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 34),
+    ('vc', 34),
     faberge.percussion_cell_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', 42),
+    ('vc', 42),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('CelloMusicVoice', (44, 45)),
+    ('vc', (44, 45)),
     faberge.spazzolati_rhythm(),
     )
 
@@ -672,7 +674,7 @@ maker(
 ### flute (color) ###
 
 maker(
-    ('FluteMusicVoice', 3),
+    ('fl', 3),
     # TODO: implement baca.instrument_change()
     #faberge.instruments['Flute'],
     )
@@ -680,12 +682,12 @@ maker(
 ### english horn (color) ###
 
 maker(
-    ('EnglishHornMusicVoice', 18),
+    ('eh', 18),
     baca.markup.remove_staple(baca.leaf(0)),
     )
 
 maker(
-    ('EnglishHornMusicVoice', (21, 23)),
+    ('eh', (21, 23)),
     baca.clef('percussion'),
     baca.markup.boxed('ratchet'),
     baca.staff_lines(1),
@@ -695,7 +697,7 @@ maker(
 ### clarinet (color) ###
 
 maker(
-    ('ClarinetMusicVoice', 3),
+    ('cl', 3),
     # TODO: implement baca.instrument_change()
     #faberge.instruments['Clarinet'],
     )
@@ -703,7 +705,7 @@ maker(
 ### piano (color) ###
 
 maker(
-    ('PianoRHMusicVoice', 43),
+    ('rh', 43),
     # TODO: implement baca.instrument_change()
     #faberge.instruments['Piano'],
     )

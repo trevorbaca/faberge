@@ -1,6 +1,7 @@
 import abjad
 import baca
 import faberge
+import os
 
 
 ###############################################################################
@@ -33,52 +34,41 @@ spacing = baca.HorizontalSpacingSpecifier(
 
 maker = baca.SegmentMaker(
     measures_per_stage=measures_per_stage,
-    spacing=spacing,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    spacing=spacing,
     time_signatures=time_signatures,
     validate_measure_count=4,
     validate_stage_count=4,
     )
 
 maker(
-    ('EnglishHornMusicVoice', 3),
+    ('eh', 3),
+    baca.clef('percussion'),
+    baca.markup.boxed('ratchet'),
+    baca.staff_lines(1),
+    baca.staff_position(0),
     faberge.ratchet_rhythm(),
     )
 
 maker(
-    ('ViolinMusicVoice', 1),
+    ('vn', 1),
+    baca.effort_dynamic('f'),
+    baca.markup.spazzolato(),
+    baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
         ),
     )
 
 maker(
-    ('ViolaMusicVoice', 1),
+    ('va', 1),
+    baca.effort_dynamic('f'),
+    baca.markup.spazzolato(),
+    baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
         extra_counts_per_division=[1],
         denominator=8,
         ),
-    )
-
-maker(
-    ('EnglishHornMusicVoice', 3),
-    baca.clef('percussion'),
-    baca.markup.boxed('ratchet'),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    )
-
-maker(
-    ('ViolinMusicVoice', 1),
-    baca.effort_dynamic('f'),
-    baca.markup.spazzolato(),
-    baca.pitch('E4'),
-    )
-
-maker(
-    ('ViolaMusicVoice', 1),
-    baca.effort_dynamic('f'),
-    baca.markup.spazzolato(),
-    baca.pitch('E4'),
     )

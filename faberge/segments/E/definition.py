@@ -1,6 +1,7 @@
 import abjad
 import baca
 import faberge
+import os
 
 
 ###############################################################################
@@ -42,6 +43,7 @@ spacing = baca.HorizontalSpacingSpecifier(
 maker = baca.SegmentMaker(
     measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
+    segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
@@ -57,38 +59,38 @@ maker(
 ### flute (time) ###
 
 maker(
-    ('FluteMusicVoice', 2),
+    ('fl', 2),
     faberge.glow_rhythm(),
     )
 
 ### english horn (time) ###
 
 maker(
-    ('EnglishHornMusicVoice', 2),
+    ('eh', 2),
     faberge.keynoise_rhythm(),
     )
 
 maker(
-    ('EnglishHornMusicVoice', (6, 7)),
+    ('eh', (6, 7)),
     faberge.electricity_rhythm(),
     )
 
 ### clarinet (time) ###
 
 maker(
-    ('ClarinetMusicVoice', 2),
+    ('cl', 2),
     faberge.glow_rhythm(),
     )
 
 ### piano (time) ###
 
 maker(
-    ('PianoRHMusicVoice', 1),
+    ('rh', 1),
     baca.make_rests(),
     )
 
 maker(
-    ('PianoRHMusicVoice', 4),
+    ('rh', 4),
     faberge.meccanico_rhythm(
         attack_count=7,
         fuse_counts=[3],
@@ -96,7 +98,7 @@ maker(
     )
 
 maker(
-    ('PianoLHMusicVoice', 4),
+    ('lh', 4),
     faberge.meccanico_rhythm(
         attack_count=5,
         fuse_counts=[3],
@@ -104,36 +106,36 @@ maker(
     )
 
 maker(
-    (['PianoRHMusicVoice', 'PianoLHMusicVoice'], 5),
+    (['rh', 'lh'], 5),
     baca.make_rests(),
     )
 
 ### percussion (time) ###
 
 maker(
-    ('PercussionMusicVoice', 2),
+    ('perc', 2),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('PercussionMusicVoice', 4),
+    ('perc', 4),
     faberge.meccanico_percussion_cell_rhythm(),
     )
 
 maker(
-    ('PercussionMusicVoice', (6, 7)),
+    ('perc', (6, 7)),
     faberge.electricity_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    ('ViolinMusicVoice', 2),
+    ('vn', 2),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('ViolinMusicVoice', 4),
+    ('vn', 4),
     faberge.meccanico_rhythm(
         attack_count=7,
         fuse_counts=[2],
@@ -141,14 +143,14 @@ maker(
     )
 
 maker(
-    ('ViolinMusicVoice', 7),
+    ('vn', 7),
     faberge.electricity_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    ('ViolaMusicVoice', (1, 8)),
+    ('va', (1, 8)),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -158,12 +160,12 @@ maker(
 ### cello (time) ###
 
 maker(
-    ('CelloMusicVoice', 2),
+    ('vc', 2),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('CelloMusicVoice', 4),
+    ('vc', 4),
     faberge.meccanico_rhythm(
         attack_count=10,
         fuse_counts=[3],
@@ -171,7 +173,7 @@ maker(
     )
 
 maker(
-    ('CelloMusicVoice', 7),
+    ('vc', 7),
     faberge.electricity_rhythm(),
     )
 
@@ -188,13 +190,13 @@ maker(
 ### piano (color) ###
 
 maker(
-    ('PianoRHMusicVoice', 1),
+    ('rh', 1),
     # TODO: implement baca.instrument_change():
     #faberge.instruments['Harpsichord'],
     )
 
 maker(
-    ('PianoRHMusicVoice', 5),
+    ('rh', 5),
     # TODO: implement baca.instrument_change():
     #faberge.instruments['Piano'],
     )
