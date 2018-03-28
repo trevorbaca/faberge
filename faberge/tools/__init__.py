@@ -21,6 +21,7 @@ from .jewelers_twilight_rhythm import jewelers_twilight_rhythm
 from .keynoise_pitches import keynoise_pitches
 from .keynoise_rhythm import keynoise_rhythm
 from .lateral_click_rhythm import lateral_click_rhythm
+from .margin_markup import margin_markup
 from .marimba_pedal_rhythm import marimba_pedal_rhythm
 from .meccanico_percussion_cell_rhythm import meccanico_percussion_cell_rhythm
 from .meccanico_rhythm import meccanico_rhythm

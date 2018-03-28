@@ -62,6 +62,12 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='CelloMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Vc.',
+                                ),
+                            abjad.Momento(
+                                context='CelloMusicVoice',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -90,6 +96,12 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Instrument',
                                 value='BassClarinet',
                                 ),
+                            abjad.Momento(
+                                context='ClarinetMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Cl.',
+                                ),
                             ],
                         ),
                     (
@@ -114,6 +126,12 @@ metadata = abjad.OrderedDict(
                                 context='EnglishHornMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='EnglishHorn',
+                                ),
+                            abjad.Momento(
+                                context='EnglishHornMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Eng. hn.',
                                 ),
                             abjad.Momento(
                                 context='EnglishHornMusicVoice',
@@ -145,6 +163,12 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Instrument',
                                 value='BassFlute',
                                 ),
+                            abjad.Momento(
+                                context='FluteMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Fl.',
+                                ),
                             ],
                         ),
                     (
@@ -169,6 +193,12 @@ metadata = abjad.OrderedDict(
                                 context='PercussionMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Percussion',
+                                ),
+                            abjad.Momento(
+                                context='PercussionMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Perc.',
                                 ),
                             abjad.Momento(
                                 context='PercussionMusicVoice',
@@ -225,6 +255,12 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Instrument',
                                 value='Piano',
                                 ),
+                            abjad.Momento(
+                                context='PianoRHMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Pf.',
+                                ),
                             ],
                         ),
                     (
@@ -257,6 +293,12 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='ViolaMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Va.',
+                                ),
+                            abjad.Momento(
+                                context='ViolaMusicVoice',
                                 prototype='baca.StaffLines',
                                 value=1,
                                 ),
@@ -284,6 +326,12 @@ metadata = abjad.OrderedDict(
                                 context='ViolinMusicVoice',
                                 prototype='abjad.Instrument',
                                 value='Violin',
+                                ),
+                            abjad.Momento(
+                                context='ViolinMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.MarginMarkup',
+                                value='Vn.',
                                 ),
                             abjad.Momento(
                                 context='ViolinMusicVoice',
