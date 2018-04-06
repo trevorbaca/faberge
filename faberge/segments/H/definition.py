@@ -52,7 +52,6 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 spacing = baca.HorizontalSpacingSpecifier(
-    fermata_measure_width=(1, 4),
     minimum_width=(1, 12),
     )
 
