@@ -905,7 +905,7 @@ maker(
 
 maker(
     ('vc', (2, 3)),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.tasto_plus_poco_vib(True, True),
         baca.markup.molto_pont_plus_vib_molto(),
         selector=baca.rleaves().group(),
@@ -915,7 +915,7 @@ maker(
 
 maker(
     ('vc', 6),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.molto_pont_plus_vib_molto(True, True),
         baca.markup.tasto_plus_poco_vib(),
         selector=baca.rleaves().group(),
@@ -925,7 +925,7 @@ maker(
 
 maker(
     ('vc', 7),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto_plus_non_vib(True, False),
         selector=baca.rleaves().group(),
@@ -948,7 +948,7 @@ maker(
 
 maker(
     ('vc', (9, 10)),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.tasto_plus_non_vib(True, True),
         baca.markup.PO(),
         selector=baca.rleaves().group(),
@@ -968,7 +968,7 @@ maker(
 
 maker(
     ('vc', (11, 14)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto_poss(),
         selector=baca.rleaves().group(),
