@@ -906,8 +906,8 @@ maker(
 maker(
     ('vc', (2, 3)),
     baca.single_segment_transition(
-        baca.markup.tasto_plus_poco_vib(False, False),
-        baca.markup.molto_pont_plus_vib_molto(True, True),
+        baca.markup.tasto_plus_poco_vib(True, True),
+        baca.markup.molto_pont_plus_vib_molto(),
         baca.rleaves().group(),
         ),
     baca.hairpin('p < ff', baca.rleaves()),
@@ -916,8 +916,8 @@ maker(
 maker(
     ('vc', 6),
     baca.single_segment_transition(
-        baca.markup.molto_pont_plus_vib_molto(False, False),
-        baca.markup.tasto_plus_poco_vib(True, True),
+        baca.markup.molto_pont_plus_vib_molto(True, True),
+        baca.markup.tasto_plus_poco_vib(),
         baca.rleaves().group(),
         ),
     baca.hairpin('ff > p', baca.rleaves()),
@@ -927,7 +927,7 @@ maker(
     ('vc', 7),
     baca.single_segment_transition(
         None,
-        baca.markup.tasto_plus_non_vib(False, True),
+        baca.markup.tasto_plus_non_vib(True, False),
         baca.rleaves().group(),
         ),
     )
@@ -949,7 +949,7 @@ maker(
 maker(
     ('vc', (9, 10)),
     baca.single_segment_transition(
-        baca.markup.tasto_plus_non_vib(False, False),
+        baca.markup.tasto_plus_non_vib(True, True),
         baca.markup.PO(),
         baca.rleaves().group(),
         ),
