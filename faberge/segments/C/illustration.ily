@@ -3877,7 +3877,6 @@ C_FluteMusicVoice = {
         \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
         [
@@ -3896,10 +3895,6 @@ C_FluteMusicVoice = {
                                 #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                                 [“Fl.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
                 }
             }
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3918,67 +3913,40 @@ C_FluteMusicVoice = {
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -3986,91 +3954,58 @@ C_FluteMusicVoice = {
         % [C FluteMusicVoice measure 178]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
         \repeatTie
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8.
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C FluteMusicVoice measure 179]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         \repeatTie
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''4
         \repeatTie
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4078,99 +4013,60 @@ C_FluteMusicVoice = {
         % [C FluteMusicVoice measure 180]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         \repeatTie
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C FluteMusicVoice measure 181]                            %! SM4
@@ -4207,26 +4103,17 @@ C_FluteMusicVoice = {
         
         % [C FluteMusicVoice measure 191]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
     }
@@ -4237,10 +4124,7 @@ C_FluteMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
     }
@@ -4558,60 +4442,36 @@ C_EnglishHornMusicVoice = {
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4620,38 +4480,26 @@ C_EnglishHornMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'8.
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4659,20 +4507,14 @@ C_EnglishHornMusicVoice = {
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         r4
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4681,78 +4523,48 @@ C_EnglishHornMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4760,30 +4572,18 @@ C_EnglishHornMusicVoice = {
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4791,38 +4591,26 @@ C_EnglishHornMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'8.
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
@@ -4830,20 +4618,14 @@ C_EnglishHornMusicVoice = {
         r16
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         r4
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -4851,18 +4633,12 @@ C_EnglishHornMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C EnglishHornMusicVoice measure 183]                      %! SM4
@@ -4927,163 +4703,103 @@ C_EnglishHornMusicVoice = {
     
     % [C EnglishHornMusicVoice measure 203]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 204]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 205]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 206]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 207]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 208]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 209]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 210]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 211]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 212]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
     % [C EnglishHornMusicVoice measure 213]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 214]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 215]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 216]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 217]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 218]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 219]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 220]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 221]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 222]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
@@ -5171,34 +4887,20 @@ C_EnglishHornMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:REDUNDANT_CLEF:SM33:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_STAFF_LINES_COLOR:IC
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 351/64
         [
-        ^ \markup {
-            \column
-                {
-                    \line                                        %! IC
-                        {                                        %! IC
-                            \whiteout                            %! IC
-                                \upright                         %! IC
-                                    \override                    %! IC
-                                        #'(box-padding . 0.5)    %! IC
-                                        \box                     %! IC
-                                            ratchet              %! IC
-                        }                                        %! IC
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
-                }
-            }
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            ratchet                              %! IC
+            }                                                    %! IC
         \override Staff.Clef.color = #(x11-color 'DeepPink4)     %! SM6:REDUNDANT_CLEF_REDRAW_COLOR:IC
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 101/64
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
@@ -5252,36 +4954,21 @@ C_EnglishHornMusicVoice = {
         [
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 31/32
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 77/64
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 111/64
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 11/4
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \revert Staff.Stem.stemlet-length
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         g'16 * 285/64
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \revert TupletNumber.text
     
@@ -5536,10 +5223,7 @@ C_EnglishHornMusicVoice = {
     
     % [C EnglishHornMusicVoice measure 271]                      %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     g'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C EnglishHornMusicVoice measure 272]                      %! SM4
     r2
@@ -5585,7 +5269,6 @@ C_ClarinetMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     d''2
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -5603,10 +5286,6 @@ C_ClarinetMusicVoice = {
                             #(x11-color 'green4)                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                             [“Cl.”]                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                \line                                            %! SM12
-                    {                                            %! SM12
-                        OCTAVE                                   %! SM12
-                    }                                            %! SM12
             }
         }
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -5626,27 +5305,18 @@ C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 178]                         %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     d''2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ClarinetMusicVoice measure 179]                         %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     d''2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ClarinetMusicVoice measure 180]                         %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     d''2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ClarinetMusicVoice measure 181]                         %! SM4
     r1
@@ -5682,26 +5352,17 @@ C_ClarinetMusicVoice = {
         
         % [C ClarinetMusicVoice measure 191]                     %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
     }
@@ -5712,10 +5373,7 @@ C_ClarinetMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
     }
@@ -5829,18 +5487,12 @@ C_ClarinetMusicVoice = {
         
         % [C ClarinetMusicVoice measure 228]                     %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5849,10 +5501,7 @@ C_ClarinetMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4.
         
@@ -5899,26 +5548,17 @@ C_ClarinetMusicVoice = {
         
         % [C ClarinetMusicVoice measure 242]                     %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4
     }
@@ -5929,10 +5569,7 @@ C_ClarinetMusicVoice = {
         r8
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         d''8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         r4.
         
@@ -6060,7 +5697,6 @@ C_PianoRHMusicVoice = {
     %@% \override Staff.Clef.color = ##f                     %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
         \set Staff.forceClef = ##t                           %! SM8:REAPPLIED_CLEF:SM33:SM37
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
         ^ \markup {
@@ -6078,10 +5714,6 @@ C_PianoRHMusicVoice = {
                                 #(x11-color 'green4)         %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                                 [“Pf.”]                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                         }                                    %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    \line                                    %! SM12
-                        {                                    %! SM12
-                            OCTAVE                           %! SM12
-                        }                                    %! SM12
                 }
             }
         \override StaffGroup.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -6100,1027 +5732,568 @@ C_PianoRHMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab) %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 178]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 2/3 {
         
         % [C PianoRHMusicVoice measure 179]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 180]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/5 {
         
         % [C PianoRHMusicVoice measure 181]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 182]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 2/3 {
         
         % [C PianoRHMusicVoice measure 183]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/7 {
         
         % [C PianoRHMusicVoice measure 184]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 2/3 {
         
         % [C PianoRHMusicVoice measure 185]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 186]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/5 {
         
         % [C PianoRHMusicVoice measure 187]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 188]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/5 {
         
         % [C PianoRHMusicVoice measure 189]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 190]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/5 {
         
         % [C PianoRHMusicVoice measure 191]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 192]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/5 {
         
         % [C PianoRHMusicVoice measure 193]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 4/7 {
         
         % [C PianoRHMusicVoice measure 194]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [C PianoRHMusicVoice measure 195]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 196]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 197]                      %! SM4
@@ -7130,96 +6303,54 @@ C_PianoRHMusicVoice = {
         
         % [C PianoRHMusicVoice measure 198]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 199]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 200]                      %! SM4
@@ -7309,84 +6440,48 @@ C_PianoRHMusicVoice = {
         
         % [C PianoRHMusicVoice measure 228]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 229]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 230]                      %! SM4
@@ -7419,84 +6514,48 @@ C_PianoRHMusicVoice = {
         
         % [C PianoRHMusicVoice measure 239]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 240]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 241]                      %! SM4
@@ -7505,108 +6564,60 @@ C_PianoRHMusicVoice = {
         
         % [C PianoRHMusicVoice measure 242]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 243]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 244]                      %! SM4
@@ -7637,95 +6648,53 @@ C_PianoRHMusicVoice = {
         
         % [C PianoRHMusicVoice measure 252]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \times 2/3 {
         
         % [C PianoRHMusicVoice measure 253]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 254]                      %! SM4
@@ -7761,84 +6730,48 @@ C_PianoRHMusicVoice = {
         
         % [C PianoRHMusicVoice measure 264]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C PianoRHMusicVoice measure 265]                  %! SM4
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         [
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
         
         \makeBlue                                            %! SM24
-        \makeRed                                             %! SM12
         c'8
         ]
-        - \tweak color #red                                  %! SM12
-        ^ \markup { OCTAVE }                                 %! SM12
     }
     
     % [C PianoRHMusicVoice measure 266]                      %! SM4
@@ -8559,10 +7492,7 @@ C_PercussionMusicVoice = {
     r4
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 184]                       %! SM4
     r1
@@ -8572,10 +7502,7 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 186]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2
     
@@ -8583,17 +7510,11 @@ C_PercussionMusicVoice = {
     r2.
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 188]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2
     
@@ -8601,17 +7522,11 @@ C_PercussionMusicVoice = {
     r2.
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 190]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r2
     
@@ -8629,216 +7544,138 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 195]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 196]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 197]                       %! SM4
     R1 * 1/4
     
     % [C PercussionMusicVoice measure 198]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 199]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 200]                       %! SM4
     R1 * 1/4
     
     % [C PercussionMusicVoice measure 201]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 202]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
     % [C PercussionMusicVoice measure 203]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 204]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 205]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 206]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 207]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 208]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 209]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 210]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 211]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 212]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
     % [C PercussionMusicVoice measure 213]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 214]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 215]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 216]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 217]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 218]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 219]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 220]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 221]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 222]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
@@ -8898,17 +7735,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 239]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 240]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 241]                       %! SM4
     R1 * 1/4
@@ -8945,17 +7776,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 252]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 253]                       %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C PercussionMusicVoice measure 254]                       %! SM4
     R1 * 1/4
@@ -9053,7 +7878,6 @@ C_ViolinMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         \ppp                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
         [
@@ -9072,10 +7896,6 @@ C_ViolinMusicVoice = {
                                 #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                                 [“Vn.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
                 }
             }
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -9094,1062 +7914,585 @@ C_ViolinMusicVoice = {
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 178]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolinMusicVoice measure 179]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 180]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolinMusicVoice measure 181]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [C ViolinMusicVoice measure 182]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolinMusicVoice measure 183]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         % [C ViolinMusicVoice measure 184]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolinMusicVoice measure 185]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 186]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolinMusicVoice measure 187]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 188]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolinMusicVoice measure 189]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 190]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolinMusicVoice measure 191]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolinMusicVoice measure 192]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolinMusicVoice measure 193]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         % [C ViolinMusicVoice measure 194]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [C ViolinMusicVoice measure 195]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 196]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 197]                           %! SM4
@@ -10159,96 +8502,54 @@ C_ViolinMusicVoice = {
         
         % [C ViolinMusicVoice measure 198]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 199]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 200]                           %! SM4
@@ -10338,84 +8639,48 @@ C_ViolinMusicVoice = {
         
         % [C ViolinMusicVoice measure 228]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 229]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 230]                           %! SM4
@@ -10423,42 +8688,27 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 231]                           %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
@@ -10466,54 +8716,33 @@ C_ViolinMusicVoice = {
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
@@ -10538,84 +8767,48 @@ C_ViolinMusicVoice = {
         
         % [C ViolinMusicVoice measure 239]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 240]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 241]                           %! SM4
@@ -10624,108 +8817,60 @@ C_ViolinMusicVoice = {
         
         % [C ViolinMusicVoice measure 242]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 243]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 244]                           %! SM4
@@ -10756,95 +8901,53 @@ C_ViolinMusicVoice = {
         
         % [C ViolinMusicVoice measure 252]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolinMusicVoice measure 253]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 254]                           %! SM4
@@ -10880,84 +8983,48 @@ C_ViolinMusicVoice = {
         
         % [C ViolinMusicVoice measure 264]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolinMusicVoice measure 265]                       %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolinMusicVoice measure 266]                           %! SM4
@@ -10968,135 +9035,84 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 268]                           %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ViolinMusicVoice measure 269]                           %! SM4
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
@@ -11104,89 +9120,56 @@ C_ViolinMusicVoice = {
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ViolinMusicVoice measure 271]                           %! SM4
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
@@ -11232,7 +9215,6 @@ C_ViolaMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         \ppp                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
         [
@@ -11251,10 +9233,6 @@ C_ViolaMusicVoice = {
                                 #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                                 [“Va.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
                 }
             }
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -11273,1062 +9251,585 @@ C_ViolaMusicVoice = {
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 178]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 179]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 180]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 181]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [C ViolaMusicVoice measure 182]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 183]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         % [C ViolaMusicVoice measure 184]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 185]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 186]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolaMusicVoice measure 187]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 188]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolaMusicVoice measure 189]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 190]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolaMusicVoice measure 191]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 192]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C ViolaMusicVoice measure 193]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         % [C ViolaMusicVoice measure 194]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [C ViolaMusicVoice measure 195]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 196]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolaMusicVoice measure 197]                            %! SM4
@@ -12338,96 +9839,54 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 198]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 199]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolaMusicVoice measure 200]                            %! SM4
@@ -12517,84 +9976,48 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 228]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 229]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolaMusicVoice measure 230]                            %! SM4
@@ -12602,42 +10025,27 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 231]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
@@ -12645,54 +10053,33 @@ C_ViolaMusicVoice = {
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
@@ -12735,84 +10122,48 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 239]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 240]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolaMusicVoice measure 241]                            %! SM4
@@ -12821,108 +10172,60 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 242]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C ViolaMusicVoice measure 243]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolaMusicVoice measure 244]                            %! SM4
@@ -12980,95 +10283,53 @@ C_ViolaMusicVoice = {
         
         % [C ViolaMusicVoice measure 252]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C ViolaMusicVoice measure 253]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C ViolaMusicVoice measure 254]                            %! SM4
@@ -13154,40 +10415,25 @@ C_ViolaMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'8.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ViolaMusicVoice measure 269]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ViolaMusicVoice measure 270]                            %! SM4
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'8.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'4
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C ViolaMusicVoice measure 271]                            %! SM4
     \makeBlue                                                    %! SM24
@@ -13249,7 +10495,6 @@ C_CelloMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
         \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         \ppp                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
         [
@@ -13268,10 +10513,6 @@ C_CelloMusicVoice = {
                                 #(x11-color 'green4)             %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                                 [“Vc.”]                          %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                         }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-                    \line                                        %! SM12
-                        {                                        %! SM12
-                            OCTAVE                               %! SM12
-                        }                                        %! SM12
                 }
             }
         \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -13290,824 +10531,455 @@ C_CelloMusicVoice = {
             }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C CelloMusicVoice measure 178]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C CelloMusicVoice measure 179]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C CelloMusicVoice measure 180]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C CelloMusicVoice measure 181]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/4 {
         
         % [C CelloMusicVoice measure 182]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C CelloMusicVoice measure 183]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/7 {
         
         % [C CelloMusicVoice measure 184]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C CelloMusicVoice measure 185]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C CelloMusicVoice measure 186]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C CelloMusicVoice measure 187]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C CelloMusicVoice measure 188]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C CelloMusicVoice measure 189]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C CelloMusicVoice measure 190]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 4/5 {
         
         % [C CelloMusicVoice measure 191]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \times 2/3 {
         
         % [C CelloMusicVoice measure 192]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C CelloMusicVoice measure 193]                            %! SM4
@@ -14118,216 +10990,138 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 195]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 196]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 197]                            %! SM4
     R1 * 1/4
     
     % [C CelloMusicVoice measure 198]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 199]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     \repeatTie
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 200]                            %! SM4
     R1 * 1/4
     
     % [C CelloMusicVoice measure 201]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 202]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
     % [C CelloMusicVoice measure 203]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 204]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 205]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 206]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 207]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 208]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 209]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 210]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 211]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 212]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
     % [C CelloMusicVoice measure 213]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 214]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 215]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 216]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 217]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 218]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 219]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 220]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'1
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 221]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
     ~
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 222]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r4
     
@@ -14348,17 +11142,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 228]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 229]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 230]                            %! SM4
     R1 * 1/4
@@ -14389,17 +11177,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 239]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 240]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 241]                            %! SM4
     R1 * 1/4
@@ -14436,17 +11218,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 252]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2.
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 253]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'2
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 254]                            %! SM4
     R1 * 1/4
@@ -14481,84 +11257,48 @@ C_CelloMusicVoice = {
         
         % [C CelloMusicVoice measure 264]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         % [C CelloMusicVoice measure 265]                        %! SM4
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         [
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
         
         \makeBlue                                                %! SM24
-        \makeRed                                                 %! SM12
         c'8
         ]
-        - \tweak color #red                                      %! SM12
-        ^ \markup { OCTAVE }                                     %! SM12
     }
     
     % [C CelloMusicVoice measure 266]                            %! SM4
@@ -14569,135 +11309,84 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 268]                            %! SM4
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 269]                            %! SM4
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
@@ -14705,89 +11394,56 @@ C_CelloMusicVoice = {
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r16
     
     r16
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     % [C CelloMusicVoice measure 271]                            %! SM4
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     [
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     \makeBlue                                                    %! SM24
-    \makeRed                                                     %! SM12
     c'16
     ]
-    - \tweak color #red                                          %! SM12
-    ^ \markup { OCTAVE }                                         %! SM12
     
     r8
     
