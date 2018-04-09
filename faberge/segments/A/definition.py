@@ -881,7 +881,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.tasto(),
         baca.markup.pochiss_pont(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -891,7 +891,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -900,7 +900,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.pochiss_pont(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -915,7 +915,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -924,7 +924,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.pochiss_pont(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -939,7 +939,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -948,7 +948,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.pochiss_pont(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -963,7 +963,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -1022,7 +1022,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.tasto_plus_poco_vib(),
         baca.markup.PO_plus_poco_vib(False, True),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -1032,7 +1032,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.PO_plus_poco_vib(True, True),
         baca.markup.tasto_plus_poco_vib(False, True),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -1042,7 +1042,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.tasto_plus_poco_vib(True, True),
         baca.markup.poco_pont_plus_vib_mod(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -1058,7 +1058,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.poco_pont_plus_sub_vib_mod(True, False),
         baca.markup.tasto_plus_non_vib(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -1068,6 +1068,6 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto_plus_poco_vib(True, False),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )

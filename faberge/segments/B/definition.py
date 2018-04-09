@@ -908,7 +908,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.tasto_plus_poco_vib(True, True),
         baca.markup.molto_pont_plus_vib_molto(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     baca.hairpin('p < ff', baca.rleaves()),
     )
@@ -918,7 +918,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.molto_pont_plus_vib_molto(True, True),
         baca.markup.tasto_plus_poco_vib(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     baca.hairpin('ff > p', baca.rleaves()),
     )
@@ -928,7 +928,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto_plus_non_vib(True, False),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     )
 
@@ -951,7 +951,7 @@ maker(
     baca.single_segment_transition(
         baca.markup.tasto_plus_non_vib(True, True),
         baca.markup.PO(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     baca.hairpin('p < ff', baca.rleaves()),
     )
@@ -971,7 +971,7 @@ maker(
     baca.single_segment_transition(
         None,
         baca.markup.tasto_poss(),
-        baca.rleaves().group(),
+        selector=baca.rleaves().group(),
         ),
     baca.hairpin('ff > niente'),
     )
