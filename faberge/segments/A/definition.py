@@ -878,7 +878,7 @@ maker(
 
 maker(
     ('va', 1),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.tasto(),
         baca.markup.pochiss_pont(),
         selector=baca.rleaves().group(),
@@ -888,7 +888,7 @@ maker(
 maker(
     ('va', 2),
     baca.dynamic('pp', baca.pleaf(0)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto(),
         selector=baca.rleaves().group(),
@@ -897,7 +897,7 @@ maker(
 
 maker(
     ('va', (3, 4)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.pochiss_pont(),
         selector=baca.rleaves().group(),
@@ -912,7 +912,7 @@ maker(
 maker(
     ('va', 5),
     baca.dynamic('pp', baca.pleaf(0)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto(),
         selector=baca.rleaves().group(),
@@ -921,7 +921,7 @@ maker(
 
 maker(
     ('va', (6, 7)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.pochiss_pont(),
         selector=baca.rleaves().group(),
@@ -936,7 +936,7 @@ maker(
 maker(
     ('va', 8),
     baca.dynamic('pp', baca.pleaf(0)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto(),
         selector=baca.rleaves().group(),
@@ -945,7 +945,7 @@ maker(
 
 maker(
     ('va', (9, 11)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.pochiss_pont(),
         selector=baca.rleaves().group(),
@@ -960,7 +960,7 @@ maker(
 maker(
     ('va', 12),
     baca.dynamic('pp', baca.pleaf(0)),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto(),
         selector=baca.rleaves().group(),
@@ -979,7 +979,7 @@ maker(
     baca.markup.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.tasto(),
         baca.markup.pochiss_pont(),
         ),
@@ -1003,7 +1003,7 @@ maker(
     baca.markup.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.pochiss_pont(),
         baca.markup.tasto(),
         ),
@@ -1019,7 +1019,7 @@ maker(
 maker(
     ('vc', (1, 2)),
     baca.hairpin('p < f', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.tasto_plus_poco_vib(),
         baca.markup.PO_plus_poco_vib(False, True),
         selector=baca.rleaves().group(),
@@ -1029,7 +1029,7 @@ maker(
 maker(
     ('vc', (4, 6)),
     baca.hairpin('f > p', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.PO_plus_poco_vib(True, True),
         baca.markup.tasto_plus_poco_vib(False, True),
         selector=baca.rleaves().group(),
@@ -1039,7 +1039,7 @@ maker(
 maker(
     ('vc', (9, 10)),
     baca.hairpin('p < ff', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.tasto_plus_poco_vib(True, True),
         baca.markup.poco_pont_plus_vib_mod(),
         selector=baca.rleaves().group(),
@@ -1055,7 +1055,7 @@ maker(
 maker(
     ('vc', (14, 15)),
     baca.hairpin('ff > pp', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         baca.markup.poco_pont_plus_sub_vib_mod(True, False),
         baca.markup.tasto_plus_non_vib(),
         selector=baca.rleaves().group(),
@@ -1065,7 +1065,7 @@ maker(
 maker(
     ('vc', 16),
     baca.hairpin('pp < p', baca.rleaves()),
-    baca.enchained_transition(
+    baca.transition(
         None,
         baca.markup.tasto_plus_poco_vib(True, False),
         selector=baca.rleaves().group(),
