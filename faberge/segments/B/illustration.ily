@@ -4816,7 +4816,7 @@ B_FluteMusicVoice = {
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
-    gs''1
+    gs''!1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -4824,7 +4824,7 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 166]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \makeRed                                                     %! SM14
-    gs''2
+    gs''!2
     \repeatTie
     \ppp                                                         %! HC1
     - \tweak color #red                                          %! SM14
@@ -4832,14 +4832,14 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         \makeRed                                                 %! SM14
-        gs''16
+        gs''!16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \makeRed                                                 %! SM14
-        gs''16
+        gs''!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         ^ \markup {
@@ -4851,7 +4851,7 @@ B_FluteMusicVoice = {
             }
         
         \makeRed                                                 %! SM14
-        gs''16
+        gs''!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         ^ \markup {
@@ -4863,7 +4863,7 @@ B_FluteMusicVoice = {
             }
         
         \makeRed                                                 %! SM14
-        gs'16
+        gs'!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         ^ \markup {
@@ -4876,7 +4876,7 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeRed                                                 %! SM14
-        gs''16
+        gs''!16
         ]
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4887,14 +4887,14 @@ B_FluteMusicVoice = {
         % [B FluteMusicVoice measure 167]                        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         \makeRed                                                 %! SM14
-        gs''8
+        gs''!8
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \makeRed                                                 %! SM14
-        gs'8
+        gs'!8
         ]
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4908,7 +4908,7 @@ B_FluteMusicVoice = {
     }
     
     \makeRed                                                     %! SM14
-    gs'4
+    gs'!4
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -4917,7 +4917,7 @@ B_FluteMusicVoice = {
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
-    gs'4
+    gs'!4
     \repeatTie
     \>                                                           %! HC1
     \ppp                                                         %! HC1
@@ -5025,15 +5025,15 @@ B_EnglishHornMusicVoice = {
         
         \override NoteHead.style = #'cross                       %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        ef'16
+        ef'!16
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         e'16
         
-        eqs'16
+        eqs'!16
         
-        gs'16
+        gs'!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5041,14 +5041,14 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        aqf'8
+        aqf'!8
     }
     \times 2/3 {
         
         % [B EnglishHornMusicVoice measure 98]                   %! SM4
         r8
         
-        bf'4
+        bf'!4
     }
     
     r4
@@ -5062,7 +5062,7 @@ B_EnglishHornMusicVoice = {
         
         r4
         
-        eqs'8
+        eqs'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5070,7 +5070,7 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 99]                   %! SM4
         r8
         
-        ef'16
+        ef'!16
         [
         
         e'16
@@ -5083,11 +5083,11 @@ B_EnglishHornMusicVoice = {
         a'16
         [
         
-        gs'16
+        gs'!16
         
-        aqf'16
+        aqf'!16
         
-        bf'16
+        bf'!16
         ]
     }
     
@@ -5096,10 +5096,10 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        cs'16
+        cs'!16
         [
         
-        fqs'16
+        fqs'!16
         
         f'16
         
@@ -5112,7 +5112,7 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 100]                  %! SM4
         r8
         
-        bf'8
+        bf'!8
     }
     \times 2/3 {
         
@@ -5127,13 +5127,13 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        gs'4
+        gs'!4
     }
     \times 2/3 {
         
         r4
         
-        aqf'8
+        aqf'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5144,21 +5144,21 @@ B_EnglishHornMusicVoice = {
         d'16
         [
         
-        cs'16
+        cs'!16
         ]
     }
     \times 4/5 {
         
         r16
         
-        fqs'16
+        fqs'!16
         [
         
         f'16
         
         e'16
         
-        eqs'16
+        eqs'!16
         ]
     }
     
@@ -5168,14 +5168,14 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        ef'16
+        ef'!16
         [
         
         f'16
         
         d'16
         
-        cs'16
+        cs'!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5183,14 +5183,14 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        fqs'8
+        fqs'!8
     }
     \times 2/3 {
         
         % [B EnglishHornMusicVoice measure 104]                  %! SM4
         r8
         
-        ef'4
+        ef'!4
     }
     
     r4
@@ -5204,7 +5204,7 @@ B_EnglishHornMusicVoice = {
         
         r4
         
-        eqs'8
+        eqs'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5212,10 +5212,10 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 105]                  %! SM4
         r8
         
-        aqf'16
+        aqf'!16
         [
         
-        bf'16
+        bf'!16
         ]
     }
     \times 4/5 {
@@ -5225,11 +5225,11 @@ B_EnglishHornMusicVoice = {
         a'16
         [
         
-        gs'16
+        gs'!16
         
-        eqs'16
+        eqs'!16
         
-        ef'16
+        ef'!16
         ]
     }
     
@@ -5242,11 +5242,11 @@ B_EnglishHornMusicVoice = {
         e'16
         [
         
-        gs'16
+        gs'!16
         
-        aqf'16
+        aqf'!16
         
-        bf'16
+        bf'!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5261,7 +5261,7 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 107]                  %! SM4
         r8
         
-        fqs'4
+        fqs'!4
     }
     
     r4
@@ -5283,7 +5283,7 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 108]                  %! SM4
         r8
         
-        cs'16
+        cs'!16
         [
         
         a'16
@@ -5293,14 +5293,14 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        gs'16
+        gs'!16
         [
         
-        aqf'16
+        aqf'!16
         
-        bf'16
+        bf'!16
         
-        cs'16
+        cs'!16
         ]
         \revert NoteHead.style                                   %! OC2
     }
@@ -5312,7 +5312,7 @@ B_EnglishHornMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    af'8.
+    af'!8.
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \startTrillSpan                                              %! SC
     
@@ -5320,32 +5320,32 @@ B_EnglishHornMusicVoice = {
     \stopTrillSpan                                               %! SC
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    atqf'8.
+    atqf'!8.
     \startTrillSpan                                              %! SC
     
     % [B EnglishHornMusicVoice measure 110]                      %! SM4
-    atqf'16
+    atqf'!16
     \repeatTie
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    af'2
+    af'!2
     
-    atqf'4..
+    atqf'!4..
     
     % [B EnglishHornMusicVoice measure 111]                      %! SM4
-    atqf'2
+    atqf'!2
     \repeatTie
     
-    atqf'16
+    atqf'!16
     \repeatTie
     [
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    aqf'8.
+    aqf'!8.
     ]
     
     % [B EnglishHornMusicVoice measure 112]                      %! SM4
-    aqf'1
+    aqf'!1
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 113]                      %! SM4
@@ -5358,21 +5358,21 @@ B_EnglishHornMusicVoice = {
         
         \override NoteHead.style = #'cross                       %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-        gs'8
+        gs'!8
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
     }
     \times 2/3 {
         
         r8
         
-        aqf'4
+        aqf'!4
     }
     \times 4/5 {
         
         % [B EnglishHornMusicVoice measure 114]                  %! SM4
         r16
         
-        bf'16
+        bf'!16
         [
         
         a'8.
@@ -5384,14 +5384,14 @@ B_EnglishHornMusicVoice = {
         
         r4
         
-        eqs'8
+        eqs'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         r8
         
-        ef'16
+        ef'!16
         [
         
         e'16
@@ -5405,21 +5405,21 @@ B_EnglishHornMusicVoice = {
         a'16
         [
         
-        gs'16
+        gs'!16
         
-        aqf'16
+        aqf'!16
         
-        bf'16
+        bf'!16
         ]
     }
     \times 4/5 {
         
         r16
         
-        cs'16
+        cs'!16
         [
         
-        fqs'16
+        fqs'!16
         
         f'16
         
@@ -5434,7 +5434,7 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        bf'8
+        bf'!8
     }
     \times 2/3 {
         
@@ -5446,10 +5446,10 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        gs'16
+        gs'!16
         [
         
-        aqf'8.
+        aqf'!8.
         ]
     }
     
@@ -5466,10 +5466,10 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        cs'16
+        cs'!16
         [
         
-        fqs'16
+        fqs'!16
         ]
     }
     \times 4/5 {
@@ -5481,9 +5481,9 @@ B_EnglishHornMusicVoice = {
         
         e'16
         
-        eqs'16
+        eqs'!16
         
-        ef'16
+        ef'!16
         ]
     }
     \times 4/5 {
@@ -5496,9 +5496,9 @@ B_EnglishHornMusicVoice = {
         
         d'16
         
-        cs'16
+        cs'!16
         
-        fqs'16
+        fqs'!16
         ]
     }
     
@@ -5508,7 +5508,7 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        ef'8
+        ef'!8
         \revert NoteHead.style                                   %! OC2
     }
     
@@ -5535,7 +5535,7 @@ B_EnglishHornMusicVoice = {
     \stopTrillSpan                                               %! SC
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    aqs'8.
+    aqs'!8.
     \startTrillSpan                                              %! SC
     
     % [B EnglishHornMusicVoice measure 122]                      %! SM4
@@ -5543,25 +5543,25 @@ B_EnglishHornMusicVoice = {
     \stopTrillSpan                                               %! SC
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    aqf'2...
+    aqf'!2...
     \startTrillSpan                                              %! SC
     
     % [B EnglishHornMusicVoice measure 123]                      %! SM4
-    aqf'1
+    aqf'!1
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 124]                      %! SM4
-    aqf'4
+    aqf'!4
     \repeatTie
     
     r16
     \stopTrillSpan                                               %! SC
     
-    af'4..
+    af'!4..
     \startTrillSpan                                              %! SC
     
     % [B EnglishHornMusicVoice measure 125]                      %! SM4
-    aqf'2
+    aqf'!2
     
     % [B EnglishHornMusicVoice measure 126]                      %! SM4
     r2
@@ -5569,7 +5569,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 127]                      %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    bf'2.
+    bf'!2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -5582,23 +5582,23 @@ B_EnglishHornMusicVoice = {
     \startTrillSpan                                              %! SC
     
     % [B EnglishHornMusicVoice measure 128]                      %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 129]                      %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 130]                      %! SM4
-    bf'2.
+    bf'!2.
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 131]                      %! SM4
-    bf'1
+    bf'!1
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 132]                      %! SM4
-    bf'2
+    bf'!2
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 133]                      %! SM4
@@ -5652,10 +5652,10 @@ B_EnglishHornMusicVoice = {
         r16
         
         \override NoteHead.style = #'cross                       %! OC1
-        eqs'16
+        eqs'!16
         [
         
-        ef'16
+        ef'!16
         
         e'16
         
@@ -5667,13 +5667,13 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        gs'8
+        gs'!8
     }
     \times 2/3 {
         
         r8
         
-        aqf'4
+        aqf'!4
     }
     
     % [B EnglishHornMusicVoice measure 142]                      %! SM4
@@ -5682,13 +5682,13 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        bf'4
+        bf'!4
     }
     \times 2/3 {
         
         r4
         
-        cs'8
+        cs'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5696,7 +5696,7 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 143]                  %! SM4
         r8
         
-        fqs'16
+        fqs'!16
         [
         
         f'16
@@ -5709,11 +5709,11 @@ B_EnglishHornMusicVoice = {
         d'16
         [
         
-        bf'16
+        bf'!16
         
         a'16
         
-        gs'16
+        gs'!16
         ]
     }
     
@@ -5723,14 +5723,14 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 144]                  %! SM4
         r16
         
-        aqf'16
+        aqf'!16
         [
         
         d'16
         
-        cs'16
+        cs'!16
         
-        fqs'16
+        fqs'!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5753,14 +5753,14 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        eqs'4
+        eqs'!4
     }
     \times 2/3 {
         
         % [B EnglishHornMusicVoice measure 146]                  %! SM4
         r4
         
-        ef'8
+        ef'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5777,12 +5777,12 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        cs'16
+        cs'!16
         [
         
-        fqs'16
+        fqs'!16
         
-        ef'16
+        ef'!16
         
         e'16
         ]
@@ -5794,12 +5794,12 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 147]                  %! SM4
         r16
         
-        eqs'16
+        eqs'!16
         [
         
-        aqf'16
+        aqf'!16
         
-        bf'16
+        bf'!16
         
         a'16
         ]
@@ -5809,13 +5809,13 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        gs'8
+        gs'!8
     }
     \times 2/3 {
         
         r8
         
-        eqs'4
+        eqs'!4
     }
     
     r4
@@ -5824,7 +5824,7 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 148]                  %! SM4
         r16
         
-        ef'4
+        ef'!4
     }
     \times 2/3 {
         
@@ -5838,22 +5838,22 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 149]                  %! SM4
         r8
         
-        gs'16
+        gs'!16
         [
         
-        aqf'16
+        aqf'!16
         ]
     }
     \times 4/5 {
         
         r16
         
-        bf'16
+        bf'!16
         [
         
         a'16
         
-        fqs'16
+        fqs'!16
         
         f'16
         ]
@@ -5868,11 +5868,11 @@ B_EnglishHornMusicVoice = {
         d'16
         [
         
-        cs'16
+        cs'!16
         
         a'16
         
-        gs'16
+        gs'!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5880,14 +5880,14 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        aqf'8
+        aqf'!8
     }
     \times 2/3 {
         
         % [B EnglishHornMusicVoice measure 151]                  %! SM4
         r8
         
-        bf'4
+        bf'!4
     }
     
     r4
@@ -5895,14 +5895,14 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        cs'4
+        cs'!4
     }
     \times 2/3 {
         
         % [B EnglishHornMusicVoice measure 152]                  %! SM4
         r4
         
-        fqs'8
+        fqs'!8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
@@ -5922,9 +5922,9 @@ B_EnglishHornMusicVoice = {
         e'16
         [
         
-        eqs'16
+        eqs'!16
         
-        ef'16
+        ef'!16
         
         d'16
         ]
@@ -5936,14 +5936,14 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 153]                  %! SM4
         r16
         
-        cs'16
+        cs'!16
         [
         
-        fqs'16
+        fqs'!16
         
         f'16
         
-        ef'16
+        ef'!16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -5957,7 +5957,7 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        eqs'4
+        eqs'!4
     }
     
     % [B EnglishHornMusicVoice measure 154]                      %! SM4
@@ -5966,7 +5966,7 @@ B_EnglishHornMusicVoice = {
         
         r16
         
-        bf'4
+        bf'!4
     }
     \times 2/3 {
         
@@ -5980,24 +5980,24 @@ B_EnglishHornMusicVoice = {
         
         r8
         
-        gs'16
+        gs'!16
         [
         
-        aqf'16
+        aqf'!16
         ]
     }
     \times 4/5 {
         
         r16
         
-        eqs'16
+        eqs'!16
         [
         
-        ef'16
+        ef'!16
         
         e'16
         
-        aqf'16
+        aqf'!16
         ]
     }
     
@@ -6007,12 +6007,12 @@ B_EnglishHornMusicVoice = {
         % [B EnglishHornMusicVoice measure 156]                  %! SM4
         r16
         
-        bf'16
+        bf'!16
         [
         
         a'16
         
-        gs'16
+        gs'!16
         
         f'16
         ]
@@ -6197,16 +6197,16 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 100]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
-    fqs1
+    fqs!1
     \repeatTie
     
     % [B ClarinetMusicVoice measure 102]                         %! SM4
-    fqs4
+    fqs!4
     \repeatTie
     
-    fqs8.
+    fqs!8.
     \repeatTie
     
     r16
@@ -6225,12 +6225,12 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 108]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
-    fqs1..
+    fqs!1..
     \repeatTie
     
-    fqs8.
+    fqs!8.
     \repeatTie
     
     r16
@@ -6252,12 +6252,12 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 113]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
-    fqs\breve...
+    fqs!\breve...
     \repeatTie
     
-    fqs8.
+    fqs!8.
     \repeatTie
     
     r16
@@ -6279,12 +6279,12 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 123]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
-    fqs1..
+    fqs!1..
     \repeatTie
     
-    fqs8.
+    fqs!8.
     \repeatTie
     
     r16
@@ -6303,12 +6303,12 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 129]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
-    fqs\breve.
+    fqs!\breve.
     \repeatTie
     
-    fqs8.
+    fqs!8.
     \repeatTie
     
     r16
@@ -6330,15 +6330,15 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 137]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    fqs4
+    fqs!4
     
-    fqs1
+    fqs!1
     \repeatTie
     
-    fqs4
+    fqs!4
     \repeatTie
     
-    fqs8.
+    fqs!8.
     \repeatTie
     
     r16
@@ -6419,23 +6419,23 @@ B_ClarinetMusicVoice = {
     
     % [B ClarinetMusicVoice measure 153]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    ds4
+    ds!4
     
-    ds1..
+    ds!1..
     \repeatTie
     
-    ds8.
+    ds!8.
     \repeatTie
     
     r16
     
     % [B ClarinetMusicVoice measure 156]                         %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    ds4
+    ds!4
     
     \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ds8.
+    ds!8.
     \repeatTie
     \>                                                           %! HC1
     \ppp                                                         %! HC1
@@ -6556,7 +6556,7 @@ B_PianoRHMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                               %! SM8:REAPPLIED_CLEF:SM33:SM37
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     ^ \markup {
         \column
             {
@@ -6590,175 +6590,175 @@ B_PianoRHMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
     % [B PianoRHMusicVoice measure 98]                       %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 99]                       %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 100]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 101]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 102]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 103]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 104]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 105]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 106]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 107]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 108]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 109]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 110]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 111]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 112]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 113]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 114]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 115]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 116]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 117]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 118]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 119]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 120]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 121]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 122]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 123]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 124]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 125]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 126]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 127]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 128]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 129]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 130]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 131]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 132]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 133]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 134]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 135]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 136]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 137]                      %! SM4
-    <ef' f' g' df'' ef''>2.
+    <ef'! f' g' df''! ef''!>2.
     \repeatTie
     
     % [B PianoRHMusicVoice measure 138]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     
     % [B PianoRHMusicVoice measure 139]                      %! SM4
-    <ef' f' g' df'' ef''>2
+    <ef'! f' g' df''! ef''!>2
     \repeatTie
     
     % [B PianoRHMusicVoice measure 140]                      %! SM4
-    <ef' f' g' df'' ef''>1
+    <ef'! f' g' df''! ef''!>1
     \repeatTie
     \revert NoteHead.style                                   %! OC2
     
@@ -7569,7 +7569,7 @@ B_PercussionMusicVoice = {
     
     % [B PercussionMusicVoice measure 119]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \<                                                           %! PWC1
     \ppp                                                         %! PWC1
@@ -7580,155 +7580,155 @@ B_PercussionMusicVoice = {
         }                                                        %! IC
     
     % [B PercussionMusicVoice measure 120]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 121]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     \pp                                                          %! PWC1
     \>                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 122]                       %! SM4
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 123]                       %! SM4
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 124]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     \ppp                                                         %! PWC1
     \<                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 125]                       %! SM4
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 126]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \repeatTie
     \pp                                                          %! PWC1
     \>                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 127]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 128]                       %! SM4
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 129]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \repeatTie
     \ppp                                                         %! PWC1
     \<                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 130]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 131]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     \pp                                                          %! PWC1
     \>                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 132]                       %! SM4
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 133]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 134]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     \ppp                                                         %! PWC1
     \<                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 135]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 136]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     \pp                                                          %! PWC1
     \>                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 137]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 138]                       %! SM4
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 139]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \repeatTie
     \ppp                                                         %! PWC1
     \<                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 140]                       %! SM4
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 141]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,1
+    ef,!1
     :32                                                          %! IC
     \repeatTie
     \pp                                                          %! PWC1
     \>                                                           %! PWC1
     
     % [B PercussionMusicVoice measure 142]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 143]                       %! SM4
-    ef,2.
+    ef,!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 144]                       %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
-    ef,2
+    ef,!2
     :32                                                          %! IC
     \repeatTie
     \ppp                                                         %! PWC1
@@ -7777,21 +7777,21 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 153]                       %! SM4
-    cs,2.
+    cs,!2.
     :32                                                          %! IC
     
     % [B PercussionMusicVoice measure 154]                       %! SM4
-    cs,2
+    cs,!2
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 155]                       %! SM4
-    cs,1
+    cs,!1
     :32                                                          %! IC
     \repeatTie
     
     % [B PercussionMusicVoice measure 156]                       %! SM4
-    cs,2
+    cs,!2
     :32                                                          %! IC
     \repeatTie
     
@@ -8415,7 +8415,7 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 119]                           %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
-    eqf'2
+    eqf'!2
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -8424,128 +8424,128 @@ B_ViolinMusicVoice = {
         }                                                        %! IC
     
     % [B ViolinMusicVoice measure 120]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 121]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 122]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 123]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 124]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 125]                           %! SM4
-    eqf'2
+    eqf'!2
     \repeatTie
     
     % [B ViolinMusicVoice measure 126]                           %! SM4
-    eqf'2
+    eqf'!2
     \repeatTie
     
     % [B ViolinMusicVoice measure 127]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 128]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 129]                           %! SM4
-    eqf'2
+    eqf'!2
     \repeatTie
     
     % [B ViolinMusicVoice measure 130]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 131]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 132]                           %! SM4
-    eqf'2
+    eqf'!2
     \repeatTie
     
     % [B ViolinMusicVoice measure 133]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    eqf'2.
+    eqf'!2.
     \repeatTie
     \<                                                           %! HC1
     \ppp                                                         %! HC1
     
     % [B ViolinMusicVoice measure 134]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 135]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 136]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 137]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 138]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 139]                           %! SM4
-    eqf'2
+    eqf'!2
     \repeatTie
     
     % [B ViolinMusicVoice measure 140]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 141]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    eqf'1
+    eqf'!1
     \repeatTie
     \f                                                           %! HC1
     \>                                                           %! HC1
     \f                                                           %! HC1
     
     % [B ViolinMusicVoice measure 142]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 143]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 144]                           %! SM4
-    eqf'2
+    eqf'!2
     \repeatTie
     
     % [B ViolinMusicVoice measure 145]                           %! SM4
-    eqf'2.
+    eqf'!2.
     \repeatTie
     
     % [B ViolinMusicVoice measure 146]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 147]                           %! SM4
-    eqf'1
+    eqf'!1
     \repeatTie
     
     % [B ViolinMusicVoice measure 148]                           %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    eqf'2
+    eqf'!2
     \repeatTie
     \ppp                                                         %! HC1
     \tweak text #tuplet-number::calc-fraction-text
@@ -9924,7 +9924,7 @@ B_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    ef2.
+    ef!2.
     :32                                                          %! IC
     \pp                                                          %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -9960,37 +9960,37 @@ B_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B ViolaMusicVoice measure 98]                             %! SM4
-    ef1
+    ef!1
     :32                                                          %! IC
     \repeatTie
     
     % [B ViolaMusicVoice measure 99]                             %! SM4
-    ef1
+    ef!1
     :32                                                          %! IC
     \repeatTie
     
     % [B ViolaMusicVoice measure 100]                            %! SM4
-    ef2
+    ef!2
     :32                                                          %! IC
     \repeatTie
     
     % [B ViolaMusicVoice measure 101]                            %! SM4
-    ef2.
+    ef!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B ViolaMusicVoice measure 102]                            %! SM4
-    ef2
+    ef!2
     :32                                                          %! IC
     \repeatTie
     
     % [B ViolaMusicVoice measure 103]                            %! SM4
-    ef2.
+    ef!2.
     :32                                                          %! IC
     \repeatTie
     
     % [B ViolaMusicVoice measure 104]                            %! SM4
-    ef1
+    ef!1
     :32                                                          %! IC
     \repeatTie
     \times 2/3 {
@@ -11976,7 +11976,7 @@ B_CelloMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    ef,2.
+    ef,!2.
     \p                                                           %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
@@ -12011,31 +12011,31 @@ B_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [B CelloMusicVoice measure 98]                             %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 99]                             %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 100]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 101]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 102]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 103]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 104]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 105]                            %! SM4
@@ -12072,65 +12072,65 @@ B_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef,2.
+    ef,!2.
     \repeatTie
     \<                                                           %! HC1
     \p                                                           %! HC1
     \startTextSpan                                               %! PWC1
     
     % [B CelloMusicVoice measure 106]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 107]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 108]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 109]                            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ef,2.
+    ef,!2.
     \repeatTie
     \ff                                                          %! HC1
     \stopTextSpan                                                %! PWC1
     
     % [B CelloMusicVoice measure 110]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 111]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 112]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 113]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 114]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 115]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 116]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 117]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 118]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 119]                            %! SM4
@@ -12167,22 +12167,22 @@ B_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    ef,2
+    ef,!2
     \repeatTie
     \>                                                           %! HC1
     \ff                                                          %! HC1
     \startTextSpan                                               %! PWC1
     
     % [B CelloMusicVoice measure 120]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 121]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 122]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 123]                            %! SM4
@@ -12219,47 +12219,47 @@ B_CelloMusicVoice = {
     \once \override TextSpanner.dash-fraction = 0.25             %! PWC1
     \once \override TextSpanner.dash-period = 1.5                %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    ef,1
+    ef,!1
     \repeatTie
     \p                                                           %! HC1
     \stopTextSpan                                                %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [B CelloMusicVoice measure 124]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 125]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 126]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 127]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
     % [B CelloMusicVoice measure 128]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 129]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     
     % [B CelloMusicVoice measure 130]                            %! SM4
-    ef,2.
+    ef,!2.
     \repeatTie
     
     % [B CelloMusicVoice measure 131]                            %! SM4
-    ef,1
+    ef,!1
     \repeatTie
     
     % [B CelloMusicVoice measure 132]                            %! SM4
-    ef,2
+    ef,!2
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 27/28 {
@@ -12298,7 +12298,7 @@ B_CelloMusicVoice = {
         \once \override TextSpanner.dash-fraction = 0.25         %! PWC1
         \once \override TextSpanner.dash-period = 1.5            %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        ef,\longa..
+        ef,!\longa..
         \glissando                                               %! SC
         \<                                                       %! HC1
         \p                                                       %! HC1
@@ -12317,7 +12317,7 @@ B_CelloMusicVoice = {
     \times 1/1 {
         
         % [B CelloMusicVoice measure 141]                        %! SM4
-        ff,\breve.
+        ff,!\breve.
         \glissando                                               %! SC
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -12371,11 +12371,11 @@ B_CelloMusicVoice = {
     \times 11/16 {
         
         % [B CelloMusicVoice measure 153]                        %! SM4
-        cs,\breve....
+        cs,!\breve....
         \glissando                                               %! SC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        bs,,8
+        bs,,!8
         \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
