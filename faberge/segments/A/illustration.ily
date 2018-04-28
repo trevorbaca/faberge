@@ -9558,9 +9558,9 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 85]                            %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e'16
-    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \effort_f                                                    %! SM8:REDUNDANT_DYNAMIC:IC
     [
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
