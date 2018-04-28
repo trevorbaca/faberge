@@ -5024,9 +5024,9 @@ B_EnglishHornMusicVoice = {
         r16
         
         \override NoteHead.style = #'cross                       %! OC1
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         ef'!16
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \effort_f                                                %! SM8:REDUNDANT_DYNAMIC:IC
         [
         
         e'16
@@ -5311,9 +5311,9 @@ B_EnglishHornMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     af'!8.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \startTrillSpan                                              %! SC
     
     r16
@@ -5357,9 +5357,9 @@ B_EnglishHornMusicVoice = {
         r8
         
         \override NoteHead.style = #'cross                       %! OC1
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
         gs'!8
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \effort_f                                                %! SM8:REDUNDANT_DYNAMIC:IC
     }
     \times 2/3 {
         
@@ -7978,9 +7978,9 @@ B_ViolinMusicVoice = {
     r1
     
     % [B ViolinMusicVoice measure 105]                           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f'16
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
     [
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -9414,10 +9414,10 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 165]                           %! SM4
     \override RepeatTie.direction = #up                          %! OC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     \makeRed                                                     %! SM14
     c'1
-    \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \effort_mf                                                   %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \column
             {
