@@ -575,7 +575,7 @@ maker(
 
 maker(
     ('eh', (1, 3)),
-    baca.cross_note_heads(),
+    baca.note_head_style_cross(),
     baca.effort_dynamic('f'),
     faberge.keynoise_pitches(rotation=-1)
     )
@@ -589,7 +589,7 @@ maker(
 
 maker(
     ('eh', 5),
-    baca.cross_note_heads(),
+    baca.note_head_style_cross(),
     baca.effort_dynamic('f'),
     faberge.keynoise_pitches(rotation=-2)
     )
@@ -619,7 +619,7 @@ maker(
 
 maker(
     ('eh', (10, 14)),
-    baca.cross_note_heads(),
+    baca.note_head_style_cross(),
     baca.hairpin('> niente'),
     faberge.keynoise_pitches(rotation=-3)
     )
@@ -636,7 +636,7 @@ maker(
     baca.effort_dynamic('mf'),
     baca.markup.airtone(),
     baca.pitch('F3'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 # cl
@@ -687,12 +687,12 @@ maker(
 maker(
     ('rh', (1, 9)),
     faberge.chord_pitches('Eb4 F4 G4 Db5 Eb5'),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
     ('attack', (1, 9)),
-    baca.marcati(),
+    baca.marcato(),
     faberge.piano_clusters(),
     baca.reiterated_dynamic('sfz'),
     )
@@ -723,7 +723,7 @@ maker(
     ('perc', (6, 10)),
     baca.piecewise(
         abjad.Hairpin(),
-        baca.dynamics('ppp pp'),
+        baca.make_dynamics('ppp pp'),
         baca.runs().map(baca.enchain([3, 4])).flatten(),
         bookend=True,
         ),
@@ -807,7 +807,7 @@ maker(
 
 maker(
     ('vn', (12, 15)),
-    baca.staccati(),
+    baca.staccato(),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-3),
     )
@@ -825,14 +825,14 @@ maker(
         'noise only: no pitch',
         ]),
     baca.pitch('C4'),
-    baca.repeat_ties_up(),
+    baca.repeat_tie_up(),
     )
 
 maker(
     ('vn', 17),
     baca.hairpin('mf > ppp'),
     baca.markup('col legno battuto'),
-    baca.staccati(),
+    baca.staccato(),
     faberge.clb_pitches(rotation=-3),
     )
 
@@ -881,7 +881,7 @@ maker(
     ('va', (12, 17)),
     baca.clef('percussion'),
     baca.staff_lines(1),
-    baca.staccati(),
+    baca.staccato(),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-4),
     )
@@ -986,7 +986,7 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.staff_lines(1),
-    baca.staccati(),
+    baca.staccato(),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-5),
     )
