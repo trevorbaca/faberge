@@ -515,7 +515,7 @@ maker(
 
 maker(
     ('eh', 16),
-    baca.cross_note_heads(),
+    baca.note_head_style_cross(),
     baca.dynamic('f'),
     baca.markup.boxed('keynoise', baca.pleaf(0)),
     faberge.keynoise_pitches(rotation=0)
@@ -625,7 +625,7 @@ maker(
         'depress silently;',
         'sustain with middle pedal',
         ]),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
@@ -731,7 +731,7 @@ maker(
 
 maker(
     ('perc', 16),
-    baca.accents(),
+    baca.accent(),
     baca.clef('percussion'),
     baca.dynamic('ff'),
     baca.pitches('D4 D4 B3', exact=True),

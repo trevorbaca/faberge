@@ -391,13 +391,13 @@ maker(
 
 maker(
     (['rh', 'lh'], (5, 14)),
-    baca.natural_harmonics(),
+    baca.note_head_style_harmonic(),
     )
 
 maker(
     ('attack', [5, 8]),
     baca.dynamic('sfz'),
-    baca.marcati(),
+    baca.marcato(),
     baca.pitch('D#2'),
     )
 
