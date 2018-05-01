@@ -405,7 +405,7 @@ maker(
 
 maker(
     ('perc', (12, 14)),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 ### violin (color) ###

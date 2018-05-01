@@ -516,7 +516,7 @@ maker(
 maker(
     ('fl', (4, 5)),
     baca.markup.fluttertongue(),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     faberge.niente_swell('f'),
     )
 
@@ -539,7 +539,7 @@ maker(
 maker(
     ('fl', 9),
     baca.markup.fluttertongue(),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     faberge.niente_swell('f'),
     )
 
@@ -701,7 +701,7 @@ maker(
 
 maker(
     ('perc', 1),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.markup.lv_possibile(),
     baca.pitch('G4'),
     faberge.dal_niente_hairpins('ff'),
@@ -716,7 +716,7 @@ maker(
 maker(
     ('perc', (6, 14)),
     baca.markup('as attackless as possible'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
@@ -841,7 +841,7 @@ maker(
 maker(
     ('va', 1),
     baca.pitch('Eb3'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
