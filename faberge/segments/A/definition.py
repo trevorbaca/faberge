@@ -638,7 +638,7 @@ maker(
 
 maker(
     ('perc', (1, 15)),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.markup.boxed('BOWED CROTALES', baca.pleaf(0)),
     )
 
@@ -744,7 +744,7 @@ maker(
 maker(
     ('perc', 17),
     baca.clef('treble'),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(baca.ptails()),
     baca.pitch('F#4'),
     faberge.markup.bowed_crotales(),
     faberge.dal_niente_hairpins('f'),
@@ -873,7 +873,7 @@ maker(
     baca.dynamic('mp'),
     baca.markup.XFB_sempre(),
     baca.pitch('D3'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     )
 
 maker(
@@ -978,7 +978,7 @@ maker(
     ('va', (14, 15)),
     baca.markup.XFB(),
     baca.pitch('D3'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     baca.transition(
         baca.markup.tasto(),
         baca.markup.pochiss_pont(),
@@ -1002,7 +1002,7 @@ maker(
     baca.dynamic('pp'),
     baca.markup.XFB(),
     baca.pitch('D3'),
-    baca.stem_tremolo(),
+    baca.stem_tremolo(baca.pleaves()),
     baca.transition(
         baca.markup.pochiss_pont(),
         baca.markup.tasto(),
