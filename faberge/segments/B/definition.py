@@ -692,7 +692,7 @@ maker(
 
 maker(
     ('attack', (1, 9)),
-    baca.marcato(),
+    baca.marcato(baca.pheads()),
     faberge.piano_clusters(),
     baca.reiterated_dynamic('sfz'),
     )

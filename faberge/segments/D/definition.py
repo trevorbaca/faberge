@@ -397,7 +397,7 @@ maker(
 maker(
     ('attack', [5, 8]),
     baca.dynamic('sfz'),
-    baca.marcato(),
+    baca.marcato(baca.pheads()),
     baca.pitch('D#2'),
     )
 
