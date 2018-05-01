@@ -731,7 +731,7 @@ maker(
 
 maker(
     ('perc', 16),
-    baca.accent(),
+    baca.accent(baca.pheads()),
     baca.clef('percussion'),
     baca.dynamic('ff'),
     baca.pitches('D4 D4 B3', exact=True),
