@@ -575,8 +575,8 @@ maker(
 
 maker(
     ('eh', (1, 3)),
+    baca.dynamic('"f"'),
     baca.note_head_style_cross(),
-    baca.effort_dynamic('f'),
     faberge.keynoise_pitches(rotation=-1)
     )
 
@@ -589,8 +589,8 @@ maker(
 
 maker(
     ('eh', 5),
+    baca.dynamic('"f"'),
     baca.note_head_style_cross(),
-    baca.effort_dynamic('f'),
     faberge.keynoise_pitches(rotation=-2)
     )
 
@@ -633,7 +633,7 @@ maker(
 
 maker(
     ('eh', 16),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.airtone(),
     baca.pitch('F3'),
     baca.repeat_tie_up(),
@@ -748,7 +748,7 @@ maker(
 maker(
     ('perc', 16),
     baca.clef('percussion'),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.boxed_lines([
         'rub sponge on bass drum head;',
         'noise only: no pitch',
@@ -773,7 +773,7 @@ maker(
 
 maker(
     ('vn', 2),
-    baca.effort_dynamic('ff'),
+    baca.dynamic('"ff"'),
     baca.markup.spazz(),
     )
 
@@ -819,7 +819,7 @@ maker(
 
 maker(
     ('vn', 16),
-    baca.effort_dynamic('mf'),
+    baca.dynamic('"mf"'),
     baca.markup.boxed_lines([
         'bow directly on bridge;',
         'noise only: no pitch',
@@ -851,7 +851,7 @@ maker(
 
 maker(
     ('va', 2),
-    baca.effort_dynamic('ff'),
+    baca.dynamic('"ff"'),
     baca.markup.spazz(),
     )
 

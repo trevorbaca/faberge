@@ -831,7 +831,7 @@ maker(
 
 maker(
     ('vn', 13),
-    baca.effort_dynamic('f'),
+    baca.dynamic('"f"'),
     baca.markup.spazz(),
     baca.pitch('E4'),
     )
@@ -854,7 +854,7 @@ maker(
 
 maker(
     ('vn', 16),
-    baca.effort_dynamic('f'),
+    baca.dynamic('"f"'),
     baca.markup.spazz(),
     baca.pitch('E4'),
     )
@@ -969,7 +969,7 @@ maker(
 
 maker(
     ('va', 13),
-    baca.effort_dynamic('f'),
+    baca.dynamic('"f"'),
     baca.markup.spazz(),
     baca.pitch('E4'),
     )
@@ -992,9 +992,9 @@ maker(
 
 maker(
     ('va', 16),
-    baca.pitch('E4'),
-    baca.effort_dynamic('f'),
+    baca.dynamic('"f"'),
     baca.markup.spazz(),
+    baca.pitch('E4'),
     )
 
 maker(

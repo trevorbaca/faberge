@@ -116,7 +116,7 @@ maker(
 
 maker(
     ('vn', 1),
-    baca.effort_dynamic('f'),
+    baca.dynamic('"f"'),
     baca.markup.spazzolato(),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
@@ -126,7 +126,7 @@ maker(
 
 maker(
     ('va', 1),
-    baca.effort_dynamic('f'),
+    baca.dynamic('"f"'),
     baca.markup.spazzolato(),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
