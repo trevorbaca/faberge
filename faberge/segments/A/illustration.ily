@@ -9812,16 +9812,6 @@ A_ViolaMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Va.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pochiss. pont."
-            }
-        }                                                        %! PWC1
     \clef "alto"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -9853,6 +9843,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pochiss. pont."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -9948,16 +9948,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 17]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d2.
     :32                                                          %! IC
@@ -9986,6 +9976,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 18]                             %! SM4
@@ -10004,16 +10004,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 21]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pochiss. pont."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d2.
     :32                                                          %! IC
@@ -10043,6 +10033,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pochiss. pont."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 22]                             %! SM4
@@ -10093,16 +10093,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 31]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d1
     :32                                                          %! IC
@@ -10131,6 +10121,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 32]                             %! SM4
@@ -10149,16 +10149,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 35]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pochiss. pont."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d2.
     :32                                                          %! IC
@@ -10188,6 +10178,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pochiss. pont."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 36]                             %! SM4
@@ -10238,16 +10238,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 45]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d2.
     :32                                                          %! IC
@@ -10276,6 +10266,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 46]                             %! SM4
@@ -10304,16 +10304,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 51]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pochiss. pont."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d2.
     :32                                                          %! IC
@@ -10343,6 +10333,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pochiss. pont."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 52]                             %! SM4
@@ -10393,16 +10393,6 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 61]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d2.
     :32                                                          %! IC
@@ -10431,6 +10421,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A ViolaMusicVoice measure 62]                             %! SM4
@@ -10603,16 +10603,6 @@ A_ViolaMusicVoice = {
     }
     
     % [A ViolaMusicVoice measure 75]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "pochiss. pont."
-            }
-        }                                                        %! PWC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d2
@@ -10641,6 +10631,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "pochiss. pont."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -10836,16 +10836,6 @@ A_ViolaMusicVoice = {
     }
     
     % [A ViolaMusicVoice measure 93]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        tasto
-            }
-        }                                                        %! PWC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d2.
@@ -10873,6 +10863,16 @@ A_ViolaMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        tasto
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
@@ -10920,16 +10920,6 @@ A_CelloMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "PO (+poco vib.)"
-            }
-        }                                                        %! PWC1
     \clef "bass"                                                 %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -10961,6 +10951,16 @@ A_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "PO (+poco vib.)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     ^ \markup {
         \column
@@ -11082,16 +11082,6 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 27]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "tasto (+poco vib.)"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2
     \repeatTie
@@ -11119,6 +11109,16 @@ A_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "tasto (+poco vib.)"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A CelloMusicVoice measure 28]                             %! SM4
@@ -11217,16 +11217,6 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 51]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "poco pont. + vib. mod."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2.
     \repeatTie
@@ -11254,6 +11244,16 @@ A_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "poco pont. + vib. mod."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A CelloMusicVoice measure 52]                             %! SM4
@@ -11359,16 +11359,6 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 75]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "tasto + non vib."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2
     \repeatTie
@@ -11396,6 +11386,16 @@ A_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "tasto + non vib."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A CelloMusicVoice measure 76]                             %! SM4
@@ -11435,16 +11435,6 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 85]                             %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "(tasto+) poco vib."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2
@@ -11475,6 +11465,16 @@ A_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "(tasto+) poco vib."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [A CelloMusicVoice measure 86]                             %! SM4
