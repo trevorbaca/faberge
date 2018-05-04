@@ -12039,16 +12039,6 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 105]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "molto pont. + vib. molto"
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef,!2.
     \repeatTie
@@ -12076,6 +12066,16 @@ B_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "molto pont. + vib. molto"
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [B CelloMusicVoice measure 106]                            %! SM4
@@ -12134,16 +12134,6 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 119]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "tasto + poco vib."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef,!2
     \repeatTie
@@ -12171,6 +12161,16 @@ B_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "tasto + poco vib."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [B CelloMusicVoice measure 120]                            %! SM4
@@ -12186,16 +12186,6 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 123]                            %! SM4
-    \once \override TextSpanner.bound-details.right.text = \markup {
-        \concat
-            {
-                \hspace
-                    #0.0
-                \whiteout
-                    \upright
-                        "(tasto+) non vib."
-            }
-        }                                                        %! PWC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     ef,!1
     \repeatTie
@@ -12223,6 +12213,16 @@ B_CelloMusicVoice = {
     -\tweak bound-details.right-broken.text ##f                  %! PWC1
     -\tweak bound-details.right.padding 0.5                      %! PWC1
     -\tweak bound-details.right.stencil-align-dir-y #center      %! PWC1
+    -\tweak bound-details.right.text \markup {
+        \concat
+            {
+                \hspace
+                    #0.0
+                \whiteout
+                    \upright
+                        "(tasto+) non vib."
+            }
+        }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
     
     % [B CelloMusicVoice measure 124]                            %! SM4
@@ -12265,16 +12265,6 @@ B_CelloMusicVoice = {
     \times 27/28 {
         
         % [B CelloMusicVoice measure 133]                        %! SM4
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            PO
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef,!\longa..
         \glissando                                               %! SC
@@ -12302,6 +12292,16 @@ B_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            PO
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
             \whiteout                                            %! IC
@@ -12325,16 +12325,6 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 145]                        %! SM4
         \once \override Hairpin.circled-tip = ##t                %! HC1
-        \once \override TextSpanner.bound-details.right.text = \markup {
-            \concat
-                {
-                    \hspace
-                        #0.0
-                    \whiteout
-                        \upright
-                            "tasto poss."
-                }
-            }                                                    %! PWC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d,\longa..
@@ -12365,6 +12355,16 @@ B_CelloMusicVoice = {
         -\tweak bound-details.right-broken.text ##f              %! PWC1
         -\tweak bound-details.right.padding 0.5                  %! PWC1
         -\tweak bound-details.right.stencil-align-dir-y #center  %! PWC1
+        -\tweak bound-details.right.text \markup {
+            \concat
+                {
+                    \hspace
+                        #0.0
+                    \whiteout
+                        \upright
+                            "tasto poss."
+                }
+            }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
     }
     \tweak text #tuplet-number::calc-fraction-text
