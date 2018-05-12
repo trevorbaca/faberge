@@ -89,8 +89,7 @@ K_GlobalSkips = {
     % [K GlobalSkips measure 642]                                        %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
-%@% \once \override TextSpanner.bound-details.left.text =                %! SM27:REDUNDANT_METRONOME_MARK:SM30
-%@% \markup {                                                            %! SM27:REDUNDANT_METRONOME_MARK:SM30
+%@% \once \override TextSpanner.bound-details.left.text = \markup {      %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%     \fontsize                                                        %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         #-6                                                          %! SM27:REDUNDANT_METRONOME_MARK:SM30
 %@%         \general-align                                               %! SM27:REDUNDANT_METRONOME_MARK:SM30
@@ -111,8 +110,7 @@ K_GlobalSkips = {
     \once \override TextSpanner.Y-extent = ##f                           %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left-broken.text = ##f     %! SM29:METRONOME_MARK_SPANNER
     \once \override TextSpanner.bound-details.left.stencil-align-dir-y = #center %! SM29:METRONOME_MARK_SPANNER
-    \once \override TextSpanner.bound-details.left.text =                %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
-    \markup {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
+    \once \override TextSpanner.bound-details.left.text = \markup {      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
         \with-color                                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
             #(x11-color 'DeepPink1)                                      %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
             {                                                            %! SM15:REDUNDANT_METRONOME_MARK_WITH_COLOR:SM30
