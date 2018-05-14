@@ -2785,7 +2785,6 @@ B_FluteMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Fl.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2794,6 +2793,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''2
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -2979,9 +2979,9 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 104]                            %! SM4
     r4
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \p                                                           %! HC1
     ^ \markup {
@@ -2997,9 +2997,9 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 105]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \override
@@ -3010,12 +3010,12 @@ B_FluteMusicVoice = {
         }
     
     % [B FluteMusicVoice measure 106]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'4
     \repeatTie
     \mp                                                          %! HC1
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mp                                                          %! HC1
     
@@ -3024,10 +3024,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 107]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'2
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -3091,11 +3091,11 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 108]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''4
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mf                                                          %! HC1
     - \tweak color #red                                          %! SM14
@@ -3106,11 +3106,11 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 109]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'2.
     :32                                                          %! IC
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -3558,12 +3558,12 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 118]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'2
     :32                                                          %! IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \f                                                           %! HC1
     - \tweak color #red                                          %! SM14
@@ -3574,10 +3574,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 119]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'2
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -3656,11 +3656,11 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 122]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''2
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mf                                                          %! HC1
     - \tweak color #red                                          %! SM14
@@ -3671,10 +3671,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 123]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''2
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -3830,11 +3830,11 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 126]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''4
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mp                                                          %! HC1
     - \tweak color #red                                          %! SM14
@@ -3845,10 +3845,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 127]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''2.
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -3982,11 +3982,11 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 132]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'4
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mf                                                          %! HC1
     - \tweak color #red                                          %! SM14
@@ -3997,11 +3997,11 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 133]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'2
     :32                                                          %! IC
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -4277,12 +4277,12 @@ B_FluteMusicVoice = {
             }
     }
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'4
     :32                                                          %! IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \f                                                           %! HC1
     - \tweak color #red                                          %! SM14
@@ -4293,10 +4293,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 141]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -4381,12 +4381,12 @@ B_FluteMusicVoice = {
             }
     }
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g'2
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \mf                                                          %! HC1
     - \tweak color #red                                          %! SM14
@@ -4398,10 +4398,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 145]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''2
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -4511,9 +4511,9 @@ B_FluteMusicVoice = {
     r4
     
     % [B FluteMusicVoice measure 148]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \p                                                           %! HC1
     ^ \markup {
@@ -4529,9 +4529,9 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 149]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2.
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \override
@@ -4542,12 +4542,12 @@ B_FluteMusicVoice = {
         }
     
     % [B FluteMusicVoice measure 150]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
     \repeatTie
     \pp                                                          %! HC1
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \pp                                                          %! HC1
     
@@ -4556,10 +4556,10 @@ B_FluteMusicVoice = {
     \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 151]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''2
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -4771,12 +4771,12 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 156]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     g''4
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \ppp                                                         %! HC1
     - \tweak color #red                                          %! SM14
@@ -4811,10 +4811,10 @@ B_FluteMusicVoice = {
     R1 * 1
     
     % [B FluteMusicVoice measure 165]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     gs''!1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -4912,11 +4912,11 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 168]                            %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     \makeRed                                                     %! SM14
     gs'!4
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \ppp                                                         %! HC1
     - \tweak color #red                                          %! SM14
@@ -6139,7 +6139,6 @@ B_ClarinetMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Cl.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -6147,6 +6146,7 @@ B_ClarinetMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -6357,20 +6357,20 @@ B_ClarinetMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     f4
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f\breve.
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \p                                                           %! HC1
     
     % [B ClarinetMusicVoice measure 148]                         %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4
     \repeatTie
     \!                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -6384,19 +6384,19 @@ B_ClarinetMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     e4
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e1.
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \pp                                                          %! HC1
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e8.
     \repeatTie
     \!                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -6431,10 +6431,10 @@ B_ClarinetMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     ds!4
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ds!8.
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \ppp                                                         %! HC1
     
@@ -6467,9 +6467,9 @@ B_ClarinetMusicVoice = {
     R1 * 1
     
     % [B ClarinetMusicVoice measure 165]                         %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d4
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -6489,10 +6489,10 @@ B_ClarinetMusicVoice = {
     d2
     \repeatTie
     
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d8.
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \ppp                                                         %! HC1
     
@@ -7438,7 +7438,6 @@ B_PercussionMusicVoice = {
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 2             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -7448,6 +7447,7 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
     -\laissezVibrer                                              %! IC
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -7751,11 +7751,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 149]                       %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2.
     :32                                                          %! IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \pp                                                          %! HC1
     
@@ -7905,7 +7905,6 @@ B_ViolinMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vn.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -7913,6 +7912,7 @@ B_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'''2.
+    - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {
         \column
@@ -8031,9 +8031,9 @@ B_ViolinMusicVoice = {
     r8
     
     % [B ViolinMusicVoice measure 107]                           %! SM4
-    \once \override Hairpin.circled-tip = ##t                    %! HC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'16
+    - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
     \ff                                                          %! HC1
     [
@@ -10043,9 +10043,9 @@ B_ViolaMusicVoice = {
         % [B ViolaMusicVoice measure 107]                        %! SM4
         r4
         
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'8
+        - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
         \ff                                                      %! HC1
     }
@@ -12312,13 +12312,13 @@ B_CelloMusicVoice = {
     \times 25/28 {
         
         % [B CelloMusicVoice measure 145]                        %! SM4
-        \once \override Hairpin.circled-tip = ##t                %! HC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d,\longa..
         \ff                                                      %! HC1
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
+        - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
         \ff                                                      %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
