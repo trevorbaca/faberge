@@ -1974,8 +1974,8 @@ D_PianoLHAttackVoice = {
     % [D PianoLHAttackVoice measure 280]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds,!16
-    -\marcato                                                %! IC
     \sfz                                                     %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                                %! IC
     
     s1
     
@@ -1996,8 +1996,8 @@ D_PianoLHAttackVoice = {
     % [D PianoLHAttackVoice measure 285]                     %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds,!16
-    -\marcato                                                %! IC
     \sfz                                                     %! SM8:EXPLICIT_DYNAMIC:IC
+    -\marcato                                                %! IC
     
     s2
     

@@ -12371,8 +12371,8 @@ B_CelloMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         \makeRed                                                 %! SM14
         d'8
-        -\staccato                                               %! IC
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        -\staccato                                               %! IC
         \stopTextSpan                                            %! PWC1
         [
         ^ \markup {

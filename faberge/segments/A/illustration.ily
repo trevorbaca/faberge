@@ -8112,8 +8112,8 @@ A_PercussionMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d'2
-    -\accent                                                     %! IC
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    -\accent                                                     %! IC
     ^ \markup {                                                  %! IC
         \whiteout                                                %! IC
             \upright                                             %! IC
