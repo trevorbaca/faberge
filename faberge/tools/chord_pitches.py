@@ -3,8 +3,9 @@ import baca
 
 
 def chord_pitches(string):
-    r'''Makes chord pitches.
-    '''
+    """
+    Makes chord pitches.
+    """
     pitches = string.split()
     pitches = [abjad.NamedPitch(_) for _ in pitches]
     segment = abjad.PitchSegment(pitches, abjad.NamedPitch)

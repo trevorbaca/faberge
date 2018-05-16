@@ -516,7 +516,7 @@ maker(
 maker(
     ('fl', (4, 5)),
     baca.markup.fluttertongue(),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     faberge.niente_swell('f'),
     )
 
@@ -539,7 +539,7 @@ maker(
 maker(
     ('fl', 9),
     baca.markup.fluttertongue(),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     faberge.niente_swell('f'),
     )
 
@@ -692,7 +692,7 @@ maker(
 
 maker(
     ('attack', (1, 9)),
-    baca.marcato(baca.pheads()),
+    baca.marcato(selector=baca.pheads()),
     faberge.piano_clusters(),
     baca.reiterated_dynamic('sfz'),
     )
@@ -701,7 +701,7 @@ maker(
 
 maker(
     ('perc', 1),
-    baca.laissez_vibrer(baca.ptails()),
+    baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup.lv_possibile(),
     baca.pitch('G4'),
     faberge.dal_niente_hairpins('ff'),
@@ -710,13 +710,13 @@ maker(
 maker(
     ('perc', 2),
     baca.clef('bass'),
-    faberge.markup.to_marimba(baca.leaf(0)),
+    faberge.markup.to_marimba(selector=baca.leaf(0)),
     )
 
 maker(
     ('perc', (6, 14)),
     baca.markup('as attackless as possible'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
@@ -737,7 +737,7 @@ maker(
 
 maker(
     ('perc', (12, 14)),
-    baca.hairpin('pp > niente', baca.rleaves()),
+    baca.hairpin('pp > niente', selector=baca.rleaves()),
     )
 
 maker(
@@ -791,7 +791,7 @@ maker(
 
 maker(
     ('vn', 9),
-    baca.hairpin('ppp < f', baca.rleaves()),
+    baca.hairpin('ppp < f', selector=baca.rleaves()),
     )
 
 maker(
@@ -807,14 +807,14 @@ maker(
 
 maker(
     ('vn', (12, 15)),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-3),
     )
 
 maker(
     ('vn', (12, 13)),
-    baca.hairpin('ppp < mf', baca.rleaves()),
+    baca.hairpin('ppp < mf', selector=baca.rleaves()),
     )
 
 maker(
@@ -832,7 +832,7 @@ maker(
     ('vn', 17),
     baca.hairpin('mf > ppp'),
     baca.markup('col legno battuto'),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     faberge.clb_pitches(rotation=-3),
     )
 
@@ -841,7 +841,7 @@ maker(
 maker(
     ('va', 1),
     baca.pitch('Eb3'),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 maker(
@@ -869,7 +869,7 @@ maker(
 
 maker(
     ('va', 9),
-    baca.hairpin('pp < f', baca.rleaves()),
+    baca.hairpin('pp < f', selector=baca.rleaves()),
     )
 
 maker(
@@ -881,14 +881,14 @@ maker(
     ('va', (12, 17)),
     baca.clef('percussion'),
     baca.staff_lines(1),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-4),
     )
 
 maker(
     ('va', (12, 13)),
-    baca.hairpin('ppp < mf', baca.rleaves()),
+    baca.hairpin('ppp < mf', selector=baca.rleaves()),
     )
 
 maker(
@@ -911,7 +911,7 @@ maker(
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
-    baca.hairpin('p < ff', baca.rleaves()),
+    baca.hairpin('p < ff', selector=baca.rleaves()),
     )
 
 maker(
@@ -922,7 +922,7 @@ maker(
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
-    baca.hairpin('ff > p', baca.rleaves()),
+    baca.hairpin('ff > p', selector=baca.rleaves()),
     )
 
 maker(
@@ -957,7 +957,7 @@ maker(
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
-    baca.hairpin('p < ff', baca.rleaves()),
+    baca.hairpin('p < ff', selector=baca.rleaves()),
     )
 
 maker(
@@ -991,12 +991,12 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('mf'),
     baca.staff_lines(1),
-    baca.staccato(baca.pheads()),
+    baca.staccato(selector=baca.pheads()),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-5),
     )
 
 maker(
     ('vc', 17),
-    baca.hairpin('mf > ppp', baca.rleaves()),
+    baca.hairpin('mf > ppp', selector=baca.rleaves()),
     )

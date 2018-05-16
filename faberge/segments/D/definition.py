@@ -397,7 +397,7 @@ maker(
 maker(
     ('attack', [5, 8]),
     baca.dynamic('sfz'),
-    baca.marcato(baca.pheads()),
+    baca.marcato(selector=baca.pheads()),
     baca.pitch('D#2'),
     )
 
@@ -405,7 +405,7 @@ maker(
 
 maker(
     ('perc', (12, 14)),
-    baca.stem_tremolo(baca.pleaves()),
+    baca.stem_tremolo(selector=baca.pleaves()),
     )
 
 ### violin (color) ###

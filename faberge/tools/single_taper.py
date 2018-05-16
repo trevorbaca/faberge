@@ -8,8 +8,9 @@ def single_taper(
     start_talea=[4],
     stop_talea=[3, -1],
     ):
-    r'''Makes single tapers.
-    '''
+    """
+    Makes single tapers.
+    """
     return baca.RhythmCommand(
         rhythm_maker=rhythmos.IncisedRhythmMaker(
             incise_specifier=rhythmos.InciseSpecifier(
