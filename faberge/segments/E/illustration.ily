@@ -1,66 +1,66 @@
 E_GlobalRests = {
     
-    % [E GlobalRests measure 301]                                        %! SM4
+    % [E GlobalRests measure 301 / measure 1]                            %! SM4
     R1 * 3/4
     
-    % [E GlobalRests measure 302]                                        %! SM4
+    % [E GlobalRests measure 302 / measure 2]                            %! SM4
     R1 * 1
     
-    % [E GlobalRests measure 303]                                        %! SM4
+    % [E GlobalRests measure 303 / measure 3]                            %! SM4
     R1 * 3/2
     
-    % [E GlobalRests measure 304]                                        %! SM4
+    % [E GlobalRests measure 304 / measure 4]                            %! SM4
     R1 * 7/4
     
-    % [E GlobalRests measure 305]                                        %! SM4
+    % [E GlobalRests measure 305 / measure 5]                            %! SM4
     R1 * 1
     
-    % [E GlobalRests measure 306]                                        %! SM4
+    % [E GlobalRests measure 306 / measure 6]                            %! SM4
     R1 * 3/2
     
-    % [E GlobalRests measure 307]                                        %! SM4
+    % [E GlobalRests measure 307 / measure 7]                            %! SM4
     R1 * 5/4
     
-    % [E GlobalRests measure 308]                                        %! SM4
+    % [E GlobalRests measure 308 / measure 8]                            %! SM4
     R1 * 5/4
     
-    % [E GlobalRests measure 309]                                        %! SM4
+    % [E GlobalRests measure 309 / measure 9]                            %! SM4
     R1 * 5/4
     
-    % [E GlobalRests measure 310]                                        %! SM4
+    % [E GlobalRests measure 310 / measure 10]                           %! SM4
     R1 * 5/4
     
-    % [E GlobalRests measure 311]                                        %! SM4
+    % [E GlobalRests measure 311 / measure 11]                           %! SM4
     R1 * 5/4
     
-    % [E GlobalRests measure 312]                                        %! SM4
+    % [E GlobalRests measure 312 / measure 12]                           %! SM4
     R1 * 5/4
     
-    % [E GlobalRests measure 313]                                        %! SM4
+    % [E GlobalRests measure 313 / measure 13]                           %! SM4
     R1 * 3/4
     
-    % [E GlobalRests measure 314]                                        %! SM4
+    % [E GlobalRests measure 314 / measure 14]                           %! SM4
     R1 * 1
     
-    % [E GlobalRests measure 315]                                        %! SM4
+    % [E GlobalRests measure 315 / measure 15]                           %! SM4
     R1 * 3/2
     
-    % [E GlobalRests measure 316]                                        %! SM4
+    % [E GlobalRests measure 316 / measure 16]                           %! SM4
     R1 * 1
     
-    % [E GlobalRests measure 317]                                        %! SM4
+    % [E GlobalRests measure 317 / measure 17]                           %! SM4
     R1 * 3/2
     
-    % [E GlobalRests measure 318]                                        %! SM4
+    % [E GlobalRests measure 318 / measure 18]                           %! SM4
     R1 * 1
     
-    % [E GlobalRests measure 319]                                        %! SM4
+    % [E GlobalRests measure 319 / measure 19]                           %! SM4
     R1 * 3/2
     
-    % [E GlobalRests measure 320]                                        %! SM4
+    % [E GlobalRests measure 320 / measure 20]                           %! SM4
     R1 * 3/4
     
-    % [E GlobalRests measure 321]                                        %! SM4
+    % [E GlobalRests measure 321 / measure 21]                           %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -74,7 +74,7 @@ E_GlobalRests = {
 
 E_GlobalSkips = {
     
-    % [E GlobalSkips measure 301]                                        %! SM4
+    % [E GlobalSkips measure 301 / measure 1]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -163,7 +163,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 302]                                        %! SM4
+    % [E GlobalSkips measure 302 / measure 2]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -196,7 +196,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 303]                                        %! SM4
+    % [E GlobalSkips measure 303 / measure 3]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -234,7 +234,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 304]                                        %! SM4
+    % [E GlobalSkips measure 304 / measure 4]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 20)     %! HSS1:SPACING
     \time 7/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -267,7 +267,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 305]                                        %! SM4
+    % [E GlobalSkips measure 305 / measure 5]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -305,7 +305,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 306]                                        %! SM4
+    % [E GlobalSkips measure 306 / measure 6]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -338,7 +338,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 307]                                        %! SM4
+    % [E GlobalSkips measure 307 / measure 7]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \time 5/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -376,7 +376,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/14]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 308]                                        %! SM4
+    % [E GlobalSkips measure 308 / measure 8]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -408,7 +408,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/14]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 309]                                        %! SM4
+    % [E GlobalSkips measure 309 / measure 9]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -440,7 +440,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/14]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 310]                                        %! SM4
+    % [E GlobalSkips measure 310 / measure 10]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -472,7 +472,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/14]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 311]                                        %! SM4
+    % [E GlobalSkips measure 311 / measure 11]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -504,7 +504,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/14]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 312]                                        %! SM4
+    % [E GlobalSkips measure 312 / measure 12]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 14)     %! HSS1:SPACING
     \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
@@ -536,7 +536,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/14]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 313]                                        %! SM4
+    % [E GlobalSkips measure 313 / measure 13]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -574,7 +574,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 314]                                        %! SM4
+    % [E GlobalSkips measure 314 / measure 14]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -607,7 +607,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 315]                                        %! SM4
+    % [E GlobalSkips measure 315 / measure 15]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -645,7 +645,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 316]                                        %! SM4
+    % [E GlobalSkips measure 316 / measure 16]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -678,7 +678,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 317]                                        %! SM4
+    % [E GlobalSkips measure 317 / measure 17]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -716,7 +716,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 318]                                        %! SM4
+    % [E GlobalSkips measure 318 / measure 18]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -749,7 +749,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 319]                                        %! SM4
+    % [E GlobalSkips measure 319 / measure 19]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 6/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -787,7 +787,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 320]                                        %! SM4
+    % [E GlobalSkips measure 320 / measure 20]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -820,7 +820,7 @@ E_GlobalSkips = {
         }
 %@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
-    % [E GlobalSkips measure 321]                                        %! SM4
+    % [E GlobalSkips measure 321 / measure 21]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -866,7 +866,7 @@ E_GlobalSkips = {
 
 E_FluteMusicVoice = {
     
-    % [E FluteMusicVoice measure 301]                            %! SM4
+    % [E FluteMusicVoice measure 301 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -919,11 +919,11 @@ E_FluteMusicVoice = {
             Fl.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [E FluteMusicVoice measure 302]                            %! SM4
+    % [E FluteMusicVoice measure 302 / measure 2]                %! SM4
     R1 * 1
     \times 4/5 {
         
-        % [E FluteMusicVoice measure 303]                        %! SM4
+        % [E FluteMusicVoice measure 303 / measure 3]            %! SM4
         \makeBlue                                                %! SM24
         c''16
         [
@@ -1014,7 +1014,7 @@ E_FluteMusicVoice = {
     }
     \times 2/3 {
         
-        % [E FluteMusicVoice measure 304]                        %! SM4
+        % [E FluteMusicVoice measure 304 / measure 4]            %! SM4
         \makeBlue                                                %! SM24
         c''4
         \repeatTie
@@ -1128,55 +1128,55 @@ E_FluteMusicVoice = {
         c''4
     }
     
-    % [E FluteMusicVoice measure 305]                            %! SM4
+    % [E FluteMusicVoice measure 305 / measure 5]                %! SM4
     R1 * 1
     
-    % [E FluteMusicVoice measure 306]                            %! SM4
+    % [E FluteMusicVoice measure 306 / measure 6]                %! SM4
     R1 * 3/2
     
-    % [E FluteMusicVoice measure 307]                            %! SM4
+    % [E FluteMusicVoice measure 307 / measure 7]                %! SM4
     R1 * 5/4
     
-    % [E FluteMusicVoice measure 308]                            %! SM4
+    % [E FluteMusicVoice measure 308 / measure 8]                %! SM4
     R1 * 5/4
     
-    % [E FluteMusicVoice measure 309]                            %! SM4
+    % [E FluteMusicVoice measure 309 / measure 9]                %! SM4
     R1 * 5/4
     
-    % [E FluteMusicVoice measure 310]                            %! SM4
+    % [E FluteMusicVoice measure 310 / measure 10]               %! SM4
     R1 * 5/4
     
-    % [E FluteMusicVoice measure 311]                            %! SM4
+    % [E FluteMusicVoice measure 311 / measure 11]               %! SM4
     R1 * 5/4
     
-    % [E FluteMusicVoice measure 312]                            %! SM4
+    % [E FluteMusicVoice measure 312 / measure 12]               %! SM4
     R1 * 5/4
     
-    % [E FluteMusicVoice measure 313]                            %! SM4
+    % [E FluteMusicVoice measure 313 / measure 13]               %! SM4
     R1 * 3/4
     
-    % [E FluteMusicVoice measure 314]                            %! SM4
+    % [E FluteMusicVoice measure 314 / measure 14]               %! SM4
     R1 * 1
     
-    % [E FluteMusicVoice measure 315]                            %! SM4
+    % [E FluteMusicVoice measure 315 / measure 15]               %! SM4
     R1 * 3/2
     
-    % [E FluteMusicVoice measure 316]                            %! SM4
+    % [E FluteMusicVoice measure 316 / measure 16]               %! SM4
     R1 * 1
     
-    % [E FluteMusicVoice measure 317]                            %! SM4
+    % [E FluteMusicVoice measure 317 / measure 17]               %! SM4
     R1 * 3/2
     
-    % [E FluteMusicVoice measure 318]                            %! SM4
+    % [E FluteMusicVoice measure 318 / measure 18]               %! SM4
     R1 * 1
     
-    % [E FluteMusicVoice measure 319]                            %! SM4
+    % [E FluteMusicVoice measure 319 / measure 19]               %! SM4
     R1 * 3/2
     
-    % [E FluteMusicVoice measure 320]                            %! SM4
+    % [E FluteMusicVoice measure 320 / measure 20]               %! SM4
     R1 * 3/4
     
-    % [E FluteMusicVoice measure 321]                            %! SM4
+    % [E FluteMusicVoice measure 321 / measure 21]               %! SM4
     R1 * 1/4
     
 }
@@ -1190,7 +1190,7 @@ E_FluteMusicStaff = {
 
 E_EnglishHornMusicVoice = {
     
-    % [E EnglishHornMusicVoice measure 301]                      %! SM4
+    % [E EnglishHornMusicVoice measure 301 / measure 1]          %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1247,11 +1247,11 @@ E_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [E EnglishHornMusicVoice measure 302]                      %! SM4
+    % [E EnglishHornMusicVoice measure 302 / measure 2]          %! SM4
     R1 * 1
     \times 4/5 {
         
-        % [E EnglishHornMusicVoice measure 303]                  %! SM4
+        % [E EnglishHornMusicVoice measure 303 / measure 3]      %! SM4
         r16
         
         \makeBlue                                                %! SM24
@@ -1322,7 +1322,7 @@ E_EnglishHornMusicVoice = {
     }
     \times 2/3 {
         
-        % [E EnglishHornMusicVoice measure 304]                  %! SM4
+        % [E EnglishHornMusicVoice measure 304 / measure 4]      %! SM4
         r4
         
         \makeBlue                                                %! SM24
@@ -1411,62 +1411,62 @@ E_EnglishHornMusicVoice = {
         g'4
     }
     
-    % [E EnglishHornMusicVoice measure 305]                      %! SM4
+    % [E EnglishHornMusicVoice measure 305 / measure 5]          %! SM4
     R1 * 1
     
-    % [E EnglishHornMusicVoice measure 306]                      %! SM4
+    % [E EnglishHornMusicVoice measure 306 / measure 6]          %! SM4
     R1 * 3/2
     
-    % [E EnglishHornMusicVoice measure 307]                      %! SM4
+    % [E EnglishHornMusicVoice measure 307 / measure 7]          %! SM4
     R1 * 5/4
     
-    % [E EnglishHornMusicVoice measure 308]                      %! SM4
+    % [E EnglishHornMusicVoice measure 308 / measure 8]          %! SM4
     R1 * 5/4
     
-    % [E EnglishHornMusicVoice measure 309]                      %! SM4
+    % [E EnglishHornMusicVoice measure 309 / measure 9]          %! SM4
     R1 * 5/4
     
-    % [E EnglishHornMusicVoice measure 310]                      %! SM4
+    % [E EnglishHornMusicVoice measure 310 / measure 10]         %! SM4
     R1 * 5/4
     
-    % [E EnglishHornMusicVoice measure 311]                      %! SM4
+    % [E EnglishHornMusicVoice measure 311 / measure 11]         %! SM4
     R1 * 5/4
     
-    % [E EnglishHornMusicVoice measure 312]                      %! SM4
+    % [E EnglishHornMusicVoice measure 312 / measure 12]         %! SM4
     R1 * 5/4
     
-    % [E EnglishHornMusicVoice measure 313]                      %! SM4
+    % [E EnglishHornMusicVoice measure 313 / measure 13]         %! SM4
     R1 * 3/4
     
-    % [E EnglishHornMusicVoice measure 314]                      %! SM4
+    % [E EnglishHornMusicVoice measure 314 / measure 14]         %! SM4
     R1 * 1
     
-    % [E EnglishHornMusicVoice measure 315]                      %! SM4
+    % [E EnglishHornMusicVoice measure 315 / measure 15]         %! SM4
     \makeBlue                                                    %! SM24
     g'1.
     
-    % [E EnglishHornMusicVoice measure 316]                      %! SM4
+    % [E EnglishHornMusicVoice measure 316 / measure 16]         %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [E EnglishHornMusicVoice measure 317]                      %! SM4
+    % [E EnglishHornMusicVoice measure 317 / measure 17]         %! SM4
     \makeBlue                                                    %! SM24
     g'1.
     \repeatTie
     
-    % [E EnglishHornMusicVoice measure 318]                      %! SM4
+    % [E EnglishHornMusicVoice measure 318 / measure 18]         %! SM4
     \makeBlue                                                    %! SM24
     g'1
     \repeatTie
     
-    % [E EnglishHornMusicVoice measure 319]                      %! SM4
+    % [E EnglishHornMusicVoice measure 319 / measure 19]         %! SM4
     R1 * 3/2
     
-    % [E EnglishHornMusicVoice measure 320]                      %! SM4
+    % [E EnglishHornMusicVoice measure 320 / measure 20]         %! SM4
     R1 * 3/4
     
-    % [E EnglishHornMusicVoice measure 321]                      %! SM4
+    % [E EnglishHornMusicVoice measure 321 / measure 21]         %! SM4
     R1 * 1/4
     
 }
@@ -1480,7 +1480,7 @@ E_EnglishHornMusicStaff = {
 
 E_ClarinetMusicVoice = {
     
-    % [E ClarinetMusicVoice measure 301]                         %! SM4
+    % [E ClarinetMusicVoice measure 301 / measure 1]             %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1533,11 +1533,11 @@ E_ClarinetMusicVoice = {
             Cl.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [E ClarinetMusicVoice measure 302]                         %! SM4
+    % [E ClarinetMusicVoice measure 302 / measure 2]             %! SM4
     R1 * 1
     \times 4/5 {
         
-        % [E ClarinetMusicVoice measure 303]                     %! SM4
+        % [E ClarinetMusicVoice measure 303 / measure 3]         %! SM4
         \makeBlue                                                %! SM24
         d''16
         [
@@ -1628,7 +1628,7 @@ E_ClarinetMusicVoice = {
     }
     \times 2/3 {
         
-        % [E ClarinetMusicVoice measure 304]                     %! SM4
+        % [E ClarinetMusicVoice measure 304 / measure 4]         %! SM4
         \makeBlue                                                %! SM24
         d''4
         \repeatTie
@@ -1742,55 +1742,55 @@ E_ClarinetMusicVoice = {
         d''4
     }
     
-    % [E ClarinetMusicVoice measure 305]                         %! SM4
+    % [E ClarinetMusicVoice measure 305 / measure 5]             %! SM4
     R1 * 1
     
-    % [E ClarinetMusicVoice measure 306]                         %! SM4
+    % [E ClarinetMusicVoice measure 306 / measure 6]             %! SM4
     R1 * 3/2
     
-    % [E ClarinetMusicVoice measure 307]                         %! SM4
+    % [E ClarinetMusicVoice measure 307 / measure 7]             %! SM4
     R1 * 5/4
     
-    % [E ClarinetMusicVoice measure 308]                         %! SM4
+    % [E ClarinetMusicVoice measure 308 / measure 8]             %! SM4
     R1 * 5/4
     
-    % [E ClarinetMusicVoice measure 309]                         %! SM4
+    % [E ClarinetMusicVoice measure 309 / measure 9]             %! SM4
     R1 * 5/4
     
-    % [E ClarinetMusicVoice measure 310]                         %! SM4
+    % [E ClarinetMusicVoice measure 310 / measure 10]            %! SM4
     R1 * 5/4
     
-    % [E ClarinetMusicVoice measure 311]                         %! SM4
+    % [E ClarinetMusicVoice measure 311 / measure 11]            %! SM4
     R1 * 5/4
     
-    % [E ClarinetMusicVoice measure 312]                         %! SM4
+    % [E ClarinetMusicVoice measure 312 / measure 12]            %! SM4
     R1 * 5/4
     
-    % [E ClarinetMusicVoice measure 313]                         %! SM4
+    % [E ClarinetMusicVoice measure 313 / measure 13]            %! SM4
     R1 * 3/4
     
-    % [E ClarinetMusicVoice measure 314]                         %! SM4
+    % [E ClarinetMusicVoice measure 314 / measure 14]            %! SM4
     R1 * 1
     
-    % [E ClarinetMusicVoice measure 315]                         %! SM4
+    % [E ClarinetMusicVoice measure 315 / measure 15]            %! SM4
     R1 * 3/2
     
-    % [E ClarinetMusicVoice measure 316]                         %! SM4
+    % [E ClarinetMusicVoice measure 316 / measure 16]            %! SM4
     R1 * 1
     
-    % [E ClarinetMusicVoice measure 317]                         %! SM4
+    % [E ClarinetMusicVoice measure 317 / measure 17]            %! SM4
     R1 * 3/2
     
-    % [E ClarinetMusicVoice measure 318]                         %! SM4
+    % [E ClarinetMusicVoice measure 318 / measure 18]            %! SM4
     R1 * 1
     
-    % [E ClarinetMusicVoice measure 319]                         %! SM4
+    % [E ClarinetMusicVoice measure 319 / measure 19]            %! SM4
     R1 * 3/2
     
-    % [E ClarinetMusicVoice measure 320]                         %! SM4
+    % [E ClarinetMusicVoice measure 320 / measure 20]            %! SM4
     R1 * 3/4
     
-    % [E ClarinetMusicVoice measure 321]                         %! SM4
+    % [E ClarinetMusicVoice measure 321 / measure 21]            %! SM4
     R1 * 1/4
     
 }
@@ -1804,7 +1804,7 @@ E_ClarinetMusicStaff = {
 
 E_PianoRHMusicVoice = {
     
-    % [E PianoRHMusicVoice measure 301]                      %! SM4
+    % [E PianoRHMusicVoice measure 301 / measure 1]          %! SM4
     \set StaffGroup.instrumentName =                         %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                          %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -1855,24 +1855,24 @@ E_PianoRHMusicVoice = {
         }                                                    %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [E PianoRHMusicVoice measure 302]                      %! SM4
+    % [E PianoRHMusicVoice measure 302 / measure 2]          %! SM4
     r1
     
-    % [E PianoRHMusicVoice measure 303]                      %! SM4
+    % [E PianoRHMusicVoice measure 303 / measure 3]          %! SM4
     R1 * 3/2
     
-    % [E PianoRHMusicVoice measure 304]                      %! SM4
+    % [E PianoRHMusicVoice measure 304 / measure 4]          %! SM4
     R1 * 7/4
     
-    % [E PianoRHMusicVoice measure 305]                      %! SM4
+    % [E PianoRHMusicVoice measure 305 / measure 5]          %! SM4
     R1 * 1
     
-    % [E PianoRHMusicVoice measure 306]                      %! SM4
+    % [E PianoRHMusicVoice measure 306 / measure 6]          %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [E PianoRHMusicVoice measure 307]                  %! SM4
+        % [E PianoRHMusicVoice measure 307 / measure 7]      %! SM4
         \makeBlue                                            %! SM24
         c'8
         [
@@ -2003,7 +2003,7 @@ E_PianoRHMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        % [E PianoRHMusicVoice measure 310]                  %! SM4
+        % [E PianoRHMusicVoice measure 310 / measure 10]     %! SM4
         \makeBlue                                            %! SM24
         c'8
         [
@@ -2132,31 +2132,31 @@ E_PianoRHMusicVoice = {
         ]
     }
     
-    % [E PianoRHMusicVoice measure 313]                      %! SM4
+    % [E PianoRHMusicVoice measure 313 / measure 13]         %! SM4
     r2.
     
-    % [E PianoRHMusicVoice measure 314]                      %! SM4
+    % [E PianoRHMusicVoice measure 314 / measure 14]         %! SM4
     r1
     
-    % [E PianoRHMusicVoice measure 315]                      %! SM4
+    % [E PianoRHMusicVoice measure 315 / measure 15]         %! SM4
     R1 * 3/2
     
-    % [E PianoRHMusicVoice measure 316]                      %! SM4
+    % [E PianoRHMusicVoice measure 316 / measure 16]         %! SM4
     R1 * 1
     
-    % [E PianoRHMusicVoice measure 317]                      %! SM4
+    % [E PianoRHMusicVoice measure 317 / measure 17]         %! SM4
     R1 * 3/2
     
-    % [E PianoRHMusicVoice measure 318]                      %! SM4
+    % [E PianoRHMusicVoice measure 318 / measure 18]         %! SM4
     R1 * 1
     
-    % [E PianoRHMusicVoice measure 319]                      %! SM4
+    % [E PianoRHMusicVoice measure 319 / measure 19]         %! SM4
     R1 * 3/2
     
-    % [E PianoRHMusicVoice measure 320]                      %! SM4
+    % [E PianoRHMusicVoice measure 320 / measure 20]         %! SM4
     R1 * 3/4
     
-    % [E PianoRHMusicVoice measure 321]                      %! SM4
+    % [E PianoRHMusicVoice measure 321 / measure 21]         %! SM4
     R1 * 1/4
     
 }
@@ -2170,7 +2170,7 @@ E_PianoRHMusicStaff = {
 
 E_PianoLHMusicVoice = {
     
-    % [E PianoLHMusicVoice measure 301]                      %! SM4
+    % [E PianoLHMusicVoice measure 301 / measure 1]          %! SM4
     \clef "bass"                                             %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)  %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                         %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
@@ -2178,24 +2178,24 @@ E_PianoLHMusicVoice = {
     R1 * 3/4
     \override Staff.Clef.color = #(x11-color 'OliveDrab)     %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     
-    % [E PianoLHMusicVoice measure 302]                      %! SM4
+    % [E PianoLHMusicVoice measure 302 / measure 2]          %! SM4
     R1 * 1
     
-    % [E PianoLHMusicVoice measure 303]                      %! SM4
+    % [E PianoLHMusicVoice measure 303 / measure 3]          %! SM4
     R1 * 3/2
     
-    % [E PianoLHMusicVoice measure 304]                      %! SM4
+    % [E PianoLHMusicVoice measure 304 / measure 4]          %! SM4
     R1 * 7/4
     
-    % [E PianoLHMusicVoice measure 305]                      %! SM4
+    % [E PianoLHMusicVoice measure 305 / measure 5]          %! SM4
     R1 * 1
     
-    % [E PianoLHMusicVoice measure 306]                      %! SM4
+    % [E PianoLHMusicVoice measure 306 / measure 6]          %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [E PianoLHMusicVoice measure 307]                  %! SM4
+        % [E PianoLHMusicVoice measure 307 / measure 7]      %! SM4
         \makeBlue                                            %! SM24
         c'4
         
@@ -2286,7 +2286,7 @@ E_PianoLHMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [E PianoLHMusicVoice measure 310]                  %! SM4
+        % [E PianoLHMusicVoice measure 310 / measure 10]     %! SM4
         \makeBlue                                            %! SM24
         c'4
         
@@ -2375,31 +2375,31 @@ E_PianoLHMusicVoice = {
         c'4
     }
     
-    % [E PianoLHMusicVoice measure 313]                      %! SM4
+    % [E PianoLHMusicVoice measure 313 / measure 13]         %! SM4
     r2.
     
-    % [E PianoLHMusicVoice measure 314]                      %! SM4
+    % [E PianoLHMusicVoice measure 314 / measure 14]         %! SM4
     r1
     
-    % [E PianoLHMusicVoice measure 315]                      %! SM4
+    % [E PianoLHMusicVoice measure 315 / measure 15]         %! SM4
     R1 * 3/2
     
-    % [E PianoLHMusicVoice measure 316]                      %! SM4
+    % [E PianoLHMusicVoice measure 316 / measure 16]         %! SM4
     R1 * 1
     
-    % [E PianoLHMusicVoice measure 317]                      %! SM4
+    % [E PianoLHMusicVoice measure 317 / measure 17]         %! SM4
     R1 * 3/2
     
-    % [E PianoLHMusicVoice measure 318]                      %! SM4
+    % [E PianoLHMusicVoice measure 318 / measure 18]         %! SM4
     R1 * 1
     
-    % [E PianoLHMusicVoice measure 319]                      %! SM4
+    % [E PianoLHMusicVoice measure 319 / measure 19]         %! SM4
     R1 * 3/2
     
-    % [E PianoLHMusicVoice measure 320]                      %! SM4
+    % [E PianoLHMusicVoice measure 320 / measure 20]         %! SM4
     R1 * 3/4
     
-    % [E PianoLHMusicVoice measure 321]                      %! SM4
+    % [E PianoLHMusicVoice measure 321 / measure 21]         %! SM4
     R1 * 1/4
     
 }
@@ -2407,69 +2407,69 @@ E_PianoLHMusicVoice = {
 
 E_PianoLHAttackVoice = {
     
-    % [E PianoLHAttackVoice measure 301]                     %! SM4
+    % [E PianoLHAttackVoice measure 301 / measure 1]         %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     R1 * 3/4
     \sfz                                                     %! SM8:REAPPLIED_DYNAMIC:SM37
     
-    % [E PianoLHAttackVoice measure 302]                     %! SM4
+    % [E PianoLHAttackVoice measure 302 / measure 2]         %! SM4
     R1 * 1
     
-    % [E PianoLHAttackVoice measure 303]                     %! SM4
+    % [E PianoLHAttackVoice measure 303 / measure 3]         %! SM4
     R1 * 3/2
     
-    % [E PianoLHAttackVoice measure 304]                     %! SM4
+    % [E PianoLHAttackVoice measure 304 / measure 4]         %! SM4
     R1 * 7/4
     
-    % [E PianoLHAttackVoice measure 305]                     %! SM4
+    % [E PianoLHAttackVoice measure 305 / measure 5]         %! SM4
     R1 * 1
     
-    % [E PianoLHAttackVoice measure 306]                     %! SM4
+    % [E PianoLHAttackVoice measure 306 / measure 6]         %! SM4
     R1 * 3/2
     
-    % [E PianoLHAttackVoice measure 307]                     %! SM4
+    % [E PianoLHAttackVoice measure 307 / measure 7]         %! SM4
     R1 * 5/4
     
-    % [E PianoLHAttackVoice measure 308]                     %! SM4
+    % [E PianoLHAttackVoice measure 308 / measure 8]         %! SM4
     R1 * 5/4
     
-    % [E PianoLHAttackVoice measure 309]                     %! SM4
+    % [E PianoLHAttackVoice measure 309 / measure 9]         %! SM4
     R1 * 5/4
     
-    % [E PianoLHAttackVoice measure 310]                     %! SM4
+    % [E PianoLHAttackVoice measure 310 / measure 10]        %! SM4
     R1 * 5/4
     
-    % [E PianoLHAttackVoice measure 311]                     %! SM4
+    % [E PianoLHAttackVoice measure 311 / measure 11]        %! SM4
     R1 * 5/4
     
-    % [E PianoLHAttackVoice measure 312]                     %! SM4
+    % [E PianoLHAttackVoice measure 312 / measure 12]        %! SM4
     R1 * 5/4
     
-    % [E PianoLHAttackVoice measure 313]                     %! SM4
+    % [E PianoLHAttackVoice measure 313 / measure 13]        %! SM4
     R1 * 3/4
     
-    % [E PianoLHAttackVoice measure 314]                     %! SM4
+    % [E PianoLHAttackVoice measure 314 / measure 14]        %! SM4
     R1 * 1
     
-    % [E PianoLHAttackVoice measure 315]                     %! SM4
+    % [E PianoLHAttackVoice measure 315 / measure 15]        %! SM4
     R1 * 3/2
     
-    % [E PianoLHAttackVoice measure 316]                     %! SM4
+    % [E PianoLHAttackVoice measure 316 / measure 16]        %! SM4
     R1 * 1
     
-    % [E PianoLHAttackVoice measure 317]                     %! SM4
+    % [E PianoLHAttackVoice measure 317 / measure 17]        %! SM4
     R1 * 3/2
     
-    % [E PianoLHAttackVoice measure 318]                     %! SM4
+    % [E PianoLHAttackVoice measure 318 / measure 18]        %! SM4
     R1 * 1
     
-    % [E PianoLHAttackVoice measure 319]                     %! SM4
+    % [E PianoLHAttackVoice measure 319 / measure 19]        %! SM4
     R1 * 3/2
     
-    % [E PianoLHAttackVoice measure 320]                     %! SM4
+    % [E PianoLHAttackVoice measure 320 / measure 20]        %! SM4
     R1 * 3/4
     
-    % [E PianoLHAttackVoice measure 321]                     %! SM4
+    % [E PianoLHAttackVoice measure 321 / measure 21]        %! SM4
     R1 * 1/4
     
 }
@@ -2485,7 +2485,7 @@ E_PianoLHMusicStaff = <<
 
 E_PercussionMusicVoice = {
     
-    % [E PercussionMusicVoice measure 301]                       %! SM4
+    % [E PercussionMusicVoice measure 301 / measure 1]           %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2542,25 +2542,25 @@ E_PercussionMusicVoice = {
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [E PercussionMusicVoice measure 302]                       %! SM4
+    % [E PercussionMusicVoice measure 302 / measure 2]           %! SM4
     R1 * 1
     
-    % [E PercussionMusicVoice measure 303]                       %! SM4
+    % [E PercussionMusicVoice measure 303 / measure 3]           %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [E PercussionMusicVoice measure 304]                       %! SM4
+    % [E PercussionMusicVoice measure 304 / measure 4]           %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [E PercussionMusicVoice measure 305]                       %! SM4
+    % [E PercussionMusicVoice measure 305 / measure 5]           %! SM4
     R1 * 1
     
-    % [E PercussionMusicVoice measure 306]                       %! SM4
+    % [E PercussionMusicVoice measure 306 / measure 6]           %! SM4
     R1 * 3/2
     
-    % [E PercussionMusicVoice measure 307]                       %! SM4
+    % [E PercussionMusicVoice measure 307 / measure 7]           %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2569,7 +2569,7 @@ E_PercussionMusicVoice = {
     
     r2.
     
-    % [E PercussionMusicVoice measure 308]                       %! SM4
+    % [E PercussionMusicVoice measure 308 / measure 8]           %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2578,7 +2578,7 @@ E_PercussionMusicVoice = {
     
     r2.
     
-    % [E PercussionMusicVoice measure 309]                       %! SM4
+    % [E PercussionMusicVoice measure 309 / measure 9]           %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2587,7 +2587,7 @@ E_PercussionMusicVoice = {
     
     r2.
     
-    % [E PercussionMusicVoice measure 310]                       %! SM4
+    % [E PercussionMusicVoice measure 310 / measure 10]          %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2596,7 +2596,7 @@ E_PercussionMusicVoice = {
     
     r2.
     
-    % [E PercussionMusicVoice measure 311]                       %! SM4
+    % [E PercussionMusicVoice measure 311 / measure 11]          %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2605,7 +2605,7 @@ E_PercussionMusicVoice = {
     
     r2.
     
-    % [E PercussionMusicVoice measure 312]                       %! SM4
+    % [E PercussionMusicVoice measure 312 / measure 12]          %! SM4
     \makeBlue                                                    %! SM24
     c'4
     
@@ -2614,38 +2614,38 @@ E_PercussionMusicVoice = {
     
     r2.
     
-    % [E PercussionMusicVoice measure 313]                       %! SM4
+    % [E PercussionMusicVoice measure 313 / measure 13]          %! SM4
     R1 * 3/4
     
-    % [E PercussionMusicVoice measure 314]                       %! SM4
+    % [E PercussionMusicVoice measure 314 / measure 14]          %! SM4
     R1 * 1
     
-    % [E PercussionMusicVoice measure 315]                       %! SM4
+    % [E PercussionMusicVoice measure 315 / measure 15]          %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [E PercussionMusicVoice measure 316]                       %! SM4
+    % [E PercussionMusicVoice measure 316 / measure 16]          %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E PercussionMusicVoice measure 317]                       %! SM4
+    % [E PercussionMusicVoice measure 317 / measure 17]          %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [E PercussionMusicVoice measure 318]                       %! SM4
+    % [E PercussionMusicVoice measure 318 / measure 18]          %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E PercussionMusicVoice measure 319]                       %! SM4
+    % [E PercussionMusicVoice measure 319 / measure 19]          %! SM4
     R1 * 3/2
     
-    % [E PercussionMusicVoice measure 320]                       %! SM4
+    % [E PercussionMusicVoice measure 320 / measure 20]          %! SM4
     R1 * 3/4
     
-    % [E PercussionMusicVoice measure 321]                       %! SM4
+    % [E PercussionMusicVoice measure 321 / measure 21]          %! SM4
     R1 * 1/4
     
 }
@@ -2659,7 +2659,7 @@ E_PercussionMusicStaff = {
 
 E_ViolinMusicVoice = {
     
-    % [E ViolinMusicVoice measure 301]                           %! SM4
+    % [E ViolinMusicVoice measure 301 / measure 1]               %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -2716,26 +2716,26 @@ E_ViolinMusicVoice = {
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [E ViolinMusicVoice measure 302]                           %! SM4
+    % [E ViolinMusicVoice measure 302 / measure 2]               %! SM4
     R1 * 1
     
-    % [E ViolinMusicVoice measure 303]                           %! SM4
+    % [E ViolinMusicVoice measure 303 / measure 3]               %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [E ViolinMusicVoice measure 304]                           %! SM4
+    % [E ViolinMusicVoice measure 304 / measure 4]               %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [E ViolinMusicVoice measure 305]                           %! SM4
+    % [E ViolinMusicVoice measure 305 / measure 5]               %! SM4
     R1 * 1
     
-    % [E ViolinMusicVoice measure 306]                           %! SM4
+    % [E ViolinMusicVoice measure 306 / measure 6]               %! SM4
     R1 * 3/2
     \times 4/7 {
         
-        % [E ViolinMusicVoice measure 307]                       %! SM4
+        % [E ViolinMusicVoice measure 307 / measure 7]           %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -2861,7 +2861,7 @@ E_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [E ViolinMusicVoice measure 309]                       %! SM4
+        % [E ViolinMusicVoice measure 309 / measure 9]           %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -2987,7 +2987,7 @@ E_ViolinMusicVoice = {
     }
     \times 4/7 {
         
-        % [E ViolinMusicVoice measure 311]                       %! SM4
+        % [E ViolinMusicVoice measure 311 / measure 11]          %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3112,34 +3112,34 @@ E_ViolinMusicVoice = {
         ]
     }
     
-    % [E ViolinMusicVoice measure 313]                           %! SM4
+    % [E ViolinMusicVoice measure 313 / measure 13]              %! SM4
     R1 * 3/4
     
-    % [E ViolinMusicVoice measure 314]                           %! SM4
+    % [E ViolinMusicVoice measure 314 / measure 14]              %! SM4
     R1 * 1
     
-    % [E ViolinMusicVoice measure 315]                           %! SM4
+    % [E ViolinMusicVoice measure 315 / measure 15]              %! SM4
     R1 * 3/2
     
-    % [E ViolinMusicVoice measure 316]                           %! SM4
+    % [E ViolinMusicVoice measure 316 / measure 16]              %! SM4
     R1 * 1
     
-    % [E ViolinMusicVoice measure 317]                           %! SM4
+    % [E ViolinMusicVoice measure 317 / measure 17]              %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [E ViolinMusicVoice measure 318]                           %! SM4
+    % [E ViolinMusicVoice measure 318 / measure 18]              %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E ViolinMusicVoice measure 319]                           %! SM4
+    % [E ViolinMusicVoice measure 319 / measure 19]              %! SM4
     R1 * 3/2
     
-    % [E ViolinMusicVoice measure 320]                           %! SM4
+    % [E ViolinMusicVoice measure 320 / measure 20]              %! SM4
     R1 * 3/4
     
-    % [E ViolinMusicVoice measure 321]                           %! SM4
+    % [E ViolinMusicVoice measure 321 / measure 21]              %! SM4
     R1 * 1/4
     
 }
@@ -3153,7 +3153,7 @@ E_ViolinMusicStaff = {
 
 E_ViolaMusicVoice = {
     
-    % [E ViolaMusicVoice measure 301]                            %! SM4
+    % [E ViolaMusicVoice measure 301 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3217,32 +3217,32 @@ E_ViolaMusicVoice = {
     \makeBlue                                                    %! SM24
     c'2
     
-    % [E ViolaMusicVoice measure 302]                            %! SM4
+    % [E ViolaMusicVoice measure 302 / measure 2]                %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E ViolaMusicVoice measure 303]                            %! SM4
+    % [E ViolaMusicVoice measure 303 / measure 3]                %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 304]                            %! SM4
+    % [E ViolaMusicVoice measure 304 / measure 4]                %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [E ViolaMusicVoice measure 305]                            %! SM4
+    % [E ViolaMusicVoice measure 305 / measure 5]                %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E ViolaMusicVoice measure 306]                            %! SM4
+    % [E ViolaMusicVoice measure 306 / measure 6]                %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 307]                            %! SM4
+    % [E ViolaMusicVoice measure 307 / measure 7]                %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3250,7 +3250,7 @@ E_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [E ViolaMusicVoice measure 308]                            %! SM4
+    % [E ViolaMusicVoice measure 308 / measure 8]                %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3258,7 +3258,7 @@ E_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [E ViolaMusicVoice measure 309]                            %! SM4
+    % [E ViolaMusicVoice measure 309 / measure 9]                %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3266,7 +3266,7 @@ E_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [E ViolaMusicVoice measure 310]                            %! SM4
+    % [E ViolaMusicVoice measure 310 / measure 10]               %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3274,7 +3274,7 @@ E_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [E ViolaMusicVoice measure 311]                            %! SM4
+    % [E ViolaMusicVoice measure 311 / measure 11]               %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3282,7 +3282,7 @@ E_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [E ViolaMusicVoice measure 312]                            %! SM4
+    % [E ViolaMusicVoice measure 312 / measure 12]               %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
@@ -3290,47 +3290,47 @@ E_ViolaMusicVoice = {
     c'2
     \repeatTie
     
-    % [E ViolaMusicVoice measure 313]                            %! SM4
+    % [E ViolaMusicVoice measure 313 / measure 13]               %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 314]                            %! SM4
+    % [E ViolaMusicVoice measure 314 / measure 14]               %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E ViolaMusicVoice measure 315]                            %! SM4
+    % [E ViolaMusicVoice measure 315 / measure 15]               %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 316]                            %! SM4
+    % [E ViolaMusicVoice measure 316 / measure 16]               %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E ViolaMusicVoice measure 317]                            %! SM4
+    % [E ViolaMusicVoice measure 317 / measure 17]               %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 318]                            %! SM4
+    % [E ViolaMusicVoice measure 318 / measure 18]               %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E ViolaMusicVoice measure 319]                            %! SM4
+    % [E ViolaMusicVoice measure 319 / measure 19]               %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 320]                            %! SM4
+    % [E ViolaMusicVoice measure 320 / measure 20]               %! SM4
     \makeBlue                                                    %! SM24
     c'2.
     \repeatTie
     
-    % [E ViolaMusicVoice measure 321]                            %! SM4
+    % [E ViolaMusicVoice measure 321 / measure 21]               %! SM4
     R1 * 1/4
     
 }
@@ -3344,7 +3344,7 @@ E_ViolaMusicStaff = {
 
 E_CelloMusicVoice = {
     
-    % [E CelloMusicVoice measure 301]                            %! SM4
+    % [E CelloMusicVoice measure 301 / measure 1]                %! SM4
     \set Staff.instrumentName =                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \markup {                                                    %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         \hcenter-in                                              %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
@@ -3401,27 +3401,27 @@ E_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    % [E CelloMusicVoice measure 302]                            %! SM4
+    % [E CelloMusicVoice measure 302 / measure 2]                %! SM4
     R1 * 1
     
-    % [E CelloMusicVoice measure 303]                            %! SM4
+    % [E CelloMusicVoice measure 303 / measure 3]                %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [E CelloMusicVoice measure 304]                            %! SM4
+    % [E CelloMusicVoice measure 304 / measure 4]                %! SM4
     \makeBlue                                                    %! SM24
     c'1..
     \repeatTie
     
-    % [E CelloMusicVoice measure 305]                            %! SM4
+    % [E CelloMusicVoice measure 305 / measure 5]                %! SM4
     R1 * 1
     
-    % [E CelloMusicVoice measure 306]                            %! SM4
+    % [E CelloMusicVoice measure 306 / measure 6]                %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [E CelloMusicVoice measure 307]                        %! SM4
+        % [E CelloMusicVoice measure 307 / measure 7]            %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3597,7 +3597,7 @@ E_CelloMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        % [E CelloMusicVoice measure 310]                        %! SM4
+        % [E CelloMusicVoice measure 310 / measure 10]           %! SM4
         \makeBlue                                                %! SM24
         c'8
         [
@@ -3771,34 +3771,34 @@ E_CelloMusicVoice = {
         ]
     }
     
-    % [E CelloMusicVoice measure 313]                            %! SM4
+    % [E CelloMusicVoice measure 313 / measure 13]               %! SM4
     R1 * 3/4
     
-    % [E CelloMusicVoice measure 314]                            %! SM4
+    % [E CelloMusicVoice measure 314 / measure 14]               %! SM4
     R1 * 1
     
-    % [E CelloMusicVoice measure 315]                            %! SM4
+    % [E CelloMusicVoice measure 315 / measure 15]               %! SM4
     R1 * 3/2
     
-    % [E CelloMusicVoice measure 316]                            %! SM4
+    % [E CelloMusicVoice measure 316 / measure 16]               %! SM4
     R1 * 1
     
-    % [E CelloMusicVoice measure 317]                            %! SM4
+    % [E CelloMusicVoice measure 317 / measure 17]               %! SM4
     \makeBlue                                                    %! SM24
     c'1.
     
-    % [E CelloMusicVoice measure 318]                            %! SM4
+    % [E CelloMusicVoice measure 318 / measure 18]               %! SM4
     \makeBlue                                                    %! SM24
     c'1
     \repeatTie
     
-    % [E CelloMusicVoice measure 319]                            %! SM4
+    % [E CelloMusicVoice measure 319 / measure 19]               %! SM4
     R1 * 3/2
     
-    % [E CelloMusicVoice measure 320]                            %! SM4
+    % [E CelloMusicVoice measure 320 / measure 20]               %! SM4
     R1 * 3/4
     
-    % [E CelloMusicVoice measure 321]                            %! SM4
+    % [E CelloMusicVoice measure 321 / measure 21]               %! SM4
     R1 * 1/4
     
 }
