@@ -1,7 +1,7 @@
 import abjad
 import baca
 import faberge
-from abjad import rhythmmakertools as rhythmos
+from abjad import rhythmos
 
 
 #def keynoise_rhythm():
