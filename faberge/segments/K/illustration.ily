@@ -1052,7 +1052,7 @@ K_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     c''2
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    \niente                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
@@ -1731,7 +1731,7 @@ K_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     \makeBlue                                                    %! SM24
     d''2
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! SM8:REAPPLIED_DYNAMIC:SM37
+    \niente                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
         \column
             {
