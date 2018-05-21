@@ -16,7 +16,7 @@ def ratchet_rhythm():
             written_duration=abjad.Duration(1, 16),
             ),
         ]
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.AccelerandoRhythmMaker(
             beam_specifier=rhythmos.BeamSpecifier(
                 beam_rests=True,

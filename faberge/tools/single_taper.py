@@ -11,7 +11,7 @@ def single_taper(
     """
     Makes single tapers.
     """
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythmos.IncisedRhythmMaker(
             incise_specifier=rhythmos.InciseSpecifier(
                 outer_divisions_only=True,

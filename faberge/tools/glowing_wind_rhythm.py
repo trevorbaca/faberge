@@ -33,6 +33,6 @@ def glowing_wind_rhythm(
             repeat_ties=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythm_maker,
         )

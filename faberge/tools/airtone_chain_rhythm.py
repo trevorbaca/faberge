@@ -79,7 +79,7 @@ def airtone_chain_rhythm(
             repeat_ties=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )

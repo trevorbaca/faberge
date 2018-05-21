@@ -14,7 +14,7 @@ def front_incised_notes(
         _.with_denominator(lcm) for _ in start_rest_durations
         ]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
-    rhythm_specifier = baca.RhythmCommand(
+    rhythm_specifier = baca.rhythm(
         rhythm_maker=rhythmos.IncisedRhythmMaker(
             division_masks=division_masks,
             incise_specifier=rhythmos.InciseSpecifier(

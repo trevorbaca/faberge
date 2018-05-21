@@ -19,7 +19,7 @@ def percussion_gears_rhythm(
             denominator=16,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )
