@@ -17,7 +17,7 @@ from abjad import rhythmos
 #            denominator=16,
 #            ),
 #        )
-#    return baca.RhythmCommand(
+#    return baca.rhythm(
 #        division_expression=baca.strict_quarter_divisions(),
 #        rhythm_maker=rhythm_maker,
 #        )
@@ -44,7 +44,7 @@ def keynoise_rhythm(
         division_masks=division_masks,
         tuplet_ratios=tuplet_ratios,
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,

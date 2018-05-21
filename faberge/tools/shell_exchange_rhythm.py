@@ -116,6 +116,6 @@ def shell_exchange_rhythm(
             trivialize=True,
             ),
         )
-    return baca.RhythmCommand(
+    return baca.rhythm(
         rhythm_maker=rhythm_maker,
         )
