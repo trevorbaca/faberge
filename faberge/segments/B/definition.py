@@ -583,7 +583,10 @@ maker(
 maker(
     ('eh', 4),
     baca.dynamic('f'),
-    baca.map(baca.trill_spanner(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.trill_spanner(),
+        ),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
     )
 
@@ -597,14 +600,20 @@ maker(
 maker(
     ('eh', (6, 7)),
     baca.dynamic('ff'),
-    baca.map(baca.trill_spanner(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.trill_spanner(),
+        ),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
     )
 
 maker(
     ('eh', 8),
     baca.dynamic('fff'),
-    baca.map(baca.trill_spanner(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.trill_spanner(),
+        ),
     baca.pitch('Eb4'),
     faberge.markup.doubletrill(),
     )
@@ -612,7 +621,10 @@ maker(
 maker(
     ('eh', 9),
     baca.dynamic('fff'),
-    baca.map(baca.trill_spanner(), baca.runs()),
+    baca.map(
+        baca.runs(),
+        baca.trill_spanner(),
+        ),
     baca.pitch('E4'),
     faberge.markup.doubletrill(),
     )
