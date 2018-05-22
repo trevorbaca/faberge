@@ -43,66 +43,66 @@ maker = baca.SegmentMaker(
 
 maker(
     'fl',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Fl.'),
         baca.start_markup('Flute', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'eh',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Eng. hn.'),
         baca.start_markup(['English', 'horn'], hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'cl',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Cl.'),
         baca.start_markup('Clarinet', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'rh',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Pf.', context='StaffGroup'),
         baca.start_markup('Piano', context='StaffGroup', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'perc',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Perc.'),
         baca.start_markup('Percussion', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'vn',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Vn.'),
         baca.start_markup('Violin', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'va',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Va.'),
         baca.start_markup('Viola', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
     'vc',
-    baca.suite([
+    baca.suite(
         faberge.margin_markup('Vc.'),
         baca.start_markup('Cello', hcenter_in=16),
-        ]),
+        ),
     )
 
 maker(
