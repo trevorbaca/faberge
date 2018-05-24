@@ -924,43 +924,43 @@ E_FluteMusicVoice = {
     \times 4/5 {
         
         % [E FluteMusicVoice measure 303 / measure 3]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         ]
     }
@@ -968,140 +968,140 @@ E_FluteMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         ]
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8.
         ]
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''4
     }
     \times 2/3 {
         
         % [E FluteMusicVoice measure 304 / measure 4]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''4
         \repeatTie
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''16
         ]
     }
@@ -1109,22 +1109,22 @@ E_FluteMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         ]
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''8
         \repeatTie
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c''4
     }
     
@@ -1254,17 +1254,17 @@ E_EnglishHornMusicVoice = {
         % [E EnglishHornMusicVoice measure 303 / measure 3]      %! SM4
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         ]
     }
@@ -1272,17 +1272,17 @@ E_EnglishHornMusicVoice = {
         
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         ]
     }
@@ -1291,25 +1291,25 @@ E_EnglishHornMusicVoice = {
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'8
     }
     \times 2/3 {
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'4
     }
     \times 4/5 {
         
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'8.
         ]
     }
@@ -1317,7 +1317,7 @@ E_EnglishHornMusicVoice = {
         
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'4
     }
     \times 2/3 {
@@ -1325,7 +1325,7 @@ E_EnglishHornMusicVoice = {
         % [E EnglishHornMusicVoice measure 304 / measure 4]      %! SM4
         r4
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -1333,11 +1333,11 @@ E_EnglishHornMusicVoice = {
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         ]
     }
@@ -1345,17 +1345,17 @@ E_EnglishHornMusicVoice = {
         
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         ]
     }
@@ -1363,17 +1363,17 @@ E_EnglishHornMusicVoice = {
         
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         ]
     }
@@ -1381,17 +1381,17 @@ E_EnglishHornMusicVoice = {
         
         r16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'16
         ]
     }
@@ -1400,14 +1400,14 @@ E_EnglishHornMusicVoice = {
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'8
     }
     \times 2/3 {
         
         r8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         g'4
     }
     
@@ -1442,21 +1442,21 @@ E_EnglishHornMusicVoice = {
     R1 * 1
     
     % [E EnglishHornMusicVoice measure 315 / measure 15]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1.
     
     % [E EnglishHornMusicVoice measure 316 / measure 16]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 317 / measure 17]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1.
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 318 / measure 18]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -1538,43 +1538,43 @@ E_ClarinetMusicVoice = {
     \times 4/5 {
         
         % [E ClarinetMusicVoice measure 303 / measure 3]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         ]
     }
@@ -1582,140 +1582,140 @@ E_ClarinetMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         ]
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''4
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8.
         ]
     }
     \times 4/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''4
     }
     \times 2/3 {
         
         % [E ClarinetMusicVoice measure 304 / measure 4]         %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''4
         \repeatTie
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''16
         ]
     }
@@ -1723,22 +1723,22 @@ E_ClarinetMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         \repeatTie
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         ]
     }
     \times 2/3 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''8
         \repeatTie
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         d''4
     }
     
@@ -1873,130 +1873,130 @@ E_PianoRHMusicVoice = {
     \times 6/7 {
         
         % [E PianoRHMusicVoice measure 307 / measure 7]      %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
@@ -2004,130 +2004,130 @@ E_PianoRHMusicVoice = {
     \times 6/7 {
         
         % [E PianoRHMusicVoice measure 310 / measure 10]     %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/7 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
@@ -2196,182 +2196,182 @@ E_PianoLHMusicVoice = {
     \times 3/5 {
         
         % [E PianoLHMusicVoice measure 307 / measure 7]      %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
-        c'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
-        c'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
         % [E PianoLHMusicVoice measure 310 / measure 10]     %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
-        c'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
-        c'4
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
-        c'4
-        
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'4
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 3/5 {
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
+        c'4
+        
+        \baca_unpitched_music_warning                        %! SM24
         c'4
     }
     
@@ -2546,11 +2546,11 @@ E_PercussionMusicVoice = {
     R1 * 1
     
     % [E PercussionMusicVoice measure 303 / measure 3]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     
     % [E PercussionMusicVoice measure 304 / measure 4]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1..
     \repeatTie
     
@@ -2561,55 +2561,55 @@ E_PercussionMusicVoice = {
     R1 * 3/2
     
     % [E PercussionMusicVoice measure 307 / measure 7]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2.
     
     % [E PercussionMusicVoice measure 308 / measure 8]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2.
     
     % [E PercussionMusicVoice measure 309 / measure 9]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2.
     
     % [E PercussionMusicVoice measure 310 / measure 10]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2.
     
     % [E PercussionMusicVoice measure 311 / measure 11]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2.
     
     % [E PercussionMusicVoice measure 312 / measure 12]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2.
@@ -2621,21 +2621,21 @@ E_PercussionMusicVoice = {
     R1 * 1
     
     % [E PercussionMusicVoice measure 315 / measure 15]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     
     % [E PercussionMusicVoice measure 316 / measure 16]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [E PercussionMusicVoice measure 317 / measure 17]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [E PercussionMusicVoice measure 318 / measure 18]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -2720,11 +2720,11 @@ E_ViolinMusicVoice = {
     R1 * 1
     
     % [E ViolinMusicVoice measure 303 / measure 3]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     
     % [E ViolinMusicVoice measure 304 / measure 4]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1..
     \repeatTie
     
@@ -2736,378 +2736,378 @@ E_ViolinMusicVoice = {
     \times 4/7 {
         
         % [E ViolinMusicVoice measure 307 / measure 7]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
         % [E ViolinMusicVoice measure 309 / measure 9]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
         % [E ViolinMusicVoice measure 311 / measure 11]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -3125,11 +3125,11 @@ E_ViolinMusicVoice = {
     R1 * 1
     
     % [E ViolinMusicVoice measure 317 / measure 17]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     
     % [E ViolinMusicVoice measure 318 / measure 18]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -3211,39 +3211,39 @@ E_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [E ViolaMusicVoice measure 302 / measure 2]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [E ViolaMusicVoice measure 303 / measure 3]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [E ViolaMusicVoice measure 304 / measure 4]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1..
     \repeatTie
     
     % [E ViolaMusicVoice measure 305 / measure 5]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [E ViolaMusicVoice measure 306 / measure 6]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [E ViolaMusicVoice measure 307 / measure 7]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3251,7 +3251,7 @@ E_ViolaMusicVoice = {
     \repeatTie
     
     % [E ViolaMusicVoice measure 308 / measure 8]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3259,7 +3259,7 @@ E_ViolaMusicVoice = {
     \repeatTie
     
     % [E ViolaMusicVoice measure 309 / measure 9]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3267,7 +3267,7 @@ E_ViolaMusicVoice = {
     \repeatTie
     
     % [E ViolaMusicVoice measure 310 / measure 10]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3275,7 +3275,7 @@ E_ViolaMusicVoice = {
     \repeatTie
     
     % [E ViolaMusicVoice measure 311 / measure 11]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3283,7 +3283,7 @@ E_ViolaMusicVoice = {
     \repeatTie
     
     % [E ViolaMusicVoice measure 312 / measure 12]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3291,42 +3291,42 @@ E_ViolaMusicVoice = {
     \repeatTie
     
     % [E ViolaMusicVoice measure 313 / measure 13]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [E ViolaMusicVoice measure 314 / measure 14]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [E ViolaMusicVoice measure 315 / measure 15]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [E ViolaMusicVoice measure 316 / measure 16]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [E ViolaMusicVoice measure 317 / measure 17]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [E ViolaMusicVoice measure 318 / measure 18]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [E ViolaMusicVoice measure 319 / measure 19]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     \repeatTie
     
     % [E ViolaMusicVoice measure 320 / measure 20]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -3405,11 +3405,11 @@ E_CelloMusicVoice = {
     R1 * 1
     
     % [E CelloMusicVoice measure 303 / measure 3]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     
     % [E CelloMusicVoice measure 304 / measure 4]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1..
     \repeatTie
     
@@ -3422,175 +3422,175 @@ E_CelloMusicVoice = {
     \times 3/5 {
         
         % [E CelloMusicVoice measure 307 / measure 7]            %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -3598,175 +3598,175 @@ E_CelloMusicVoice = {
     \times 3/5 {
         
         % [E CelloMusicVoice measure 310 / measure 10]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 3/5 {
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -3784,11 +3784,11 @@ E_CelloMusicVoice = {
     R1 * 1
     
     % [E CelloMusicVoice measure 317 / measure 17]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1.
     
     % [E CelloMusicVoice measure 318 / measure 18]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     

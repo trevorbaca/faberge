@@ -2791,7 +2791,7 @@ B_FluteMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -2834,7 +2834,7 @@ B_FluteMusicVoice = {
     \times 1/1 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         \repeatTie
         \p                                                       %! HC1
@@ -2842,7 +2842,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         ]
         - \tweak color #red                                      %! SM14
@@ -2858,14 +2858,14 @@ B_FluteMusicVoice = {
     \times 2/3 {
         
         % [B FluteMusicVoice measure 98 / measure 2]             %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -2878,20 +2878,20 @@ B_FluteMusicVoice = {
             }
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -2906,7 +2906,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 99 / measure 3]                 %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -2915,20 +2915,20 @@ B_FluteMusicVoice = {
     r4
     
     % [B FluteMusicVoice measure 100 / measure 4]                %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -2942,20 +2942,20 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 101 / measure 5]                %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -2963,14 +2963,14 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 102 / measure 6]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 103 / measure 7]                %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2.
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -3025,7 +3025,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 107 / measure 11]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -3041,7 +3041,7 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         \repeatTie
         \mf                                                      %! HC1
@@ -3049,7 +3049,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3062,7 +3062,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8.
         ]
         - \tweak color #red                                      %! SM14
@@ -3077,14 +3077,14 @@ B_FluteMusicVoice = {
     }
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3092,7 +3092,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 108 / measure 12]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -3107,7 +3107,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 109 / measure 13]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     :32                                                          %! IC
     - \tweak circled-tip ##t                                     %! HC1
@@ -3137,7 +3137,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 110 / measure 14]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     :32                                                          %! IC
     \repeatTie
@@ -3146,7 +3146,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         \repeatTie
@@ -3154,7 +3154,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3167,7 +3167,7 @@ B_FluteMusicVoice = {
                         2
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3180,14 +3180,14 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         ]
@@ -3205,7 +3205,7 @@ B_FluteMusicVoice = {
         
         % [B FluteMusicVoice measure 111 / measure 15]           %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         \repeatTie
@@ -3213,13 +3213,13 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3232,7 +3232,7 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3246,7 +3246,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         ]
@@ -3262,7 +3262,7 @@ B_FluteMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     :32                                                          %! IC
     \repeatTie
@@ -3285,7 +3285,7 @@ B_FluteMusicVoice = {
     r4
     
     % [B FluteMusicVoice measure 113 / measure 17]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     :32                                                          %! IC
     - \tweak color #red                                          %! SM14
@@ -3299,14 +3299,14 @@ B_FluteMusicVoice = {
         }
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         :32                                                      %! IC
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3317,7 +3317,7 @@ B_FluteMusicVoice = {
         
         % [B FluteMusicVoice measure 114 / measure 18]           %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         :32                                                      %! IC
         \repeatTie
@@ -3325,7 +3325,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3339,7 +3339,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         ]
@@ -3355,7 +3355,7 @@ B_FluteMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     :32                                                          %! IC
     \repeatTie
@@ -3363,7 +3363,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         \repeatTie
@@ -3371,7 +3371,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3384,13 +3384,13 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3404,7 +3404,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         ]
@@ -3414,7 +3414,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 115 / measure 19]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     :32                                                          %! IC
     \repeatTie
@@ -3422,7 +3422,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 116 / measure 20]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     :32                                                          %! IC
     \repeatTie
@@ -3431,7 +3431,7 @@ B_FluteMusicVoice = {
     
     r4
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     :32                                                          %! IC
     - \tweak color #red                                          %! SM14
@@ -3446,7 +3446,7 @@ B_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         :32                                                      %! IC
         \repeatTie
@@ -3454,7 +3454,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3468,7 +3468,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         ]
@@ -3485,7 +3485,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 117 / measure 21]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     :32                                                          %! IC
     \repeatTie
@@ -3493,7 +3493,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         \repeatTie
@@ -3501,7 +3501,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3514,7 +3514,7 @@ B_FluteMusicVoice = {
                         2
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -3527,14 +3527,14 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         ]
@@ -3550,7 +3550,7 @@ B_FluteMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     :32                                                          %! IC
     \repeatTie
@@ -3559,7 +3559,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 118 / measure 22]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     :32                                                          %! IC
     \repeatTie
@@ -3575,7 +3575,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 119 / measure 23]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -3604,7 +3604,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 120 / measure 24]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     \repeatTie
     \mf                                                          %! HC1
@@ -3612,7 +3612,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 121 / measure 25]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -3620,14 +3620,14 @@ B_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         ]
         - \tweak color #red                                      %! SM14
@@ -3642,14 +3642,14 @@ B_FluteMusicVoice = {
     }
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3657,7 +3657,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 122 / measure 26]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -3672,7 +3672,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 123 / measure 27]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -3688,7 +3688,7 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         \repeatTie
         \mp                                                      %! HC1
@@ -3696,12 +3696,12 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3713,7 +3713,7 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3726,7 +3726,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         ]
         - \tweak color #red                                      %! SM14
@@ -3742,14 +3742,14 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3761,7 +3761,7 @@ B_FluteMusicVoice = {
                         2
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3773,13 +3773,13 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         ]
         - \tweak color #red                                      %! SM14
@@ -3795,21 +3795,21 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 124 / measure 28]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3823,7 +3823,7 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 125 / measure 29]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -3831,7 +3831,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 126 / measure 30]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -3846,7 +3846,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 127 / measure 31]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2.
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -3862,7 +3862,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 128 / measure 32]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2.
     \repeatTie
     \mf                                                          %! HC1
@@ -3870,20 +3870,20 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8.
         ]
         - \tweak color #red                                      %! SM14
@@ -3899,27 +3899,27 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         % [B FluteMusicVoice measure 129 / measure 33]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 130 / measure 34]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -3927,7 +3927,7 @@ B_FluteMusicVoice = {
     
     r4
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -3940,21 +3940,21 @@ B_FluteMusicVoice = {
         }
     
     % [B FluteMusicVoice measure 131 / measure 35]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -3967,7 +3967,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8.
         ]
         - \tweak color #red                                      %! SM14
@@ -3983,7 +3983,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 132 / measure 36]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -3998,7 +3998,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 133 / measure 37]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     :32                                                          %! IC
     - \tweak circled-tip ##t                                     %! HC1
@@ -4028,7 +4028,7 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         \repeatTie
@@ -4037,7 +4037,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -4050,13 +4050,13 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -4070,7 +4070,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         ]
@@ -4089,7 +4089,7 @@ B_FluteMusicVoice = {
         
         % [B FluteMusicVoice measure 134 / measure 38]           %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         :32                                                      %! IC
         \repeatTie
@@ -4097,7 +4097,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         :32                                                      %! IC
         ]
@@ -4112,7 +4112,7 @@ B_FluteMusicVoice = {
             }
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     :32                                                          %! IC
     \repeatTie
@@ -4120,7 +4120,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         \repeatTie
@@ -4128,7 +4128,7 @@ B_FluteMusicVoice = {
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -4136,7 +4136,7 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 135 / measure 39]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2.
     :32                                                          %! IC
     \repeatTie
@@ -4146,7 +4146,7 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 136 / measure 40]               %! SM4
     r4
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     :32                                                          %! IC
     - \tweak color #red                                          %! SM14
@@ -4161,7 +4161,7 @@ B_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         :32                                                      %! IC
         \repeatTie
@@ -4169,7 +4169,7 @@ B_FluteMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         :32                                                      %! IC
         ]
@@ -4177,7 +4177,7 @@ B_FluteMusicVoice = {
         ^ \markup { @ }                                          %! SM14
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     :32                                                          %! IC
     \repeatTie
@@ -4185,7 +4185,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 137 / measure 41]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     :32                                                          %! IC
     \repeatTie
@@ -4193,7 +4193,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         :32                                                      %! IC
         \repeatTie
@@ -4201,7 +4201,7 @@ B_FluteMusicVoice = {
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -4215,7 +4215,7 @@ B_FluteMusicVoice = {
             }
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     :32                                                          %! IC
     \repeatTie
@@ -4223,7 +4223,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     
     % [B FluteMusicVoice measure 138 / measure 42]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'1
     :32                                                          %! IC
     \repeatTie
@@ -4233,7 +4233,7 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 139 / measure 43]               %! SM4
     r4
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     :32                                                          %! IC
     - \tweak color #red                                          %! SM14
@@ -4247,7 +4247,7 @@ B_FluteMusicVoice = {
         }
     
     % [B FluteMusicVoice measure 140 / measure 44]               %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     :32                                                          %! IC
     \repeatTie
@@ -4255,7 +4255,7 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         :32                                                      %! IC
         \repeatTie
@@ -4263,7 +4263,7 @@ B_FluteMusicVoice = {
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         :32                                                      %! IC
         - \tweak color #red                                      %! SM14
@@ -4278,7 +4278,7 @@ B_FluteMusicVoice = {
     }
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     :32                                                          %! IC
     \repeatTie
@@ -4294,7 +4294,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 141 / measure 45]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''1
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -4323,7 +4323,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 142 / measure 46]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     \mf                                                          %! HC1
@@ -4331,13 +4331,13 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''4
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4354,20 +4354,20 @@ B_FluteMusicVoice = {
         
         % [B FluteMusicVoice measure 143 / measure 47]           %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         ]
         - \tweak color #red                                      %! SM14
@@ -4383,7 +4383,7 @@ B_FluteMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -4399,7 +4399,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 145 / measure 49]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -4415,7 +4415,7 @@ B_FluteMusicVoice = {
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         \repeatTie
         \p                                                       %! HC1
@@ -4423,7 +4423,7 @@ B_FluteMusicVoice = {
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4438,20 +4438,20 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         % [B FluteMusicVoice measure 146 / measure 50]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8.
         ]
         - \tweak color #red                                      %! SM14
@@ -4465,7 +4465,7 @@ B_FluteMusicVoice = {
             }
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -4473,20 +4473,20 @@ B_FluteMusicVoice = {
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'8
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         ]
         - \tweak color #red                                      %! SM14
@@ -4502,7 +4502,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 147 / measure 51]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -4557,7 +4557,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 151 / measure 55]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -4573,7 +4573,7 @@ B_FluteMusicVoice = {
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         \repeatTie
         \ppp                                                     %! HC1
@@ -4581,7 +4581,7 @@ B_FluteMusicVoice = {
         ^ \markup { @ }                                          %! SM14
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4596,34 +4596,34 @@ B_FluteMusicVoice = {
     \times 2/3 {
         
         % [B FluteMusicVoice measure 152 / measure 56]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4635,7 +4635,7 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4647,7 +4647,7 @@ B_FluteMusicVoice = {
                         2
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4660,7 +4660,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         ]
         - \tweak color #red                                      %! SM14
@@ -4669,7 +4669,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 153 / measure 57]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'2.
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -4678,7 +4678,7 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 154 / measure 58]               %! SM4
     r4
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g'4
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
@@ -4692,34 +4692,34 @@ B_FluteMusicVoice = {
     \times 2/3 {
         
         % [B FluteMusicVoice measure 155 / measure 59]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'4
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''8
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4731,7 +4731,7 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4743,7 +4743,7 @@ B_FluteMusicVoice = {
                         2
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g'16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4756,7 +4756,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         g''16
         ]
         - \tweak color #red                                      %! SM14
@@ -4773,7 +4773,7 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 156 / measure 60]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     g''4
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -4812,7 +4812,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 165 / measure 69]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     gs''!1
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -4821,7 +4821,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 166 / measure 70]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     gs''!2
     \repeatTie
     \ppp                                                         %! HC1
@@ -4829,14 +4829,14 @@ B_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 4/5 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs''!16
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs''!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4848,7 +4848,7 @@ B_FluteMusicVoice = {
                         1
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs''!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4860,7 +4860,7 @@ B_FluteMusicVoice = {
                         2
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs'!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4873,7 +4873,7 @@ B_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs''!16
         ]
         - \tweak color #red                                      %! SM14
@@ -4884,14 +4884,14 @@ B_FluteMusicVoice = {
         
         % [B FluteMusicVoice measure 167 / measure 71]           %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs''!8
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         gs'!8
         ]
         - \tweak color #red                                      %! SM14
@@ -4905,7 +4905,7 @@ B_FluteMusicVoice = {
             }
     }
     
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     gs'!4
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -4913,7 +4913,7 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 168 / measure 72]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     gs'!4
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1
@@ -8559,7 +8559,7 @@ B_ViolinMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \<                                                       %! HC1
@@ -8590,67 +8590,67 @@ B_ViolinMusicVoice = {
             }
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -8661,122 +8661,122 @@ B_ViolinMusicVoice = {
     \times 7/10 {
         
         % [B ViolinMusicVoice measure 151 / measure 55]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -8788,7 +8788,7 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 153 / measure 57]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \mf                                                      %! HC1
@@ -8796,43 +8796,43 @@ B_ViolinMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -8843,75 +8843,75 @@ B_ViolinMusicVoice = {
     \times 1/1 {
         
         % [B ViolinMusicVoice measure 154 / measure 58]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         % [B ViolinMusicVoice measure 155 / measure 59]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -8922,86 +8922,86 @@ B_ViolinMusicVoice = {
     \times 5/7 {
         
         % [B ViolinMusicVoice measure 156 / measure 60]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -9011,62 +9011,62 @@ B_ViolinMusicVoice = {
     \times 4/5 {
         
         % [B ViolinMusicVoice measure 158 / measure 62]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -9077,122 +9077,122 @@ B_ViolinMusicVoice = {
     \times 7/10 {
         
         % [B ViolinMusicVoice measure 159 / measure 63]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -9203,98 +9203,98 @@ B_ViolinMusicVoice = {
     \times 7/8 {
         
         % [B ViolinMusicVoice measure 161 / measure 65]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -9305,26 +9305,26 @@ B_ViolinMusicVoice = {
     \times 1/1 {
         
         % [B ViolinMusicVoice measure 163 / measure 67]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -9334,74 +9334,74 @@ B_ViolinMusicVoice = {
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 164 / measure 68]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -9413,7 +9413,7 @@ B_ViolinMusicVoice = {
     \override RepeatTie.direction = #up                          %! OC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     c'1
     \effort_mf                                                   %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
@@ -9440,21 +9440,21 @@ B_ViolinMusicVoice = {
         }
     
     % [B ViolinMusicVoice measure 166 / measure 70]              %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     c'2.
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
     % [B ViolinMusicVoice measure 167 / measure 71]              %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     c'2
     \repeatTie
     - \tweak color #red                                          %! SM14
     ^ \markup { @ }                                              %! SM14
     
     % [B ViolinMusicVoice measure 168 / measure 72]              %! SM4
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     c'2.
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -9465,7 +9465,7 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 169 / measure 73]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \>                                                       %! HC1
@@ -9487,91 +9487,91 @@ B_ViolinMusicVoice = {
                 }
             }
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -9582,122 +9582,122 @@ B_ViolinMusicVoice = {
     \times 7/10 {
         
         % [B ViolinMusicVoice measure 171 / measure 75]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -9707,38 +9707,38 @@ B_ViolinMusicVoice = {
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 173 / measure 77]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -9749,63 +9749,63 @@ B_ViolinMusicVoice = {
     \times 1/1 {
         
         % [B ViolinMusicVoice measure 174 / measure 78]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         % [B ViolinMusicVoice measure 175 / measure 79]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -9815,75 +9815,75 @@ B_ViolinMusicVoice = {
     \times 2/3 {
         
         % [B ViolinMusicVoice measure 176 / measure 80]          %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \ppp                                                     %! HC1
@@ -10506,7 +10506,7 @@ B_ViolaMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         \<                                                       %! HC1
@@ -10537,43 +10537,43 @@ B_ViolaMusicVoice = {
             }
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -10584,98 +10584,98 @@ B_ViolaMusicVoice = {
     \times 5/8 {
         
         % [B ViolaMusicVoice measure 150 / measure 54]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -10686,100 +10686,100 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 152 / measure 56]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \mf                                                      %! HC1
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -10790,26 +10790,26 @@ B_ViolaMusicVoice = {
     \times 1/1 {
         
         % [B ViolaMusicVoice measure 154 / measure 58]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -10820,98 +10820,98 @@ B_ViolaMusicVoice = {
     \times 3/4 {
         
         % [B ViolaMusicVoice measure 155 / measure 59]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -10922,98 +10922,98 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 157 / measure 61]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -11024,38 +11024,38 @@ B_ViolaMusicVoice = {
     \times 1/1 {
         
         % [B ViolaMusicVoice measure 159 / measure 63]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -11066,98 +11066,98 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 160 / measure 64]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -11168,75 +11168,75 @@ B_ViolaMusicVoice = {
     \times 1/1 {
         
         % [B ViolaMusicVoice measure 162 / measure 66]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         % [B ViolaMusicVoice measure 163 / measure 67]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -11246,74 +11246,74 @@ B_ViolaMusicVoice = {
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 164 / measure 68]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -11324,98 +11324,98 @@ B_ViolaMusicVoice = {
     \times 7/8 {
         
         % [B ViolaMusicVoice measure 165 / measure 69]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -11426,98 +11426,98 @@ B_ViolaMusicVoice = {
     \times 5/8 {
         
         % [B ViolaMusicVoice measure 167 / measure 71]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -11529,7 +11529,7 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 169 / measure 73]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         \>                                                       %! HC1
@@ -11538,43 +11538,43 @@ B_ViolaMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -11585,99 +11585,99 @@ B_ViolaMusicVoice = {
     \times 1/1 {
         
         % [B ViolaMusicVoice measure 170 / measure 74]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         % [B ViolaMusicVoice measure 171 / measure 75]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -11688,86 +11688,86 @@ B_ViolaMusicVoice = {
     \times 5/7 {
         
         % [B ViolaMusicVoice measure 172 / measure 76]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -11777,38 +11777,38 @@ B_ViolaMusicVoice = {
     \times 2/3 {
         
         % [B ViolaMusicVoice measure 174 / measure 78]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -11819,123 +11819,123 @@ B_ViolaMusicVoice = {
     \times 7/10 {
         
         % [B ViolaMusicVoice measure 175 / measure 79]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \ppp                                                     %! HC1
@@ -12369,7 +12369,7 @@ B_CelloMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
@@ -12400,127 +12400,127 @@ B_CelloMusicVoice = {
             }
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -12531,170 +12531,170 @@ B_CelloMusicVoice = {
     \times 11/14 {
         
         % [B CelloMusicVoice measure 160 / measure 64]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -12705,134 +12705,134 @@ B_CelloMusicVoice = {
     \times 10/11 {
         
         % [B CelloMusicVoice measure 163 / measure 67]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         ]
@@ -12843,100 +12843,100 @@ B_CelloMusicVoice = {
     \times 1/1 {
         
         % [B CelloMusicVoice measure 166 / measure 70]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         % [B CelloMusicVoice measure 167 / measure 71]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
         % [B CelloMusicVoice measure 168 / measure 72]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         ]
@@ -12948,7 +12948,7 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 169 / measure 73]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         \>                                                       %! HC1
@@ -12957,151 +12957,151 @@ B_CelloMusicVoice = {
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -13112,98 +13112,98 @@ B_CelloMusicVoice = {
     \times 7/8 {
         
         % [B CelloMusicVoice measure 172 / measure 76]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         d'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         ]
@@ -13214,116 +13214,116 @@ B_CelloMusicVoice = {
     \times 7/10 {
         
         % [B CelloMusicVoice measure 175 / measure 79]           %! SM4
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         b8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         - \tweak color #red                                      %! SM14
@@ -13331,7 +13331,7 @@ B_CelloMusicVoice = {
         
         \once \override TextScript.extra-offset = #'(-12 . -4)
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         c'8
         -\staccato                                               %! IC
         \ppp                                                     %! HC1

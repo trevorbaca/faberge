@@ -4134,7 +4134,7 @@ A_FluteMusicVoice = {
     % [A FluteMusicVoice measure 93 / measure 89]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     fs''!2.
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
@@ -4143,7 +4143,7 @@ A_FluteMusicVoice = {
     
     % [A FluteMusicVoice measure 94 / measure 90]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     fs''!2.
     \repeatTie
     \p                                                           %! HC1
@@ -4151,13 +4151,13 @@ A_FluteMusicVoice = {
     ^ \markup { @ }                                              %! SM14
     \times 2/3 {
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         fs''!4
         \repeatTie
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         fs'!8
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4174,14 +4174,14 @@ A_FluteMusicVoice = {
         
         % [A FluteMusicVoice measure 95 / measure 91]            %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         fs'!8
         \repeatTie
         [
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
         
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         fs''!16
         - \tweak color #red                                      %! SM14
         ^ \markup { @ }                                          %! SM14
@@ -4194,7 +4194,7 @@ A_FluteMusicVoice = {
             }
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_red_music                                          %! SM14
+        \baca_repeat_pitch_class_warning                         %! SM14
         fs'!16
         ]
         - \tweak color #red                                      %! SM14
@@ -4209,7 +4209,7 @@ A_FluteMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     fs'!4
     \repeatTie
     - \tweak color #red                                          %! SM14
@@ -4217,7 +4217,7 @@ A_FluteMusicVoice = {
     
     % [A FluteMusicVoice measure 96 / measure 92]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    \baca_red_music                                              %! SM14
+    \baca_repeat_pitch_class_warning                             %! SM14
     fs'!2.
     \repeatTie
     - \tweak circled-tip ##t                                     %! HC1

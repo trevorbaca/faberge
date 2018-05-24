@@ -1,9 +1,9 @@
 i_GlobalRests = {
     
-    % [_ GlobalRests measure 1 / measure 1]                              %! SM4
+    % [_ GlobalRests measure 1]                                          %! SM4
     R1 * 3/4
     
-    % [_ GlobalRests measure 2 / measure 2]                              %! SM4
+    % [_ GlobalRests measure 2]                                          %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -12,10 +12,10 @@ i_GlobalRests = {
             #"scripts.ufermata"                                          %! SM18
         }                                                                %! SM18
     
-    % [_ GlobalRests measure 3 / measure 3]                              %! SM4
+    % [_ GlobalRests measure 3]                                          %! SM4
     R1 * 1
     
-    % [_ GlobalRests measure 4 / measure 4]                              %! SM4
+    % [_ GlobalRests measure 4]                                          %! SM4
     \once \override Score.MultiMeasureRest.transparent = ##t             %! SM19
     \once \override Score.TimeSignature.stencil = ##f                    %! SM19
     R1 * 1/4
@@ -29,7 +29,7 @@ i_GlobalRests = {
 
 i_GlobalSkips = {
     
-    % [_ GlobalSkips measure 1 / measure 1]                              %! SM4
+    % [_ GlobalSkips measure 1]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -116,7 +116,7 @@ i_GlobalSkips = {
         }
 %@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                        %! HSS2:SPACING_MARKUP
     
-    % [_ GlobalSkips measure 2 / measure 2]                              %! SM4
+    % [_ GlobalSkips measure 2]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -154,7 +154,7 @@ i_GlobalSkips = {
         }
 %@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                        %! HSS2:SPACING_MARKUP
     
-    % [_ GlobalSkips measure 3 / measure 3]                              %! SM4
+    % [_ GlobalSkips measure 3]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 16)     %! HSS1:SPACING
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -192,7 +192,7 @@ i_GlobalSkips = {
         }
 %@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                        %! HSS2:SPACING_MARKUP
     
-    % [_ GlobalSkips measure 4 / measure 4]                              %! SM4
+    % [_ GlobalSkips measure 4]                                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
     \set Score.proportionalNotationDuration = #(ly:make-moment 1 12)     %! HSS1:SPACING
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -238,7 +238,7 @@ i_GlobalSkips = {
 
 i_FluteMusicVoice = {
     
-    % [_ FluteMusicVoice measure 1 / measure 1]                  %! SM4
+    % [_ FluteMusicVoice measure 1]                              %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -295,13 +295,13 @@ i_FluteMusicVoice = {
             Fl.                                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ FluteMusicVoice measure 2 / measure 2]                  %! SM4
+    % [_ FluteMusicVoice measure 2]                              %! SM4
     R1 * 1/4
     
-    % [_ FluteMusicVoice measure 3 / measure 3]                  %! SM4
+    % [_ FluteMusicVoice measure 3]                              %! SM4
     R1 * 1
     
-    % [_ FluteMusicVoice measure 4 / measure 4]                  %! SM4
+    % [_ FluteMusicVoice measure 4]                              %! SM4
     R1 * 1/4
     
 }
@@ -315,7 +315,7 @@ i_FluteMusicStaff = {
 
 i_EnglishHornMusicVoice = {
     
-    % [_ EnglishHornMusicVoice measure 1 / measure 1]            %! SM4
+    % [_ EnglishHornMusicVoice measure 1]                        %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -376,7 +376,7 @@ i_EnglishHornMusicVoice = {
             "Eng. hn."                                           %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ EnglishHornMusicVoice measure 2 / measure 2]            %! SM4
+    % [_ EnglishHornMusicVoice measure 2]                        %! SM4
     R1 * 1/4
     \override TupletNumber.text = \markup {
         \scale
@@ -416,7 +416,7 @@ i_EnglishHornMusicVoice = {
         }
     \times 1/1 {
         
-        % [_ EnglishHornMusicVoice measure 3 / measure 3]        %! SM4
+        % [_ EnglishHornMusicVoice measure 3]                    %! SM4
         \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
         \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -455,7 +455,7 @@ i_EnglishHornMusicVoice = {
     }
     \revert TupletNumber.text
     
-    % [_ EnglishHornMusicVoice measure 4 / measure 4]            %! SM4
+    % [_ EnglishHornMusicVoice measure 4]                        %! SM4
     R1 * 1/4
     
 }
@@ -469,7 +469,7 @@ i_EnglishHornMusicStaff = {
 
 i_ClarinetMusicVoice = {
     
-    % [_ ClarinetMusicVoice measure 1 / measure 1]               %! SM4
+    % [_ ClarinetMusicVoice measure 1]                           %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -526,13 +526,13 @@ i_ClarinetMusicVoice = {
             Cl.                                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ ClarinetMusicVoice measure 2 / measure 2]               %! SM4
+    % [_ ClarinetMusicVoice measure 2]                           %! SM4
     R1 * 1/4
     
-    % [_ ClarinetMusicVoice measure 3 / measure 3]               %! SM4
+    % [_ ClarinetMusicVoice measure 3]                           %! SM4
     R1 * 1
     
-    % [_ ClarinetMusicVoice measure 4 / measure 4]               %! SM4
+    % [_ ClarinetMusicVoice measure 4]                           %! SM4
     R1 * 1/4
     
 }
@@ -546,7 +546,7 @@ i_ClarinetMusicStaff = {
 
 i_PianoRHMusicVoice = {
     
-    % [_ PianoRHMusicVoice measure 1 / measure 1]            %! SM4
+    % [_ PianoRHMusicVoice measure 1]                        %! SM4
     \set StaffGroup.instrumentName =                         %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -603,13 +603,13 @@ i_PianoRHMusicVoice = {
             Pf.                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ PianoRHMusicVoice measure 2 / measure 2]            %! SM4
+    % [_ PianoRHMusicVoice measure 2]                        %! SM4
     R1 * 1/4
     
-    % [_ PianoRHMusicVoice measure 3 / measure 3]            %! SM4
+    % [_ PianoRHMusicVoice measure 3]                        %! SM4
     R1 * 1
     
-    % [_ PianoRHMusicVoice measure 4 / measure 4]            %! SM4
+    % [_ PianoRHMusicVoice measure 4]                        %! SM4
     R1 * 1/4
     
 }
@@ -623,7 +623,7 @@ i_PianoRHMusicStaff = {
 
 i_PianoLHMusicVoice = {
     
-    % [_ PianoLHMusicVoice measure 1 / measure 1]            %! SM4
+    % [_ PianoLHMusicVoice measure 1]                        %! SM4
     \clef "bass"                                             %! SM8:DEFAULT_CLEF:ST3
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
 %@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
@@ -631,13 +631,13 @@ i_PianoLHMusicVoice = {
     R1 * 3/4
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     
-    % [_ PianoLHMusicVoice measure 2 / measure 2]            %! SM4
+    % [_ PianoLHMusicVoice measure 2]                        %! SM4
     R1 * 1/4
     
-    % [_ PianoLHMusicVoice measure 3 / measure 3]            %! SM4
+    % [_ PianoLHMusicVoice measure 3]                        %! SM4
     R1 * 1
     
-    % [_ PianoLHMusicVoice measure 4 / measure 4]            %! SM4
+    % [_ PianoLHMusicVoice measure 4]                        %! SM4
     R1 * 1/4
     
 }
@@ -645,16 +645,16 @@ i_PianoLHMusicVoice = {
 
 i_PianoLHAttackVoice = {
     
-    % [_ PianoLHAttackVoice measure 1 / measure 1]           %! SM4
+    % [_ PianoLHAttackVoice measure 1]                       %! SM4
     R1 * 3/4
     
-    % [_ PianoLHAttackVoice measure 2 / measure 2]           %! SM4
+    % [_ PianoLHAttackVoice measure 2]                       %! SM4
     R1 * 1/4
     
-    % [_ PianoLHAttackVoice measure 3 / measure 3]           %! SM4
+    % [_ PianoLHAttackVoice measure 3]                       %! SM4
     R1 * 1
     
-    % [_ PianoLHAttackVoice measure 4 / measure 4]           %! SM4
+    % [_ PianoLHAttackVoice measure 4]                       %! SM4
     R1 * 1/4
     
 }
@@ -670,7 +670,7 @@ i_PianoLHMusicStaff = <<
 
 i_PercussionMusicVoice = {
     
-    % [_ PercussionMusicVoice measure 1 / measure 1]             %! SM4
+    % [_ PercussionMusicVoice measure 1]                         %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -727,13 +727,13 @@ i_PercussionMusicVoice = {
             Perc.                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ PercussionMusicVoice measure 2 / measure 2]             %! SM4
+    % [_ PercussionMusicVoice measure 2]                         %! SM4
     R1 * 1/4
     
-    % [_ PercussionMusicVoice measure 3 / measure 3]             %! SM4
+    % [_ PercussionMusicVoice measure 3]                         %! SM4
     R1 * 1
     
-    % [_ PercussionMusicVoice measure 4 / measure 4]             %! SM4
+    % [_ PercussionMusicVoice measure 4]                         %! SM4
     R1 * 1/4
     
 }
@@ -747,7 +747,7 @@ i_PercussionMusicStaff = {
 
 i_ViolinMusicVoice = {
     
-    % [_ ViolinMusicVoice measure 1 / measure 1]                 %! SM4
+    % [_ ViolinMusicVoice measure 1]                             %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -840,13 +840,13 @@ i_ViolinMusicVoice = {
     e'16
     ]
     
-    % [_ ViolinMusicVoice measure 2 / measure 2]                 %! SM4
+    % [_ ViolinMusicVoice measure 2]                             %! SM4
     R1 * 1/4
     
-    % [_ ViolinMusicVoice measure 3 / measure 3]                 %! SM4
+    % [_ ViolinMusicVoice measure 3]                             %! SM4
     R1 * 1
     
-    % [_ ViolinMusicVoice measure 4 / measure 4]                 %! SM4
+    % [_ ViolinMusicVoice measure 4]                             %! SM4
     R1 * 1/4
     
 }
@@ -861,7 +861,7 @@ i_ViolinMusicStaff = {
 i_ViolaMusicVoice = {
     \times 2/3 {
         
-        % [_ ViolaMusicVoice measure 1 / measure 1]              %! SM4
+        % [_ ViolaMusicVoice measure 1]                          %! SM4
         \set Staff.instrumentName =                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -944,13 +944,13 @@ i_ViolaMusicVoice = {
         ]
     }
     
-    % [_ ViolaMusicVoice measure 2 / measure 2]                  %! SM4
+    % [_ ViolaMusicVoice measure 2]                              %! SM4
     R1 * 1/4
     
-    % [_ ViolaMusicVoice measure 3 / measure 3]                  %! SM4
+    % [_ ViolaMusicVoice measure 3]                              %! SM4
     R1 * 1
     
-    % [_ ViolaMusicVoice measure 4 / measure 4]                  %! SM4
+    % [_ ViolaMusicVoice measure 4]                              %! SM4
     R1 * 1/4
     
 }
@@ -964,7 +964,7 @@ i_ViolaMusicStaff = {
 
 i_CelloMusicVoice = {
     
-    % [_ CelloMusicVoice measure 1 / measure 1]                  %! SM4
+    % [_ CelloMusicVoice measure 1]                              %! SM4
     \set Staff.instrumentName =                                  %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
@@ -1021,13 +1021,13 @@ i_CelloMusicVoice = {
             Vc.                                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                        %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     
-    % [_ CelloMusicVoice measure 2 / measure 2]                  %! SM4
+    % [_ CelloMusicVoice measure 2]                              %! SM4
     R1 * 1/4
     
-    % [_ CelloMusicVoice measure 3 / measure 3]                  %! SM4
+    % [_ CelloMusicVoice measure 3]                              %! SM4
     R1 * 1
     
-    % [_ CelloMusicVoice measure 4 / measure 4]                  %! SM4
+    % [_ CelloMusicVoice measure 4]                              %! SM4
     R1 * 1/4
     
 }
