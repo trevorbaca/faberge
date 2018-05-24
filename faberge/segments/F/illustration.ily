@@ -454,32 +454,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (322)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <0>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'49'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 323 / measure 2]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -492,27 +492,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (323)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <1>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'50'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 324 / measure 3]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -525,27 +525,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (324)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <2>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 325 / measure 4]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -558,27 +558,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (325)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <3>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((4))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'54'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 326 / measure 5]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -591,27 +591,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (326)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <4>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((5))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'55'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 327 / measure 6]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -624,27 +624,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (327)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <5>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((6))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'57'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 328 / measure 7]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -657,32 +657,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (328)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <6>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((7))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.2]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [11'59'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 329 / measure 8]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -695,32 +695,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (329)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <7>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((8))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.3]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'00'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 330 / measure 9]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -733,27 +733,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (330)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'02'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 331 / measure 10]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -766,27 +766,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (331)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'04'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 332 / measure 11]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -799,27 +799,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (332)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'06'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 333 / measure 12]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -832,32 +832,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (333)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.4]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'08'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 334 / measure 13]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -870,32 +870,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (334)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'09'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 335 / measure 14]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -908,27 +908,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (335)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 336 / measure 15]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -941,27 +941,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (336)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'13'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 337 / measure 16]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -974,27 +974,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (337)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'15'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 338 / measure 17]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1007,32 +1007,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (338)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <16>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.6]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'17'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 339 / measure 18]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1045,32 +1045,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (339)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <17>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((18))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'18'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 340 / measure 19]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1083,27 +1083,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (340)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <18>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((19))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'20'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 341 / measure 20]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1116,27 +1116,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (341)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <19>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((20))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'22'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 342 / measure 21]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1149,27 +1149,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (342)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <20>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((21))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'24'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 343 / measure 22]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1182,27 +1182,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (343)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <21>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((22))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'26'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 344 / measure 23]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1215,27 +1215,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (344)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <22>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((23))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'28'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 345 / measure 24]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1247,27 +1247,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (345)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <23>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((24))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'30'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 346 / measure 25]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1280,27 +1280,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (346)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <24>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'32'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 347 / measure 26]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1313,27 +1313,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (347)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <25>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((26))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'34'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 348 / measure 27]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1346,27 +1346,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (348)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <26>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((27))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 349 / measure 28]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1378,27 +1378,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (349)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <27>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((28))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'37'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 350 / measure 29]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1411,27 +1411,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (350)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <28>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((29))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'39'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 351 / measure 30]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1443,27 +1443,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (351)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <29>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((30))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'41'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 352 / measure 31]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1476,27 +1476,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (352)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <30>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((31))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'44'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 353 / measure 32]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1509,27 +1509,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (353)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <31>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((32))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'46'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 354 / measure 33]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1541,27 +1541,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (354)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <32>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((33))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'47'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 355 / measure 34]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1574,27 +1574,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (355)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <33>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((34))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'48'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 356 / measure 35]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1607,27 +1607,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (356)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <34>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((35))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'50'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 357 / measure 36]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1640,27 +1640,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (357)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <35>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((36))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 358 / measure 37]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1673,27 +1673,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (358)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <36>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((37))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'53'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 359 / measure 38]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1706,27 +1706,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (359)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <37>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((38))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'55'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 360 / measure 39]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1739,27 +1739,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (360)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <38>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((39))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'58'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 361 / measure 40]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1772,27 +1772,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (361)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <39>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((40))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [12'59'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 362 / measure 41]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1805,27 +1805,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (362)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <40>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((41))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'01'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 363 / measure 42]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1838,32 +1838,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (363)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <41>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((42))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.8]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'03'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 364 / measure 43]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1876,27 +1876,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (364)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <42>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((43))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'05'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 365 / measure 44]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1909,32 +1909,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (365)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <43>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((44))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'07'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 366 / measure 45]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1947,27 +1947,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (366)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <44>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((45))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'09'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 367 / measure 46]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1980,32 +1980,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (367)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <45>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((46))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.10]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 368 / measure 47]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2018,32 +2018,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (368)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <46>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((47))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'12'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 369 / measure 48]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2056,27 +2056,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (369)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <47>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((48))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'13'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 370 / measure 49]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2089,32 +2089,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (370)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <48>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((49))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.12]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'16'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 371 / measure 50]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2177,32 +2177,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (371)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <49>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((50))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'16'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 372 / measure 51]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2215,27 +2215,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (372)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <50>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((51))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'18'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 373 / measure 52]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2248,27 +2248,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (373)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <51>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((52))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'19'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 374 / measure 53]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2281,27 +2281,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (374)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <52>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((53))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'21'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 375 / measure 54]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2314,27 +2314,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (375)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <53>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((54))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'23'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 376 / measure 55]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2347,27 +2347,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (376)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <54>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((55))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'24'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 377 / measure 56]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2379,27 +2379,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (377)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <55>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((56))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'26'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 378 / measure 57]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2412,27 +2412,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (378)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <56>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((57))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'28'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 379 / measure 58]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2445,27 +2445,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (379)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <57>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((58))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'29'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 380 / measure 59]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2478,27 +2478,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (380)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <58>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((59))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'30'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 381 / measure 60]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2510,27 +2510,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (381)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <59>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((60))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'31'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 382 / measure 61]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2543,27 +2543,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (382)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <60>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((61))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'33'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 383 / measure 62]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2625,32 +2625,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (383)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <61>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((62))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.14]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 384 / measure 63]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2663,27 +2663,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (384)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <62>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((63))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'37'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 385 / measure 64]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2696,32 +2696,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (385)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <63>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((64))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.15]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'39'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 386 / measure 65]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2734,27 +2734,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (386)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <64>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((65))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'40'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 387 / measure 66]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2767,32 +2767,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (387)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <65>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((66))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.16]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'42'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 388 / measure 67]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2805,32 +2805,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (388)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <66>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((67))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.17]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'43'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 389 / measure 68]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2843,27 +2843,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (389)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <67>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((68))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'44'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 390 / measure 69]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2876,32 +2876,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (390)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <68>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((69))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.18]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'47'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 391 / measure 70]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2914,32 +2914,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (391)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <69>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((70))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.19]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'47'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 392 / measure 71]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2952,27 +2952,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (392)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <70>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((71))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'50'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 393 / measure 72]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -2985,32 +2985,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (393)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <71>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((72))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.20]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 394 / measure 73]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3022,27 +3022,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (394)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <72>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((73))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'53'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 395 / measure 74]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3055,32 +3055,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (395)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <73>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((74))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.21]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'54'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 396 / measure 75]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3093,27 +3093,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (396)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <74>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((75))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'56'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 397 / measure 76]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3126,32 +3126,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (397)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <75>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((76))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.22]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'58'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 398 / measure 77]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3164,27 +3164,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (398)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <76>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((77))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [13'59'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 399 / measure 78]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3197,32 +3197,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (399)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <77>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((78))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.23]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'01'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 400 / measure 79]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3235,27 +3235,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (400)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <78>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((79))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'04'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 401 / measure 80]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3268,32 +3268,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (401)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <79>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((80))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.24]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'05'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 402 / measure 81]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3306,27 +3306,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (402)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <80>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((81))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'07'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 403 / measure 82]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3339,32 +3339,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (403)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <81>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((82))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.25]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'09'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 404 / measure 83]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3377,27 +3377,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (404)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <82>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((83))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 405 / measure 84]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3410,32 +3410,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (405)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <83>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((84))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.26]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'13'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 406 / measure 85]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3448,27 +3448,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (406)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <84>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((85))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'15'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 407 / measure 86]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3481,32 +3481,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (407)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <85>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((86))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.27]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'17'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 408 / measure 87]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3519,27 +3519,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (408)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <86>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((87))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'19'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 409 / measure 88]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3551,32 +3551,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (409)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <87>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((88))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.28]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'21'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 410 / measure 89]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3589,27 +3589,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (410)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <88>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((89))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'23'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 411 / measure 90]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3621,32 +3621,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (411)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <89>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((90))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.29]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'25'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 412 / measure 91]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3659,27 +3659,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (412)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <90>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((91))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'27'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 413 / measure 92]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3692,32 +3692,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (413)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <91>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((92))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.30]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'28'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 414 / measure 93]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3730,27 +3730,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (414)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <92>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((93))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'30'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 415 / measure 94]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3762,32 +3762,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (415)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <93>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((94))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.31]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'32'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 416 / measure 95]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3800,27 +3800,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (416)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <94>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((95))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 417 / measure 96]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3833,32 +3833,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (417)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <95>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((96))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.32]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'36'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 418 / measure 97]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3871,27 +3871,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (418)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <96>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((97))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'38'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 419 / measure 98]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3904,32 +3904,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (419)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <97>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((98))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.33]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'39'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 420 / measure 99]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3942,32 +3942,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (420)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <98>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((99))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.34]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'40'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 421 / measure 100]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -3980,27 +3980,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (421)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <99>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((100))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'41'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 422 / measure 101]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4013,32 +4013,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (422)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <100>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((101))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.35]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'44'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 423 / measure 102]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4051,32 +4051,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (423)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <101>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((102))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.36]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'44'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 424 / measure 103]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4089,27 +4089,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (424)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <102>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((103))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'46'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 425 / measure 104]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4122,32 +4122,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (425)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <103>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((104))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.37]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'47'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 426 / measure 105]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4160,32 +4160,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (426)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <104>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((105))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.38]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'48'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 427 / measure 106]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4198,27 +4198,27 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (427)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <105>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((106))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'50'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/16]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/16]" }                               %! HSS2:SPACING_MARKUP
     
     % [F GlobalSkips measure 428 / measure 107]                          %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -4232,32 +4232,32 @@ F_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (428)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <106>                                        %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((107))                                      %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [F.39]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [14'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -4325,7 +4325,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 324 / measure 3]                %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     c''2
@@ -4353,21 +4353,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 331 / measure 10]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     % [F FluteMusicVoice measure 332 / measure 11]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     \repeatTie
     
@@ -4386,21 +4386,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 336 / measure 15]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     % [F FluteMusicVoice measure 337 / measure 16]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     \repeatTie
     
@@ -4419,21 +4419,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 341 / measure 20]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     % [F FluteMusicVoice measure 342 / measure 21]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     \repeatTie
     
@@ -4448,7 +4448,7 @@ F_FluteMusicVoice = {
     r1
     
     % [F FluteMusicVoice measure 345 / measure 24]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     
     r4
@@ -4456,7 +4456,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 346 / measure 25]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     c''2
@@ -4471,15 +4471,15 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 349 / measure 28]               %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4
     
     % [F FluteMusicVoice measure 350 / measure 29]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     \repeatTie
     
@@ -4488,7 +4488,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 351 / measure 30]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     c''2
@@ -4503,11 +4503,11 @@ F_FluteMusicVoice = {
     r2
     
     % [F FluteMusicVoice measure 354 / measure 33]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     
     % [F FluteMusicVoice measure 355 / measure 34]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     \repeatTie
     
@@ -4516,7 +4516,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 356 / measure 35]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     
     % [F FluteMusicVoice measure 357 / measure 36]               %! SM4
@@ -4553,11 +4553,11 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 368 / measure 47]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     
     % [F FluteMusicVoice measure 369 / measure 48]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
@@ -4572,21 +4572,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 373 / measure 52]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     % [F FluteMusicVoice measure 374 / measure 53]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4.
     \repeatTie
     
@@ -4601,7 +4601,7 @@ F_FluteMusicVoice = {
     r1
     
     % [F FluteMusicVoice measure 377 / measure 56]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     
     r4
@@ -4609,7 +4609,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 378 / measure 57]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     
     c''2
@@ -4624,15 +4624,15 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 381 / measure 60]               %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''4
     
     % [F FluteMusicVoice measure 382 / measure 61]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''8
     \repeatTie
     
@@ -4645,11 +4645,11 @@ F_FluteMusicVoice = {
     R1 * 3/4
     
     % [F FluteMusicVoice measure 385 / measure 64]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     
     % [F FluteMusicVoice measure 386 / measure 65]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
@@ -4657,11 +4657,11 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 388 / measure 67]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     
     % [F FluteMusicVoice measure 389 / measure 68]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
@@ -4669,71 +4669,71 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 391 / measure 70]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     
     % [F FluteMusicVoice measure 392 / measure 71]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 393 / measure 72]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 394 / measure 73]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 395 / measure 74]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 396 / measure 75]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
     % [F FluteMusicVoice measure 397 / measure 76]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 398 / measure 77]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 399 / measure 78]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
     % [F FluteMusicVoice measure 400 / measure 79]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 401 / measure 80]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 402 / measure 81]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
     % [F FluteMusicVoice measure 403 / measure 82]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 404 / measure 83]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
@@ -4744,11 +4744,11 @@ F_FluteMusicVoice = {
     R1 * 1
     
     % [F FluteMusicVoice measure 407 / measure 86]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     
     % [F FluteMusicVoice measure 408 / measure 87]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
@@ -4795,11 +4795,11 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 423 / measure 102]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     
     % [F FluteMusicVoice measure 424 / measure 103]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \repeatTie
     
@@ -4884,11 +4884,11 @@ F_EnglishHornMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F EnglishHornMusicVoice measure 323 / measure 2]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     % [F EnglishHornMusicVoice measure 324 / measure 3]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4
     \repeatTie
     
@@ -4910,7 +4910,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 330 / measure 9]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     r4
@@ -4921,7 +4921,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 332 / measure 11]         %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     r4
@@ -4933,7 +4933,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 335 / measure 14]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     r4
@@ -4944,7 +4944,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 337 / measure 16]         %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     r4
@@ -4956,7 +4956,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 340 / measure 19]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     r4
@@ -4967,7 +4967,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 342 / measure 21]         %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     r4
@@ -4978,11 +4978,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 344 / measure 23]         %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 345 / measure 24]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     \repeatTie
     
@@ -4993,11 +4993,11 @@ F_EnglishHornMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 347 / measure 26]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4.
     \repeatTie
     
@@ -5006,15 +5006,15 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 348 / measure 27]         %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4
     
     % [F EnglishHornMusicVoice measure 349 / measure 28]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     \repeatTie
     
@@ -5028,11 +5028,11 @@ F_EnglishHornMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4.
     
     % [F EnglishHornMusicVoice measure 352 / measure 31]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4
     \repeatTie
     
@@ -5041,11 +5041,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 353 / measure 32]         %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 354 / measure 33]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     \repeatTie
     
@@ -5057,11 +5057,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 356 / measure 35]         %! SM4
     r2..
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 357 / measure 36]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
@@ -5081,21 +5081,21 @@ F_EnglishHornMusicVoice = {
     r1
     
     % [F EnglishHornMusicVoice measure 363 / measure 42]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 364 / measure 43]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 365 / measure 44]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 366 / measure 45]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
@@ -5103,11 +5103,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [F EnglishHornMusicVoice measure 368 / measure 47]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     % [F EnglishHornMusicVoice measure 369 / measure 48]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
@@ -5118,7 +5118,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 372 / measure 51]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     r4
@@ -5129,7 +5129,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 374 / measure 53]         %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     r4
@@ -5140,11 +5140,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 376 / measure 55]         %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 377 / measure 56]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     \repeatTie
     
@@ -5155,11 +5155,11 @@ F_EnglishHornMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 379 / measure 58]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4.
     \repeatTie
     
@@ -5168,15 +5168,15 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 380 / measure 59]         %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'4
     
     % [F EnglishHornMusicVoice measure 381 / measure 60]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'8
     \repeatTie
     
@@ -5186,21 +5186,21 @@ F_EnglishHornMusicVoice = {
     r1
     
     % [F EnglishHornMusicVoice measure 383 / measure 62]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     
     % [F EnglishHornMusicVoice measure 384 / measure 63]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 385 / measure 64]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 386 / measure 65]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
@@ -5208,11 +5208,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [F EnglishHornMusicVoice measure 388 / measure 67]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 389 / measure 68]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
@@ -5220,51 +5220,51 @@ F_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [F EnglishHornMusicVoice measure 391 / measure 70]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     
     % [F EnglishHornMusicVoice measure 392 / measure 71]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 393 / measure 72]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 394 / measure 73]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 395 / measure 74]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 396 / measure 75]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 397 / measure 76]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 398 / measure 77]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 399 / measure 78]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 400 / measure 79]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
@@ -5275,11 +5275,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1
     
     % [F EnglishHornMusicVoice measure 403 / measure 82]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 404 / measure 83]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
@@ -5290,11 +5290,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1
     
     % [F EnglishHornMusicVoice measure 407 / measure 86]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     % [F EnglishHornMusicVoice measure 408 / measure 87]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
@@ -5434,7 +5434,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 326 / measure 5]             %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 327 / measure 6]             %! SM4
@@ -5446,13 +5446,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 329 / measure 8]             %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 330 / measure 9]             %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5460,7 +5460,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 331 / measure 10]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 332 / measure 11]            %! SM4
@@ -5472,13 +5472,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 334 / measure 13]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 335 / measure 14]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5486,7 +5486,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 336 / measure 15]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 337 / measure 16]            %! SM4
@@ -5498,13 +5498,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 339 / measure 18]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 340 / measure 19]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5512,7 +5512,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 341 / measure 20]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 342 / measure 21]            %! SM4
@@ -5531,7 +5531,7 @@ F_ClarinetMusicVoice = {
     r2.
     
     % [F ClarinetMusicVoice measure 347 / measure 26]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     r4
@@ -5539,7 +5539,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 348 / measure 27]            %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5547,7 +5547,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 349 / measure 28]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 350 / measure 29]            %! SM4
@@ -5568,13 +5568,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 355 / measure 34]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 356 / measure 35]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5582,11 +5582,11 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 357 / measure 36]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''8
     
     % [F ClarinetMusicVoice measure 358 / measure 37]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     \repeatTie
     
@@ -5631,13 +5631,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 371 / measure 50]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 372 / measure 51]            %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5645,7 +5645,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 373 / measure 52]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 374 / measure 53]            %! SM4
@@ -5664,7 +5664,7 @@ F_ClarinetMusicVoice = {
     r2.
     
     % [F ClarinetMusicVoice measure 379 / measure 58]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4
     
     r4
@@ -5672,7 +5672,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 380 / measure 59]            %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     r8
@@ -5680,7 +5680,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 381 / measure 60]            %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 382 / measure 61]            %! SM4
@@ -5702,11 +5702,11 @@ F_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [F ClarinetMusicVoice measure 388 / measure 67]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     
     % [F ClarinetMusicVoice measure 389 / measure 68]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
@@ -5714,71 +5714,71 @@ F_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [F ClarinetMusicVoice measure 391 / measure 70]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     
     % [F ClarinetMusicVoice measure 392 / measure 71]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 393 / measure 72]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 394 / measure 73]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 395 / measure 74]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 396 / measure 75]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
     % [F ClarinetMusicVoice measure 397 / measure 76]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 398 / measure 77]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 399 / measure 78]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
     % [F ClarinetMusicVoice measure 400 / measure 79]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 401 / measure 80]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 402 / measure 81]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
     % [F ClarinetMusicVoice measure 403 / measure 82]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 404 / measure 83]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
@@ -5789,11 +5789,11 @@ F_ClarinetMusicVoice = {
     R1 * 1
     
     % [F ClarinetMusicVoice measure 407 / measure 86]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     
     % [F ClarinetMusicVoice measure 408 / measure 87]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
@@ -5840,11 +5840,11 @@ F_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [F ClarinetMusicVoice measure 423 / measure 102]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     
     % [F ClarinetMusicVoice measure 424 / measure 103]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     \repeatTie
     
@@ -5930,11 +5930,11 @@ F_PianoRHMusicVoice = {
     
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4.
     
     % [F PianoRHMusicVoice measure 325 / measure 4]          %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4
     \repeatTie
     
@@ -5958,7 +5958,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 331 / measure 10]         %! SM4
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'8
     
     c'2
@@ -5979,7 +5979,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 336 / measure 15]         %! SM4
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'8
     
     c'2
@@ -6000,7 +6000,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 341 / measure 20]         %! SM4
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'8
     
     c'2
@@ -6020,11 +6020,11 @@ F_PianoRHMusicVoice = {
     
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4.
     
     % [F PianoRHMusicVoice measure 346 / measure 25]         %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4
     \repeatTie
     
@@ -6042,11 +6042,11 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 350 / measure 29]         %! SM4
     r2
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'2
     
     % [F PianoRHMusicVoice measure 351 / measure 30]         %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4
     \repeatTie
     
@@ -6064,11 +6064,11 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 355 / measure 34]         %! SM4
     r4
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'2
     
     % [F PianoRHMusicVoice measure 356 / measure 35]         %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4.
     \repeatTie
     
@@ -6127,7 +6127,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 373 / measure 52]         %! SM4
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'8
     
     c'2
@@ -6147,11 +6147,11 @@ F_PianoRHMusicVoice = {
     
     r8
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4.
     
     % [F PianoRHMusicVoice measure 378 / measure 57]         %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'4
     \repeatTie
     
@@ -6169,7 +6169,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 382 / measure 61]         %! SM4
     r2
     
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'2
     
     % [F PianoRHMusicVoice measure 383 / measure 62]         %! SM4
@@ -6204,46 +6204,46 @@ F_PianoRHMusicVoice = {
     \times 2/3 {
         
         % [F PianoRHMusicVoice measure 393 / measure 72]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [F PianoRHMusicVoice measure 394 / measure 73]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
@@ -6256,23 +6256,23 @@ F_PianoRHMusicVoice = {
     \times 2/3 {
         
         % [F PianoRHMusicVoice measure 397 / measure 76]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
@@ -6280,23 +6280,23 @@ F_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [F PianoRHMusicVoice measure 398 / measure 77]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
@@ -7135,11 +7135,11 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 325 / measure 4]           %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F PercussionMusicVoice measure 326 / measure 5]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7154,7 +7154,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 329 / measure 8]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4.
@@ -7162,13 +7162,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 330 / measure 9]           %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 331 / measure 10]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     r2
@@ -7180,7 +7180,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 334 / measure 13]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4.
@@ -7188,13 +7188,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 335 / measure 14]          %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 336 / measure 15]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     r2
@@ -7206,7 +7206,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 339 / measure 18]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4.
@@ -7214,13 +7214,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 340 / measure 19]          %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 341 / measure 20]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     r2
@@ -7240,7 +7240,7 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 346 / measure 25]          %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -7248,18 +7248,18 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 347 / measure 26]          %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F PercussionMusicVoice measure 348 / measure 27]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r2
     
     % [F PercussionMusicVoice measure 349 / measure 28]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     r2
@@ -7280,7 +7280,7 @@ F_PercussionMusicVoice = {
     r2
     
     % [F PercussionMusicVoice measure 355 / measure 34]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4.
@@ -7288,7 +7288,7 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 356 / measure 35]          %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r2
@@ -7302,11 +7302,11 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 359 / measure 38]          %! SM4
     r2.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F PercussionMusicVoice measure 360 / measure 39]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7319,21 +7319,21 @@ F_PercussionMusicVoice = {
     r1
     
     % [F PercussionMusicVoice measure 363 / measure 42]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 364 / measure 43]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 365 / measure 44]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 366 / measure 45]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -7341,11 +7341,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 368 / measure 47]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [F PercussionMusicVoice measure 369 / measure 48]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -7353,7 +7353,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 371 / measure 50]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4.
@@ -7361,13 +7361,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 372 / measure 51]          %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 373 / measure 52]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     r2
@@ -7387,7 +7387,7 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 378 / measure 57]          %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -7395,18 +7395,18 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 379 / measure 58]          %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F PercussionMusicVoice measure 380 / measure 59]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r2
     
     % [F PercussionMusicVoice measure 381 / measure 60]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     r2
@@ -7415,21 +7415,21 @@ F_PercussionMusicVoice = {
     r1
     
     % [F PercussionMusicVoice measure 383 / measure 62]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [F PercussionMusicVoice measure 384 / measure 63]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 385 / measure 64]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 386 / measure 65]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
@@ -7437,11 +7437,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 388 / measure 67]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 389 / measure 68]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -7449,141 +7449,141 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 391 / measure 70]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [F PercussionMusicVoice measure 392 / measure 71]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 393 / measure 72]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 394 / measure 73]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 395 / measure 74]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 396 / measure 75]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 397 / measure 76]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 398 / measure 77]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 399 / measure 78]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 400 / measure 79]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 401 / measure 80]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 402 / measure 81]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 403 / measure 82]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 404 / measure 83]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 405 / measure 84]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 406 / measure 85]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 407 / measure 86]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 408 / measure 87]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 409 / measure 88]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 410 / measure 89]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 411 / measure 90]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 412 / measure 91]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 413 / measure 92]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 414 / measure 93]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 415 / measure 94]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 416 / measure 95]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 417 / measure 96]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 418 / measure 97]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -7591,11 +7591,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 420 / measure 99]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 421 / measure 100]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -7603,11 +7603,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 423 / measure 102]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 424 / measure 103]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -7705,11 +7705,11 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 327 / measure 6]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7723,21 +7723,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 330 / measure 9]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 331 / measure 10]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7745,11 +7745,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 332 / measure 11]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7763,21 +7763,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 335 / measure 14]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 336 / measure 15]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7785,11 +7785,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 337 / measure 16]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7803,21 +7803,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 340 / measure 19]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 341 / measure 20]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7825,11 +7825,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 342 / measure 21]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7850,17 +7850,17 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 347 / measure 26]              %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolinMusicVoice measure 348 / measure 27]              %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 349 / measure 28]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7868,11 +7868,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 350 / measure 29]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7902,11 +7902,11 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 358 / measure 37]              %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 359 / measure 38]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -7914,7 +7914,7 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -7927,11 +7927,11 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 360 / measure 39]              %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 361 / measure 40]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
@@ -7941,21 +7941,21 @@ F_ViolinMusicVoice = {
     r1
     
     % [F ViolinMusicVoice measure 363 / measure 42]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 364 / measure 43]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F ViolinMusicVoice measure 365 / measure 44]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F ViolinMusicVoice measure 366 / measure 45]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -7963,11 +7963,11 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 368 / measure 47]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [F ViolinMusicVoice measure 369 / measure 48]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -7979,21 +7979,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 372 / measure 51]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 373 / measure 52]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8001,11 +8001,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 374 / measure 53]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8026,17 +8026,17 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 379 / measure 58]              %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolinMusicVoice measure 380 / measure 59]              %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 381 / measure 60]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8044,32 +8044,32 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 382 / measure 61]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
     r2..
     
     % [F ViolinMusicVoice measure 383 / measure 62]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [F ViolinMusicVoice measure 384 / measure 63]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F ViolinMusicVoice measure 385 / measure 64]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F ViolinMusicVoice measure 386 / measure 65]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
@@ -8077,11 +8077,11 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 388 / measure 67]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 389 / measure 68]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
@@ -8089,89 +8089,89 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 391 / measure 70]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [F ViolinMusicVoice measure 392 / measure 71]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     \times 2/3 {
         
         % [F ViolinMusicVoice measure 393 / measure 72]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [F ViolinMusicVoice measure 394 / measure 73]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     
     % [F ViolinMusicVoice measure 395 / measure 74]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 396 / measure 75]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     \times 2/3 {
         
         % [F ViolinMusicVoice measure 397 / measure 76]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -8179,45 +8179,45 @@ F_ViolinMusicVoice = {
     \times 1/1 {
         
         % [F ViolinMusicVoice measure 398 / measure 77]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     
     % [F ViolinMusicVoice measure 399 / measure 78]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [F ViolinMusicVoice measure 400 / measure 79]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F ViolinMusicVoice measure 401 / measure 80]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8225,11 +8225,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8237,56 +8237,56 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 402 / measure 81]              %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_blue_music                                                    %! SM24
+    c'16
+    [
+    
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8294,23 +8294,23 @@ F_ViolinMusicVoice = {
     
     % [F ViolinMusicVoice measure 403 / measure 82]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 404 / measure 83]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F ViolinMusicVoice measure 405 / measure 84]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8318,11 +8318,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8330,56 +8330,56 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 406 / measure 85]              %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_blue_music                                                    %! SM24
+    c'16
+    [
+    
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8387,23 +8387,23 @@ F_ViolinMusicVoice = {
     
     % [F ViolinMusicVoice measure 407 / measure 86]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [F ViolinMusicVoice measure 408 / measure 87]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F ViolinMusicVoice measure 409 / measure 88]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8411,11 +8411,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8423,56 +8423,56 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 410 / measure 89]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8491,14 +8491,14 @@ F_ViolinMusicVoice = {
     R1 * 1
     
     % [F ViolinMusicVoice measure 415 / measure 94]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8506,11 +8506,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8518,43 +8518,43 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 416 / measure 95]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8579,11 +8579,11 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 423 / measure 102]             %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 424 / measure 103]             %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -8591,14 +8591,14 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 426 / measure 105]             %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8606,11 +8606,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8618,43 +8618,43 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 427 / measure 106]             %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -8697,7 +8697,7 @@ F_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -8733,7 +8733,7 @@ F_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F ViolaMusicVoice measure 323 / measure 2]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8755,11 +8755,11 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 329 / measure 8]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 330 / measure 9]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8773,18 +8773,18 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 333 / measure 12]               %! SM4
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 334 / measure 13]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 335 / measure 14]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8798,18 +8798,18 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 338 / measure 17]               %! SM4
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 339 / measure 18]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 340 / measure 19]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8823,15 +8823,15 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 343 / measure 22]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [F ViolaMusicVoice measure 344 / measure 23]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     \repeatTie
     
@@ -8848,17 +8848,17 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 347 / measure 26]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolaMusicVoice measure 348 / measure 27]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -8880,7 +8880,7 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 352 / measure 31]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     c'4.
@@ -8891,7 +8891,7 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 353 / measure 32]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 354 / measure 33]               %! SM4
@@ -8906,11 +8906,11 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 357 / measure 36]               %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     
     % [F ViolaMusicVoice measure 358 / measure 37]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -8953,11 +8953,11 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 371 / measure 50]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 372 / measure 51]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -8971,15 +8971,15 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 375 / measure 54]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [F ViolaMusicVoice measure 376 / measure 55]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     \repeatTie
     
@@ -8996,17 +8996,17 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 379 / measure 58]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F ViolaMusicVoice measure 380 / measure 59]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     \repeatTie
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9054,46 +9054,46 @@ F_ViolaMusicVoice = {
     \times 2/3 {
         
         % [F ViolaMusicVoice measure 393 / measure 72]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [F ViolaMusicVoice measure 394 / measure 73]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -9106,23 +9106,23 @@ F_ViolaMusicVoice = {
     \times 2/3 {
         
         % [F ViolaMusicVoice measure 397 / measure 76]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -9130,23 +9130,23 @@ F_ViolaMusicVoice = {
     \times 1/1 {
         
         % [F ViolaMusicVoice measure 398 / measure 77]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -9158,14 +9158,14 @@ F_ViolaMusicVoice = {
     R1 * 1/2
     
     % [F ViolaMusicVoice measure 401 / measure 80]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9173,11 +9173,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9185,56 +9185,56 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 402 / measure 81]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_blue_music                                                    %! SM24
+    c'16
+    [
+    
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9247,14 +9247,14 @@ F_ViolaMusicVoice = {
     R1 * 1
     
     % [F ViolaMusicVoice measure 405 / measure 84]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9262,11 +9262,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9274,56 +9274,56 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 406 / measure 85]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \makeBlue                                                    %! SM24
-    c'16
-    [
-    
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_blue_music                                                    %! SM24
+    c'16
+    [
+    
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9336,14 +9336,14 @@ F_ViolaMusicVoice = {
     R1 * 1
     
     % [F ViolaMusicVoice measure 409 / measure 88]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9351,11 +9351,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9363,56 +9363,56 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 410 / measure 89]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9431,14 +9431,14 @@ F_ViolaMusicVoice = {
     R1 * 1
     
     % [F ViolaMusicVoice measure 415 / measure 94]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9446,11 +9446,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9458,43 +9458,43 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 416 / measure 95]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9519,11 +9519,11 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 423 / measure 102]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 424 / measure 103]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -9531,14 +9531,14 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 426 / measure 105]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9546,11 +9546,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9558,43 +9558,43 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 427 / measure 106]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     [
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'16
     ]
     
@@ -9681,7 +9681,7 @@ F_CelloMusicVoice = {
     r2
     
     % [F CelloMusicVoice measure 326 / measure 5]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     r4
@@ -9695,7 +9695,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 329 / measure 8]                %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -9703,7 +9703,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 330 / measure 9]                %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9716,7 +9716,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 331 / measure 10]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4
@@ -9730,7 +9730,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 334 / measure 13]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -9738,7 +9738,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 335 / measure 14]               %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9751,7 +9751,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 336 / measure 15]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4
@@ -9765,7 +9765,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 339 / measure 18]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -9773,7 +9773,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 340 / measure 19]               %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9786,7 +9786,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 341 / measure 20]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4
@@ -9806,11 +9806,11 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 346 / measure 25]               %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F CelloMusicVoice measure 347 / measure 26]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -9819,7 +9819,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 348 / measure 27]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9832,7 +9832,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 349 / measure 28]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4
@@ -9855,7 +9855,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 355 / measure 34]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -9863,7 +9863,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 356 / measure 35]               %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9876,7 +9876,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 357 / measure 36]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     % [F CelloMusicVoice measure 358 / measure 37]               %! SM4
@@ -9921,7 +9921,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 371 / measure 50]               %! SM4
     r4
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r8
@@ -9929,7 +9929,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 372 / measure 51]               %! SM4
     r4.
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9942,7 +9942,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 373 / measure 52]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4
@@ -9962,11 +9962,11 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 378 / measure 57]               %! SM4
     r2
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4
     
     % [F CelloMusicVoice measure 379 / measure 58]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     \repeatTie
     
@@ -9975,7 +9975,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 380 / measure 59]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'8
     [
     
@@ -9988,7 +9988,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 381 / measure 60]               %! SM4
     r8
     
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'4.
     
     r4
@@ -10021,111 +10021,111 @@ F_CelloMusicVoice = {
     R1 * 1/4
     
     % [F CelloMusicVoice measure 391 / measure 70]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [F CelloMusicVoice measure 392 / measure 71]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 393 / measure 72]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 394 / measure 73]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 395 / measure 74]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 396 / measure 75]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 397 / measure 76]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 398 / measure 77]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 399 / measure 78]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 400 / measure 79]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 401 / measure 80]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 402 / measure 81]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 403 / measure 82]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 404 / measure 83]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 405 / measure 84]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 406 / measure 85]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 407 / measure 86]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 408 / measure 87]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 409 / measure 88]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 410 / measure 89]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 411 / measure 90]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 412 / measure 91]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -10160,11 +10160,11 @@ F_CelloMusicVoice = {
     R1 * 1/4
     
     % [F CelloMusicVoice measure 423 / measure 102]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [F CelloMusicVoice measure 424 / measure 103]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     

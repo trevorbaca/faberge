@@ -148,32 +148,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (642)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <0>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((1))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.1]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'25'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 643 / measure 2]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -186,27 +186,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (643)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <1>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((2))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'27'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 644 / measure 3]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -218,32 +218,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (644)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <2>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((3))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.2]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'32'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 645 / measure 4]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -256,27 +256,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (645)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <3>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((4))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'36'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 646 / measure 5]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -288,32 +288,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (646)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <4>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((5))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.3]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'42'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 647 / measure 6]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -326,27 +326,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (647)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <5>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((6))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'48'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 648 / measure 7]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -359,32 +359,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (648)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <6>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((7))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.4]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'52'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 649 / measure 8]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -396,27 +396,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (649)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <7>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((8))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'55'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 650 / measure 9]                            %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -429,32 +429,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (650)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <8>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((9))                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.5]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [22'58'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 651 / measure 10]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -467,27 +467,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (651)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <9>                                          %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((10))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'03'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 652 / measure 11]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -500,32 +500,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (652)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <10>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((11))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.6]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'08'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 653 / measure 12]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -538,27 +538,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (653)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <11>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((12))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 654 / measure 13]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -571,32 +571,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (654)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <12>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((13))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.7]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'16'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 655 / measure 14]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -609,27 +609,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (655)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <13>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((14))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'22'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 656 / measure 15]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -642,32 +642,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (656)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <14>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((15))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.8]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'25'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 657 / measure 16]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -680,27 +680,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (657)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <15>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((16))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'29'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 658 / measure 17]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -713,32 +713,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (658)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <16>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((17))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.9]                                        %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'35'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 659 / measure 18]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -751,27 +751,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (659)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <17>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((18))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'39'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/20]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/20]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 660 / measure 19]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -784,32 +784,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (660)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <18>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((19))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.10]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'45'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 661 / measure 20]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -822,27 +822,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (661)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <19>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((20))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'49'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 662 / measure 21]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -855,32 +855,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (662)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <20>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((21))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.11]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'55'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 663 / measure 22]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -893,32 +893,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (663)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <21>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((22))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.12]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [23'57'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 664 / measure 23]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -931,27 +931,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (664)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <22>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((23))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [24'00'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 665 / measure 24]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -963,32 +963,32 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (665)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <23>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((24))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@%     {                                                    %! SM3:STAGE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM3:STAGE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM3:STAGE_NUMBER_MARKUP
             %@%             [K.13]                                       %! SM3:STAGE_NUMBER_MARKUP
             %@%     }                                                    %! SM3:STAGE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [24'05'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     
     % [K GlobalSkips measure 666 / measure 25]                           %! SM4
     \newSpacingSection                                                   %! HSS1:SPACING
@@ -1002,27 +1002,27 @@ K_GlobalSkips = {
             {
             %@% \line                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM31:MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM31:MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM31:MEASURE_NUMBER_MARKUP
             %@%             (666)                                        %! SM31:MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM31:MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@%     {                                                    %! SM32:MEASURE_INDEX_MARKUP
-            %@%         \make-dark-cyan                                  %! SM32:MEASURE_INDEX_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM32:MEASURE_INDEX_MARKUP
             %@%             <24>                                         %! SM32:MEASURE_INDEX_MARKUP
             %@%     }                                                    %! SM32:MEASURE_INDEX_MARKUP
             %@% \line                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     {                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-            %@%         \make-dark-cyan                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%             ((25))                                       %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@%     }                                                    %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
             %@% \line                                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     {                                                    %! SM28:CLOCK_TIME_MARKUP
-            %@%         \make-dark-cyan                                  %! SM28:CLOCK_TIME_MARKUP
+            %@%         \baca-dark-cyan-markup                                  %! SM28:CLOCK_TIME_MARKUP
             %@%             [24'11'']                                    %! SM28:CLOCK_TIME_MARKUP
             %@%     }                                                    %! SM28:CLOCK_TIME_MARKUP
             }
         }
-%@% ^ \markup { \make-dark-cyan "[1/12]" }                               %! HSS2:SPACING_MARKUP
+%@% ^ \markup { \baca-dark-cyan-markup "[1/12]" }                               %! HSS2:SPACING_MARKUP
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|."                                                            %! SM5
     
@@ -1050,7 +1050,7 @@ K_FluteMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     \niente                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -1086,49 +1086,49 @@ K_FluteMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K FluteMusicVoice measure 643 / measure 2]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     \times 4/5 {
         
         % [K FluteMusicVoice measure 644 / measure 3]            %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
@@ -1136,58 +1136,58 @@ K_FluteMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         ]
     }
     \times 2/3 {
         
         % [K FluteMusicVoice measure 645 / measure 4]            %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -1195,82 +1195,82 @@ K_FluteMusicVoice = {
         
         % [K FluteMusicVoice measure 646 / measure 5]            %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
@@ -1279,58 +1279,58 @@ K_FluteMusicVoice = {
         
         % [K FluteMusicVoice measure 647 / measure 6]            %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         ]
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8.
         ]
     }
     \times 4/5 {
         
         % [K FluteMusicVoice measure 648 / measure 7]            %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -1338,38 +1338,38 @@ K_FluteMusicVoice = {
         
         % [K FluteMusicVoice measure 649 / measure 8]            %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
@@ -1377,44 +1377,44 @@ K_FluteMusicVoice = {
         
         % [K FluteMusicVoice measure 650 / measure 9]            %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         ]
     }
@@ -1422,58 +1422,58 @@ K_FluteMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         ]
     }
     \times 2/3 {
         
         % [K FluteMusicVoice measure 651 / measure 10]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c''8
     }
     
@@ -1511,21 +1511,21 @@ K_FluteMusicVoice = {
     R1 * 1/4
     
     % [K FluteMusicVoice measure 663 / measure 22]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2
     
     % [K FluteMusicVoice measure 664 / measure 23]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
     % [K FluteMusicVoice measure 665 / measure 24]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''1
     \repeatTie
     
     % [K FluteMusicVoice measure 666 / measure 25]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c''2.
     \repeatTie
     
@@ -1619,61 +1619,61 @@ K_EnglishHornMusicVoice = {
     R1 * 1/2
     
     % [K EnglishHornMusicVoice measure 650 / measure 9]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     
     % [K EnglishHornMusicVoice measure 651 / measure 10]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 652 / measure 11]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 653 / measure 12]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 654 / measure 13]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 655 / measure 14]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 656 / measure 15]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 657 / measure 16]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 658 / measure 17]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 659 / measure 18]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 660 / measure 19]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 661 / measure 20]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
@@ -1681,21 +1681,21 @@ K_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [K EnglishHornMusicVoice measure 663 / measure 22]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2
     
     % [K EnglishHornMusicVoice measure 664 / measure 23]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 665 / measure 24]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'1
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 666 / measure 25]         %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     g'2.
     \repeatTie
     
@@ -1729,7 +1729,7 @@ K_ClarinetMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     \niente                                                      %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -1765,49 +1765,49 @@ K_ClarinetMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K ClarinetMusicVoice measure 643 / measure 2]             %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     \times 4/5 {
         
         % [K ClarinetMusicVoice measure 644 / measure 3]         %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -1815,58 +1815,58 @@ K_ClarinetMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         ]
     }
     \times 2/3 {
         
         % [K ClarinetMusicVoice measure 645 / measure 4]         %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -1874,82 +1874,82 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 646 / measure 5]         %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -1958,58 +1958,58 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 647 / measure 6]         %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         ]
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8.
         ]
     }
     \times 4/5 {
         
         % [K ClarinetMusicVoice measure 648 / measure 7]         %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2017,38 +2017,38 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 649 / measure 8]         %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -2056,44 +2056,44 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 650 / measure 9]         %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -2101,58 +2101,58 @@ K_ClarinetMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         ]
     }
     \times 2/3 {
         
         % [K ClarinetMusicVoice measure 651 / measure 10]        %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2160,38 +2160,38 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 652 / measure 11]        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -2199,44 +2199,44 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 653 / measure 12]        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -2244,58 +2244,58 @@ K_ClarinetMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         ]
     }
     \times 2/3 {
         
         % [K ClarinetMusicVoice measure 654 / measure 13]        %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
     }
     \times 2/3 {
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''4
         \repeatTie
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2303,37 +2303,37 @@ K_ClarinetMusicVoice = {
         
         % [K ClarinetMusicVoice measure 655 / measure 14]        %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''8
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         \repeatTie
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         d''16
         ]
     }
@@ -2360,21 +2360,21 @@ K_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [K ClarinetMusicVoice measure 663 / measure 22]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2
     
     % [K ClarinetMusicVoice measure 664 / measure 23]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
     % [K ClarinetMusicVoice measure 665 / measure 24]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''1
     \repeatTie
     
     % [K ClarinetMusicVoice measure 666 / measure 25]            %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     d''2.
     \repeatTie
     
@@ -2451,43 +2451,43 @@ K_PianoRHMusicVoice = {
     \times 4/5 {
         
         % [K PianoRHMusicVoice measure 646 / measure 5]      %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2495,58 +2495,58 @@ K_PianoRHMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 4/5 {
         
         % [K PianoRHMusicVoice measure 647 / measure 6]      %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
         \repeatTie
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -2554,38 +2554,38 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 648 / measure 7]      %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2593,44 +2593,44 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 649 / measure 8]      %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2639,96 +2639,96 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 650 / measure 9]      %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8.
         ]
     }
     \times 4/5 {
         
         % [K PianoRHMusicVoice measure 651 / measure 10]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
         \repeatTie
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2736,44 +2736,44 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 652 / measure 11]     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2782,96 +2782,96 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 653 / measure 12]     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8.
         ]
     }
     \times 4/5 {
         
         % [K PianoRHMusicVoice measure 654 / measure 13]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
         \repeatTie
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2879,44 +2879,44 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 655 / measure 14]     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -2925,96 +2925,96 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 656 / measure 15]     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8.
         ]
     }
     \times 4/5 {
         
         % [K PianoRHMusicVoice measure 657 / measure 16]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
         \repeatTie
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -3022,44 +3022,44 @@ K_PianoRHMusicVoice = {
         
         % [K PianoRHMusicVoice measure 658 / measure 17]     %! SM4
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         ]
     }
@@ -3067,58 +3067,58 @@ K_PianoRHMusicVoice = {
     \times 1/1 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [K PianoRHMusicVoice measure 659 / measure 18]     %! SM4
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 4/5 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         [
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8.
         ]
     }
     \times 4/5 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'16
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie %! SM26
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
     }
     \times 2/3 {
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'4
         \repeatTie
         
-        \makeBlue                                            %! SM24
+        \baca_blue_music                                            %! SM24
         c'8
     }
     
@@ -3138,11 +3138,11 @@ K_PianoRHMusicVoice = {
     R1 * 1
     
     % [K PianoRHMusicVoice measure 665 / measure 24]         %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'1
     
     % [K PianoRHMusicVoice measure 666 / measure 25]         %! SM4
-    \makeBlue                                                %! SM24
+    \baca_blue_music                                                %! SM24
     c'2.
     \repeatTie
     
@@ -3355,7 +3355,7 @@ K_PercussionMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \effort_mf                                                   %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -3391,26 +3391,26 @@ K_PercussionMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K PercussionMusicVoice measure 643 / measure 2]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K PercussionMusicVoice measure 644 / measure 3]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K PercussionMusicVoice measure 645 / measure 4]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K PercussionMusicVoice measure 646 / measure 5]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [K PercussionMusicVoice measure 647 / measure 6]           %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [K PercussionMusicVoice measure 648 / measure 7]           %! SM4
@@ -3459,21 +3459,21 @@ K_PercussionMusicVoice = {
     R1 * 1/4
     
     % [K PercussionMusicVoice measure 663 / measure 22]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [K PercussionMusicVoice measure 664 / measure 23]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K PercussionMusicVoice measure 665 / measure 24]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K PercussionMusicVoice measure 666 / measure 25]          %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
@@ -3511,7 +3511,7 @@ K_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -3547,51 +3547,51 @@ K_ViolinMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K ViolinMusicVoice measure 643 / measure 2]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K ViolinMusicVoice measure 644 / measure 3]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K ViolinMusicVoice measure 645 / measure 4]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     \times 4/5 {
         
         % [K ViolinMusicVoice measure 646 / measure 5]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3599,46 +3599,46 @@ K_ViolinMusicVoice = {
     \times 1/1 {
         
         % [K ViolinMusicVoice measure 647 / measure 6]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [K ViolinMusicVoice measure 648 / measure 7]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3646,17 +3646,17 @@ K_ViolinMusicVoice = {
     \times 1/1 {
         
         % [K ViolinMusicVoice measure 649 / measure 8]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3664,93 +3664,93 @@ K_ViolinMusicVoice = {
     \times 3/5 {
         
         % [K ViolinMusicVoice measure 650 / measure 9]           %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     \times 4/5 {
         
         % [K ViolinMusicVoice measure 651 / measure 10]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [K ViolinMusicVoice measure 652 / measure 11]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3758,29 +3758,29 @@ K_ViolinMusicVoice = {
     \times 3/4 {
         
         % [K ViolinMusicVoice measure 653 / measure 12]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3788,29 +3788,29 @@ K_ViolinMusicVoice = {
     \times 1/1 {
         
         % [K ViolinMusicVoice measure 654 / measure 13]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3818,17 +3818,17 @@ K_ViolinMusicVoice = {
     \times 1/1 {
         
         % [K ViolinMusicVoice measure 655 / measure 14]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3836,76 +3836,76 @@ K_ViolinMusicVoice = {
     \times 3/4 {
         
         % [K ViolinMusicVoice measure 656 / measure 15]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
     \times 4/7 {
         
         % [K ViolinMusicVoice measure 657 / measure 16]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3913,29 +3913,29 @@ K_ViolinMusicVoice = {
     \times 3/4 {
         
         % [K ViolinMusicVoice measure 658 / measure 17]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3943,29 +3943,29 @@ K_ViolinMusicVoice = {
     \times 1/1 {
         
         % [K ViolinMusicVoice measure 659 / measure 18]          %! SM4
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         [
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         
-        \makeBlue                                                %! SM24
+        \baca_blue_music                                                %! SM24
         c'8
         ]
     }
@@ -3986,11 +3986,11 @@ K_ViolinMusicVoice = {
     R1 * 1
     
     % [K ViolinMusicVoice measure 665 / measure 24]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [K ViolinMusicVoice measure 666 / measure 25]              %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
@@ -4028,7 +4028,7 @@ K_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -4064,56 +4064,56 @@ K_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K ViolaMusicVoice measure 643 / measure 2]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 644 / measure 3]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     
     % [K ViolaMusicVoice measure 645 / measure 4]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K ViolaMusicVoice measure 646 / measure 5]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K ViolaMusicVoice measure 647 / measure 6]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 648 / measure 7]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [K ViolaMusicVoice measure 649 / measure 8]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [K ViolaMusicVoice measure 650 / measure 9]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K ViolaMusicVoice measure 651 / measure 10]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K ViolaMusicVoice measure 652 / measure 11]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [K ViolaMusicVoice measure 653 / measure 12]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
@@ -4151,11 +4151,11 @@ K_ViolaMusicVoice = {
     R1 * 1
     
     % [K ViolaMusicVoice measure 665 / measure 24]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     
     % [K ViolaMusicVoice measure 666 / measure 25]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
@@ -4193,7 +4193,7 @@ K_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -4229,37 +4229,37 @@ K_CelloMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [K CelloMusicVoice measure 643 / measure 2]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K CelloMusicVoice measure 644 / measure 3]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K CelloMusicVoice measure 645 / measure 4]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K CelloMusicVoice measure 646 / measure 5]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K CelloMusicVoice measure 647 / measure 6]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
     % [K CelloMusicVoice measure 648 / measure 7]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
     % [K CelloMusicVoice measure 649 / measure 8]                %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     \repeatTie
     
@@ -4303,21 +4303,21 @@ K_CelloMusicVoice = {
     R1 * 1/4
     
     % [K CelloMusicVoice measure 663 / measure 22]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2
     
     % [K CelloMusicVoice measure 664 / measure 23]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K CelloMusicVoice measure 665 / measure 24]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'1
     \repeatTie
     
     % [K CelloMusicVoice measure 666 / measure 25]               %! SM4
-    \makeBlue                                                    %! SM24
+    \baca_blue_music                                                    %! SM24
     c'2.
     \repeatTie
     
