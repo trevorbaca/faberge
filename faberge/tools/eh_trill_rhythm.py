@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def eh_trill_rhythm(
@@ -21,18 +21,18 @@ def eh_trill_rhythm(
         division_expression = division_expression.map()
         division_expression = division_expression.sum()
         division_expression = division_expression.flatten()
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=division_masks,
         extra_counts_per_division=extra_counts_per_division,
         read_talea_once_only=True,
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=counts,
             denominator=16,
             ),
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             ),
-        tuplet_specifier=rhythmos.TupletSpecifier(
+        tuplet_specifier=rmakers.TupletSpecifier(
             rewrite_rest_filled=True,
             trivialize=True,
             ),

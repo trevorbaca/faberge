@@ -1,16 +1,16 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def shell_tremolo_rhythm():
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=None,
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=[8],
             denominator=8,
             ),
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             )
         )

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def successive_tapers_rhythm(
@@ -20,15 +20,15 @@ def successive_tapers_rhythm(
             )
         division_expression = division_expression.map(baca.sequence().sum())
         division_expression = division_expression.flatten()
-    rhythm_maker = rhythmos.IncisedRhythmMaker(
-        incise_specifier=rhythmos.InciseSpecifier(
+    rhythm_maker = rmakers.IncisedRhythmMaker(
+        incise_specifier=rmakers.InciseSpecifier(
             prefix_talea=start_talea,
             prefix_counts=[len(start_talea)],
             suffix_talea=stop_talea,
             suffix_counts=[len(stop_talea)],
             talea_denominator=denominator,
             ),
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             tie_consecutive_notes=True,
             repeat_ties=True,
             ),

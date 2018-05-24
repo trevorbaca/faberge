@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def flute_gears_rhythm(
@@ -16,8 +16,8 @@ def flute_gears_rhythm(
     if include_tone:
         counts.extend([16, 16, 16, 16])
     assert counts, repr(counts)
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
-        talea=rhythmos.Talea(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
+        talea=rmakers.Talea(
             counts=counts,
             denominator=16,
             ),

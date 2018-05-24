@@ -1,10 +1,10 @@
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def shell_transition_rhythm():
-    #rhythm_maker = rhythmos.TaleaRhythmMaker(
-    #    talea=rhythmos.Talea(
+    #rhythm_maker = rmakers.TaleaRhythmMaker(
+    #    talea=rmakers.Talea(
     #        counts=counts,
     #        denominator=16,
     #        ),

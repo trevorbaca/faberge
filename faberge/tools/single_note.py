@@ -1,14 +1,14 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def single_note(duration):
     duration = abjad.Duration(duration)
     numerator = duration.numerator
     denominator = duration.denominator
-    rhythm_maker = rhythmos.IncisedRhythmMaker(
-        incise_specifier=rhythmos.InciseSpecifier(
+    rhythm_maker = rmakers.IncisedRhythmMaker(
+        incise_specifier=rmakers.InciseSpecifier(
             fill_with_notes=False,
             outer_divisions_only=True,
             prefix_talea=[numerator],

@@ -1,10 +1,10 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def percussion_cell_rhythm():
-    rhythm_maker = rhythmos.NoteRhythmMaker(
+    rhythm_maker = rmakers.NoteRhythmMaker(
         )
     return baca.rhythm(
         rewrite_meter=True,
