@@ -1,11 +1,11 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def meccanico_percussion_cell_rhythm():
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
-        talea=rhythmos.Talea(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
+        talea=rmakers.Talea(
             counts=[1, 1, -3],
             denominator=4,
             ),

@@ -1,7 +1,7 @@
 import abjad
 import baca
 import faberge
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def glow_rhythm(
@@ -15,9 +15,9 @@ def glow_rhythm(
     tuplet_ratios = abjad.sequence(tuplet_ratios)
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     tuplet_ratios = list(tuplet_ratios)
-    rhythm_maker = rhythmos.TupletRhythmMaker(
+    rhythm_maker = rmakers.TupletRhythmMaker(
         division_masks=division_masks,
-        tie_specifier=rhythmos.TieSpecifier(
+        tie_specifier=rmakers.TieSpecifier(
             tie_across_divisions=True,
             repeat_ties=True,
             ),

@@ -1,12 +1,12 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def stop_release_rhythm():
-    rhythm_maker = rhythmos.IncisedRhythmMaker(
+    rhythm_maker = rmakers.IncisedRhythmMaker(
         division_masks=~abjad.silence([0, -1]),
-        incise_specifier=rhythmos.InciseSpecifier(
+        incise_specifier=rmakers.InciseSpecifier(
             fill_with_notes=False,
             prefix_talea=[1],
             prefix_counts=[0, 1],

@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def front_incised_notes(
@@ -15,9 +15,9 @@ def front_incised_notes(
         ]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
     rhythm_specifier = baca.rhythm(
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
+        rhythm_maker=rmakers.IncisedRhythmMaker(
             division_masks=division_masks,
-            incise_specifier=rhythmos.InciseSpecifier(
+            incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=prefix_talea,
                 prefix_counts=[1],
                 talea_denominator=lcm,

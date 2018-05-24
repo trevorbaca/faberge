@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def single_taper(
@@ -12,8 +12,8 @@ def single_taper(
     Makes single tapers.
     """
     return baca.rhythm(
-        rhythm_maker=rhythmos.IncisedRhythmMaker(
-            incise_specifier=rhythmos.InciseSpecifier(
+        rhythm_maker=rmakers.IncisedRhythmMaker(
+            incise_specifier=rmakers.InciseSpecifier(
                 outer_divisions_only=True,
                 prefix_talea=start_talea,
                 prefix_counts=[len(start_talea)],
@@ -21,7 +21,7 @@ def single_taper(
                 suffix_counts=[len(stop_talea)],
                 talea_denominator=denominator,
                 ),
-            tie_specifier=rhythmos.TieSpecifier(
+            tie_specifier=rmakers.TieSpecifier(
                 tie_consecutive_notes=True,
                 repeat_ties=True,
                 ),

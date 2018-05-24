@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rhythmos
+from abjad import rmakers
 
 
 def clb_rhythm(
@@ -35,9 +35,9 @@ def clb_rhythm(
         ])
     counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
-    rhythm_maker = rhythmos.TaleaRhythmMaker(
+    rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2, 6, 2, 0, 4],
-        talea=rhythmos.Talea(
+        talea=rmakers.Talea(
             counts=[1],
             denominator=8,
             ),
