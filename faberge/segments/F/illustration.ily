@@ -4325,7 +4325,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 324 / measure 3]                %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     c''2
@@ -4353,21 +4353,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 331 / measure 10]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     % [F FluteMusicVoice measure 332 / measure 11]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     \repeatTie
     
@@ -4386,21 +4386,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 336 / measure 15]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     % [F FluteMusicVoice measure 337 / measure 16]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     \repeatTie
     
@@ -4419,21 +4419,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 341 / measure 20]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     % [F FluteMusicVoice measure 342 / measure 21]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     \repeatTie
     
@@ -4448,7 +4448,7 @@ F_FluteMusicVoice = {
     r1
     
     % [F FluteMusicVoice measure 345 / measure 24]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     
     r4
@@ -4456,7 +4456,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 346 / measure 25]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     c''2
@@ -4471,15 +4471,15 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 349 / measure 28]               %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4
     
     % [F FluteMusicVoice measure 350 / measure 29]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     \repeatTie
     
@@ -4488,7 +4488,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 351 / measure 30]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     c''2
@@ -4503,11 +4503,11 @@ F_FluteMusicVoice = {
     r2
     
     % [F FluteMusicVoice measure 354 / measure 33]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     
     % [F FluteMusicVoice measure 355 / measure 34]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     \repeatTie
     
@@ -4516,7 +4516,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 356 / measure 35]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     
     % [F FluteMusicVoice measure 357 / measure 36]               %! SM4
@@ -4553,11 +4553,11 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 368 / measure 47]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     
     % [F FluteMusicVoice measure 369 / measure 48]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
@@ -4572,21 +4572,21 @@ F_FluteMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     
     % [F FluteMusicVoice measure 373 / measure 52]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4
     \repeatTie
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     % [F FluteMusicVoice measure 374 / measure 53]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4.
     \repeatTie
     
@@ -4601,7 +4601,7 @@ F_FluteMusicVoice = {
     r1
     
     % [F FluteMusicVoice measure 377 / measure 56]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     
     r4
@@ -4609,7 +4609,7 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 378 / measure 57]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     
     c''2
@@ -4624,15 +4624,15 @@ F_FluteMusicVoice = {
     % [F FluteMusicVoice measure 381 / measure 60]               %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''4
     
     % [F FluteMusicVoice measure 382 / measure 61]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''8
     \repeatTie
     
@@ -4645,11 +4645,11 @@ F_FluteMusicVoice = {
     R1 * 3/4
     
     % [F FluteMusicVoice measure 385 / measure 64]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     
     % [F FluteMusicVoice measure 386 / measure 65]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     \repeatTie
     
@@ -4657,11 +4657,11 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 388 / measure 67]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     
     % [F FluteMusicVoice measure 389 / measure 68]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
@@ -4669,71 +4669,71 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 391 / measure 70]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     
     % [F FluteMusicVoice measure 392 / measure 71]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 393 / measure 72]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 394 / measure 73]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 395 / measure 74]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 396 / measure 75]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
     % [F FluteMusicVoice measure 397 / measure 76]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 398 / measure 77]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 399 / measure 78]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
     % [F FluteMusicVoice measure 400 / measure 79]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
     % [F FluteMusicVoice measure 401 / measure 80]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 402 / measure 81]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
     % [F FluteMusicVoice measure 403 / measure 82]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     \repeatTie
     
     % [F FluteMusicVoice measure 404 / measure 83]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
@@ -4744,11 +4744,11 @@ F_FluteMusicVoice = {
     R1 * 1
     
     % [F FluteMusicVoice measure 407 / measure 86]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     
     % [F FluteMusicVoice measure 408 / measure 87]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''1
     \repeatTie
     
@@ -4795,11 +4795,11 @@ F_FluteMusicVoice = {
     R1 * 1/4
     
     % [F FluteMusicVoice measure 423 / measure 102]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2.
     
     % [F FluteMusicVoice measure 424 / measure 103]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
@@ -4884,11 +4884,11 @@ F_EnglishHornMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F EnglishHornMusicVoice measure 323 / measure 2]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     % [F EnglishHornMusicVoice measure 324 / measure 3]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4
     \repeatTie
     
@@ -4910,7 +4910,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 330 / measure 9]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     r4
@@ -4921,7 +4921,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 332 / measure 11]         %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     r4
@@ -4933,7 +4933,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 335 / measure 14]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     r4
@@ -4944,7 +4944,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 337 / measure 16]         %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     r4
@@ -4956,7 +4956,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 340 / measure 19]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     r4
@@ -4967,7 +4967,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 342 / measure 21]         %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     r4
@@ -4978,11 +4978,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 344 / measure 23]         %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 345 / measure 24]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -4993,11 +4993,11 @@ F_EnglishHornMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 347 / measure 26]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4.
     \repeatTie
     
@@ -5006,15 +5006,15 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 348 / measure 27]         %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4
     
     % [F EnglishHornMusicVoice measure 349 / measure 28]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -5028,11 +5028,11 @@ F_EnglishHornMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4.
     
     % [F EnglishHornMusicVoice measure 352 / measure 31]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4
     \repeatTie
     
@@ -5041,11 +5041,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 353 / measure 32]         %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 354 / measure 33]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -5057,11 +5057,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 356 / measure 35]         %! SM4
     r2..
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 357 / measure 36]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
@@ -5081,21 +5081,21 @@ F_EnglishHornMusicVoice = {
     r1
     
     % [F EnglishHornMusicVoice measure 363 / measure 42]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 364 / measure 43]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 365 / measure 44]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 366 / measure 45]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -5103,11 +5103,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [F EnglishHornMusicVoice measure 368 / measure 47]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     % [F EnglishHornMusicVoice measure 369 / measure 48]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -5118,7 +5118,7 @@ F_EnglishHornMusicVoice = {
     r2.
     
     % [F EnglishHornMusicVoice measure 372 / measure 51]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     r4
@@ -5129,7 +5129,7 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 374 / measure 53]         %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     r4
@@ -5140,11 +5140,11 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 376 / measure 55]         %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 377 / measure 56]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -5155,11 +5155,11 @@ F_EnglishHornMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     
     % [F EnglishHornMusicVoice measure 379 / measure 58]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4.
     \repeatTie
     
@@ -5168,15 +5168,15 @@ F_EnglishHornMusicVoice = {
     % [F EnglishHornMusicVoice measure 380 / measure 59]         %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'4
     
     % [F EnglishHornMusicVoice measure 381 / measure 60]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -5186,21 +5186,21 @@ F_EnglishHornMusicVoice = {
     r1
     
     % [F EnglishHornMusicVoice measure 383 / measure 62]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     
     % [F EnglishHornMusicVoice measure 384 / measure 63]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 385 / measure 64]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 386 / measure 65]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     \repeatTie
     
@@ -5208,11 +5208,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [F EnglishHornMusicVoice measure 388 / measure 67]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 389 / measure 68]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -5220,51 +5220,51 @@ F_EnglishHornMusicVoice = {
     R1 * 1/4
     
     % [F EnglishHornMusicVoice measure 391 / measure 70]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     
     % [F EnglishHornMusicVoice measure 392 / measure 71]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 393 / measure 72]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 394 / measure 73]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 395 / measure 74]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 396 / measure 75]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 397 / measure 76]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 398 / measure 77]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 399 / measure 78]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
     % [F EnglishHornMusicVoice measure 400 / measure 79]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
@@ -5275,11 +5275,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1
     
     % [F EnglishHornMusicVoice measure 403 / measure 82]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2.
     
     % [F EnglishHornMusicVoice measure 404 / measure 83]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -5290,11 +5290,11 @@ F_EnglishHornMusicVoice = {
     R1 * 1
     
     % [F EnglishHornMusicVoice measure 407 / measure 86]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     
     % [F EnglishHornMusicVoice measure 408 / measure 87]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -5434,7 +5434,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 326 / measure 5]             %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 327 / measure 6]             %! SM4
@@ -5446,13 +5446,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 329 / measure 8]             %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 330 / measure 9]             %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5460,7 +5460,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 331 / measure 10]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 332 / measure 11]            %! SM4
@@ -5472,13 +5472,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 334 / measure 13]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 335 / measure 14]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5486,7 +5486,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 336 / measure 15]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 337 / measure 16]            %! SM4
@@ -5498,13 +5498,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 339 / measure 18]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 340 / measure 19]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5512,7 +5512,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 341 / measure 20]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 342 / measure 21]            %! SM4
@@ -5531,7 +5531,7 @@ F_ClarinetMusicVoice = {
     r2.
     
     % [F ClarinetMusicVoice measure 347 / measure 26]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     r4
@@ -5539,7 +5539,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 348 / measure 27]            %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5547,7 +5547,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 349 / measure 28]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 350 / measure 29]            %! SM4
@@ -5568,13 +5568,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 355 / measure 34]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 356 / measure 35]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5582,11 +5582,11 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 357 / measure 36]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''8
     
     % [F ClarinetMusicVoice measure 358 / measure 37]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     \repeatTie
     
@@ -5631,13 +5631,13 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 371 / measure 50]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     % [F ClarinetMusicVoice measure 372 / measure 51]            %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5645,7 +5645,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 373 / measure 52]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 374 / measure 53]            %! SM4
@@ -5664,7 +5664,7 @@ F_ClarinetMusicVoice = {
     r2.
     
     % [F ClarinetMusicVoice measure 379 / measure 58]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4
     
     r4
@@ -5672,7 +5672,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 380 / measure 59]            %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     r8
@@ -5680,7 +5680,7 @@ F_ClarinetMusicVoice = {
     % [F ClarinetMusicVoice measure 381 / measure 60]            %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''4.
     
     % [F ClarinetMusicVoice measure 382 / measure 61]            %! SM4
@@ -5702,11 +5702,11 @@ F_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [F ClarinetMusicVoice measure 388 / measure 67]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     
     % [F ClarinetMusicVoice measure 389 / measure 68]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     \repeatTie
     
@@ -5714,71 +5714,71 @@ F_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [F ClarinetMusicVoice measure 391 / measure 70]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     
     % [F ClarinetMusicVoice measure 392 / measure 71]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 393 / measure 72]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 394 / measure 73]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 395 / measure 74]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 396 / measure 75]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     \repeatTie
     
     % [F ClarinetMusicVoice measure 397 / measure 76]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 398 / measure 77]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 399 / measure 78]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     \repeatTie
     
     % [F ClarinetMusicVoice measure 400 / measure 79]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2
     \repeatTie
     
     % [F ClarinetMusicVoice measure 401 / measure 80]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 402 / measure 81]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     \repeatTie
     
     % [F ClarinetMusicVoice measure 403 / measure 82]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     \repeatTie
     
     % [F ClarinetMusicVoice measure 404 / measure 83]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     \repeatTie
     
@@ -5789,11 +5789,11 @@ F_ClarinetMusicVoice = {
     R1 * 1
     
     % [F ClarinetMusicVoice measure 407 / measure 86]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2
     
     % [F ClarinetMusicVoice measure 408 / measure 87]            %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''1
     \repeatTie
     
@@ -5840,11 +5840,11 @@ F_ClarinetMusicVoice = {
     R1 * 1/4
     
     % [F ClarinetMusicVoice measure 423 / measure 102]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2.
     
     % [F ClarinetMusicVoice measure 424 / measure 103]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     d''2
     \repeatTie
     
@@ -5930,11 +5930,11 @@ F_PianoRHMusicVoice = {
     
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4.
     
     % [F PianoRHMusicVoice measure 325 / measure 4]          %! SM4
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4
     \repeatTie
     
@@ -5958,7 +5958,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 331 / measure 10]         %! SM4
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'8
     
     c'2
@@ -5979,7 +5979,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 336 / measure 15]         %! SM4
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'8
     
     c'2
@@ -6000,7 +6000,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 341 / measure 20]         %! SM4
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'8
     
     c'2
@@ -6020,11 +6020,11 @@ F_PianoRHMusicVoice = {
     
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4.
     
     % [F PianoRHMusicVoice measure 346 / measure 25]         %! SM4
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4
     \repeatTie
     
@@ -6042,11 +6042,11 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 350 / measure 29]         %! SM4
     r2
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     
     % [F PianoRHMusicVoice measure 351 / measure 30]         %! SM4
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4
     \repeatTie
     
@@ -6064,11 +6064,11 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 355 / measure 34]         %! SM4
     r4
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     
     % [F PianoRHMusicVoice measure 356 / measure 35]         %! SM4
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4.
     \repeatTie
     
@@ -6127,7 +6127,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 373 / measure 52]         %! SM4
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'8
     
     c'2
@@ -6147,11 +6147,11 @@ F_PianoRHMusicVoice = {
     
     r8
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4.
     
     % [F PianoRHMusicVoice measure 378 / measure 57]         %! SM4
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'4
     \repeatTie
     
@@ -6169,7 +6169,7 @@ F_PianoRHMusicVoice = {
     % [F PianoRHMusicVoice measure 382 / measure 61]         %! SM4
     r2
     
-    \baca_blue_music                                         %! SM24
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     
     % [F PianoRHMusicVoice measure 383 / measure 62]         %! SM4
@@ -6204,46 +6204,46 @@ F_PianoRHMusicVoice = {
     \times 2/3 {
         
         % [F PianoRHMusicVoice measure 393 / measure 72]     %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [F PianoRHMusicVoice measure 394 / measure 73]     %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
@@ -6256,23 +6256,23 @@ F_PianoRHMusicVoice = {
     \times 2/3 {
         
         % [F PianoRHMusicVoice measure 397 / measure 76]     %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
@@ -6280,23 +6280,23 @@ F_PianoRHMusicVoice = {
     \times 1/1 {
         
         % [F PianoRHMusicVoice measure 398 / measure 77]     %! SM4
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         [
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         
-        \baca_blue_music                                     %! SM24
+        \baca_unpitched_music_warning                        %! SM24
         c'8
         ]
     }
@@ -7135,11 +7135,11 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 325 / measure 4]           %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F PercussionMusicVoice measure 326 / measure 5]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7154,7 +7154,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 329 / measure 8]           %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4.
@@ -7162,13 +7162,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 330 / measure 9]           %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 331 / measure 10]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2
@@ -7180,7 +7180,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 334 / measure 13]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4.
@@ -7188,13 +7188,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 335 / measure 14]          %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 336 / measure 15]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2
@@ -7206,7 +7206,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 339 / measure 18]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4.
@@ -7214,13 +7214,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 340 / measure 19]          %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 341 / measure 20]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2
@@ -7240,7 +7240,7 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 346 / measure 25]          %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -7248,18 +7248,18 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 347 / measure 26]          %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F PercussionMusicVoice measure 348 / measure 27]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r2
     
     % [F PercussionMusicVoice measure 349 / measure 28]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2
@@ -7280,7 +7280,7 @@ F_PercussionMusicVoice = {
     r2
     
     % [F PercussionMusicVoice measure 355 / measure 34]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4.
@@ -7288,7 +7288,7 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 356 / measure 35]          %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r2
@@ -7302,11 +7302,11 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 359 / measure 38]          %! SM4
     r2.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F PercussionMusicVoice measure 360 / measure 39]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7319,21 +7319,21 @@ F_PercussionMusicVoice = {
     r1
     
     % [F PercussionMusicVoice measure 363 / measure 42]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 364 / measure 43]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 365 / measure 44]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 366 / measure 45]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -7341,11 +7341,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 368 / measure 47]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [F PercussionMusicVoice measure 369 / measure 48]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -7353,7 +7353,7 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 371 / measure 50]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4.
@@ -7361,13 +7361,13 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 372 / measure 51]          %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r2
     
     % [F PercussionMusicVoice measure 373 / measure 52]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2
@@ -7387,7 +7387,7 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 378 / measure 57]          %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -7395,18 +7395,18 @@ F_PercussionMusicVoice = {
     % [F PercussionMusicVoice measure 379 / measure 58]          %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F PercussionMusicVoice measure 380 / measure 59]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r2
     
     % [F PercussionMusicVoice measure 381 / measure 60]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     r2
@@ -7415,21 +7415,21 @@ F_PercussionMusicVoice = {
     r1
     
     % [F PercussionMusicVoice measure 383 / measure 62]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [F PercussionMusicVoice measure 384 / measure 63]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 385 / measure 64]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 386 / measure 65]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -7437,11 +7437,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 388 / measure 67]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 389 / measure 68]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -7449,141 +7449,141 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 391 / measure 70]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [F PercussionMusicVoice measure 392 / measure 71]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 393 / measure 72]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 394 / measure 73]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 395 / measure 74]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 396 / measure 75]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 397 / measure 76]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 398 / measure 77]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 399 / measure 78]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 400 / measure 79]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 401 / measure 80]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 402 / measure 81]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 403 / measure 82]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 404 / measure 83]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 405 / measure 84]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 406 / measure 85]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 407 / measure 86]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 408 / measure 87]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 409 / measure 88]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 410 / measure 89]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 411 / measure 90]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 412 / measure 91]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 413 / measure 92]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 414 / measure 93]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 415 / measure 94]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F PercussionMusicVoice measure 416 / measure 95]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F PercussionMusicVoice measure 417 / measure 96]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F PercussionMusicVoice measure 418 / measure 97]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -7591,11 +7591,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 420 / measure 99]          %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 421 / measure 100]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -7603,11 +7603,11 @@ F_PercussionMusicVoice = {
     R1 * 1/4
     
     % [F PercussionMusicVoice measure 423 / measure 102]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F PercussionMusicVoice measure 424 / measure 103]         %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -7705,11 +7705,11 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 327 / measure 6]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7723,21 +7723,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 330 / measure 9]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 331 / measure 10]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7745,11 +7745,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 332 / measure 11]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7763,21 +7763,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 335 / measure 14]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 336 / measure 15]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7785,11 +7785,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 337 / measure 16]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7803,21 +7803,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 340 / measure 19]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 341 / measure 20]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7825,11 +7825,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 342 / measure 21]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7850,17 +7850,17 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 347 / measure 26]              %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolinMusicVoice measure 348 / measure 27]              %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 349 / measure 28]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7868,11 +7868,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 350 / measure 29]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7902,11 +7902,11 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 358 / measure 37]              %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 359 / measure 38]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -7914,7 +7914,7 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -7927,11 +7927,11 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 360 / measure 39]              %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 361 / measure 40]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
@@ -7941,21 +7941,21 @@ F_ViolinMusicVoice = {
     r1
     
     % [F ViolinMusicVoice measure 363 / measure 42]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 364 / measure 43]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F ViolinMusicVoice measure 365 / measure 44]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F ViolinMusicVoice measure 366 / measure 45]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -7963,11 +7963,11 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 368 / measure 47]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [F ViolinMusicVoice measure 369 / measure 48]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -7979,21 +7979,21 @@ F_ViolinMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 372 / measure 51]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 373 / measure 52]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8001,11 +8001,11 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 374 / measure 53]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8026,17 +8026,17 @@ F_ViolinMusicVoice = {
     % [F ViolinMusicVoice measure 379 / measure 58]              %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolinMusicVoice measure 380 / measure 59]              %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolinMusicVoice measure 381 / measure 60]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8044,32 +8044,32 @@ F_ViolinMusicVoice = {
     
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolinMusicVoice measure 382 / measure 61]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
     r2..
     
     % [F ViolinMusicVoice measure 383 / measure 62]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [F ViolinMusicVoice measure 384 / measure 63]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F ViolinMusicVoice measure 385 / measure 64]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F ViolinMusicVoice measure 386 / measure 65]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
@@ -8077,11 +8077,11 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 388 / measure 67]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 389 / measure 68]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
@@ -8089,89 +8089,89 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 391 / measure 70]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [F ViolinMusicVoice measure 392 / measure 71]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     \times 2/3 {
         
         % [F ViolinMusicVoice measure 393 / measure 72]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [F ViolinMusicVoice measure 394 / measure 73]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     
     % [F ViolinMusicVoice measure 395 / measure 74]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 396 / measure 75]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     \times 2/3 {
         
         % [F ViolinMusicVoice measure 397 / measure 76]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -8179,45 +8179,45 @@ F_ViolinMusicVoice = {
     \times 1/1 {
         
         % [F ViolinMusicVoice measure 398 / measure 77]          %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     
     % [F ViolinMusicVoice measure 399 / measure 78]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [F ViolinMusicVoice measure 400 / measure 79]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F ViolinMusicVoice measure 401 / measure 80]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8225,11 +8225,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8237,56 +8237,56 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 402 / measure 81]              %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \baca_blue_music                                             %! SM24
-    c'16
-    [
-    
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8294,23 +8294,23 @@ F_ViolinMusicVoice = {
     
     % [F ViolinMusicVoice measure 403 / measure 82]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 404 / measure 83]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F ViolinMusicVoice measure 405 / measure 84]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8318,11 +8318,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8330,56 +8330,56 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 406 / measure 85]              %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \baca_blue_music                                             %! SM24
-    c'16
-    [
-    
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8387,23 +8387,23 @@ F_ViolinMusicVoice = {
     
     % [F ViolinMusicVoice measure 407 / measure 86]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [F ViolinMusicVoice measure 408 / measure 87]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F ViolinMusicVoice measure 409 / measure 88]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8411,11 +8411,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8423,56 +8423,56 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 410 / measure 89]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8491,14 +8491,14 @@ F_ViolinMusicVoice = {
     R1 * 1
     
     % [F ViolinMusicVoice measure 415 / measure 94]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8506,11 +8506,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8518,43 +8518,43 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 416 / measure 95]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8579,11 +8579,11 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 423 / measure 102]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolinMusicVoice measure 424 / measure 103]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -8591,14 +8591,14 @@ F_ViolinMusicVoice = {
     R1 * 1/4
     
     % [F ViolinMusicVoice measure 426 / measure 105]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8606,11 +8606,11 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8618,43 +8618,43 @@ F_ViolinMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolinMusicVoice measure 427 / measure 106]             %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -8697,7 +8697,7 @@ F_ViolaMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4) %! SM6:REAPPLIED_STAFF_LINES_COLOR:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \ppp                                                         %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {
@@ -8733,7 +8733,7 @@ F_ViolaMusicVoice = {
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
     % [F ViolaMusicVoice measure 323 / measure 2]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8755,11 +8755,11 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 329 / measure 8]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 330 / measure 9]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8773,18 +8773,18 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 333 / measure 12]               %! SM4
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 334 / measure 13]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 335 / measure 14]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8798,18 +8798,18 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 338 / measure 17]               %! SM4
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 339 / measure 18]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 340 / measure 19]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8823,15 +8823,15 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 343 / measure 22]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [F ViolaMusicVoice measure 344 / measure 23]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \repeatTie
     
@@ -8848,17 +8848,17 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 347 / measure 26]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolaMusicVoice measure 348 / measure 27]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -8880,7 +8880,7 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 352 / measure 31]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     c'4.
@@ -8891,7 +8891,7 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 353 / measure 32]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 354 / measure 33]               %! SM4
@@ -8906,11 +8906,11 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 357 / measure 36]               %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     % [F ViolaMusicVoice measure 358 / measure 37]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -8953,11 +8953,11 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 371 / measure 50]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 372 / measure 51]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -8971,15 +8971,15 @@ F_ViolaMusicVoice = {
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F ViolaMusicVoice measure 375 / measure 54]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [F ViolaMusicVoice measure 376 / measure 55]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \repeatTie
     
@@ -8996,17 +8996,17 @@ F_ViolaMusicVoice = {
     % [F ViolaMusicVoice measure 379 / measure 58]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F ViolaMusicVoice measure 380 / measure 59]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     \repeatTie
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9054,46 +9054,46 @@ F_ViolaMusicVoice = {
     \times 2/3 {
         
         % [F ViolaMusicVoice measure 393 / measure 72]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
     \times 2/3 {
         
         % [F ViolaMusicVoice measure 394 / measure 73]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -9106,23 +9106,23 @@ F_ViolaMusicVoice = {
     \times 2/3 {
         
         % [F ViolaMusicVoice measure 397 / measure 76]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -9130,23 +9130,23 @@ F_ViolaMusicVoice = {
     \times 1/1 {
         
         % [F ViolaMusicVoice measure 398 / measure 77]           %! SM4
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         [
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         
-        \baca_blue_music                                         %! SM24
+        \baca_unpitched_music_warning                            %! SM24
         c'8
         ]
     }
@@ -9158,14 +9158,14 @@ F_ViolaMusicVoice = {
     R1 * 1/2
     
     % [F ViolaMusicVoice measure 401 / measure 80]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9173,11 +9173,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9185,56 +9185,56 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 402 / measure 81]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \baca_blue_music                                             %! SM24
-    c'16
-    [
-    
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9247,14 +9247,14 @@ F_ViolaMusicVoice = {
     R1 * 1
     
     % [F ViolaMusicVoice measure 405 / measure 84]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9262,11 +9262,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9274,56 +9274,56 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 406 / measure 85]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
-    c'16
-    ]
-    
-    r8
-    
-    \baca_blue_music                                             %! SM24
-    c'16
-    [
-    
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    ]
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'16
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9336,14 +9336,14 @@ F_ViolaMusicVoice = {
     R1 * 1
     
     % [F ViolaMusicVoice measure 409 / measure 88]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9351,11 +9351,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9363,56 +9363,56 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 410 / measure 89]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9431,14 +9431,14 @@ F_ViolaMusicVoice = {
     R1 * 1
     
     % [F ViolaMusicVoice measure 415 / measure 94]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9446,11 +9446,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9458,43 +9458,43 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 416 / measure 95]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9519,11 +9519,11 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 423 / measure 102]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F ViolaMusicVoice measure 424 / measure 103]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -9531,14 +9531,14 @@ F_ViolaMusicVoice = {
     R1 * 1/4
     
     % [F ViolaMusicVoice measure 426 / measure 105]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9546,11 +9546,11 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9558,43 +9558,43 @@ F_ViolaMusicVoice = {
     
     r16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     % [F ViolaMusicVoice measure 427 / measure 106]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     [
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'16
     ]
     
@@ -9681,7 +9681,7 @@ F_CelloMusicVoice = {
     r2
     
     % [F CelloMusicVoice measure 326 / measure 5]                %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     r4
@@ -9695,7 +9695,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 329 / measure 8]                %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -9703,7 +9703,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 330 / measure 9]                %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9716,7 +9716,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 331 / measure 10]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4
@@ -9730,7 +9730,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 334 / measure 13]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -9738,7 +9738,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 335 / measure 14]               %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9751,7 +9751,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 336 / measure 15]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4
@@ -9765,7 +9765,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 339 / measure 18]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -9773,7 +9773,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 340 / measure 19]               %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9786,7 +9786,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 341 / measure 20]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4
@@ -9806,11 +9806,11 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 346 / measure 25]               %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F CelloMusicVoice measure 347 / measure 26]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -9819,7 +9819,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 348 / measure 27]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9832,7 +9832,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 349 / measure 28]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4
@@ -9855,7 +9855,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 355 / measure 34]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -9863,7 +9863,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 356 / measure 35]               %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9876,7 +9876,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 357 / measure 36]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     % [F CelloMusicVoice measure 358 / measure 37]               %! SM4
@@ -9921,7 +9921,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 371 / measure 50]               %! SM4
     r4
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r8
@@ -9929,7 +9929,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 372 / measure 51]               %! SM4
     r4.
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9942,7 +9942,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 373 / measure 52]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4
@@ -9962,11 +9962,11 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 378 / measure 57]               %! SM4
     r2
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4
     
     % [F CelloMusicVoice measure 379 / measure 58]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     
@@ -9975,7 +9975,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 380 / measure 59]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     [
     
@@ -9988,7 +9988,7 @@ F_CelloMusicVoice = {
     % [F CelloMusicVoice measure 381 / measure 60]               %! SM4
     r8
     
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     r4
@@ -10021,111 +10021,111 @@ F_CelloMusicVoice = {
     R1 * 1/4
     
     % [F CelloMusicVoice measure 391 / measure 70]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     
     % [F CelloMusicVoice measure 392 / measure 71]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 393 / measure 72]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 394 / measure 73]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 395 / measure 74]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 396 / measure 75]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 397 / measure 76]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 398 / measure 77]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 399 / measure 78]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 400 / measure 79]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 401 / measure 80]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 402 / measure 81]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 403 / measure 82]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 404 / measure 83]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 405 / measure 84]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 406 / measure 85]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 407 / measure 86]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
     % [F CelloMusicVoice measure 408 / measure 87]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 409 / measure 88]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
     
     % [F CelloMusicVoice measure 410 / measure 89]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 411 / measure 90]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
     
     % [F CelloMusicVoice measure 412 / measure 91]               %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -10160,11 +10160,11 @@ F_CelloMusicVoice = {
     R1 * 1/4
     
     % [F CelloMusicVoice measure 423 / measure 102]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     
     % [F CelloMusicVoice measure 424 / measure 103]              %! SM4
-    \baca_blue_music                                             %! SM24
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
