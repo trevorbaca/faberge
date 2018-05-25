@@ -5994,6 +5994,7 @@ G_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -6170,6 +6171,7 @@ G_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -6264,6 +6266,7 @@ G_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -6337,6 +6340,7 @@ G_ViolinMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [G ViolinMusicVoice measure 468 / measure 40]              %! SM4
@@ -6363,6 +6367,7 @@ G_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -6407,6 +6412,7 @@ G_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -6906,6 +6912,7 @@ G_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -7000,6 +7007,7 @@ G_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -7073,6 +7081,7 @@ G_ViolaMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [G ViolaMusicVoice measure 468 / measure 40]               %! SM4
@@ -7099,6 +7108,7 @@ G_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -7143,6 +7153,7 @@ G_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
