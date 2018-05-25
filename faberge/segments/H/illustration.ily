@@ -7299,6 +7299,7 @@ H_PercussionMusicVoice = {
     c'2.
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [H PercussionMusicVoice measure 498 / measure 15]          %! SM4
@@ -7464,6 +7465,7 @@ H_PercussionMusicVoice = {
     c'2.
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [H PercussionMusicVoice measure 528 / measure 45]          %! SM4
@@ -7629,6 +7631,7 @@ H_PercussionMusicVoice = {
     c'2.
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     
     % [H PercussionMusicVoice measure 558 / measure 75]          %! SM4
@@ -7825,6 +7828,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -7951,6 +7955,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -7973,9 +7978,11 @@ H_ViolinMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -8002,6 +8009,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8120,6 +8128,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8206,6 +8215,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8332,6 +8342,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -8354,9 +8365,11 @@ H_ViolinMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -8383,6 +8396,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8429,6 +8443,7 @@ H_ViolinMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
@@ -8496,6 +8511,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8568,6 +8584,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8694,6 +8711,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -8716,9 +8734,11 @@ H_ViolinMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -8745,6 +8765,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -8863,6 +8884,7 @@ H_ViolinMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9045,6 +9067,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9171,6 +9194,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -9193,9 +9217,11 @@ H_ViolaMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -9222,6 +9248,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9340,6 +9367,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9426,6 +9454,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9552,6 +9581,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -9574,9 +9604,11 @@ H_ViolaMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -9603,6 +9635,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9649,6 +9682,7 @@ H_ViolaMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
@@ -9716,6 +9750,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9788,6 +9823,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -9914,6 +9950,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     
     \baca_unpitched_music_warning                                %! SM24
@@ -9936,9 +9973,11 @@ H_ViolaMusicVoice = {
     ~
     ]
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     ~
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     
     \baca_unpitched_music_warning                                %! SM24
@@ -9965,6 +10004,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     
@@ -10083,6 +10123,7 @@ H_ViolaMusicVoice = {
     ~
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
     

@@ -4328,6 +4328,7 @@ F_FluteMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c''8
     
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
@@ -4459,6 +4460,7 @@ F_FluteMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c''8
     
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
@@ -4491,6 +4493,7 @@ F_FluteMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c''8
     
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
@@ -4612,6 +4615,7 @@ F_FluteMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c''8
     
+    \baca_unpitched_music_warning                                %! SM24
     c''2
     \repeatTie
     
@@ -5961,6 +5965,7 @@ F_PianoRHMusicVoice = {
     \baca_unpitched_music_warning                            %! SM24
     c'8
     
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     \repeatTie
     
@@ -5982,6 +5987,7 @@ F_PianoRHMusicVoice = {
     \baca_unpitched_music_warning                            %! SM24
     c'8
     
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     \repeatTie
     
@@ -6003,6 +6009,7 @@ F_PianoRHMusicVoice = {
     \baca_unpitched_music_warning                            %! SM24
     c'8
     
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     \repeatTie
     
@@ -6130,6 +6137,7 @@ F_PianoRHMusicVoice = {
     \baca_unpitched_music_warning                            %! SM24
     c'8
     
+    \baca_unpitched_music_warning                            %! SM24
     c'2
     \repeatTie
     
@@ -7918,6 +7926,7 @@ F_ViolinMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -8862,6 +8871,7 @@ F_ViolaMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -8883,6 +8893,7 @@ F_ViolaMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     
+    \baca_unpitched_music_warning                                %! SM24
     c'4.
     \repeatTie
     
@@ -9010,6 +9021,7 @@ F_ViolaMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9707,6 +9719,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9742,6 +9755,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9777,6 +9791,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9823,6 +9838,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9867,6 +9883,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9933,6 +9950,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]
@@ -9979,6 +9997,7 @@ F_CelloMusicVoice = {
     c'8
     [
     
+    \baca_unpitched_music_warning                                %! SM24
     c'8
     \repeatTie
     ]

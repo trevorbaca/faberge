@@ -3247,6 +3247,7 @@ E_ViolaMusicVoice = {
     c'2.
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -3255,6 +3256,7 @@ E_ViolaMusicVoice = {
     c'2.
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -3263,6 +3265,7 @@ E_ViolaMusicVoice = {
     c'2.
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -3271,6 +3274,7 @@ E_ViolaMusicVoice = {
     c'2.
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -3279,6 +3283,7 @@ E_ViolaMusicVoice = {
     c'2.
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     
@@ -3287,6 +3292,7 @@ E_ViolaMusicVoice = {
     c'2.
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2
     \repeatTie
     

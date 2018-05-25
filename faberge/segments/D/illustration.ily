@@ -1320,9 +1320,11 @@ D_EnglishHornMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     g'4
     
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -1364,9 +1366,11 @@ D_EnglishHornMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     g'4
     
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -1392,9 +1396,11 @@ D_EnglishHornMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     g'4
     
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -1409,9 +1415,11 @@ D_EnglishHornMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     g'4
     
+    \baca_unpitched_music_warning                                %! SM24
     g'2
     \repeatTie
     
+    \baca_unpitched_music_warning                                %! SM24
     g'8
     \repeatTie
     
@@ -1441,6 +1449,7 @@ D_EnglishHornMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     g'4
     
+    \baca_unpitched_music_warning                                %! SM24
     g'1
     \repeatTie
     
@@ -2195,6 +2204,7 @@ D_PercussionMusicVoice = {
     c'2
     :32                                                          %! IC
     
+    \baca_unpitched_music_warning                                %! SM24
     c'2.
     :32                                                          %! IC
     \repeatTie
