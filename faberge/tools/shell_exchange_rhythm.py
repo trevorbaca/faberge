@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def shell_exchange_rhythm(
@@ -106,7 +106,7 @@ def shell_exchange_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extras,
-        logical_tie_masks=abjad.silence([-1]),
+        logical_tie_masks=rmakers.silence([-1]),
         talea=rmakers.Talea(
             counts=counts,
             denominator=8,

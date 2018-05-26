@@ -1,7 +1,7 @@
 import abjad
 import baca
 import faberge
-from abjad import rmakers
+from abjadext import rmakers
 
 
 #def keynoise_rhythm():
@@ -10,7 +10,7 @@ from abjad import rmakers
 #            left_classes=[abjad.Rest],
 #            left_counts=[1],
 #            ),
-#        division_masks=abjad.silence([0, 3, 5, 6], 8),
+#        division_masks=rmakers.silence([0, 3, 5, 6], 8),
 #        extra_counts_per_division=[1, 3, 1, 0, 2],
 #        talea=rmakers.Talea(
 #            counts=[1],

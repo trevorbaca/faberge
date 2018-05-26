@@ -2,6 +2,7 @@ import abjad
 import baca
 import faberge
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -57,11 +58,11 @@ maker(
     ('fl', 1),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -71,11 +72,11 @@ maker(
     ('fl', 2),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-1,
         ),
@@ -85,11 +86,11 @@ maker(
     ('fl', 3),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-2,
         ),
@@ -99,11 +100,11 @@ maker(
     ('fl', 4),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-3,
         ),
@@ -113,11 +114,11 @@ maker(
     ('fl', 5),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-4,
         ),
@@ -127,11 +128,11 @@ maker(
     ('fl', 6),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-5,
         ),
@@ -141,11 +142,11 @@ maker(
     ('fl', 7),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain(indices=[0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain(indices=[0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-6,
         ),
@@ -155,11 +156,11 @@ maker(
     ('fl', 8),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-7,
         ),
@@ -169,11 +170,11 @@ maker(
     ('fl', 9),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-8,
         ),
@@ -183,11 +184,11 @@ maker(
     ('fl', 10),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-9,
         ),
@@ -197,11 +198,11 @@ maker(
     ('fl', 11),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-10,
         ),
@@ -211,11 +212,11 @@ maker(
     ('fl', 12),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-11,
         ),
@@ -225,11 +226,11 @@ maker(
     ('fl', (13, 14)),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([2, 3, 6], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([2, 3, 6], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-12,
         ),
@@ -239,11 +240,11 @@ maker(
     ('fl', 16),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([0, 6, 7], 9),
-            abjad.sustain([0, -2]),
-            abjad.silence([10], 11),
-            abjad.sustain([9, 11], 11),
-            abjad.silence([-1]),
+            ~rmakers.sustain([0, 6, 7], 9),
+            rmakers.sustain([0, -2]),
+            rmakers.silence([10], 11),
+            rmakers.sustain([9, 11], 11),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=-13,
         ),
@@ -254,7 +255,7 @@ maker(
 maker(
     ('eh', (1, 3)),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence([0, 4], 9),
+        division_masks=rmakers.silence([0, 4], 9),
         ),
     )
 
@@ -268,7 +269,7 @@ maker(
 maker(
     ('eh', 5),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence([0, 4], 9),
+        division_masks=rmakers.silence([0, 4], 9),
         tuplet_ratio_rotation=-1,
         ),
     )
@@ -278,7 +279,7 @@ maker(
     ('eh', (6, 7)),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        division_masks=abjad.silence([-1]),
+        division_masks=rmakers.silence([-1]),
         ),
     )
 
@@ -297,7 +298,7 @@ maker(
 maker(
     ('eh', (10, 14)),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence([0, 4], 9),
+        division_masks=rmakers.silence([0, 4], 9),
         ),
     )
 

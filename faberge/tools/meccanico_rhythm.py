@@ -1,6 +1,6 @@
 import abjad
 import baca
-from abjad import rmakers
+from abjadext import rmakers
 
 
 def meccanico_rhythm(attack_count, fuse_counts=None):
