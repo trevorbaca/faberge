@@ -2,6 +2,7 @@ import abjad
 import baca
 import faberge
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -85,8 +86,8 @@ maker(
     ('fl', 17),
     faberge.glow_rhythm(
         division_masks=[
-            ~abjad.sustain([6, 7], 18),
-            abjad.silence([-1]),
+            ~rmakers.sustain([6, 7], 18),
+            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -125,7 +126,7 @@ maker(
 maker(
     ('eh', 16),
     faberge.keynoise_rhythm(
-        division_masks=abjad.silence([0, 4], 9),
+        division_masks=rmakers.silence([0, 4], 9),
         tuplet_ratio_rotation=0,
         ),
     )
@@ -264,7 +265,7 @@ maker(
     ('perc', 16),
     faberge.front_incised_notes(
         division_masks=[
-            ~abjad.silence([-4, -3, -2]),
+            ~rmakers.silence([-4, -3, -2]),
             ],
         start_rest_durations=[
             (0, 1), (0, 1), (0, 1), (0, 1),
@@ -306,7 +307,7 @@ maker(
     ('vn', 13),
     faberge.spazzolati_rhythm(
         counts_rotation=-10,
-        division_masks=~abjad.silence([
+        division_masks=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -326,7 +327,7 @@ maker(
     ('vn', 16),
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
-        division_masks=~abjad.silence([
+        division_masks=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
@@ -354,7 +355,7 @@ maker(
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
         denominator=8,
-        division_masks=~abjad.silence([
+        division_masks=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -372,7 +373,7 @@ maker(
     faberge.spazzolati_rhythm(
         counts_rotation=-12,
         denominator=8,
-        division_masks=~abjad.silence([
+        division_masks=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),

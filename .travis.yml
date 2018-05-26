@@ -12,20 +12,24 @@ before_install:
     - wget -q $LILYPOND_URL
     - sh $LILYPOND_SCRIPT --batch
     - git clone https://github.com/Abjad/abjad.git;
-    - cd abjad; git checkout trevor/dev; pip install -e .[development]
+    - pip install --upgrade pip
+    - cd abjad; git checkout trevor/dev; pip install -e .[rmakers]
     - echo `git branch`
     - cd ..
-    - pip install --upgrade pip
 
 install:
     - pip install -e git://github.com/Abjad/ide.git#egg=ide
     - pip install -e git://github.com/trevorbaca/baca.git#egg=baca
+    - echo $PATH
+    - PATH=`pwd`/baca/baca/scr
+    - which doctest
     - pip install -r requirements.txt
     - pip install -e .
     - PACKAGE=faberge
 
 script:
-#    - ajv doctest --external-modules=baca ./$PACKAGE
+    # finds baca/scr/doctest:
+    - doctest ./$PACKAGE
     - py.test -rf ./$PACKAGE
 
 notifications:
