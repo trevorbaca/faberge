@@ -13,13 +13,21 @@ before_install:
     - sh $LILYPOND_SCRIPT --batch
     - git clone https://github.com/Abjad/abjad.git;
     - pip install --upgrade pip
+    # [rmakers] option allows "from abjadext import rmakers":
     - cd abjad; git checkout trevor/dev; pip install -e .[rmakers]
     - echo `git branch`
     - cd ..
+    # will allow mypy to find abjad-ext-rmakers/abjadext;
+    # also allows local working copy of rmakers:
+    - git clone https://github.com/Abjad/abjad-ext-rmakers.git
+    - echo $PYTHONPATH
 
 install:
     - pip install -e git://github.com/Abjad/ide.git#egg=ide
     - pip install -e git://github.com/trevorbaca/baca.git#egg=baca
+    - ls `pwd`/baca
+    - ls `pwd`/baca/baca
+    - ls `pwd`/baca/baca/scr
     - echo $PATH
     - export PATH=$PATH:`pwd`/baca/baca/scr
     - echo $PATH
@@ -30,7 +38,7 @@ install:
 
 script:
     # finds baca/scr/doctest:
-    - doctest ./$PACKAGE
+    #- doctest ./$PACKAGE
     - py.test -rf ./$PACKAGE
 
 notifications:
