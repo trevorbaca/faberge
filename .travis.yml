@@ -23,7 +23,7 @@ install:
     - echo $PATH
     - export PATH=$PATH:`pwd`/baca/baca/scr
     - echo $PATH
-    - which doctest
+    - echo `which doctest`
     - pip install -r requirements.txt
     - pip install -e .
     - PACKAGE=faberge
