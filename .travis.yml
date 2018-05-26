@@ -21,15 +21,19 @@ before_install:
     # also allows local working copy of rmakers:
     - git clone https://github.com/Abjad/abjad-ext-rmakers.git
     - echo $PYTHONPATH
+    # allows python to use abjad-ext-rmakers/abjadext for abjadext:
+    - export PYTHONPATH=$PYTHONPATH:`pwd`/abjad-ext-rmakers
+    - echo $PYTHONPATH
 
 install:
     - pip install -e git://github.com/Abjad/ide.git#egg=ide
     - pip install -e git://github.com/trevorbaca/baca.git#egg=baca
-    - ls `pwd`/baca
-    - ls `pwd`/baca/baca
-    - ls `pwd`/baca/baca/scr
-    - echo $PATH
-    - export PATH=$PATH:`pwd`/baca/baca/scr
+    - ls
+    #- ls `pwd`/baca
+    #- ls `pwd`/baca/baca
+    #- ls `pwd`/baca/baca/scr
+    #- echo $PATH
+    #- export PATH=$PATH:`pwd`/baca/baca/scr
     - echo $PATH
     - echo `which doctest`
     - pip install -r requirements.txt
