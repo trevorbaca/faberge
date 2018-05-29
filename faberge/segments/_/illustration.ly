@@ -36,7 +36,7 @@
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
                     \tag Piano                                                           %! ST4
-                    \context StaffGroup = "PianoStaffGroup"
+                    \context PianoStaff = "PianoStaffGroup"
                     <<
                         \context Staff = "PianoRHMusicStaff"
                         \i_PianoRHMusicStaff

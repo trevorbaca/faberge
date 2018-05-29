@@ -66,7 +66,7 @@ breaks = baca.breaks(
         [171, 20, (17,)],
         number=16,
         ),
-    measure_count=176,
+    partial_score=176,
     )
 
 spacing = baca.scorewide_spacing(

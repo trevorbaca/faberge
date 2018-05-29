@@ -68,8 +68,8 @@ maker(
 maker(
     'rh',
     baca.suite(
-        faberge.margin_markup('Pf.', context='StaffGroup'),
-        baca.start_markup('Piano', context='StaffGroup', hcenter_in=16),
+        faberge.margin_markup('Pf.', context='PianoStaff'),
+        baca.start_markup('Piano', context='PianoStaff', hcenter_in=16),
         ),
     )
 
