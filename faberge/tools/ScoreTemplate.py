@@ -68,7 +68,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
                     \tag Piano %! ST4
-                    \context StaffGroup = "PianoStaffGroup"
+                    \context PianoStaff = "PianoStaffGroup"
                     <<
                         \context Staff = "PianoRHMusicStaff"
                         {
@@ -238,6 +238,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         piano_staff_group = abjad.StaffGroup(
             [piano_rh_music_staff, piano_lh_music_staff],
+            lilypond_type='PianoStaff',
             name='PianoStaffGroup',
             )
         abjad.annotate(

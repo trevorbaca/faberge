@@ -37,6 +37,14 @@
         \override MultiMeasureRestText.padding = 0
         }
 
+    % PAGE LAYOUT
+    \context {
+        \name PageLayout
+        \type Engraver_group
+        \consists Text_engraver
+        \consists Text_spanner_engraver
+        }
+
     % GLOBAL CONTEXT
     \context {
         \name GlobalContext
@@ -48,7 +56,10 @@
         \consists Time_signature_engraver
         \accepts GlobalSkips
         \accepts GlobalRests
+        \accepts PageLayout
 
+        % TODO: hide in score:
+        %\override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 

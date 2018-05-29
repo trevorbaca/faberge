@@ -547,19 +547,19 @@ i_ClarinetMusicStaff = {
 i_PianoRHMusicVoice = {
     
     % [_ PianoRHMusicVoice measure 1]                        %! SM4
-    \set StaffGroup.instrumentName =                         %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set PianoStaff.instrumentName =                         %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             Pf.                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set StaffGroup.shortInstrumentName =                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
+    \set PianoStaff.shortInstrumentName =                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
     \markup {                                                %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         \hcenter-in                                          %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             #16                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
             Pf.                                              %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
         }                                                    %! SM8:EXPLICIT_MARGIN_MARKUP:IC:-PARTS
-    \set StaffGroup.instrumentName =                         %! IC:STMK:-PARTS
+    \set PianoStaff.instrumentName =                         %! IC:STMK:-PARTS
     \markup {                                                %! IC:STMK:-PARTS
         \hcenter-in                                          %! IC:STMK:-PARTS
             #16                                              %! IC:STMK:-PARTS
@@ -569,7 +569,7 @@ i_PianoRHMusicVoice = {
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet) %! SM6:DEFAULT_CLEF_COLOR:ST3
 %@% \override Staff.Clef.color = ##f                         %! SM7:DEFAULT_CLEF_COLOR_CANCELLATION:ST3
     \set Staff.forceClef = ##t                               %! SM8:DEFAULT_CLEF:SM33:ST3
-    \once \override StaffGroup.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
+    \once \override PianoStaff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     R1 * 3/4
     ^ \markup {
         \column
@@ -589,14 +589,14 @@ i_PianoRHMusicVoice = {
             }
         }
     \override Staff.Clef.color = #(x11-color 'violet)        %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
-    \override StaffGroup.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
-    \set StaffGroup.instrumentName =                         %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \override PianoStaff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
+    \set PianoStaff.instrumentName =                         %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     \markup {                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             Pf.                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         }                                                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
-    \set StaffGroup.shortInstrumentName =                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
+    \set PianoStaff.shortInstrumentName =                    %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
     \markup {                                                %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
         \hcenter-in                                          %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS
             #16                                              %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS

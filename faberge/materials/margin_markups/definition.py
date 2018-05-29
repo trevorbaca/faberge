@@ -31,7 +31,7 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Hpschd.',
-        _make_margin_markup('Hpschd.', context='StaffGroup'),
+        _make_margin_markup('Hpschd.', context='PianoStaff'),
         ),
     (
         'Perc.',
@@ -39,7 +39,7 @@ margin_markups = abjad.OrderedDict([
         ),
     (
         'Pf.',
-        _make_margin_markup('Pf.', context='StaffGroup'),
+        _make_margin_markup('Pf.', context='PianoStaff'),
         ),
     (
         'Va.',
