@@ -9,6 +9,9 @@ def spazzolati_rhythm(
     division_masks=None,
     extra_counts_per_division=None,
     ):
+    """
+    Makes spazzolati rhythm.
+    """
     counts = [
         [1, 1, 1],
         [-2],

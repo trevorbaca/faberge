@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def single_note(duration):
+    """
+    Makes single note.
+    """
     duration = abjad.Duration(duration)
     numerator = duration.numerator
     denominator = duration.denominator

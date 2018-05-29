@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def rest_terminated_rhythm():
+    """
+    Makes rest-terminated rhythm.
+    """
     rhythm_maker = rmakers.IncisedRhythmMaker(
         incise_specifier=rmakers.InciseSpecifier(
             outer_divisions_only=True,

@@ -5963,30 +5963,27 @@ F_PianoRHMusicVoice = {
         c'8
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F PianoRHMusicVoice measure 398 / measure 77]     %! SM4
-        \baca_unpitched_music_warning                        %! SM24
-        c'8
-        [
-        
-        \baca_unpitched_music_warning                        %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                        %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                        %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                        %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                        %! SM24
-        c'8
-        ]
-    }
+    
+    % [F PianoRHMusicVoice measure 398 / measure 77]         %! SM4
+    \baca_unpitched_music_warning                            %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                            %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                            %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                            %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                            %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                            %! SM24
+    c'8
+    ]
     
     % [F PianoRHMusicVoice measure 399 / measure 78]         %! SM4
     R1 * 1
@@ -7334,6 +7331,7 @@ F_ViolinMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vn.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)              %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -7863,30 +7861,27 @@ F_ViolinMusicVoice = {
         c'8
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolinMusicVoice measure 398 / measure 77]          %! SM4
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        ]
-    }
+    
+    % [F ViolinMusicVoice measure 398 / measure 77]              %! SM4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [F ViolinMusicVoice measure 399 / measure 78]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -8817,30 +8812,27 @@ F_ViolaMusicVoice = {
         c'8
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [F ViolaMusicVoice measure 398 / measure 77]           %! SM4
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c'8
-        ]
-    }
+    
+    % [F ViolaMusicVoice measure 398 / measure 77]               %! SM4
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c'8
+    ]
     
     % [F ViolaMusicVoice measure 399 / measure 78]               %! SM4
     R1 * 1
@@ -9318,6 +9310,7 @@ F_CelloMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 2)               %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37

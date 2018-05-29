@@ -3,6 +3,9 @@ from abjadext import rmakers
 
 
 def sparse_pegs_rhythm():
+    """
+    Makes sparse pegs rhythm.
+    """
     #rhythm_maker = rmakers.TaleaRhythmMaker(
     #    talea=rmakers.Talea(
     #        counts=counts,

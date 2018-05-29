@@ -7,6 +7,9 @@ def clb_rhythm(
     count_rotation=None,
     fuse_counts=None,
     ):
+    """
+    Makes clb rhythm.
+    """
     expression = None
     if fuse_counts is not None:
         #expression = baca.DivisionSequenceExpression()
@@ -40,6 +43,11 @@ def clb_rhythm(
         talea=rmakers.Talea(
             counts=[1],
             denominator=8,
+            ),
+        tuplet_specifier=rmakers.TupletSpecifier(
+            extract_trivial=True,
+            rewrite_rest_filled=True,
+            trivialize=True,
             ),
         )
     return baca.rhythm(

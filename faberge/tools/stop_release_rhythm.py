@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def stop_release_rhythm():
+    """
+    Makes stop-release rhythm.
+    """
     rhythm_maker = rmakers.IncisedRhythmMaker(
         division_masks=~rmakers.silence([0, -1]),
         incise_specifier=rmakers.InciseSpecifier(

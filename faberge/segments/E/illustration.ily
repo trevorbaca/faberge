@@ -901,19 +901,16 @@ E_FluteMusicVoice = {
         c''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -959,23 +956,20 @@ E_FluteMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c''8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''16
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''16
+    ]
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1042,19 +1036,16 @@ E_FluteMusicVoice = {
         c''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1223,14 +1214,11 @@ E_EnglishHornMusicVoice = {
         g'16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        g'8
-    }
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    g'8
     \times 2/3 {
         
         r8
@@ -1265,19 +1253,16 @@ E_EnglishHornMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         g'8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        g'16
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        g'16
-        ]
-    }
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    g'16
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    g'16
+    ]
     \times 4/5 {
         
         r16
@@ -1332,14 +1317,11 @@ E_EnglishHornMusicVoice = {
         g'16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        r8
-        
-        \baca_unpitched_music_warning                            %! SM24
-        g'8
-    }
+    
+    r8
+    
+    \baca_unpitched_music_warning                                %! SM24
+    g'8
     \times 2/3 {
         
         r8
@@ -1515,19 +1497,16 @@ E_ClarinetMusicVoice = {
         d''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1573,23 +1552,20 @@ E_ClarinetMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         d''8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''16
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''16
+    ]
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1656,19 +1632,16 @@ E_ClarinetMusicVoice = {
         d''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2609,6 +2582,7 @@ E_ViolinMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vn.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)              %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -3300,6 +3274,7 @@ E_CelloMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 2)               %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37

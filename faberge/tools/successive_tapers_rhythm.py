@@ -9,6 +9,9 @@ def successive_tapers_rhythm(
     start_talea=[4],
     stop_talea=[3, -1],
     ):
+    """
+    Makes successive tapers rhythm.
+    """
     division_expression = None
     if fuse_counts is not None:
         #division_expression = baca.DivisionSequenceExpression()

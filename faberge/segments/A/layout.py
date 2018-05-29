@@ -1,12 +1,17 @@
 import baca
+import math
 
 
 distances = [20, (24, 24, 32), (24, 24, 32), (24, 24, 32)]
-page_count = 10
+first_measure_number = 5
+last_measure_number = 96
+measure_count = last_measure_number - first_measure_number + 1
+measures_per_page = 10
+page_count = math.ceil(measure_count / measures_per_page)
 pages = []
 for page_index in range(page_count):
     page_number = page_index + 1
-    start_measure_number = 10 * page_index + 1
+    start_measure_number = measures_per_page * page_index + 1
     page = baca.page(
         baca.system(
             *distances,

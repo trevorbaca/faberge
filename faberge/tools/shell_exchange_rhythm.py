@@ -9,6 +9,9 @@ def shell_exchange_rhythm(
     extra_counts_per_division_rotation=None,
     rotation=None,
     ):
+    """
+    Makes shell exchange rhythm.
+    """
     assert total_parts in (2, 3, 4), repr(total_parts)
     if isinstance(this_part, int):
         this_part = (this_part,)
@@ -112,6 +115,7 @@ def shell_exchange_rhythm(
             denominator=8,
             ),
         tuplet_specifier=rmakers.TupletSpecifier(
+            extract_trivial=True,
             rewrite_rest_filled=True,
             trivialize=True,
             ),

@@ -9,6 +9,9 @@ def glow_rhythm(
     tuplet_ratios=None,
     tuplet_ratio_rotation=None,
     ):
+    """
+    Makes glow rhythm.
+    """
     if tuplet_ratios is None:
         tuplet_ratios = faberge.tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
@@ -22,6 +25,11 @@ def glow_rhythm(
             repeat_ties=True,
             ),
         tuplet_ratios=tuplet_ratios,
+        tuplet_specifier=rmakers.TupletSpecifier(
+            extract_trivial=True,
+            rewrite_rest_filled=True,
+            trivialize=True,
+            ),
         )
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),

@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def percussion_cell_rhythm():
+    """
+    Makes percussion cell rhythm.
+    """
     rhythm_maker = rmakers.NoteRhythmMaker(
         )
     return baca.rhythm(

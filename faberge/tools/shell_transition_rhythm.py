@@ -3,6 +3,9 @@ from abjadext import rmakers
 
 
 def shell_transition_rhythm():
+    """
+    Makes shell transition rhythm.
+    """
     #rhythm_maker = rmakers.TaleaRhythmMaker(
     #    talea=rmakers.Talea(
     #        counts=counts,

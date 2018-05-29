@@ -7,6 +7,9 @@ def percussion_gears_rhythm(
     include_superball=False,
     include_fingertapping=False,
     ):
+    """
+    Makes percussion gears rhythm.
+    """
     counts = []
     if include_superball:
         counts.extend([7, -1])

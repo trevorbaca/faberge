@@ -8,6 +8,9 @@ def violin_gears_rhythm(
     include_rimbalzando=False,
     include_xfb=False,
     ):
+    """
+    Makes violin gears rhythm.
+    """
     counts = []
     if include_spazzolati:
         counts.extend([-1, 1, 1, 1, -2])

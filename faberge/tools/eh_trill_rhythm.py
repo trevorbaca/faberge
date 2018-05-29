@@ -9,6 +9,9 @@ def eh_trill_rhythm(
     division_masks=None,
     extra_counts_per_division=None,
     ):
+    """
+    Makes English horn trill rhythm.
+    """
     counts.append(-1000)
     division_expression = None
     if division_fuse_counts is not None:

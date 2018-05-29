@@ -8,6 +8,9 @@ def cello_gears_rhythm(
     include_glissando=False,
     include_tremolo=False,
     ):
+    """
+    Makes cello gears rhythm.
+    """
     counts = []
     if include_oscillando:
         counts.extend([1, 1, 1, 1])

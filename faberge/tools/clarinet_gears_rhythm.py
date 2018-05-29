@@ -7,6 +7,9 @@ def clarinet_gears_rhythm(
     include_colortrill=False,
     include_tone=False,
     ):
+    """
+    Makes clarinet gears rhythm.
+    """
     counts = []
     if include_colortrill:
         counts.extend([15, -1])

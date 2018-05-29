@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def ratchet_rhythm():
+    """
+    Makes ratchet rhythm.
+    """
     interpolation_specifiers = [
         rmakers.InterpolationSpecifier(
             start_duration=abjad.Duration(3, 8),

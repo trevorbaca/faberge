@@ -9,6 +9,9 @@ def glowing_wind_rhythm(
     extra_counts_per_division=(4, 12, 4, 4, 8),
     extra_counts_per_division_rotation=None,
     ):
+    """
+    Makes glowing wind rhythm.
+    """
     counts = abjad.sequence(counts)
     counts = counts.rotate(n=count_rotation)
     counts = counts.flatten()
