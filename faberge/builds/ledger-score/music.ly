@@ -1,25 +1,42 @@
 % Fabergé Investigations (2016) for eight players
 
-\version "2.19.40"
+\version "2.19.80"
 \language "english"
 
 #(ly:set-option 'relative-includes #t)
-\include "../stylesheets/stylesheet.ily"
+\include "stylesheet.ily"
+\include "_segments/segment--.ily"
+\include "_segments/segment-A.ily"
+\include "_segments/segment-B.ily"
+\include "_segments/segment-C.ily"
+\include "_segments/segment-D.ily"
+\include "_segments/segment-E.ily"
+\include "_segments/segment-F.ily"
+\include "_segments/segment-G.ily"
+\include "_segments/segment-H.ily"
+\include "_segments/segment-I.ily"
+\include "_segments/segment-J.ily"
+\include "_segments/segment-K.ily"
+
 
 \score {
-    {
-    \include "segment--introduction.ly"
-    \include "segment-a.ly"
-    \include "segment-a-2.ly"
-%    \include "segment-b.ly"
-%    \include "segment-c.ly"
-%    \include "segment-d.ly"
-%    \include "segment-e.ly"
-%    \include "segment-f.ly"
-%    \include "segment-g.ly"
-%    \include "segment-h.ly"
-%    \include "segment-i.ly"
-%    \include "segment-j.ly"
-%    \include "segment-k.ly"
-    }
+    <<
+        {
+        \include "layout.ly"
+        }
+        {
+        \include "_segments/segment--.ly"
+        \include "_segments/segment-A.ly"
+        \include "_segments/segment-B.ly"
+        %\include "_segments/segment-C.ly"
+        %\include "_segments/segment-D.ly"
+        %\include "_segments/segment-E.ly"
+        %\include "_segments/segment-F.ly"
+        %\include "_segments/segment-G.ly"
+        %\include "_segments/segment-H.ly"
+        %\include "_segments/segment-I.ly"
+        %\include "_segments/segment-J.ly"
+        %\include "_segments/segment-K.ly"
+        }
+    >>
 }

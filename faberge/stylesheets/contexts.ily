@@ -155,6 +155,9 @@
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
 
+        % necessary for uniform overlapping polyrhythms with accidentals
+        \override Accidental.X-extent = ##f
+
         \override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
             (time-signature extra-space . 0.0)
@@ -171,8 +174,10 @@
         \override Beam.breakable = ##t
         \override Beam.damping = 99
 
-        \override DynamicLineSpanner.Y-extent = #'(-4 . 4)
-        \override DynamicLineSpanner.padding = #1.5
+        \override DynamicLineSpanner.padding = #3
+
+        % leave dynamic alignment set to center in this score
+        %\override DynamicText.self-alignment-X = #left
 
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
@@ -193,22 +198,15 @@
         \override StemTremolo.slope = 0.5
 
         \override TextScript.font-name = #"Palatino"
-        \override TextScript.padding = 1
-        \override TextScript.X-extent = ##f
-        \override TextScript.Y-extent = #'(-1.5 . 1.5)
-        \override TextSpanner.staff-padding = 2
-
-        \override TrillSpanner.bound-details.right.padding = 2
 
         \override TupletBracket.breakable = ##t
         \override TupletBracket.full-length-to-extent = ##f
         \override TupletBracket.padding = 2
-        \override TupletBracket.staff-padding = 1.5
 
         \override TupletNumber.font-size = 1
-        %\override TupletNumber.text = #tuplet-number::calc-fraction-text
 
         autoBeaming = ##f
+        % activate in score:
         barNumberFormatter = #baca-oval-bar-numbers
         markFormatter = #format-mark-box-alphabet
         proportionalNotationDuration = #(ly:make-moment 1 24)
