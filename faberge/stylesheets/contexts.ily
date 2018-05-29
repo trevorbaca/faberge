@@ -78,7 +78,8 @@
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
 
-        \override TimeSignature.X-extent = #'(0 . 0)
+        %\override TimeSignature.X-extent = #'(0 . 0)
+        \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
         \override TimeSignature.font-size = 3
@@ -118,9 +119,6 @@
         \name WindSectionStaffGroup
         \type Engraver_group
         \alias StaffGroup
-
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 16
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 24
     }
 
     % PERCUSSION SECTION
@@ -129,9 +127,6 @@
         \name PercussionSectionStaffGroup
         \type Engraver_group
         \alias StaffGroup
-
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 20
-        \override StaffGrouper.staffgroup-staff-spacing.minimum-distance = 24
     }
 
     % STRING SECTION
@@ -140,8 +135,6 @@
         \name StringSectionStaffGroup
         \type Engraver_group
         \alias StaffGroup
-
-        \override StaffGrouper.staff-staff-spacing.minimum-distance = 20
     }
 
     % MUSIC

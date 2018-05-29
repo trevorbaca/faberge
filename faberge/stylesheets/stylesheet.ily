@@ -30,7 +30,7 @@
             " "
     }
     evenHeaderMarkup = \markup \fill-line { " " }
-    left-margin = 20\mm
+    left-margin = 30\mm
     oddFooterMarkup = \evenFooterMarkup
     oddHeaderMarkup = \markup \fill-line { " " }
     print-first-page-number = ##f
@@ -50,7 +50,6 @@
         (padding . 0)
         (stretchability . 0)
     )
-    systems-per-page = 1
     top-markup-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 18)

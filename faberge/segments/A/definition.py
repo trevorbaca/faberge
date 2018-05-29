@@ -16,28 +16,19 @@ stage_measure_map = baca.StageMeasureMap([
     8, 6, 4, 8, 4,  # 13-17
     ])
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, faberge.metronome_marks['100']),
-    ])
-
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
     rotation=0,
     stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_measure_map=None,
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
-
-spacing = baca.HorizontalSpacingSpecifier(
-    minimum_duration=(1, 12),
-    )
 
 maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     measures_per_stage=measures_per_stage,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    metronome_mark_stem_height=1.5,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    spacing=spacing,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=92,
