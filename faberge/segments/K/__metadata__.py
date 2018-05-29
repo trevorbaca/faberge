@@ -36,6 +36,10 @@ metadata = abjad.OrderedDict(
                 'CelloMusicVoice',
                 ],
             ),
+        (
+            'bol_measure_numbers',
+            [642, 652, 662],
+            ),
         ('duration', "1'51''"),
         (
             'fermata_measure_numbers',
