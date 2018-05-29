@@ -3,6 +3,9 @@ from abjadext import rmakers
 
 
 def jewelers_twilight_rhythm():
+    """
+    Makes jewelers twilight rhythm.
+    """
     #rhythm_maker = rmakers.TaleaRhythmMaker(
     #    talea=rmakers.Talea(
     #        counts=counts,

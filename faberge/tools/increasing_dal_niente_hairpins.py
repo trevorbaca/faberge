@@ -3,6 +3,9 @@ import baca
 
 
 def increasing_dal_niente_hairpins():
+    """
+    Makes increasing dal niente hairpins.
+    """
     return [
         baca.map(
             baca.rrun(0),

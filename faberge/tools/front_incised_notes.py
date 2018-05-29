@@ -7,6 +7,9 @@ def front_incised_notes(
     division_masks=None,
     start_rest_durations=None,
     ):
+    """
+    Makes front-incised notes.
+    """
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
     lcm = abjad.mathtools.least_common_multiple(*denominators)

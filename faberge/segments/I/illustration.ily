@@ -1637,19 +1637,16 @@ I_FluteMusicVoice = {
         c''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    ]
     \times 2/3 {
         
         % [I FluteMusicVoice measure 579 / measure 2]            %! SM4
@@ -1695,24 +1692,21 @@ I_FluteMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c''8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [I FluteMusicVoice measure 580 / measure 3]            %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''16
-        ]
-    }
+    
+    % [I FluteMusicVoice measure 580 / measure 3]                %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''16
+    ]
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1780,19 +1774,16 @@ I_FluteMusicVoice = {
         c''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -1838,23 +1829,20 @@ I_FluteMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         c''8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''16
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''16
+    ]
     \times 4/5 {
         
         % [I FluteMusicVoice measure 583 / measure 6]            %! SM4
@@ -1922,20 +1910,17 @@ I_FluteMusicVoice = {
         c''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [I FluteMusicVoice measure 584 / measure 7]            %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        c''8
-        ]
-    }
+    
+    % [I FluteMusicVoice measure 584 / measure 7]                %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    c''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2793,19 +2778,16 @@ I_ClarinetMusicVoice = {
         d''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    ]
     \times 2/3 {
         
         % [I ClarinetMusicVoice measure 579 / measure 2]         %! SM4
@@ -2851,24 +2833,21 @@ I_ClarinetMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         d''8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [I ClarinetMusicVoice measure 580 / measure 3]         %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''16
-        ]
-    }
+    
+    % [I ClarinetMusicVoice measure 580 / measure 3]             %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''16
+    ]
     \times 4/5 {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -2936,19 +2915,16 @@ I_ClarinetMusicVoice = {
         d''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -2994,23 +2970,20 @@ I_ClarinetMusicVoice = {
         \baca_unpitched_music_warning                            %! SM24
         d''8
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''16
-        ]
-    }
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''16
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''16
+    ]
     \times 4/5 {
         
         % [I ClarinetMusicVoice measure 583 / measure 6]         %! SM4
@@ -3078,20 +3051,17 @@ I_ClarinetMusicVoice = {
         d''16
         ]
     }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 1/1 {
-        
-        % [I ClarinetMusicVoice measure 584 / measure 7]         %! SM4
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                            %! SM24
-        d''8
-        ]
-    }
+    
+    % [I ClarinetMusicVoice measure 584 / measure 7]             %! SM4
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    \repeatTie
+    [
+    
+    \baca_unpitched_music_warning                                %! SM24
+    d''8
+    ]
     \times 2/3 {
         
         \baca_unpitched_music_warning                            %! SM24
@@ -4164,6 +4134,7 @@ I_ViolinMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vn.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)              %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
@@ -5040,6 +5011,7 @@ I_CelloMusicVoice = {
             #16                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
             Vc.                                                  %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
+    \override Staff.BarLine.bar-extent = #'(0 . 2)               %! SM8:REAPPLIED_PERSISTENT_OVERRIDE:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37

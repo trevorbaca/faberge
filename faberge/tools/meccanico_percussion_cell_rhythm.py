@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def meccanico_percussion_cell_rhythm():
+    """
+    Makes meccanico percussion cell rhythm.
+    """
     rhythm_maker = rmakers.TaleaRhythmMaker(
         talea=rmakers.Talea(
             counts=[1, 1, -3],

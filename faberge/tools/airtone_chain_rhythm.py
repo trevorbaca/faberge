@@ -12,6 +12,9 @@ def airtone_chain_rhythm(
     silence_termination=False,
     tremolo_initiation=True,
     ):
+    """
+    Makes airtone chain rhythm.
+    """
     assert isinstance(total_events, int), repr(total_events)
     my_event_indices = my_event_indices or []
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)

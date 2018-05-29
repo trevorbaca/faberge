@@ -6,6 +6,9 @@ from abjadext import rmakers
 def agitated_wind_rhythm(
     count_rotation=None,
     ):
+    """
+    Makes agitated wind rhythm.
+    """
     counts = baca.sequence([1, 4, 6, 6, -1, 1, 1, 4, 1, 6, -1, 1, 1, 1, 6])
     counts = counts.rotate(n=count_rotation)
     rhythm_maker = rmakers.TaleaRhythmMaker(

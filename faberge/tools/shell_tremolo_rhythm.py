@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def shell_tremolo_rhythm():
+    """
+    Makes shell tremolo rhythm.
+    """
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=None,
         talea=rmakers.Talea(

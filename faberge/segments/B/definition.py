@@ -491,7 +491,7 @@ maker(
 
 maker(
     ('fl', (1, 14)),
-    baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3'),
+    baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3', allow_repeats=True),
     faberge.color_fingerings(),
     )
 
@@ -563,7 +563,10 @@ maker(
 
 maker(
     ('fl', 16),
-    baca.pitches('G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3'),
+    baca.pitches(
+        'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',
+        allow_repeats=True,
+        ),
     faberge.color_fingerings(),
     faberge.niente_swell('ppp'),
     )
@@ -572,7 +575,7 @@ maker(
 
 maker(
     ('eh', (1, 3)),
-    baca.dynamic('"f"'),
+    baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=-1)
     )
@@ -589,7 +592,7 @@ maker(
 
 maker(
     ('eh', 5),
-    baca.dynamic('"f"'),
+    baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=-2)
     )
@@ -617,7 +620,6 @@ maker(
 
 maker(
     ('eh', 9),
-    baca.dynamic('fff'),
     baca.map(
         baca.runs(),
         baca.trill_spanner(),
@@ -816,6 +818,10 @@ maker(
 
 maker(
     ('vn', (12, 15)),
+    baca.suite(
+        baca.not_parts(baca.bar_extent((-2, 2))),
+        baca.not_parts(baca.bar_extent_persistent((-2, 0))),
+        ),
     baca.staccato(selector=baca.pheads()),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-3),
@@ -913,6 +919,11 @@ maker(
     )
 
 maker(
+    ('vc', (2, 15)),
+    baca.text_spanner_staff_padding(3),
+    )
+
+maker(
     ('vc', (2, 3)),
     baca.transition(
         baca.markup.tasto_plus_poco_vib(True, True),
@@ -999,8 +1010,10 @@ maker(
     ('vc', (15, 17)),
     baca.clef('percussion'),
     baca.dynamic('mf'),
+    baca.not_parts(baca.bar_extent_persistent((0, 2))),
     baca.staff_lines(1),
     baca.staccato(selector=baca.pheads()),
+    baca.text_script_staff_padding(8),
     faberge.markup.col_legno_battuto_first_appearance(),
     faberge.clb_pitches(rotation=-5),
     )

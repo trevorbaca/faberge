@@ -4,6 +4,9 @@ from abjadext import rmakers
 
 
 def meccanico_rhythm(attack_count, fuse_counts=None):
+    """
+    Makes meccanico rhythm.
+    """
     division_expression = baca.strict_quarter_divisions()
     if fuse_counts is not None:
         division_expression = division_expression.partition_by_counts(

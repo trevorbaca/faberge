@@ -159,8 +159,9 @@
         \remove Metronome_mark_engraver
         \remove System_start_delimiter_engraver
 
-        % necessary for uniform overlapping polyrhythms with accidentals
-        \override Accidental.X-extent = ##f
+        % necessary for uniform overlapping polyrhythms with accidentals;
+        % but removed here for English horn downbeat sixteenths:
+        %\override Accidental.X-extent = ##f
 
         \override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
@@ -201,6 +202,7 @@
         \override StemTremolo.flag-count = 4
         \override StemTremolo.slope = 0.5
 
+        \override TextScript.X-extent = ##f
         \override TextScript.font-name = #"Palatino"
 
         \override TupletBracket.breakable = ##t

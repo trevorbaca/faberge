@@ -87,6 +87,12 @@ maker(
 # eh
 
 maker(
+    ('eh', 1),
+    baca.clef('treble'),
+    baca.staff_lines(5),
+    )
+
+maker(
     ('eh', 2),
     faberge.eh_trill_rhythm(
         counts=[-8, -1, 7, -4, -1, 3, -1, 3, -1, 3],
@@ -470,7 +476,7 @@ maker(
 
 maker(
     ('fl', 17),
-    baca.pitches('F#4 F#3'),
+    baca.pitches('F#4 F#3', allow_repeats=True),
     faberge.color_fingerings(),
     faberge.niente_swell('p'),
     )
@@ -489,7 +495,6 @@ maker(
 
 maker(
     ('eh', 5),
-    baca.dynamic('f'),
     baca.map(
         baca.runs(),
         baca.trill_spanner(),
@@ -499,7 +504,6 @@ maker(
 
 maker(
     ('eh', 8),
-    baca.dynamic('f'),
     baca.map(
         baca.runs(),
         baca.trill_spanner(),
@@ -509,7 +513,6 @@ maker(
 
 maker(
     ('eh', 12),
-    baca.dynamic('f'),
     baca.map(
         baca.runs(),
         baca.trill_spanner(),
@@ -520,7 +523,7 @@ maker(
 maker(
     ('eh', 16),
     baca.note_head_style_cross(),
-    baca.dynamic('f'),
+    baca.dynamic("ff"),
     baca.markup.boxed('keynoise', baca.pleaf(0)),
     faberge.keynoise_pitches(rotation=0)
     )
@@ -756,6 +759,7 @@ maker(
     baca.clef('treble'),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('F#4'),
+    baca.staff_lines(5),
     faberge.markup.bowed_crotales(),
     faberge.dal_niente_hairpins('f'),
     )
@@ -879,6 +883,11 @@ maker(
 # va
 
 maker(
+    ('va', (1, 17)),
+    baca.text_spanner_staff_padding(4),
+    )
+
+maker(
     ('va', (1, 12)),
     baca.dynamic('mp'),
     baca.markup.XFB_sempre(),
@@ -890,7 +899,7 @@ maker(
     ('va', 1),
     baca.transition(
         baca.markup.tasto(),
-        baca.markup.pochiss_pont(),
+        baca.markup.pont(),
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
@@ -911,7 +920,7 @@ maker(
     ('va', (3, 4)),
     baca.transition(
         None,
-        baca.markup.pochiss_pont(),
+        baca.markup.pont(),
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
@@ -937,7 +946,7 @@ maker(
     ('va', (6, 7)),
     baca.transition(
         None,
-        baca.markup.pochiss_pont(),
+        baca.markup.pont(),
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
@@ -963,7 +972,7 @@ maker(
     ('va', (9, 11)),
     baca.transition(
         None,
-        baca.markup.pochiss_pont(),
+        baca.markup.pont(),
         #selector=baca.rleaves().group(),
         spanner_selector=baca.rleaves(),
         ),
@@ -999,7 +1008,7 @@ maker(
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.transition(
         baca.markup.tasto(),
-        baca.markup.pochiss_pont(),
+        baca.markup.pont(),
         ),
     )
 
@@ -1022,7 +1031,7 @@ maker(
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.transition(
-        baca.markup.pochiss_pont(),
+        baca.markup.pont(),
         baca.markup.tasto(),
         ),
     )
@@ -1032,6 +1041,7 @@ maker(
 maker(
     ('vc', (1, 17)),
     baca.pitch('D2'),
+    baca.text_spanner_staff_padding(4),
     )
 
 maker(

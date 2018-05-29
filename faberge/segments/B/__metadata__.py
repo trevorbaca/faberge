@@ -37,7 +37,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [97, 107, 117, 127, 137, 147, 157, 167],
+            [97, 106, 115, 124, 133, 142, 151, 160, 169],
             ),
         ('duration', "3'07''"),
         ('first_measure_number', 97),
@@ -64,6 +64,18 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vc.',
+                                ),
+                            abjad.Momento(
+                                context='CelloMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='CelloMusicVoice',
@@ -331,6 +343,18 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.MarginMarkup',
                                 value='Vn.',
+                                ),
+                            abjad.Momento(
+                                context='ViolinMusicVoice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 0),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='ViolinMusicVoice',

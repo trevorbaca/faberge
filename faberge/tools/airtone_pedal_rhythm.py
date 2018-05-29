@@ -3,6 +3,9 @@ from abjadext import rmakers
 
 
 def airtone_pedal_rhythm():
+    """
+    Makes airtone pedal rhythm.
+    """
     #rhythm_maker = rmakers.TaleaRhythmMaker(
     #    talea=rmakers.Talea(
     #        counts=counts,

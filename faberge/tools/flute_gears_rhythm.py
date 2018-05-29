@@ -8,6 +8,9 @@ def flute_gears_rhythm(
     include_colortrill=False,
     include_tone=False,
     ):
+    """
+    Makes flute gears rhythm.
+    """
     counts = []
     if include_fluttertongue:
         counts.extend([7, -1])
