@@ -5888,7 +5888,8 @@ F_PianoRHMusicVoice = {
     
     % [F PianoRHMusicVoice measure 392 / measure 71]         %! SM4
     R1 * 3/4
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F PianoRHMusicVoice measure 393 / measure 72]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
@@ -5911,7 +5912,8 @@ F_PianoRHMusicVoice = {
         c'8
         ]
     }
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F PianoRHMusicVoice measure 394 / measure 73]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
@@ -5940,7 +5942,8 @@ F_PianoRHMusicVoice = {
     
     % [F PianoRHMusicVoice measure 396 / measure 75]         %! SM4
     R1 * 1
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F PianoRHMusicVoice measure 397 / measure 76]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
@@ -6767,9 +6770,9 @@ F_PercussionMusicVoice = {
             Perc.                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override Staff.StaffSymbol.line-count = 2             %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \clef "percussion"                                           %! SM8:REAPPLIED_CLEF:SM37
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
@@ -7782,7 +7785,8 @@ F_ViolinMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'2.
     \repeatTie
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F ViolinMusicVoice measure 393 / measure 72]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -7805,7 +7809,8 @@ F_ViolinMusicVoice = {
         c'8
         ]
     }
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F ViolinMusicVoice measure 394 / measure 73]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -7838,7 +7843,8 @@ F_ViolinMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F ViolinMusicVoice measure 397 / measure 76]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -8737,7 +8743,8 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 392 / measure 71]               %! SM4
     R1 * 3/4
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F ViolaMusicVoice measure 393 / measure 72]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -8760,7 +8767,8 @@ F_ViolaMusicVoice = {
         c'8
         ]
     }
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F ViolaMusicVoice measure 394 / measure 73]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -8789,7 +8797,8 @@ F_ViolaMusicVoice = {
     
     % [F ViolaMusicVoice measure 396 / measure 75]               %! SM4
     R1 * 1
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [F ViolaMusicVoice measure 397 / measure 76]           %! SM4
         \baca_unpitched_music_warning                            %! SM24

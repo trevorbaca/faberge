@@ -3205,9 +3205,9 @@ K_PercussionMusicVoice = {
             Perc.                                                %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
         }                                                        %! SM8:REAPPLIED_MARGIN_MARKUP:-PARTS:SM37
     \stopStaff                                                   %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \once \override Staff.StaffSymbol.line-count = 2             %! SM8:REAPPLIED_STAFF_LINES:SM37
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:REAPPLIED_STAFF_LINES:SM37
     \startStaff                                                  %! SM8:REAPPLIED_STAFF_LINES:SM37
-    \clef "percussion"                                           %! SM8:REAPPLIED_CLEF:SM37
+    \clef "treble"                                               %! SM8:REAPPLIED_CLEF:SM37
     \once \override Staff.Clef.color = #(x11-color 'green4)      %! SM6:REAPPLIED_CLEF_COLOR:SM37
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
@@ -3420,7 +3420,8 @@ K_ViolinMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'1
     \repeatTie
-    \times 4/5 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/10 {
         
         % [K ViolinMusicVoice measure 646 / measure 5]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -3476,7 +3477,8 @@ K_ViolinMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [K ViolinMusicVoice measure 648 / measure 7]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -3515,7 +3517,7 @@ K_ViolinMusicVoice = {
     c'8
     ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/10 {
         
         % [K ViolinMusicVoice measure 650 / measure 9]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -3550,7 +3552,8 @@ K_ViolinMusicVoice = {
         c'8
         ]
     }
-    \times 4/5 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/10 {
         
         % [K ViolinMusicVoice measure 651 / measure 10]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -3585,7 +3588,8 @@ K_ViolinMusicVoice = {
         c'8
         ]
     }
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [K ViolinMusicVoice measure 652 / measure 11]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -3608,33 +3612,36 @@ K_ViolinMusicVoice = {
         c'8
         ]
     }
-    
-    % [K ViolinMusicVoice measure 653 / measure 12]              %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [K ViolinMusicVoice measure 653 / measure 12]          %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        ]
+    }
     
     % [K ViolinMusicVoice measure 654 / measure 13]              %! SM4
     \baca_unpitched_music_warning                                %! SM24
@@ -3677,34 +3684,38 @@ K_ViolinMusicVoice = {
     \baca_unpitched_music_warning                                %! SM24
     c'8
     ]
-    
-    % [K ViolinMusicVoice measure 656 / measure 15]              %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    ]
-    \times 4/7 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [K ViolinMusicVoice measure 656 / measure 15]          %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/14 {
         
         % [K ViolinMusicVoice measure 657 / measure 16]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
@@ -3751,33 +3762,36 @@ K_ViolinMusicVoice = {
         c'8
         ]
     }
-    
-    % [K ViolinMusicVoice measure 658 / measure 17]              %! SM4
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    [
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    
-    \baca_unpitched_music_warning                                %! SM24
-    c'16.
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [K ViolinMusicVoice measure 658 / measure 17]          %! SM4
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        [
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        
+        \baca_unpitched_music_warning                            %! SM24
+        c'16
+        ]
+    }
     
     % [K ViolinMusicVoice measure 659 / measure 18]              %! SM4
     \baca_unpitched_music_warning                                %! SM24

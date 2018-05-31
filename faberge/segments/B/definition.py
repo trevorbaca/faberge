@@ -636,7 +636,7 @@ maker(
     )
 
 maker(
-    ('eh', (15, 17)),
+    ('eh', (15, 16)),
     baca.clef('percussion'),
     baca.markup.remove_staple(),
     baca.staff_lines(1),
@@ -648,6 +648,12 @@ maker(
     baca.markup.airtone(),
     baca.pitch('F3'),
     baca.repeat_tie_up(),
+    )
+
+maker(
+    ('eh', 17),
+    baca.clef('treble'),
+    baca.staff_lines(5),
     )
 
 # cl
@@ -766,6 +772,12 @@ maker(
         ]),
     baca.pitch('B3'),
     baca.staff_lines(2),
+    )
+
+maker(
+    ('perc', 17),
+    baca.clef('treble'),
+    baca.staff_lines(5),
     )
 
 # vn
