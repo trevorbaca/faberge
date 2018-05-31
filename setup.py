@@ -23,7 +23,7 @@ if __name__ == '__main__':
         author_email='trevor.baca@gmail.com',
         install_requires=install_requires,
         keywords=keywords,
-        name='Fabergé Investigations',
+        name='faberge',
         packages=['faberge'],
         platforms='Any',
         url='https://github.com/trevorbaca/faberge',
