@@ -37,7 +37,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [97, 106, 115, 124, 133, 142, 151, 160, 169],
+            [97, 105, 113, 121, 129, 137, 145, 153, 161, 169],
             ),
         ('duration', "3'07''"),
         ('first_measure_number', 97),
@@ -131,7 +131,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='EnglishHornMusicVoice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='EnglishHornMusicVoice',
@@ -147,7 +147,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='EnglishHornMusicVoice',
                                 prototype='baca.StaffLines',
-                                value=1,
+                                value=5,
                                 ),
                             ],
                         ),
@@ -198,7 +198,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionMusicVoice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='PercussionMusicVoice',
@@ -214,7 +214,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='PercussionMusicVoice',
                                 prototype='baca.StaffLines',
-                                value=2,
+                                value=5,
                                 ),
                             ],
                         ),

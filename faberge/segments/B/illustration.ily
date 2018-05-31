@@ -5148,7 +5148,16 @@ B_EnglishHornMusicVoice = {
     \revert RepeatTie.direction                                  %! OC2
     
     % [B EnglishHornMusicVoice measure 169 / measure 73]         %! SM4
+    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
+    \clef "treble"                                               %! SM8:EXPLICIT_CLEF:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 3/4
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B EnglishHornMusicVoice measure 170 / measure 74]         %! SM4
     R1 * 1
@@ -6914,7 +6923,16 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 169 / measure 73]          %! SM4
+    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
+    \once \override Staff.StaffSymbol.line-count = 5             %! SM8:EXPLICIT_STAFF_LINES:IC
+    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
+    \clef "treble"                                               %! SM8:EXPLICIT_CLEF:IC
+    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
+%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     R1 * 3/4
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
     % [B PercussionMusicVoice measure 170 / measure 74]          %! SM4
     R1 * 1
@@ -7603,7 +7621,7 @@ B_ViolinMusicVoice = {
     \repeatTie
     \ppp                                                         %! HC1
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/6 {
+    \times 10/12 {
         
         % [B ViolinMusicVoice measure 149 / measure 53]          %! SM4
         \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -7672,7 +7690,7 @@ B_ViolinMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 14/20 {
         
         % [B ViolinMusicVoice measure 151 / measure 55]          %! SM4
         d'8
@@ -7737,35 +7755,38 @@ B_ViolinMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    
-    % [B ViolinMusicVoice measure 153 / measure 57]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    c'16.
-    -\staccato                                                   %! IC
-    \mf                                                          %! HC1
-    [
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [B ViolinMusicVoice measure 153 / measure 57]          %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        c'16
+        -\staccato                                               %! IC
+        \mf                                                      %! HC1
+        [
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [B ViolinMusicVoice measure 154 / measure 58]              %! SM4
     c'8
@@ -7807,7 +7828,7 @@ B_ViolinMusicVoice = {
     -\staccato                                                   %! IC
     ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 10/14 {
         
         % [B ViolinMusicVoice measure 156 / measure 60]          %! SM4
         c'8
@@ -7854,7 +7875,8 @@ B_ViolinMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \times 4/5 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/10 {
         
         % [B ViolinMusicVoice measure 158 / measure 62]          %! SM4
         b8
@@ -7890,7 +7912,7 @@ B_ViolinMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 14/20 {
         
         % [B ViolinMusicVoice measure 159 / measure 63]          %! SM4
         c'8
@@ -7955,57 +7977,60 @@ B_ViolinMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    
-    % [B ViolinMusicVoice measure 161 / measure 65]              %! SM4
-    d'16..
-    -\staccato                                                   %! IC
-    [
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/8 {
+        
+        % [B ViolinMusicVoice measure 161 / measure 65]          %! SM4
+        d'16
+        -\staccato                                               %! IC
+        [
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [B ViolinMusicVoice measure 163 / measure 67]              %! SM4
     b8
@@ -8021,7 +8046,8 @@ B_ViolinMusicVoice = {
     c'8
     -\staccato                                                   %! IC
     ]
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/12 {
         
         % [B ViolinMusicVoice measure 164 / measure 68]          %! SM4
         c'8
@@ -8094,67 +8120,70 @@ B_ViolinMusicVoice = {
     c'2.
     \repeatTie
     \revert RepeatTie.direction                                  %! OC2
-    
-    % [B ViolinMusicVoice measure 169 / measure 73]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    c'16..
-    -\staccato                                                   %! IC
-    \>                                                           %! HC1
-    \mf                                                          %! HC1
-    [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "col legno battuto"                              %! IC
-        }                                                        %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 14/8 {
+        
+        % [B ViolinMusicVoice measure 169 / measure 73]          %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        c'16
+        -\staccato                                               %! IC
+        \>                                                       %! HC1
+        \mf                                                      %! HC1
+        [
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    "col legno battuto"                          %! IC
+            }                                                    %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/20 {
         
         % [B ViolinMusicVoice measure 171 / measure 75]          %! SM4
         d'8
@@ -8219,7 +8248,8 @@ B_ViolinMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [B ViolinMusicVoice measure 173 / measure 77]          %! SM4
         b8
@@ -8276,7 +8306,8 @@ B_ViolinMusicVoice = {
     d'8
     -\staccato                                                   %! IC
     ]
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/12 {
         
         % [B ViolinMusicVoice measure 176 / measure 80]          %! SM4
         c'8
@@ -8921,60 +8952,63 @@ B_ViolaMusicVoice = {
     g2
     \repeatTie
     \ppp                                                         %! HC1
-    
-    % [B ViolaMusicVoice measure 149 / measure 53]               %! SM4
-    \stopStaff                                                   %! SM8:EXPLICIT_STAFF_LINES:IC
-    \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
-    \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
-    \clef "percussion"                                           %! SM8:EXPLICIT_CLEF:IC
-    \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
-%@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
-    \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    b16.
-    -\staccato                                                   %! IC
-    \<                                                           %! HC1
-    \ppp                                                         %! HC1
-    [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "col legno battuto:"             %! IC
-                                "as bright and pointlike as possible;" %! IC
-                                "(mute string with left hand)"   %! IC
-                            }                                    %! IC
-        }                                                        %! IC
-    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/8 {
+    \times 6/4 {
+        
+        % [B ViolaMusicVoice measure 149 / measure 53]           %! SM4
+        \stopStaff                                               %! SM8:EXPLICIT_STAFF_LINES:IC
+        \once \override Staff.StaffSymbol.line-count = 1         %! SM8:EXPLICIT_STAFF_LINES:IC
+        \startStaff                                              %! SM8:EXPLICIT_STAFF_LINES:IC
+        \clef "percussion"                                       %! SM8:EXPLICIT_CLEF:IC
+        \once \override Staff.Clef.color = #(x11-color 'blue)    %! SM6:EXPLICIT_CLEF_COLOR:IC
+    %@% \override Staff.Clef.color = ##f                         %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
+        \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
+        \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        b16
+        -\staccato                                               %! IC
+        \<                                                       %! HC1
+        \ppp                                                     %! HC1
+        [
+        ^ \markup {                                              %! IC
+            \whiteout                                            %! IC
+                \upright                                         %! IC
+                    \override                                    %! IC
+                        #'(box-padding . 0.5)                    %! IC
+                        \box                                     %! IC
+                            \column                              %! IC
+                                {                                %! IC
+                                    "col legno battuto:"         %! IC
+                                    "as bright and pointlike as possible;" %! IC
+                                    "(mute string with left hand)" %! IC
+                                }                                %! IC
+            }                                                    %! IC
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 10/16 {
         
         % [B ViolaMusicVoice measure 150 / measure 54]           %! SM4
         c'8
@@ -9027,59 +9061,62 @@ B_ViolaMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    
-    % [B ViolaMusicVoice measure 152 / measure 56]               %! SM4
-    b16..
-    -\staccato                                                   %! IC
-    [
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    c'16..
-    -\staccato                                                   %! IC
-    \mf                                                          %! HC1
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/8 {
+        
+        % [B ViolaMusicVoice measure 152 / measure 56]           %! SM4
+        b16
+        -\staccato                                               %! IC
+        [
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        c'16
+        -\staccato                                               %! IC
+        \mf                                                      %! HC1
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [B ViolaMusicVoice measure 154 / measure 58]               %! SM4
     d'8
@@ -9095,108 +9132,114 @@ B_ViolaMusicVoice = {
     d'8
     -\staccato                                                   %! IC
     ]
-    
-    % [B ViolaMusicVoice measure 155 / measure 59]               %! SM4
-    d'16.
-    -\staccato                                                   %! IC
-    [
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    
-    b16.
-    -\staccato                                                   %! IC
-    ]
-    
-    % [B ViolaMusicVoice measure 157 / measure 61]               %! SM4
-    b16..
-    -\staccato                                                   %! IC
-    [
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 12/8 {
+        
+        % [B ViolaMusicVoice measure 155 / measure 59]           %! SM4
+        d'16
+        -\staccato                                               %! IC
+        [
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/8 {
+        
+        % [B ViolaMusicVoice measure 157 / measure 61]           %! SM4
+        b16
+        -\staccato                                               %! IC
+        [
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [B ViolaMusicVoice measure 159 / measure 63]               %! SM4
     b8
@@ -9218,57 +9261,60 @@ B_ViolaMusicVoice = {
     d'8
     -\staccato                                                   %! IC
     ]
-    
-    % [B ViolaMusicVoice measure 160 / measure 64]               %! SM4
-    d'16..
-    -\staccato                                                   %! IC
-    [
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/8 {
+        
+        % [B ViolaMusicVoice measure 160 / measure 64]           %! SM4
+        d'16
+        -\staccato                                               %! IC
+        [
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [B ViolaMusicVoice measure 162 / measure 66]               %! SM4
     b8
@@ -9309,7 +9355,8 @@ B_ViolaMusicVoice = {
     c'8
     -\staccato                                                   %! IC
     ]
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 8/12 {
         
         % [B ViolaMusicVoice measure 164 / measure 68]           %! SM4
         c'8
@@ -9350,59 +9397,62 @@ B_ViolaMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    
-    % [B ViolaMusicVoice measure 165 / measure 69]               %! SM4
-    c'16..
-    -\staccato                                                   %! IC
-    [
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/8 {
+    \times 14/8 {
+        
+        % [B ViolaMusicVoice measure 165 / measure 69]           %! SM4
+        c'16
+        -\staccato                                               %! IC
+        [
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 10/16 {
         
         % [B ViolaMusicVoice measure 167 / measure 71]           %! SM4
         b8
@@ -9455,36 +9505,39 @@ B_ViolaMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    
-    % [B ViolaMusicVoice measure 169 / measure 73]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
-    d'16.
-    -\staccato                                                   %! IC
-    \>                                                           %! HC1
-    \mf                                                          %! HC1
-    [
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    d'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    
-    c'16.
-    -\staccato                                                   %! IC
-    ]
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/4 {
+        
+        % [B ViolaMusicVoice measure 169 / measure 73]           %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+        d'16
+        -\staccato                                               %! IC
+        \>                                                       %! HC1
+        \mf                                                      %! HC1
+        [
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        ]
+    }
     
     % [B ViolaMusicVoice measure 170 / measure 74]               %! SM4
     d'8
@@ -9538,7 +9591,7 @@ B_ViolaMusicVoice = {
     -\staccato                                                   %! IC
     ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 5/7 {
+    \times 10/14 {
         
         % [B ViolaMusicVoice measure 172 / measure 76]           %! SM4
         c'8
@@ -9585,7 +9638,8 @@ B_ViolaMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    \times 2/3 {
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 4/6 {
         
         % [B ViolaMusicVoice measure 174 / measure 78]           %! SM4
         d'8
@@ -9609,7 +9663,7 @@ B_ViolaMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 14/20 {
         
         % [B ViolaMusicVoice measure 175 / measure 79]           %! SM4
         c'8
@@ -10088,7 +10142,7 @@ B_CelloMusicVoice = {
         \!                                                       %! HC1
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/11 {
+    \times 20/22 {
         
         % [B CelloMusicVoice measure 157 / measure 61]           %! SM4
         \override Staff.BarLine.bar-extent = #'(0 . 2)           %! SM8:EXPLICIT_PERSISTENT_OVERRIDE:IC:-PARTS
@@ -10187,7 +10241,7 @@ B_CelloMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 11/14 {
+    \times 22/28 {
         
         % [B CelloMusicVoice measure 160 / measure 64]           %! SM4
         b8
@@ -10277,7 +10331,7 @@ B_CelloMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 10/11 {
+    \times 20/22 {
         
         % [B CelloMusicVoice measure 163 / measure 67]           %! SM4
         d'8
@@ -10403,7 +10457,7 @@ B_CelloMusicVoice = {
     -\staccato                                                   %! IC
     ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 11/13 {
+    \times 22/26 {
         
         % [B CelloMusicVoice measure 169 / measure 73]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -10489,59 +10543,62 @@ B_CelloMusicVoice = {
         -\staccato                                               %! IC
         ]
     }
-    
-    % [B CelloMusicVoice measure 172 / measure 76]               %! SM4
-    d'16..
-    -\staccato                                                   %! IC
-    [
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    c'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    d'16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    
-    b16..
-    -\staccato                                                   %! IC
-    ]
     \tweak text #tuplet-number::calc-fraction-text
-    \times 7/10 {
+    \times 14/8 {
+        
+        % [B CelloMusicVoice measure 172 / measure 76]           %! SM4
+        d'16
+        -\staccato                                               %! IC
+        [
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        c'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        d'16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        
+        b16
+        -\staccato                                               %! IC
+        ]
+    }
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 14/20 {
         
         % [B CelloMusicVoice measure 175 / measure 79]           %! SM4
         c'8

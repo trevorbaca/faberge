@@ -6,7 +6,7 @@ distances = [20, (24, 24, 32), (24, 24, 32), (24, 24, 32)]
 first_measure_number = 97
 last_measure_number = 176
 measure_count = last_measure_number - first_measure_number + 1
-measures_per_page = 9
+measures_per_page = 8
 page_count = math.ceil(measure_count / measures_per_page)
 pages = []
 for page_index in range(page_count):

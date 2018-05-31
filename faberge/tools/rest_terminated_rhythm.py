@@ -15,6 +15,7 @@ def rest_terminated_rhythm():
             talea_denominator=4,
             ),
         tie_specifier=rmakers.TieSpecifier(
+            repeat_ties=True,
             tie_across_divisions=True,
             ),
         )

@@ -12,7 +12,6 @@ def clb_rhythm(
     """
     expression = None
     if fuse_counts is not None:
-        #expression = baca.DivisionSequenceExpression()
         expression = baca.sequence()
         expression = expression.partition_by_counts(
             fuse_counts,
@@ -45,7 +44,10 @@ def clb_rhythm(
             denominator=8,
             ),
         tuplet_specifier=rmakers.TupletSpecifier(
+            avoid_dots=True,
+            denominator=(1, 8),
             extract_trivial=True,
+            force_fraction=True,
             rewrite_rest_filled=True,
             trivialize=True,
             ),
