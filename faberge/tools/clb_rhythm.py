@@ -46,6 +46,7 @@ def clb_rhythm(
         tuplet_specifier=rmakers.TupletSpecifier(
             avoid_dots=True,
             denominator=(1, 8),
+            diminution=True,
             extract_trivial=True,
             force_fraction=True,
             rewrite_rest_filled=True,

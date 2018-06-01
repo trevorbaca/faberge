@@ -5905,33 +5905,33 @@ C_PianoRHMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C PianoRHMusicVoice measure 195 / measure 19]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         ]
     }
     
@@ -5953,33 +5953,33 @@ C_PianoRHMusicVoice = {
     % [C PianoRHMusicVoice measure 197 / measure 21]         %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C PianoRHMusicVoice measure 198 / measure 22]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         ]
     }
     
@@ -6289,33 +6289,33 @@ C_PianoRHMusicVoice = {
     % [C PianoRHMusicVoice measure 251 / measure 75]         %! SM4
     R1 * 1
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C PianoRHMusicVoice measure 252 / measure 76]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'16
+        c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7684,33 +7684,33 @@ C_ViolinMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolinMusicVoice measure 182 / measure 6]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8089,33 +8089,33 @@ C_ViolinMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolinMusicVoice measure 195 / measure 19]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     
@@ -8137,33 +8137,33 @@ C_ViolinMusicVoice = {
     % [C ViolinMusicVoice measure 197 / measure 21]              %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolinMusicVoice measure 198 / measure 22]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     
@@ -8527,33 +8527,33 @@ C_ViolinMusicVoice = {
     % [C ViolinMusicVoice measure 251 / measure 75]              %! SM4
     R1 * 1
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolinMusicVoice measure 252 / measure 76]          %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -9005,33 +9005,33 @@ C_ViolaMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolaMusicVoice measure 182 / measure 6]            %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -9410,33 +9410,33 @@ C_ViolaMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolaMusicVoice measure 195 / measure 19]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     
@@ -9458,33 +9458,33 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 197 / measure 21]               %! SM4
     R1 * 1/4
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolaMusicVoice measure 198 / measure 22]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     
@@ -9893,33 +9893,33 @@ C_ViolaMusicVoice = {
     % [C ViolaMusicVoice measure 251 / measure 75]               %! SM4
     r1
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C ViolaMusicVoice measure 252 / measure 76]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -10272,33 +10272,33 @@ C_CelloMusicVoice = {
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 6/4 {
+    \times 6/8 {
         
         % [C CelloMusicVoice measure 182 / measure 6]            %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         
         \baca_unpitched_music_warning                            %! SM24
-        c'16
+        c'8
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
