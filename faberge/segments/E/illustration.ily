@@ -2103,186 +2103,206 @@ E_PianoLHMusicVoice = {
     % [E PianoLHMusicVoice measure 306 / measure 6]          %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         % [E PianoLHMusicVoice measure 307 / measure 7]      %! SM4
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         % [E PianoLHMusicVoice measure 310 / measure 10]     %! SM4
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        [
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
         
         \baca_unpitched_music_warning                        %! SM24
-        c'4
+        c'8
+        ]
     }
     
     % [E PianoLHMusicVoice measure 313 / measure 13]         %! SM4
@@ -3337,355 +3357,355 @@ E_CelloMusicVoice = {
     % [E CelloMusicVoice measure 306 / measure 6]                %! SM4
     R1 * 3/2
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         % [E CelloMusicVoice measure 307 / measure 7]            %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         % [E CelloMusicVoice measure 310 / measure 10]           %! SM4
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
-    \times 3/5 {
+    \times 6/5 {
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         [
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         
         \baca_unpitched_music_warning                            %! SM24
-        c'8
+        c'16
         ]
     }
     
