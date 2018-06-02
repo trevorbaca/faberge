@@ -940,8 +940,7 @@ maker(
     baca.transition(
         baca.markup.tasto_plus_poco_vib(True, True),
         baca.markup.molto_pont_plus_vib_molto(),
-        #selector=baca.rleaves().group(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     baca.hairpin('p < ff', selector=baca.rleaves()),
     )
@@ -951,8 +950,7 @@ maker(
     baca.transition(
         baca.markup.molto_pont_plus_vib_molto(True, True),
         baca.markup.tasto_plus_poco_vib(),
-        #selector=baca.rleaves().group(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     baca.hairpin('ff > p', selector=baca.rleaves()),
     )
@@ -962,8 +960,7 @@ maker(
     baca.transition(
         None,
         baca.markup.tasto_plus_non_vib(True, False),
-        #selector=baca.rleaves().group(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     )
 
@@ -986,8 +983,7 @@ maker(
     baca.transition(
         baca.markup.tasto_plus_non_vib(True, True),
         baca.markup.PO(),
-        #selector=baca.rleaves().group(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     baca.hairpin('p < ff', selector=baca.rleaves()),
     )
@@ -1007,8 +1003,7 @@ maker(
     baca.transition(
         None,
         baca.markup.tasto_poss(),
-        #selector=baca.rleaves().group(),
-        spanner_selector=baca.rleaves(),
+        selector=baca.rleaves(),
         ),
     baca.hairpin('ff > niente'),
     )
