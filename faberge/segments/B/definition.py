@@ -740,7 +740,7 @@ maker(
     ('perc', (6, 10)),
     baca.piecewise(
         abjad.Hairpin(),
-        baca.make_dynamics('ppp pp'),
+        baca.dynamics('ppp pp'),
         baca.runs().map(baca.enchain([3, 4])).flatten(),
         bookend=True,
         ),
