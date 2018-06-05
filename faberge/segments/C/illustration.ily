@@ -4501,12 +4501,10 @@ C_EnglishHornMusicVoice = {
     % [C EnglishHornMusicVoice measure 226 / measure 50]         %! SM4
     r1
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "remove staple"                          %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "remove staple"                                  %! IC
         }                                                        %! IC
     
     % [C EnglishHornMusicVoice measure 227 / measure 51]         %! SM4
@@ -4575,12 +4573,10 @@ C_EnglishHornMusicVoice = {
         g'16 * 351/64
         [
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            ratchet                              %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    ratchet                                      %! IC
             }                                                    %! IC
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
