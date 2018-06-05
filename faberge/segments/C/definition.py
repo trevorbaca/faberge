@@ -687,7 +687,7 @@ maker(
 maker(
     ('eh', (21, 23)),
     baca.clef('percussion'),
-    baca.markups.boxed('ratchet'),
+    baca.markups.ratchet().boxed(),
     baca.staff_lines(1),
     #baca.pitch('C4'),
     )

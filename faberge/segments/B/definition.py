@@ -733,7 +733,10 @@ maker(
 maker(
     ('perc', 2),
     baca.clef('bass'),
-    faberge.markup.to_marimba(selector=baca.leaf(0)),
+    baca.markup(
+        faberge.markup.to_marimba(),
+        selector=baca.leaf(0),
+        ),
     )
 
 maker(
@@ -772,10 +775,10 @@ maker(
     ('perc', 16),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
-    baca.markups.boxed_lines([
+    baca.markups.lines([
         'rub sponge on bass drum head;',
         'noise only: no pitch',
-        ]),
+        ]).boxed(),
     baca.pitch('B3'),
     baca.staff_lines(2),
     )
@@ -856,10 +859,10 @@ maker(
 maker(
     ('vn', 16),
     baca.dynamic('"mf"'),
-    baca.markups.boxed_lines([
+    baca.markups.lines([
         'bow directly on bridge;',
         'noise only: no pitch',
-        ]),
+        ]).boxed(),
     baca.pitch('C4'),
     baca.repeat_tie_up(),
     )

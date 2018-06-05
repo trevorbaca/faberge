@@ -15,45 +15,45 @@ class MarkupLibrary(abjad.AbjadObject):
     ### PUBLIC METHODS ###
 
     @staticmethod
-    def bass_drum(selector='baca.pleaf(0)'):
+    def bass_drum():
         string = 'bass drum'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
 
     @staticmethod
-    def bowed_crotales(selector='baca.pleaf(0)'):
+    def bowed_crotales():
         string = 'bowed crotales'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
 
     @staticmethod
-    def castanets(selector='baca.pleaf(0)'):
+    def castanets():
         string = 'castanets'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
 
     @staticmethod
-    def col_legno_battuto_first_appearance(selector='baca.pleaf(0)'):
+    def col_legno_battuto_first_appearance():
         strings = [
             'col legno battuto:',
             'as bright and pointlike as possible;',
             '(mute string with left hand)',
             ]
-        return baca.markups.boxed_lines(strings, selector=selector)
+        return baca.markups.lines(strings).boxed()
 
     @staticmethod
-    def doubletrill(selector='baca.pleaf(0)'):
+    def doubletrill():
         string = 'doubletrill!'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
 
     @staticmethod
-    def marimba(selector='baca.pleaf(0)'):
+    def marimba():
         string = 'marimba'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
 
     @staticmethod
-    def match_sound_of_crotales(selector='baca.pleaf(0)'):
+    def match_sound_of_crotales():
         string = 'match sound of crotales'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
 
     @staticmethod
-    def to_marimba(selector='baca.leaf(0)'):
+    def to_marimba():
         string = 'to marimba'
-        return baca.markups.boxed(string, selector=selector)
+        return baca.Markup(string).boxed()
