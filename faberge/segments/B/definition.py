@@ -638,7 +638,10 @@ maker(
 maker(
     ('eh', (15, 16)),
     baca.clef('percussion'),
-    baca.markups.remove_staple(),
+    baca.markup(
+        baca.markups.remove_staple().boxed(),
+        selector=baca.leaf(0),
+        ),
     baca.staff_lines(1),
     )
 
@@ -719,7 +722,10 @@ maker(
 maker(
     ('perc', 1),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.lv_possibile(),
+    baca.markup(
+        baca.markups.lv_possibile(),
+        selector=baca.ptail(0),
+        ),
     baca.pitch('G4'),
     faberge.dal_niente_hairpins('ff'),
     )
@@ -784,7 +790,10 @@ maker(
 
 maker(
     ('vn', 1),
-    baca.markups.lv_possibile(),
+    baca.markup(
+        baca.markups.lv_possibile(),
+        selector=baca.ptail(0),
+        ),
     baca.pitch('G6'),
     faberge.dal_niente_hairpins('ff'),
     )

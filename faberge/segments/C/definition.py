@@ -678,7 +678,10 @@ maker(
 
 maker(
     ('eh', 18),
-    baca.markups.remove_staple(baca.leaf(0)),
+    baca.markup(
+        baca.markups.remove_staple().boxed(),
+        selector=baca.leaf(0),
+        ),
     )
 
 maker(
