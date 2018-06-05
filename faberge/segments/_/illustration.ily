@@ -420,12 +420,10 @@ i_EnglishHornMusicVoice = {
         c'16 * 187/32
         [
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            ratchet                              %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    ratchet                                      %! IC
             }                                                    %! IC
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
@@ -774,9 +772,7 @@ i_ViolinMusicVoice = {
                     }                                            %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                spazzolato                       %! IC
+                        spazzolato                               %! IC
                     }                                            %! IC
                 \line                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
                     {                                            %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
@@ -909,11 +905,7 @@ i_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    spazzolato                                   %! IC
-            }                                                    %! IC
+        ^ \markup { spazzolato }                                 %! IC
     }
     \times 2/3 {
         
