@@ -732,7 +732,7 @@ maker(
 
 maker(
     ('perc', (6, 14)),
-    baca.markups.markup('as attackless as possible'),
+    baca.markup('as attackless as possible'),
     baca.stem_tremolo(selector=baca.pleaves()),
     )
 
@@ -858,7 +858,7 @@ maker(
 maker(
     ('vn', 17),
     baca.hairpin('mf > ppp'),
-    baca.markups.markup('col legno battuto'),
+    baca.markup('col legno battuto'),
     baca.staccato(selector=baca.pheads()),
     faberge.clb_pitches(rotation=-3),
     )
