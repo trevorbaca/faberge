@@ -2931,12 +2931,10 @@ A_FluteMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                \override                        %! IC
-                                    #'(box-padding . 0.5)        %! IC
-                                    \box                         %! IC
-                                        "match sound of crotales" %! IC
+                        \override                                %! IC
+                            #'(box-padding . 0.5)                %! IC
+                            \box                                 %! IC
+                                "match sound of crotales"        %! IC
                     }                                            %! IC
             }
         }
@@ -4261,12 +4259,10 @@ A_EnglishHornMusicVoice = {
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         [
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            keynoise                             %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    keynoise                                     %! IC
             }                                                    %! IC
         
         f'16
@@ -4542,12 +4538,10 @@ A_ClarinetMusicVoice = {
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "match sound of crotales"                %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "match sound of crotales"                        %! IC
         }                                                        %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -5363,16 +5357,14 @@ A_PianoRHMusicVoice = {
                     }                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                        %! IC
                     {                                        %! IC
-                        \whiteout                            %! IC
-                            \upright                         %! IC
-                                \override                    %! IC
-                                    #'(box-padding . 0.5)    %! IC
-                                    \box                     %! IC
-                                        \column              %! IC
-                                            {                %! IC
-                                                "depress silently;" %! IC
-                                                "sustain with middle pedal" %! IC
-                                            }                %! IC
+                        \override                            %! IC
+                            #'(box-padding . 0.5)            %! IC
+                            \box                             %! IC
+                                \column                      %! IC
+                                    {                        %! IC
+                                        "depress silently;"  %! IC
+                                        "sustain with middle pedal" %! IC
+                                    }                        %! IC
                     }                                        %! IC
             }
         }
@@ -6498,12 +6490,10 @@ A_PercussionMusicVoice = {
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "BOWED CROTALES"                         %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "BOWED CROTALES"                                 %! IC
         }                                                        %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -7475,12 +7465,10 @@ A_PercussionMusicVoice = {
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     -\accent                                                     %! IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        castanets                                %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                castanets                                        %! IC
         }                                                        %! IC
     \startTrillSpan                                              %! SC
     
@@ -7497,12 +7485,10 @@ A_PercussionMusicVoice = {
     -\accent                                                     %! IC
     \stopTrillSpan                                               %! SC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "bass drum"                              %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "bass drum"                                      %! IC
         }                                                        %! IC
     
     % [A PercussionMusicVoice measure 92 / measure 88]           %! SM4
@@ -7528,12 +7514,10 @@ A_PercussionMusicVoice = {
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            "bowed crotales"                     %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    "bowed crotales"                             %! IC
             }                                                    %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -7678,12 +7662,10 @@ A_ViolinMusicVoice = {
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "match sound of crotales"                %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "match sound of crotales"                        %! IC
         }                                                        %! IC
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -8435,11 +8417,7 @@ A_ViolinMusicVoice = {
     e'16
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                spazz.                                           %! IC
-        }                                                        %! IC
+    ^ \markup { spazz. }                                         %! IC
     
     e'16
     
@@ -8608,11 +8586,7 @@ A_ViolinMusicVoice = {
         fs'''!8
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "non spazz."                                 %! IC
-            }                                                    %! IC
+        ^ \markup { "non spazz." }                               %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8792,11 +8766,7 @@ A_ViolinMusicVoice = {
     e'16
     \effort_f                                                    %! SM8:REDUNDANT_DYNAMIC:IC
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                spazz.                                           %! IC
-        }                                                        %! IC
+    ^ \markup { spazz. }                                         %! IC
     
     e'16
     ]
@@ -8931,11 +8901,7 @@ A_ViolinMusicVoice = {
         fs'''!8
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "non spazz."                                 %! IC
-            }                                                    %! IC
+        ^ \markup { "non spazz." }                               %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -9095,9 +9061,7 @@ A_ViolaMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "XFB sempre"                     %! IC
+                        "XFB sempre"                             %! IC
                     }                                            %! IC
             }
         }
@@ -9613,11 +9577,7 @@ A_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    spazz.                                       %! IC
-            }                                                    %! IC
+        ^ \markup { spazz. }                                     %! IC
     }
     \times 2/3 {
         
@@ -9787,11 +9747,7 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                XFB                                              %! IC
-        }                                                        %! IC
+    ^ \markup { XFB }                                            %! IC
     
     % [A ViolaMusicVoice measure 76 / measure 72]                %! SM4
     d2.
@@ -9847,11 +9803,7 @@ A_ViolaMusicVoice = {
         e'8
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    spazz.                                       %! IC
-            }                                                    %! IC
+        ^ \markup { spazz. }                                     %! IC
         
         e'8
         ]
@@ -10017,11 +9969,7 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                XFB                                              %! IC
-        }                                                        %! IC
+    ^ \markup { XFB }                                            %! IC
     
     % [A ViolaMusicVoice measure 94 / measure 90]                %! SM4
     d1
@@ -10463,11 +10411,7 @@ A_CelloMusicVoice = {
     d,2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "(poco pont.+) sub. non vib."                    %! IC
-        }                                                        %! IC
+    ^ \markup { "(poco pont.+) sub. non vib." }                  %! IC
     
     % [A CelloMusicVoice measure 68 / measure 64]                %! SM4
     d,1

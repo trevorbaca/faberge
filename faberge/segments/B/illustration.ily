@@ -2795,11 +2795,7 @@ B_FluteMusicVoice = {
     :32                                                          %! IC
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                fluttertongue                                    %! IC
-        }                                                        %! IC
+    ^ \markup { fluttertongue }                                  %! IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3127,11 +3123,7 @@ B_FluteMusicVoice = {
     g'2
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "non flutt."                                     %! IC
-        }                                                        %! IC
+    ^ \markup { "non flutt." }                                   %! IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3418,11 +3410,7 @@ B_FluteMusicVoice = {
     :32                                                          %! IC
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                fluttertongue                                    %! IC
-        }                                                        %! IC
+    ^ \markup { fluttertongue }                                  %! IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3611,11 +3599,7 @@ B_FluteMusicVoice = {
     g''1
     - \tweak circled-tip ##t                                     %! HC1
     \<                                                           %! HC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "non flutt."                                     %! IC
-        }                                                        %! IC
+    ^ \markup { "non flutt." }                                   %! IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -4661,12 +4645,10 @@ B_EnglishHornMusicVoice = {
     bf'!2.
     \fff                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        doubletrill!                             %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                doubletrill!                                     %! IC
         }                                                        %! IC
     \startTrillSpan                                              %! SC
     
@@ -4694,12 +4676,10 @@ B_EnglishHornMusicVoice = {
     b'2.
     \stopTrillSpan                                               %! SC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        doubletrill!                             %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                doubletrill!                                     %! IC
         }                                                        %! IC
     \startTrillSpan                                              %! SC
     
@@ -5093,12 +5073,10 @@ B_EnglishHornMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     r2.
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "remove staple"                          %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "remove staple"                                  %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -5128,11 +5106,7 @@ B_EnglishHornMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                airtone                                          %! IC
-        }                                                        %! IC
+    ^ \markup { airtone }                                        %! IC
     
     % [B EnglishHornMusicVoice measure 166 / measure 70]         %! SM4
     c'2.
@@ -6531,9 +6505,7 @@ B_PercussionMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "l.v. possibile"                 %! IC
+                        "l.v. possibile"                         %! IC
                     }                                            %! IC
             }
         }
@@ -6582,12 +6554,10 @@ B_PercussionMusicVoice = {
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     r2.
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        "to marimba"                             %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                "to marimba"                                     %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -6636,11 +6606,7 @@ B_PercussionMusicVoice = {
     :32                                                          %! IC
     \<                                                           %! PWC1
     \ppp                                                         %! PWC1
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "as attackless as possible"                      %! IC
-        }                                                        %! IC
+    ^ \markup { "as attackless as possible" }                    %! IC
     
     % [B PercussionMusicVoice measure 120 / measure 24]          %! SM4
     ef,!2.
@@ -6897,16 +6863,14 @@ B_PercussionMusicVoice = {
     b1
     \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "rub sponge on bass drum head;"  %! IC
-                                "noise only: no pitch"           %! IC
-                            }                                    %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "rub sponge on bass drum head;"          %! IC
+                        "noise only: no pitch"                   %! IC
+                    }                                            %! IC
         }                                                        %! IC
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)      %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
     
@@ -7005,9 +6969,7 @@ B_ViolinMusicVoice = {
                     }                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
                 \line                                            %! IC
                     {                                            %! IC
-                        \whiteout                                %! IC
-                            \upright                             %! IC
-                                "l.v. possibile"                 %! IC
+                        "l.v. possibile"                         %! IC
                     }                                            %! IC
             }
         }
@@ -7054,11 +7016,7 @@ B_ViolinMusicVoice = {
     f'16
     \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
     [
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                spazz.                                           %! IC
-        }                                                        %! IC
+    ^ \markup { spazz. }                                         %! IC
     
     f'16
     
@@ -7489,11 +7447,7 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     eqf'!2
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "pochiss. scratch"                               %! IC
-        }                                                        %! IC
+    ^ \markup { "pochiss. scratch" }                             %! IC
     
     % [B ViolinMusicVoice measure 120 / measure 24]              %! SM4
     eqf'!2.
@@ -7641,17 +7595,15 @@ B_ViolinMusicVoice = {
         \ppp                                                     %! HC1
         [
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            \column                              %! IC
-                                {                                %! IC
-                                    "col legno battuto:"         %! IC
-                                    "as bright and pointlike as possible;" %! IC
-                                    "(mute string with left hand)" %! IC
-                                }                                %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    \column                                      %! IC
+                        {                                        %! IC
+                            "col legno battuto:"                 %! IC
+                            "as bright and pointlike as possible;" %! IC
+                            "(mute string with left hand)"       %! IC
+                        }                                        %! IC
             }                                                    %! IC
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
@@ -8096,16 +8048,14 @@ B_ViolinMusicVoice = {
     c'1
     \effort_mf                                                   %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                \override                                        %! IC
-                    #'(box-padding . 0.5)                        %! IC
-                    \box                                         %! IC
-                        \column                                  %! IC
-                            {                                    %! IC
-                                "bow directly on bridge;"        %! IC
-                                "noise only: no pitch"           %! IC
-                            }                                    %! IC
+        \override                                                %! IC
+            #'(box-padding . 0.5)                                %! IC
+            \box                                                 %! IC
+                \column                                          %! IC
+                    {                                            %! IC
+                        "bow directly on bridge;"                %! IC
+                        "noise only: no pitch"                   %! IC
+                    }                                            %! IC
         }                                                        %! IC
     
     % [B ViolinMusicVoice measure 166 / measure 70]              %! SM4
@@ -8130,11 +8080,7 @@ B_ViolinMusicVoice = {
         \>                                                       %! HC1
         \mf                                                      %! HC1
         [
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    "col legno battuto"                          %! IC
-            }                                                    %! IC
+        ^ \markup { "col legno battuto" }                        %! IC
         
         c'8
         -\staccato                                               %! IC
@@ -8458,11 +8404,7 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'8
         \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    spazz.                                       %! IC
-            }                                                    %! IC
+        ^ \markup { spazz. }                                     %! IC
     }
     \times 2/3 {
         
@@ -8821,11 +8763,7 @@ B_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g2
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                  %! IC
-        \whiteout                                                %! IC
-            \upright                                             %! IC
-                "tasto + pochiss. scratch"                       %! IC
-        }                                                        %! IC
+    ^ \markup { "tasto + pochiss. scratch" }                     %! IC
     
     % [B ViolaMusicVoice measure 120 / measure 24]               %! SM4
     g2.
@@ -8971,17 +8909,15 @@ B_ViolaMusicVoice = {
         \ppp                                                     %! HC1
         [
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            \column                              %! IC
-                                {                                %! IC
-                                    "col legno battuto:"         %! IC
-                                    "as bright and pointlike as possible;" %! IC
-                                    "(mute string with left hand)" %! IC
-                                }                                %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    \column                                      %! IC
+                        {                                        %! IC
+                            "col legno battuto:"                 %! IC
+                            "as bright and pointlike as possible;" %! IC
+                            "(mute string with left hand)"       %! IC
+                        }                                        %! IC
             }                                                    %! IC
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
@@ -10073,13 +10009,11 @@ B_CelloMusicVoice = {
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \column                                      %! IC
-                        {                                        %! IC
-                            "glissando lentissimo"               %! IC
-                            "do not reattack note heads"         %! IC
-                        }                                        %! IC
+            \column                                              %! IC
+                {                                                %! IC
+                    "glissando lentissimo"                       %! IC
+                    "do not reattack note heads"                 %! IC
+                }                                                %! IC
             }                                                    %! IC
     }
     
@@ -10154,17 +10088,15 @@ B_CelloMusicVoice = {
         \stopTextSpan                                            %! PWC1
         [
         ^ \markup {                                              %! IC
-            \whiteout                                            %! IC
-                \upright                                         %! IC
-                    \override                                    %! IC
-                        #'(box-padding . 0.5)                    %! IC
-                        \box                                     %! IC
-                            \column                              %! IC
-                                {                                %! IC
-                                    "col legno battuto:"         %! IC
-                                    "as bright and pointlike as possible;" %! IC
-                                    "(mute string with left hand)" %! IC
-                                }                                %! IC
+            \override                                            %! IC
+                #'(box-padding . 0.5)                            %! IC
+                \box                                             %! IC
+                    \column                                      %! IC
+                        {                                        %! IC
+                            "col legno battuto:"                 %! IC
+                            "as bright and pointlike as possible;" %! IC
+                            "(mute string with left hand)"       %! IC
+                        }                                        %! IC
             }                                                    %! IC
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
@@ -10658,30 +10590,28 @@ B_CelloMusicVoice = {
         \ppp                                                     %! HC1
         ]
         _ \markup {                                              %! SCORE2
-            \whiteout                                            %! SCORE2
-                \upright                                         %! SCORE2
-                    \override                                    %! SCORE2
-                        #'(font-name . "Palatino")               %! SCORE2
-                        \with-color                              %! SCORE2
-                            #black                               %! SCORE2
-                            \right-column                        %! SCORE2
+            \override                                            %! SCORE2
+                #'(font-name . "Palatino")                       %! SCORE2
+                \with-color                                      %! SCORE2
+                    #black                                       %! SCORE2
+                    \right-column                                %! SCORE2
+                        {                                        %! SCORE2
+                            \line                                %! SCORE2
                                 {                                %! SCORE2
-                                    \line                        %! SCORE2
-                                        {                        %! SCORE2
-                                            "Madison, WI."       %! SCORE2
-                                        }                        %! SCORE2
-                                    \line                        %! SCORE2
-                                        {                        %! SCORE2
-                                            April                %! SCORE2
-                                            \hspace              %! SCORE2
-                                                #0.75            %! SCORE2
-                                            –                    %! SCORE2
-                                            \hspace              %! SCORE2
-                                                #0.75            %! SCORE2
-                                            May                  %! SCORE2
-                                            2016.                %! SCORE2
-                                        }                        %! SCORE2
+                                    "Madison, WI."               %! SCORE2
                                 }                                %! SCORE2
+                            \line                                %! SCORE2
+                                {                                %! SCORE2
+                                    April                        %! SCORE2
+                                    \hspace                      %! SCORE2
+                                        #0.75                    %! SCORE2
+                                    –                            %! SCORE2
+                                    \hspace                      %! SCORE2
+                                        #0.75                    %! SCORE2
+                                    May                          %! SCORE2
+                                    2016.                        %! SCORE2
+                                }                                %! SCORE2
+                        }                                        %! SCORE2
             }                                                    %! SCORE2
         \revert TextScript.staff-padding                         %! OC2
         
