@@ -9834,9 +9834,8 @@ B_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "(tasto + poco vib.)"                    %! PWC1
+                \upright                                         %! PWC1
+                    "(tasto + poco vib.)"                        %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -9857,9 +9856,8 @@ B_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "molto pont. + vib. molto"               %! PWC1
+                \upright                                         %! PWC1
+                    "molto pont. + vib. molto"                   %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -9929,9 +9927,8 @@ B_CelloMusicVoice = {
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
             {                                                    %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "(molto pont. + vib. molto)"             %! PWC1
+                \upright                                         %! PWC1
+                    "(molto pont. + vib. molto)"                 %! PWC1
                 \hspace                                          %! PWC1
                     #0.5                                         %! PWC1
             }                                                    %! PWC1
@@ -9952,9 +9949,8 @@ B_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "tasto + poco vib."                      %! PWC1
+                \upright                                         %! PWC1
+                    "tasto + poco vib."                          %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -9994,9 +9990,8 @@ B_CelloMusicVoice = {
             {                                                    %! PWC1
                 \hspace                                          %! PWC1
                     #0.0                                         %! PWC1
-                \whiteout                                        %! PWC1
-                    \upright                                     %! PWC1
-                        "(tasto+) non vib."                      %! PWC1
+                \upright                                         %! PWC1
+                    "(tasto+) non vib."                          %! PWC1
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
@@ -10050,9 +10045,8 @@ B_CelloMusicVoice = {
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
                 {                                                %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "(tasto + non vib.)"                 %! PWC1
+                    \upright                                     %! PWC1
+                        "(tasto + non vib.)"                     %! PWC1
                     \hspace                                      %! PWC1
                         #0.5                                     %! PWC1
                 }                                                %! PWC1
@@ -10073,9 +10067,8 @@ B_CelloMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            PO                                   %! PWC1
+                    \upright                                     %! PWC1
+                        PO                                       %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
@@ -10123,9 +10116,8 @@ B_CelloMusicVoice = {
                 {                                                %! PWC1
                     \hspace                                      %! PWC1
                         #0.0                                     %! PWC1
-                    \whiteout                                    %! PWC1
-                        \upright                                 %! PWC1
-                            "tasto poss."                        %! PWC1
+                    \upright                                     %! PWC1
+                        "tasto poss."                            %! PWC1
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1

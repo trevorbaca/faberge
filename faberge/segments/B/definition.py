@@ -938,8 +938,8 @@ maker(
 maker(
     ('vc', (2, 3)),
     baca.transition(
-        baca.markups.tasto_plus_poco_vib(True, True),
-        baca.markups.molto_pont_plus_vib_molto(),
+        baca.markups.tasto_plus_poco_vib(True, True).upright(),
+        baca.markups.molto_pont_plus_vib_molto().upright(),
         selector=baca.rleaves(),
         ),
     baca.hairpin('p < ff', selector=baca.rleaves()),
@@ -948,8 +948,8 @@ maker(
 maker(
     ('vc', 6),
     baca.transition(
-        baca.markups.molto_pont_plus_vib_molto(True, True),
-        baca.markups.tasto_plus_poco_vib(),
+        baca.markups.molto_pont_plus_vib_molto(True, True).upright(),
+        baca.markups.tasto_plus_poco_vib().upright(),
         selector=baca.rleaves(),
         ),
     baca.hairpin('ff > p', selector=baca.rleaves()),
@@ -959,7 +959,7 @@ maker(
     ('vc', 7),
     baca.transition(
         None,
-        baca.markups.tasto_plus_non_vib(True, False),
+        baca.markups.tasto_plus_non_vib(True, False).upright(),
         selector=baca.rleaves(),
         ),
     )
@@ -981,8 +981,8 @@ maker(
 maker(
     ('vc', (9, 10)),
     baca.transition(
-        baca.markups.tasto_plus_non_vib(True, True),
-        baca.markups.PO(),
+        baca.markups.tasto_plus_non_vib(True, True).upright(),
+        baca.markups.PO().upright(),
         selector=baca.rleaves(),
         ),
     baca.hairpin('p < ff', selector=baca.rleaves()),
@@ -1002,7 +1002,7 @@ maker(
     ('vc', (11, 14)),
     baca.transition(
         None,
-        baca.markups.tasto_poss(),
+        baca.markups.tasto_poss().upright(),
         selector=baca.rleaves(),
         ),
     baca.hairpin('ff > niente'),
