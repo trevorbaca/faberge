@@ -45,7 +45,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.rehearsal_mark('B', tweaks=[('extra-offset', (0, 6))]),
+    baca.rehearsal_mark(
+        'B',
+        abjad.tweak((0, 6)).extra_offset,
+        ),
     )
 
 # fl
