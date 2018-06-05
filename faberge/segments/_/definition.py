@@ -104,7 +104,7 @@ maker(
 maker(
     ('eh', 3),
     baca.clef('percussion'),
-    baca.markups.boxed('ratchet'),
+    baca.markups.ratchet().boxed(),
     baca.staff_lines(1),
     baca.staff_position(0),
     faberge.ratchet_rhythm(),

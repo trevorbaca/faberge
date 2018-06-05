@@ -524,7 +524,7 @@ maker(
     ('eh', 16),
     baca.note_head_style_cross(),
     baca.dynamic("ff"),
-    baca.markups.boxed('keynoise', baca.pleaf(0)),
+    baca.markups.keynoise().boxed(),
     faberge.keynoise_pitches(rotation=0)
     )
 
@@ -631,10 +631,10 @@ maker(
 maker(
     ('rh', (1, 16)),
     faberge.chord_pitches('D4 E4 F#4 C5 D5'),
-    baca.markups.boxed_lines([
+    baca.markups.lines([
         'depress silently;',
         'sustain with middle pedal',
-        ]),
+        ]).boxed(),
     baca.note_head_style_harmonic(),
     )
 
@@ -649,7 +649,10 @@ maker(
 maker(
     ('perc', (1, 15)),
     baca.laissez_vibrer(selector=baca.ptails()),
-    baca.markups.boxed('BOWED CROTALES', selector=baca.pleaf(0)),
+    baca.markup(
+        baca.Markup('BOWED CROTALES').boxed(),
+        selector=baca.pleaf(0),
+        ),
     )
 
 maker(
@@ -750,8 +753,11 @@ maker(
         baca.trill_spanner(),
         ),
     baca.staff_lines(2),
-    faberge.markup.bass_drum(selector=baca.plt(-1)),
-    faberge.markup.castanets(),
+    baca.markup(
+        baca.markups.bass_drum().boxed(),
+        selector=baca.plt(-1),
+        ),
+    baca.markups.castanets().boxed(),
     )
 
 maker(
@@ -760,7 +766,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('F#4'),
     baca.staff_lines(5),
-    faberge.markup.bowed_crotales(),
+    baca.markups.bowed_crotales().boxed(),
     faberge.dal_niente_hairpins('f'),
     )
 
