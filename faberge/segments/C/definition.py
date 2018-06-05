@@ -678,13 +678,13 @@ maker(
 
 maker(
     ('eh', 18),
-    baca.markup.remove_staple(baca.leaf(0)),
+    baca.markups.remove_staple(baca.leaf(0)),
     )
 
 maker(
     ('eh', (21, 23)),
     baca.clef('percussion'),
-    baca.markup.boxed('ratchet'),
+    baca.markups.boxed('ratchet'),
     baca.staff_lines(1),
     #baca.pitch('C4'),
     )
