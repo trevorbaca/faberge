@@ -20,7 +20,7 @@ def meccanico_rhythm(attack_count, fuse_counts=None):
     rhythm_maker = rmakers.TupletRhythmMaker(
         tuplet_ratios=[tuplet_ratio],
         tuplet_specifier=rmakers.TupletSpecifier(
-            avoid_dots=True,
+            rewrite_dots=True,
             ),
         )
     return baca.rhythm(
