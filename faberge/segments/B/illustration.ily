@@ -2686,9 +2686,9 @@ B_FluteMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2720,9 +2720,9 @@ B_FluteMusicVoice = {
     g'4
     \repeatTie
     \mp                                                          %! HC1
+    \mp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mp                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -2781,9 +2781,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
     \repeatTie
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3110,9 +3110,9 @@ B_FluteMusicVoice = {
     g'2
     :32                                                          %! IC
     \repeatTie
+    \f                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \f                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3163,9 +3163,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
     \repeatTie
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r2
@@ -3289,9 +3289,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
     \repeatTie
+    \mp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mp                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3396,9 +3396,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'4
     \repeatTie
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3586,9 +3586,9 @@ B_FluteMusicVoice = {
     g'4
     :32                                                          %! IC
     \repeatTie
+    \f                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \f                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3651,9 +3651,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
     \repeatTie
+    \mf                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \mf                                                          %! HC1
     
     % [B FluteMusicVoice measure 144 / measure 48]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3740,9 +3740,9 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 148 / measure 52]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3774,9 +3774,9 @@ B_FluteMusicVoice = {
     g''4
     \repeatTie
     \pp                                                          %! HC1
+    \pp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \pp                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3939,9 +3939,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
     \repeatTie
+    \ppp                                                         %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ppp                                                         %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -4038,9 +4038,9 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gs'!4
     \repeatTie
+    \ppp                                                         %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ppp                                                         %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r2
@@ -5399,9 +5399,9 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f\breve.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     % [B ClarinetMusicVoice measure 148 / measure 52]            %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -5426,9 +5426,9 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e1.
     \repeatTie
+    \pp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \pp                                                          %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -5473,9 +5473,9 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ds!8.
     \repeatTie
+    \ppp                                                         %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ppp                                                         %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -5531,9 +5531,9 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d8.
     \repeatTie
+    \ppp                                                         %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ppp                                                         %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -6604,8 +6604,8 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     ef,!2
     :32                                                          %! IC
-    \<                                                           %! PWC1
     \ppp                                                         %! PWC1
+    \<                                                           %! PWC1
     ^ \markup { "as attackless as possible" }                    %! IC
     
     % [B PercussionMusicVoice measure 120 / measure 24]          %! SM4
@@ -6786,9 +6786,9 @@ B_PercussionMusicVoice = {
     d,2.
     :32                                                          %! IC
     \repeatTie
+    \pp                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \pp                                                          %! HC1
     
     % [B PercussionMusicVoice measure 150 / measure 54]          %! SM4
     d,2
@@ -7065,9 +7065,9 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 107 / measure 11]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'16
+    \ff                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ff                                                          %! HC1
     [
     
     f'16
@@ -7505,8 +7505,8 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     eqf'!2.
     \repeatTie
-    \<                                                           %! HC1
     \ppp                                                         %! HC1
+    \<                                                           %! HC1
     
     % [B ViolinMusicVoice measure 134 / measure 38]              %! SM4
     eqf'!1
@@ -7542,8 +7542,8 @@ B_ViolinMusicVoice = {
     eqf'!1
     \repeatTie
     \f                                                           %! HC1
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     
     % [B ViolinMusicVoice measure 142 / measure 46]              %! SM4
     eqf'!2.
@@ -7591,8 +7591,8 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'8
         -\staccato                                               %! IC
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
         [
         ^ \markup {                                              %! IC
             \override                                            %! IC
@@ -8077,8 +8077,8 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'8
         -\staccato                                               %! IC
-        \>                                                       %! HC1
         \mf                                                      %! HC1
+        \>                                                       %! HC1
         [
         ^ \markup { "col legno battuto" }                        %! IC
         
@@ -8446,9 +8446,9 @@ B_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         f'8
+        \ff                                                      %! HC1
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
-        \ff                                                      %! HC1
     }
     \times 2/3 {
         
@@ -8821,8 +8821,8 @@ B_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g2.
     \repeatTie
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     
     % [B ViolaMusicVoice measure 134 / measure 38]               %! SM4
     g1
@@ -8858,8 +8858,8 @@ B_ViolaMusicVoice = {
     g1
     \repeatTie
     \f                                                           %! HC1
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     
     % [B ViolaMusicVoice measure 142 / measure 46]               %! SM4
     g2.
@@ -8905,8 +8905,8 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b8
         -\staccato                                               %! IC
-        \<                                                       %! HC1
         \ppp                                                     %! HC1
+        \<                                                       %! HC1
         [
         ^ \markup {                                              %! IC
             \override                                            %! IC
@@ -9448,8 +9448,8 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         -\staccato                                               %! IC
-        \>                                                       %! HC1
         \mf                                                      %! HC1
+        \>                                                       %! HC1
         [
         
         d'8
@@ -9764,8 +9764,8 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef,!2.
     \repeatTie
-    \<                                                           %! HC1
     \p                                                           %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -9857,8 +9857,8 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     ef,!2
     \repeatTie
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -9975,8 +9975,8 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef,!\longa..
         \glissando                                               %! SC
-        \<                                                       %! HC1
         \p                                                       %! HC1
+        \<                                                       %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak bound-details.left.text \markup {               %! PWC1
             \concat                                              %! PWC1
@@ -10030,9 +10030,9 @@ B_CelloMusicVoice = {
         \ff                                                      %! HC1
         \stopTextSpan                                            %! PWC1
         \glissando                                               %! SC
+        \ff                                                      %! HC1
         - \tweak circled-tip ##t                                 %! HC1
         \>                                                       %! HC1
-        \ff                                                      %! HC1
         - \tweak Y-extent ##f                                    %! PWC1
         - \tweak arrow-width 0.25                                %! PWC1
         - \tweak dash-fraction 0.25                              %! PWC1
@@ -10387,8 +10387,8 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         -\staccato                                               %! IC
-        \>                                                       %! HC1
         \mf                                                      %! HC1
+        \>                                                       %! HC1
         [
         
         d'8
