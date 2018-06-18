@@ -3739,9 +3739,9 @@ A_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs''!8.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -3808,9 +3808,9 @@ A_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!2.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -5111,9 +5111,9 @@ A_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e8.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -5162,9 +5162,9 @@ A_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     eqs!8.
     \repeatTie
+    \ppp                                                         %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \ppp                                                         %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -5215,9 +5215,9 @@ A_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     e8.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -5266,9 +5266,9 @@ A_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     eqs!8.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -5301,9 +5301,9 @@ A_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     eqs!8.
     \repeatTie
+    \p                                                           %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    \p                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r16
@@ -9186,8 +9186,8 @@ A_ViolaMusicVoice = {
     :32                                                          %! IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak arrow-width 0.25                                    %! PWC1
     - \tweak dash-fraction 0.25                                  %! PWC1
@@ -9309,8 +9309,8 @@ A_ViolaMusicVoice = {
     :32                                                          %! IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak arrow-width 0.25                                    %! PWC1
     - \tweak dash-fraction 0.25                                  %! PWC1
@@ -9442,8 +9442,8 @@ A_ViolaMusicVoice = {
     :32                                                          %! IC
     \repeatTie
     \stopTextSpan                                                %! PWC1
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak arrow-width 0.25                                    %! PWC1
     - \tweak dash-fraction 0.25                                  %! PWC1
@@ -9714,8 +9714,8 @@ A_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d2
     :32                                                          %! IC
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -10020,8 +10020,8 @@ A_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2.
-    \<                                                           %! HC1
     \p                                                           %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -10176,8 +10176,8 @@ A_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2
     \repeatTie
-    \>                                                           %! HC1
     \f                                                           %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -10309,8 +10309,8 @@ A_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2.
     \repeatTie
-    \<                                                           %! HC1
     \p                                                           %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -10445,8 +10445,8 @@ A_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2
     \repeatTie
-    \>                                                           %! HC1
     \ff                                                          %! HC1
+    \>                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -10522,8 +10522,8 @@ A_CelloMusicVoice = {
     \repeatTie
     \pp                                                          %! HC1
     \stopTextSpan                                                %! PWC1
-    \<                                                           %! HC1
     \pp                                                          %! HC1
+    \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak arrow-width 0.25                                    %! PWC1
     - \tweak dash-fraction 0.25                                  %! PWC1
