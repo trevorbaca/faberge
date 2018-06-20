@@ -747,7 +747,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 295 / measure 22]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/2
     ^ \markup {
         \column
@@ -811,7 +810,6 @@ D_GlobalSkips = {
         }
     
     % [D GlobalSkips measure 297 / measure 24]                           %! SM4
-    \once \override Score.TimeSignature.color = #(x11-color 'DeepPink1)  %! SM6:REDUNDANT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
     ^ \markup {
         \column
