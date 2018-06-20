@@ -717,7 +717,7 @@ maker(
     ('attack', (1, 9)),
     baca.marcato(selector=baca.pheads()),
     faberge.piano_clusters(),
-    baca.reiterated_dynamic('sfz'),
+    baca.dynamic('sfz', selector=baca.pheads()),
     )
 
 # perc
