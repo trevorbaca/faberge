@@ -39,7 +39,7 @@ metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (25, faberge.metronome_marks['125']),
     (29, faberge.metronome_marks['100']),
     (33, faberge.metronome_marks['125']),
-    (33, abjad.Accelerando()),
+    (33, baca.Accelerando()),
     (36, faberge.metronome_marks['156']),
     ])
 
