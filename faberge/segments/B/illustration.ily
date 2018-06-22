@@ -6268,10 +6268,10 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 107 / measure 11]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f'16
+    [
     \ff                                                          %! HC1
     - \tweak circled-tip ##t                                     %! HC1
     \>                                                           %! HC1
-    [
     
     f'16
     ]
@@ -6642,8 +6642,8 @@ B_ViolinMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     f'16
-    \!                                                           %! HC1
     ]
+    \!                                                           %! HC1
     
     % [B ViolinMusicVoice measure 119 / measure 23]              %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -6794,9 +6794,9 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'8
         -\staccato                                               %! IC
+        [
         \ppp                                                     %! HC1
         \<                                                       %! HC1
-        [
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
@@ -7280,9 +7280,9 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'8
         -\staccato                                               %! IC
+        [
         \mf                                                      %! HC1
         \>                                                       %! HC1
-        [
         ^ \markup { "col legno battuto" }                        %! IC
         
         c'8
@@ -7496,8 +7496,8 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         c'8
         -\staccato                                               %! IC
-        \ppp                                                     %! HC1
         ]
+        \ppp                                                     %! HC1
         
     }
 }
@@ -7950,8 +7950,8 @@ B_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         f'8
-        \!                                                       %! HC1
         ]
+        \!                                                       %! HC1
     }
     
     % [B ViolaMusicVoice measure 119 / measure 23]               %! SM4
@@ -8101,9 +8101,9 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b8
         -\staccato                                               %! IC
+        [
         \ppp                                                     %! HC1
         \<                                                       %! HC1
-        [
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
@@ -8644,9 +8644,9 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         -\staccato                                               %! IC
+        [
         \mf                                                      %! HC1
         \>                                                       %! HC1
-        [
         
         d'8
         -\staccato                                               %! IC
@@ -8859,8 +8859,8 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         c'8
         -\staccato                                               %! IC
-        \ppp                                                     %! HC1
         ]
+        \ppp                                                     %! HC1
         
     }
 }
@@ -9576,9 +9576,9 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         d'8
         -\staccato                                               %! IC
+        [
         \mf                                                      %! HC1
         \>                                                       %! HC1
-        [
         
         d'8
         -\staccato                                               %! IC
@@ -9776,8 +9776,8 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         c'8
         -\staccato                                               %! IC
-        \ppp                                                     %! HC1
         ]
+        \ppp                                                     %! HC1
         _ \markup {                                              %! SCORE2
             \override                                            %! SCORE2
                 #'(font-name . "Palatino")                       %! SCORE2
