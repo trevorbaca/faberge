@@ -7,6 +7,26 @@ B_GlobalSkips = {
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (97)                                                         %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [B.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [2'57'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
@@ -56,26 +76,6 @@ B_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (97)                                                         %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [B.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [2'57'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [B GlobalSkips measure 98 / measure 2]                             %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -1759,7 +1759,6 @@ B_GlobalSkips = {
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (176)                                                        %! SM31:MEASURE_NUMBER_MARKUP
@@ -1776,6 +1775,7 @@ B_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [6'01'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|."                                                            %! SM5
     
@@ -1804,8 +1804,6 @@ B_FluteMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1816,6 +1814,8 @@ B_FluteMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Fl.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1838,7 +1838,6 @@ B_FluteMusicVoice = {
     [
     
     g''8
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1846,6 +1845,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    ]
     \times 2/3 {
         
         % [B FluteMusicVoice measure 98 / measure 2]             %! SM4
@@ -1930,9 +1930,6 @@ B_FluteMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
-    \p                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1940,6 +1937,9 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    \p                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! HC1
+    \>                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -1948,8 +1948,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 105 / measure 9]                %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1957,6 +1955,8 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     % [B FluteMusicVoice measure 106 / measure 10]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -1975,8 +1975,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 107 / measure 11]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1984,6 +1982,8 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2003,7 +2003,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g''8.
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2011,6 +2010,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     \times 4/5 {
         
@@ -2037,8 +2037,6 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
     :32                                                          %! IC
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup { fluttertongue }                                  %! IC
     ^ \markup {
         \override
@@ -2047,6 +2045,8 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     % [B FluteMusicVoice measure 110 / measure 14]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2087,7 +2087,6 @@ B_FluteMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'16
         :32                                                      %! IC
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2095,6 +2094,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     \times 4/5 {
         
@@ -2131,7 +2131,6 @@ B_FluteMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g''16
         :32                                                      %! IC
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2139,6 +2138,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2201,7 +2201,6 @@ B_FluteMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     g''16
     :32                                                          %! IC
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2209,6 +2208,7 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    ]
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     g''2
@@ -2275,7 +2275,6 @@ B_FluteMusicVoice = {
     
     g''16
     :32                                                          %! IC
-    [
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2283,11 +2282,11 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    [
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     g'16
     :32                                                          %! IC
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2295,6 +2294,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    ]
     
     % [B FluteMusicVoice measure 117 / measure 21]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2334,7 +2334,6 @@ B_FluteMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'16
         :32                                                      %! IC
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2342,6 +2341,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2365,8 +2365,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 119 / measure 23]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup { "non flutt." }                                   %! IC
     ^ \markup {
         \override
@@ -2375,6 +2373,8 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     % [B FluteMusicVoice measure 120 / measure 24]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2418,8 +2418,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 123 / measure 27]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2427,6 +2425,8 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2457,7 +2457,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'16
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2465,6 +2464,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     \times 4/5 {
         
@@ -2495,7 +2495,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'16
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2503,6 +2502,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     
     % [B FluteMusicVoice measure 124 / measure 28]               %! SM4
@@ -2544,8 +2544,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 127 / measure 31]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2.
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2553,6 +2551,8 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     % [B FluteMusicVoice measure 128 / measure 32]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2569,7 +2569,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'8.
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2577,6 +2576,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     \times 4/5 {
         
@@ -2626,7 +2626,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'8.
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2634,6 +2633,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     
     % [B FluteMusicVoice measure 132 / measure 36]               %! SM4
@@ -2652,8 +2652,6 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
     :32                                                          %! IC
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup { fluttertongue }                                  %! IC
     ^ \markup {
         \override
@@ -2662,6 +2660,8 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2697,7 +2697,6 @@ B_FluteMusicVoice = {
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g''16
         :32                                                      %! IC
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2705,6 +2704,7 @@ B_FluteMusicVoice = {
                     \finger
                         2
             }
+        ]
     }
     
     % [B FluteMusicVoice measure 134 / measure 38]               %! SM4
@@ -2716,7 +2716,6 @@ B_FluteMusicVoice = {
     
     g'8
     :32                                                          %! IC
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2724,6 +2723,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    ]
     
     g'2
     :32                                                          %! IC
@@ -2841,8 +2841,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 141 / measure 45]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''1
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup { "non flutt." }                                   %! IC
     ^ \markup {
         \override
@@ -2851,6 +2849,8 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     % [B FluteMusicVoice measure 142 / measure 46]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2882,7 +2882,6 @@ B_FluteMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     g'16
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2890,6 +2889,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    ]
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
@@ -2907,8 +2907,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 145 / measure 49]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2916,6 +2914,8 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \times 2/3 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -2944,7 +2944,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'8.
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2952,6 +2951,7 @@ B_FluteMusicVoice = {
                     \finger
                         1
             }
+        ]
     }
     
     g'2
@@ -2965,7 +2965,6 @@ B_FluteMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     g'16
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2973,6 +2972,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    ]
     
     % [B FluteMusicVoice measure 147 / measure 51]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
@@ -2984,9 +2984,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 148 / measure 52]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
-    \p                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2994,6 +2991,9 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    \p                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! HC1
+    \>                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -3002,8 +3002,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 149 / measure 53]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2.
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3011,6 +3009,8 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     % [B FluteMusicVoice measure 150 / measure 54]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3029,8 +3029,6 @@ B_FluteMusicVoice = {
     % [B FluteMusicVoice measure 151 / measure 55]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''2
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3038,6 +3036,8 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \times 4/5 {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
@@ -3168,7 +3168,6 @@ B_FluteMusicVoice = {
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g''16
-        ]
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3176,6 +3175,7 @@ B_FluteMusicVoice = {
                     \finger
                         2
             }
+        ]
     }
     
     % [B FluteMusicVoice measure 156 / measure 60]               %! SM4
@@ -3911,13 +3911,13 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 133 / measure 37]         %! SM4
     b'2.
-    \stopTrillSpan                                               %! SC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 doubletrill!                                     %! IC
         }                                                        %! IC
+    \stopTrillSpan                                               %! SC
     \startTrillSpan                                              %! SC
     
     % [B EnglishHornMusicVoice measure 134 / measure 38]         %! SM4
@@ -4422,8 +4422,6 @@ B_ClarinetMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4434,6 +4432,8 @@ B_ClarinetMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Cl.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5709,8 +5709,6 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2.
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -5722,6 +5720,8 @@ B_PercussionMusicVoice = {
             [“Perc.”]                                            %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     ^ \markup { "l.v. possibile" }                               %! IC
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -5817,9 +5817,9 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PWC3
     ef,!2
     :32                                                          %! IC
+    ^ \markup { "as attackless as possible" }                    %! IC
     \ppp                                                         %! PWC1
     \<                                                           %! PWC1
-    ^ \markup { "as attackless as possible" }                    %! IC
     
     % [B PercussionMusicVoice measure 120 / measure 24]          %! SM4
     ef,!2.
@@ -6163,8 +6163,6 @@ B_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'''2.
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -6176,6 +6174,8 @@ B_ViolinMusicVoice = {
             [“Vn.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     ^ \markup { "l.v. possibile" }                               %! IC
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -6218,8 +6218,8 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f'16
     \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
-    [
     ^ \markup { spazz. }                                         %! IC
+    [
     
     f'16
     
@@ -6794,9 +6794,6 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'8
         -\staccato                                               %! IC
-        [
-        \ppp                                                     %! HC1
-        \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
@@ -6808,6 +6805,9 @@ B_ViolinMusicVoice = {
                             "(mute string with left hand)"       %! IC
                         }                                        %! IC
             }                                                    %! IC
+        [
+        \ppp                                                     %! HC1
+        \<                                                       %! HC1
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         c'8
@@ -7280,10 +7280,10 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         c'8
         -\staccato                                               %! IC
+        ^ \markup { "col legno battuto" }                        %! IC
         [
         \mf                                                      %! HC1
         \>                                                       %! HC1
-        ^ \markup { "col legno battuto" }                        %! IC
         
         c'8
         -\staccato                                               %! IC
@@ -8101,9 +8101,6 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         b8
         -\staccato                                               %! IC
-        [
-        \ppp                                                     %! HC1
-        \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
@@ -8115,6 +8112,9 @@ B_ViolaMusicVoice = {
                             "(mute string with left hand)"       %! IC
                         }                                        %! IC
             }                                                    %! IC
+        [
+        \ppp                                                     %! HC1
+        \<                                                       %! HC1
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         b8
@@ -9163,6 +9163,13 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 133 / measure 37]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         ef,!\longa..
+        ^ \markup {                                              %! IC
+            \column                                              %! IC
+                {                                                %! IC
+                    "glissando lentissimo"                       %! IC
+                    "do not reattack note heads"                 %! IC
+                }                                                %! IC
+            }                                                    %! IC
         \glissando                                               %! SC
         \p                                                       %! HC1
         \<                                                       %! HC1
@@ -9197,13 +9204,6 @@ B_CelloMusicVoice = {
                 }                                                %! PWC1
             }                                                    %! PWC1
         \startTextSpan                                           %! PWC1
-        ^ \markup {                                              %! IC
-            \column                                              %! IC
-                {                                                %! IC
-                    "glissando lentissimo"                       %! IC
-                    "do not reattack note heads"                 %! IC
-                }                                                %! IC
-            }                                                    %! IC
     }
     
     % [B CelloMusicVoice measure 141 / measure 45]               %! SM4
@@ -9274,8 +9274,6 @@ B_CelloMusicVoice = {
         d'8
         \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
-        \stopTextSpan                                            %! PWC1
-        [
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
@@ -9287,6 +9285,8 @@ B_CelloMusicVoice = {
                             "(mute string with left hand)"       %! IC
                         }                                        %! IC
             }                                                    %! IC
+        \stopTextSpan                                            %! PWC1
+        [
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         d'8
@@ -9776,8 +9776,6 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         c'8
         -\staccato                                               %! IC
-        ]
-        \ppp                                                     %! HC1
         _ \markup {                                              %! SCORE2
             \override                                            %! SCORE2
                 #'(font-name . "Palatino")                       %! SCORE2
@@ -9802,6 +9800,8 @@ B_CelloMusicVoice = {
                                 }                                %! SCORE2
                         }                                        %! SCORE2
             }                                                    %! SCORE2
+        ]
+        \ppp                                                     %! HC1
         \revert TextScript.staff-padding                         %! OC2
         
     }

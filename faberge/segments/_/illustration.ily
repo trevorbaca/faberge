@@ -33,6 +33,26 @@ i_GlobalSkips = {
     \time 3/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (1)                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [_.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [0'00'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:EXPLICIT_METRONOME_MARK:SM30 %! SM29:METRONOME_MARK_SPANNER
@@ -82,26 +102,6 @@ i_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (1)                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [_.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [0'00'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [_ GlobalSkips measure 2]                                          %! SM4
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -157,7 +157,6 @@ i_GlobalSkips = {
     \time 1/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1/4
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (4)                                                          %! SM31:MEASURE_NUMBER_MARKUP
@@ -178,6 +177,7 @@ i_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [0'04'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -364,13 +364,13 @@ i_EnglishHornMusicVoice = {
         \set Staff.forceClef = ##t                               %! SM8:EXPLICIT_CLEF:SM33:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         c'16 * 187/32
-        [
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
                 \box                                             %! IC
                     ratchet                                      %! IC
             }                                                    %! IC
+        [
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
         c'16 * 139/32
@@ -685,7 +685,6 @@ i_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e'16
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
-    [
     ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -697,6 +696,7 @@ i_ViolinMusicVoice = {
             #(x11-color 'blue)                                   %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
             [“Vn.”]                                              %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
         }                                                        %! SM11:EXPLICIT_MARGIN_MARKUP_ALERT:IC:-PARTS
+    [
     \override Staff.Clef.color = #(x11-color 'violet)            %! SM6:DEFAULT_CLEF_REDRAW_COLOR:ST3
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2) %! SM6:REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_EXPLICIT_MARGIN_MARKUP:SM34:IC:-PARTS

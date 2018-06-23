@@ -6,6 +6,26 @@ A_GlobalSkips = {
     \bar ""                                                              %! SM2:+SEGMENT:EMPTY_START_BAR
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 3/4
+%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
+%@%         (5)                                                          %! SM31:MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
+%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
+%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
+%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
+%@%         [A.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
+%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
+%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
+%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
+%@%         [0'05'']                                                     %! SM28:CLOCK_TIME_MARKUP
+%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     - \tweak Y-extent ##f                                                %! SM29:METRONOME_MARK_SPANNER
 %@% - \tweak bound-details.left.text \markup {                           %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
 %@%     \fontsize                                                        %! SM27:REAPPLIED_METRONOME_MARK:SM36 %! SM29:METRONOME_MARK_SPANNER
@@ -55,26 +75,6 @@ A_GlobalSkips = {
     - \tweak bound-details.right.stencil-align-dir-y #center             %! SM29:METRONOME_MARK_SPANNER
     - \tweak bound-details.left-broken.text ##f                          %! SM29:METRONOME_MARK_SPANNER
     \startTextSpan                                                       %! SM29:METRONOME_MARK_SPANNER
-%@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
-%@%         (5)                                                          %! SM31:MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM31:MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM32:MEASURE_INDEX_MARKUP
-%@%         <0>                                                          %! SM32:MEASURE_INDEX_MARKUP
-%@%     }                                                                %! SM32:MEASURE_INDEX_MARKUP
-%@% ^ \markup {                                                          %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%         ((1))                                                        %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@%     }                                                                %! SM42:LOCAL_MEASURE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM3:STAGE_NUMBER_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM3:STAGE_NUMBER_MARKUP
-%@%         [A.1]                                                        %! SM3:STAGE_NUMBER_MARKUP
-%@%     }                                                                %! SM3:STAGE_NUMBER_MARKUP
-%@% ^ \markup {                                                          %! SM28:CLOCK_TIME_MARKUP
-%@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
-%@%         [0'05'']                                                     %! SM28:CLOCK_TIME_MARKUP
-%@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
     
     % [A GlobalSkips measure 6 / measure 2]                              %! SM4
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
@@ -2010,7 +2010,6 @@ A_GlobalSkips = {
     \time 4/4                                                            %! SM8:EXPLICIT_TIME_SIGNATURE:SM1
     \once \override Score.TimeSignature.color = #(x11-color 'blue)       %! SM6:EXPLICIT_TIME_SIGNATURE_COLOR:SM1
     s1 * 1
-    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
 %@% ^ \markup {                                                          %! SM31:MEASURE_NUMBER_MARKUP
 %@%     \baca-dark-cyan-markup                                           %! SM31:MEASURE_NUMBER_MARKUP
 %@%         (96)                                                         %! SM31:MEASURE_NUMBER_MARKUP
@@ -2027,6 +2026,7 @@ A_GlobalSkips = {
 %@%     \baca-dark-cyan-markup                                           %! SM28:CLOCK_TIME_MARKUP
 %@%         [2'55'']                                                     %! SM28:CLOCK_TIME_MARKUP
 %@%     }                                                                %! SM28:CLOCK_TIME_MARKUP
+    \stopTextSpan                                                        %! SM29:METRONOME_MARK_SPANNER
     \override Score.BarLine.transparent = ##f                            %! SM5
     \bar "|"                                                             %! SM5
     
@@ -2055,8 +2055,6 @@ A_FluteMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'''!8
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2073,6 +2071,8 @@ A_FluteMusicVoice = {
             \box                                                 %! IC
                 "match sound of crotales"                        %! IC
         }                                                        %! IC
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2926,7 +2926,6 @@ A_FluteMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     fs'!16
-    ]
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2934,6 +2933,7 @@ A_FluteMusicVoice = {
                 \finger
                     1
         }
+    ]
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     fs'!4
@@ -3385,13 +3385,13 @@ A_EnglishHornMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         fqs'!16
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC
-        [
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
                 \box                                             %! IC
                     keynoise                                     %! IC
             }                                                    %! IC
+        [
         
         f'16
         
@@ -3656,14 +3656,14 @@ A_ClarinetMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     gs'''!8
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 "match sound of crotales"                        %! IC
         }                                                        %! IC
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r2
@@ -5593,14 +5593,14 @@ A_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'!8
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 "BOWED CROTALES"                                 %! IC
         }                                                        %! IC
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r8
@@ -6589,13 +6589,13 @@ A_PercussionMusicVoice = {
     % [A PercussionMusicVoice measure 91 / measure 87]           %! SM4
     b2.
     -\accent                                                     %! IC
-    \stopTrillSpan                                               %! SC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 "bass drum"                                      %! IC
         }                                                        %! IC
+    \stopTrillSpan                                               %! SC
     
     % [A PercussionMusicVoice measure 92 / measure 88]           %! SM4
     r1
@@ -6617,14 +6617,14 @@ A_PercussionMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'!8
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! HC1
-        \<                                                       %! HC1
         ^ \markup {                                              %! IC
             \override                                            %! IC
                 #'(box-padding . 0.5)                            %! IC
                 \box                                             %! IC
                     "bowed crotales"                             %! IC
             }                                                    %! IC
+        - \tweak circled-tip ##t                                 %! HC1
+        \<                                                       %! HC1
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -6758,14 +6758,14 @@ A_ViolinMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     fs'''!8
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 "match sound of crotales"                        %! IC
         }                                                        %! IC
+    - \tweak circled-tip ##t                                     %! HC1
+    \<                                                           %! HC1
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
@@ -7515,8 +7515,8 @@ A_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e'16
     \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
-    [
     ^ \markup { spazz. }                                         %! IC
+    [
     
     e'16
     
@@ -7683,9 +7683,9 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 75 / measure 71]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''!8
+        ^ \markup { "non spazz." }                               %! IC
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
-        ^ \markup { "non spazz." }                               %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -7864,8 +7864,8 @@ A_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e'16
     \effort_f                                                    %! SM8:REDUNDANT_DYNAMIC:IC
-    [
     ^ \markup { spazz. }                                         %! IC
+    [
     
     e'16
     ]
@@ -7998,9 +7998,9 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 93 / measure 89]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
         fs'''!8
+        ^ \markup { "non spazz." }                               %! IC
         - \tweak circled-tip ##t                                 %! HC1
         \<                                                       %! HC1
-        ^ \markup { "non spazz." }                               %! IC
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
         r4
@@ -8112,6 +8112,17 @@ A_ViolaMusicVoice = {
     d2.
     :32                                                          %! IC
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Viola”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            [“Va.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+    ^ \markup { "XFB sempre" }                                   %! IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -8143,17 +8154,6 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Viola”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“Va.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup { "XFB sempre" }                                   %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -8803,6 +8803,7 @@ A_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d2
     :32                                                          %! IC
+    ^ \markup { XFB }                                            %! IC
     \pp                                                          %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -8836,7 +8837,6 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup { XFB }                                            %! IC
     
     % [A ViolaMusicVoice measure 76 / measure 72]                %! SM4
     d2.
@@ -8891,8 +8891,8 @@ A_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
         \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
-        [
         ^ \markup { spazz. }                                     %! IC
+        [
         
         e'8
         ]
@@ -9027,6 +9027,7 @@ A_ViolaMusicVoice = {
     d2.
     :32                                                          %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    ^ \markup { XFB }                                            %! IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
         \concat                                                  %! PWC1
@@ -9058,7 +9059,6 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup { XFB }                                            %! IC
     
     % [A ViolaMusicVoice measure 94 / measure 90]                %! SM4
     d1
@@ -9109,6 +9109,16 @@ A_CelloMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     d,2.
+    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+            (“Cello”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
+    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+            [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
+        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \p                                                           %! HC1
     \<                                                           %! HC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -9142,16 +9152,6 @@ A_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-            (“Cello”)                                            %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-        }                                                        %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
-    ^ \markup {                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        \with-color                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-            [“Vc.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-        }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -9492,8 +9492,8 @@ A_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d,2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \repeatTie
     ^ \markup { "(poco pont.+) sub. non vib." }                  %! IC
+    \repeatTie
     
     % [A CelloMusicVoice measure 68 / measure 64]                %! SM4
     d,1
