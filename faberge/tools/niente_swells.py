@@ -17,7 +17,7 @@ def niente_swells(dynamic):
         selector=selector,
         )
     commands.append(command)
-    command = baca.hairpin_start(
+    command = baca.dynamic_trend(
         'o<',
         selector=selector,
         )
@@ -38,7 +38,7 @@ def niente_swells(dynamic):
         selector=selector,
         )
     commands.append(command)
-    command = baca.hairpin_start(
+    command = baca.dynamic_trend(
         '>o',
         selector=selector,
         )
