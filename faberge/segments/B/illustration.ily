@@ -3956,7 +3956,9 @@ B_EnglishHornMusicVoice = {
         r16
         
         \override NoteHead.style = #'cross                       %! OC1
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         eqs'!16
+        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         ef'!16
@@ -4125,8 +4127,12 @@ B_EnglishHornMusicVoice = {
     % [B EnglishHornMusicVoice measure 149 / measure 53]         %! SM4
     r8
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs'!16
+    \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
     [
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     aqf'!16
     ]
@@ -4294,9 +4300,7 @@ B_EnglishHornMusicVoice = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     d'8
-    \!                                                           %! HC1
     \revert NoteHead.style                                       %! OC2
     
     % [B EnglishHornMusicVoice measure 157 / measure 61]         %! SM4
@@ -4304,11 +4308,13 @@ B_EnglishHornMusicVoice = {
     \once \override Staff.StaffSymbol.line-count = 1             %! SM8:EXPLICIT_STAFF_LINES:IC
     \startStaff                                                  %! SM8:EXPLICIT_STAFF_LINES:IC
     \clef "percussion"                                           %! SM8:EXPLICIT_CLEF:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.Clef.color = #(x11-color 'blue)        %! SM6:EXPLICIT_CLEF_COLOR:IC
 %@% \override Staff.Clef.color = ##f                             %! SM7:EXPLICIT_CLEF_COLOR_CANCELLATION:IC
     \set Staff.forceClef = ##t                                   %! SM8:EXPLICIT_CLEF:SM33:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     r2.
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
