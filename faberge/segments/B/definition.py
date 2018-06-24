@@ -750,12 +750,6 @@ maker(
 
 maker(
     ('perc', (6, 10)),
-    baca.piecewise(
-        abjad.Hairpin(),
-        baca.dynamics('ppp pp'),
-        baca.runs().map(baca.enchain([3, 4])).flatten(),
-        bookend=True,
-        ),
     baca.pitch('Eb2'),
     )
 
@@ -765,13 +759,18 @@ maker(
     )
 
 maker(
-    ('perc', (12, 14)),
-    baca.hairpin('pp > niente', selector=baca.rleaves()),
+    ('perc', 14),
+    baca.pitch('C#2'),
+    )
+
+maker(
+    ('perc', (6, 13)),
+    baca.measure_swells('ppp pp', [2, 3], al_niente=True),
     )
 
 maker(
     ('perc', 14),
-    baca.pitch('C#2'),
+    baca.dynamic(baca.niente(), selector=baca.rleaves()[-1]),
     )
 
 maker(
