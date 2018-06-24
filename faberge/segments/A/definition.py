@@ -922,6 +922,14 @@ maker(
 
 maker(
     ('va', (3, 4)),
+    *[ 
+        baca.dynamic('pp', selector=baca.pleaf(0)),
+        baca.hairpin_start('<', selector=baca.pleaf(0)),
+        baca.measures(
+            4,
+            baca.dynamic('mp', selector=baca.pleaf(0)),
+            ),
+        ],
     baca.transition(
         None,
         baca.markups.pont(),
@@ -929,10 +937,10 @@ maker(
         ),
     )
 
-maker(
-    ('va', 3),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
-    )
+#maker(
+#    ('va', 3),
+#    baca.hairpin('pp < mp', selector=baca.rleaves()),
+#    )
 
 maker(
     ('va', 5),
@@ -946,6 +954,14 @@ maker(
 
 maker(
     ('va', (6, 7)),
+    *[ 
+        baca.dynamic('pp', selector=baca.pleaf(0)),
+        baca.hairpin_start('<', selector=baca.pleaf(0)),
+        baca.measures(
+            7,
+            baca.dynamic('mp', selector=baca.pleaf(0)),
+            ),
+        ],
     baca.transition(
         None,
         baca.markups.pont(),
@@ -953,10 +969,10 @@ maker(
         ),
     )
 
-maker(
-    ('va', 6),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
-    )
+#maker(
+#    ('va', 6),
+#    baca.hairpin('pp < mp', selector=baca.rleaves()),
+#    )
 
 maker(
     ('va', 8),
@@ -970,6 +986,14 @@ maker(
 
 maker(
     ('va', (9, 11)),
+    *[ 
+        baca.dynamic('pp', selector=baca.pleaf(0)),
+        baca.hairpin_start('<', selector=baca.pleaf(0)),
+        baca.measures(
+            10,
+            baca.dynamic('mp', selector=baca.pleaf(0)),
+            ),
+        ],
     baca.transition(
         None,
         baca.markups.pont(),
@@ -977,10 +1001,10 @@ maker(
         ),
     )
 
-maker(
-    ('va', 9),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
-    )
+#maker(
+#    ('va', 9),
+#    baca.hairpin('pp < mp', selector=baca.rleaves()),
+#    )
 
 maker(
     ('va', 12),
