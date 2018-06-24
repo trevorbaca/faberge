@@ -746,31 +746,29 @@ maker(
     ('perc', (6, 14)),
     baca.markup('as attackless as possible'),
     baca.stem_tremolo(selector=baca.pleaves()),
-    )
-
-maker(
-    ('perc', (6, 10)),
-    baca.pitch('Eb2'),
-    )
-
-maker(
-    ('perc', (11, 13)),
-    baca.pitch('D2'),
-    )
-
-maker(
-    ('perc', 14),
-    baca.pitch('C#2'),
-    )
-
-maker(
-    ('perc', (6, 13)),
-    baca.measure_swells('ppp pp', [2, 3], al_niente=True),
-    )
-
-maker(
-    ('perc', 14),
-    baca.dynamic(baca.niente(), selector=baca.rleaves()[-1]),
+    # TODO: teach suite() about measure wrapper
+    # TODO: teach measure wrapper about command iterables
+    [
+        *baca.measures(
+            (6, 10),
+            baca.pitch('Eb2'),
+            ),
+        *baca.measures(
+            (11, 13),
+            baca.pitch('D2'),
+            ),
+        *baca.measures(
+            14,
+            baca.pitch('C#2'),
+            ),
+        ],
+    [
+        *baca.measures(
+            (6, 13),
+            *baca.measure_swells('ppp pp', [2, 3], al_niente=True),
+            ),
+        baca.dynamic(baca.niente(), selector=baca.rleaves()[-1]),
+        ],
     )
 
 maker(
