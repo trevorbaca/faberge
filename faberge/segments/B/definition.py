@@ -633,8 +633,12 @@ maker(
 
 maker(
     ('eh', (10, 14)),
+    baca.dynamic('"ff"'),
+    baca.measures(
+        (12, 14),
+        *baca.new_hairpin('"ff" >o niente', stop_selector=baca.rleaf(-1)),
+        ),
     baca.note_head_style_cross(),
-    baca.hairpin('> niente'),
     faberge.keynoise_pitches(rotation=-3)
     )
 
