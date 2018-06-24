@@ -187,6 +187,9 @@
         \override Glissando.breakable = ##t
         \override Glissando.thickness = 3
 
+        % TODO: add to context definition in every score
+        \override Hairpin.to-barline = ##f
+
         \override NoteCollision.merge-differently-dotted = ##t
 
         \override NoteColumn.ignore-collision = ##t
