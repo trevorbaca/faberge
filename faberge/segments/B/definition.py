@@ -493,85 +493,75 @@ maker(
 # fl
 
 maker(
-    ('fl', (1, 14)),
-    baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3', allow_repeats=True),
-    faberge.color_fingerings(),
-    )
-
-maker(
-    ('fl', 1),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('fl', 2),
-    faberge.niente_swell('mp'),
-    )
-
-maker(
-    ('fl', 3),
-    faberge.niente_swell('mf'),
-    )
-
-maker(
-    ('fl', (4, 5)),
-    baca.markups.fluttertongue(),
-    baca.stem_tremolo(selector=baca.pleaves()),
-    faberge.niente_swell('f'),
-    )
-
-maker(
-    ('fl', 6),
-    baca.markups.non_flutt(),
-    faberge.niente_swell('mf'),
-    )
-
-maker(
-    ('fl', 7),
-    faberge.niente_swell('mp'),
-    )
-
-maker(
-    ('fl', 8),
-    faberge.niente_swell('mf'),
-    )
-
-maker(
-    ('fl', 9),
-    baca.markups.fluttertongue(),
-    baca.stem_tremolo(selector=baca.pleaves()),
-    faberge.niente_swell('f'),
-    )
-
-maker(
-    ('fl', 10),
-    baca.markups.non_flutt(),
-    faberge.niente_swell('mf'),
-    )
-
-maker(
-    ('fl', 11),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('fl', 12),
-    faberge.niente_swell('pp'),
-    )
-
-maker(
-    ('fl', (13, 14)),
-    faberge.niente_swell('ppp'),
-    )
-
-maker(
-    ('fl', 16),
-    baca.pitches(
-        'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',
-        allow_repeats=True,
+    'fl',
+    baca.measures(
+        (1, 14),
+        baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3', allow_repeats=True),
+        faberge.color_fingerings(),
         ),
-    faberge.color_fingerings(),
-    faberge.niente_swell('ppp'),
+    baca.measures(
+        1,
+        *faberge.niente_swells('p'),
+        ),
+    baca.measures(
+        2,
+        *faberge.niente_swells('mp'),
+        ),
+    baca.measures(
+        3,
+        *faberge.niente_swells('mf'),
+        ),
+    baca.measures(
+        (4, 5),
+        baca.markups.fluttertongue(),
+        baca.stem_tremolo(selector=baca.pleaves()),
+        *faberge.niente_swells('f'),
+        ),
+    baca.measures(
+        6,
+        baca.markups.non_flutt(),
+        *faberge.niente_swells('mf'),
+        ),
+    baca.measures(
+        7,
+        *faberge.niente_swells('mp'),
+        ),
+    baca.measures(
+        8,
+        *faberge.niente_swells('mf'),
+        ),
+    baca.measures(
+        9,
+        baca.markups.fluttertongue(),
+        baca.stem_tremolo(selector=baca.pleaves()),
+        *faberge.niente_swells('f'),
+        ),
+    baca.measures(
+        10,
+        baca.markups.non_flutt(),
+        *faberge.niente_swells('mf'),
+        ),
+    baca.measures(
+        11,
+        *faberge.niente_swells('p'),
+        ),
+    baca.measures(
+        12,
+        *faberge.niente_swells('pp'),
+        ),
+    baca.measures(
+        (13, 14),
+        *faberge.niente_swells('ppp'),
+        ),
+    baca.measures(
+        16,
+        baca.pitches(
+            'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',
+            allow_repeats=True,
+            ),
+        faberge.color_fingerings(),
+        *faberge.niente_swells('ppp'),
+        ),
     )
 
 # eh
@@ -670,43 +660,35 @@ maker(
 
 maker(
     ('cl', (1, 10)),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('cl', (1, 9)),
-    baca.pitches('Eb2 E~2'),
-    )
-
-maker(
-    ('cl', 10),
-    baca.pitch('Eb2'),
-    )
-
-maker(
-    ('cl', (11, 13)),
-    baca.pitch('D2'),
-    )
-
-maker(
-    ('cl', (11, 12)),
-    faberge.niente_swell('pp'),
-    )
-
-maker(
-    ('cl', (13, 14)),
-    faberge.niente_swell('ppp'),
-    )
-
-maker(
-    ('cl', 14),
-    baca.pitch('C#2'),
-    )
-
-maker(
-    ('cl', 16),
-    baca.pitch('C2'),
-    faberge.niente_swell('ppp'),
+    baca.measures(
+        (1, 9),
+        baca.pitches('Eb2 E~2'),
+        ),
+    baca.measures(
+        10,
+        baca.pitches('Eb2'),
+        ),
+    baca.measures(
+        (11, 13),
+        baca.pitches('D2'),
+        ),
+    baca.measures(
+        14,
+        baca.pitch('C#2'),
+        ),
+    baca.measures(
+        (1, 11),
+        *faberge.niente_swells('p'),
+        ),
+    baca.measures(
+        (12, 14),
+        *faberge.niente_swells('pp'),
+        ),
+    baca.measures(
+        16,
+        baca.pitch('C2'),
+        *faberge.niente_swells('ppp'),
+        ),
     )
 
 # pf
