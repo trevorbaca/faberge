@@ -469,16 +469,17 @@ maker(
     )
 
 maker(
-    ('fl', 16),
-    baca.pitch('F#4'),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('fl', 17),
-    baca.pitches('F#4 F#3', allow_repeats=True),
-    faberge.color_fingerings(),
-    faberge.niente_swell('p'),
+    ('fl', (16, 17)),
+    baca.measures(
+        16,
+        baca.pitch('F#4'),
+        ),
+    baca.measures(
+        17,
+        baca.pitches('F#4 F#3', allow_repeats=True),
+        faberge.color_fingerings(),
+        ),
+    faberge.niente_swells('p'),
     )
 
 # eh
@@ -598,32 +599,19 @@ maker(
 
 maker(
     ('cl', (9, 17)),
+    baca.measures(
+        (9, 12),
+        *faberge.niente_swells('p'),
+        ),
+    baca.measures(
+        13,
+        *faberge.niente_swells('ppp'),
+        ),
+    baca.measures(
+        (14, 17),
+        *faberge.niente_swells('p'),
+        ),
     baca.pitches('D2 D+2'),
-    )
-
-maker(
-    ('cl', (9, 12)),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('cl', 13),
-    faberge.niente_swell('ppp'),
-    )
-
-maker(
-    ('cl', (14, 15)),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('cl', 16),
-    faberge.niente_swell('p'),
-    )
-
-maker(
-    ('cl', 17),
-    faberge.niente_swell('p'),
     )
 
 # pf

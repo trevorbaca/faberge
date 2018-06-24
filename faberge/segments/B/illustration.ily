@@ -1802,8 +1802,9 @@ B_FluteMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''2
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -1814,8 +1815,8 @@ B_FluteMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Fl.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -1831,10 +1832,10 @@ B_FluteMusicVoice = {
             Fl.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''8
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \p                                                           %! HC1
     [
     
     g''8
@@ -1882,16 +1883,28 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 99 / measure 3]                 %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 100 / measure 4]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 2/3 {
         
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g''8
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
@@ -1922,13 +1935,18 @@ B_FluteMusicVoice = {
     \repeatTie
     
     % [B FluteMusicVoice measure 103 / measure 7]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [B FluteMusicVoice measure 104 / measure 8]                %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g'2
     ^ \markup {
         \override
@@ -1937,17 +1955,13 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    \p                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
-    \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 105 / measure 9]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2.
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1955,26 +1969,25 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 106 / measure 10]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'4
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \mp                                                          %! HC1
-    \mp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 107 / measure 11]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1982,14 +1995,14 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 4/5 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g'16
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \mf                                                      %! HC1
         [
         
         g''16
@@ -2022,21 +2035,22 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 108 / measure 12]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4
+    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 109 / measure 13]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2.
     :32                                                          %! IC
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup { fluttertongue }                                  %! IC
     ^ \markup {
         \override
@@ -2045,15 +2059,15 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 110 / measure 14]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2.
     :32                                                          %! IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
     \times 4/5 {
         
         g'16
@@ -2142,12 +2156,18 @@ B_FluteMusicVoice = {
     }
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2
     :32                                                          %! IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [B FluteMusicVoice measure 112 / measure 16]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     g''2
     :32                                                          %! IC
@@ -2162,8 +2182,10 @@ B_FluteMusicVoice = {
     r4
     
     % [B FluteMusicVoice measure 113 / measure 17]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2
     :32                                                          %! IC
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2171,10 +2193,14 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 2/3 {
         
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g'4
         :32                                                      %! IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
         
         g''8
@@ -2257,14 +2283,22 @@ B_FluteMusicVoice = {
     \repeatTie
     
     % [B FluteMusicVoice measure 116 / measure 20]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4
     :32                                                          %! IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4.
     :32                                                          %! IC
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2272,9 +2306,13 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''16
     :32                                                          %! IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2350,21 +2388,22 @@ B_FluteMusicVoice = {
     \repeatTie
     
     % [B FluteMusicVoice measure 118 / measure 22]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2
     :32                                                          %! IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 119 / measure 23]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup { "non flutt." }                                   %! IC
     ^ \markup {
         \override
@@ -2373,14 +2412,14 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 120 / measure 24]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2.
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
     
     % [B FluteMusicVoice measure 121 / measure 25]               %! SM4
     g'4.
@@ -2404,20 +2443,21 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 122 / measure 26]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2
+    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r2
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 123 / measure 27]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2425,14 +2465,14 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 4/5 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g''16
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \mp                                                      %! HC1
         [
         
         g''16
@@ -2530,20 +2570,21 @@ B_FluteMusicVoice = {
     \repeatTie
     
     % [B FluteMusicVoice measure 126 / measure 30]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4
+    \mp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \mp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 127 / measure 31]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2.
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2551,14 +2592,14 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 128 / measure 32]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''2.
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
     \times 4/5 {
         
         g''16
@@ -2592,12 +2633,20 @@ B_FluteMusicVoice = {
     \repeatTie
     
     % [B FluteMusicVoice measure 130 / measure 34]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4
+    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2605,9 +2654,13 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 131 / measure 35]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2.
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \times 4/5 {
         
@@ -2637,21 +2690,22 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 132 / measure 36]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'4
+    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 133 / measure 37]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2
     :32                                                          %! IC
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup { fluttertongue }                                  %! IC
     ^ \markup {
         \override
@@ -2660,15 +2714,15 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 4/5 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g'16
         :32                                                      %! IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \f                                                       %! HC1
         [
         
         g'16
@@ -2740,15 +2794,23 @@ B_FluteMusicVoice = {
     }
     
     % [B FluteMusicVoice measure 135 / measure 39]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2.
     :32                                                          %! IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [B FluteMusicVoice measure 136 / measure 40]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'4.
     :32                                                          %! IC
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2756,9 +2818,13 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4.
     :32                                                          %! IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 137 / measure 41]               %! SM4
     g''4
@@ -2787,15 +2853,23 @@ B_FluteMusicVoice = {
     \repeatTie
     
     % [B FluteMusicVoice measure 138 / measure 42]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'1
     :32                                                          %! IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [B FluteMusicVoice measure 139 / measure 43]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'4
     :32                                                          %! IC
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2803,10 +2877,14 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 140 / measure 44]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'4
     :32                                                          %! IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     \times 4/5 {
         
@@ -2826,21 +2904,22 @@ B_FluteMusicVoice = {
             }
     }
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'4
     :32                                                          %! IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \f                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 141 / measure 45]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''1
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup { "non flutt." }                                   %! IC
     ^ \markup {
         \override
@@ -2849,14 +2928,14 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 142 / measure 46]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''2
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
     \times 2/3 {
         
         g''4
@@ -2892,21 +2971,22 @@ B_FluteMusicVoice = {
     ]
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2
+    \mf                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \mf                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [B FluteMusicVoice measure 144 / measure 48]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r2
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 145 / measure 49]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2914,14 +2994,14 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 2/3 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g''8
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \p                                                       %! HC1
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'4
@@ -2976,13 +3056,18 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 147 / measure 51]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 148 / measure 52]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     g''4
     ^ \markup {
         \override
@@ -2991,17 +3076,13 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    \p                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
     r4
-    \!                                                           %! HC1
     
     % [B FluteMusicVoice measure 149 / measure 53]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2.
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3009,26 +3090,25 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 150 / measure 54]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \pp                                                          %! HC1
-    \pp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 151 / measure 55]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''2
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3036,14 +3116,14 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 4/5 {
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g''16
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
-        \ppp                                                     %! HC1
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie   %! SM26
         g'4
@@ -3107,13 +3187,21 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 153 / measure 57]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'2.
+    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
     % [B FluteMusicVoice measure 154 / measure 58]               %! SM4
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g'4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3121,10 +3209,14 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \times 2/3 {
         
         % [B FluteMusicVoice measure 155 / measure 59]           %! SM4
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         g'4
+        \ppp                                                     %! SM8:EXPLICIT_DYNAMIC:IC
         \repeatTie
         
         g''8
@@ -3180,16 +3272,16 @@ B_FluteMusicVoice = {
     
     % [B FluteMusicVoice measure 156 / measure 60]               %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     g''4
+    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r4
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 157 / measure 61]               %! SM4
     R1 * 3/4
@@ -3216,16 +3308,17 @@ B_FluteMusicVoice = {
     R1 * 1
     
     % [B FluteMusicVoice measure 165 / measure 69]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs''!1
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
     % [B FluteMusicVoice measure 166 / measure 70]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs''!2
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
     \times 4/5 {
         
         gs''!16
@@ -3279,16 +3372,16 @@ B_FluteMusicVoice = {
         }
     
     % [B FluteMusicVoice measure 168 / measure 72]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     gs'!4
+    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r2
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B FluteMusicVoice measure 169 / measure 73]               %! SM4
     R1 * 3/4
@@ -4426,8 +4519,9 @@ B_ClarinetMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -4438,8 +4532,8 @@ B_ClarinetMusicVoice = {
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Cl.”]                                              %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -4455,267 +4549,447 @@ B_ClarinetMusicVoice = {
             Cl.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f\breve
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \p                                                           %! HC1
     
     f4
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 100 / measure 4]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!1
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
     % [B ClarinetMusicVoice measure 102 / measure 6]             %! SM4
     fqs!4
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 103 / measure 7]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f\breve..
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 108 / measure 12]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!1..
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 111 / measure 15]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f1
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
     f4
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 113 / measure 17]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!\breve...
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 118 / measure 22]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f\breve.
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
     f4
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 123 / measure 27]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!1..
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 126 / measure 30]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f1..
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 129 / measure 33]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!\breve.
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 134 / measure 38]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f\breve
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
     f4
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 137 / measure 41]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!1
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
     fqs!4
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     fqs!8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 139 / measure 43]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f\breve..
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 144 / measure 48]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f\breve.
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \p                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
     
     % [B ClarinetMusicVoice measure 148 / measure 52]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
     f4
     \repeatTie
-    \!                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f8.
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \pp                                                          %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 149 / measure 53]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e1.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \pp                                                          %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e8.
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \!                                                           %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
-    \ppp                                                         %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 152 / measure 56]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e2
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e8.
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 153 / measure 57]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds!1..
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
     
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds!8.
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 156 / measure 60]            %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     ds!4
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds!8.
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 157 / measure 61]            %! SM4
     R1 * 3/4
@@ -4742,15 +5016,16 @@ B_ClarinetMusicVoice = {
     R1 * 1
     
     % [B ClarinetMusicVoice measure 165 / measure 69]            %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     d4
-    - \tweak circled-tip ##t                                     %! HC1
-    \<                                                           %! HC1
+    \!                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    - \tweak circled-tip ##t                                     %! IC
+    \<                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d2.
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
     
     % [B ClarinetMusicVoice measure 166 / measure 70]            %! SM4
     d2.
@@ -4764,16 +5039,16 @@ B_ClarinetMusicVoice = {
     d2
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC2
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     d8.
+    \ppp                                                         %! SM8:REDUNDANT_DYNAMIC:IC
     \repeatTie
-    \ppp                                                         %! HC1
-    - \tweak circled-tip ##t                                     %! HC1
-    \>                                                           %! HC1
+    - \tweak circled-tip ##t                                     %! IC
+    \>                                                           %! IC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:HC3
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     r16
-    \!                                                           %! HC1
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
     
     % [B ClarinetMusicVoice measure 169 / measure 73]            %! SM4
     R1 * 3/4

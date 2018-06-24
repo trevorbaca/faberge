@@ -25,7 +25,7 @@ from .margin_markup import margin_markup
 from .marimba_pedal_rhythm import marimba_pedal_rhythm
 from .meccanico_percussion_cell_rhythm import meccanico_percussion_cell_rhythm
 from .meccanico_rhythm import meccanico_rhythm
-from .niente_swell import niente_swell
+from .niente_swells import niente_swells
 from .percussion_cell_rhythm import percussion_cell_rhythm
 from .percussion_gears_rhythm import percussion_gears_rhythm
 from .piano_attack_rhythm import piano_attack_rhythm
