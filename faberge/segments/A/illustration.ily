@@ -2053,9 +2053,9 @@ A_FluteMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -2072,8 +2072,8 @@ A_FluteMusicVoice = {
             \box                                                 %! IC
                 "match sound of crotales"                        %! IC
         }                                                        %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -2089,35 +2089,35 @@ A_FluteMusicVoice = {
             Fl.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 6 / measure 2]                  %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r1
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A FluteMusicVoice measure 7 / measure 3]              %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 8 / measure 4]                  %! SM4
@@ -2126,30 +2126,30 @@ A_FluteMusicVoice = {
     % [A FluteMusicVoice measure 9 / measure 5]                  %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A FluteMusicVoice measure 10 / measure 6]             %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 11 / measure 7]                 %! SM4
@@ -2158,51 +2158,51 @@ A_FluteMusicVoice = {
     % [A FluteMusicVoice measure 12 / measure 8]                 %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 13 / measure 9]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A FluteMusicVoice measure 14 / measure 10]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 15 / measure 11]                %! SM4
@@ -2211,15 +2211,15 @@ A_FluteMusicVoice = {
     % [A FluteMusicVoice measure 16 / measure 12]                %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 17 / measure 13]                %! SM4
     r2.
@@ -2229,119 +2229,119 @@ A_FluteMusicVoice = {
         % [A FluteMusicVoice measure 18 / measure 14]            %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 19 / measure 15]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
     % [A FluteMusicVoice measure 20 / measure 16]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 21 / measure 17]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 22 / measure 18]                %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
     % [A FluteMusicVoice measure 23 / measure 19]                %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A FluteMusicVoice measure 24 / measure 20]            %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 25 / measure 21]                %! SM4
     r1
     
     % [A FluteMusicVoice measure 26 / measure 22]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -2353,65 +2353,65 @@ A_FluteMusicVoice = {
         % [A FluteMusicVoice measure 28 / measure 24]            %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 29 / measure 25]                %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 30 / measure 26]                %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A FluteMusicVoice measure 31 / measure 27]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -2419,15 +2419,15 @@ A_FluteMusicVoice = {
         % [A FluteMusicVoice measure 32 / measure 28]            %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 33 / measure 29]                %! SM4
@@ -2439,96 +2439,96 @@ A_FluteMusicVoice = {
     \times 6/5 {
         
         % [A FluteMusicVoice measure 35 / measure 31]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 36 / measure 32]                %! SM4
     r2.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 37 / measure 33]                %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A FluteMusicVoice measure 38 / measure 34]            %! SM4
         r2
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A FluteMusicVoice measure 39 / measure 35]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 40 / measure 36]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 41 / measure 37]                %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
@@ -2537,29 +2537,29 @@ A_FluteMusicVoice = {
         
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 43 / measure 39]                %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 44 / measure 40]                %! SM4
     r1
@@ -2567,155 +2567,155 @@ A_FluteMusicVoice = {
     \times 6/5 {
         
         % [A FluteMusicVoice measure 45 / measure 41]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 46 / measure 42]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 47 / measure 43]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A FluteMusicVoice measure 48 / measure 44]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 49 / measure 45]                %! SM4
     r2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 50 / measure 46]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 51 / measure 47]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A FluteMusicVoice measure 52 / measure 48]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 53 / measure 49]                %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 54 / measure 50]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     \tweak text #tuplet-number::calc-fraction-text
@@ -2724,25 +2724,25 @@ A_FluteMusicVoice = {
         % [A FluteMusicVoice measure 55 / measure 51]            %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 56 / measure 52]                %! SM4
@@ -2751,61 +2751,61 @@ A_FluteMusicVoice = {
     % [A FluteMusicVoice measure 57 / measure 53]                %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A FluteMusicVoice measure 58 / measure 54]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A FluteMusicVoice measure 59 / measure 55]            %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A FluteMusicVoice measure 60 / measure 56]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -3710,59 +3710,59 @@ A_ClarinetMusicVoice = {
             Cl.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 "match sound of crotales"                        %! IC
         }                                                        %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 6 / measure 2]               %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ClarinetMusicVoice measure 7 / measure 3]           %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 8 / measure 4]               %! SM4
@@ -3774,15 +3774,15 @@ A_ClarinetMusicVoice = {
     \times 4/3 {
         
         % [A ClarinetMusicVoice measure 10 / measure 6]          %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -3790,69 +3790,69 @@ A_ClarinetMusicVoice = {
         % [A ClarinetMusicVoice measure 11 / measure 7]          %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 12 / measure 8]              %! SM4
     r2..
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 13 / measure 9]              %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A ClarinetMusicVoice measure 14 / measure 10]         %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 15 / measure 11]             %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -3862,15 +3862,15 @@ A_ClarinetMusicVoice = {
     \times 6/5 {
         
         % [A ClarinetMusicVoice measure 17 / measure 13]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -3878,135 +3878,135 @@ A_ClarinetMusicVoice = {
         % [A ClarinetMusicVoice measure 18 / measure 14]         %! SM4
         r2.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 19 / measure 15]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 20 / measure 16]             %! SM4
     r2
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ClarinetMusicVoice measure 21 / measure 17]         %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 22 / measure 18]             %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 23 / measure 19]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ClarinetMusicVoice measure 24 / measure 20]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2.
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ClarinetMusicVoice measure 25 / measure 21]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         g'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 26 / measure 22]             %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 27 / measure 23]             %! SM4
     r2
@@ -4015,25 +4015,25 @@ A_ClarinetMusicVoice = {
     r2.
     
     % [A ClarinetMusicVoice measure 29 / measure 25]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     g'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 30 / measure 26]             %! SM4
     r1
@@ -4043,25 +4043,25 @@ A_ClarinetMusicVoice = {
         % [A ClarinetMusicVoice measure 31 / measure 27]         %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -4069,29 +4069,29 @@ A_ClarinetMusicVoice = {
         % [A ClarinetMusicVoice measure 32 / measure 28]         %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 33 / measure 29]             %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 34 / measure 30]             %! SM4
     r2
@@ -4101,15 +4101,15 @@ A_ClarinetMusicVoice = {
         % [A ClarinetMusicVoice measure 35 / measure 31]         %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 36 / measure 32]             %! SM4
@@ -4118,28 +4118,28 @@ A_ClarinetMusicVoice = {
     % [A ClarinetMusicVoice measure 37 / measure 33]             %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ClarinetMusicVoice measure 38 / measure 34]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -4147,92 +4147,92 @@ A_ClarinetMusicVoice = {
         % [A ClarinetMusicVoice measure 39 / measure 35]         %! SM4
         r2
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 40 / measure 36]             %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 41 / measure 37]             %! SM4
     r2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ClarinetMusicVoice measure 42 / measure 38]         %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         gs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A ClarinetMusicVoice measure 43 / measure 39]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 44 / measure 40]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ClarinetMusicVoice measure 45 / measure 41]             %! SM4
     r2.
@@ -5772,9 +5772,9 @@ A_PercussionMusicVoice = {
             Perc.                                                %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
@@ -5782,12 +5782,12 @@ A_PercussionMusicVoice = {
             \box                                                 %! IC
                 "BOWED CROTALES"                                 %! IC
         }                                                        %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 6 / measure 2]             %! SM4
     r1
@@ -5795,41 +5795,41 @@ A_PercussionMusicVoice = {
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 7 / measure 3]         %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 8 / measure 4]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 9 / measure 5]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -5841,45 +5841,45 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 11 / measure 7]        %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 12 / measure 8]            %! SM4
     r2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 13 / measure 9]            %! SM4
     r2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 14 / measure 10]           %! SM4
     r2
@@ -5888,47 +5888,47 @@ A_PercussionMusicVoice = {
     r1
     
     % [A PercussionMusicVoice measure 16 / measure 12]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A PercussionMusicVoice measure 17 / measure 13]       %! SM4
         r2
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 18 / measure 14]       %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 19 / measure 15]           %! SM4
@@ -5936,46 +5936,46 @@ A_PercussionMusicVoice = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 20 / measure 16]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A PercussionMusicVoice measure 21 / measure 17]       %! SM4
         r2
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 22 / measure 18]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r1
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 23 / measure 19]           %! SM4
     r2
@@ -5985,16 +5985,16 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 24 / measure 20]       %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -6004,16 +6004,16 @@ A_PercussionMusicVoice = {
         
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 26 / measure 22]           %! SM4
@@ -6021,75 +6021,75 @@ A_PercussionMusicVoice = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 27 / measure 23]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 28 / measure 24]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 29 / measure 25]           %! SM4
     r2.
     
     % [A PercussionMusicVoice measure 30 / measure 26]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 31 / measure 27]       %! SM4
         r2.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 32 / measure 28]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 33 / measure 29]           %! SM4
     r2
@@ -6097,42 +6097,42 @@ A_PercussionMusicVoice = {
     % [A PercussionMusicVoice measure 34 / measure 30]           %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 35 / measure 31]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 36 / measure 32]           %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 37 / measure 33]           %! SM4
     r2
@@ -6142,47 +6142,47 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 38 / measure 34]       %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 39 / measure 35]       %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2.
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 40 / measure 36]           %! SM4
     r2
     
     % [A PercussionMusicVoice measure 41 / measure 37]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -6192,218 +6192,218 @@ A_PercussionMusicVoice = {
     % [A PercussionMusicVoice measure 43 / measure 39]           %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 44 / measure 40]           %! SM4
     r2.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A PercussionMusicVoice measure 45 / measure 41]       %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 46 / measure 42]           %! SM4
     r2..
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 47 / measure 43]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 48 / measure 44]       %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 49 / measure 45]           %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 50 / measure 46]           %! SM4
     r2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A PercussionMusicVoice measure 51 / measure 47]       %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 52 / measure 48]           %! SM4
     r2
     
     % [A PercussionMusicVoice measure 53 / measure 49]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 54 / measure 50]           %! SM4
     r2.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 55 / measure 51]       %! SM4
         r2
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 56 / measure 52]           %! SM4
     r2
     
     % [A PercussionMusicVoice measure 57 / measure 53]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 58 / measure 54]           %! SM4
     r2
@@ -6413,161 +6413,161 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 59 / measure 55]       %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 60 / measure 56]           %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A PercussionMusicVoice measure 61 / measure 57]       %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 62 / measure 58]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 63 / measure 59]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 64 / measure 60]           %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A PercussionMusicVoice measure 65 / measure 61]       %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 66 / measure 62]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 67 / measure 63]           %! SM4
     R1 * 3/4
@@ -6598,16 +6598,16 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 75 / measure 71]       %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -6615,126 +6615,126 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 76 / measure 72]       %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 77 / measure 73]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 78 / measure 74]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 79 / measure 75]       %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 80 / measure 76]           %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 81 / measure 77]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 82 / measure 78]           %! SM4
     r2
@@ -6744,51 +6744,51 @@ A_PercussionMusicVoice = {
         % [A PercussionMusicVoice measure 83 / measure 79]       %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 84 / measure 80]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -6864,9 +6864,9 @@ A_PercussionMusicVoice = {
         r8
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
         ^ \markup {                                              %! IC
             \override                                            %! IC
@@ -6874,87 +6874,87 @@ A_PercussionMusicVoice = {
                 \box                                             %! IC
                     "bowed crotales"                             %! IC
             }                                                    %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A PercussionMusicVoice measure 94 / measure 90]       %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\laissezVibrer                                          %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A PercussionMusicVoice measure 95 / measure 91]           %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A PercussionMusicVoice measure 96 / measure 92]           %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     -\laissezVibrer                                              %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
 }
 
@@ -7013,69 +7013,69 @@ A_ViolinMusicVoice = {
             Vn.                                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
         }                                                        %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
             \box                                                 %! IC
                 "match sound of crotales"                        %! IC
         }                                                        %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 6 / measure 2]                 %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ViolinMusicVoice measure 7 / measure 3]             %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 8 / measure 4]                 %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 9 / measure 5]                 %! SM4
     r2.
@@ -7088,15 +7088,15 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 11 / measure 7]            %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 12 / measure 8]                %! SM4
@@ -7105,44 +7105,44 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 13 / measure 9]                %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A ViolinMusicVoice measure 14 / measure 10]           %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 15 / measure 11]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 16 / measure 12]               %! SM4
     r2
@@ -7152,15 +7152,15 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 17 / measure 13]           %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
@@ -7168,15 +7168,15 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 18 / measure 14]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
@@ -7184,15 +7184,15 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 19 / measure 15]               %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 20 / measure 16]               %! SM4
     r1
@@ -7202,40 +7202,40 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 21 / measure 17]           %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 22 / measure 18]               %! SM4
     r2.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 23 / measure 19]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r4
     \tweak text #tuplet-number::calc-fraction-text
@@ -7244,15 +7244,15 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 24 / measure 20]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
     }
@@ -7260,50 +7260,50 @@ A_ViolinMusicVoice = {
     \times 8/7 {
         
         % [A ViolinMusicVoice measure 25 / measure 21]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 26 / measure 22]               %! SM4
     r2
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 27 / measure 23]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 28 / measure 24]               %! SM4
     r2.
@@ -7313,16 +7313,16 @@ A_ViolinMusicVoice = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 30 / measure 26]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r1
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
@@ -7331,15 +7331,15 @@ A_ViolinMusicVoice = {
         
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -7347,30 +7347,30 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 32 / measure 28]           %! SM4
         r4.
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 33 / measure 29]               %! SM4
     r2
     
     % [A ViolinMusicVoice measure 34 / measure 30]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 35 / measure 31]               %! SM4
     r2.
@@ -7378,25 +7378,25 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 36 / measure 32]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 37 / measure 33]               %! SM4
     r2
@@ -7406,15 +7406,15 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 38 / measure 34]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 39 / measure 35]               %! SM4
@@ -7423,41 +7423,41 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 40 / measure 36]               %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 41 / measure 37]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2.
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ViolinMusicVoice measure 42 / measure 38]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r4
     }
@@ -7465,75 +7465,75 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 43 / measure 39]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 44 / measure 40]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ViolinMusicVoice measure 45 / measure 41]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 46 / measure 42]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 47 / measure 43]               %! SM4
     r2
@@ -7541,50 +7541,50 @@ A_ViolinMusicVoice = {
     \times 8/7 {
         
         % [A ViolinMusicVoice measure 48 / measure 44]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 49 / measure 45]               %! SM4
     r2..
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 50 / measure 46]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 51 / measure 47]               %! SM4
     r2.
@@ -7594,52 +7594,52 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 52 / measure 48]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 53 / measure 49]               %! SM4
     r4
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 54 / measure 50]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r2
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 55 / measure 51]               %! SM4
     r1
@@ -7647,57 +7647,57 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 56 / measure 52]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 57 / measure 53]               %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A ViolinMusicVoice measure 58 / measure 54]           %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ViolinMusicVoice measure 59 / measure 55]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'''8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 60 / measure 56]               %! SM4
@@ -7705,124 +7705,124 @@ A_ViolinMusicVoice = {
     
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'''8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ViolinMusicVoice measure 61 / measure 57]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A ViolinMusicVoice measure 62 / measure 58]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 63 / measure 59]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 64 / measure 60]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ViolinMusicVoice measure 65 / measure 61]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \pp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 66 / measure 62]               %! SM4
     r4.
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     r8
     
@@ -7996,150 +7996,150 @@ A_ViolinMusicVoice = {
     \times 4/3 {
         
         % [A ViolinMusicVoice measure 75 / measure 71]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ^ \markup { "non spazz." }                               %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \p                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
         
         % [A ViolinMusicVoice measure 76 / measure 72]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mp                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC
+        \mf                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 77 / measure 73]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 78 / measure 74]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ViolinMusicVoice measure 79 / measure 75]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r2
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 80 / measure 76]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 81 / measure 77]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \tweak text #tuplet-number::calc-fraction-text
     \times 4/3 {
         
         % [A ViolinMusicVoice measure 82 / measure 78]           %! SM4
         r8
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 6/5 {
@@ -8147,47 +8147,47 @@ A_ViolinMusicVoice = {
         % [A ViolinMusicVoice measure 83 / measure 79]           %! SM4
         r4
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 84 / measure 80]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 85 / measure 81]               %! SM4
     r8
@@ -8327,95 +8327,95 @@ A_ViolinMusicVoice = {
     \times 6/5 {
         
         % [A ViolinMusicVoice measure 93 / measure 89]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         ^ \markup { "non spazz." }                               %! IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r8
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/7 {
         
         % [A ViolinMusicVoice measure 94 / measure 90]           %! SM4
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4.
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         fs'''!8
-        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC
-        - \tweak circled-tip ##t                                 %! IC
-        \<                                                       %! IC
+        \!                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
+        \<                                                       %! IC:BACA_HAIRPIN
         
-        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+        \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         r4
-        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC
+        \f                                                       %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     }
     
     % [A ViolinMusicVoice measure 95 / measure 91]               %! SM4
     r8
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
     % [A ViolinMusicVoice measure 96 / measure 92]               %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r4.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     fs'''!8
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
+    \<                                                           %! IC:BACA_HAIRPIN
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     r8
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     
 }
 
@@ -8609,10 +8609,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 21 / measure 17]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2.
     :32                                                          %! IC
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -8637,7 +8637,7 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolaMusicVoice measure 22 / measure 18]                %! SM4
     d1
@@ -8665,10 +8665,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 27 / measure 23]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2
     :32                                                          %! IC
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     % [A ViolaMusicVoice measure 28 / measure 24]                %! SM4
@@ -8732,10 +8732,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 35 / measure 31]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2.
     :32                                                          %! IC
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -8760,7 +8760,7 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolaMusicVoice measure 36 / measure 32]                %! SM4
     d1
@@ -8788,10 +8788,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 41 / measure 37]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2.
     :32                                                          %! IC
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     % [A ViolaMusicVoice measure 42 / measure 38]                %! SM4
@@ -8865,10 +8865,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 51 / measure 47]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2.
     :32                                                          %! IC
-    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC
+    \pp                                                          %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -8893,7 +8893,7 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolaMusicVoice measure 52 / measure 48]                %! SM4
     d2
@@ -8921,10 +8921,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 57 / measure 53]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2.
     :32                                                          %! IC
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     % [A ViolaMusicVoice measure 58 / measure 54]                %! SM4
@@ -9139,10 +9139,10 @@ A_ViolaMusicVoice = {
     
     % [A ViolaMusicVoice measure 75 / measure 71]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup { XFB }                                            %! IC
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -9175,7 +9175,7 @@ A_ViolaMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A ViolaMusicVoice measure 76 / measure 72]                %! SM4
     d2.
@@ -9203,10 +9203,10 @@ A_ViolaMusicVoice = {
     \repeatTie
     
     % [A ViolaMusicVoice measure 81 / measure 77]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d2
     :32                                                          %! IC
-    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     
     % [A ViolaMusicVoice measure 82 / measure 78]                %! SM4
@@ -9446,9 +9446,9 @@ A_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                             %! SM7:REAPPLIED_CLEF_COLOR_CANCELLATION:SM37
     \set Staff.forceClef = ##t                                   %! SM8:REAPPLIED_CLEF:SM33:SM37
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -9490,7 +9490,7 @@ A_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \set Staff.instrumentName =                                  %! SM8:REDRAWN_REAPPLIED_MARGIN_MARKUP:SM34:-PARTS:SM37
@@ -9567,9 +9567,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 21 / measure 17]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2.
-    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -9594,9 +9594,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 27 / measure 23]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2
-    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \f                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -9629,7 +9629,7 @@ A_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [A CelloMusicVoice measure 28 / measure 24]                %! SM4
     d,2.
@@ -9684,9 +9684,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 41 / measure 37]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -9727,9 +9727,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 51 / measure 47]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2.
-    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC
+    \p                                                           %! SM8:REDUNDANT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -9762,7 +9762,7 @@ A_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A CelloMusicVoice measure 52 / measure 48]                %! SM4
     d,2
@@ -9793,9 +9793,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 59 / measure 55]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2.
-    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
@@ -9863,9 +9863,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 75 / measure 71]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2
-    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \ff                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     - \tweak Y-extent ##f                                        %! PWC1
     - \tweak bound-details.left.text \markup {                   %! PWC1
@@ -9898,7 +9898,7 @@ A_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \>                                                           %! IC
+    \>                                                           %! IC:BACA_HAIRPIN
     
     % [A CelloMusicVoice measure 76 / measure 72]                %! SM4
     d,2.
@@ -9937,9 +9937,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 85 / measure 81]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     - \tweak Y-extent ##f                                        %! PWC1
@@ -9964,7 +9964,7 @@ A_CelloMusicVoice = {
             }                                                    %! PWC1
         }                                                        %! PWC1
     \startTextSpan                                               %! PWC1
-    \<                                                           %! IC
+    \<                                                           %! IC:BACA_HAIRPIN
     
     % [A CelloMusicVoice measure 86 / measure 82]                %! SM4
     d,2.
@@ -9995,9 +9995,9 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 93 / measure 89]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     d,2.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
     \repeatTie
     \stopTextSpan                                                %! PWC1
     
