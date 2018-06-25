@@ -626,7 +626,7 @@ maker(
     baca.dynamic('"ff"'),
     baca.measures(
         (12, 14),
-        *baca.new_hairpin('"ff" >o niente', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('"ff" >o niente', stop_selector=baca.rleaf(-1)),
         ),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=-3)
@@ -793,7 +793,7 @@ maker(
     baca.markups.spazz(),
     baca.measures(
         (4, 5),
-        *baca.new_hairpin('"ff" >o niente'),
+        baca.new_hairpin('"ff" >o niente'),
         ),
     baca.pitch('F4'),
     )
@@ -803,11 +803,11 @@ maker(
     baca.dynamic('ppp'),
     baca.measures(
         9,
-        *baca.new_hairpin('ppp < f', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('ppp < f', stop_selector=baca.rleaf(-1)),
         ),
     baca.measures(
         (10, 11),
-        *baca.new_hairpin('f > ppp'),
+        baca.new_hairpin('f > ppp'),
         ),
     baca.markups.pochiss_scratch(),
     baca.pitch('E~4'),
@@ -818,7 +818,7 @@ maker(
     baca.clef('percussion'),
     baca.measures(
         (12, 13),
-        *baca.new_hairpin('"p" < "mf"', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('"p" < "mf"', stop_selector=baca.rleaf(-1)),
         ),
     baca.staff_lines(1),
     baca.suite(
@@ -863,7 +863,7 @@ maker(
     baca.markups.spazz(),
     baca.measures(
         (4, 5),
-        *baca.new_hairpin('"ff" >o niente'),
+        baca.new_hairpin('"ff" >o niente'),
         ),
     baca.pitch('F4'),
     )
@@ -873,11 +873,11 @@ maker(
     baca.dynamic('pp'),
     baca.measures(
         9,
-        *baca.new_hairpin('pp < f', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('pp < f', stop_selector=baca.rleaf(-1)),
         ),
     baca.measures(
         (10, 11),
-        *baca.new_hairpin('f > pp'),
+        baca.new_hairpin('f > pp'),
         ),
     baca.markups.tasto_plus_pochiss_scratch(),
     baca.pitch('G3'),
@@ -889,11 +889,11 @@ maker(
     baca.clef('percussion'),
     baca.measures(
         (12, 13),
-        *baca.new_hairpin('"p" < "mf"', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('"p" < "mf"', stop_selector=baca.rleaf(-1)),
         ),
     baca.measures(
         17,
-        *baca.new_hairpin('"mf" >o niente'),
+        baca.new_hairpin('"mf" >o niente'),
         ),
     baca.staff_lines(1),
     baca.staccato(selector=baca.pheads()),
@@ -964,7 +964,7 @@ maker(
             baca.markups.PO(),
             selector=baca.rleaves(),
             ),
-        *baca.new_hairpin('p < ff', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('p < ff', stop_selector=baca.rleaf(-1)),
         ),
     baca.measures(
         (11, 13),
@@ -976,7 +976,7 @@ maker(
         ),
     baca.measures(
         (11, 14),
-        *baca.new_hairpin('ff >o niente'),
+        baca.new_hairpin('ff >o niente'),
         baca.transition(
             None,
             baca.markups.tasto_poss(),
@@ -991,7 +991,7 @@ maker(
     baca.dynamic('"mf"'),
     baca.measures(
         17,
-        *baca.new_hairpin('"mf" >o niente'),
+        baca.new_hairpin('"mf" >o niente'),
         ),
     baca.not_parts(baca.bar_extent_persistent((0, 2))),
     baca.staff_lines(1),
