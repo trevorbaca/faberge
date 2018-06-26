@@ -626,7 +626,7 @@ maker(
     baca.dynamic('"ff"'),
     baca.measures(
         (12, 14),
-        baca.new_hairpin('"ff" >o niente', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('"ff" >o niente', selector=baca.tleaves().rleak()),
         ),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=-3)
@@ -803,7 +803,7 @@ maker(
     baca.dynamic('ppp'),
     baca.measures(
         9,
-        baca.new_hairpin('ppp < f', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('ppp < f', selector=baca.rleaves()),
         ),
     baca.measures(
         (10, 11),
@@ -818,7 +818,7 @@ maker(
     baca.clef('percussion'),
     baca.measures(
         (12, 13),
-        baca.new_hairpin('"p" < "mf"', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('"p" < "mf"', selector=baca.rleaves()),
         ),
     baca.staff_lines(1),
     baca.suite(
@@ -873,7 +873,7 @@ maker(
     baca.dynamic('pp'),
     baca.measures(
         9,
-        baca.new_hairpin('pp < f', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('pp < f', selector=baca.rleaves()),
         ),
     baca.measures(
         (10, 11),
@@ -889,7 +889,7 @@ maker(
     baca.clef('percussion'),
     baca.measures(
         (12, 13),
-        baca.new_hairpin('"p" < "mf"', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('"p" < "mf"', selector=baca.rleaves()),
         ),
     baca.measures(
         17,
@@ -920,7 +920,7 @@ maker(
         baca.markups.molto_pont_plus_vib_molto(),
         selector=baca.rleaves(),
         ),
-    baca.new_hairpin('p < ff', stop_selector=baca.rleaf(-1)),
+    baca.new_hairpin('p < ff', selector=baca.rleaves()),
     )
 
 maker(
@@ -930,7 +930,7 @@ maker(
         baca.markups.tasto_plus_poco_vib(),
         selector=baca.rleaves(),
         ),
-    baca.new_hairpin('ff > p', stop_selector=baca.rleaf(-1)),
+    baca.new_hairpin('ff > p', selector=baca.rleaves()),
     )
 
 maker(
@@ -964,7 +964,7 @@ maker(
             baca.markups.PO(),
             selector=baca.rleaves(),
             ),
-        baca.new_hairpin('p < ff', stop_selector=baca.rleaf(-1)),
+        baca.new_hairpin('p < ff', selector=baca.rleaves()),
         ),
     baca.measures(
         (11, 13),
