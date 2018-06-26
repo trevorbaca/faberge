@@ -5,49 +5,48 @@ import baca
 instruments = abjad.OrderedDict([
     (
         'Flute',
-        abjad.Flute(hide=True),
+        abjad.Flute(),
         ),
     (
         'BassFlute',
-        abjad.BassFlute(hide=True),
+        abjad.BassFlute(),
         ),
     (
         'EnglishHorn',
-        abjad.EnglishHorn(hide=True),
+        abjad.EnglishHorn(),
         ),
     (
         'Clarinet',
-        abjad.ClarinetInBFlat(hide=True),
+        abjad.ClarinetInBFlat(),
         ),
     (
         'BassClarinet',
-        abjad.BassClarinet(hide=True),
+        abjad.BassClarinet(),
         ),
     (
         'Piano',
-        abjad.Piano(hide=True),
+        abjad.Piano(),
         ),
     (
         'Harpsichord',
-        abjad.Harpsichord(hide=True),
+        abjad.Harpsichord(),
         ),
     (
         'Percussion',
         abjad.Percussion(
             allowable_clefs=['percussion', 'treble'],
-            hide=True,
             ),
         ),
     (
         'Violin',
-        abjad.Violin(hide=True),
+        abjad.Violin(),
         ),
     (
         'Viola',
-        abjad.Viola(hide=True),
+        abjad.Viola(),
         ),
     (
         'Cello',
-        abjad.Cello(hide=True, pitch_range='[B#1, +inf]'),
+        abjad.Cello(pitch_range='[B#1, +inf]'),
         ),
     ])
