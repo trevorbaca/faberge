@@ -6096,12 +6096,12 @@ B_PercussionMusicVoice = {
     R1 * 3/4
     
     % [B PercussionMusicVoice measure 119 / measure 23]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
     ^ \markup { "as attackless as possible" }                    %! IC
-    \<                                                           %! IC
+    \<                                                           %! PIC
     
     % [B PercussionMusicVoice measure 120 / measure 24]          %! SM4
     ef,!2.
@@ -6109,11 +6109,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 121 / measure 25]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2.
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 122 / measure 26]          %! SM4
@@ -6127,11 +6127,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 124 / measure 28]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2.
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \<                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 125 / measure 29]          %! SM4
@@ -6140,11 +6140,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 126 / measure 30]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 127 / measure 31]          %! SM4
@@ -6158,11 +6158,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 129 / measure 33]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \<                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 130 / measure 34]          %! SM4
@@ -6171,11 +6171,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 131 / measure 35]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!1
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 132 / measure 36]          %! SM4
@@ -6189,11 +6189,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 134 / measure 38]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!1
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \<                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 135 / measure 39]          %! SM4
@@ -6202,11 +6202,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 136 / measure 40]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!1
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 137 / measure 41]          %! SM4
@@ -6220,11 +6220,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 139 / measure 43]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \<                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 140 / measure 44]          %! SM4
@@ -6233,11 +6233,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 141 / measure 45]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!1
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 142 / measure 46]          %! SM4
@@ -6251,11 +6251,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 144 / measure 48]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \<                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 145 / measure 49]          %! SM4
@@ -6263,11 +6263,11 @@ B_PercussionMusicVoice = {
     :32                                                          %! IC
     
     % [B PercussionMusicVoice measure 146 / measure 50]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d,1
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 147 / measure 51]          %! SM4
@@ -6281,11 +6281,11 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 149 / measure 53]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d,2.
     :32                                                          %! IC
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    \<                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    \<                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 150 / measure 54]          %! SM4
@@ -6294,12 +6294,12 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 151 / measure 55]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d,2.
     :32                                                          %! IC
-    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
     % [B PercussionMusicVoice measure 152 / measure 56]          %! SM4
@@ -6327,9 +6327,9 @@ B_PercussionMusicVoice = {
     \repeatTie
     
     % [B PercussionMusicVoice measure 157 / measure 61]          %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r2.
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [B PercussionMusicVoice measure 158 / measure 62]          %! SM4
     r1

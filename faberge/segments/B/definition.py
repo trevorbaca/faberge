@@ -748,13 +748,22 @@ maker(
             baca.pitch('C#2'),
             ),
         ],
-    [
-        *baca.measures(
-            (6, 13),
-            *baca.measure_swells('ppp pp', [2, 3], al_niente=True),
+    baca.measures(
+        (6, 12),
+        baca.hairpin_chain(
+            'ppp < pp >',
+            piece_selector=baca.group_by_measures([2, 3]),
             ),
-        baca.dynamic(baca.niente(), selector=baca.rleaves()[-1]),
-        ],
+        ),
+    baca.measures(
+        (12, 14),
+        baca.hairpin_chain(
+            '< pp >o niente',
+            bookend=-1,
+            piece_selector=baca.group_by_measures([2, 7]),
+            selector=baca.rleaves(),
+            ),
+        ),
     )
 
 maker(
