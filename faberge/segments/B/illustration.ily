@@ -1886,6 +1886,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -1938,6 +1939,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''2.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -1976,6 +1978,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2038,6 +2041,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2160,6 +2164,7 @@ B_FluteMusicVoice = {
     g''2
     :32                                                          %! IC
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2287,6 +2292,7 @@ B_FluteMusicVoice = {
     g''4
     :32                                                          %! IC
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2392,6 +2398,7 @@ B_FluteMusicVoice = {
     g'2
     :32                                                          %! IC
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2446,6 +2453,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''2
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2573,6 +2581,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4
     \mp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2636,6 +2645,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2693,6 +2703,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'4
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2798,6 +2809,7 @@ B_FluteMusicVoice = {
     g''2.
     :32                                                          %! IC
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2857,6 +2869,7 @@ B_FluteMusicVoice = {
     g'1
     :32                                                          %! IC
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2908,6 +2921,7 @@ B_FluteMusicVoice = {
     g'4
     :32                                                          %! IC
     \f                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -2974,6 +2988,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2
     \mf                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -3059,6 +3074,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -3097,6 +3113,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -3190,6 +3207,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g'2.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -3275,6 +3293,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     g''4
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -3375,6 +3394,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs'!4
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4223,6 +4243,7 @@ B_EnglishHornMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     gs'!16
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     [
@@ -4560,6 +4581,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4588,6 +4610,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4612,6 +4635,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4636,6 +4660,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4663,6 +4688,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4687,6 +4713,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4714,6 +4741,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4738,6 +4766,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4762,6 +4791,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4786,6 +4816,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4813,6 +4844,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4840,6 +4872,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     fqs!8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4864,6 +4897,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4892,6 +4926,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f8.
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4916,6 +4951,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e8.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4940,6 +4976,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e8.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4964,6 +5001,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds!8.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -4983,6 +5021,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     ds!8.
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -5042,6 +5081,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     d8.
     \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    - \tweak to-barline ##t                                      %! IC
     - \tweak circled-tip ##t                                     %! IC
     \>                                                           %! IC
     \repeatTie
@@ -6298,6 +6338,7 @@ B_PercussionMusicVoice = {
     d,2.
     :32                                                          %! IC
     \pp                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
     \repeatTie
@@ -6615,6 +6656,7 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
     f'16
     \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+    - \tweak to-barline ##t                                      %! IC:BACA_HAIRPIN
     - \tweak circled-tip ##t                                     %! IC:BACA_HAIRPIN
     \>                                                           %! IC:BACA_HAIRPIN
     [
@@ -7570,6 +7612,7 @@ B_ViolinMusicVoice = {
         \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\staccato                                               %! IC
         ^ \markup { "col legno battuto" }                        %! IC
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         [
@@ -7978,6 +8021,7 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         f'8
         \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
     }
@@ -8932,6 +8976,7 @@ B_ViolaMusicVoice = {
         d'8
         \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\staccato                                               %! IC
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         [
@@ -9504,6 +9549,7 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC:BACA_HAIRPIN
         d,\longa..
         \ff                                                      %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         \stopTextSpan                                            %! PWC1
@@ -9863,6 +9909,7 @@ B_CelloMusicVoice = {
         d'8
         \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:IC:BACA_HAIRPIN
         -\staccato                                               %! IC
+        - \tweak to-barline ##t                                  %! IC:BACA_HAIRPIN
         - \tweak circled-tip ##t                                 %! IC:BACA_HAIRPIN
         \>                                                       %! IC:BACA_HAIRPIN
         [

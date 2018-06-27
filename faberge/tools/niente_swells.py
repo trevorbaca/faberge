@@ -38,8 +38,10 @@ def niente_swells(dynamic):
         selector=selector,
         )
     commands.append(command)
+    dynamic_trend = abjad.DynamicTrend('>o')
+    abjad.tweak(dynamic_trend).to_barline = True
     command = baca.dynamic_trend(
-        '>o',
+        dynamic_trend,
         selector=selector,
         )
     commands.append(command)
