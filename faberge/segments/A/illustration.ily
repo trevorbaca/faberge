@@ -2887,15 +2887,15 @@ A_FluteMusicVoice = {
     R1 * 1
     
     % [A FluteMusicVoice measure 85 / measure 81]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs''!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs''!4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [A FluteMusicVoice measure 86 / measure 82]                %! SM4
@@ -2926,30 +2926,30 @@ A_FluteMusicVoice = {
     fs''!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs''!8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A FluteMusicVoice measure 93 / measure 89]                %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs''!2.
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
     % [A FluteMusicVoice measure 94 / measure 90]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs''!2.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     \times 2/3 {
         
@@ -2997,17 +2997,17 @@ A_FluteMusicVoice = {
     \repeatTie
     
     % [A FluteMusicVoice measure 96 / measure 92]                %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs'!2.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
 }
 
@@ -4260,146 +4260,146 @@ A_ClarinetMusicVoice = {
     r2.
     
     % [A ClarinetMusicVoice measure 51 / measure 47]             %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e1.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 54 / measure 50]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!\breve
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 57 / measure 53]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e\breve.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     e4
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 62 / measure 58]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!1.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 65 / measure 61]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e1
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     e4
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 67 / measure 63]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!2
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [A ClarinetMusicVoice measure 68 / measure 64]             %! SM4
@@ -4430,110 +4430,110 @@ A_ClarinetMusicVoice = {
     eqs!2
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!8.
-    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \ppp                                                         %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 75 / measure 71]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e1.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 78 / measure 74]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!\breve
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     eqs!4
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 81 / measure 77]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e\breve
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     e4
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 85 / measure 81]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
     % [A ClarinetMusicVoice measure 86 / measure 82]             %! SM4
@@ -4564,67 +4564,67 @@ A_ClarinetMusicVoice = {
     eqs!2.
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 93 / measure 89]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e1..
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     e8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
     % [A ClarinetMusicVoice measure 96 / measure 92]             %! SM4
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!4
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak circled-tip ##t                                     %! IC
-    \<                                                           %! IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \<                                                           %! PIC
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!2
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqs!8.
-    \p                                                           %! SM8:EXPLICIT_DYNAMIC:IC
-    - \tweak to-barline ##t                                      %! IC
-    - \tweak circled-tip ##t                                     %! IC
-    \>                                                           %! IC
+    \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak to-barline ##t                                      %! PIC
+    - \tweak circled-tip ##t                                     %! PIC
+    \>                                                           %! PIC
     \repeatTie
     
-    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     r16
-    \!                                                           %! SM8:EXPLICIT_DYNAMIC:IC
+    \!                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     
 }
 

@@ -501,57 +501,57 @@ maker(
         ),
     baca.measures(
         1,
-        *faberge.niente_swells('p'),
+        faberge.niente_swells('p'),
         ),
     baca.measures(
         2,
-        *faberge.niente_swells('mp'),
+        faberge.niente_swells('mp'),
         ),
     baca.measures(
         3,
-        *faberge.niente_swells('mf'),
+        faberge.niente_swells('mf'),
         ),
     baca.measures(
         (4, 5),
         baca.markups.fluttertongue(),
         baca.stem_tremolo(selector=baca.pleaves()),
-        *faberge.niente_swells('f'),
+        faberge.niente_swells('f'),
         ),
     baca.measures(
         6,
         baca.markups.non_flutt(),
-        *faberge.niente_swells('mf'),
+        faberge.niente_swells('mf'),
         ),
     baca.measures(
         7,
-        *faberge.niente_swells('mp'),
+        faberge.niente_swells('mp'),
         ),
     baca.measures(
         8,
-        *faberge.niente_swells('mf'),
+        faberge.niente_swells('mf'),
         ),
     baca.measures(
         9,
         baca.markups.fluttertongue(),
         baca.stem_tremolo(selector=baca.pleaves()),
-        *faberge.niente_swells('f'),
+        faberge.niente_swells('f'),
         ),
     baca.measures(
         10,
         baca.markups.non_flutt(),
-        *faberge.niente_swells('mf'),
+        faberge.niente_swells('mf'),
         ),
     baca.measures(
         11,
-        *faberge.niente_swells('p'),
+        faberge.niente_swells('p'),
         ),
     baca.measures(
         12,
-        *faberge.niente_swells('pp'),
+        faberge.niente_swells('pp'),
         ),
     baca.measures(
         (13, 14),
-        *faberge.niente_swells('ppp'),
+        faberge.niente_swells('ppp'),
         ),
     baca.measures(
         16,
@@ -560,7 +560,7 @@ maker(
             allow_repeats=True,
             ),
         faberge.color_fingerings(),
-        *faberge.niente_swells('ppp'),
+        faberge.niente_swells('ppp'),
         ),
     )
 
@@ -678,16 +678,16 @@ maker(
         ),
     baca.measures(
         (1, 11),
-        *faberge.niente_swells('p'),
+        faberge.niente_swells('p'),
         ),
     baca.measures(
         (12, 14),
-        *faberge.niente_swells('pp'),
+        faberge.niente_swells('pp'),
         ),
     baca.measures(
         16,
         baca.pitch('C2'),
-        *faberge.niente_swells('ppp'),
+        faberge.niente_swells('ppp'),
         ),
     )
 

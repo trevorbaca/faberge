@@ -601,15 +601,15 @@ maker(
     ('cl', (9, 17)),
     baca.measures(
         (9, 12),
-        *faberge.niente_swells('p'),
+        faberge.niente_swells('p'),
         ),
     baca.measures(
         13,
-        *faberge.niente_swells('ppp'),
+        faberge.niente_swells('ppp'),
         ),
     baca.measures(
         (14, 17),
-        *faberge.niente_swells('p'),
+        faberge.niente_swells('p'),
         ),
     baca.pitches('D2 D+2'),
     )
