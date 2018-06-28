@@ -9,18 +9,18 @@ def increasing_dal_niente_hairpins():
     return [
         baca.map(
             baca.run(0),
-            baca.generalized_hairpin('niente o< p', selector=baca.rleaves()),
+            baca.hairpin('niente o< p', selector=baca.rleaves()),
             ),
         baca.map(
             baca.run(1),
-            baca.generalized_hairpin('niente o< mp', selector=baca.rleaves()),
+            baca.hairpin('niente o< mp', selector=baca.rleaves()),
             ),
         baca.map(
             baca.runs()[2:4],
-            baca.generalized_hairpin('niente o< mf', selector=baca.rleaves()),
+            baca.hairpin('niente o< mf', selector=baca.rleaves()),
             ),
         baca.map(
             baca.runs()[4:],
-            baca.generalized_hairpin('niente o< f', selector=baca.rleaves()),
+            baca.hairpin('niente o< f', selector=baca.rleaves()),
             ),
         ]

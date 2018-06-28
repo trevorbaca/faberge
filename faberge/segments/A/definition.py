@@ -919,7 +919,7 @@ maker(
 
 maker(
     ('va', 3),
-    baca.generalized_hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin('pp < mp', selector=baca.rleaves()),
     )
 
 maker(
@@ -943,7 +943,7 @@ maker(
 
 maker(
     ('va', 6),
-    baca.generalized_hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin('pp < mp', selector=baca.rleaves()),
     )
 
 maker(
@@ -967,7 +967,7 @@ maker(
 
 maker(
     ('va', 9),
-    baca.generalized_hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin('pp < mp', selector=baca.rleaves()),
     )
 
 maker(
@@ -1000,7 +1000,7 @@ maker(
 
 maker(
     ('va', 14),
-    baca.generalized_hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin('pp < mp', selector=baca.rleaves()),
     )
 
 maker(
@@ -1032,7 +1032,7 @@ maker(
 
 maker(
     ('vc', (1, 2)),
-    baca.generalized_hairpin('p < f', selector=baca.rleaves()),
+    baca.hairpin('p < f', selector=baca.rleaves()),
     baca.transition(
         baca.markups.tasto_plus_poco_vib(),
         baca.markups.PO_plus_poco_vib(False, True),
@@ -1042,7 +1042,7 @@ maker(
 
 maker(
     ('vc', (4, 6)),
-    baca.generalized_hairpin('f > p', selector=baca.rleaves()),
+    baca.hairpin('f > p', selector=baca.rleaves()),
     baca.transition(
         baca.markups.PO_plus_poco_vib(True, True),
         baca.markups.tasto_plus_poco_vib(False, True),
@@ -1052,7 +1052,7 @@ maker(
 
 maker(
     ('vc', (9, 10)),
-    baca.generalized_hairpin('p < ff', selector=baca.rleaves()),
+    baca.hairpin('p < ff', selector=baca.rleaves()),
     baca.transition(
         baca.markups.tasto_plus_poco_vib(True, True),
         baca.markups.poco_pont_plus_vib_mod(),
@@ -1068,7 +1068,7 @@ maker(
 
 maker(
     ('vc', (14, 15)),
-    baca.generalized_hairpin('ff > pp', selector=baca.rleaves()),
+    baca.hairpin('ff > pp', selector=baca.rleaves()),
     baca.transition(
         baca.markups.poco_pont_plus_sub_vib_mod(True, False),
         baca.markups.tasto_plus_non_vib(),
@@ -1078,7 +1078,7 @@ maker(
 
 maker(
     ('vc', 16),
-    baca.generalized_hairpin('pp < p', selector=baca.rleaves()),
+    baca.hairpin('pp < p', selector=baca.rleaves()),
     baca.transition(
         None,
         baca.markups.tasto_plus_poco_vib(True, False),
