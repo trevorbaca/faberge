@@ -626,7 +626,7 @@ maker(
     baca.dynamic('"ff"'),
     baca.measures(
         (12, 14),
-        baca.hairpin('"ff" >o niente', selector=baca.tleaves().rleak()),
+        baca.generalized_hairpin('"ff" >o niente', selector=baca.tleaves().rleak()),
         ),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=-3)
@@ -802,7 +802,7 @@ maker(
     baca.markups.spazz(),
     baca.measures(
         (4, 5),
-        baca.hairpin('"ff" >o niente'),
+        baca.generalized_hairpin('"ff" >o niente'),
         ),
     baca.pitch('F4'),
     )
@@ -812,11 +812,11 @@ maker(
     baca.dynamic('ppp'),
     baca.measures(
         9,
-        baca.hairpin('ppp < f', selector=baca.rleaves()),
+        baca.generalized_hairpin('ppp < f', selector=baca.rleaves()),
         ),
     baca.measures(
         (10, 11),
-        baca.hairpin('f > ppp'),
+        baca.generalized_hairpin('f > ppp'),
         ),
     baca.markups.pochiss_scratch(),
     baca.pitch('E~4'),
@@ -827,7 +827,7 @@ maker(
     baca.clef('percussion'),
     baca.measures(
         (12, 13),
-        baca.hairpin('"p" < "mf"', selector=baca.rleaves()),
+        baca.generalized_hairpin('"p" < "mf"', selector=baca.rleaves()),
         ),
     baca.staff_lines(1),
     baca.suite(
@@ -853,7 +853,7 @@ maker(
 maker(
     ('vn', 17),
     baca.markup('col legno battuto'),
-    baca.hairpin('"mf" >o niente'),
+    baca.generalized_hairpin('"mf" >o niente'),
     baca.staccato(selector=baca.pheads()),
     faberge.clb_pitches(rotation=-3),
     )
@@ -872,7 +872,7 @@ maker(
     baca.markups.spazz(),
     baca.measures(
         (4, 5),
-        baca.hairpin('"ff" >o niente'),
+        baca.generalized_hairpin('"ff" >o niente'),
         ),
     baca.pitch('F4'),
     )
@@ -882,11 +882,11 @@ maker(
     baca.dynamic('pp'),
     baca.measures(
         9,
-        baca.hairpin('pp < f', selector=baca.rleaves()),
+        baca.generalized_hairpin('pp < f', selector=baca.rleaves()),
         ),
     baca.measures(
         (10, 11),
-        baca.hairpin('f > pp'),
+        baca.generalized_hairpin('f > pp'),
         ),
     baca.markups.tasto_plus_pochiss_scratch(),
     baca.pitch('G3'),
@@ -898,11 +898,11 @@ maker(
     baca.clef('percussion'),
     baca.measures(
         (12, 13),
-        baca.hairpin('"p" < "mf"', selector=baca.rleaves()),
+        baca.generalized_hairpin('"p" < "mf"', selector=baca.rleaves()),
         ),
     baca.measures(
         17,
-        baca.hairpin('"mf" >o niente'),
+        baca.generalized_hairpin('"mf" >o niente'),
         ),
     baca.staff_lines(1),
     baca.staccato(selector=baca.pheads()),
@@ -929,7 +929,7 @@ maker(
         baca.markups.molto_pont_plus_vib_molto(),
         selector=baca.rleaves(),
         ),
-    baca.hairpin('p < ff', selector=baca.rleaves()),
+    baca.generalized_hairpin('p < ff', selector=baca.rleaves()),
     )
 
 maker(
@@ -939,7 +939,7 @@ maker(
         baca.markups.tasto_plus_poco_vib(),
         selector=baca.rleaves(),
         ),
-    baca.hairpin('ff > p', selector=baca.rleaves()),
+    baca.generalized_hairpin('ff > p', selector=baca.rleaves()),
     )
 
 maker(
@@ -973,7 +973,7 @@ maker(
             baca.markups.PO(),
             selector=baca.rleaves(),
             ),
-        baca.hairpin('p < ff', selector=baca.rleaves()),
+        baca.generalized_hairpin('p < ff', selector=baca.rleaves()),
         ),
     baca.measures(
         (11, 13),
@@ -985,7 +985,7 @@ maker(
         ),
     baca.measures(
         (11, 14),
-        baca.hairpin('ff >o niente'),
+        baca.generalized_hairpin('ff >o niente'),
         baca.transition(
             None,
             baca.markups.tasto_poss(),
@@ -1000,7 +1000,7 @@ maker(
     baca.dynamic('"mf"'),
     baca.measures(
         17,
-        baca.hairpin('"mf" >o niente'),
+        baca.generalized_hairpin('"mf" >o niente'),
         ),
     baca.not_parts(baca.bar_extent_persistent((0, 2))),
     baca.staff_lines(1),
