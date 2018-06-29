@@ -752,6 +752,7 @@ maker(
         (6, 12),
         baca.hairpins(
             'ppp < pp >',
+            bookend=False,
             piece_selector=baca.group_by_measures([2, 3]),
             ),
         ),
