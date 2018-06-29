@@ -7001,7 +7001,7 @@ A_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'green4) %! SM6:REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
     \once \override Voice.DynamicText.color = #(x11-color 'green4) %! SM6:REAPPLIED_DYNAMIC_COLOR:SM37
     r4.
-    \effort_f                                                    %! SM8:REAPPLIED_DYNAMIC:SM37
+    \baca_effort_f                                               %! SM8:REAPPLIED_DYNAMIC:SM37
     ^ \markup {                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         \with-color                                              %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
             #(x11-color 'green4)                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
@@ -7843,7 +7843,7 @@ A_ViolinMusicVoice = {
     % [A ViolinMusicVoice measure 67 / measure 63]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e'16
-    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_f                                               %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { spazz. }                                         %! IC
     [
     
@@ -8208,7 +8208,7 @@ A_ViolinMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     e'16
-    \effort_f                                                    %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_f                                               %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup { spazz. }                                         %! IC
     [
     
@@ -9018,7 +9018,7 @@ A_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { spazz. }                                     %! IC
     }
     \times 2/3 {
@@ -9243,7 +9243,7 @@ A_ViolaMusicVoice = {
         % [A ViolaMusicVoice measure 85 / measure 81]            %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { spazz. }                                     %! IC
         [
         

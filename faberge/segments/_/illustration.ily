@@ -684,7 +684,7 @@ i_ViolinMusicVoice = {
     \once \override Staff.InstrumentName.color = #(x11-color 'blue) %! SM6:EXPLICIT_MARGIN_MARKUP_COLOR:IC:-PARTS
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     e'16
-    \effort_f                                                    %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_f                                               %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
         \with-color                                              %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
             #(x11-color 'DarkViolet)                             %! SM11:DEFAULT_INSTRUMENT_ALERT:ST1
@@ -812,7 +812,7 @@ i_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
-        \effort_f                                                %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_f                                           %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { spazzolato }                                 %! IC
     }
     \times 2/3 {
