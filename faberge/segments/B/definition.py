@@ -750,7 +750,7 @@ maker(
         ],
     baca.measures(
         (6, 12),
-        baca.hairpins(
+        baca.hairpin(
             'ppp < pp >',
             bookend=False,
             piece_selector=baca.group_by_measures([2, 3]),
@@ -758,7 +758,7 @@ maker(
         ),
     baca.measures(
         (12, 14),
-        baca.hairpins(
+        baca.hairpin(
             '< pp >o niente',
             bookend=-1,
             piece_selector=baca.group_by_measures([2, 7]),
