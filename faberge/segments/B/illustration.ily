@@ -3494,7 +3494,7 @@ B_EnglishHornMusicVoice = {
         \override NoteHead.style = #'cross                       %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         ef'!16
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         e'16
@@ -3799,7 +3799,7 @@ B_EnglishHornMusicVoice = {
     \override NoteHead.style = #'cross                           %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     gs'!8
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:EXPLICIT_DYNAMIC:IC
     \times 2/3 {
         
         r8
@@ -4071,7 +4071,7 @@ B_EnglishHornMusicVoice = {
         \override NoteHead.style = #'cross                       %! OC1
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         eqs'!16
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:IC
         [
         
         ef'!16
@@ -4242,7 +4242,7 @@ B_EnglishHornMusicVoice = {
     
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gs'!16
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_effort_ff                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
@@ -4462,7 +4462,7 @@ B_EnglishHornMusicVoice = {
     \override RepeatTie.direction = #up                          %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
-    \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_mf                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { airtone }                                        %! IC
     
     % [B EnglishHornMusicVoice measure 166 / measure 70]         %! SM4
@@ -6404,7 +6404,7 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
     b1
-    \effort_mf                                                   %! SM8:EXPLICIT_DYNAMIC:IC
+    \baca_effort_mf                                              %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
@@ -6548,7 +6548,7 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 105 / measure 9]               %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     f'16
-    \effort_ff                                                   %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                              %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup { spazz. }                                         %! IC
     [
     
@@ -6655,7 +6655,7 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 109 / measure 13]              %! SM4
     \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     f'16
-    \effort_ff                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    \baca_effort_ff                                              %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak to-barline ##t                                      %! PIC
     - \tweak circled-tip ##t                                     %! PIC
     \>                                                           %! PIC
@@ -7123,7 +7123,7 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         c'8
-        \effort_p                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_p                                           %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         ^ \markup {                                              %! IC
             \override                                            %! IC
@@ -7246,7 +7246,7 @@ B_ViolinMusicVoice = {
         % [B ViolinMusicVoice measure 153 / measure 57]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         c'8
-        \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_mf                                          %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         [
         
@@ -7579,7 +7579,7 @@ B_ViolinMusicVoice = {
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie       %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1) %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     c'1
-    \effort_mf                                                   %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_mf                                              %! SM8:REDUNDANT_DYNAMIC:IC
     ^ \markup {                                                  %! IC
         \override                                                %! IC
             #'(box-padding . 0.5)                                %! IC
@@ -7609,7 +7609,7 @@ B_ViolinMusicVoice = {
         % [B ViolinMusicVoice measure 169 / measure 73]          %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         c'8
-        \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_mf                                          %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         ^ \markup { "col legno battuto" }                        %! IC
         - \tweak to-barline ##t                                  %! PIC
@@ -7931,7 +7931,7 @@ B_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         f'8
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:IC
         ^ \markup { spazz. }                                     %! IC
     }
     \times 2/3 {
@@ -8020,7 +8020,7 @@ B_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         f'8
-        \effort_ff                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_ff                                          %! SM8:EXPLICIT_DYNAMIC:PIC
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
@@ -8431,7 +8431,7 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         b8
-        \effort_p                                                %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_p                                           %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         ^ \markup {                                              %! IC
             \override                                            %! IC
@@ -8561,7 +8561,7 @@ B_ViolaMusicVoice = {
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         c'8
-        \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_mf                                          %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         
         c'8
@@ -8974,7 +8974,7 @@ B_ViolaMusicVoice = {
         % [B ViolaMusicVoice measure 169 / measure 73]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         d'8
-        \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_mf                                          %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
@@ -9604,7 +9604,7 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue) %! SM6:EXPLICIT_STAFF_LINES_COLOR:IC
         d'8
-        \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:IC
+        \baca_effort_mf                                          %! SM8:EXPLICIT_DYNAMIC:IC
         -\staccato                                               %! IC
         ^ \markup {                                              %! IC
             \override                                            %! IC
@@ -9907,7 +9907,7 @@ B_CelloMusicVoice = {
         % [B CelloMusicVoice measure 169 / measure 73]           %! SM4
         \once \override Voice.DynamicText.color = #(x11-color 'blue) %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
         d'8
-        \effort_mf                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        \baca_effort_mf                                          %! SM8:EXPLICIT_DYNAMIC:PIC
         -\staccato                                               %! IC
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
