@@ -9258,37 +9258,23 @@ B_CelloMusicVoice = {
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                           %! PIC
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "(tasto + poco vib.)"                        %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "molto pont. + vib. molto"                   %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "(tasto + poco vib.)"                        %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "molto pont. + vib. molto"                           %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [B CelloMusicVoice measure 106 / measure 10]               %! SM4
     ef,!2
@@ -9307,7 +9293,7 @@ B_CelloMusicVoice = {
     ef,!2.
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [B CelloMusicVoice measure 110 / measure 14]               %! SM4
     ef,!1
@@ -9351,37 +9337,23 @@ B_CelloMusicVoice = {
     \ff                                                          %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                           %! PIC
     \repeatTie
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak bound-details.left.text \markup {                   %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \upright                                         %! PSC1
-                    "(molto pont. + vib. molto)"                 %! PSC1
-                \hspace                                          %! PSC1
-                    #0.5                                         %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "tasto + poco vib."                          %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
+    - \abjad_dashed_line_with_arrow                              %! PIC
+    - \tweak bound-details.left.text \markup {                   %! PIC
+        \concat                                                  %! PIC
+            {                                                    %! PIC
+                \upright                                         %! PIC
+                    "(molto pont. + vib. molto)"                 %! PIC
+                \hspace                                          %! PIC
+                    #0.5                                         %! PIC
+            }                                                    %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.text \markup {                  %! PIC
+        \upright                                                 %! PIC
+            "tasto + poco vib."                                  %! PIC
+        }                                                        %! PIC
+    - \tweak bound-details.right.padding #0.5                    %! PIC
+    - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
+    \startTextSpan                                               %! PIC
     
     % [B CelloMusicVoice measure 120 / measure 24]               %! SM4
     ef,!2.
@@ -9400,29 +9372,6 @@ B_CelloMusicVoice = {
     ef,!1
     \p                                                           %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
-    \stopTextSpan                                                %! PSC1
-    - \tweak Y-extent ##f                                        %! PSC1
-    - \tweak arrow-width 0.25                                    %! PSC1
-    - \tweak dash-fraction 0.25                                  %! PSC1
-    - \tweak dash-period 1.5                                     %! PSC1
-    - \tweak bound-details.left-broken.text ##f                  %! PSC1
-    - \tweak bound-details.left.stencil-align-dir-y #center      %! PSC1
-    - \tweak bound-details.right.arrow ##t                       %! PSC1
-    - \tweak bound-details.right-broken.arrow ##f                %! PSC1
-    - \tweak bound-details.right-broken.padding 0                %! PSC1
-    - \tweak bound-details.right-broken.text ##f                 %! PSC1
-    - \tweak bound-details.right.padding 0.5                     %! PSC1
-    - \tweak bound-details.right.stencil-align-dir-y #center     %! PSC1
-    - \tweak bound-details.right.text \markup {                  %! PSC1
-        \concat                                                  %! PSC1
-            {                                                    %! PSC1
-                \hspace                                          %! PSC1
-                    #0.0                                         %! PSC1
-                \upright                                         %! PSC1
-                    "(tasto+) non vib."                          %! PSC1
-            }                                                    %! PSC1
-        }                                                        %! PSC1
-    \startTextSpan                                               %! PSC1
     
     % [B CelloMusicVoice measure 124 / measure 28]               %! SM4
     ef,!2.
@@ -9439,7 +9388,7 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 127 / measure 31]               %! SM4
     ef,!2.
     \repeatTie
-    \stopTextSpan                                                %! PSC1
+    \stopTextSpan                                                %! PIC
     
     % [B CelloMusicVoice measure 128 / measure 32]               %! SM4
     ef,!1
@@ -9476,37 +9425,6 @@ B_CelloMusicVoice = {
             }                                                    %! IC
         \<                                                       %! PIC
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak bound-details.left.text \markup {               %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \upright                                     %! PSC1
-                        "(tasto + non vib.)"                     %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.5                                     %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak bound-details.right.text \markup {              %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.0                                     %! PSC1
-                    \upright                                     %! PSC1
-                        PO                                       %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        \startTextSpan                                           %! PSC1
     }
     
     % [B CelloMusicVoice measure 141 / measure 45]               %! SM4
@@ -9522,30 +9440,7 @@ B_CelloMusicVoice = {
         - \tweak to-barline ##t                                  %! PIC
         - \tweak circled-tip ##t                                 %! PIC
         \>                                                       %! PIC
-        \stopTextSpan                                            %! PSC1
         \glissando                                               %! SC
-        - \tweak Y-extent ##f                                    %! PSC1
-        - \tweak arrow-width 0.25                                %! PSC1
-        - \tweak dash-fraction 0.25                              %! PSC1
-        - \tweak dash-period 1.5                                 %! PSC1
-        - \tweak bound-details.left-broken.text ##f              %! PSC1
-        - \tweak bound-details.left.stencil-align-dir-y #center  %! PSC1
-        - \tweak bound-details.right.arrow ##t                   %! PSC1
-        - \tweak bound-details.right-broken.arrow ##f            %! PSC1
-        - \tweak bound-details.right-broken.padding 0            %! PSC1
-        - \tweak bound-details.right-broken.text ##f             %! PSC1
-        - \tweak bound-details.right.padding 0.5                 %! PSC1
-        - \tweak bound-details.right.stencil-align-dir-y #center %! PSC1
-        - \tweak bound-details.right.text \markup {              %! PSC1
-            \concat                                              %! PSC1
-                {                                                %! PSC1
-                    \hspace                                      %! PSC1
-                        #0.0                                     %! PSC1
-                    \upright                                     %! PSC1
-                        "tasto poss."                            %! PSC1
-                }                                                %! PSC1
-            }                                                    %! PSC1
-        \startTextSpan                                           %! PSC1
     }
     \tweak text #tuplet-number::calc-fraction-text
     \times 11/16 {
@@ -9587,7 +9482,6 @@ B_CelloMusicVoice = {
                             "(mute string with left hand)"       %! IC
                         }                                        %! IC
             }                                                    %! IC
-        \stopTextSpan                                            %! PSC1
         [
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)  %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
         
