@@ -925,7 +925,7 @@ maker(
 
 maker(
     ('vc', (2, 3)),
-    baca.transition(
+    baca.new_transition(
         baca.markups.tasto_plus_poco_vib(True, True),
         baca.markups.molto_pont_plus_vib_molto(),
         selector=baca.rleaves(),
@@ -935,18 +935,21 @@ maker(
 
 maker(
     ('vc', 6),
-    baca.transition(
-        baca.markups.molto_pont_plus_vib_molto(True, True),
-        baca.markups.tasto_plus_poco_vib(),
-        selector=baca.rleaves(),
-        ),
+#    baca.new_transition(
+#        baca.markups.molto_pont_plus_vib_molto(True, True),
+#        baca.markups.tasto_plus_poco_vib(),
+#        selector=baca.rleaves(),
+#        ),
     baca.hairpin('ff > p', selector=baca.rleaves()),
     )
 
 maker(
-    ('vc', 7),
-    baca.transition(
-        None,
+    ('vc', (6, 7)),
+    baca.new_text_spanner(
+        baca.markups.molto_pont_plus_vib_molto(True, True),
+        '=>',
+        baca.markups.tasto_plus_poco_vib(),
+        '=>',
         baca.markups.tasto_plus_non_vib(True, False),
         selector=baca.rleaves(),
         ),
@@ -969,11 +972,6 @@ maker(
         ),
     baca.measures(
         (9, 10),
-        baca.transition(
-            baca.markups.tasto_plus_non_vib(True, True),
-            baca.markups.PO(),
-            selector=baca.rleaves(),
-            ),
         baca.hairpin('p < ff', selector=baca.rleaves()),
         ),
     baca.measures(
@@ -987,13 +985,23 @@ maker(
     baca.measures(
         (11, 14),
         baca.hairpin('ff >o niente'),
-        baca.transition(
-            None,
-            baca.markups.tasto_poss(),
-            selector=baca.rleaves(),
-            ),
         ),
     )
+
+# TODO: make this work again:
+#maker(
+#    ('vc', (9, 13)),
+#    baca.new_text_spanner(
+#        baca.markups.tasto_plus_non_vib(True, True),
+#        '=>',
+#        baca.markups.PO(),
+#        '=>',
+#        baca.markups.tasto_poss(),
+#        piece_selector=baca.group_by_measures([12, 8]),
+#        selector=baca.rleaves(),
+#        tweaks=[abjad.tweak(6).staff_padding],
+#        ),
+#    )
 
 maker(
     ('vc', (15, 17)),
