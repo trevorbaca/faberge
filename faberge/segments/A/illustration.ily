@@ -8451,15 +8451,7 @@ A_ViolaMusicVoice = {
         }                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     ^ \markup { "XFB sempre" }                                   %! IC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    tasto                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto"  %! PIC
     \startTextSpan                                               %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)         %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab) %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -8539,15 +8531,7 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    pont.                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "pont."  %! PIC
     \startTextSpan                                               %! PIC
     
     % [A ViolaMusicVoice measure 18 / measure 14]                %! SM4
@@ -8574,15 +8558,7 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    tasto                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto"  %! PIC
     \startTextSpan                                               %! PIC
     
     % [A ViolaMusicVoice measure 22 / measure 18]                %! SM4
@@ -8640,15 +8616,7 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    pont.                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "pont."  %! PIC
     \startTextSpan                                               %! PIC
     
     % [A ViolaMusicVoice measure 32 / measure 28]                %! SM4
@@ -8675,15 +8643,7 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    tasto                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto"  %! PIC
     \startTextSpan                                               %! PIC
     
     % [A ViolaMusicVoice measure 36 / measure 32]                %! SM4
@@ -8741,15 +8701,7 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    pont.                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "pont."  %! PIC
     \startTextSpan                                               %! PIC
     
     % [A ViolaMusicVoice measure 46 / measure 42]                %! SM4
@@ -8786,15 +8738,7 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    tasto                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto"  %! PIC
     \startTextSpan                                               %! PIC
     
     % [A ViolaMusicVoice measure 52 / measure 48]                %! SM4
@@ -8852,19 +8796,8 @@ A_ViolaMusicVoice = {
     \repeatTie
     \stopTextSpan                                                %! PIC
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    pont.                                        %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
-    - \tweak bound-details.right.text \markup {                  %! PIC
-        \upright                                                 %! PIC
-            tasto                                                %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "pont."  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto" %! PIC
     - \tweak bound-details.right.padding #0.5                    %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
     \startTextSpan                                               %! PIC
@@ -9696,19 +9629,8 @@ A_CelloMusicVoice = {
     \>                                                           %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    "(poco pont.+) sub. vib. mod."               %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
-    - \tweak bound-details.right.text \markup {                  %! PIC
-        \upright                                                 %! PIC
-            "tasto + non vib."                                   %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "(poco pont.+) sub. vib. mod." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + non vib." %! PIC
     - \tweak bound-details.right.padding #0.5                    %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
     \startTextSpan                                               %! PIC
