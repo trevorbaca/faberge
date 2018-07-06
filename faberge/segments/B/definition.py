@@ -945,11 +945,11 @@ maker(
 maker(
     ('vc', (6, 7)),
     baca.new_text_spanner(
-        baca.markups.molto_pont_plus_vib_molto(True, True),
+        '(molto pont. + vib. molto)',
         '=>',
-        baca.markups.tasto_plus_poco_vib(),
+        'tasto + poco vib.',
         '=>',
-        baca.markups.tasto_plus_non_vib(True, False),
+        '(tasto+) non vib.',
         selector=baca.rleaves(),
         ),
     )
@@ -991,11 +991,11 @@ maker(
 #maker(
 #    ('vc', (9, 13)),
 #    baca.new_text_spanner(
-#        baca.markups.tasto_plus_non_vib(True, True),
+#        (tasto+non vib.)',
 #        '=>',
-#        baca.markups.PO(),
+#        'PO',
 #        '=>',
-#        baca.markups.tasto_poss(),
+#        'tasto poss.',
 #        piece_selector=baca.group_by_measures([12, 8]),
 #        selector=baca.rleaves(),
 #        tweaks=[abjad.tweak(6).staff_padding],

@@ -9342,19 +9342,8 @@ B_CelloMusicVoice = {
     \>                                                           %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                              %! PIC
-    - \tweak bound-details.left.text \markup {                   %! PIC
-        \concat                                                  %! PIC
-            {                                                    %! PIC
-                \upright                                         %! PIC
-                    "(molto pont. + vib. molto)"                 %! PIC
-                \hspace                                          %! PIC
-                    #0.5                                         %! PIC
-            }                                                    %! PIC
-        }                                                        %! PIC
-    - \tweak bound-details.right.text \markup {                  %! PIC
-        \upright                                                 %! PIC
-            "tasto + poco vib."                                  %! PIC
-        }                                                        %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "(molto pont. + vib. molto)" %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto + poco vib." %! PIC
     - \tweak bound-details.right.padding #0.5                    %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center     %! PIC
     \startTextSpan                                               %! PIC
