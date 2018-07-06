@@ -17,8 +17,7 @@
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \autoPageBreaksOff                                                           %! BMM1:BREAK
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -68,8 +67,7 @@
             % [PageLayout measure 492]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -119,8 +117,7 @@
             % [PageLayout measure 500]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -170,8 +167,7 @@
             % [PageLayout measure 508]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -221,8 +217,7 @@
             % [PageLayout measure 516]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -272,8 +267,7 @@
             % [PageLayout measure 524]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -323,8 +317,7 @@
             % [PageLayout measure 532]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -374,8 +367,7 @@
             % [PageLayout measure 540]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 1
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -425,8 +417,7 @@
             % [PageLayout measure 548]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -476,8 +467,7 @@
             % [PageLayout measure 556]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -527,8 +517,7 @@
             % [PageLayout measure 564]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
@@ -578,8 +567,7 @@
             % [PageLayout measure 572]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
-            \overrideProperty Score.NonMusicalPaperColumn.line-break-system-details      %! IC:BREAK
-            #'((Y-offset . 15) (alignment-distances . (20 24 24 32 24 24 32 24 24 32)))  %! IC:BREAK
+            \baca_lbsd #15 #'(20 24 24 32 24 24 32 24 24 32)                             %! IC:BREAK
             \pageBreak                                                                   %! IC:BREAK
             s1 * 3/4
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
