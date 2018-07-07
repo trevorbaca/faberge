@@ -924,7 +924,7 @@ maker(
 
 maker(
     ('vc', (2, 3)),
-    baca.new_text_spanner(
+    baca.text_spanner(
         baca.markups.tasto_plus_poco_vib(True, True),
         '=>',
         baca.markups.molto_pont_plus_vib_molto(),
@@ -935,7 +935,7 @@ maker(
 
 maker(
     ('vc', 6),
-#    baca.new_text_spanner(
+#    baca.text_spanner(
 #        baca.markups.molto_pont_plus_vib_molto(True, True),
 #        '=>',
 #        baca.markups.tasto_plus_poco_vib(),
@@ -946,7 +946,7 @@ maker(
 
 maker(
     ('vc', (6, 7)),
-    baca.new_text_spanner(
+    baca.text_spanner(
         '(molto pont. + vib. molto)',
         '=>',
         'tasto + poco vib.',
@@ -992,7 +992,7 @@ maker(
 # TODO: make this work again:
 #maker(
 #    ('vc', (9, 13)),
-#    baca.new_text_spanner(
+#    baca.text_spanner(
 #        (tasto+non vib.)',
 #        '=>',
 #        'PO',
