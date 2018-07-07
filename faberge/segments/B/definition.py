@@ -924,8 +924,9 @@ maker(
 
 maker(
     ('vc', (2, 3)),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.tasto_plus_poco_vib(True, True),
+        '=>',
         baca.markups.molto_pont_plus_vib_molto(),
         selector=baca.rleaves(),
         ),
@@ -934,8 +935,9 @@ maker(
 
 maker(
     ('vc', 6),
-#    baca.transition(
+#    baca.new_text_spanner(
 #        baca.markups.molto_pont_plus_vib_molto(True, True),
+#        '=>',
 #        baca.markups.tasto_plus_poco_vib(),
 #        selector=baca.rleaves(),
 #        ),

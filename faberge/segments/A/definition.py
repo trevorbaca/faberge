@@ -943,8 +943,9 @@ maker(
     baca.markups.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.tasto(),
+        '=>',
         baca.markups.pont(),
         ),
     )
@@ -967,8 +968,9 @@ maker(
     baca.markups.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.pont(),
+        '=>',
         baca.markups.tasto(),
         ),
     )
@@ -984,8 +986,9 @@ maker(
 maker(
     ('vc', (1, 2)),
     baca.hairpin('p < f', selector=baca.rleaves()),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.tasto_plus_poco_vib(),
+        '=>',
         baca.markups.PO_plus_poco_vib(False, True),
         selector=baca.rleaves(),
         ),
@@ -994,8 +997,9 @@ maker(
 maker(
     ('vc', (4, 6)),
     baca.hairpin('f > p', selector=baca.rleaves()),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.PO_plus_poco_vib(True, True),
+        '=>',
         baca.markups.tasto_plus_poco_vib(False, True),
         selector=baca.rleaves(),
         ),
@@ -1004,8 +1008,9 @@ maker(
 maker(
     ('vc', (9, 10)),
     baca.hairpin('p < ff', selector=baca.rleaves()),
-    baca.transition(
+    baca.new_text_spanner(
         baca.markups.tasto_plus_poco_vib(True, True),
+        '=>',
         baca.markups.poco_pont_plus_vib_mod(),
         selector=baca.rleaves(),
         ),
