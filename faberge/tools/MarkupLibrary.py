@@ -36,7 +36,7 @@ class MarkupLibrary(abjad.AbjadObject):
             'as bright and pointlike as possible;',
             '(mute string with left hand)',
             ]
-        return baca.markups.lines(strings).boxed()
+        return baca.markuplib.lines(strings).boxed()
 
     @staticmethod
     def doubletrill():
