@@ -512,13 +512,13 @@ maker(
         ),
     baca.measures(
         (4, 5),
-        baca.markuplib.fluttertongue(),
+        baca.markups.fluttertongue(),
         baca.stem_tremolo(selector=baca.pleaves()),
         faberge.niente_swells('f'),
         ),
     baca.measures(
         6,
-        baca.markuplib.non_flutt(),
+        baca.markups.non_flutt(),
         faberge.niente_swells('mf'),
         ),
     baca.measures(
@@ -531,13 +531,13 @@ maker(
         ),
     baca.measures(
         9,
-        baca.markuplib.fluttertongue(),
+        baca.markups.fluttertongue(),
         baca.stem_tremolo(selector=baca.pleaves()),
         faberge.niente_swells('f'),
         ),
     baca.measures(
         10,
-        baca.markuplib.non_flutt(),
+        baca.markups.non_flutt(),
         faberge.niente_swells('mf'),
         ),
     baca.measures(
@@ -635,7 +635,7 @@ maker(
     ('eh', (15, 16)),
     baca.clef('percussion'),
     baca.markup(
-        baca.markuplib.remove_staple().boxed(),
+        baca.markups.remove_staple().boxed(),
         selector=baca.leaf(0),
         ),
     baca.staff_lines(1),
@@ -644,7 +644,7 @@ maker(
 maker(
     ('eh', 16),
     baca.dynamic('"mf"'),
-    baca.markuplib.airtone(),
+    baca.markups.airtone(),
     baca.pitch('F3'),
     baca.repeat_tie_up(),
     )
@@ -711,7 +711,7 @@ maker(
     ('perc', 1),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup(
-        baca.markuplib.lv_possibile(),
+        baca.markups.lv_possibile(),
         selector=baca.ptail(0),
         ),
     baca.pitch('G4'),
@@ -770,7 +770,7 @@ maker(
     ('perc', 16),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
-    baca.markuplib.lines([
+    baca.markups.lines([
         'rub sponge on bass drum head;',
         'noise only: no pitch',
         ]).boxed(),
@@ -789,7 +789,7 @@ maker(
 maker(
     ('vn', 1),
     baca.markup(
-        baca.markuplib.lv_possibile(),
+        baca.markups.lv_possibile(),
         selector=baca.ptail(0),
         ),
     baca.pitch('G6'),
@@ -799,7 +799,7 @@ maker(
 maker(
     ('vn', (2, 5)),
     baca.dynamic('"ff"'),
-    baca.markuplib.spazz(),
+    baca.markups.spazz(),
     baca.measures(
         (4, 5),
         baca.hairpin('"ff" >o niente'),
@@ -818,7 +818,7 @@ maker(
         (10, 11),
         baca.hairpin('f > ppp'),
         ),
-    baca.markuplib.pochiss_scratch(),
+    baca.markups.pochiss_scratch(),
     baca.pitch('E~4'),
     )
 
@@ -842,7 +842,7 @@ maker(
 maker(
     ('vn', 16),
     baca.dynamic('"mf"'),
-    baca.markuplib.lines([
+    baca.markups.lines([
         'bow directly on bridge;',
         'noise only: no pitch',
         ]).boxed(),
@@ -869,7 +869,7 @@ maker(
 maker(
     ('va', (2, 5)),
     baca.dynamic('"ff"'),
-    baca.markuplib.spazz(),
+    baca.markups.spazz(),
     baca.measures(
         (4, 5),
         baca.hairpin('"ff" >o niente'),
@@ -888,7 +888,7 @@ maker(
         (10, 11),
         baca.hairpin('f > pp'),
         ),
-    baca.markuplib.tasto_plus_pochiss_scratch(),
+    baca.markups.tasto_plus_pochiss_scratch(),
     baca.pitch('G3'),
     )
 
@@ -926,9 +926,9 @@ maker(
     ('vc', (2, 3)),
     baca.text_spanner(
         [
-            baca.markuplib.tasto_plus_poco_vib(True, True),
+            baca.markups.tasto_plus_poco_vib(True, True),
             '=>',
-            baca.markuplib.molto_pont_plus_vib_molto(),
+            baca.markups.molto_pont_plus_vib_molto(),
             ],
         selector=baca.rleaves(),
         ),
@@ -939,9 +939,9 @@ maker(
     ('vc', 6),
 #    baca.text_spanner(
 #        [
-#            baca.markuplib.molto_pont_plus_vib_molto(True, True),
+#            baca.markups.molto_pont_plus_vib_molto(True, True),
 #            '=>',
-#            baca.markuplib.tasto_plus_poco_vib(),
+#            baca.markups.tasto_plus_poco_vib(),
 #            ],
 #        selector=baca.rleaves(),
 #        ),
@@ -965,7 +965,7 @@ maker(
 maker(
     ('vc', (9, 14)),
     baca.glissando(),
-    baca.markuplib.lines([
+    baca.markups.lines([
         'glissando lentissimo',
         'do not reattack note heads',
         ]),

@@ -678,7 +678,7 @@ maker(
 maker(
     ('eh', 18),
     baca.markup(
-        baca.markuplib.remove_staple().boxed(),
+        baca.markups.remove_staple().boxed(),
         selector=baca.leaf(0),
         ),
     )
@@ -686,7 +686,7 @@ maker(
 maker(
     ('eh', (21, 23)),
     baca.clef('percussion'),
-    baca.markuplib.ratchet().boxed(),
+    baca.markups.ratchet().boxed(),
     baca.staff_lines(1),
     #baca.pitch('C4'),
     )

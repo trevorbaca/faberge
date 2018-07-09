@@ -524,7 +524,7 @@ maker(
     ('eh', 16),
     baca.note_head_style_cross(),
     baca.dynamic("ff"),
-    baca.markuplib.keynoise().boxed(),
+    baca.markups.keynoise().boxed(),
     faberge.keynoise_pitches(rotation=0)
     )
 
@@ -618,7 +618,7 @@ maker(
 maker(
     ('rh', (1, 16)),
     faberge.chord_pitches('D4 E4 F#4 C5 D5'),
-    baca.markuplib.lines([
+    baca.markups.lines([
         'depress silently;',
         'sustain with middle pedal',
         ]).boxed(),
@@ -741,10 +741,10 @@ maker(
         ),
     baca.staff_lines(2),
     baca.markup(
-        baca.markuplib.bass_drum().boxed(),
+        baca.markups.bass_drum().boxed(),
         selector=baca.plt(-1),
         ),
-    baca.markuplib.castanets().boxed(),
+    baca.markups.castanets().boxed(),
     )
 
 maker(
@@ -753,7 +753,7 @@ maker(
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.pitch('F#4'),
     baca.staff_lines(5),
-    baca.markuplib.bowed_crotales().boxed(),
+    baca.markups.bowed_crotales().boxed(),
     faberge.dal_niente_hairpins('f'),
     )
 
@@ -839,7 +839,7 @@ maker(
 maker(
     ('vn', 13),
     baca.dynamic('"f"'),
-    baca.markuplib.spazz(),
+    baca.markups.spazz(),
     baca.pitch('E4'),
     )
 
@@ -850,7 +850,7 @@ maker(
 
 maker(
     ('vn', 14),
-    baca.markuplib.non_spazz(),
+    baca.markups.non_spazz(),
     faberge.increasing_dal_niente_hairpins(),
     )
 
@@ -862,13 +862,13 @@ maker(
 maker(
     ('vn', 16),
     baca.dynamic('"f"'),
-    baca.markuplib.spazz(),
+    baca.markups.spazz(),
     baca.pitch('E4'),
     )
 
 maker(
     ('vn', 17),
-    baca.markuplib.non_spazz(),
+    baca.markups.non_spazz(),
     baca.pitch('F#6'),
     faberge.dal_niente_hairpins('f'),
     )
@@ -883,7 +883,7 @@ maker(
 maker(
     ('va', (1, 12)),
     baca.dynamic('mp'),
-    baca.markuplib.XFB_sempre(),
+    baca.markups.XFB_sempre(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.text_spanner(
@@ -931,13 +931,13 @@ maker(
 maker(
     ('va', 13),
     baca.dynamic('"f"'),
-    baca.markuplib.spazz(),
+    baca.markups.spazz(),
     baca.pitch('E4'),
     )
 
 maker(
     ('va', (14, 15)),
-    baca.markuplib.XFB(),
+    baca.markups.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.text_spanner('tasto => pont.'),
@@ -951,14 +951,14 @@ maker(
 maker(
     ('va', 16),
     baca.dynamic('"f"'),
-    baca.markuplib.spazz(),
+    baca.markups.spazz(),
     baca.pitch('E4'),
     )
 
 maker(
     ('va', 17),
     baca.dynamic('pp'),
-    baca.markuplib.XFB(),
+    baca.markups.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.text_spanner('pont. => tasto'),
@@ -986,9 +986,9 @@ maker(
     baca.hairpin('f > p', selector=baca.rleaves()),
     baca.text_spanner(
         [
-            baca.markuplib.PO_plus_poco_vib(True, True),
+            baca.markups.PO_plus_poco_vib(True, True),
             '=>',
-            baca.markuplib.tasto_plus_poco_vib(False, True),
+            baca.markups.tasto_plus_poco_vib(False, True),
             ],
         selector=baca.rleaves(),
         ),
@@ -999,9 +999,9 @@ maker(
     baca.hairpin('p < ff', selector=baca.rleaves()),
     baca.text_spanner(
         [
-            baca.markuplib.tasto_plus_poco_vib(True, True),
+            baca.markups.tasto_plus_poco_vib(True, True),
             '=>',
-            baca.markuplib.poco_pont_plus_vib_mod(),
+            baca.markups.poco_pont_plus_vib_mod(),
             ],
         selector=baca.rleaves(),
         ),
@@ -1010,7 +1010,7 @@ maker(
 maker(
     ('vc', 13),
     baca.dynamic('ppp', selector=baca.pleaf(0)),
-    baca.markuplib.poco_pont_plus_sub_non_vib(True, False),
+    baca.markups.poco_pont_plus_sub_non_vib(True, False),
     )
 
 maker(
