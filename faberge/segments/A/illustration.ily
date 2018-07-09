@@ -8976,19 +8976,8 @@ A_ViolaMusicVoice = {
     ^ \markup { XFB }                                                      %! IC
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    tasto                                                  %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            pont.                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto"            %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "pont."          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -9184,19 +9173,8 @@ A_ViolaMusicVoice = {
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { XFB }                                                      %! IC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    pont.                                                  %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            tasto                                                          %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "pont."            %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto"          %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -9263,19 +9241,8 @@ A_CelloMusicVoice = {
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
     \<                                                                     %! PIC
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "tasto + poco vib."                                    %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "PO (+poco vib.)"                                              %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "tasto + poco vib." %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "PO (+poco vib.)" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC

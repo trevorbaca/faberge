@@ -925,9 +925,11 @@ maker(
 maker(
     ('vc', (2, 3)),
     baca.text_spanner(
-        baca.markuplib.tasto_plus_poco_vib(True, True),
-        '=>',
-        baca.markuplib.molto_pont_plus_vib_molto(),
+        [
+            baca.markuplib.tasto_plus_poco_vib(True, True),
+            '=>',
+            baca.markuplib.molto_pont_plus_vib_molto(),
+            ],
         selector=baca.rleaves(),
         ),
     baca.hairpin('p < ff', selector=baca.rleaves()),
@@ -936,9 +938,11 @@ maker(
 maker(
     ('vc', 6),
 #    baca.text_spanner(
-#        baca.markuplib.molto_pont_plus_vib_molto(True, True),
-#        '=>',
-#        baca.markuplib.tasto_plus_poco_vib(),
+#        [
+#            baca.markuplib.molto_pont_plus_vib_molto(True, True),
+#            '=>',
+#            baca.markuplib.tasto_plus_poco_vib(),
+#            ],
 #        selector=baca.rleaves(),
 #        ),
     baca.hairpin('ff > p', selector=baca.rleaves()),
@@ -947,11 +951,13 @@ maker(
 maker(
     ('vc', (6, 7)),
     baca.text_spanner(
-        '(molto pont. + vib. molto)',
-        '=>',
-        'tasto + poco vib.',
-        '=>',
-        '(tasto+) non vib.',
+        [
+            '(molto pont. + vib. molto)',
+            '=>',
+            'tasto + poco vib.',
+            '=>',
+            '(tasto+) non vib.',
+            ],
         selector=baca.rleaves(),
         ),
     )
@@ -993,11 +999,13 @@ maker(
 #maker(
 #    ('vc', (9, 13)),
 #    baca.text_spanner(
-#        (tasto+non vib.)',
-#        '=>',
-#        'PO',
-#        '=>',
-#        'tasto poss.',
+#        [
+#            '(tasto+non vib.)',
+#            '=>',
+#            'PO',
+#            '=>',
+#            'tasto poss.',
+#            ],
 #        piece_selector=baca.group_by_measures([12, 8]),
 #        selector=baca.rleaves(),
 #        tweaks=[abjad.tweak(6).staff_padding],
