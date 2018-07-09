@@ -887,10 +887,7 @@ maker(
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.text_spanner(
-        'tasto',
-        '=>',
-        'pont.',
-        '=>',
+        'tasto => pont. =>',
         piece_selector=baca.group_by_measures([12, 4, 10, 4, 10, 6, 10, 7]),
         selector=baca.rleaves(),
         ),
@@ -943,11 +940,7 @@ maker(
     baca.markuplib.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
-    baca.text_spanner(
-        baca.markuplib.tasto(),
-        '=>',
-        baca.markuplib.pont(),
-        ),
+    baca.text_spanner('tasto => pont.'),
     )
 
 maker(
@@ -968,11 +961,7 @@ maker(
     baca.markuplib.XFB(),
     baca.pitch('D3'),
     baca.stem_tremolo(selector=baca.pleaves()),
-    baca.text_spanner(
-        baca.markuplib.pont(),
-        '=>',
-        baca.markuplib.tasto(),
-        ),
+    baca.text_spanner('pont. => tasto'),
     )
 
 # vc
@@ -987,9 +976,7 @@ maker(
     ('vc', (1, 2)),
     baca.hairpin('p < f', selector=baca.rleaves()),
     baca.text_spanner(
-        baca.markuplib.tasto_plus_poco_vib(),
-        '=>',
-        baca.markuplib.PO_plus_poco_vib(False, True),
+        'tasto + poco vib. => PO (+poco vib.)',
         selector=baca.rleaves(),
         ),
     )
@@ -998,9 +985,11 @@ maker(
     ('vc', (4, 6)),
     baca.hairpin('f > p', selector=baca.rleaves()),
     baca.text_spanner(
-        baca.markuplib.PO_plus_poco_vib(True, True),
-        '=>',
-        baca.markuplib.tasto_plus_poco_vib(False, True),
+        [
+            baca.markuplib.PO_plus_poco_vib(True, True),
+            '=>',
+            baca.markuplib.tasto_plus_poco_vib(False, True),
+            ],
         selector=baca.rleaves(),
         ),
     )
@@ -1009,9 +998,11 @@ maker(
     ('vc', (9, 10)),
     baca.hairpin('p < ff', selector=baca.rleaves()),
     baca.text_spanner(
-        baca.markuplib.tasto_plus_poco_vib(True, True),
-        '=>',
-        baca.markuplib.poco_pont_plus_vib_mod(),
+        [
+            baca.markuplib.tasto_plus_poco_vib(True, True),
+            '=>',
+            baca.markuplib.poco_pont_plus_vib_mod(),
+            ],
         selector=baca.rleaves(),
         ),
     )
@@ -1033,12 +1024,13 @@ maker(
         baca.hairpin('pp < p', selector=baca.rleaves()),
         ),
     baca.text_spanner(
-        '(poco pont.+) sub. vib. mod.',
-        '=>',
-        'tasto + non vib.',
-        '=>',
-        'tasto + poco vib.',
-        baca.markuplib.tasto_plus_poco_vib(True, False),
+        [
+            '(poco pont.+) sub. vib. mod.',
+            '=>',
+            'tasto + non vib.',
+            '=>',
+            '(tasto+) poco vib.',
+            ],
         piece_selector=baca.group_by_measures([10, 9]),
         selector=baca.rleaves(),
         ),
