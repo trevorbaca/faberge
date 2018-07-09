@@ -1006,9 +1006,9 @@ maker(
 #            '=>',
 #            'tasto poss.',
 #            ],
+#        abjad.tweak(6).staff_padding,
 #        piece_selector=baca.group_by_measures([12, 8]),
 #        selector=baca.rleaves(),
-#        tweaks=[abjad.tweak(6).staff_padding],
 #        ),
 #    )
 
