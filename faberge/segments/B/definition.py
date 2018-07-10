@@ -512,13 +512,13 @@ maker(
         ),
     baca.measures(
         (4, 5),
-        baca.markups.fluttertongue(),
+        baca.markup('fluttertongue'),
         baca.stem_tremolo(selector=baca.pleaves()),
         faberge.niente_swells('f'),
         ),
     baca.measures(
         6,
-        baca.markups.non_flutt(),
+        baca.markup('non flutt.'),
         faberge.niente_swells('mf'),
         ),
     baca.measures(
@@ -531,13 +531,13 @@ maker(
         ),
     baca.measures(
         9,
-        baca.markups.fluttertongue(),
+        baca.markup('fluttertongue'),
         baca.stem_tremolo(selector=baca.pleaves()),
         faberge.niente_swells('f'),
         ),
     baca.measures(
         10,
-        baca.markups.non_flutt(),
+        baca.markup('non flutt.'),
         faberge.niente_swells('mf'),
         ),
     baca.measures(
@@ -606,8 +606,8 @@ maker(
         baca.runs(),
         baca.trill_spanner(),
         ),
+    baca.markup('doubletrill'),
     baca.pitch('Eb4'),
-    faberge.markup.doubletrill(),
     )
 
 maker(
@@ -616,8 +616,8 @@ maker(
         baca.runs(),
         baca.trill_spanner(),
         ),
+    baca.markup('doubletrill'),
     baca.pitch('E4'),
-    faberge.markup.doubletrill(),
     )
 
 maker(
@@ -635,7 +635,8 @@ maker(
     ('eh', (15, 16)),
     baca.clef('percussion'),
     baca.markup(
-        baca.markups.remove_staple().boxed(),
+        'remove staple',
+        boxed=True,
         selector=baca.leaf(0),
         ),
     baca.staff_lines(1),
@@ -644,7 +645,7 @@ maker(
 maker(
     ('eh', 16),
     baca.dynamic('"mf"'),
-    baca.markups.airtone(),
+    baca.markup('airtone'),
     baca.pitch('F3'),
     baca.repeat_tie_up(),
     )
@@ -711,7 +712,7 @@ maker(
     ('perc', 1),
     baca.laissez_vibrer(selector=baca.ptails()),
     baca.markup(
-        baca.markups.lv_possibile(),
+        'lv possibile',
         selector=baca.ptail(0),
         ),
     baca.pitch('G4'),
@@ -770,10 +771,14 @@ maker(
     ('perc', 16),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
-    baca.markups.lines([
-        'rub sponge on bass drum head;',
-        'noise only: no pitch',
-        ]).boxed(),
+    baca.markup(
+        baca.markups.lines([
+            'rub sponge on bass drum head;',
+            'noise only: no pitch',
+            ],
+            boxed=True,
+            ),
+        ),
     baca.pitch('B3'),
     baca.staff_lines(2),
     )
@@ -789,7 +794,7 @@ maker(
 maker(
     ('vn', 1),
     baca.markup(
-        baca.markups.lv_possibile(),
+        'lv possibile',
         selector=baca.ptail(0),
         ),
     baca.pitch('G6'),
@@ -799,7 +804,7 @@ maker(
 maker(
     ('vn', (2, 5)),
     baca.dynamic('"ff"'),
-    baca.markups.spazz(),
+    baca.markup('spazz.'),
     baca.measures(
         (4, 5),
         baca.hairpin('"ff" >o niente'),
@@ -818,7 +823,7 @@ maker(
         (10, 11),
         baca.hairpin('f > ppp'),
         ),
-    baca.markups.pochiss_scratch(),
+    baca.markup('pochiss. scrath'),
     baca.pitch('E~4'),
     )
 
@@ -835,17 +840,23 @@ maker(
         baca.not_parts(baca.bar_extent_persistent((-2, 0))),
         ),
     baca.staccato(selector=baca.pheads()),
-    faberge.markup.col_legno_battuto_first_appearance(),
+    baca.markup(
+        faberge.markup.col_legno_battuto_first_appearance(),
+        ),
     faberge.clb_pitches(rotation=-3),
     )
 
 maker(
     ('vn', 16),
     baca.dynamic('"mf"'),
-    baca.markups.lines([
-        'bow directly on bridge;',
-        'noise only: no pitch',
-        ]).boxed(),
+    baca.markup(
+        baca.markups.lines([
+            'bow directly on bridge;',
+            'noise only: no pitch',
+            ],
+            boxed=True,
+            ),
+        ),
     baca.pitch('C4'),
     baca.repeat_tie_up(),
     )
@@ -869,7 +880,7 @@ maker(
 maker(
     ('va', (2, 5)),
     baca.dynamic('"ff"'),
-    baca.markups.spazz(),
+    baca.markup('spazz.'),
     baca.measures(
         (4, 5),
         baca.hairpin('"ff" >o niente'),
@@ -888,7 +899,7 @@ maker(
         (10, 11),
         baca.hairpin('f > pp'),
         ),
-    baca.markups.tasto_plus_pochiss_scratch(),
+    baca.markup('tasto + pochiss. scratch'),
     baca.pitch('G3'),
     )
 
@@ -906,7 +917,9 @@ maker(
         ),
     baca.staff_lines(1),
     baca.staccato(selector=baca.pheads()),
-    faberge.markup.col_legno_battuto_first_appearance(),
+    baca.markup(
+        faberge.markup.col_legno_battuto_first_appearance(),
+        ),
     faberge.clb_pitches(rotation=-4),
     )
 
@@ -925,11 +938,7 @@ maker(
 maker(
     ('vc', (2, 3)),
     baca.text_spanner(
-        [
-            baca.markups.tasto_plus_poco_vib(True, True),
-            '=>',
-            baca.markups.molto_pont_plus_vib_molto(),
-            ],
+        '(tasto + poco vib.) => molto pont. + vib. molto',
         selector=baca.rleaves(),
         ),
     baca.hairpin('p < ff', selector=baca.rleaves()),
@@ -938,11 +947,7 @@ maker(
 maker(
     ('vc', 6),
 #    baca.text_spanner(
-#        [
-#            baca.markups.molto_pont_plus_vib_molto(True, True),
-#            '=>',
-#            baca.markups.tasto_plus_poco_vib(),
-#            ],
+#        '(molto pont. + vib. molto) => tasto + poco vib.',
 #        selector=baca.rleaves(),
 #        ),
     baca.hairpin('ff > p', selector=baca.rleaves()),
@@ -951,13 +956,7 @@ maker(
 maker(
     ('vc', (6, 7)),
     baca.text_spanner(
-        [
-            '(molto pont. + vib. molto)',
-            '=>',
-            'tasto + poco vib.',
-            '=>',
-            '(tasto+) non vib.',
-            ],
+        '(molto pont. + vib. molto) => tasto + poco vib. => (tasto+) non vib.',
         selector=baca.rleaves(),
         ),
     )
@@ -965,10 +964,12 @@ maker(
 maker(
     ('vc', (9, 14)),
     baca.glissando(),
-    baca.markups.lines([
-        'glissando lentissimo',
-        'do not reattack note heads',
-        ]),
+    baca.markup(
+        baca.markups.lines([
+            'glissando lentissimo',
+            'do not reattack note heads',
+            ]),
+        ),
     baca.measures(
         9,
         baca.pitch('Eb2'),
@@ -1024,6 +1025,8 @@ maker(
     baca.staff_lines(1),
     baca.staccato(selector=baca.pheads()),
     baca.text_script_staff_padding(8),
-    faberge.markup.col_legno_battuto_first_appearance(),
+    baca.markup(
+        faberge.markup.col_legno_battuto_first_appearance(),
+        ),
     faberge.clb_pitches(rotation=-5),
     )

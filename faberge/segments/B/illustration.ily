@@ -3968,12 +3968,7 @@ B_EnglishHornMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     bf'!2.
     \fff                                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup {                                                            %! IC
-        \override                                                          %! IC
-            #'(box-padding . 0.5)                                          %! IC
-            \box                                                           %! IC
-                doubletrill!                                               %! IC
-        }                                                                  %! IC
+    ^ \markup { doubletrill }                                              %! IC
     \startTrillSpan
     
     % [B EnglishHornMusicVoice measure 128 / measure 32]                   %! SM4
@@ -3998,12 +3993,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 133 / measure 37]                   %! SM4
     b'2.
-    ^ \markup {                                                            %! IC
-        \override                                                          %! IC
-            #'(box-padding . 0.5)                                          %! IC
-            \box                                                           %! IC
-                doubletrill!                                               %! IC
-        }                                                                  %! IC
+    ^ \markup { doubletrill }                                              %! IC
     \stopTrillSpan                                                         %! SC
     \startTrillSpan
     
@@ -6015,7 +6005,7 @@ B_PercussionMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Perc.”]                                                      %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup { "l.v. possibile" }                                         %! IC
+    ^ \markup { "lv possibile" }                                           %! IC
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -6478,7 +6468,7 @@ B_ViolinMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Vn.”]                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup { "l.v. possibile" }                                         %! IC
+    ^ \markup { "lv possibile" }                                           %! IC
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -6956,7 +6946,7 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     eqf'!2
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:IC
-    ^ \markup { "pochiss. scratch" }                                       %! IC
+    ^ \markup { "pochiss. scrath" }                                        %! IC
     
     % [B ViolinMusicVoice measure 120 / measure 24]                        %! SM4
     eqf'!2.
@@ -9263,19 +9253,8 @@ B_CelloMusicVoice = {
     \<                                                                     %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "(tasto + poco vib.)"                                  %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "molto pont. + vib. molto"                                     %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "(tasto + poco vib.)" %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "molto pont. + vib. molto" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC

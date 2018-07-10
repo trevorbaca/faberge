@@ -103,7 +103,7 @@ maker(
 maker(
     ('eh', 3),
     baca.clef('percussion'),
-    baca.markups.ratchet().boxed(),
+    baca.markup('ratchet', boxed=True),
     baca.staff_lines(1),
     baca.staff_position(0),
     faberge.ratchet_rhythm(),
@@ -112,7 +112,7 @@ maker(
 maker(
     ('vn', 1),
     baca.dynamic('"f"'),
-    baca.markups.spazzolato(),
+    baca.markup('spazzolato'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
@@ -122,7 +122,7 @@ maker(
 maker(
     ('va', 1),
     baca.dynamic('"f"'),
-    baca.markups.spazzolato(),
+    baca.markup('spazzolato'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,

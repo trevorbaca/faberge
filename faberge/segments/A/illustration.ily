@@ -2040,12 +2040,7 @@ A_FluteMusicVoice = {
             #(x11-color 'green4)                                           %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
             [“Fl.”]                                                        %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
         }                                                                  %! SM11:REAPPLIED_MARGIN_MARKUP_ALERT:-PARTS:SM37
-    ^ \markup {                                                            %! IC
-        \override                                                          %! IC
-            #'(box-padding . 0.5)                                          %! IC
-            \box                                                           %! IC
-                "match sound of crotales"                                  %! IC
-        }                                                                  %! IC
+    ^ \markup { "match sound of crotales" }                                %! IC
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! SM6:REAPPLIED_CLEF_REDRAW_COLOR:SM37
@@ -3689,12 +3684,7 @@ A_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gs'''!8
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    ^ \markup {                                                            %! IC
-        \override                                                          %! IC
-            #'(box-padding . 0.5)                                          %! IC
-            \box                                                           %! IC
-                "match sound of crotales"                                  %! IC
-        }                                                                  %! IC
+    ^ \markup { "match sound of crotales" }                                %! IC
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     
@@ -7004,12 +6994,7 @@ A_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     fs'''!8
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    ^ \markup {                                                            %! IC
-        \override                                                          %! IC
-            #'(box-padding . 0.5)                                          %! IC
-            \box                                                           %! IC
-                "match sound of crotales"                                  %! IC
-        }                                                                  %! IC
+    ^ \markup { "match sound of crotales" }                                %! IC
     - \tweak circled-tip ##t                                               %! PIC
     \<                                                                     %! PIC
     
@@ -9035,7 +9020,7 @@ A_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
         e'8
         \baca_effort_f                                                     %! SM8:EXPLICIT_DYNAMIC:IC
-        ^ \markup { spazz. }                                               %! IC
+        ^ \markup { spazz }                                                %! IC
         [
         
         e'8
@@ -9355,19 +9340,8 @@ A_CelloMusicVoice = {
     \>                                                                     %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "(PO + poco vib.)"                                     %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "tasto (+poco vib.)"                                           %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "(PO+) poco vib."  %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "tasto (+poco vib)" %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
@@ -9474,19 +9448,8 @@ A_CelloMusicVoice = {
     \<                                                                     %! PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
-    - \tweak bound-details.left.text \markup {                             %! PIC
-        \concat                                                            %! PIC
-            {                                                              %! PIC
-                \upright                                                   %! PIC
-                    "(tasto + poco vib.)"                                  %! PIC
-                \hspace                                                    %! PIC
-                    #0.5                                                   %! PIC
-            }                                                              %! PIC
-        }                                                                  %! PIC
-    - \tweak bound-details.right.text \markup {                            %! PIC
-        \upright                                                           %! PIC
-            "poco pont. + vib. mod."                                       %! PIC
-        }                                                                  %! PIC
+    - \tweak bound-details.left.text \markup \baca-left "(tasto + poco vib.)" %! PIC
+    - \tweak bound-details.right.text \markup \baca-right "poco pont. + vib. mod." %! PIC
     - \tweak bound-details.right.padding #0.5                              %! PIC
     - \tweak bound-details.right.stencil-align-dir-y #center               %! PIC
     \startTextSpan                                                         %! PIC
