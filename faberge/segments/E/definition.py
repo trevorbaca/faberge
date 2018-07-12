@@ -8,6 +8,20 @@ import os
 ##################################### [E] #####################################
 ###############################################################################
 
+
+def stage(n):
+    return {
+        1: (1, 2),
+        2: (3, 4),
+        3: (5, 6),
+        4: (7, 12),
+        5: (13, 14),
+        6: (15, 16),
+        7: (17, 18),
+        8: (19, 20),
+        9: 21,
+        }[n]
+
 stage_measure_map = baca.StageMeasureMap([
     # 1-3
     2,
@@ -36,13 +50,12 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
-    measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
-    validate_measure_count=21,
-    validate_stage_count=9,
+    #validate_measure_count=21,
+    #validate_stage_count=9,
     )
 
 maker(
@@ -53,38 +66,38 @@ maker(
 ### flute (time) ###
 
 maker(
-    ('fl', 2),
+    ('fl', (3, 4)),
     faberge.glow_rhythm(),
     )
 
 ### english horn (time) ###
 
 maker(
-    ('eh', 2),
+    ('eh', (3, 4)),
     faberge.keynoise_rhythm(),
     )
 
 maker(
-    ('eh', (6, 7)),
+    ('eh', (15, 18)),
     faberge.electricity_rhythm(),
     )
 
 ### clarinet (time) ###
 
 maker(
-    ('cl', 2),
+    ('cl', (3, 4)),
     faberge.glow_rhythm(),
     )
 
 ### piano (time) ###
 
 maker(
-    ('rh', 1),
+    ('rh', (1, 2)),
     baca.make_rests(),
     )
 
 maker(
-    ('rh', 4),
+    ('rh', (7, 12)),
     faberge.meccanico_rhythm(
         attack_count=7,
         fuse_counts=[3],
@@ -92,7 +105,7 @@ maker(
     )
 
 maker(
-    ('lh', 4),
+    ('lh', (7, 12)),
     faberge.meccanico_rhythm(
         attack_count=5,
         fuse_counts=[3],
@@ -100,36 +113,36 @@ maker(
     )
 
 maker(
-    (['rh', 'lh'], 5),
+    (['rh', 'lh'], (13, 14)),
     baca.make_rests(),
     )
 
 ### percussion (time) ###
 
 maker(
-    ('perc', 2),
+    ('perc', (3, 4)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('perc', 4),
+    ('perc', (7, 12)),
     faberge.meccanico_percussion_cell_rhythm(),
     )
 
 maker(
-    ('perc', (6, 7)),
+    ('perc', (15, 18)),
     faberge.electricity_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    ('vn', 2),
+    ('vn', (3, 4)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('vn', 4),
+    ('vn', (7, 12)),
     faberge.meccanico_rhythm(
         attack_count=7,
         fuse_counts=[2],
@@ -137,14 +150,14 @@ maker(
     )
 
 maker(
-    ('vn', 7),
+    ('vn', (17, 18)),
     faberge.electricity_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    ('va', (1, 8)),
+    ('va', (1, 20)),
     faberge.airtone_chain_rhythm(
         total_events=1,
         my_event_indices=[0],
@@ -154,12 +167,12 @@ maker(
 ### cello (time) ###
 
 maker(
-    ('vc', 2),
+    ('vc', (3, 4)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('vc', 4),
+    ('vc', (7, 12)),
     faberge.meccanico_rhythm(
         attack_count=10,
         fuse_counts=[3],
@@ -167,7 +180,7 @@ maker(
     )
 
 maker(
-    ('vc', 7),
+    ('vc', (17, 18)),
     faberge.electricity_rhythm(),
     )
 
@@ -190,7 +203,7 @@ maker(
     )
 
 maker(
-    ('rh', 5),
+    ('rh', 13),
     # TODO: implement baca.instrument_change():
     #faberge.instruments['Piano'],
     )
