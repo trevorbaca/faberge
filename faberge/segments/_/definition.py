@@ -8,6 +8,15 @@ import os
 ##################################### [_] #####################################
 ###############################################################################
 
+def stage(n):
+    return {
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
+        }[n]
+
 stage_measure_map = baca.StageMeasureMap([
     1,
     abjad.Fermata(),
@@ -28,7 +37,6 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
-    measures_per_stage=measures_per_stage,
     metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
