@@ -140,6 +140,8 @@ class ScoreTemplate(baca.ScoreTemplate):
 
     __documentation_section__ = None
 
+    _always_make_global_rests = True
+
     ### INITIALIZER ###
 
     def __init__(self):

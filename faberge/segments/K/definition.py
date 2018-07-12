@@ -8,6 +8,23 @@ import os
 ##################################### [K] #####################################
 ###############################################################################
 
+def stage(n):
+    return {
+        1: (1, 2),
+        2: (3, 4),
+        3: (5, 6),
+        4: (7, 8),
+        5: (9, 10),
+        6: (11, 12),
+        7: (13, 14),
+        8: (15, 16),
+        9: (17, 18),
+        10: (19, 20),
+        11: 21,
+        12: (22, 23),
+        13: (24, 25),
+        }[n]
+
 stage_measure_map = baca.StageMeasureMap([
     # 1-11
     2,
@@ -25,6 +42,21 @@ stage_measure_map = baca.StageMeasureMap([
     2,
     2,
     ])
+
+
+start_measure = 1
+for i, item in enumerate(stage_measure_map):
+    if isinstance(item, int):
+        stop_measure = start_measure + item - 1
+        print(f'{i+1}: ({start_measure}, {stop_measure}),')
+    elif isinstance(item, list):
+        stop_measure = start_measure + len(item) - 1
+        print(f'{i+1}: ({start_measure}, {stop_measure}),')
+    else:
+        assert isinstance(item, (abjad.Fermata, abjad.TimeSignature)), repr(item)
+        stop_measure = start_measure
+        print(f'{i+1}: {stop_measure},')
+    start_measure = stop_measure + 1
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, faberge.metronome_marks['41']),
