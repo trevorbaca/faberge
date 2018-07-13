@@ -64,16 +64,15 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
-    metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=27,
-    validate_stage_count=16,
     )
 
 maker(
     'GlobalSkips',
+    baca.metronome_mark('100', selector=baca.leaf(1 - 1)),
     baca.rehearsal_mark('D'),
     )
 

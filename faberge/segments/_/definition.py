@@ -37,11 +37,20 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
-    metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     validate_measure_count=4,
-    validate_stage_count=4,
+    )
+
+maker(
+    'GlobalSkips',
+    baca.metronome_mark('100', selector=baca.leaf(1 - 1)),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('fermata', selector=baca.leaf(2 - 1)),
+    baca.global_fermata('fermata', selector=baca.leaf(4 - 1)),
     )
 
 maker(
