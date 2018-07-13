@@ -85,10 +85,10 @@
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 333]                                                   %! SM4
-            \baca_new_spacing_section #1 #4                                              %! HSS1:SPACING
+            \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/4]" }                              %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 334]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
@@ -115,10 +115,10 @@
         %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 338]                                                   %! SM4
-            \baca_new_spacing_section #1 #4                                              %! HSS1:SPACING
+            \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING
             \noBreak                                                                     %! BMM2:BREAK
             s1 * 1/4
-        %@% ^ \markup { \baca-forest-green-markup "[1/4]" }                              %! HSS2:SPACING_MARKUP
+        %@% ^ \markup { \baca-forest-green-markup "[1/28]" }                             %! HSS2:SPACING_MARKUP
             
             % [PageLayout measure 339]                                                   %! SM4
             \baca_new_spacing_section #1 #28                                             %! HSS1:SPACING

@@ -44,19 +44,19 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 
-start_measure = 1
-for i, item in enumerate(stage_measure_map):
-    if isinstance(item, int):
-        stop_measure = start_measure + item - 1
-        print(f'{i+1}: ({start_measure}, {stop_measure}),')
-    elif isinstance(item, list):
-        stop_measure = start_measure + len(item) - 1
-        print(f'{i+1}: ({start_measure}, {stop_measure}),')
-    else:
-        assert isinstance(item, (abjad.Fermata, abjad.TimeSignature)), repr(item)
-        stop_measure = start_measure
-        print(f'{i+1}: {stop_measure},')
-    start_measure = stop_measure + 1
+#start_measure = 1
+#for i, item in enumerate(stage_measure_map):
+#    if isinstance(item, int):
+#        stop_measure = start_measure + item - 1
+#        print(f'{i+1}: ({start_measure}, {stop_measure}),')
+#    elif isinstance(item, list):
+#        stop_measure = start_measure + len(item) - 1
+#        print(f'{i+1}: ({start_measure}, {stop_measure}),')
+#    else:
+#        assert isinstance(item, (abjad.Fermata, abjad.TimeSignature)), repr(item)
+#        stop_measure = start_measure
+#        print(f'{i+1}: {stop_measure},')
+#    start_measure = stop_measure + 1
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
     (1, faberge.metronome_marks['41']),
@@ -72,138 +72,144 @@ measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
     last_segment=True,
-    measures_per_stage=measures_per_stage,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    #measures_per_stage=measures_per_stage,
+    #metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=25,
-    validate_stage_count=13,
+    #validate_stage_count=13,
     )
 
 maker(
     'GlobalSkips',
+    baca.metronome_mark('41', selector=baca.leaf(1 - 1)),
     baca.rehearsal_mark('K'),
+    )
+
+maker(
+    'GlobalRests',
+    baca.global_fermata('short', selector=baca.leaf(21 - 1)),
     )
 
 ### flute (time) ###
 
 maker(
-    ('fl', 1),
+    ('fl', (1, 2)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('fl', (2, 5)),
+    ('fl', (3, 10)),
     faberge.glow_rhythm(),
     )
 
 maker(
-    ('fl', (12, 13)),
+    ('fl', (22, 25)),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### english horn (time) ###
 
 maker(
-    ('eh', (5, 10)),
+    ('eh', (9, 20)),
     faberge.airtone_pedal_rhythm(),
     )
 
 maker(
-    ('eh', (12, 13)),
+    ('eh', (22, 25)),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### clarinet (time) ###
 
 maker(
-    ('cl', 1),
+    ('cl', (1, 2)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('cl', (2, 7)),
+    ('cl', (3, 14)),
     faberge.glow_rhythm(),
     )
 
 maker(
-    ('cl', (12, 13)),
+    ('cl', (22, 25)),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### piano (time) ###
 
 maker(
-    ('rh', (3, 9)),
+    ('rh', (5, 18)),
     faberge.glow_rhythm(),
     )
 
 maker(
-    ('rh', 13),
+    ('rh', (24, 25)),
     faberge.sparse_pegs_rhythm(),
     )
 
 ### percussion (time) ###
 
 maker(
-    ('perc', (1, 2)),
+    ('perc', (1, 4)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('perc', 3),
+    ('perc', (5, 6)),
     faberge.percussion_cell_rhythm(),
     )
 
 maker(
-    ('perc', (12, 13)),
+    ('perc', (22, 25)),
     faberge.airtone_pedal_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    ('vn', (1, 2)),
+    ('vn', (1, 4)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('vn', (3, 9)),
+    ('vn', (5, 18)),
     faberge.clb_rhythm(),
     )
 
 maker(
-    ('vn', 13),
+    ('vn', (24, 25)),
     faberge.sparse_rimbalzandi_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    ('va', 1),
+    ('va', (1, 2)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('va', (2, 6)),
+    ('va', (3, 12)),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('va', 13),
+    ('va', (24, 25)),
     faberge.sparse_rimbalzandi_rhythm(),
     )
 
 ### cello (time) ###
 
 maker(
-    ('vc', (1, 4)),
+    ('vc', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('vc', (12, 13)),
+    ('vc', (22, 25)),
     baca.make_repeat_tied_notes(),
     )
 
