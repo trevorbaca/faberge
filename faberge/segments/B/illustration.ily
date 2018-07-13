@@ -1,3 +1,248 @@
+B_GlobalRests = {
+    
+    % [B GlobalRests measure 97 / measure 1]                                       %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 98 / measure 2]                                       %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 99 / measure 3]                                       %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 100 / measure 4]                                      %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 101 / measure 5]                                      %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 102 / measure 6]                                      %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 103 / measure 7]                                      %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 104 / measure 8]                                      %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 105 / measure 9]                                      %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 106 / measure 10]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 107 / measure 11]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 108 / measure 12]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 109 / measure 13]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 110 / measure 14]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 111 / measure 15]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 112 / measure 16]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 113 / measure 17]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 114 / measure 18]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 115 / measure 19]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 116 / measure 20]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 117 / measure 21]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 118 / measure 22]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 119 / measure 23]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 120 / measure 24]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 121 / measure 25]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 122 / measure 26]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 123 / measure 27]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 124 / measure 28]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 125 / measure 29]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 126 / measure 30]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 127 / measure 31]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 128 / measure 32]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 129 / measure 33]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 130 / measure 34]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 131 / measure 35]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 132 / measure 36]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 133 / measure 37]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 134 / measure 38]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 135 / measure 39]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 136 / measure 40]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 137 / measure 41]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 138 / measure 42]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 139 / measure 43]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 140 / measure 44]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 141 / measure 45]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 142 / measure 46]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 143 / measure 47]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 144 / measure 48]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 145 / measure 49]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 146 / measure 50]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 147 / measure 51]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 148 / measure 52]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 149 / measure 53]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 150 / measure 54]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 151 / measure 55]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 152 / measure 56]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 153 / measure 57]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 154 / measure 58]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 155 / measure 59]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 156 / measure 60]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 157 / measure 61]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 158 / measure 62]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 159 / measure 63]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 160 / measure 64]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 161 / measure 65]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 162 / measure 66]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 163 / measure 67]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 164 / measure 68]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 165 / measure 69]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 166 / measure 70]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 167 / measure 71]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 168 / measure 72]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 169 / measure 73]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 170 / measure 74]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 171 / measure 75]                                     %! SM4
+    R1 * 1
+    
+    % [B GlobalRests measure 172 / measure 76]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 173 / measure 77]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 174 / measure 78]                                     %! SM4
+    R1 * 1/2
+    
+    % [B GlobalRests measure 175 / measure 79]                                     %! SM4
+    R1 * 3/4
+    
+    % [B GlobalRests measure 176 / measure 80]                                     %! SM4
+    R1 * 1
+    
+}
+
+
 B_GlobalSkips = {
     
     % [B GlobalSkips measure 97 / measure 1]                                       %! SM4

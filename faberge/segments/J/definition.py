@@ -46,168 +46,169 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
-    measures_per_stage=measures_per_stage,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    #measures_per_stage=measures_per_stage,
+    #metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=24,
-    validate_stage_count=12,
+    #validate_stage_count=12,
     )
 
 maker(
     'GlobalSkips',
+    baca.metronome_mark('41', selector=baca.leaf(1 - 1)),
     baca.rehearsal_mark('J'),
     )
 
 ### flute (time) ###
 
 maker(
-    ('fl', (1, 4)),
+    ('fl', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('fl', (5, 8)),
+    ('fl', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('fl', (9, 12)),
+    ('fl', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 ### english horn (time) ###
 
 maker(
-    ('eh', (1, 4)),
+    ('eh', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('eh', (5, 8)),
+    ('eh', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('eh', (9, 12)),
+    ('eh', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 ### clarinet (time) ###
 
 maker(
-    ('cl', (1, 4)),
+    ('cl', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('cl', (5, 8)),
+    ('cl', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('cl', (9, 12)),
+    ('cl', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 ### piano (time) ###
 
 maker(
-    (['rh', 'lh'], (1, 4)),
+    (['rh', 'lh'], (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    (['rh', 'lh'], (5, 8)),
+    (['rh', 'lh'], (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    (['rh', 'lh'], (9, 12)),
+    (['rh', 'lh'], (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('attack', (1, 4)),
+    ('attack', (1, 8)),
     faberge.piano_attack_rhythm(),
     )
 
 maker(
-    ('attack', (5, 8)),
+    ('attack', (9, 16)),
     faberge.piano_attack_rhythm(),
     )
 
 maker(
-    ('attack', (9, 12)),
+    ('attack', (17, 24)),
     faberge.piano_attack_rhythm(),
     )
 
 ### percussion (time) ###
 
 maker(
-    ('perc', (1, 4)),
+    ('perc', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('perc', (5, 8)),
+    ('perc', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('perc', (9, 12)),
+    ('perc', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 ### violin (time) ###
 
 maker(
-    ('vn', (1, 4)),
+    ('vn', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('vn', (5, 8)),
+    ('vn', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('vn', (9, 12)),
+    ('vn', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 ### viola (time) ###
 
 maker(
-    ('va', (1, 4)),
+    ('va', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('va', (5, 8)),
+    ('va', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('va', (9, 12)),
+    ('va', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 
 ### cello (time) ###
 
 maker(
-    ('vc', (1, 4)),
+    ('vc', (1, 8)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('vc', (5, 8)),
+    ('vc', (9, 16)),
     faberge.shell_transition_rhythm(),
     )
 
 maker(
-    ('vc', (9, 12)),
+    ('vc', (17, 24)),
     faberge.shell_transition_rhythm(),
     )
 

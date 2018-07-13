@@ -25,13 +25,7 @@ E_GlobalRests = {
     R1 * 5/4
     
     % [E GlobalRests measure 309 / measure 9]                                      %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 5/4
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [E GlobalRests measure 310 / measure 10]                                     %! SM4
     R1 * 5/4
@@ -67,7 +61,13 @@ E_GlobalRests = {
     R1 * 3/4
     
     % [E GlobalRests measure 321 / measure 21]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
 }
 
