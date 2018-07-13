@@ -28,25 +28,13 @@ C_GlobalRests = {
     R1 * 1/2
     
     % [C GlobalRests measure 186 / measure 10]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 3/4
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ufermata"                                                    %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 187 / measure 11]                                     %! SM4
     R1 * 1
     
     % [C GlobalRests measure 188 / measure 12]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 3/4
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ufermata"                                                    %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 189 / measure 13]                                     %! SM4
     R1 * 1
@@ -61,13 +49,7 @@ C_GlobalRests = {
     R1 * 1/2
     
     % [C GlobalRests measure 193 / measure 17]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ufermata"                                                    %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 194 / measure 18]                                     %! SM4
     R1 * 1
@@ -76,37 +58,31 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 196 / measure 20]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1/2
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 197 / measure 21]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ufermata"                                                    %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 198 / measure 22]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 3/4
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 199 / measure 23]                                     %! SM4
     R1 * 3/4
     
     % [C GlobalRests measure 200 / measure 24]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ufermata"                                                    %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 201 / measure 25]                                     %! SM4
     R1 * 1
@@ -115,37 +91,19 @@ C_GlobalRests = {
     R1 * 1
     
     % [C GlobalRests measure 203 / measure 27]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 3/4
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 204 / measure 28]                                     %! SM4
     R1 * 1/2
     
     % [C GlobalRests measure 205 / measure 29]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1/2
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 206 / measure 30]                                     %! SM4
     R1 * 3/4
     
     % [C GlobalRests measure 207 / measure 31]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 208 / measure 32]                                     %! SM4
     R1 * 1/2
@@ -157,49 +115,25 @@ C_GlobalRests = {
     R1 * 1
     
     % [C GlobalRests measure 211 / measure 35]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1/2
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 212 / measure 36]                                     %! SM4
     R1 * 3/4
     
     % [C GlobalRests measure 213 / measure 37]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 214 / measure 38]                                     %! SM4
     R1 * 3/4
     
     % [C GlobalRests measure 215 / measure 39]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 216 / measure 40]                                     %! SM4
     R1 * 3/4
     
     % [C GlobalRests measure 217 / measure 41]                                     %! SM4
-    \once \override Score.MultiMeasureRest.transparent = ##t                       %! SM19
-    \once \override Score.TimeSignature.stencil = ##f                              %! SM19
     R1 * 1
-    ^ \markup {                                                                    %! SM18
-        \musicglyph                                                                %! SM18
-            #"scripts.ushortfermata"                                               %! SM18
-        }                                                                          %! SM18
     
     % [C GlobalRests measure 218 / measure 42]                                     %! SM4
     R1 * 1/2
@@ -223,7 +157,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 225 / measure 49]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ufermata"                                                    %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 226 / measure 50]                                     %! SM4
     R1 * 1
@@ -238,7 +178,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 230 / measure 54]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 231 / measure 55]                                     %! SM4
     R1 * 1/2
@@ -247,7 +193,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 233 / measure 57]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 234 / measure 58]                                     %! SM4
     R1 * 1
@@ -256,7 +208,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 236 / measure 60]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 237 / measure 61]                                     %! SM4
     R1 * 1/2
@@ -271,7 +229,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 241 / measure 65]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 242 / measure 66]                                     %! SM4
     R1 * 1
@@ -280,7 +244,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 244 / measure 68]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 245 / measure 69]                                     %! SM4
     R1 * 1
@@ -289,7 +259,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 247 / measure 71]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 248 / measure 72]                                     %! SM4
     R1 * 1
@@ -310,7 +286,13 @@ C_GlobalRests = {
     R1 * 1/2
     
     % [C GlobalRests measure 254 / measure 78]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 255 / measure 79]                                     %! SM4
     R1 * 3/4
@@ -319,7 +301,13 @@ C_GlobalRests = {
     R1 * 3/4
     
     % [C GlobalRests measure 257 / measure 81]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 258 / measure 82]                                     %! SM4
     R1 * 1
@@ -328,7 +316,13 @@ C_GlobalRests = {
     R1 * 1
     
     % [C GlobalRests measure 260 / measure 84]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 261 / measure 85]                                     %! SM4
     R1 * 3/4
@@ -337,7 +331,13 @@ C_GlobalRests = {
     R1 * 1/2
     
     % [C GlobalRests measure 263 / measure 87]                                     %! SM4
+    \once \override Score.MultiMeasureRest.transparent = ##t                       %! GFC2
+    \once \override Score.TimeSignature.stencil = ##f                              %! GFC2
     R1 * 1/4
+    ^ \markup {                                                                    %! GFC1
+        \musicglyph                                                                %! GFC1
+            #"scripts.ushortfermata"                                               %! GFC1
+        }                                                                          %! GFC1
     
     % [C GlobalRests measure 264 / measure 88]                                     %! SM4
     R1 * 1/2
@@ -3798,6 +3798,8 @@ C_EnglishHornMusicVoice = {
         \stopStaff                                                         %! SM8:EXPLICIT_STAFF_LINES:IC
         \once \override Staff.StaffSymbol.line-count = 1                   %! SM8:EXPLICIT_STAFF_LINES:IC
         \startStaff                                                        %! SM8:EXPLICIT_STAFF_LINES:IC
+        \once \override Staff.Clef.X-extent = ##f                          %! OC1:MEASURE_231:SHIFTED_CLEF
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)             %! OC1:MEASURE_231:SHIFTED_CLEF
         \override Staff.Stem.stemlet-length = 0.75
         \once \override Beam.grow-direction = #right
         \clef "percussion"                                                 %! SM8:EXPLICIT_CLEF:IC

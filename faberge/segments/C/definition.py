@@ -130,7 +130,6 @@ stage_measure_map = baca.StageMeasureMap([
     ])
 
 metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    #(1, faberge.metronome_marks['80']),
     ])
 
 maker = baca.TimeSignatureMaker(
@@ -142,18 +141,35 @@ maker = baca.TimeSignatureMaker(
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
 maker = baca.SegmentMaker(
-    #measures_per_stage=measures_per_stage,
-    metronome_mark_measure_map=metronome_mark_measure_map,
+    #metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=97,
-    validate_stage_count=46,
+    #validate_stage_count=46,
     )
 
 maker(
     'GlobalSkips',
     baca.rehearsal_mark('C'),
+    )
+
+# HERE
+maker(
+    'GlobalRests',
+    baca.global_fermata('fermata', selector=baca.leaf(21 - 1)),
+    baca.global_fermata('fermata', selector=baca.leaf(24 - 1)),
+    baca.global_fermata('fermata', selector=baca.leaf(49 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(54 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(57 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(60 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(65 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(68 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(71 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(78 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(81 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(84 - 1)),
+    baca.global_fermata('short', selector=baca.leaf(87 - 1)),
     )
 
 ### flute (time) ###
