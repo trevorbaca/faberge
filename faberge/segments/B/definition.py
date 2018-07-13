@@ -6,7 +6,7 @@ from abjadext import rmakers
 
 
 ###############################################################################
-##################################### [B] ####################################
+##################################### [B] #####################################
 ###############################################################################
 
 def stage(n):
@@ -54,16 +54,15 @@ maker = baca.SegmentMaker(
     final_markup=(['Madison, WI.'], ['April', 'May 2016.']),
     final_markup_extra_offset=(-12, -4),
     ignore_repeat_pitch_classes=True,
-    metronome_mark_measure_map=metronome_mark_measure_map,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=80,
-    validate_stage_count=17,
     )
 
 maker(
     'GlobalSkips',
+    baca.metronome_mark('80', selector=baca.leaf(1 - 1)),
     baca.rehearsal_mark(
         'B',
         abjad.tweak((0, 6)).extra_offset,
