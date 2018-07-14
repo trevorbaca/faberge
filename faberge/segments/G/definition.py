@@ -47,67 +47,19 @@ def stage(n):
         35: 55,
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-2
-    2,
-    abjad.Fermata(),
-    # 3-4
-    2,
-    abjad.Fermata(),
-    # 5-6
-    2,
-    abjad.Fermata(),
-    # 7-8
-    2,
-    abjad.Fermata(),
-    # 9-10
-    2,
-    abjad.Fermata(),
-    # 11-12
-    2,
-    abjad.Fermata(),
-    # 13-14
-    2,
-    abjad.Fermata(),
-    # 15-16
-    2,
-    abjad.Fermata(),
-    # 17-18
-    2,
-    abjad.Fermata('shortfermata'),
-    # 19-20
-    2,
-    abjad.Fermata(),
-    # 21-23
-    4 * [abjad.TimeSignature((3, 4))],
-    2,
-    abjad.Fermata('shortfermata'),
-    # 24-25
-    2,
-    abjad.Fermata(),
-    # 26-27
-    2,
-    abjad.Fermata(),
-    # 28-29
-    2,
-    abjad.Fermata('shortfermata'),
-    # 30-31
-    2,
-    abjad.Fermata(),
-    # 32-33
-    2,
-    abjad.Fermata('longfermata'),
-    # 34-35
-    2,
-    abjad.Fermata('longfermata'),
-    ])
+insert = 4 * [abjad.TimeSignature((3, 4))]
+time_signatures = baca.sequence(faberge.time_signatures_b)
+time_signatures = time_signatures.rotate(n=-4).flatten()
+time_signatures = time_signatures[:20] + insert + time_signatures[20:34]
 
 maker = baca.TimeSignatureMaker(
-    faberge.time_signatures_b,
-    rotation=-4,
-    stage_measure_map=stage_measure_map,
+    time_signatures,
+    count=55,
+    fermata_measures=[
+        3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 37, 40, 43, 46, 49, 52, 55,
+        ],
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

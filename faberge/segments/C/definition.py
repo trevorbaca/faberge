@@ -65,76 +65,13 @@ def stage(n):
         46: (96, 97),
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-9
-    2,
-    2,
-    2,
-    4,
-    2,
-    2,
-    2,
-    2,
-    2,
-
-    # 10-12
-    abjad.Fermata(),
-    2,
-    abjad.Fermata(),
-
-    # 13-16
-    2,
-    10,
-    10,
-    2,
-
-    # 17-19
-    abjad.Fermata(),
-    2,
-    2,
-
-    # 20-23
-    abjad.Fermata('shortfermata'),
-    2,
-    abjad.Fermata('shortfermata'),
-    2,
-
-    # 24-30
-    abjad.Fermata('shortfermata'),
-    2,
-    2,
-    abjad.Fermata('shortfermata'),
-    2,
-    abjad.Fermata('shortfermata'),
-    2,
-
-    # 31-40
-    abjad.Fermata('shortfermata'),
-    2,
-    2,
-    2,
-    abjad.Fermata('shortfermata'),
-    2,
-    abjad.Fermata('shortfermata'),
-    2,
-    abjad.Fermata('shortfermata'),
-    2,
-
-    # 41-46
-    abjad.Fermata('shortfermata'),
-    2,
-    2,
-    2,
-    2,
-    2,
-    ])
-
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
+    count=97,
+    fermata_measures=[21, 24, 49, 54, 57, 60, 65, 68, 71, 78, 81, 84, 87],
     rotation=-1,
-    stage_measure_map=stage_measure_map,
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -148,7 +85,6 @@ maker(
     baca.rehearsal_mark('C'),
     )
 
-# HERE
 maker(
     'GlobalRests',
     baca.global_fermata('fermata', selector=baca.leaf(21 - 1)),

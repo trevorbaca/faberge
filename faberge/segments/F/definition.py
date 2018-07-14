@@ -90,68 +90,38 @@ vortex_2_time_signatures = [
     abjad.TimeSignature((3, 4)),
     abjad.TimeSignature((4, 4)),
     ]
-
 assert len(vortex_2_time_signatures) == 24
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-3
-    6,
-    abjad.Fermata('longfermata'),
+time_signatures = baca.sequence(faberge.time_signatures_b)
+source = time_signatures.rotate(n=-3).flatten()
+source = baca.Cursor(source, cyclic=True)
+time_signatures = [
+    source.next(6),
+    abjad.TimeSignature((1, 4)),
     vortex_1_time_signatures,
-    # 4-6
-    abjad.Fermata(),
+    abjad.TimeSignature((1, 4)),
     vortex_1_time_signatures,
-    abjad.Fermata(),
-    # 7-9
+    abjad.TimeSignature((1, 4)),
     vortex_2_time_signatures,
-    2,
-    2,
-    # 10-12
-    abjad.Fermata('shortfermata'),
-    2,
-    abjad.Fermata('shortfermata'),
-    # 13-15
+    source.next(4),
+    abjad.TimeSignature((1, 4)),
+    source.next(2),
+    abjad.TimeSignature((1, 4)),
     vortex_2_time_signatures[:12],
-    2,
-    2,
-    # 16-17
-    abjad.Fermata('shortfermata'),
-    2,
-    # 18-31
-    abjad.Fermata('shortfermata'),
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    # 32-33
-    2,
-    abjad.Fermata(),
-    # 34-35
-    2,
-    abjad.Fermata(),
-    # 36-37
-    2,
-    abjad.Fermata(),
-    # 38-39
-    2,
-    abjad.Fermata('longfermata'),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    faberge.time_signatures_b,
-    rotation=-3,
-    stage_measure_map=stage_measure_map,
-    )
-time_signatures = maker()
+    source.next(4),
+    abjad.TimeSignature((1, 4)),
+    source.next(2),
+    abjad.TimeSignature((1, 4)),
+    source.next(28),
+    abjad.TimeSignature((1, 4)),
+    source.next(2),
+    abjad.TimeSignature((1, 4)),
+    source.next(2),
+    abjad.TimeSignature((1, 4)),
+    source.next(2),
+    abjad.TimeSignature((1, 4)),
+    ]
+time_signatures = baca.sequence(time_signatures).flatten()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

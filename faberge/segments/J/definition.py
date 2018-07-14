@@ -24,21 +24,12 @@ def stage(n):
         12: (23, 24),
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-4
-    2, 2, 2, 2,
-    # 5-8
-    2, 2, 2, 2,
-    # 9-12
-    2, 2, 2, 2,
-    ])
-
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
+    count=24,
     rotation=-7,
-    stage_measure_map=stage_measure_map,
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

@@ -30,19 +30,12 @@ def stage(n):
         17: (73, 80),
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    8, 2, 2, 4, # 1-4
-    6, 4, 4, 6, # 5-8
-    8, 4, 4, 2, # 9-12
-    2, 4, 8, 4, 8, # 13-17
-    ])
-
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
+    count=80,
     rotation=0,
-    stage_measure_map=stage_measure_map,
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     final_bar_line='|.',

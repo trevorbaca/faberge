@@ -25,25 +25,6 @@ def stage(n):
         13: (24, 25),
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-11
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    2,
-    abjad.Fermata('shortfermata'),
-    # 12-13
-    2,
-    2,
-    ])
-
-
 #start_measure = 1
 #for i, item in enumerate(stage_measure_map):
 #    if isinstance(item, int):
@@ -60,10 +41,11 @@ stage_measure_map = baca.StageMeasureMap([
 
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
+    count=25,
+    fermata_measures=[21],
     rotation=-8,
-    stage_measure_map=stage_measure_map,
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     last_segment=True,

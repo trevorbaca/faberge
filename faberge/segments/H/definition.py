@@ -48,33 +48,39 @@ def stage(n):
         36: 94,
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-4 at 80
-    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
-    # 5-8 at 64
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
-    # 9-12 at 80
-    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)),
-    # 13-16 at 100
-    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
-    # 17-20 at 80
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
-    # 21-24 at 100
-    abjad.TimeSignature((4, 4)), 2, 2, abjad.TimeSignature((4, 4)),
-    # 25-28 at 125
-    abjad.TimeSignature((4, 4)), 6, 6, abjad.TimeSignature((5, 4)),
-    # 29-32 at 100
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
-    # 33-36 at 125
-    abjad.TimeSignature((4, 4)), 4, 4, abjad.TimeSignature((4, 4)),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    faberge.time_signatures_b,
-    rotation=-5,
-    stage_measure_map=stage_measure_map,
-    )
-time_signatures = maker()
+source = baca.sequence(faberge.time_signatures_b)
+source = source.rotate(n=-5).flatten()
+source = baca.Cursor(source, cyclic=True)
+time_signatures = [
+    abjad.TimeSignature((4, 4)),
+    source.next(12),
+    abjad.TimeSignature((5, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(8),
+    abjad.TimeSignature((4, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(4),
+    abjad.TimeSignature((4, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(12),
+    abjad.TimeSignature((5, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(8),
+    abjad.TimeSignature((4, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(4),
+    abjad.TimeSignature((4, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(12),
+    abjad.TimeSignature((5, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(8),
+    abjad.TimeSignature((4, 4)),
+    abjad.TimeSignature((4, 4)),
+    source.next(8),
+    abjad.TimeSignature((4, 4)),
+    ]
+time_signatures = baca.sequence(time_signatures).flatten()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
