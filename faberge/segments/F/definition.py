@@ -146,17 +146,10 @@ stage_measure_map = baca.StageMeasureMap([
     abjad.Fermata('longfermata'),
     ])
 
-metronome_mark_measure_map = baca.MetronomeMarkMeasureMap([
-    (1, faberge.metronome_marks['100']),
-    (50, faberge.metronome_marks['125']),
-    (62, faberge.metronome_marks['100']),
-    ])
-
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
     rotation=-3,
     stage_measure_map=stage_measure_map,
-    metronome_mark_measure_map=metronome_mark_measure_map,
     )
 measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
 
