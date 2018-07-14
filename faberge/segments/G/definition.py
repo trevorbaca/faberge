@@ -107,7 +107,7 @@ maker = baca.TimeSignatureMaker(
     rotation=-4,
     stage_measure_map=stage_measure_map,
     )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+time_signatures = maker()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

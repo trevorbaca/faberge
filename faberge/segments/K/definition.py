@@ -63,7 +63,7 @@ maker = baca.TimeSignatureMaker(
     rotation=-8,
     stage_measure_map=stage_measure_map,
     )
-measures_per_stage, metronome_mark_measure_map, time_signatures = maker()
+time_signatures = maker()
 
 maker = baca.SegmentMaker(
     last_segment=True,
