@@ -42,48 +42,22 @@ def stage(n):
 
 fortissimo_repetition_stages = [21, 23, 25, 27, 29, 31]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-6
-    2,
-    2,
-    2,
-    2,
-    2,
-    abjad.Fermata(),
-    # 7-8
-    2,
-    abjad.Fermata(),
-    # 9-10
-    2,
-    abjad.Fermata(),
-    # 11-12
-    2,
-    abjad.Fermata(),
-    # 13-14
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
-    # 15-16
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
-    # 17-18
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
-    # 19-20
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
-    # 21-22
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
-    # 23-24
-    abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8)),
-    # 25-28
-    2,
-    2,
-    2,
-    2,
-    ])
+source = baca.sequence(faberge.time_signatures_b)
+source = source.rotate(n=-6).flatten()
+source = baca.Cursor(source, cyclic=True)
+time_signatures = [
+    source.next(16),
+    6 * [abjad.TimeSignature((3, 4)), abjad.TimeSignature((1, 8))],
+    source.next(8),
+    ]
+time_signatures = baca.sequence(time_signatures).flatten()
 
 maker = baca.TimeSignatureMaker(
-    faberge.time_signatures_b,
-    rotation=-6,
-    stage_measure_map=stage_measure_map,
+    time_signatures,
+    count=40,
+    fermata_measures=[11, 14, 17, 20],
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

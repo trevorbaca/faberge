@@ -22,27 +22,13 @@ def stage(n):
         9: 21,
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    # 1-3
-    2,
-    2,
-    2,
-    # 4-8
-    6 * [abjad.TimeSignature((5, 4))],
-    2,
-    2,
-    2,
-    2,
-    # 9
-    abjad.Fermata('shortfermata'),
-    ])
-
-maker = baca.TimeSignatureMaker(
-    faberge.time_signatures_a,
-    rotation=-2,
-    stage_measure_map=stage_measure_map,
-    )
-time_signatures = maker()
+insert = 6 * [abjad.TimeSignature((5, 4))]
+time_signatures = baca.sequence(faberge.time_signatures_a)
+time_signatures = time_signatures.rotate(n=-2)
+time_signatures = time_signatures.flatten()
+time_signatures = time_signatures[:6] + insert + time_signatures[6:14]
+time_signatures = list(time_signatures)
+time_signatures.append(abjad.TimeSignature((1, 4)))
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

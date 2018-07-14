@@ -17,19 +17,13 @@ def stage(n):
         5: 5,
         }[n]
 
-stage_measure_map = baca.StageMeasureMap([
-    1,
-    abjad.Fermata(),
-    1,
-    abjad.Fermata(),
-    ])
-
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
+    count=4,
+    fermata_measures=[2, 4],
     rotation=0,
-    stage_measure_map=stage_measure_map,
     )
-time_signatures = maker()
+time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
