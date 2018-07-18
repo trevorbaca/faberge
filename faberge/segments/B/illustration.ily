@@ -4412,9 +4412,9 @@ B_EnglishHornMusicVoice = {
     r16
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! SM26
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     a'8.
-    \ff                                                                    %! SM8:REDUNDANT_DYNAMIC:IC
+    \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:IC
     \startTrillSpan
     
     % [B EnglishHornMusicVoice measure 120 / measure 24]                   %! SM4
@@ -7007,9 +7007,9 @@ B_ViolinMusicVoice = {
     r1
     
     % [B ViolinMusicVoice measure 105 / measure 9]                         %! SM4
-    \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
+    \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     f'16
-    \baca_effort_ff                                                        %! SM8:REDUNDANT_DYNAMIC:IC
+    \baca_effort_ff                                                        %! SM8:EXPLICIT_DYNAMIC:IC
     ^ \markup { spazz. }                                                   %! IC
     [
     
