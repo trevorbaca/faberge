@@ -5,13 +5,19 @@ from abjadext import rmakers
 
 def eh_trill_rhythm(
     counts,
+    *,
     division_fuse_counts=None,
-    division_masks=None,
+    dmask=None,
     extra_counts_per_division=None,
     ):
     """
     Makes English horn trill rhythm.
     """
+    if dmask is None:
+        division_masks = None
+    else:
+        division_masks = [dmask]
+
     counts.append(-1000)
     division_expression = None
     if division_fuse_counts is not None:
