@@ -13,10 +13,6 @@ def spazzolati_rhythm(
     """
     Makes spazzolati rhythm.
     """
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
 
     counts = [
         [1, 1, 1],
@@ -34,7 +30,7 @@ def spazzolati_rhythm(
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        division_masks=division_masks,
+        division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
         talea=rmakers.Talea(
             counts=counts,

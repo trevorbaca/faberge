@@ -13,11 +13,6 @@ def eh_trill_rhythm(
     """
     Makes English horn trill rhythm.
     """
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
-
     counts.append(-1000)
     division_expression = None
     if division_fuse_counts is not None:
@@ -31,7 +26,7 @@ def eh_trill_rhythm(
         division_expression = division_expression.sum()
         division_expression = division_expression.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        division_masks=division_masks,
+        division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
         read_talea_once_only=True,
         talea=rmakers.Talea(

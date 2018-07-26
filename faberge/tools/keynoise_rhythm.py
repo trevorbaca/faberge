@@ -31,10 +31,6 @@ def keynoise_rhythm(
     """
     Makes keynoise rhythm.
     """
-    if dmask is None:
-        division_masks = None
-    else:
-        division_masks = [dmask]
 
     if tuplet_ratios is None:
         tuplet_ratios = faberge.tuplet_ratios_a
@@ -50,7 +46,7 @@ def keynoise_rhythm(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rmakers.TupletRhythmMaker(
-        division_masks=division_masks,
+        division_masks=dmask,
         tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,

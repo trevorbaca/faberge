@@ -13,12 +13,6 @@ def glow_rhythm(
     """
     Makes glow rhythm.
     """
-    if dmask is None:
-        division_masks = None
-    elif isinstance(dmask, list):
-        division_masks = dmask[:]
-    else:
-        division_masks = [dmask]
 
     if tuplet_ratios is None:
         tuplet_ratios = faberge.tuplet_ratios_a
@@ -27,7 +21,7 @@ def glow_rhythm(
     tuplet_ratios = tuplet_ratios.rotate(n=tuplet_ratio_rotation)
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rmakers.TupletRhythmMaker(
-        division_masks=division_masks,
+        division_masks=dmask,
         tie_specifier=rmakers.TieSpecifier(
             tie_across_divisions=True,
             repeat_ties=True,
