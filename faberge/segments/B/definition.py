@@ -890,7 +890,10 @@ maker(
     baca.markup('spazz.'),
     baca.measures(
         (13, 22),
-        baca.hairpin('"ff" >o niente'),
+        baca.hairpin(
+            '"ff" >o niente',
+            selector=baca.tleaves(),
+            ),
         ),
     baca.pitch('F4'),
     )
