@@ -4,12 +4,18 @@ from abjadext import rmakers
 
 
 def front_incised_notes(
-    division_masks=None,
+    *,
+    dmask=None,
     start_rest_durations=None,
     ):
     """
     Makes front-incised notes.
     """
+    if dmask is None:
+        division_masks = None
+    else:
+        division_masks = [dmask]
+
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
     denominators = [_.denominator for _ in start_rest_durations]
     lcm = abjad.mathtools.least_common_multiple(*denominators)

@@ -5,13 +5,21 @@ from abjadext import rmakers
 
 
 def glow_rhythm(
-    division_masks=None,
+    *,
+    dmask=None,
     tuplet_ratios=None,
     tuplet_ratio_rotation=None,
     ):
     """
     Makes glow rhythm.
     """
+    if dmask is None:
+        division_masks = None
+    elif isinstance(dmask, list):
+        division_masks = dmask[:]
+    else:
+        division_masks = [dmask]
+
     if tuplet_ratios is None:
         tuplet_ratios = faberge.tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]

@@ -86,7 +86,7 @@ maker(
 maker(
     ('fl', (89, 92)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([6, 7], 18),
             rmakers.silence([-1]),
             ],
@@ -133,7 +133,7 @@ maker(
 maker(
     ('eh', (81, 88)),
     faberge.keynoise_rhythm(
-        division_masks=rmakers.silence([0, 4], 9),
+        dmask=rmakers.silence([0, 4], 9),
         tuplet_ratio_rotation=0,
         ),
     )
@@ -271,9 +271,7 @@ maker(
 maker(
     ('perc', (81, 88)),
     faberge.front_incised_notes(
-        division_masks=[
-            ~rmakers.silence([-4, -3, -2]),
-            ],
+        dmask=~rmakers.silence([-4, -3, -2]),
         start_rest_durations=[
             (0, 1), (0, 1), (0, 1), (0, 1),
             (1, 4), (1, 16), (0, 1),
@@ -314,7 +312,7 @@ maker(
     ('vn', (63, 70)),
     faberge.spazzolati_rhythm(
         counts_rotation=-10,
-        division_masks=~rmakers.silence([
+        dmask=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -334,7 +332,7 @@ maker(
     ('vn', (81, 88)),
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
-        division_masks=~rmakers.silence([
+        dmask=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),
@@ -362,7 +360,7 @@ maker(
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
         denominator=8,
-        division_masks=~rmakers.silence([
+        dmask=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6, 7, 8,
             -7, -6, -5, -4, -3, -2, -1
             ]),
@@ -380,7 +378,7 @@ maker(
     faberge.spazzolati_rhythm(
         counts_rotation=-12,
         denominator=8,
-        division_masks=~rmakers.silence([
+        dmask=~rmakers.silence([
             0, 1, 2, 3, 4, 5, 6,
             -6, -5, -4, -3, -2, -1,
             ]),

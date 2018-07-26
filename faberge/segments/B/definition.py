@@ -62,7 +62,7 @@ maker(
 maker(
     ('fl', (1, 8)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -76,7 +76,7 @@ maker(
 maker(
     ('fl', (9, 10)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -90,7 +90,7 @@ maker(
 maker(
     ('fl', (11, 12)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -104,7 +104,7 @@ maker(
 maker(
     ('fl', (13, 16)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -118,7 +118,7 @@ maker(
 maker(
     ('fl', (17, 22)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -132,7 +132,7 @@ maker(
 maker(
     ('fl', (23, 26)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -146,7 +146,7 @@ maker(
 maker(
     ('fl', (27, 30)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain(indices=[0, -2]),
             rmakers.silence([10], 11),
@@ -160,7 +160,7 @@ maker(
 maker(
     ('fl', (31, 36)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -174,7 +174,7 @@ maker(
 maker(
     ('fl', (37, 44)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -188,7 +188,7 @@ maker(
 maker(
     ('fl', (45, 48)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -202,7 +202,7 @@ maker(
 maker(
     ('fl', (49, 52)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -216,7 +216,7 @@ maker(
 maker(
     ('fl', (53, 54)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -230,7 +230,7 @@ maker(
 maker(
     ('fl', (55, 60)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -244,7 +244,7 @@ maker(
 maker(
     ('fl', (69, 72)),
     faberge.glow_rhythm(
-        division_masks=[
+        dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
             rmakers.sustain([0, -2]),
             rmakers.silence([10], 11),
@@ -260,7 +260,7 @@ maker(
 maker(
     ('eh', (1, 12)),
     faberge.keynoise_rhythm(
-        division_masks=rmakers.silence([0, 4], 9),
+        dmask=rmakers.silence([0, 4], 9),
         ),
     )
 
@@ -274,7 +274,7 @@ maker(
 maker(
     ('eh', (17, 22)),
     faberge.keynoise_rhythm(
-        division_masks=rmakers.silence([0, 4], 9),
+        dmask=rmakers.silence([0, 4], 9),
         tuplet_ratio_rotation=-1,
         ),
     )
@@ -284,7 +284,7 @@ maker(
     ('eh', (23, 30)),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 23, -1, 3, -1, 35, -1, 47],
-        division_masks=rmakers.silence([-1]),
+        dmask=rmakers.silence([-1]),
         ),
     )
 
@@ -303,7 +303,7 @@ maker(
 maker(
     ('eh', (45, 60)),
     faberge.keynoise_rhythm(
-        division_masks=rmakers.silence([0, 4], 9),
+        dmask=rmakers.silence([0, 4], 9),
         ),
     )
 

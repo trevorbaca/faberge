@@ -23,13 +23,19 @@ from abjadext import rmakers
 #        )
 
 def keynoise_rhythm(
-    division_masks=None,
+    *,
+    dmask=None,
     tuplet_ratios=None,
     tuplet_ratio_rotation=None,
     ):
     """
     Makes keynoise rhythm.
     """
+    if dmask is None:
+        division_masks = None
+    else:
+        division_masks = [dmask]
+
     if tuplet_ratios is None:
         tuplet_ratios = faberge.tuplet_ratios_a
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]

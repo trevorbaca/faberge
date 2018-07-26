@@ -4,14 +4,20 @@ from abjadext import rmakers
 
 
 def spazzolati_rhythm(
+    *,
     counts_rotation=None,
     denominator=16,
-    division_masks=None,
+    dmask=None,
     extra_counts_per_division=None,
     ):
     """
     Makes spazzolati rhythm.
     """
+    if dmask is None:
+        division_masks = None
+    else:
+        division_masks = [dmask]
+
     counts = [
         [1, 1, 1],
         [-2],
