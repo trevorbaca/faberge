@@ -3190,6 +3190,7 @@ I_ViolinMusicVoice = {
     % [I ViolinMusicVoice measure 579 / measure 2]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinMusicVoice measure 580 / measure 3]                         %! SM4
@@ -3200,11 +3201,13 @@ I_ViolinMusicVoice = {
     % [I ViolinMusicVoice measure 581 / measure 4]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinMusicVoice measure 582 / measure 5]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinMusicVoice measure 583 / measure 6]                         %! SM4
@@ -3230,6 +3233,7 @@ I_ViolinMusicVoice = {
     % [I ViolinMusicVoice measure 587 / measure 10]                        %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinMusicVoice measure 588 / measure 11]                        %! SM4
@@ -3511,6 +3515,7 @@ I_ViolinMusicVoice = {
     % [I ViolinMusicVoice measure 612 / measure 35]                        %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinMusicVoice measure 613 / measure 36]                        %! SM4
@@ -3526,6 +3531,7 @@ I_ViolinMusicVoice = {
     % [I ViolinMusicVoice measure 615 / measure 38]                        %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolinMusicVoice measure 616 / measure 39]                        %! SM4
@@ -3536,6 +3542,7 @@ I_ViolinMusicVoice = {
     % [I ViolinMusicVoice measure 617 / measure 40]                        %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
 }
@@ -3603,6 +3610,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 579 / measure 2]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolaMusicVoice measure 580 / measure 3]                          %! SM4
@@ -3613,11 +3621,13 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 581 / measure 4]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolaMusicVoice measure 582 / measure 5]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolaMusicVoice measure 583 / measure 6]                          %! SM4
@@ -3643,6 +3653,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 587 / measure 10]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolaMusicVoice measure 588 / measure 11]                         %! SM4
@@ -3960,6 +3971,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 612 / measure 35]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolaMusicVoice measure 613 / measure 36]                         %! SM4
@@ -3975,6 +3987,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 615 / measure 38]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I ViolaMusicVoice measure 616 / measure 39]                         %! SM4
@@ -3985,6 +3998,7 @@ I_ViolaMusicVoice = {
     % [I ViolaMusicVoice measure 617 / measure 40]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
 }
@@ -4127,6 +4141,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 587 / measure 10]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I CelloMusicVoice measure 588 / measure 11]                         %! SM4
@@ -4371,6 +4386,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 612 / measure 35]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I CelloMusicVoice measure 613 / measure 36]                         %! SM4
@@ -4386,6 +4402,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 615 / measure 38]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [I CelloMusicVoice measure 616 / measure 39]                         %! SM4
@@ -4396,6 +4413,7 @@ I_CelloMusicVoice = {
     % [I CelloMusicVoice measure 617 / measure 40]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
 }

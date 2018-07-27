@@ -2782,6 +2782,7 @@ K_ViolinMusicVoice = {
     % [K ViolinMusicVoice measure 645 / measure 4]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/10 {
@@ -3281,11 +3282,13 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 645 / measure 4]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K ViolaMusicVoice measure 646 / measure 5]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K ViolaMusicVoice measure 647 / measure 6]                          %! SM4
@@ -3311,6 +3314,7 @@ K_ViolaMusicVoice = {
     % [K ViolaMusicVoice measure 651 / measure 10]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K ViolaMusicVoice measure 652 / measure 11]                         %! SM4
@@ -3441,11 +3445,13 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 645 / measure 4]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 646 / measure 5]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 647 / measure 6]                          %! SM4
@@ -3509,11 +3515,13 @@ K_CelloMusicVoice = {
     % [K CelloMusicVoice measure 664 / measure 23]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 665 / measure 24]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 666 / measure 25]                         %! SM4

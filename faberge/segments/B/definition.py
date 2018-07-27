@@ -654,7 +654,6 @@ maker(
     baca.dynamic('"mf"'),
     baca.markup('airtone'),
     baca.pitch('F3'),
-    baca.repeat_tie_up(),
     )
 
 maker(
@@ -865,7 +864,6 @@ maker(
             ),
         ),
     baca.pitch('C4'),
-    baca.repeat_tie_up(),
     )
 
 maker(

@@ -2119,6 +2119,7 @@ E_ViolinMusicVoice = {
     % [E ViolinMusicVoice measure 304 / measure 4]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1..
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolinMusicVoice measure 305 / measure 5]                         %! SM4
@@ -2524,6 +2525,7 @@ E_ViolinMusicVoice = {
     % [E ViolinMusicVoice measure 318 / measure 18]                        %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolinMusicVoice measure 319 / measure 19]                        %! SM4
@@ -2606,26 +2608,31 @@ E_ViolaMusicVoice = {
     % [E ViolaMusicVoice measure 302 / measure 2]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 303 / measure 3]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 304 / measure 4]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1..
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 305 / measure 5]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 306 / measure 6]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 307 / measure 7]                          %! SM4
@@ -2690,31 +2697,37 @@ E_ViolaMusicVoice = {
     % [E ViolaMusicVoice measure 314 / measure 14]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 315 / measure 15]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 316 / measure 16]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 317 / measure 17]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 318 / measure 18]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 319 / measure 19]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1.
+    - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 320 / measure 20]                         %! SM4
@@ -2797,6 +2810,7 @@ E_CelloMusicVoice = {
     % [E CelloMusicVoice measure 304 / measure 4]                          %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1..
+    - \tweak direction #up
     \repeatTie
     
     % [E CelloMusicVoice measure 305 / measure 5]                          %! SM4
@@ -3176,6 +3190,7 @@ E_CelloMusicVoice = {
     % [E CelloMusicVoice measure 318 / measure 18]                         %! SM4
     \baca_unpitched_music_warning                                          %! SM24
     c'1
+    - \tweak direction #up
     \repeatTie
     
     % [E CelloMusicVoice measure 319 / measure 19]                         %! SM4
