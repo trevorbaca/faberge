@@ -3270,6 +3270,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 128 / measure 32]                   %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 129 / measure 33]                   %! SM4
@@ -3282,6 +3283,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 131 / measure 35]                   %! SM4
     bf'!1
+    - \tweak direction #up
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 132 / measure 36]                   %! SM4
@@ -3296,6 +3298,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 134 / measure 38]                   %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 135 / measure 39]                   %! SM4
@@ -3304,6 +3307,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 136 / measure 40]                   %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 137 / measure 41]                   %! SM4
@@ -3312,6 +3316,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 138 / measure 42]                   %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 139 / measure 43]                   %! SM4
@@ -3320,6 +3325,7 @@ B_EnglishHornMusicVoice = {
     
     % [B EnglishHornMusicVoice measure 140 / measure 44]                   %! SM4
     b'1
+    - \tweak direction #up
     \repeatTie
     
     % [B EnglishHornMusicVoice measure 141 / measure 45]                   %! SM4
@@ -3720,7 +3726,6 @@ B_EnglishHornMusicVoice = {
     r1
     
     % [B EnglishHornMusicVoice measure 165 / measure 69]                   %! SM4
-    \override RepeatTie.direction = #up                                    %! OC1
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:IC
     c'1
     \baca_effort_mf                                                        %! SM8:EXPLICIT_DYNAMIC:IC
@@ -3737,7 +3742,6 @@ B_EnglishHornMusicVoice = {
     % [B EnglishHornMusicVoice measure 168 / measure 72]                   %! SM4
     c'2.
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     
     % [B EnglishHornMusicVoice measure 169 / measure 73]                   %! SM4
     \stopStaff                                                             %! SM8:EXPLICIT_STAFF_LINES:IC
@@ -6836,7 +6840,6 @@ B_ViolinMusicVoice = {
     }
     
     % [B ViolinMusicVoice measure 165 / measure 69]                        %! SM4
-    \override RepeatTie.direction = #up                                    %! OC1
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! SM26
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)      %! SM6:REDUNDANT_DYNAMIC_COLOR:IC
     c'1
@@ -6863,7 +6866,6 @@ B_ViolinMusicVoice = {
     % [B ViolinMusicVoice measure 168 / measure 72]                        %! SM4
     c'2.
     \repeatTie
-    \revert RepeatTie.direction                                            %! OC2
     \tweak text #tuplet-number::calc-fraction-text
     \times 14/16 {
         
