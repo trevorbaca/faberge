@@ -1246,7 +1246,7 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -1275,7 +1275,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 4/5 {
@@ -1704,7 +1704,7 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -1760,7 +1760,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 4/5 {
@@ -2241,7 +2241,7 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -2310,7 +2310,7 @@ B_FluteMusicVoice = {
                 \finger
                     2
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \times 2/3 {
@@ -2409,7 +2409,7 @@ B_FluteMusicVoice = {
                 \finger
                     1
         }
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -2639,7 +2639,7 @@ B_FluteMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     gs''!1
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -4400,7 +4400,7 @@ B_ClarinetMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     d4
     \!                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     
@@ -5386,7 +5386,7 @@ B_PercussionMusicVoice = {
             (“Percussion”)                                                 %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     ^ \markup { "lv possibile" }                                           %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -5682,7 +5682,7 @@ B_PercussionMusicVoice = {
     d,2.
     :32                                                                    %! IC
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -5864,7 +5864,7 @@ B_ViolinMusicVoice = {
             (“Violin”)                                                     %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
         }                                                                  %! SM11:REAPPLIED_INSTRUMENT_ALERT:SM37
     ^ \markup { "lv possibile" }                                           %! IC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     - \tweak circled-tip ##t                                               %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! SM6:REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:-PARTS:SM37
@@ -6401,7 +6401,7 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqf'!2.
     \ppp                                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -6437,7 +6437,7 @@ B_ViolinMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     eqf'!1
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -6499,7 +6499,7 @@ B_ViolinMusicVoice = {
                             "(mute string with left hand)"                 %! IC
                         }                                                  %! IC
             }                                                              %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
@@ -7714,7 +7714,7 @@ B_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g2.
     \pp                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -7750,7 +7750,7 @@ B_ViolaMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     g1
     \f                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     
@@ -7810,7 +7810,7 @@ B_ViolaMusicVoice = {
                             "(mute string with left hand)"                 %! IC
                         }                                                  %! IC
             }                                                              %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         [
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! SM6:EXPLICIT_CLEF_REDRAW_COLOR:IC
@@ -8654,7 +8654,7 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2.
     \p                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \<                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
@@ -8723,7 +8723,7 @@ B_CelloMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! SM6:EXPLICIT_DYNAMIC_COLOR:PIC
     ef,!2
     \ff                                                                    %! SM8:EXPLICIT_DYNAMIC:PIC
-    - \tweak color #blue                                                   %! SM8:EXPLICIT_DYNAMIC:PIC
+    - \tweak color #blue                                                   %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
     \>                                                                     %! SM8:EXPLICIT_DYNAMIC:PIC
     \repeatTie
     - \abjad_dashed_line_with_arrow                                        %! PIC
@@ -8801,7 +8801,7 @@ B_CelloMusicVoice = {
                     "do not reattack note heads"                           %! IC
                 }                                                          %! IC
             }                                                              %! IC
-        - \tweak color #blue                                               %! SM8:EXPLICIT_DYNAMIC:PIC
+        - \tweak color #blue                                               %! SM43 %! SM8:EXPLICIT_DYNAMIC:PIC
         \<                                                                 %! SM8:EXPLICIT_DYNAMIC:PIC
         \glissando                                                         %! SC
     }
