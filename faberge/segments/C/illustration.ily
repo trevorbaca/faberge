@@ -2227,11 +2227,11 @@ C_EnglishHornMusicVoice = {
     
     % [C EnglishHornMusicVoice measure 223 / measure 47]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2
+    g'2                                                                    %! baca_make_repeat_tied_notes
     
     % [C EnglishHornMusicVoice measure 224 / measure 48]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 225 / measure 49]                   %! _comment_measure_numbers
@@ -2695,7 +2695,7 @@ C_ClarinetMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2
+    d''2                                                                   %! baca_make_repeat_tied_notes
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cl.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassClarinet”)"          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2710,17 +2710,17 @@ C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 178 / measure 2]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2.
+    d''2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ClarinetMusicVoice measure 179 / measure 3]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2
+    d''2                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ClarinetMusicVoice measure 180 / measure 4]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2.
+    d''2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C ClarinetMusicVoice measure 181 / measure 5]                       %! _comment_measure_numbers
@@ -4854,11 +4854,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 195 / measure 19]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [C PercussionMusicVoice measure 196 / measure 20]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C PercussionMusicVoice measure 197 / measure 21]                    %! _comment_measure_numbers
@@ -4866,11 +4866,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 198 / measure 22]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [C PercussionMusicVoice measure 199 / measure 23]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C PercussionMusicVoice measure 200 / measure 24]                    %! _comment_measure_numbers
@@ -4991,11 +4991,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 223 / measure 47]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     % [C PercussionMusicVoice measure 224 / measure 48]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C PercussionMusicVoice measure 225 / measure 49]                    %! _comment_measure_numbers
@@ -5003,11 +5003,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 226 / measure 50]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     
     % [C PercussionMusicVoice measure 227 / measure 51]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C PercussionMusicVoice measure 228 / measure 52]                    %! _comment_measure_numbers
@@ -8188,11 +8188,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 195 / measure 19]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [C CelloMusicVoice measure 196 / measure 20]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C CelloMusicVoice measure 197 / measure 21]                         %! _comment_measure_numbers
@@ -8200,11 +8200,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 198 / measure 22]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [C CelloMusicVoice measure 199 / measure 23]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [C CelloMusicVoice measure 200 / measure 24]                         %! _comment_measure_numbers

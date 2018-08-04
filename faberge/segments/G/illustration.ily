@@ -3993,7 +3993,7 @@ G_PercussionMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc.”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -4008,7 +4008,7 @@ G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 430 / measure 2]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G PercussionMusicVoice measure 431 / measure 3]                     %! _comment_measure_numbers
@@ -4034,11 +4034,11 @@ G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 438 / measure 10]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [G PercussionMusicVoice measure 439 / measure 11]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G PercussionMusicVoice measure 440 / measure 12]                    %! _comment_measure_numbers
@@ -4046,11 +4046,11 @@ G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 441 / measure 13]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     % [G PercussionMusicVoice measure 442 / measure 14]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G PercussionMusicVoice measure 443 / measure 15]                    %! _comment_measure_numbers
@@ -4067,11 +4067,11 @@ G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 447 / measure 19]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     % [G PercussionMusicVoice measure 448 / measure 20]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G PercussionMusicVoice measure 449 / measure 21]                    %! _comment_measure_numbers
@@ -4079,11 +4079,11 @@ G_PercussionMusicVoice = {
     
     % [G PercussionMusicVoice measure 450 / measure 22]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [G PercussionMusicVoice measure 451 / measure 23]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [G PercussionMusicVoice measure 452 / measure 24]                    %! _comment_measure_numbers

@@ -374,7 +374,7 @@ K_FluteMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c''2
+    c''2                                                                   %! baca_make_repeat_tied_notes
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Fl.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassFlute”)"             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -389,7 +389,7 @@ K_FluteMusicVoice = {
     
     % [K FluteMusicVoice measure 643 / measure 2]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c''2.
+    c''2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \times 4/5 {
         
@@ -799,21 +799,21 @@ K_FluteMusicVoice = {
     
     % [K FluteMusicVoice measure 663 / measure 22]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c''2
+    c''2                                                                   %! baca_make_repeat_tied_notes
     
     % [K FluteMusicVoice measure 664 / measure 23]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c''1
+    c''1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FluteMusicVoice measure 665 / measure 24]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c''1
+    c''1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K FluteMusicVoice measure 666 / measure 25]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c''2.
+    c''2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -880,61 +880,61 @@ K_EnglishHornMusicVoice = {
     
     % [K EnglishHornMusicVoice measure 650 / measure 9]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [K EnglishHornMusicVoice measure 651 / measure 10]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 652 / measure 11]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2
+    g'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 653 / measure 12]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 654 / measure 13]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 655 / measure 14]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2
+    g'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 656 / measure 15]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 657 / measure 16]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 658 / measure 17]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 659 / measure 18]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 660 / measure 19]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 661 / measure 20]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 662 / measure 21]                   %! _comment_measure_numbers
@@ -942,21 +942,21 @@ K_EnglishHornMusicVoice = {
     
     % [K EnglishHornMusicVoice measure 663 / measure 22]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2
+    g'2                                                                    %! baca_make_repeat_tied_notes
     
     % [K EnglishHornMusicVoice measure 664 / measure 23]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 665 / measure 24]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 666 / measure 25]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -984,7 +984,7 @@ K_ClarinetMusicVoice = {
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2
+    d''2                                                                   %! baca_make_repeat_tied_notes
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cl.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassClarinet”)"          %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -999,7 +999,7 @@ K_ClarinetMusicVoice = {
     
     % [K ClarinetMusicVoice measure 643 / measure 2]                       %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2.
+    d''2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     \times 4/5 {
         
@@ -1570,21 +1570,21 @@ K_ClarinetMusicVoice = {
     
     % [K ClarinetMusicVoice measure 663 / measure 22]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2
+    d''2                                                                   %! baca_make_repeat_tied_notes
     
     % [K ClarinetMusicVoice measure 664 / measure 23]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''1
+    d''1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ClarinetMusicVoice measure 665 / measure 24]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''1
+    d''1                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ClarinetMusicVoice measure 666 / measure 25]                      %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    d''2.
+    d''2.                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -2294,11 +2294,11 @@ K_PianoRHMusicVoice = {
     
     % [K PianoRHMusicVoice measure 665 / measure 24]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     
     % [K PianoRHMusicVoice measure 666 / measure 25]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -2505,7 +2505,7 @@ K_PercussionMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \baca_effort_mf                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc.”]"                 %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2520,17 +2520,17 @@ K_PercussionMusicVoice = {
     
     % [K PercussionMusicVoice measure 643 / measure 2]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K PercussionMusicVoice measure 644 / measure 3]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K PercussionMusicVoice measure 645 / measure 4]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K PercussionMusicVoice measure 646 / measure 5]                     %! _comment_measure_numbers
@@ -2588,21 +2588,21 @@ K_PercussionMusicVoice = {
     
     % [K PercussionMusicVoice measure 663 / measure 22]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     % [K PercussionMusicVoice measure 664 / measure 23]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K PercussionMusicVoice measure 665 / measure 24]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K PercussionMusicVoice measure 666 / measure 25]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -2635,7 +2635,7 @@ K_ViolinMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2650,17 +2650,17 @@ K_ViolinMusicVoice = {
     
     % [K ViolinMusicVoice measure 643 / measure 2]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolinMusicVoice measure 644 / measure 3]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolinMusicVoice measure 645 / measure 4]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     \tweak text #tuplet-number::calc-fraction-text
@@ -3080,11 +3080,11 @@ K_ViolinMusicVoice = {
     
     % [K ViolinMusicVoice measure 665 / measure 24]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     
     % [K ViolinMusicVoice measure 666 / measure 25]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -3116,7 +3116,7 @@ K_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3131,59 +3131,59 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 643 / measure 2]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 644 / measure 3]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [K ViolaMusicVoice measure 645 / measure 4]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K ViolaMusicVoice measure 646 / measure 5]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K ViolaMusicVoice measure 647 / measure 6]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 648 / measure 7]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 649 / measure 8]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 650 / measure 9]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 651 / measure 10]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K ViolaMusicVoice measure 652 / measure 11]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 653 / measure 12]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K ViolaMusicVoice measure 654 / measure 13]                         %! _comment_measure_numbers
@@ -3221,11 +3221,11 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 665 / measure 24]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     
     % [K ViolaMusicVoice measure 666 / measure 25]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
@@ -3258,7 +3258,7 @@ K_CelloMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)         %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3273,39 +3273,39 @@ K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 643 / measure 2]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloMusicVoice measure 644 / measure 3]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloMusicVoice measure 645 / measure 4]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 646 / measure 5]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 647 / measure 6]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloMusicVoice measure 648 / measure 7]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloMusicVoice measure 649 / measure 8]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [K CelloMusicVoice measure 650 / measure 9]                          %! _comment_measure_numbers
@@ -3349,23 +3349,23 @@ K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 663 / measure 22]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2
+    c'2                                                                    %! baca_make_repeat_tied_notes
     
     % [K CelloMusicVoice measure 664 / measure 23]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 665 / measure 24]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 666 / measure 25]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
 }
