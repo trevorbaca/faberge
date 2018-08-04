@@ -811,21 +811,21 @@ E_EnglishHornMusicVoice = {
     
     % [E EnglishHornMusicVoice measure 315 / measure 15]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1.
+    g'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E EnglishHornMusicVoice measure 316 / measure 16]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 317 / measure 17]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1.
+    g'1.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 318 / measure 18]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    g'1
+    g'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 319 / measure 19]                   %! _comment_measure_numbers
@@ -1845,11 +1845,11 @@ E_PercussionMusicVoice = {
     
     % [E PercussionMusicVoice measure 303 / measure 3]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E PercussionMusicVoice measure 304 / measure 4]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1..
+    c'1..                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E PercussionMusicVoice measure 305 / measure 5]                     %! _comment_measure_numbers
@@ -1920,21 +1920,21 @@ E_PercussionMusicVoice = {
     
     % [E PercussionMusicVoice measure 315 / measure 15]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E PercussionMusicVoice measure 316 / measure 16]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E PercussionMusicVoice measure 317 / measure 17]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E PercussionMusicVoice measure 318 / measure 18]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [E PercussionMusicVoice measure 319 / measure 19]                    %! _comment_measure_numbers
@@ -1993,11 +1993,11 @@ E_ViolinMusicVoice = {
     
     % [E ViolinMusicVoice measure 303 / measure 3]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E ViolinMusicVoice measure 304 / measure 4]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1..
+    c'1..                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
@@ -2399,11 +2399,11 @@ E_ViolinMusicVoice = {
     
     % [E ViolinMusicVoice measure 317 / measure 17]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E ViolinMusicVoice measure 318 / measure 18]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
@@ -2644,11 +2644,11 @@ E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 303 / measure 3]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E CelloMusicVoice measure 304 / measure 4]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1..
+    c'1..                                                                  %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     
@@ -3024,11 +3024,11 @@ E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 317 / measure 17]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_repeat_tied_notes
     
     % [E CelloMusicVoice measure 318 / measure 18]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
     

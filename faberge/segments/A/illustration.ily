@@ -7763,7 +7763,7 @@ A_ViolaMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -7782,63 +7782,63 @@ A_ViolaMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A ViolaMusicVoice measure 6 / measure 2]                            %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 7 / measure 3]                            %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 8 / measure 4]                            %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 9 / measure 5]                            %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 10 / measure 6]                           %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 11 / measure 7]                           %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 12 / measure 8]                           %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 13 / measure 9]                           %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 14 / measure 10]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 15 / measure 11]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 16 / measure 12]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 17 / measure 13]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \repeatTie
@@ -7848,23 +7848,23 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 18 / measure 14]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 19 / measure 15]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 20 / measure 16]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 21 / measure 17]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -7876,55 +7876,55 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 22 / measure 18]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 23 / measure 19]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 24 / measure 20]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 25 / measure 21]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 26 / measure 22]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 27 / measure 23]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [A ViolaMusicVoice measure 28 / measure 24]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 29 / measure 25]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 30 / measure 26]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 31 / measure 27]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \repeatTie
@@ -7934,23 +7934,23 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 32 / measure 28]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 33 / measure 29]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 34 / measure 30]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 35 / measure 31]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -7962,55 +7962,55 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 36 / measure 32]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 37 / measure 33]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 38 / measure 34]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 39 / measure 35]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 40 / measure 36]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 41 / measure 37]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [A ViolaMusicVoice measure 42 / measure 38]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 43 / measure 39]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 44 / measure 40]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 45 / measure 41]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \repeatTie
@@ -8020,33 +8020,33 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 46 / measure 42]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 47 / measure 43]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 48 / measure 44]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 49 / measure 45]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 50 / measure 46]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 51 / measure 47]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8058,55 +8058,55 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 52 / measure 48]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 53 / measure 49]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 54 / measure 50]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 55 / measure 51]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 56 / measure 52]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 57 / measure 53]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [A ViolaMusicVoice measure 58 / measure 54]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 59 / measure 55]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 60 / measure 56]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 61 / measure 57]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     \repeatTie
@@ -8119,27 +8119,27 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 62 / measure 58]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 63 / measure 59]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 64 / measure 60]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 65 / measure 61]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 66 / measure 62]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     \times 2/3 {
@@ -8286,7 +8286,7 @@ A_ViolaMusicVoice = {
     % [A ViolaMusicVoice measure 75 / measure 71]                          %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup { XFB }                                                      %! IndicatorCommand
@@ -8300,49 +8300,49 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 76 / measure 72]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 77 / measure 73]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 78 / measure 74]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 79 / measure 75]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 80 / measure 76]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 81 / measure 77]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [A ViolaMusicVoice measure 82 / measure 78]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 83 / measure 79]                          %! _comment_measure_numbers
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 84 / measure 80]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
@@ -8485,7 +8485,7 @@ A_ViolaMusicVoice = {
     % [A ViolaMusicVoice measure 93 / measure 89]                          %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d2.
+    d2.                                                                    %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { XFB }                                                      %! IndicatorCommand
@@ -8497,17 +8497,17 @@ A_ViolaMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A ViolaMusicVoice measure 94 / measure 90]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 95 / measure 91]                          %! _comment_measure_numbers
-    d2
+    d2                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     
     % [A ViolaMusicVoice measure 96 / measure 92]                          %! _comment_measure_numbers
-    d1
+    d1                                                                     %! baca_make_repeat_tied_notes
     :32                                                                    %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
@@ -8538,7 +8538,7 @@ A_CelloMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                   %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -8560,95 +8560,95 @@ A_CelloMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [A CelloMusicVoice measure 6 / measure 2]                            %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 7 / measure 3]                            %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 8 / measure 4]                            %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 9 / measure 5]                            %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 10 / measure 6]                           %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 11 / measure 7]                           %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 12 / measure 8]                           %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 13 / measure 9]                           %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 14 / measure 10]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 15 / measure 11]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 16 / measure 12]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 17 / measure 13]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 18 / measure 14]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 19 / measure 15]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 20 / measure 16]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 21 / measure 17]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [A CelloMusicVoice measure 22 / measure 18]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 23 / measure 19]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 24 / measure 20]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 25 / measure 21]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 26 / measure 22]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 27 / measure 23]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8661,103 +8661,103 @@ A_CelloMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A CelloMusicVoice measure 28 / measure 24]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 29 / measure 25]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 30 / measure 26]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 31 / measure 27]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 32 / measure 28]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 33 / measure 29]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 34 / measure 30]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 35 / measure 31]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 36 / measure 32]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 37 / measure 33]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 38 / measure 34]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 39 / measure 35]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 40 / measure 36]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 41 / measure 37]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [A CelloMusicVoice measure 42 / measure 38]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 43 / measure 39]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 44 / measure 40]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 45 / measure 41]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 46 / measure 42]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 47 / measure 43]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 48 / measure 44]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 49 / measure 45]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 50 / measure 46]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 51 / measure 47]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8770,106 +8770,106 @@ A_CelloMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A CelloMusicVoice measure 52 / measure 48]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 53 / measure 49]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 54 / measure 50]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 55 / measure 51]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 56 / measure 52]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 57 / measure 53]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 58 / measure 54]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 59 / measure 55]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [A CelloMusicVoice measure 60 / measure 56]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 61 / measure 57]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 62 / measure 58]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 63 / measure 59]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 64 / measure 60]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 65 / measure 61]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 66 / measure 62]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 67 / measure 63]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { "(poco pont.+) sub. non vib." }                            %! IndicatorCommand
     \repeatTie
     
     % [A CelloMusicVoice measure 68 / measure 64]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 69 / measure 65]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 70 / measure 66]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 71 / measure 67]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 72 / measure 68]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 73 / measure 69]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 74 / measure 70]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 75 / measure 71]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8882,45 +8882,45 @@ A_CelloMusicVoice = {
     \startTextSpan                                                         %! PiecewiseIndicatorCommand(1)
     
     % [A CelloMusicVoice measure 76 / measure 72]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 77 / measure 73]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 78 / measure 74]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 79 / measure 75]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 80 / measure 76]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 81 / measure 77]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 82 / measure 78]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 83 / measure 79]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 84 / measure 80]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \stopTextSpan                                                          %! PiecewiseIndicatorCommand(2)
     
     % [A CelloMusicVoice measure 85 / measure 81]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8928,49 +8928,49 @@ A_CelloMusicVoice = {
     \repeatTie
     
     % [A CelloMusicVoice measure 86 / measure 82]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 87 / measure 83]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 88 / measure 84]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 89 / measure 85]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 90 / measure 86]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 91 / measure 87]                          %! _comment_measure_numbers
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 92 / measure 88]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 93 / measure 89]                          %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    d,2.
+    d,2.                                                                   %! baca_make_repeat_tied_notes
     \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
     
     % [A CelloMusicVoice measure 94 / measure 90]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 95 / measure 91]                          %! _comment_measure_numbers
-    d,2
+    d,2                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [A CelloMusicVoice measure 96 / measure 92]                          %! _comment_measure_numbers
-    d,1
+    d,1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     \revert TextSpanner.staff-padding                                      %! OverrideCommand(2)
     

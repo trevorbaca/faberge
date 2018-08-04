@@ -940,107 +940,107 @@ D_PianoRHMusicVoice = {
     % [D PianoRHMusicVoice measure 280 / measure 7]                    %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                              %! OverrideCommand(1)
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     
     % [D PianoRHMusicVoice measure 281 / measure 8]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1..
+    c'1..                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 282 / measure 9]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 283 / measure 10]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
         
         % [D PianoRHMusicVoice measure 284 / measure 11]               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'2
+        c'2                                                            %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'8
+        c'8                                                            %! baca_make_repeat_tied_notes
         \repeatTie
     }
     
     % [D PianoRHMusicVoice measure 285 / measure 12]                   %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 286 / measure 13]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
         
         % [D PianoRHMusicVoice measure 287 / measure 14]               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'2
+        c'2                                                            %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'8
+        c'8                                                            %! baca_make_repeat_tied_notes
         \repeatTie
     }
     
     % [D PianoRHMusicVoice measure 288 / measure 15]                   %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 289 / measure 16]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 290 / measure 17]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 291 / measure 18]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 292 / measure 19]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 293 / measure 20]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 294 / measure 21]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 295 / measure 22]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 296 / measure 23]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoRHMusicVoice measure 297 / measure 24]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     \revert NoteHead.style                                             %! OverrideCommand(2)
     
@@ -1090,107 +1090,107 @@ D_PianoLHMusicVoice = {
     % [D PianoLHMusicVoice measure 280 / measure 7]                    %! _comment_measure_numbers
     \override NoteHead.style = #'harmonic                              %! OverrideCommand(1)
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     
     % [D PianoLHMusicVoice measure 281 / measure 8]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1..
+    c'1..                                                              %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 282 / measure 9]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 283 / measure 10]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
         
         % [D PianoLHMusicVoice measure 284 / measure 11]               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'2
+        c'2                                                            %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'8
+        c'8                                                            %! baca_make_repeat_tied_notes
         \repeatTie
     }
     
     % [D PianoLHMusicVoice measure 285 / measure 12]                   %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 286 / measure 13]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
         
         % [D PianoLHMusicVoice measure 287 / measure 14]               %! _comment_measure_numbers
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'2
+        c'2                                                            %! baca_make_repeat_tied_notes
         \repeatTie
         
         \baca_unpitched_music_warning                                  %! _color_unpitched_notes
-        c'8
+        c'8                                                            %! baca_make_repeat_tied_notes
         \repeatTie
     }
     
     % [D PianoLHMusicVoice measure 288 / measure 15]                   %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie             %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 289 / measure 16]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 290 / measure 17]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 291 / measure 18]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 292 / measure 19]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 293 / measure 20]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'2.
+    c'2.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 294 / measure 21]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 295 / measure 22]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1.
+    c'1.                                                               %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 296 / measure 23]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PianoLHMusicVoice measure 297 / measure 24]                   %! _comment_measure_numbers
     \baca_unpitched_music_warning                                      %! _color_unpitched_notes
-    c'1
+    c'1                                                                %! baca_make_repeat_tied_notes
     \repeatTie
     \revert NoteHead.style                                             %! OverrideCommand(2)
     
@@ -1356,11 +1356,11 @@ D_PercussionMusicVoice = {
     
     % [D PercussionMusicVoice measure 277 / measure 4]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [D PercussionMusicVoice measure 278 / measure 5]                     %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PercussionMusicVoice measure 279 / measure 6]                     %! _comment_measure_numbers
@@ -1383,11 +1383,11 @@ D_PercussionMusicVoice = {
     
     % [D PercussionMusicVoice measure 285 / measure 12]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_repeat_tied_notes
     
     % [D PercussionMusicVoice measure 286 / measure 13]                    %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_repeat_tied_notes
     \repeatTie
     
     % [D PercussionMusicVoice measure 287 / measure 14]                    %! _comment_measure_numbers
@@ -1632,11 +1632,11 @@ D_ViolinMusicVoice = {
     
     % [D ViolinMusicVoice measure 282 / measure 9]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D ViolinMusicVoice measure 283 / measure 10]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D ViolinMusicVoice measure 284 / measure 11]                        %! _comment_measure_numbers
     R1 * 5/12
@@ -1664,35 +1664,35 @@ D_ViolinMusicVoice = {
     
     % [D ViolinMusicVoice measure 292 / measure 19]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D ViolinMusicVoice measure 293 / measure 20]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_notes
     
     % [D ViolinMusicVoice measure 294 / measure 21]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D ViolinMusicVoice measure 295 / measure 22]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D ViolinMusicVoice measure 296 / measure 23]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D ViolinMusicVoice measure 297 / measure 24]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D ViolinMusicVoice measure 298 / measure 25]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1..
+    c'1..                                                                  %! baca_make_notes
     
     % [D ViolinMusicVoice measure 299 / measure 26]                        %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D ViolinMusicVoice measure 300 / measure 27]                        %! _comment_measure_numbers
     R1 * 5/12
@@ -2086,11 +2086,11 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 282 / measure 9]                          %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D CelloMusicVoice measure 283 / measure 10]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D CelloMusicVoice measure 284 / measure 11]                         %! _comment_measure_numbers
     R1 * 5/12
@@ -2118,35 +2118,35 @@ D_CelloMusicVoice = {
     
     % [D CelloMusicVoice measure 292 / measure 19]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D CelloMusicVoice measure 293 / measure 20]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                   %! baca_make_notes
     
     % [D CelloMusicVoice measure 294 / measure 21]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D CelloMusicVoice measure 295 / measure 22]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                   %! baca_make_notes
     
     % [D CelloMusicVoice measure 296 / measure 23]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D CelloMusicVoice measure 297 / measure 24]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D CelloMusicVoice measure 298 / measure 25]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1..
+    c'1..                                                                  %! baca_make_notes
     
     % [D CelloMusicVoice measure 299 / measure 26]                         %! _comment_measure_numbers
     \baca_unpitched_music_warning                                          %! _color_unpitched_notes
-    c'1
+    c'1                                                                    %! baca_make_notes
     
     % [D CelloMusicVoice measure 300 / measure 27]                         %! _comment_measure_numbers
     R1 * 5/12
