@@ -8631,8 +8631,8 @@ B_CelloMusicVoice = {
     % [B CelloMusicVoice measure 132 / measure 36]                         %! _comment_measure_numbers
     ef,!2                                                                  %! baca_make_repeat_tied_notes
     \repeatTie
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 27/28 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! baca_make_fused_tuplet_monads
+    \times 27/28 {                                                         %! baca_make_fused_tuplet_monads
         
         % [B CelloMusicVoice measure 133 / measure 37]                     %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -8648,13 +8648,13 @@ B_CelloMusicVoice = {
         - \tweak color #blue                                               %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \glissando                                                         %! SpannerCommand
-    }
+    }                                                                      %! baca_make_fused_tuplet_monads
     
     % [B CelloMusicVoice measure 141 / measure 45]                         %! _comment_measure_numbers
     ff,!\breve.                                                            %! baca_make_fused_tuplet_monads
     \glissando                                                             %! SpannerCommand
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 25/28 {
+    \tweak text #tuplet-number::calc-fraction-text                         %! baca_make_fused_tuplet_monads
+    \times 25/28 {                                                         %! baca_make_fused_tuplet_monads
         
         % [B CelloMusicVoice measure 145 / measure 49]                     %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -8666,9 +8666,9 @@ B_CelloMusicVoice = {
         - \tweak circled-tip ##t                                           %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \glissando                                                         %! SpannerCommand
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 11/16 {
+    }                                                                      %! baca_make_fused_tuplet_monads
+    \tweak text #tuplet-number::calc-fraction-text                         %! baca_make_fused_tuplet_monads
+    \times 11/16 {                                                         %! baca_make_fused_tuplet_monads
         
         % [B CelloMusicVoice measure 153 / measure 57]                     %! _comment_measure_numbers
         cs,!\breve....                                                     %! baca_make_fused_tuplet_monads
@@ -8677,7 +8677,7 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)       %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bs,,!8                                                             %! baca_make_fused_tuplet_monads
         \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-    }
+    }                                                                      %! baca_make_fused_tuplet_monads
     \tweak text #tuplet-number::calc-fraction-text
     \times 20/22 {
         
