@@ -31,6 +31,7 @@ def successive_tapers_rhythm(
             suffix_counts=[len(stop_talea)],
             talea_denominator=denominator,
             ),
+        tag='successive_tapers_rhythm',
         tie_specifier=rmakers.TieSpecifier(
             tie_consecutive_notes=True,
             repeat_ties=True,

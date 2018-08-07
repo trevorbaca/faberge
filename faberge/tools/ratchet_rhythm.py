@@ -27,6 +27,7 @@ def ratchet_rhythm():
                 use_feather_beams=True,
                 ),
             interpolation_specifiers=interpolation_specifiers,
+            tag='ratchet_rhythm',
             tuplet_specifier=rmakers.TupletSpecifier(
                 duration_bracket=True,
                 ),

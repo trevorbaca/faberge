@@ -12,6 +12,7 @@ from abjadext import rmakers
 #            ),
 #        division_masks=rmakers.silence([0, 3, 5, 6], 8),
 #        extra_counts_per_division=[1, 3, 1, 0, 2],
+#        tag='keynoise_rhythm',
 #        talea=rmakers.Talea(
 #            counts=[1],
 #            denominator=16,
@@ -47,6 +48,7 @@ def keynoise_rhythm(
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rmakers.TupletRhythmMaker(
         division_masks=dmask,
+        tag='keynoise_rhythm',
         tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,

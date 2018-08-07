@@ -224,7 +224,7 @@ i_EnglishHornMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ratchet_rhythm
         
         % [_ EnglishHornMusicVoice measure 3]                                                      %! _comment_measure_numbers
         \stopStaff                                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -232,35 +232,35 @@ i_EnglishHornMusicVoice = {
         \startStaff                                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_3:SHIFTED_CLEF
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! OverrideCommand(1):MEASURE_3:SHIFTED_CLEF
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ratchet_rhythm
         \once \override Beam.grow-direction = #right
         \clef "percussion"                                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        c'16 * 187/32
+        c'16 * 187/32                                                                              %! ratchet_rhythm
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
                 \box                                                                               %! IndicatorCommand
                     ratchet                                                                        %! IndicatorCommand
             }                                                                                      %! IndicatorCommand
-        [
+        [                                                                                          %! ratchet_rhythm
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
-        c'16 * 139/32
+        c'16 * 139/32                                                                              %! ratchet_rhythm
         
-        c'16 * 73/32
+        c'16 * 73/32                                                                               %! ratchet_rhythm
         
-        c'16 * 23/16
+        c'16 * 23/16                                                                               %! ratchet_rhythm
         
-        c'16 * 71/64
+        c'16 * 71/64                                                                               %! ratchet_rhythm
         
-        \revert Staff.Stem.stemlet-length
-        c'16 * 63/64
-        ]
-    }
+        \revert Staff.Stem.stemlet-length                                                          %! ratchet_rhythm
+        c'16 * 63/64                                                                               %! ratchet_rhythm
+        ]                                                                                          %! ratchet_rhythm
+    }                                                                                              %! ratchet_rhythm
     \revert TupletNumber.text
     
     % [_ EnglishHornMusicVoice measure 4]                                                          %! _comment_measure_numbers
@@ -493,12 +493,12 @@ i_ViolinMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)                                %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    e'16
+    e'16                                                                                           %! spazzolati_rhythm
     \baca_effort_f                                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup \baca-default-indicator-markup "(“Violin”)"                                          %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { spazzolato }                                                                       %! IndicatorCommand
     ^ \markup \baca-explicit-indicator-markup "[“Vn.”]"                                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! spazzolati_rhythm
     \override Staff.Clef.color = #(x11-color 'violet)                                              %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
@@ -508,32 +508,32 @@ i_ViolinMusicVoice = {
             Vn.                                                                                    %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                                          %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
     
-    e'16
+    e'16                                                                                           %! spazzolati_rhythm
     
-    e'16
-    ]
+    e'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    e'16
-    [
+    e'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    e'16
-    ]
+    e'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    e'16
-    [
+    e'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    e'16
+    e'16                                                                                           %! spazzolati_rhythm
     
-    e'16
-    ]
+    e'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [_ ViolinMusicVoice measure 2]                                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -554,7 +554,7 @@ i_ViolinMusicStaff = {
 
 
 i_ViolaMusicVoice = {
-    \times 2/3 {
+    \times 2/3 {                                                                                   %! spazzolati_rhythm
         
         % [_ ViolaMusicVoice measure 1]                                                            %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -574,7 +574,7 @@ i_ViolaMusicVoice = {
     %@% \override Staff.Clef.color = ##f                                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)                            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        r4
+        r4                                                                                         %! spazzolati_rhythm
         ^ \markup \baca-default-indicator-markup "(“Viola”)"                                       %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-explicit-indicator-markup "[“Va.”]"                                        %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'violet)                                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -587,26 +587,26 @@ i_ViolaMusicVoice = {
             }                                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-        e'8
+        e'8                                                                                        %! spazzolati_rhythm
         \baca_effort_f                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazzolato }                                                                   %! IndicatorCommand
-    }
-    \times 2/3 {
+    }                                                                                              %! spazzolati_rhythm
+    \times 2/3 {                                                                                   %! spazzolati_rhythm
         
-        e'8
+        e'8                                                                                        %! spazzolati_rhythm
         
-        r4
-    }
-    \times 2/3 {
+        r4                                                                                         %! spazzolati_rhythm
+    }                                                                                              %! spazzolati_rhythm
+    \times 2/3 {                                                                                   %! spazzolati_rhythm
         
-        e'8
-        [
+        e'8                                                                                        %! spazzolati_rhythm
+        [                                                                                          %! spazzolati_rhythm
         
-        e'8
+        e'8                                                                                        %! spazzolati_rhythm
         
-        e'8
-        ]
-    }
+        e'8                                                                                        %! spazzolati_rhythm
+        ]                                                                                          %! spazzolati_rhythm
+    }                                                                                              %! spazzolati_rhythm
     
     % [_ ViolaMusicVoice measure 2]                                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences

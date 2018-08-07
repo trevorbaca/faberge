@@ -21,6 +21,7 @@ def single_taper(
                 suffix_counts=[len(stop_talea)],
                 talea_denominator=denominator,
                 ),
+            tag='single_taper',
             tie_specifier=rmakers.TieSpecifier(
                 tie_consecutive_notes=True,
                 repeat_ties=True,

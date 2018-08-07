@@ -27,6 +27,7 @@ def lateral_click_rhythm():
                 use_feather_beams=True,
                 ),
             interpolation_specifiers=interpolation_specifiers,
+            tag='lateral_click_rhythm',
             tuplet_specifier=rmakers.TupletSpecifier(
                 duration_bracket=True,
                 ),

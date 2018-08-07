@@ -17,6 +17,7 @@ def percussion_gears_rhythm(
         counts.extend([1000])
     assert counts, repr(counts)
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        tag='percussion_gears_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,

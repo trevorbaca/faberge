@@ -17,6 +17,7 @@ def stop_release_rhythm():
             suffix_counts=[1, 0],
             talea_denominator=4,
             ),
+        tag='stop_release_rhythm',
         )
     return baca.rhythm(
         rewrite_meter=True,

@@ -9,6 +9,7 @@ def shell_tremolo_rhythm():
     """
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=None,
+        tag='shell_tremolo_rhythm',
         talea=rmakers.Talea(
             counts=[8],
             denominator=8,

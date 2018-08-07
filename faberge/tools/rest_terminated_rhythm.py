@@ -14,6 +14,7 @@ def rest_terminated_rhythm():
             suffix_counts=[1],
             talea_denominator=4,
             ),
+        tag='rest_terminated_rhythm',
         tie_specifier=rmakers.TieSpecifier(
             repeat_ties=True,
             tie_across_divisions=True,

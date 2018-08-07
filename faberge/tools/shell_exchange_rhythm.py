@@ -110,6 +110,7 @@ def shell_exchange_rhythm(
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extras,
         logical_tie_masks=rmakers.silence([-1]),
+        tag='shell_exchange_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=8,

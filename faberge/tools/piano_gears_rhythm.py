@@ -9,6 +9,7 @@ def piano_gears_rhythm():
     """
     counts = [4]
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        tag='piano_gears_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,
