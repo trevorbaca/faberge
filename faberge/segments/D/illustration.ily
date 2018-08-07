@@ -1232,7 +1232,7 @@ D_PianoLHAttackVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     ds,!16
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     s1
     
@@ -1254,7 +1254,7 @@ D_PianoLHAttackVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     ds,!16
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    -\marcato                                                                                      %! IndicatorCommand
+    - \marcato                                                                                     %! IndicatorCommand
     
     s2
     
