@@ -5290,7 +5290,7 @@ B_PercussionMusicVoice = {
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     g'2.                                                                                           %! baca_make_single_attack
     \!                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-    -\laissezVibrer                                                                                %! IndicatorCommand
+    - \laissezVibrer                                                                               %! IndicatorCommand
     ^ \markup \baca-reapplied-indicator-markup "[“Perc.”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "lv possibile" }                                                                   %! IndicatorCommand
@@ -6370,7 +6370,7 @@ B_ViolinMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         c'8
         \baca_effort_p                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -6388,37 +6388,37 @@ B_ViolinMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6426,65 +6426,65 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 151 / measure 55]                                            %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6494,117 +6494,117 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8
         \baca_effort_mf                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolinMusicVoice measure 154 / measure 58]                                                %! _comment_measure_numbers
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     % [B ViolinMusicVoice measure 155 / measure 59]                                                %! _comment_measure_numbers
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 10/14 {
         
         % [B ViolinMusicVoice measure 156 / measure 60]                                            %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6612,35 +6612,35 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 158 / measure 62]                                            %! _comment_measure_numbers
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6648,65 +6648,65 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 159 / measure 63]                                            %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6714,110 +6714,110 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 161 / measure 65]                                            %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolinMusicVoice measure 163 / measure 67]                                                %! _comment_measure_numbers
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/12 {
         
         % [B ViolinMusicVoice measure 164 / measure 68]                                            %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
@@ -6855,7 +6855,7 @@ B_ViolinMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8
         \baca_effort_mf                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup { "col legno battuto" }                                                          %! IndicatorCommand
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -6864,49 +6864,49 @@ B_ViolinMusicVoice = {
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6914,65 +6914,65 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 171 / measure 75]                                            %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -6980,101 +6980,101 @@ B_ViolinMusicVoice = {
         
         % [B ViolinMusicVoice measure 173 / measure 77]                                            %! _comment_measure_numbers
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolinMusicVoice measure 174 / measure 78]                                                %! _comment_measure_numbers
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     % [B ViolinMusicVoice measure 175 / measure 79]                                                %! _comment_measure_numbers
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/12 {
         
         % [B ViolinMusicVoice measure 176 / measure 80]                                            %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8
         \!                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
         
     }
@@ -7662,7 +7662,7 @@ B_ViolaMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         b8
         \baca_effort_p                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -7680,25 +7680,25 @@ B_ViolaMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7706,53 +7706,53 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 150 / measure 54]                                             %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7760,124 +7760,124 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 152 / measure 56]                                             %! _comment_measure_numbers
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8
         \baca_effort_mf                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolaMusicVoice measure 154 / measure 58]                                                 %! _comment_measure_numbers
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 12/16 {
         
         % [B ViolaMusicVoice measure 155 / measure 59]                                             %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -7885,210 +7885,210 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 157 / measure 61]                                             %! _comment_measure_numbers
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolaMusicVoice measure 159 / measure 63]                                                 %! _comment_measure_numbers
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 14/16 {
         
         % [B ViolaMusicVoice measure 160 / measure 64]                                             %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolaMusicVoice measure 162 / measure 66]                                                 %! _comment_measure_numbers
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     % [B ViolaMusicVoice measure 163 / measure 67]                                                 %! _comment_measure_numbers
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 8/12 {
         
         % [B ViolaMusicVoice measure 164 / measure 68]                                             %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8096,53 +8096,53 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 165 / measure 69]                                             %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8150,53 +8150,53 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 167 / measure 71]                                             %! _comment_measure_numbers
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8206,7 +8206,7 @@ B_ViolaMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         d'8
         \baca_effort_mf                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8214,125 +8214,125 @@ B_ViolaMusicVoice = {
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B ViolaMusicVoice measure 170 / measure 74]                                                 %! _comment_measure_numbers
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     % [B ViolaMusicVoice measure 171 / measure 75]                                                 %! _comment_measure_numbers
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 10/14 {
         
         % [B ViolaMusicVoice measure 172 / measure 76]                                             %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8340,23 +8340,23 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 174 / measure 78]                                             %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8364,67 +8364,67 @@ B_ViolaMusicVoice = {
         
         % [B ViolaMusicVoice measure 175 / measure 79]                                             %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8
         \!                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
         
     }
@@ -8695,7 +8695,7 @@ B_CelloMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         d'8
         \baca_effort_mf                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
@@ -8711,67 +8711,67 @@ B_CelloMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8779,89 +8779,89 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 160 / measure 64]                                             %! _comment_measure_numbers
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -8869,126 +8869,126 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 163 / measure 67]                                             %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     
     % [B CelloMusicVoice measure 166 / measure 70]                                                 %! _comment_measure_numbers
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     [
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     b8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     % [B CelloMusicVoice measure 167 / measure 71]                                                 %! _comment_measure_numbers
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     % [B CelloMusicVoice measure 168 / measure 72]                                                 %! _comment_measure_numbers
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     c'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     
     d'8
-    -\staccato                                                                                     %! IndicatorCommand
+    - \staccato                                                                                    %! IndicatorCommand
     ]
     \tweak text #tuplet-number::calc-fraction-text
     \times 22/26 {
@@ -8997,7 +8997,7 @@ B_CelloMusicVoice = {
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         d'8
         \baca_effort_mf                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         - \tweak color #blue                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -9005,79 +9005,79 @@ B_CelloMusicVoice = {
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -9085,53 +9085,53 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 172 / measure 76]                                             %! _comment_measure_numbers
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         d'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         ]
     }
     \tweak text #tuplet-number::calc-fraction-text
@@ -9139,68 +9139,68 @@ B_CelloMusicVoice = {
         
         % [B CelloMusicVoice measure 175 / measure 79]                                             %! _comment_measure_numbers
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         [
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         b8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         c'8
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         
         \once \override TextScript.extra-offset = #'(-12 . -4)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8
         \!                                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
-        -\staccato                                                                                 %! IndicatorCommand
+        - \staccato                                                                                %! IndicatorCommand
         _ \markup {                                                                                %! SCORE_2
             \override                                                                              %! SCORE_2
                 #'(font-name . "Palatino")                                                         %! SCORE_2
