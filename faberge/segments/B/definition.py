@@ -759,7 +759,7 @@ maker(
         baca.hairpin(
             'ppp < pp >',
             bookend=False,
-            piece_selector=baca.mgroups([2, 3]),
+            piece_selector=baca.cmgroups([2, 3]),
             ),
         ),
     baca.measures(
@@ -767,7 +767,7 @@ maker(
         baca.hairpin(
             '< pp >o niente',
             bookend=-1,
-            piece_selector=baca.mgroups([2, 7]),
+            piece_selector=baca.cmgroups([2, 7]),
             selector=baca.rleaves(),
             ),
         ),
@@ -1016,7 +1016,7 @@ maker(
 #            'tasto poss.',
 #            ],
 #        abjad.tweak(6).staff_padding,
-#        piece_selector=baca.mgroups([12, 8]),
+#        piece_selector=baca.cmgroups([12, 8]),
 #        selector=baca.rleaves(),
 #        ),
 #    )
