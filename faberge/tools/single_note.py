@@ -18,6 +18,7 @@ def single_note(duration):
             prefix_counts=[1],
             talea_denominator=denominator,
             ),
+        tag='single_note',
         )
     return baca.rhythm(
         rewrite_meter=True,

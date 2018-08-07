@@ -1355,7 +1355,7 @@ C_GlobalSkips = {
 
 
 C_FluteMusicVoice = {
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [C FluteMusicVoice measure 177 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1371,11 +1371,11 @@ C_FluteMusicVoice = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))               %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Fl.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“BassFlute”)"                                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! glow_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1386,155 +1386,155 @@ C_FluteMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [C FluteMusicVoice measure 178 / measure 2]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    ]
-    \times 2/3 {
+    c''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
+        c''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 4/5 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8.
-        ]
-    }
-    \times 4/5 {
+        c''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [C FluteMusicVoice measure 179 / measure 3]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 2/3 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
+        c''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
-    }
+        c''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [C FluteMusicVoice measure 180 / measure 4]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
+    c''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
-    ]
-    \times 4/5 {
+    c''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [C FluteMusicVoice measure 181 / measure 5]                                                  %! _comment_measure_numbers
     r1                                                                                             %! baca_make_rests
@@ -1568,27 +1568,27 @@ C_FluteMusicVoice = {
     
     % [C FluteMusicVoice measure 191 / measure 15]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! shell_exchange_rhythm
     
-    r4
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    
-    r8
+    r4                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! shell_exchange_rhythm
     
-    r4
+    r8                                                                                             %! shell_exchange_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c''8                                                                                           %! shell_exchange_rhythm
+    
+    r4                                                                                             %! shell_exchange_rhythm
     
     % [C FluteMusicVoice measure 192 / measure 16]                                                 %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! shell_exchange_rhythm
     
-    r4
+    r4                                                                                             %! shell_exchange_rhythm
     
     % [C FluteMusicVoice measure 193 / measure 17]                                                 %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -1843,7 +1843,7 @@ C_FluteMusicStaff = {
 
 
 C_EnglishHornMusicVoice = {
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
         % [C EnglishHornMusicVoice measure 177 / measure 1]                                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1862,7 +1862,7 @@ C_EnglishHornMusicVoice = {
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-        r16
+        r16                                                                                        %! keynoise_rhythm
         \baca_effort_mf                                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Eng. hn.”]"                                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“EnglishHorn”)"                               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1876,192 +1876,192 @@ C_EnglishHornMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    \times 4/5 {
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
-        r16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
     % [C EnglishHornMusicVoice measure 178 / measure 2]                                            %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'8
-    \times 2/3 {
+    g'8                                                                                            %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
         
-        r8
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
-    \times 4/5 {
-        
-        r16
+        r8                                                                                         %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'8.
-        ]
-    }
-    \times 4/5 {
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'8.                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
         % [C EnglishHornMusicVoice measure 179 / measure 3]                                        %! _comment_measure_numbers
-        r16
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
-    \times 2/3 {
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
         
-        r4
+        r4                                                                                         %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'8
-    }
+        g'8                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
     % [C EnglishHornMusicVoice measure 180 / measure 4]                                            %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'16
-    [
+    g'16                                                                                           %! keynoise_rhythm
+    [                                                                                              %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'16
-    ]
-    \times 4/5 {
+    g'16                                                                                           %! keynoise_rhythm
+    ]                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
-        r16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    \times 4/5 {
-        
-        r16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    \times 4/5 {
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
         % [C EnglishHornMusicVoice measure 181 / measure 5]                                        %! _comment_measure_numbers
-        r16
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
-    r8
+    r8                                                                                             %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'8
-    \times 2/3 {
+    g'8                                                                                            %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
         
-        r8
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
-    \times 4/5 {
-        
-        r16
+        r8                                                                                         %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'8.
-        ]
-    }
-    \times 4/5 {
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'8.                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
         % [C EnglishHornMusicVoice measure 182 / measure 6]                                        %! _comment_measure_numbers
-        r16
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
-    \times 2/3 {
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
         
-        r4
+        r4                                                                                         %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'8
-    }
+        g'8                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'16
-    [
+    r8                                                                                             %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'16
-    ]
+    g'16                                                                                           %! keynoise_rhythm
+    [                                                                                              %! keynoise_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    g'16                                                                                           %! keynoise_rhythm
+    ]                                                                                              %! keynoise_rhythm
     
     % [C EnglishHornMusicVoice measure 183 / measure 7]                                            %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -2125,105 +2125,105 @@ C_EnglishHornMusicVoice = {
     
     % [C EnglishHornMusicVoice measure 203 / measure 27]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! rest_terminated_rhythm
     
     % [C EnglishHornMusicVoice measure 204 / measure 28]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 205 / measure 29]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 206 / measure 30]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 207 / measure 31]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 208 / measure 32]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 209 / measure 33]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 210 / measure 34]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 211 / measure 35]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 212 / measure 36]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C EnglishHornMusicVoice measure 213 / measure 37]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     
     % [C EnglishHornMusicVoice measure 214 / measure 38]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 215 / measure 39]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 216 / measure 40]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 217 / measure 41]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 218 / measure 42]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 219 / measure 43]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 220 / measure 44]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 221 / measure 45]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 222 / measure 46]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C EnglishHornMusicVoice measure 223 / measure 47]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -2296,7 +2296,7 @@ C_EnglishHornMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ratchet_rhythm
         
         % [C EnglishHornMusicVoice measure 231 / measure 55]                                       %! _comment_measure_numbers
         \stopStaff                                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -2304,7 +2304,7 @@ C_EnglishHornMusicVoice = {
         \startStaff                                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_231:SHIFTED_CLEF
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! OverrideCommand(1):MEASURE_231:SHIFTED_CLEF
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ratchet_rhythm
         \once \override Beam.grow-direction = #right
         \clef "percussion"                                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -2312,24 +2312,24 @@ C_EnglishHornMusicVoice = {
         \set Staff.forceClef = ##t                                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)                               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 351/64
+        g'16 * 351/64                                                                              %! ratchet_rhythm
         ^ \markup {                                                                                %! IndicatorCommand
             \override                                                                              %! IndicatorCommand
                 #'(box-padding . 0.5)                                                              %! IndicatorCommand
                 \box                                                                               %! IndicatorCommand
                     ratchet                                                                        %! IndicatorCommand
             }                                                                                      %! IndicatorCommand
-        [
+        [                                                                                          %! ratchet_rhythm
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 101/64
+        g'16 * 101/64                                                                              %! ratchet_rhythm
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! ratchet_rhythm
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 15/16
-        ]
-    }
+        g'16 * 15/16                                                                               %! ratchet_rhythm
+        ]                                                                                          %! ratchet_rhythm
+    }                                                                                              %! ratchet_rhythm
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
         \scale
@@ -2370,32 +2370,32 @@ C_EnglishHornMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ratchet_rhythm
         
         % [C EnglishHornMusicVoice measure 232 / measure 56]                                       %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ratchet_rhythm
         \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 57/64
-        [
+        g'16 * 57/64                                                                               %! ratchet_rhythm
+        [                                                                                          %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 31/32
+        g'16 * 31/32                                                                               %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 77/64
+        g'16 * 77/64                                                                               %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 111/64
+        g'16 * 111/64                                                                              %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 11/4
+        g'16 * 11/4                                                                                %! ratchet_rhythm
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! ratchet_rhythm
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 285/64
-        ]
-    }
+        g'16 * 285/64                                                                              %! ratchet_rhythm
+        ]                                                                                          %! ratchet_rhythm
+    }                                                                                              %! ratchet_rhythm
     \revert TupletNumber.text
     
     % [C EnglishHornMusicVoice measure 233 / measure 57]                                           %! _comment_measure_numbers
@@ -2439,32 +2439,32 @@ C_EnglishHornMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ratchet_rhythm
         
         % [C EnglishHornMusicVoice measure 234 / measure 58]                                       %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ratchet_rhythm
         \once \override Beam.grow-direction = #right
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 187/32
-        [
+        g'16 * 187/32                                                                              %! ratchet_rhythm
+        [                                                                                          %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 139/32
+        g'16 * 139/32                                                                              %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 73/32
+        g'16 * 73/32                                                                               %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 23/16
+        g'16 * 23/16                                                                               %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 71/64
+        g'16 * 71/64                                                                               %! ratchet_rhythm
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! ratchet_rhythm
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 63/64
-        ]
-    }
+        g'16 * 63/64                                                                               %! ratchet_rhythm
+        ]                                                                                          %! ratchet_rhythm
+    }                                                                                              %! ratchet_rhythm
     \revert TupletNumber.text
     \override TupletNumber.text = \markup {
         \scale
@@ -2505,32 +2505,32 @@ C_EnglishHornMusicVoice = {
                     }
                 }
         }
-    \times 1/1 {
+    \times 1/1 {                                                                                   %! ratchet_rhythm
         
         % [C EnglishHornMusicVoice measure 235 / measure 59]                                       %! _comment_measure_numbers
-        \override Staff.Stem.stemlet-length = 0.75
+        \override Staff.Stem.stemlet-length = 0.75                                                 %! ratchet_rhythm
         \once \override Beam.grow-direction = #left
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 57/64
-        [
+        g'16 * 57/64                                                                               %! ratchet_rhythm
+        [                                                                                          %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 31/32
+        g'16 * 31/32                                                                               %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 77/64
+        g'16 * 77/64                                                                               %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 111/64
+        g'16 * 111/64                                                                              %! ratchet_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 11/4
+        g'16 * 11/4                                                                                %! ratchet_rhythm
         
-        \revert Staff.Stem.stemlet-length
+        \revert Staff.Stem.stemlet-length                                                          %! ratchet_rhythm
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16 * 285/64
-        ]
-    }
+        g'16 * 285/64                                                                              %! ratchet_rhythm
+        ]                                                                                          %! ratchet_rhythm
+    }                                                                                              %! ratchet_rhythm
     \revert TupletNumber.text
     
     % [C EnglishHornMusicVoice measure 236 / measure 60]                                           %! _comment_measure_numbers
@@ -2576,14 +2576,14 @@ C_EnglishHornMusicVoice = {
     R1 * 1/2                                                                                       %! _make_measure_silences
     
     % [C EnglishHornMusicVoice measure 250 / measure 74]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     
     % [C EnglishHornMusicVoice measure 251 / measure 75]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 252 / measure 76]                                           %! _comment_measure_numbers
@@ -2605,28 +2605,28 @@ C_EnglishHornMusicVoice = {
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C EnglishHornMusicVoice measure 258 / measure 82]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     
     % [C EnglishHornMusicVoice measure 259 / measure 83]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 260 / measure 84]                                           %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C EnglishHornMusicVoice measure 261 / measure 85]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'4
+    g'4                                                                                            %! airtone_chain_rhythm
     
     % [C EnglishHornMusicVoice measure 262 / measure 86]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [C EnglishHornMusicVoice measure 263 / measure 87]                                           %! _comment_measure_numbers
@@ -2651,24 +2651,24 @@ C_EnglishHornMusicVoice = {
     R1 * 1                                                                                         %! _make_measure_silences
     
     % [C EnglishHornMusicVoice measure 270 / measure 94]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     % [C EnglishHornMusicVoice measure 271 / measure 95]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.
+    g'2.                                                                                           %! airtone_chain_rhythm
     
     % [C EnglishHornMusicVoice measure 272 / measure 96]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     
     % [C EnglishHornMusicVoice measure 273 / measure 97]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'4.
+    g'4.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
 }
 
@@ -2755,27 +2755,27 @@ C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 191 / measure 15]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    
-    r8
+    r4                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4
+    r8                                                                                             %! shell_exchange_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    d''8                                                                                           %! shell_exchange_rhythm
+    
+    r4                                                                                             %! shell_exchange_rhythm
     
     % [C ClarinetMusicVoice measure 192 / measure 16]                                              %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4
+    r4                                                                                             %! shell_exchange_rhythm
     
     % [C ClarinetMusicVoice measure 193 / measure 17]                                              %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -2884,20 +2884,20 @@ C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 228 / measure 52]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4
+    r4                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
     % [C ClarinetMusicVoice measure 229 / measure 53]                                              %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4.
+    r4.                                                                                            %! shell_exchange_rhythm
     
     r8
     
@@ -2939,27 +2939,27 @@ C_ClarinetMusicVoice = {
     
     % [C ClarinetMusicVoice measure 242 / measure 66]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    
-    r8
+    r4                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4
+    r8                                                                                             %! shell_exchange_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    d''8                                                                                           %! shell_exchange_rhythm
+    
+    r4                                                                                             %! shell_exchange_rhythm
     
     % [C ClarinetMusicVoice measure 243 / measure 67]                                              %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! shell_exchange_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! shell_exchange_rhythm
     
-    r4.
+    r4.                                                                                            %! shell_exchange_rhythm
     
     r8
     
@@ -3063,8 +3063,8 @@ C_ClarinetMusicStaff = {
 
 
 C_PianoRHMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 177 / measure 1]                                            %! _comment_measure_numbers
         \set PianoStaff.shortInstrumentName =                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -3079,10 +3079,10 @@ C_PianoRHMusicVoice = {
     %@% \override Staff.Clef.color = ##f                                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         ^ \markup \baca-reapplied-indicator-markup "[“Pf.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Piano”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! clb_rhythm
         \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set PianoStaff.shortInstrumentName =                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -3093,609 +3093,609 @@ C_PianoRHMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 178 / measure 2]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 179 / measure 3]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 180 / measure 4]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 181 / measure 5]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 182 / measure 6]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 183 / measure 7]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 184 / measure 8]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 185 / measure 9]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 186 / measure 10]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 187 / measure 11]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 188 / measure 12]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 189 / measure 13]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 190 / measure 14]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 191 / measure 15]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 192 / measure 16]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 193 / measure 17]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 194 / measure 18]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 195 / measure 19]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 196 / measure 20]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 197 / measure 21]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 198 / measure 22]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 199 / measure 23]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 200 / measure 24]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -3780,51 +3780,51 @@ C_PianoRHMusicVoice = {
     
     % [C PianoRHMusicVoice measure 227 / measure 51]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 228 / measure 52]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 229 / measure 53]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 230 / measure 54]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -3852,111 +3852,111 @@ C_PianoRHMusicVoice = {
     
     % [C PianoRHMusicVoice measure 238 / measure 62]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 239 / measure 63]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 240 / measure 64]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 241 / measure 65]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 242 / measure 66]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 243 / measure 67]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 244 / measure 68]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -3981,60 +3981,60 @@ C_PianoRHMusicVoice = {
     
     % [C PianoRHMusicVoice measure 251 / measure 75]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 252 / measure 76]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 253 / measure 77]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 254 / measure 78]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -4065,51 +4065,51 @@ C_PianoRHMusicVoice = {
     
     % [C PianoRHMusicVoice measure 263 / measure 87]                                               %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C PianoRHMusicVoice measure 264 / measure 88]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 265 / measure 89]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C PianoRHMusicVoice measure 266 / measure 90]                                               %! _comment_measure_numbers
     r1                                                                                             %! baca_make_rests
@@ -4799,46 +4799,46 @@ C_PercussionMusicVoice = {
     R1 * 3/4                                                                                       %! _make_measure_silences
     
     % [C PercussionMusicVoice measure 183 / measure 7]                                             %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! stop_release_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 184 / measure 8]                                             %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 185 / measure 9]                                             %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 186 / measure 10]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! stop_release_rhythm
     
-    r2
+    r2                                                                                             %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 187 / measure 11]                                            %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! stop_release_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 188 / measure 12]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! stop_release_rhythm
     
-    r2
+    r2                                                                                             %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 189 / measure 13]                                            %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! stop_release_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 190 / measure 14]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! stop_release_rhythm
     
-    r2
+    r2                                                                                             %! stop_release_rhythm
     
     % [C PercussionMusicVoice measure 191 / measure 15]                                            %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -4878,116 +4878,116 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 201 / measure 25]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     
     % [C PercussionMusicVoice measure 202 / measure 26]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C PercussionMusicVoice measure 203 / measure 27]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     
     % [C PercussionMusicVoice measure 204 / measure 28]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 205 / measure 29]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 206 / measure 30]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 207 / measure 31]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 208 / measure 32]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 209 / measure 33]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 210 / measure 34]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 211 / measure 35]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 212 / measure 36]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C PercussionMusicVoice measure 213 / measure 37]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     
     % [C PercussionMusicVoice measure 214 / measure 38]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 215 / measure 39]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 216 / measure 40]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 217 / measure 41]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 218 / measure 42]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 219 / measure 43]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 220 / measure 44]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 221 / measure 45]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C PercussionMusicVoice measure 222 / measure 46]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C PercussionMusicVoice measure 223 / measure 47]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
@@ -5045,11 +5045,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 239 / measure 63]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! percussion_cell_rhythm
     
     % [C PercussionMusicVoice measure 240 / measure 64]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! percussion_cell_rhythm
     
     % [C PercussionMusicVoice measure 241 / measure 65]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -5086,11 +5086,11 @@ C_PercussionMusicVoice = {
     
     % [C PercussionMusicVoice measure 252 / measure 76]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! percussion_cell_rhythm
     
     % [C PercussionMusicVoice measure 253 / measure 77]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! percussion_cell_rhythm
     
     % [C PercussionMusicVoice measure 254 / measure 78]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -5162,8 +5162,8 @@ C_PercussionMusicStaff = {
 
 
 C_ViolinMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 177 / measure 1]                                             %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5184,11 +5184,11 @@ C_ViolinMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))               %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! clb_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -5199,633 +5199,633 @@ C_ViolinMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 178 / measure 2]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 179 / measure 3]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 180 / measure 4]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/12 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 181 / measure 5]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 182 / measure 6]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 183 / measure 7]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 184 / measure 8]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 185 / measure 9]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 186 / measure 10]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 187 / measure 11]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 188 / measure 12]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 189 / measure 13]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 190 / measure 14]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 191 / measure 15]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 192 / measure 16]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 193 / measure 17]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 194 / measure 18]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 195 / measure 19]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 196 / measure 20]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 197 / measure 21]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 198 / measure 22]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 199 / measure 23]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 200 / measure 24]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -5910,114 +5910,114 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 227 / measure 51]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 228 / measure 52]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 229 / measure 53]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 230 / measure 54]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolinMusicVoice measure 231 / measure 55]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r16
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     % [C ViolinMusicVoice measure 232 / measure 56]                                                %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r8
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     % [C ViolinMusicVoice measure 233 / measure 57]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -6036,111 +6036,111 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 238 / measure 62]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 239 / measure 63]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 240 / measure 64]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 241 / measure 65]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolinMusicVoice measure 242 / measure 66]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 243 / measure 67]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 244 / measure 68]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -6165,60 +6165,60 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 251 / measure 75]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 252 / measure 76]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 253 / measure 77]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 254 / measure 78]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -6249,51 +6249,51 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 263 / measure 87]                                                %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolinMusicVoice measure 264 / measure 88]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 265 / measure 89]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolinMusicVoice measure 266 / measure 90]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -6303,143 +6303,143 @@ C_ViolinMusicVoice = {
     
     % [C ViolinMusicVoice measure 268 / measure 92]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [C ViolinMusicVoice measure 269 / measure 93]                                                %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
     
-    r16
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     % [C ViolinMusicVoice measure 270 / measure 94]                                                %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [C ViolinMusicVoice measure 271 / measure 95]                                                %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r8
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     % [C ViolinMusicVoice measure 272 / measure 96]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -6457,8 +6457,8 @@ C_ViolinMusicStaff = {
 
 
 C_ViolaMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 177 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6478,11 +6478,11 @@ C_ViolaMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))               %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! clb_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -6493,633 +6493,633 @@ C_ViolaMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 178 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 179 / measure 3]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 180 / measure 4]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/12 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 181 / measure 5]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 182 / measure 6]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 183 / measure 7]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 184 / measure 8]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 185 / measure 9]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 186 / measure 10]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 187 / measure 11]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 188 / measure 12]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 189 / measure 13]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 190 / measure 14]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 191 / measure 15]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 192 / measure 16]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 193 / measure 17]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 194 / measure 18]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 195 / measure 19]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 196 / measure 20]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 197 / measure 21]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 198 / measure 22]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 199 / measure 23]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 200 / measure 24]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -7204,415 +7204,415 @@ C_ViolaMusicVoice = {
     
     % [C ViolaMusicVoice measure 227 / measure 51]                                                 %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 228 / measure 52]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 229 / measure 53]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 230 / measure 54]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 231 / measure 55]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r16
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     % [C ViolaMusicVoice measure 232 / measure 56]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r8
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     % [C ViolaMusicVoice measure 233 / measure 57]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 234 / measure 58]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 235 / measure 59]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     % [C ViolaMusicVoice measure 236 / measure 60]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 237 / measure 61]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 238 / measure 62]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 239 / measure 63]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 240 / measure 64]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 241 / measure 65]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C ViolaMusicVoice measure 242 / measure 66]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 243 / measure 67]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 244 / measure 68]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 245 / measure 69]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 246 / measure 70]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     % [C ViolaMusicVoice measure 247 / measure 71]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 248 / measure 72]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 249 / measure 73]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [C ViolaMusicVoice measure 250 / measure 74]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 251 / measure 75]                                                 %! _comment_measure_numbers
-    r1
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    r1                                                                                             %! airtone_chain_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 252 / measure 76]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C ViolaMusicVoice measure 253 / measure 77]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C ViolaMusicVoice measure 254 / measure 78]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 255 / measure 79]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 256 / measure 80]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     % [C ViolaMusicVoice measure 257 / measure 81]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 258 / measure 82]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 259 / measure 83]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 260 / measure 84]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 261 / measure 85]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r8
+    r8                                                                                             %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 262 / measure 86]                                                 %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 263 / measure 87]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -7624,49 +7624,49 @@ C_ViolaMusicVoice = {
     R1 * 3/4                                                                                       %! _make_measure_silences
     
     % [C ViolaMusicVoice measure 266 / measure 90]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 267 / measure 91]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [C ViolaMusicVoice measure 268 / measure 92]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 269 / measure 93]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C ViolaMusicVoice measure 270 / measure 94]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 271 / measure 95]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     r8
@@ -7674,19 +7674,19 @@ C_ViolaMusicVoice = {
     r2
     
     % [C ViolaMusicVoice measure 272 / measure 96]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [C ViolaMusicVoice measure 273 / measure 97]                                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
 }
 
@@ -7698,8 +7698,8 @@ C_ViolaMusicStaff = {
 
 
 C_CelloMusicVoice = {
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 177 / measure 1]                                              %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -7720,11 +7720,11 @@ C_CelloMusicVoice = {
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \once \override Voice.DynamicText.color = #(x11-color 'green4)                             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))               %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [
+        [                                                                                          %! clb_rhythm
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName =                                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \markup {                                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -7735,450 +7735,450 @@ C_CelloMusicVoice = {
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 178 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 179 / measure 3]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 180 / measure 4]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/12 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/12 {                                                                                  %! clb_rhythm
         
         % [C CelloMusicVoice measure 181 / measure 5]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 182 / measure 6]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 183 / measure 7]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [C CelloMusicVoice measure 184 / measure 8]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 185 / measure 9]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 186 / measure 10]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C CelloMusicVoice measure 187 / measure 11]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 188 / measure 12]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C CelloMusicVoice measure 189 / measure 13]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 190 / measure 14]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [C CelloMusicVoice measure 191 / measure 15]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 192 / measure 16]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 193 / measure 17]                                                 %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -8212,122 +8212,122 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 201 / measure 25]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     
     % [C CelloMusicVoice measure 202 / measure 26]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C CelloMusicVoice measure 203 / measure 27]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     
     % [C CelloMusicVoice measure 204 / measure 28]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 205 / measure 29]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 206 / measure 30]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 207 / measure 31]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 208 / measure 32]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 209 / measure 33]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 210 / measure 34]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 211 / measure 35]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 212 / measure 36]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C CelloMusicVoice measure 213 / measure 37]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     
     % [C CelloMusicVoice measure 214 / measure 38]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 215 / measure 39]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 216 / measure 40]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 217 / measure 41]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 218 / measure 42]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 219 / measure 43]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 220 / measure 44]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! rest_terminated_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [C CelloMusicVoice measure 221 / measure 45]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! rest_terminated_rhythm
     \repeatTie
     
     % [C CelloMusicVoice measure 222 / measure 46]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! rest_terminated_rhythm
     \repeatTie
     
-    r4
+    r4                                                                                             %! rest_terminated_rhythm
     
     % [C CelloMusicVoice measure 223 / measure 47]                                                 %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -8346,11 +8346,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 228 / measure 52]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! percussion_cell_rhythm
     
     % [C CelloMusicVoice measure 229 / measure 53]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! percussion_cell_rhythm
     
     % [C CelloMusicVoice measure 230 / measure 54]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -8381,11 +8381,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 239 / measure 63]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! percussion_cell_rhythm
     
     % [C CelloMusicVoice measure 240 / measure 64]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! percussion_cell_rhythm
     
     % [C CelloMusicVoice measure 241 / measure 65]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -8422,11 +8422,11 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 252 / measure 76]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! percussion_cell_rhythm
     
     % [C CelloMusicVoice measure 253 / measure 77]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! percussion_cell_rhythm
     
     % [C CelloMusicVoice measure 254 / measure 78]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
@@ -8457,51 +8457,51 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 263 / measure 87]                                                 %! _comment_measure_numbers
     R1 * 1/4                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [C CelloMusicVoice measure 264 / measure 88]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 265 / measure 89]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [C CelloMusicVoice measure 266 / measure 90]                                                 %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -8511,143 +8511,143 @@ C_CelloMusicVoice = {
     
     % [C CelloMusicVoice measure 268 / measure 92]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [C CelloMusicVoice measure 269 / measure 93]                                                 %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
     
-    r16
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     % [C CelloMusicVoice measure 270 / measure 94]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [C CelloMusicVoice measure 271 / measure 95]                                                 %! _comment_measure_numbers
-    r8
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r8
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     % [C CelloMusicVoice measure 272 / measure 96]                                                 %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences

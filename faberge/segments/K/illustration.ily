@@ -374,7 +374,7 @@ K_FluteMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2                                                                                           %! baca_make_repeat_tied_notes
+    c''2                                                                                           %! shell_transition_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Fl.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassFlute”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -389,380 +389,380 @@ K_FluteMusicVoice = {
     
     % [K FluteMusicVoice measure 643 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2.                                                                                          %! baca_make_repeat_tied_notes
+    c''2.                                                                                          %! shell_transition_rhythm
     \repeatTie
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K FluteMusicVoice measure 644 / measure 3]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        [
+        c''16                                                                                      %! glow_rhythm
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    ]
-    \times 2/3 {
+    c''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [K FluteMusicVoice measure 645 / measure 4]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
+        c''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 4/5 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8.
-        ]
-    }
-    \times 4/5 {
+        c''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 2/3 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
+        c''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
-    }
+        c''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K FluteMusicVoice measure 646 / measure 5]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
+    c''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
-    ]
-    \times 4/5 {
+    c''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K FluteMusicVoice measure 647 / measure 6]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    ]
-    \times 2/3 {
+    c''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
+        c''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 4/5 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8.
-        ]
-    }
-    \times 4/5 {
+        c''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K FluteMusicVoice measure 648 / measure 7]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 2/3 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
+        c''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
-    }
+        c''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K FluteMusicVoice measure 649 / measure 8]                                                  %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
+    c''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
-    ]
-    \times 4/5 {
+    c''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K FluteMusicVoice measure 650 / measure 9]                                              %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    ]
-    \times 2/3 {
+    c''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [K FluteMusicVoice measure 651 / measure 10]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
+        c''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 4/5 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8.
-        ]
-    }
-    \times 4/5 {
+        c''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 2/3 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
+        c''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
-    }
+        c''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K FluteMusicVoice measure 652 / measure 11]                                                 %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -799,21 +799,21 @@ K_FluteMusicVoice = {
     
     % [K FluteMusicVoice measure 663 / measure 22]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2                                                                                           %! baca_make_repeat_tied_notes
+    c''2                                                                                           %! airtone_pedal_rhythm
     
     % [K FluteMusicVoice measure 664 / measure 23]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''1                                                                                           %! baca_make_repeat_tied_notes
+    c''1                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K FluteMusicVoice measure 665 / measure 24]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''1                                                                                           %! baca_make_repeat_tied_notes
+    c''1                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K FluteMusicVoice measure 666 / measure 25]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2.                                                                                          %! baca_make_repeat_tied_notes
+    c''2.                                                                                          %! airtone_pedal_rhythm
     \repeatTie
     
 }
@@ -880,61 +880,61 @@ K_EnglishHornMusicVoice = {
     
     % [K EnglishHornMusicVoice measure 650 / measure 9]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.                                                                                           %! baca_make_repeat_tied_notes
+    g'2.                                                                                           %! airtone_pedal_rhythm
     
     % [K EnglishHornMusicVoice measure 651 / measure 10]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 652 / measure 11]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2                                                                                            %! baca_make_repeat_tied_notes
+    g'2                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 653 / measure 12]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.                                                                                           %! baca_make_repeat_tied_notes
+    g'2.                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 654 / measure 13]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 655 / measure 14]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2                                                                                            %! baca_make_repeat_tied_notes
+    g'2                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 656 / measure 15]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.                                                                                           %! baca_make_repeat_tied_notes
+    g'2.                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 657 / measure 16]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 658 / measure 17]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.                                                                                           %! baca_make_repeat_tied_notes
+    g'2.                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 659 / measure 18]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 660 / measure 19]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.                                                                                           %! baca_make_repeat_tied_notes
+    g'2.                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 661 / measure 20]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 662 / measure 21]                                           %! _comment_measure_numbers
@@ -942,21 +942,21 @@ K_EnglishHornMusicVoice = {
     
     % [K EnglishHornMusicVoice measure 663 / measure 22]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2                                                                                            %! baca_make_repeat_tied_notes
+    g'2                                                                                            %! airtone_pedal_rhythm
     
     % [K EnglishHornMusicVoice measure 664 / measure 23]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 665 / measure 24]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K EnglishHornMusicVoice measure 666 / measure 25]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2.                                                                                           %! baca_make_repeat_tied_notes
+    g'2.                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
 }
@@ -984,7 +984,7 @@ K_ClarinetMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''2                                                                                           %! baca_make_repeat_tied_notes
+    d''2                                                                                           %! shell_transition_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cl.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassClarinet”)"                                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -999,553 +999,553 @@ K_ClarinetMusicVoice = {
     
     % [K ClarinetMusicVoice measure 643 / measure 2]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''2.                                                                                          %! baca_make_repeat_tied_notes
+    d''2.                                                                                          %! shell_transition_rhythm
     \repeatTie
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 644 / measure 3]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        [
+        d''16                                                                                      %! glow_rhythm
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    ]
-    \times 2/3 {
+    d''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 645 / measure 4]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
+        d''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 4/5 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8.
-        ]
-    }
-    \times 4/5 {
+        d''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 2/3 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
+        d''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
-    }
+        d''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K ClarinetMusicVoice measure 646 / measure 5]                                               %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
+    d''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
-    ]
-    \times 4/5 {
+    d''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K ClarinetMusicVoice measure 647 / measure 6]                                               %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    ]
-    \times 2/3 {
+    d''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
+        d''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 4/5 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8.
-        ]
-    }
-    \times 4/5 {
+        d''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 648 / measure 7]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 2/3 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
+        d''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
-    }
+        d''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K ClarinetMusicVoice measure 649 / measure 8]                                               %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
+    d''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
-    ]
-    \times 4/5 {
+    d''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 650 / measure 9]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    ]
-    \times 2/3 {
+    d''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 651 / measure 10]                                          %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
+        d''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 4/5 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8.
-        ]
-    }
-    \times 4/5 {
+        d''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 2/3 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
+        d''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
-    }
+        d''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K ClarinetMusicVoice measure 652 / measure 11]                                              %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
+    d''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
-    ]
-    \times 4/5 {
+    d''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 653 / measure 12]                                          %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    ]
-    \times 2/3 {
+    d''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [K ClarinetMusicVoice measure 654 / measure 13]                                          %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
+        d''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 4/5 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8.
-        ]
-    }
-    \times 4/5 {
+        d''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 2/3 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
+        d''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
-    }
+        d''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K ClarinetMusicVoice measure 655 / measure 14]                                              %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
+    d''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
-    ]
-    \times 4/5 {
+    d''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K ClarinetMusicVoice measure 656 / measure 15]                                              %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -1570,21 +1570,21 @@ K_ClarinetMusicVoice = {
     
     % [K ClarinetMusicVoice measure 663 / measure 22]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''2                                                                                           %! baca_make_repeat_tied_notes
+    d''2                                                                                           %! airtone_pedal_rhythm
     
     % [K ClarinetMusicVoice measure 664 / measure 23]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''1                                                                                           %! baca_make_repeat_tied_notes
+    d''1                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K ClarinetMusicVoice measure 665 / measure 24]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''1                                                                                           %! baca_make_repeat_tied_notes
+    d''1                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
     % [K ClarinetMusicVoice measure 666 / measure 25]                                              %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''2.                                                                                          %! baca_make_repeat_tied_notes
+    d''2.                                                                                          %! airtone_pedal_rhythm
     \repeatTie
     
 }
@@ -1630,652 +1630,652 @@ K_PianoRHMusicVoice = {
     
     % [K PianoRHMusicVoice measure 645 / measure 4]                                                %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 646 / measure 5]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! glow_rhythm
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \times 2/3 {
+    c'8                                                                                            %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 4/5 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 647 / measure 6]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8.
-        ]
-    }
-    \times 4/5 {
+        c'8.                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 2/3 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
+        c'4                                                                                        %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-    }
+        c'8                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K PianoRHMusicVoice measure 648 / measure 7]                                                %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    \times 4/5 {
+    c'16                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 649 / measure 8]                                            %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K PianoRHMusicVoice measure 650 / measure 9]                                                %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \times 2/3 {
+    c'8                                                                                            %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 4/5 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8.
-        ]
-    }
-    \times 4/5 {
+        c'8.                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 651 / measure 10]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 2/3 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
+        c'4                                                                                        %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-    }
+        c'8                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    \times 4/5 {
+    c'16                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 652 / measure 11]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K PianoRHMusicVoice measure 653 / measure 12]                                               %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \times 2/3 {
+    c'8                                                                                            %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 4/5 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8.
-        ]
-    }
-    \times 4/5 {
+        c'8.                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 654 / measure 13]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 2/3 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
+        c'4                                                                                        %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-    }
+        c'8                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    \times 4/5 {
+    c'16                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 655 / measure 14]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K PianoRHMusicVoice measure 656 / measure 15]                                               %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \times 2/3 {
+    c'8                                                                                            %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 4/5 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8.
-        ]
-    }
-    \times 4/5 {
+        c'8.                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 657 / measure 16]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 2/3 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
+        c'4                                                                                        %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-    }
+        c'8                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    \times 4/5 {
+    c'16                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 658 / measure 17]                                           %! _comment_measure_numbers
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \times 4/5 {
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
+        c'16                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \times 2/3 {
+    c'8                                                                                            %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [K PianoRHMusicVoice measure 659 / measure 18]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 4/5 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8.
-        ]
-    }
-    \times 4/5 {
+        c'8.                                                                                       %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
-    }
-    \times 2/3 {
+        c'4                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'4
+        c'4                                                                                        %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-    }
+        c'8                                                                                        %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [K PianoRHMusicVoice measure 660 / measure 19]                                               %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -2294,11 +2294,11 @@ K_PianoRHMusicVoice = {
     
     % [K PianoRHMusicVoice measure 665 / measure 24]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! sparse_pegs_rhythm
     
     % [K PianoRHMusicVoice measure 666 / measure 25]                                               %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! sparse_pegs_rhythm
     \repeatTie
     
 }
@@ -2505,7 +2505,7 @@ K_PercussionMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! shell_transition_rhythm
     \baca_effort_mf                                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Perc.”]"                                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Percussion”)"                                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2520,26 +2520,26 @@ K_PercussionMusicVoice = {
     
     % [K PercussionMusicVoice measure 643 / measure 2]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K PercussionMusicVoice measure 644 / measure 3]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K PercussionMusicVoice measure 645 / measure 4]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! shell_transition_rhythm
     \repeatTie
     
     % [K PercussionMusicVoice measure 646 / measure 5]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! percussion_cell_rhythm
     
     % [K PercussionMusicVoice measure 647 / measure 6]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! percussion_cell_rhythm
     
     % [K PercussionMusicVoice measure 648 / measure 7]                                             %! _comment_measure_numbers
     R1 * 1/2                                                                                       %! _make_measure_silences
@@ -2588,21 +2588,21 @@ K_PercussionMusicVoice = {
     
     % [K PercussionMusicVoice measure 663 / measure 22]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! airtone_pedal_rhythm
     
     % [K PercussionMusicVoice measure 664 / measure 23]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K PercussionMusicVoice measure 665 / measure 24]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! airtone_pedal_rhythm
     \repeatTie
     
     % [K PercussionMusicVoice measure 666 / measure 25]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! airtone_pedal_rhythm
     \repeatTie
     
 }
@@ -2635,7 +2635,7 @@ K_ViolinMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! shell_transition_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2650,418 +2650,418 @@ K_ViolinMusicVoice = {
     
     % [K ViolinMusicVoice measure 643 / measure 2]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K ViolinMusicVoice measure 644 / measure 3]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K ViolinMusicVoice measure 645 / measure 4]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [K ViolinMusicVoice measure 646 / measure 5]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [K ViolinMusicVoice measure 647 / measure 6]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [K ViolinMusicVoice measure 648 / measure 7]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [K ViolinMusicVoice measure 649 / measure 8]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/10 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/10 {                                                                                  %! clb_rhythm
         
         % [K ViolinMusicVoice measure 650 / measure 9]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/10 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/10 {                                                                                  %! clb_rhythm
         
         % [K ViolinMusicVoice measure 651 / measure 10]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 4/6 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 4/6 {                                                                                   %! clb_rhythm
         
         % [K ViolinMusicVoice measure 652 / measure 11]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [K ViolinMusicVoice measure 653 / measure 12]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [K ViolinMusicVoice measure 654 / measure 13]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [K ViolinMusicVoice measure 655 / measure 14]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [K ViolinMusicVoice measure 656 / measure 15]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 8/14 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 8/14 {                                                                                  %! clb_rhythm
         
         % [K ViolinMusicVoice measure 657 / measure 16]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/8 {
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! clb_rhythm
+    \times 6/8 {                                                                                   %! clb_rhythm
         
         % [K ViolinMusicVoice measure 658 / measure 17]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! clb_rhythm
+        [                                                                                          %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! clb_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! clb_rhythm
+        ]                                                                                          %! clb_rhythm
+    }                                                                                              %! clb_rhythm
     
     % [K ViolinMusicVoice measure 659 / measure 18]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    [
+    c'8                                                                                            %! clb_rhythm
+    [                                                                                              %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
+    c'8                                                                                            %! clb_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8
-    ]
+    c'8                                                                                            %! clb_rhythm
+    ]                                                                                              %! clb_rhythm
     
     % [K ViolinMusicVoice measure 660 / measure 19]                                                %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -3080,11 +3080,11 @@ K_ViolinMusicVoice = {
     
     % [K ViolinMusicVoice measure 665 / measure 24]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! sparse_rimbalzandi_rhythm
     
     % [K ViolinMusicVoice measure 666 / measure 25]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! sparse_rimbalzandi_rhythm
     \repeatTie
     
 }
@@ -3116,7 +3116,7 @@ K_ViolaMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! shell_transition_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3131,7 +3131,7 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 643 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K ViolaMusicVoice measure 644 / measure 3]                                                  %! _comment_measure_numbers
@@ -3221,11 +3221,11 @@ K_ViolaMusicVoice = {
     
     % [K ViolaMusicVoice measure 665 / measure 24]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! sparse_rimbalzandi_rhythm
     
     % [K ViolaMusicVoice measure 666 / measure 25]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! sparse_rimbalzandi_rhythm
     \repeatTie
     
 }
@@ -3258,7 +3258,7 @@ K_CelloMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! shell_transition_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -3273,39 +3273,39 @@ K_CelloMusicVoice = {
     
     % [K CelloMusicVoice measure 643 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K CelloMusicVoice measure 644 / measure 3]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K CelloMusicVoice measure 645 / measure 4]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 646 / measure 5]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [K CelloMusicVoice measure 647 / measure 6]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.                                                                                           %! baca_make_repeat_tied_notes
+    c'2.                                                                                           %! shell_transition_rhythm
     \repeatTie
     
     % [K CelloMusicVoice measure 648 / measure 7]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! shell_transition_rhythm
     \repeatTie
     
     % [K CelloMusicVoice measure 649 / measure 8]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2                                                                                            %! baca_make_repeat_tied_notes
+    c'2                                                                                            %! shell_transition_rhythm
     \repeatTie
     
     % [K CelloMusicVoice measure 650 / measure 9]                                                  %! _comment_measure_numbers

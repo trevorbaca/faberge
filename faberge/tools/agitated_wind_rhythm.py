@@ -20,6 +20,7 @@ def agitated_wind_rhythm(
             outer_divisions_only=True,
             ),
         extra_counts_per_division=[4, 12, 4, 0, 8],
+        tag='agitated_wind_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,

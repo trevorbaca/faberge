@@ -27,6 +27,7 @@ def front_incised_notes(
                 prefix_counts=[1],
                 talea_denominator=lcm,
                 ),
+            tag='front_incised_rhythm',
             ),
         )
     return rhythm_specifier

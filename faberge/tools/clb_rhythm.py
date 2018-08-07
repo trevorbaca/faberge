@@ -39,6 +39,7 @@ def clb_rhythm(
     counts = counts.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2, 6, 2, 0, 4],
+        tag='clb_rhythm',
         talea=rmakers.Talea(
             counts=[1],
             denominator=8,

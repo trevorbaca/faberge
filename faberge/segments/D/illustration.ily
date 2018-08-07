@@ -397,7 +397,7 @@ D_FluteMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Fl.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassFlute”)"                                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -411,16 +411,16 @@ D_FluteMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D FluteMusicVoice measure 275 / measure 2]                                                  %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2
+    c''2                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
-    r2..
+    r2..                                                                                           %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 276 / measure 3]                                                  %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -435,29 +435,29 @@ D_FluteMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D FluteMusicVoice measure 280 / measure 7]                                                  %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     r2
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''4
+    c''4                                                                                           %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 281 / measure 8]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''1..
+    c''1..                                                                                         %! airtone_chain_rhythm
     \repeatTie
     
     % [D FluteMusicVoice measure 282 / measure 9]                                                  %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 283 / measure 10]                                                 %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2
+    c''2                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     r8
@@ -477,16 +477,16 @@ D_FluteMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D FluteMusicVoice measure 288 / measure 15]                                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     r2
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''4
+    c''4                                                                                           %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 289 / measure 16]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''1
+    c''1                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     % [D FluteMusicVoice measure 290 / measure 17]                                                 %! _comment_measure_numbers
@@ -496,31 +496,31 @@ D_FluteMusicVoice = {
     R1 * 1                                                                                         %! _make_measure_silences
     
     % [D FluteMusicVoice measure 292 / measure 19]                                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     r2
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''4
+    c''4                                                                                           %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 293 / measure 20]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''4.
+    c''4.                                                                                          %! airtone_chain_rhythm
     \repeatTie
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 294 / measure 21]                                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     r2
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''4
+    c''4                                                                                           %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 295 / measure 22]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''4.
+    c''4.                                                                                          %! airtone_chain_rhythm
     \repeatTie
     
     r4.
@@ -528,19 +528,19 @@ D_FluteMusicVoice = {
     r2.
     
     % [D FluteMusicVoice measure 296 / measure 23]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 297 / measure 24]                                                 %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''2
+    c''2                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
-    r8
+    r8                                                                                             %! airtone_chain_rhythm
     
     % [D FluteMusicVoice measure 298 / measure 25]                                                 %! _comment_measure_numbers
     R1 * 7/4                                                                                       %! _make_measure_silences
@@ -579,7 +579,7 @@ D_EnglishHornMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     \baca_effort_mf                                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Eng. hn.”]"                                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“EnglishHorn”)"                                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -593,16 +593,16 @@ D_EnglishHornMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 275 / measure 2]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'4.
+    g'4.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 276 / measure 3]                                            %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -617,7 +617,7 @@ D_EnglishHornMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D EnglishHornMusicVoice measure 280 / measure 7]                                            %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     g'4
@@ -630,25 +630,25 @@ D_EnglishHornMusicVoice = {
     g'8
     \repeatTie
     
-    r8
+    r8                                                                                             %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 281 / measure 8]                                            %! _comment_measure_numbers
-    r1..
+    r1..                                                                                           %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 282 / measure 9]                                            %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 283 / measure 10]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'4.
+    g'4.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 284 / measure 11]                                           %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -663,7 +663,7 @@ D_EnglishHornMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D EnglishHornMusicVoice measure 288 / measure 15]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     g'4
@@ -676,24 +676,24 @@ D_EnglishHornMusicVoice = {
     g'8
     \repeatTie
     
-    r8
+    r8                                                                                             %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 289 / measure 16]                                           %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 290 / measure 17]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 291 / measure 18]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [D EnglishHornMusicVoice measure 292 / measure 19]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     g'4
@@ -706,13 +706,13 @@ D_EnglishHornMusicVoice = {
     g'8
     \repeatTie
     
-    r8
+    r8                                                                                             %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 293 / measure 20]                                           %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 294 / measure 21]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     g'4
@@ -725,20 +725,20 @@ D_EnglishHornMusicVoice = {
     g'8
     \repeatTie
     
-    r8
+    r8                                                                                             %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 295 / measure 22]                                           %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 296 / measure 23]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'2
+    g'2                                                                                            %! airtone_chain_rhythm
     
     % [D EnglishHornMusicVoice measure 297 / measure 24]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'4.
+    g'4.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     r8
@@ -746,7 +746,7 @@ D_EnglishHornMusicVoice = {
     r2
     
     % [D EnglishHornMusicVoice measure 298 / measure 25]                                           %! _comment_measure_numbers
-    r2
+    r2                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     g'4
@@ -757,7 +757,7 @@ D_EnglishHornMusicVoice = {
     
     % [D EnglishHornMusicVoice measure 299 / measure 26]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1
+    g'1                                                                                            %! airtone_chain_rhythm
     \repeatTie
     
     % [D EnglishHornMusicVoice measure 300 / measure 27]                                           %! _comment_measure_numbers
@@ -787,7 +787,7 @@ D_ClarinetMusicVoice = {
 %@% \override Staff.Clef.color = ##f                                                               %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Cl.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“BassClarinet”)"                                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -801,10 +801,10 @@ D_ClarinetMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     % [D ClarinetMusicVoice measure 275 / measure 2]                                               %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''1
+    d''1                                                                                           %! airtone_chain_rhythm
     
     % [D ClarinetMusicVoice measure 276 / measure 3]                                               %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -825,13 +825,13 @@ D_ClarinetMusicVoice = {
     R1 * 7/4                                                                                       %! _make_measure_silences
     
     % [D ClarinetMusicVoice measure 282 / measure 9]                                               %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D ClarinetMusicVoice measure 283 / measure 10]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''2.
+    d''2.                                                                                          %! airtone_chain_rhythm
     
     % [D ClarinetMusicVoice measure 284 / measure 11]                                              %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -870,13 +870,13 @@ D_ClarinetMusicVoice = {
     R1 * 3/2                                                                                       %! _make_measure_silences
     
     % [D ClarinetMusicVoice measure 296 / measure 23]                                              %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D ClarinetMusicVoice measure 297 / measure 24]                                              %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''4
+    d''4                                                                                           %! airtone_chain_rhythm
     
     % [D ClarinetMusicVoice measure 298 / measure 25]                                              %! _comment_measure_numbers
     R1 * 7/4                                                                                       %! _make_measure_silences
@@ -1230,16 +1230,16 @@ D_PianoLHAttackVoice = {
     
     % [D PianoLHAttackVoice measure 280 / measure 7]                                               %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds,!16
+    ds,!16                                                                                         %! piano_attack_rhythm
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
-    s1
+    s1                                                                                             %! piano_attack_rhythm
     
-    s4..
+    s4..                                                                                           %! piano_attack_rhythm
     
     % [D PianoLHAttackVoice measure 281 / measure 8]                                               %! _comment_measure_numbers
-    s1..
+    s1..                                                                                           %! piano_attack_rhythm
     
     % [D PianoLHAttackVoice measure 282 / measure 9]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -1252,16 +1252,16 @@ D_PianoLHAttackVoice = {
     
     % [D PianoLHAttackVoice measure 285 / measure 12]                                              %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
-    ds,!16
+    ds,!16                                                                                         %! piano_attack_rhythm
     \sfz                                                                                           %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     - \marcato                                                                                     %! IndicatorCommand
     
-    s2
+    s2                                                                                             %! piano_attack_rhythm
     
-    s8.
+    s8.                                                                                            %! piano_attack_rhythm
     
     % [D PianoLHAttackVoice measure 286 / measure 13]                                              %! _comment_measure_numbers
-    s1
+    s1                                                                                             %! piano_attack_rhythm
     
     % [D PianoLHAttackVoice measure 287 / measure 14]                                              %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -1406,20 +1406,20 @@ D_PercussionMusicVoice = {
     R1 * 1                                                                                         %! _make_measure_silences
     
     % [D PercussionMusicVoice measure 292 / measure 19]                                            %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! airtone_chain_rhythm
     
     % [D PercussionMusicVoice measure 293 / measure 20]                                            %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! airtone_chain_rhythm
     :32                                                                                            %! IndicatorCommand
     
     % [D PercussionMusicVoice measure 294 / measure 21]                                            %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! airtone_chain_rhythm
     
     % [D PercussionMusicVoice measure 295 / measure 22]                                            %! _comment_measure_numbers
-    r4
+    r4                                                                                             %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'2
@@ -1431,10 +1431,10 @@ D_PercussionMusicVoice = {
     \repeatTie
     
     % [D PercussionMusicVoice measure 296 / measure 23]                                            %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D PercussionMusicVoice measure 297 / measure 24]                                            %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D PercussionMusicVoice measure 298 / measure 25]                                            %! _comment_measure_numbers
     R1 * 7/4                                                                                       %! _make_measure_silences
@@ -1475,11 +1475,11 @@ D_ViolinMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vn.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Violin”)"                                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! spazzolati_rhythm
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1490,127 +1490,127 @@ D_ViolinMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [D ViolinMusicVoice measure 275 / measure 2]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r8
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     % [D ViolinMusicVoice measure 276 / measure 3]                                                 %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -1725,7 +1725,7 @@ D_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -1740,15 +1740,15 @@ D_ViolaMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 275 / measure 2]                                                  %! _comment_measure_numbers
-    r1..
+    r1..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 276 / measure 3]                                                  %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -1763,34 +1763,34 @@ D_ViolaMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D ViolaMusicVoice measure 280 / measure 7]                                                  %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r2..
+    r2..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 281 / measure 8]                                                  %! _comment_measure_numbers
-    r1..
+    r1..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 282 / measure 9]                                                  %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 283 / measure 10]                                                 %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 284 / measure 11]                                                 %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -1805,96 +1805,96 @@ D_ViolaMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D ViolaMusicVoice measure 288 / measure 15]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r2..
+    r2..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 289 / measure 16]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 290 / measure 17]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r2..
+    r2..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 291 / measure 18]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 292 / measure 19]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r2..
+    r2..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 293 / measure 20]                                                 %! _comment_measure_numbers
-    r2.
+    r2.                                                                                            %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 294 / measure 21]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r2..
+    r2..                                                                                           %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 295 / measure 22]                                                 %! _comment_measure_numbers
-    r1.
+    r1.                                                                                            %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 296 / measure 23]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
-    r4.
+    r4.                                                                                            %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 297 / measure 24]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 298 / measure 25]                                                 %! _comment_measure_numbers
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4.
+    c'4.                                                                                           %! airtone_chain_rhythm
     
     r8
     
     r1
     
     % [D ViolaMusicVoice measure 299 / measure 26]                                                 %! _comment_measure_numbers
-    r1
+    r1                                                                                             %! airtone_chain_rhythm
     
     % [D ViolaMusicVoice measure 300 / measure 27]                                                 %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences
@@ -1929,11 +1929,11 @@ D_CelloMusicVoice = {
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Vc.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Cello”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [
+    [                                                                                              %! spazzolati_rhythm
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)                                 %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                                               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -1944,127 +1944,127 @@ D_CelloMusicVoice = {
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                                           %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r16
+    r16                                                                                            %! spazzolati_rhythm
     
-    r16
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     % [D CelloMusicVoice measure 275 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r16
-    
-    r16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
+    
+    r16                                                                                            %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
-    
-    r8
+    c'16                                                                                           %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    [
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'16
-    ]
+    c'16                                                                                           %! spazzolati_rhythm
+    [                                                                                              %! spazzolati_rhythm
     
-    r8
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c'16                                                                                           %! spazzolati_rhythm
+    ]                                                                                              %! spazzolati_rhythm
+    
+    r8                                                                                             %! spazzolati_rhythm
     
     % [D CelloMusicVoice measure 276 / measure 3]                                                  %! _comment_measure_numbers
     R1 * 5/12                                                                                      %! _make_measure_silences

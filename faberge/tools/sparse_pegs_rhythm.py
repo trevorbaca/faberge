@@ -16,4 +16,4 @@ def sparse_pegs_rhythm():
     #    rewrite_meter=True,
     #    rhythm_maker=rhythm_maker,
     #    )
-    return baca.make_repeat_tied_notes()
+    return baca.make_repeat_tied_notes(tag='sparse_pegs_rhythm')

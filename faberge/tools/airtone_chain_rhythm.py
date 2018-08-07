@@ -74,6 +74,7 @@ def airtone_chain_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         read_talea_once_only=True,
+        tag='airtone_chain_rhythm',
         talea=rmakers.Talea(
             counts=my_counts,
             denominator=16,

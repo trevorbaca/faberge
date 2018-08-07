@@ -17,6 +17,7 @@ def clarinet_gears_rhythm(
         counts.extend([16, 16, 16, 16])
     assert counts, repr(counts)
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        tag='clarinet_gears_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,

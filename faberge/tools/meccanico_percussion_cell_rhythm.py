@@ -8,6 +8,7 @@ def meccanico_percussion_cell_rhythm():
     Makes meccanico percussion cell rhythm.
     """
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        tag='meccanico_percussion_cell_rhythm',
         talea=rmakers.Talea(
             counts=[1, 1, -3],
             denominator=4,

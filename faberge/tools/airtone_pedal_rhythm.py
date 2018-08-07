@@ -16,4 +16,4 @@ def airtone_pedal_rhythm():
     #    rewrite_meter=True,
     #    rhythm_maker=rhythm_maker,
     #    )
-    return baca.make_repeat_tied_notes()
+    return baca.make_repeat_tied_notes(tag='airtone_pedal_rhythm')

@@ -18,6 +18,7 @@ def meccanico_rhythm(attack_count, fuse_counts=None):
         division_expression = division_expression.flatten()
     tuplet_ratio = abjad.Ratio(attack_count * [1])
     rhythm_maker = rmakers.TupletRhythmMaker(
+        tag='meccanico_rhythm',
         tuplet_ratios=[tuplet_ratio],
         tuplet_specifier=rmakers.TupletSpecifier(
             rewrite_dots=True,

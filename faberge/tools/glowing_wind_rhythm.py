@@ -28,6 +28,7 @@ def glowing_wind_rhythm(
             outer_divisions_only=True,
             ),
         extra_counts_per_division=extra_counts_per_division,
+        tag='glowing_wind_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,

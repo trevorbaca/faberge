@@ -334,203 +334,203 @@ E_FluteMusicVoice = {
     
     % [E FluteMusicVoice measure 302 / measure 2]                                                  %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [E FluteMusicVoice measure 303 / measure 3]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        [
+        c''16                                                                                      %! glow_rhythm
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    ]
-    \times 2/3 {
+    c''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
+        c''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 4/5 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8.
-        ]
-    }
-    \times 4/5 {
+        c''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
+        c''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
-    \times 2/3 {
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [E FluteMusicVoice measure 304 / measure 4]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
+        c''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
-    }
+        c''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''16
-    ]
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''16
-        ]
-    }
+    c''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
+    c''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        \repeatTie
+        [                                                                                          %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        \repeatTie
+        [                                                                                          %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        \repeatTie
+        [                                                                                          %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        c''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    c''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c''8
-    ]
-    \times 2/3 {
+    c''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''8
+        c''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c''4
-    }
+        c''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [E FluteMusicVoice measure 305 / measure 5]                                                  %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -626,158 +626,158 @@ E_EnglishHornMusicVoice = {
     
     % [E EnglishHornMusicVoice measure 302 / measure 2]                                            %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
         % [E EnglishHornMusicVoice measure 303 / measure 3]                                        %! _comment_measure_numbers
-        r16
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    \times 4/5 {
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
-        r16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
+        g'16                                                                                       %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
-    r8
+    r8                                                                                             %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'8
-    \times 2/3 {
+    g'8                                                                                            %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
         
-        r8
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
-    \times 4/5 {
-        
-        r16
+        r8                                                                                         %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'8.
-        ]
-    }
-    \times 4/5 {
-        
-        r16
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
-    \times 2/3 {
+        g'8.                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
         
         % [E EnglishHornMusicVoice measure 304 / measure 4]                                        %! _comment_measure_numbers
-        r4
+        r4                                                                                         %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'8
-    }
+        g'8                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
-    r8
-    
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'16
-    [
+    r8                                                                                             %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'16
-    ]
-    \times 4/5 {
-        
-        r16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    \times 4/5 {
-        
-        r16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    \times 4/5 {
-        
-        r16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'16
-        ]
-    }
-    
-    r8
+    g'16                                                                                           %! keynoise_rhythm
+    [                                                                                              %! keynoise_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'8
-    \times 2/3 {
+    g'16                                                                                           %! keynoise_rhythm
+    ]                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
         
-        r8
+        r16                                                                                        %! keynoise_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        g'4
-    }
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    \times 4/5 {                                                                                   %! keynoise_rhythm
+        
+        r16                                                                                        %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        [                                                                                          %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'16                                                                                       %! keynoise_rhythm
+        ]                                                                                          %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
+    
+    r8                                                                                             %! keynoise_rhythm
+    
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    g'8                                                                                            %! keynoise_rhythm
+    \times 2/3 {                                                                                   %! keynoise_rhythm
+        
+        r8                                                                                         %! keynoise_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        g'4                                                                                        %! keynoise_rhythm
+    }                                                                                              %! keynoise_rhythm
     
     % [E EnglishHornMusicVoice measure 305 / measure 5]                                            %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -811,21 +811,21 @@ E_EnglishHornMusicVoice = {
     
     % [E EnglishHornMusicVoice measure 315 / measure 15]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1.                                                                                           %! baca_make_repeat_tied_notes
+    g'1.                                                                                           %! electricity_rhythm
     
     % [E EnglishHornMusicVoice measure 316 / measure 16]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! electricity_rhythm
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 317 / measure 17]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1.                                                                                           %! baca_make_repeat_tied_notes
+    g'1.                                                                                           %! electricity_rhythm
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 318 / measure 18]                                           %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    g'1                                                                                            %! baca_make_repeat_tied_notes
+    g'1                                                                                            %! electricity_rhythm
     \repeatTie
     
     % [E EnglishHornMusicVoice measure 319 / measure 19]                                           %! _comment_measure_numbers
@@ -876,203 +876,203 @@ E_ClarinetMusicVoice = {
     
     % [E ClarinetMusicVoice measure 302 / measure 2]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
-    \times 4/5 {
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         % [E ClarinetMusicVoice measure 303 / measure 3]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        [
+        d''16                                                                                      %! glow_rhythm
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    ]
-    \times 2/3 {
+    d''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
+        d''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 4/5 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
-        [
+        [                                                                                          %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8.
-        ]
-    }
-    \times 4/5 {
+        d''8.                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
+        d''16                                                                                      %! glow_rhythm
         \repeatTie
         
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
-    \times 2/3 {
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         % [E ClarinetMusicVoice measure 304 / measure 4]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
+        d''4                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
-    }
+        d''8                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
-    
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
-    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''16
-    ]
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
-    \times 4/5 {
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        \repeatTie
-        [
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
-        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''16
-        ]
-    }
+    d''16                                                                                          %! glow_rhythm
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
+    d''16                                                                                          %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        \repeatTie
+        [                                                                                          %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        \repeatTie
+        [                                                                                          %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    \times 4/5 {                                                                                   %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        \repeatTie
+        [                                                                                          %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                     %! _shorten_long_repeat_ties
+        \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
+        d''16                                                                                      %! glow_rhythm
+        ]                                                                                          %! glow_rhythm
+    }                                                                                              %! glow_rhythm
+    
+    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
+    \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
+    d''8                                                                                           %! glow_rhythm
     \repeatTie
-    [
+    [                                                                                              %! glow_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    d''8
-    ]
-    \times 2/3 {
+    d''8                                                                                           %! glow_rhythm
+    ]                                                                                              %! glow_rhythm
+    \times 2/3 {                                                                                   %! glow_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''8
+        d''8                                                                                       %! glow_rhythm
         \repeatTie
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        d''4
-    }
+        d''4                                                                                       %! glow_rhythm
+    }                                                                                              %! glow_rhythm
     
     % [E ClarinetMusicVoice measure 305 / measure 5]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -1174,268 +1174,268 @@ E_PianoRHMusicVoice = {
     
     % [E PianoRHMusicVoice measure 306 / measure 6]                                                %! _comment_measure_numbers
     R1 * 3/2                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         % [E PianoRHMusicVoice measure 307 / measure 7]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         % [E PianoRHMusicVoice measure 310 / measure 10]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
     
     % [E PianoRHMusicVoice measure 313 / measure 13]                                               %! _comment_measure_numbers
     r2.                                                                                            %! baca_make_rests
@@ -1497,208 +1497,208 @@ E_PianoLHMusicVoice = {
     
     % [E PianoLHMusicVoice measure 306 / measure 6]                                                %! _comment_measure_numbers
     R1 * 3/2                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         % [E PianoLHMusicVoice measure 307 / measure 7]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         % [E PianoLHMusicVoice measure 310 / measure 10]                                           %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
     
     % [E PianoLHMusicVoice measure 313 / measure 13]                                               %! _comment_measure_numbers
     r2.                                                                                            %! baca_make_rests
@@ -1860,57 +1860,57 @@ E_PercussionMusicVoice = {
     
     % [E PercussionMusicVoice measure 307 / measure 7]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
-    r2.
+    r2.                                                                                            %! meccanico_percussion_cell_rhythm
     
     % [E PercussionMusicVoice measure 308 / measure 8]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
-    r2.
+    r2.                                                                                            %! meccanico_percussion_cell_rhythm
     
     % [E PercussionMusicVoice measure 309 / measure 9]                                             %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
-    r2.
+    r2.                                                                                            %! meccanico_percussion_cell_rhythm
     
     % [E PercussionMusicVoice measure 310 / measure 10]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
-    r2.
+    r2.                                                                                            %! meccanico_percussion_cell_rhythm
     
     % [E PercussionMusicVoice measure 311 / measure 11]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
-    r2.
+    r2.                                                                                            %! meccanico_percussion_cell_rhythm
     
     % [E PercussionMusicVoice measure 312 / measure 12]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'4
+    c'4                                                                                            %! meccanico_percussion_cell_rhythm
     
-    r2.
+    r2.                                                                                            %! meccanico_percussion_cell_rhythm
     
     % [E PercussionMusicVoice measure 313 / measure 13]                                            %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -1920,21 +1920,21 @@ E_PercussionMusicVoice = {
     
     % [E PercussionMusicVoice measure 315 / measure 15]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.                                                                                           %! baca_make_repeat_tied_notes
+    c'1.                                                                                           %! electricity_rhythm
     
     % [E PercussionMusicVoice measure 316 / measure 16]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! electricity_rhythm
     \repeatTie
     
     % [E PercussionMusicVoice measure 317 / measure 17]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.                                                                                           %! baca_make_repeat_tied_notes
+    c'1.                                                                                           %! electricity_rhythm
     \repeatTie
     
     % [E PercussionMusicVoice measure 318 / measure 18]                                            %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! electricity_rhythm
     \repeatTie
     
     % [E PercussionMusicVoice measure 319 / measure 19]                                            %! _comment_measure_numbers
@@ -2006,384 +2006,384 @@ E_ViolinMusicVoice = {
     
     % [E ViolinMusicVoice measure 306 / measure 6]                                                 %! _comment_measure_numbers
     R1 * 3/2                                                                                       %! _make_measure_silences
-    \times 4/7 {
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         % [E ViolinMusicVoice measure 307 / measure 7]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         % [E ViolinMusicVoice measure 309 / measure 9]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         % [E ViolinMusicVoice measure 311 / measure 11]                                            %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
-    \times 4/7 {
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \times 4/7 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        [
+        c'8                                                                                        %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
+        c'8                                                                                        %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'8
-        ]
-    }
+        c'8                                                                                        %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
     
     % [E ViolinMusicVoice measure 313 / measure 13]                                                %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -2399,11 +2399,11 @@ E_ViolinMusicVoice = {
     
     % [E ViolinMusicVoice measure 317 / measure 17]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.                                                                                           %! baca_make_repeat_tied_notes
+    c'1.                                                                                           %! electricity_rhythm
     
     % [E ViolinMusicVoice measure 318 / measure 18]                                                %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! electricity_rhythm
     - \tweak direction #up
     \repeatTie
     
@@ -2444,7 +2444,7 @@ E_ViolaMusicVoice = {
     \set Staff.forceClef = ##t                                                                     %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)                                 %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)                                 %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
-    r16
+    r16                                                                                            %! airtone_chain_rhythm
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente"))                   %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \markup \baca-reapplied-indicator-markup "[“Va.”]"                                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \markup \baca-reapplied-indicator-markup "(“Viola”)"                                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -2459,38 +2459,38 @@ E_ViolaMusicVoice = {
     
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                                         %! _shorten_long_repeat_ties
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'8.
+    c'8.                                                                                           %! airtone_chain_rhythm
     
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2
+    c'2                                                                                            %! airtone_chain_rhythm
     
     % [E ViolaMusicVoice measure 302 / measure 2]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 303 / measure 3]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                                           %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 304 / measure 4]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1..
+    c'1..                                                                                          %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 305 / measure 5]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 306 / measure 6]                                                  %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                                           %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
@@ -2550,48 +2550,48 @@ E_ViolaMusicVoice = {
     
     % [E ViolaMusicVoice measure 313 / measure 13]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     % [E ViolaMusicVoice measure 314 / measure 14]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 315 / measure 15]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                                           %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 316 / measure 16]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 317 / measure 17]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                                           %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 318 / measure 18]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1
+    c'1                                                                                            %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 319 / measure 19]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.
+    c'1.                                                                                           %! airtone_chain_rhythm
     - \tweak direction #up
     \repeatTie
     
     % [E ViolaMusicVoice measure 320 / measure 20]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'2.
+    c'2.                                                                                           %! airtone_chain_rhythm
     \repeatTie
     
     % [E ViolaMusicVoice measure 321 / measure 21]                                                 %! _comment_measure_numbers
@@ -2657,358 +2657,358 @@ E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 306 / measure 6]                                                  %! _comment_measure_numbers
     R1 * 3/2                                                                                       %! _make_measure_silences
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         % [E CelloMusicVoice measure 307 / measure 7]                                              %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         % [E CelloMusicVoice measure 310 / measure 10]                                             %! _comment_measure_numbers
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 6/5 {
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                                                 %! meccanico_rhythm
+    \times 6/5 {                                                                                   %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        [
+        c'16                                                                                       %! meccanico_rhythm
+        [                                                                                          %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
+        c'16                                                                                       %! meccanico_rhythm
         
         \baca_unpitched_music_warning                                                              %! _color_unpitched_notes
-        c'16
-        ]
-    }
+        c'16                                                                                       %! meccanico_rhythm
+        ]                                                                                          %! meccanico_rhythm
+    }                                                                                              %! meccanico_rhythm
     
     % [E CelloMusicVoice measure 313 / measure 13]                                                 %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -3024,11 +3024,11 @@ E_CelloMusicVoice = {
     
     % [E CelloMusicVoice measure 317 / measure 17]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1.                                                                                           %! baca_make_repeat_tied_notes
+    c'1.                                                                                           %! electricity_rhythm
     
     % [E CelloMusicVoice measure 318 / measure 18]                                                 %! _comment_measure_numbers
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
-    c'1                                                                                            %! baca_make_repeat_tied_notes
+    c'1                                                                                            %! electricity_rhythm
     - \tweak direction #up
     \repeatTie
     
