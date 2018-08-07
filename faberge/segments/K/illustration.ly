@@ -6,61 +6,61 @@
 \include "illustration.ily"
 
 
-\score {
-    <<
-        {
-            \include "layout.ly"
-        }
+\score {                                                                                           %! _make_lilypond_file
+    <<                                                                                             %! _make_lilypond_file
+        {                                                                                          %! _make_lilypond_file
+            \include "layout.ly"                                                                   %! _make_lilypond_file
+        }                                                                                          %! _make_lilypond_file
         \context Score = "Score"
         <<
-            \context GlobalContext = "GlobalContext"
-            <<
-                \context GlobalRests = "GlobalRests"
-                \K_GlobalRests
-                \context GlobalSkips = "GlobalSkips"
-                \K_GlobalSkips
-            >>
+            \context GlobalContext = "GlobalContext"                                               %! _make_global_context
+            <<                                                                                     %! _make_global_context
+                \context GlobalRests = "GlobalRests"                                               %! _make_global_context
+                \K_GlobalRests                                                                     %! extern
+                \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
+                \K_GlobalSkips                                                                     %! extern
+            >>                                                                                     %! _make_global_context
             \context MusicContext = "MusicContext"
             <<
                 \context WindSectionStaffGroup = "WindSectionStaffGroup"
                 <<
-                    \tag Flute                                                                     %! ST_4
+                    \tag Flute                                                                     %! ScoreTemplate(5)
                     \context Staff = "FluteMusicStaff"
-                    \K_FluteMusicStaff
-                    \tag EnglishHorn                                                               %! ST_4
+                    \K_FluteMusicStaff                                                             %! extern
+                    \tag EnglishHorn                                                               %! ScoreTemplate(5)
                     \context Staff = "EnglishHornMusicStaff"
-                    \K_EnglishHornMusicStaff
-                    \tag Clarinet                                                                  %! ST_4
+                    \K_EnglishHornMusicStaff                                                       %! extern
+                    \tag Clarinet                                                                  %! ScoreTemplate(5)
                     \context Staff = "ClarinetMusicStaff"
-                    \K_ClarinetMusicStaff
+                    \K_ClarinetMusicStaff                                                          %! extern
                 >>
                 \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
                 <<
-                    \tag Piano                                                                     %! ST_4
+                    \tag Piano                                                                     %! ScoreTemplate(5)
                     \context PianoStaff = "PianoStaffGroup"
                     <<
                         \context Staff = "PianoRHMusicStaff"
-                        \K_PianoRHMusicStaff
+                        \K_PianoRHMusicStaff                                                       %! extern
                         \context Staff = "PianoLHMusicStaff"
-                        \K_PianoLHMusicStaff
+                        \K_PianoLHMusicStaff                                                       %! extern
                     >>
-                    \tag Percussion                                                                %! ST_4
+                    \tag Percussion                                                                %! ScoreTemplate(5)
                     \context Staff = "PercussionMusicStaff"
-                    \K_PercussionMusicStaff
+                    \K_PercussionMusicStaff                                                        %! extern
                 >>
                 \context StringSectionStaffGroup = "StringSectionStaffGroup"
                 <<
-                    \tag Violin                                                                    %! ST_4
+                    \tag Violin                                                                    %! ScoreTemplate(5)
                     \context Staff = "ViolinMusicStaff"
-                    \K_ViolinMusicStaff
-                    \tag Viola                                                                     %! ST_4
+                    \K_ViolinMusicStaff                                                            %! extern
+                    \tag Viola                                                                     %! ScoreTemplate(5)
                     \context Staff = "ViolaMusicStaff"
-                    \K_ViolaMusicStaff
-                    \tag Cello                                                                     %! ST_4
+                    \K_ViolaMusicStaff                                                             %! extern
+                    \tag Cello                                                                     %! ScoreTemplate(5)
                     \context Staff = "CelloMusicStaff"
-                    \K_CelloMusicStaff
+                    \K_CelloMusicStaff                                                             %! extern
                 >>
             >>
         >>
-    >>
-}
+    >>                                                                                             %! _make_lilypond_file
+}                                                                                                  %! _make_lilypond_file
