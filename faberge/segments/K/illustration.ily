@@ -820,7 +820,7 @@ K_FluteMusicVoice = {
 
 
 K_FluteMusicStaff = {
-    \context Voice = "FluteMusicVoice"
+    \context Voice = "FluteMusicVoice"                                                             %! ScoreTemplate
     \K_FluteMusicVoice                                                                             %! extern
 }
 
@@ -963,7 +963,7 @@ K_EnglishHornMusicVoice = {
 
 
 K_EnglishHornMusicStaff = {
-    \context Voice = "EnglishHornMusicVoice"
+    \context Voice = "EnglishHornMusicVoice"                                                       %! ScoreTemplate
     \K_EnglishHornMusicVoice                                                                       %! extern
 }
 
@@ -1591,7 +1591,7 @@ K_ClarinetMusicVoice = {
 
 
 K_ClarinetMusicStaff = {
-    \context Voice = "ClarinetMusicVoice"
+    \context Voice = "ClarinetMusicVoice"                                                          %! ScoreTemplate
     \K_ClarinetMusicVoice                                                                          %! extern
 }
 
@@ -2305,7 +2305,7 @@ K_PianoRHMusicVoice = {
 
 
 K_PianoRHMusicStaff = {
-    \context Voice = "PianoRHMusicVoice"
+    \context Voice = "PianoRHMusicVoice"                                                           %! ScoreTemplate
     \K_PianoRHMusicVoice                                                                           %! extern
 }
 
@@ -2478,9 +2478,9 @@ K_PianoLHAttackVoice = {
 
 
 K_PianoLHMusicStaff = <<
-    \context Voice = "PianoLHMusicVoice"
+    \context Voice = "PianoLHMusicVoice"                                                           %! ScoreTemplate
     \K_PianoLHMusicVoice                                                                           %! extern
-    \context Voice = "PianoLHAttackVoice"
+    \context Voice = "PianoLHAttackVoice"                                                          %! ScoreTemplate
     \K_PianoLHAttackVoice                                                                          %! extern
 >>
 
@@ -2609,7 +2609,7 @@ K_PercussionMusicVoice = {
 
 
 K_PercussionMusicStaff = {
-    \context Voice = "PercussionMusicVoice"
+    \context Voice = "PercussionMusicVoice"                                                        %! ScoreTemplate
     \K_PercussionMusicVoice                                                                        %! extern
 }
 
@@ -3091,7 +3091,7 @@ K_ViolinMusicVoice = {
 
 
 K_ViolinMusicStaff = {
-    \context Voice = "ViolinMusicVoice"
+    \context Voice = "ViolinMusicVoice"                                                            %! ScoreTemplate
     \K_ViolinMusicVoice                                                                            %! extern
 }
 
@@ -3232,7 +3232,7 @@ K_ViolaMusicVoice = {
 
 
 K_ViolaMusicStaff = {
-    \context Voice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"                                                             %! ScoreTemplate
     \K_ViolaMusicVoice                                                                             %! extern
 }
 
@@ -3372,6 +3372,6 @@ K_CelloMusicVoice = {
 
 
 K_CelloMusicStaff = {
-    \context Voice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"                                                             %! ScoreTemplate
     \K_CelloMusicVoice                                                                             %! extern
 }

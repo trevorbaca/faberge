@@ -11,8 +11,8 @@
         {                                                                                          %! _make_lilypond_file
             \include "layout.ly"                                                                   %! _make_lilypond_file
         }                                                                                          %! _make_lilypond_file
-        \context Score = "Score"
-        <<
+        \context Score = "Score"                                                                   %! ScoreTemplate
+        <<                                                                                         %! ScoreTemplate
             \context GlobalContext = "GlobalContext"                                               %! _make_global_context
             <<                                                                                     %! _make_global_context
                 \context GlobalRests = "GlobalRests"                                               %! _make_global_context
@@ -20,47 +20,47 @@
                 \context GlobalSkips = "GlobalSkips"                                               %! _make_global_context
                 \F_GlobalSkips                                                                     %! extern
             >>                                                                                     %! _make_global_context
-            \context MusicContext = "MusicContext"
-            <<
-                \context WindSectionStaffGroup = "WindSectionStaffGroup"
-                <<
+            \context MusicContext = "MusicContext"                                                 %! ScoreTemplate
+            <<                                                                                     %! ScoreTemplate
+                \context WindSectionStaffGroup = "WindSectionStaffGroup"                           %! ScoreTemplate
+                <<                                                                                 %! ScoreTemplate
                     \tag Flute                                                                     %! ScoreTemplate(5)
-                    \context Staff = "FluteMusicStaff"
+                    \context Staff = "FluteMusicStaff"                                             %! ScoreTemplate
                     \F_FluteMusicStaff                                                             %! extern
                     \tag EnglishHorn                                                               %! ScoreTemplate(5)
-                    \context Staff = "EnglishHornMusicStaff"
+                    \context Staff = "EnglishHornMusicStaff"                                       %! ScoreTemplate
                     \F_EnglishHornMusicStaff                                                       %! extern
                     \tag Clarinet                                                                  %! ScoreTemplate(5)
-                    \context Staff = "ClarinetMusicStaff"
+                    \context Staff = "ClarinetMusicStaff"                                          %! ScoreTemplate
                     \F_ClarinetMusicStaff                                                          %! extern
-                >>
-                \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"
-                <<
+                >>                                                                                 %! ScoreTemplate
+                \context PercussionSectionStaffGroup = "PercussionSectionStaffGroup"               %! ScoreTemplate
+                <<                                                                                 %! ScoreTemplate
                     \tag Piano                                                                     %! ScoreTemplate(5)
-                    \context PianoStaff = "PianoStaffGroup"
-                    <<
-                        \context Staff = "PianoRHMusicStaff"
+                    \context PianoStaff = "PianoStaffGroup"                                        %! ScoreTemplate
+                    <<                                                                             %! ScoreTemplate
+                        \context Staff = "PianoRHMusicStaff"                                       %! ScoreTemplate
                         \F_PianoRHMusicStaff                                                       %! extern
-                        \context Staff = "PianoLHMusicStaff"
+                        \context Staff = "PianoLHMusicStaff"                                       %! ScoreTemplate
                         \F_PianoLHMusicStaff                                                       %! extern
-                    >>
+                    >>                                                                             %! ScoreTemplate
                     \tag Percussion                                                                %! ScoreTemplate(5)
-                    \context Staff = "PercussionMusicStaff"
+                    \context Staff = "PercussionMusicStaff"                                        %! ScoreTemplate
                     \F_PercussionMusicStaff                                                        %! extern
-                >>
-                \context StringSectionStaffGroup = "StringSectionStaffGroup"
-                <<
+                >>                                                                                 %! ScoreTemplate
+                \context StringSectionStaffGroup = "StringSectionStaffGroup"                       %! ScoreTemplate
+                <<                                                                                 %! ScoreTemplate
                     \tag Violin                                                                    %! ScoreTemplate(5)
-                    \context Staff = "ViolinMusicStaff"
+                    \context Staff = "ViolinMusicStaff"                                            %! ScoreTemplate
                     \F_ViolinMusicStaff                                                            %! extern
                     \tag Viola                                                                     %! ScoreTemplate(5)
-                    \context Staff = "ViolaMusicStaff"
+                    \context Staff = "ViolaMusicStaff"                                             %! ScoreTemplate
                     \F_ViolaMusicStaff                                                             %! extern
                     \tag Cello                                                                     %! ScoreTemplate(5)
-                    \context Staff = "CelloMusicStaff"
+                    \context Staff = "CelloMusicStaff"                                             %! ScoreTemplate
                     \F_CelloMusicStaff                                                             %! extern
-                >>
-            >>
-        >>
+                >>                                                                                 %! ScoreTemplate
+            >>                                                                                     %! ScoreTemplate
+        >>                                                                                         %! ScoreTemplate
     >>                                                                                             %! _make_lilypond_file
 }                                                                                                  %! _make_lilypond_file
