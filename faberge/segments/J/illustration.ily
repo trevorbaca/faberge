@@ -485,7 +485,7 @@ J_FluteMusicVoice = {
 
 
 J_FluteMusicStaff = {
-    \context Voice = "FluteMusicVoice"
+    \context Voice = "FluteMusicVoice"                                                             %! ScoreTemplate
     \J_FluteMusicVoice                                                                             %! extern
 }
 
@@ -640,7 +640,7 @@ J_EnglishHornMusicVoice = {
 
 
 J_EnglishHornMusicStaff = {
-    \context Voice = "EnglishHornMusicVoice"
+    \context Voice = "EnglishHornMusicVoice"                                                       %! ScoreTemplate
     \J_EnglishHornMusicVoice                                                                       %! extern
 }
 
@@ -791,7 +791,7 @@ J_ClarinetMusicVoice = {
 
 
 J_ClarinetMusicStaff = {
-    \context Voice = "ClarinetMusicVoice"
+    \context Voice = "ClarinetMusicVoice"                                                          %! ScoreTemplate
     \J_ClarinetMusicVoice                                                                          %! extern
 }
 
@@ -940,7 +940,7 @@ J_PianoRHMusicVoice = {
 
 
 J_PianoRHMusicStaff = {
-    \context Voice = "PianoRHMusicVoice"
+    \context Voice = "PianoRHMusicVoice"                                                           %! ScoreTemplate
     \J_PianoRHMusicVoice                                                                           %! extern
 }
 
@@ -1163,9 +1163,9 @@ J_PianoLHAttackVoice = {
 
 
 J_PianoLHMusicStaff = <<
-    \context Voice = "PianoLHMusicVoice"
+    \context Voice = "PianoLHMusicVoice"                                                           %! ScoreTemplate
     \J_PianoLHMusicVoice                                                                           %! extern
-    \context Voice = "PianoLHAttackVoice"
+    \context Voice = "PianoLHAttackVoice"                                                          %! ScoreTemplate
     \J_PianoLHAttackVoice                                                                          %! extern
 >>
 
@@ -1320,7 +1320,7 @@ J_PercussionMusicVoice = {
 
 
 J_PercussionMusicStaff = {
-    \context Voice = "PercussionMusicVoice"
+    \context Voice = "PercussionMusicVoice"                                                        %! ScoreTemplate
     \J_PercussionMusicVoice                                                                        %! extern
 }
 
@@ -1484,7 +1484,7 @@ J_ViolinMusicVoice = {
 
 
 J_ViolinMusicStaff = {
-    \context Voice = "ViolinMusicVoice"
+    \context Voice = "ViolinMusicVoice"                                                            %! ScoreTemplate
     \J_ViolinMusicVoice                                                                            %! extern
 }
 
@@ -1647,7 +1647,7 @@ J_ViolaMusicVoice = {
 
 
 J_ViolaMusicStaff = {
-    \context Voice = "ViolaMusicVoice"
+    \context Voice = "ViolaMusicVoice"                                                             %! ScoreTemplate
     \J_ViolaMusicVoice                                                                             %! extern
 }
 
@@ -1811,6 +1811,6 @@ J_CelloMusicVoice = {
 
 
 J_CelloMusicStaff = {
-    \context Voice = "CelloMusicVoice"
+    \context Voice = "CelloMusicVoice"                                                             %! ScoreTemplate
     \J_CelloMusicVoice                                                                             %! extern
 }
