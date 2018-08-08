@@ -2233,8 +2233,8 @@ A_EnglishHornMusicVoice = {
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \once \override Staff.StaffSymbol.line-count = 5                                               %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
     \startStaff                                                                                    %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-%%% \once \override Staff.Clef.X-extent = ##f                                                      %! OverrideCommand(1):MEASURE_5:SHIFTED_CLEF
-%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! OverrideCommand(1):MEASURE_5:SHIFTED_CLEF
+%%% \once \override Staff.Clef.X-extent = ##f                                                      %! MEASURE_5:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+%%% \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                         %! MEASURE_5:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
     \clef "treble"                                                                                 %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                                          %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -2622,7 +2622,7 @@ A_EnglishHornMusicVoice = {
         
         r16                                                                                        %! keynoise_rhythm
         
-        \override NoteHead.style = #'cross                                                         %! OverrideCommand(1)
+        \override NoteHead.style = #'cross                                                         %! baca_note_head_style_cross:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         fqs'!16                                                                                    %! keynoise_rhythm
         \ff                                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -2795,7 +2795,7 @@ A_EnglishHornMusicVoice = {
         r4                                                                                         %! keynoise_rhythm
         
         cs'!8                                                                                      %! keynoise_rhythm
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_cross:OverrideCommand(2)
     }                                                                                              %! keynoise_rhythm
     
     % [A EnglishHornMusicVoice measure 93 / measure 89]                                            %! _comment_measure_numbers
@@ -3859,7 +3859,7 @@ A_PianoRHMusicVoice = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Pf.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)                         %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -4234,7 +4234,7 @@ A_PianoRHMusicVoice = {
     % [A PianoRHMusicVoice measure 92 / measure 88]                                                %! _comment_measure_numbers
     <d' e' fs'! c'' d''>1
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [A PianoRHMusicVoice measure 93 / measure 89]                                                %! _comment_measure_numbers
     R1 * 3/4                                                                                       %! _make_measure_silences
@@ -7756,7 +7756,7 @@ A_ViolaMusicVoice = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Va.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #4                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "alto"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -8511,7 +8511,7 @@ A_ViolaMusicVoice = {
     :32                                                                                            %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                                                  %! PiecewiseIndicatorCommand(2)
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 
@@ -8531,7 +8531,7 @@ A_CelloMusicVoice = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Vc.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override TextSpanner.staff-padding = #4                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #4                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \clef "bass"                                                                                   %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)                              %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -8972,7 +8972,7 @@ A_CelloMusicVoice = {
     % [A CelloMusicVoice measure 96 / measure 92]                                                  %! _comment_measure_numbers
     d,1                                                                                            %! jewelers_twilight_rhythm
     \repeatTie
-    \revert TextSpanner.staff-padding                                                              %! OverrideCommand(2)
+    \revert TextSpanner.staff-padding                                                              %! baca_text_spanner_staff_padding:OverrideCommand(2)
     
 }
 

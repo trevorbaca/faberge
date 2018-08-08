@@ -938,7 +938,7 @@ D_PianoRHMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D PianoRHMusicVoice measure 280 / measure 7]                                                %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'1.                                                                                           %! baca_make_repeat_tied_notes
     
@@ -1042,7 +1042,7 @@ D_PianoRHMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'1                                                                                            %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D PianoRHMusicVoice measure 298 / measure 25]                                               %! _comment_measure_numbers
     R1 * 7/4                                                                                       %! _make_measure_silences
@@ -1088,7 +1088,7 @@ D_PianoLHMusicVoice = {
     R1 * 5/12                                                                                      %! _make_measure_silences
     
     % [D PianoLHMusicVoice measure 280 / measure 7]                                                %! _comment_measure_numbers
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'1.                                                                                           %! baca_make_repeat_tied_notes
     
@@ -1192,7 +1192,7 @@ D_PianoLHMusicVoice = {
     \baca_unpitched_music_warning                                                                  %! _color_unpitched_notes
     c'1                                                                                            %! baca_make_repeat_tied_notes
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [D PianoLHMusicVoice measure 298 / measure 25]                                               %! _comment_measure_numbers
     R1 * 7/4                                                                                       %! _make_measure_silences
