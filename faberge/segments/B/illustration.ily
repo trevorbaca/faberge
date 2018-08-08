@@ -2763,7 +2763,7 @@ B_EnglishHornMusicVoice = {
         
         r16                                                                                        %! keynoise_rhythm
         
-        \override NoteHead.style = #'cross                                                         %! OverrideCommand(1)
+        \override NoteHead.style = #'cross                                                         %! baca_note_head_style_cross:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         ef'!16                                                                                     %! keynoise_rhythm
         \baca_effort_ff                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -3018,7 +3018,7 @@ B_EnglishHornMusicVoice = {
         
         cs'!16                                                                                     %! keynoise_rhythm
         ]                                                                                          %! keynoise_rhythm
-        \revert NoteHead.style                                                                     %! OverrideCommand(2)
+        \revert NoteHead.style                                                                     %! baca_note_head_style_cross:OverrideCommand(2)
     }                                                                                              %! keynoise_rhythm
     
     % [B EnglishHornMusicVoice measure 109 / measure 13]                                           %! _comment_measure_numbers
@@ -3068,7 +3068,7 @@ B_EnglishHornMusicVoice = {
     r4.                                                                                            %! keynoise_rhythm
     \stopTrillSpan                                                                                 %! SpannerCommand
     
-    \override NoteHead.style = #'cross                                                             %! OverrideCommand(1)
+    \override NoteHead.style = #'cross                                                             %! baca_note_head_style_cross:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gs'!8                                                                                          %! keynoise_rhythm
     \baca_effort_ff                                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -3205,7 +3205,7 @@ B_EnglishHornMusicVoice = {
     r4.                                                                                            %! keynoise_rhythm
     
     ef'!8                                                                                          %! keynoise_rhythm
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_cross:OverrideCommand(2)
     
     % [B EnglishHornMusicVoice measure 119 / measure 23]                                           %! _comment_measure_numbers
     r4                                                                                             %! eh_trill_rhythm
@@ -3336,7 +3336,7 @@ B_EnglishHornMusicVoice = {
         
         r16                                                                                        %! keynoise_rhythm
         
-        \override NoteHead.style = #'cross                                                         %! OverrideCommand(1)
+        \override NoteHead.style = #'cross                                                         %! baca_note_head_style_cross:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)                               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         eqs'!16                                                                                    %! keynoise_rhythm
         \baca_effort_ff                                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
@@ -3684,7 +3684,7 @@ B_EnglishHornMusicVoice = {
     r8                                                                                             %! keynoise_rhythm
     
     d'8                                                                                            %! keynoise_rhythm
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_cross:OverrideCommand(2)
     
     % [B EnglishHornMusicVoice measure 157 / measure 61]                                           %! _comment_measure_numbers
     \stopStaff                                                                                     %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -4418,7 +4418,7 @@ B_PianoRHMusicVoice = {
             #16                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Pf.                                                                                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                                          %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override NoteHead.style = #'harmonic                                                          %! OverrideCommand(1)
+    \override NoteHead.style = #'harmonic                                                          %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                                                 %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)                         %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                                        %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -4607,7 +4607,7 @@ B_PianoRHMusicVoice = {
     % [B PianoRHMusicVoice measure 140 / measure 44]                                               %! _comment_measure_numbers
     <ef'! f' g' df''! ef''!>1
     \repeatTie
-    \revert NoteHead.style                                                                         %! OverrideCommand(2)
+    \revert NoteHead.style                                                                         %! baca_note_head_style_harmonic:OverrideCommand(2)
     
     % [B PianoRHMusicVoice measure 141 / measure 45]                                               %! _comment_measure_numbers
     R1 * 1                                                                                         %! _make_measure_silences
@@ -6361,7 +6361,7 @@ B_ViolinMusicVoice = {
         \once \override Staff.StaffSymbol.line-count = 1                                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \startStaff                                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:IndicatorCommand:-PARTS
-        \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                                      %! OverrideCommand(1):-PARTS
+        \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                                      %! -PARTS:baca_bar_extent:OverrideCommand(1)
         \clef "percussion"                                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -8494,7 +8494,7 @@ B_CelloMusicVoice = {
     \repeatTie
     
     % [B CelloMusicVoice measure 105 / measure 9]                                                  %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #3                                                       %! OverrideCommand(1)
+    \override TextSpanner.staff-padding = #3                                                       %! baca_text_spanner_staff_padding:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)                                   %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     ef,!2.                                                                                         %! jewelers_twilight_rhythm
     \p                                                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -8686,7 +8686,7 @@ B_CelloMusicVoice = {
         \stopStaff                                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \startStaff                                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-        \override TextScript.staff-padding = #8                                                    %! OverrideCommand(1)
+        \override TextScript.staff-padding = #8                                                    %! baca_script_staff_padding:OverrideCommand(1)
         \clef "percussion"                                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
         \once \override Staff.Clef.color = #(x11-color 'blue)                                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -8910,7 +8910,7 @@ B_CelloMusicVoice = {
         
         c'8                                                                                        %! clb_rhythm
         - \staccato                                                                                %! IndicatorCommand
-        \revert TextSpanner.staff-padding                                                          %! OverrideCommand(2)
+        \revert TextSpanner.staff-padding                                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
         
         c'8                                                                                        %! clb_rhythm
         - \staccato                                                                                %! IndicatorCommand
@@ -9226,7 +9226,7 @@ B_CelloMusicVoice = {
                         }                                                                          %! SCORE_2
             }                                                                                      %! SCORE_2
         ]                                                                                          %! clb_rhythm
-        \revert TextScript.staff-padding                                                           %! OverrideCommand(2)
+        \revert TextScript.staff-padding                                                           %! baca_script_staff_padding:OverrideCommand(2)
         
     }                                                                                              %! clb_rhythm
 }

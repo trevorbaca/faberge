@@ -230,8 +230,8 @@ i_EnglishHornMusicVoice = {
         \stopStaff                                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                                           %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \startStaff                                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
-        \once \override Staff.Clef.X-extent = ##f                                                  %! OverrideCommand(1):MEASURE_3:SHIFTED_CLEF
-        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! OverrideCommand(1):MEASURE_3:SHIFTED_CLEF
+        \once \override Staff.Clef.X-extent = ##f                                                  %! MEASURE_3:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                                     %! MEASURE_3:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \override Staff.Stem.stemlet-length = 0.75                                                 %! ratchet_rhythm
         \once \override Beam.grow-direction = #right
         \clef "percussion"                                                                         %! EXPLICIT_CLEF:_set_status_tag:IndicatorCommand
