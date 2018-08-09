@@ -1,26 +1,26 @@
-i_GlobalRests = {
-    
+i_GlobalRests = {                                                              %! extern
+
     % [_ GlobalRests measure 1]                                                %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
-    
+
     % [_ GlobalRests measure 2]                                                %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
+
     % [_ GlobalRests measure 3]                                                %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
-    
+
     % [_ GlobalRests measure 4]                                                %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca_fermata_markup                                                     %! GlobalFermataCommand(1)
-    
-}
+
+}                                                                              %! extern
 
 
-i_GlobalSkips = {
-    
+i_GlobalSkips = {                                                              %! extern
+
     % [_ GlobalSkips measure 1]                                                %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -52,7 +52,7 @@ i_GlobalSkips = {
             }                                                                  %! _attach_metronome_marks(3)
         }                                                                      %! _attach_metronome_marks(3)
     \startTextSpan                                                             %! _attach_metronome_marks(3)
-    
+
     % [_ GlobalSkips measure 2]                                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -62,7 +62,7 @@ i_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((2))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [_.2]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[0'01'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [_ GlobalSkips measure 3]                                                %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -72,7 +72,7 @@ i_GlobalSkips = {
 %@% ^ \baca-dark-cyan-markup ((3))                                             %! LOCAL_MEASURE_NUMBER_MARKUP:_label_measure_indices(3)
 %@% ^ \baca-dark-cyan-markup [_.3]                                             %! _label_stage_numbers:STAGE_NUMBER_MARKUP
 %@% ^ \baca-dark-cyan-markup "[0'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
-    
+
     % [_ GlobalSkips measure 4]                                                %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca_time_signature_color "blue"                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -85,12 +85,12 @@ i_GlobalSkips = {
     \stopTextSpan                                                              %! _attach_metronome_marks(4)
     \baca_bar_line_visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
-    
-}
+
+}                                                                              %! extern
 
 
-i_FluteMusicVoice = {
-    
+i_FluteMusicVoice = {                                                          %! extern
+
     % [_ FluteMusicVoice measure 1]                                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -120,27 +120,27 @@ i_FluteMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             Fl.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     % [_ FluteMusicVoice measure 2]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ FluteMusicVoice measure 3]                                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ FluteMusicVoice measure 4]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_FluteMusicStaff = {
+i_FluteMusicStaff = {                                                          %! extern
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \i_FluteMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
 
 
-i_EnglishHornMusicVoice = {
-    
+i_EnglishHornMusicVoice = {                                                    %! extern
+
     % [_ EnglishHornMusicVoice measure 1]                                      %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -174,7 +174,7 @@ i_EnglishHornMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             "Eng. hn."                                                         %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     % [_ EnglishHornMusicVoice measure 2]                                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
     \override TupletNumber.text = \markup {
@@ -217,7 +217,7 @@ i_EnglishHornMusicVoice = {
                 }
         }
     \times 1/1 {                                                               %! ratchet_rhythm
-        
+
         % [_ EnglishHornMusicVoice measure 3]                                  %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:IndicatorCommand
@@ -240,35 +240,35 @@ i_EnglishHornMusicVoice = {
             }                                                                  %! IndicatorCommand
         [                                                                      %! ratchet_rhythm
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-        
+
         c'16 * 139/32                                                          %! ratchet_rhythm
-        
+
         c'16 * 73/32                                                           %! ratchet_rhythm
-        
+
         c'16 * 23/16                                                           %! ratchet_rhythm
-        
+
         c'16 * 71/64                                                           %! ratchet_rhythm
-        
+
         \revert Staff.Stem.stemlet-length                                      %! ratchet_rhythm
         c'16 * 63/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
-    
+
     % [_ EnglishHornMusicVoice measure 4]                                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-i_EnglishHornMusicStaff = {
+i_EnglishHornMusicStaff = {                                                    %! extern
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \i_EnglishHornMusicVoice                                                   %! extern
-}
+}                                                                              %! extern
 
 
-i_ClarinetMusicVoice = {
-    
+i_ClarinetMusicVoice = {                                                       %! extern
+
     % [_ ClarinetMusicVoice measure 1]                                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -298,27 +298,27 @@ i_ClarinetMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             Cl.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     % [_ ClarinetMusicVoice measure 2]                                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ ClarinetMusicVoice measure 3]                                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ ClarinetMusicVoice measure 4]                                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_ClarinetMusicStaff = {
+i_ClarinetMusicStaff = {                                                       %! extern
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \i_ClarinetMusicVoice                                                      %! extern
-}
+}                                                                              %! extern
 
 
-i_PianoRHMusicVoice = {
-    
+i_PianoRHMusicVoice = {                                                        %! extern
+
     % [_ PianoRHMusicVoice measure 1]                                          %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName =                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -348,27 +348,27 @@ i_PianoRHMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             Pf.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     % [_ PianoRHMusicVoice measure 2]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ PianoRHMusicVoice measure 3]                                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ PianoRHMusicVoice measure 4]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_PianoRHMusicStaff = {
+i_PianoRHMusicStaff = {                                                        %! extern
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \i_PianoRHMusicVoice                                                       %! extern
-}
+}                                                                              %! extern
 
 
-i_PianoLHMusicVoice = {
-    
+i_PianoLHMusicVoice = {                                                        %! extern
+
     % [_ PianoLHMusicVoice measure 1]                                          %! _comment_measure_numbers
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -376,46 +376,46 @@ i_PianoLHMusicVoice = {
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):attach_defaults
     R1 * 3/4                                                                   %! _call_rhythm_commands
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-    
+
     % [_ PianoLHMusicVoice measure 2]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ PianoLHMusicVoice measure 3]                                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ PianoLHMusicVoice measure 4]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_PianoLHAttackVoice = {
-    
+i_PianoLHAttackVoice = {                                                       %! extern
+
     % [_ PianoLHAttackVoice measure 1]                                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ PianoLHAttackVoice measure 2]                                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ PianoLHAttackVoice measure 3]                                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ PianoLHAttackVoice measure 4]                                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_PianoLHMusicStaff = <<
+i_PianoLHMusicStaff = <<                                                       %! extern
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \i_PianoLHMusicVoice                                                       %! extern
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \i_PianoLHAttackVoice                                                      %! extern
->>
+>>                                                                             %! extern
 
 
-i_PercussionMusicVoice = {
-    
+i_PercussionMusicVoice = {                                                     %! extern
+
     % [_ PercussionMusicVoice measure 1]                                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -445,27 +445,27 @@ i_PercussionMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             Perc.                                                              %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     % [_ PercussionMusicVoice measure 2]                                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ PercussionMusicVoice measure 3]                                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ PercussionMusicVoice measure 4]                                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_PercussionMusicStaff = {
+i_PercussionMusicStaff = {                                                     %! extern
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \i_PercussionMusicVoice                                                    %! extern
-}
+}                                                                              %! extern
 
 
-i_ViolinMusicVoice = {
-    
+i_ViolinMusicVoice = {                                                         %! extern
+
     % [_ ViolinMusicVoice measure 1]                                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -499,55 +499,55 @@ i_ViolinMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             Vn.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     e'16                                                                       %! spazzolati_rhythm
-    
+
     e'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
-    
+
     r16                                                                        %! spazzolati_rhythm
-    
+
     r16                                                                        %! spazzolati_rhythm
-    
+
     e'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
-    
+
     e'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
-    
+
     r16                                                                        %! spazzolati_rhythm
-    
+
     r16                                                                        %! spazzolati_rhythm
-    
+
     e'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
-    
+
     e'16                                                                       %! spazzolati_rhythm
-    
+
     e'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
-    
+
     % [_ ViolinMusicVoice measure 2]                                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [_ ViolinMusicVoice measure 3]                                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [_ ViolinMusicVoice measure 4]                                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-i_ViolinMusicStaff = {
+i_ViolinMusicStaff = {                                                         %! extern
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \i_ViolinMusicVoice                                                        %! extern
-}
+}                                                                              %! extern
 
 
-i_ViolaMusicVoice = {
+i_ViolaMusicVoice = {                                                          %! extern
     \times 2/3 {                                                               %! spazzolati_rhythm
-        
+
         % [_ ViolaMusicVoice measure 1]                                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName =                                       %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
         \markup {                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -577,49 +577,49 @@ i_ViolaMusicVoice = {
                 #16                                                            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
                 Va.                                                            %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             }                                                                  %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-        
+
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e'8                                                                    %! spazzolati_rhythm
         \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazzolato }                                               %! IndicatorCommand
     }                                                                          %! spazzolati_rhythm
     \times 2/3 {                                                               %! spazzolati_rhythm
-        
+
         e'8                                                                    %! spazzolati_rhythm
-        
+
         r4                                                                     %! spazzolati_rhythm
     }                                                                          %! spazzolati_rhythm
     \times 2/3 {                                                               %! spazzolati_rhythm
-        
+
         e'8                                                                    %! spazzolati_rhythm
         [                                                                      %! spazzolati_rhythm
-        
+
         e'8                                                                    %! spazzolati_rhythm
-        
+
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
     }                                                                          %! spazzolati_rhythm
-    
+
     % [_ ViolaMusicVoice measure 2]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
+
     % [_ ViolaMusicVoice measure 3]                                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    
+
     % [_ ViolaMusicVoice measure 4]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
-    
-}
+
+}                                                                              %! extern
 
 
-i_ViolaMusicStaff = {
+i_ViolaMusicStaff = {                                                          %! extern
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \i_ViolaMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
 
 
-i_CelloMusicVoice = {
-    
+i_CelloMusicVoice = {                                                          %! extern
+
     % [_ CelloMusicVoice measure 1]                                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
     \markup {                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:IndicatorCommand:-PARTS
@@ -649,20 +649,20 @@ i_CelloMusicVoice = {
             #16                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
             Vc.                                                                %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
         }                                                                      %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):IndicatorCommand:-PARTS
-    
+
     % [_ CelloMusicVoice measure 2]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
+
     % [_ CelloMusicVoice measure 3]                                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
-    
+
     % [_ CelloMusicVoice measure 4]                                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
-    
-}
+
+}                                                                              %! extern
 
 
-i_CelloMusicStaff = {
+i_CelloMusicStaff = {                                                          %! extern
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \i_CelloMusicVoice                                                         %! extern
-}
+}                                                                              %! extern
