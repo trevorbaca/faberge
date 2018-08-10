@@ -8502,7 +8502,7 @@ B_CelloMusicVoice = {                                                          %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "(tasto + poco vib.)"  %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "(tasto + poco vib.)"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "molto pont. + vib. molto" %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8571,7 +8571,7 @@ B_CelloMusicVoice = {                                                          %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "(molto pont. + vib. molto)" %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "(molto pont. + vib. molto)"                %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto + poco vib."  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)

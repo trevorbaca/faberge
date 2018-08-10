@@ -7770,7 +7770,7 @@ A_ViolaMusicVoice = {                                                          %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { "XFB sempre" }                                                 %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -7844,7 +7844,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "pont."                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "pont."                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [A ViolaMusicVoice measure 18 / measure 14]                              %! _comment_measure_numbers
@@ -7872,7 +7872,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [A ViolaMusicVoice measure 22 / measure 18]                              %! _comment_measure_numbers
@@ -7930,7 +7930,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "pont."                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "pont."                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [A ViolaMusicVoice measure 32 / measure 28]                              %! _comment_measure_numbers
@@ -7958,7 +7958,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [A ViolaMusicVoice measure 36 / measure 32]                              %! _comment_measure_numbers
@@ -8016,7 +8016,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "pont."                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "pont."                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [A ViolaMusicVoice measure 46 / measure 42]                              %! _comment_measure_numbers
@@ -8054,7 +8054,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     \startTextSpan                                                             %! PiecewiseIndicatorCommand(1)
 
     % [A ViolaMusicVoice measure 52 / measure 48]                              %! _comment_measure_numbers
@@ -8112,7 +8112,7 @@ A_ViolaMusicVoice = {                                                          %
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "pont."                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "pont."                                     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8293,7 +8293,7 @@ A_ViolaMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto"                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto"                                     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "pont."              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8490,7 +8490,7 @@ A_ViolaMusicVoice = {                                                          %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { XFB }                                                          %! IndicatorCommand
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "pont."                %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "pont."                                     %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto"              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8545,7 +8545,7 @@ A_CelloMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "tasto + poco vib."    %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "tasto + poco vib."                         %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "PO (+poco vib.)"    %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8654,7 +8654,7 @@ A_CelloMusicVoice = {                                                          %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "(PO+) poco vib."      %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "(PO+) poco vib."                           %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto (+poco vib)"  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8763,7 +8763,7 @@ A_CelloMusicVoice = {                                                          %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "(tasto + poco vib.)"  %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "(tasto + poco vib.)"                       %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "poco pont. + vib. mod." %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
@@ -8875,7 +8875,7 @@ A_CelloMusicVoice = {                                                          %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \repeatTie
     - \abjad_dashed_line_with_arrow                                            %! PiecewiseIndicatorCommand(1)
-    - \tweak bound-details.left.text \markup \baca-left "(poco pont.+) sub. vib. mod." %! PiecewiseIndicatorCommand(1)
+    - \baca_text_spanner_left_text "(poco pont.+) sub. vib. mod."              %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.text \markup \baca-right "tasto + non vib."   %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.padding #0.5                                  %! PiecewiseIndicatorCommand(1)
     - \tweak bound-details.right.stencil-align-dir-y #center                   %! PiecewiseIndicatorCommand(1)
