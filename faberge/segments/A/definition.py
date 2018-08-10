@@ -492,36 +492,36 @@ maker(
 maker(
     ('eh', (13, 16)),
     baca.dynamic('f'),
-    baca.map(
-        baca.runs(),
+    baca.new(
         baca.trill_spanner(),
+        map=baca.runs(),
         ),
     baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
     )
 
 maker(
     ('eh', (27, 30)),
-    baca.map(
-        baca.runs(),
+    baca.new(
         baca.trill_spanner(),
+        map=baca.runs(),
         ),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
     )
 
 maker(
     ('eh', (41, 46)),
-    baca.map(
-        baca.runs(),
+    baca.new(
         baca.trill_spanner(),
+        map=baca.runs(),
         ),
     baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
     )
 
 maker(
     ('eh', (57, 62)),
-    baca.map(
-        baca.runs(),
+    baca.new(
         baca.trill_spanner(),
+        map=baca.runs(),
         ),
     baca.pitches('A#4 A+4 A#+4'),
     )
@@ -537,9 +537,9 @@ maker(
 maker(
     ('eh', (89, 92)),
     baca.dynamic('f'),
-    baca.map(
-        baca.runs(),
+    baca.new(
         baca.trill_spanner(),
+        map=baca.runs(),
         ),
     baca.pitches('C4 C+4 C~4 C#4'),
     )
@@ -741,9 +741,9 @@ maker(
     baca.clef('percussion'),
     baca.dynamic('ff'),
     baca.pitches('D4 D4 B3', exact=True),
-    baca.map(
-        baca.plts()[:2],
+    baca.new(
         baca.trill_spanner(),
+        map=baca.plts()[:2],
         ),
     baca.staff_lines(2),
     baca.markup(
