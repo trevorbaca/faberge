@@ -500,73 +500,73 @@ maker(
 
 maker(
     'fl',
-    baca.measures(
-        (1, 60),
+    baca.new(
         baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3', allow_repeats=True),
         faberge.color_fingerings(),
+        measures=(1, 60),
         ),
-    baca.measures(
-        (1, 8),
+    baca.new(
         faberge.niente_swells('p'),
+        measures=(1, 8),
         ),
-    baca.measures(
-        (9, 10),
+    baca.new(
         faberge.niente_swells('mp'),
+        measures=(9, 10),
         ),
-    baca.measures(
-        (11, 12),
+    baca.new(
         faberge.niente_swells('mf'),
+        measures=(11, 12),
         ),
-    baca.measures(
-        (13, 22),
+    baca.new(
         baca.markup('fluttertongue'),
         baca.stem_tremolo(selector=baca.pleaves()),
         faberge.niente_swells('f'),
+        measures=(13, 22),
         ),
-    baca.measures(
-        (23, 26),
+    baca.new(
         baca.markup('non flutt.'),
         faberge.niente_swells('mf'),
+        measures=(23, 26),
         ),
-    baca.measures(
-        (27, 30),
+    baca.new(
         faberge.niente_swells('mp'),
+        measures=(27, 30),
         ),
-    baca.measures(
-        (31, 36),
+    baca.new(
         faberge.niente_swells('mf'),
+        measures=(31, 36),
         ),
-    baca.measures(
-        (37, 44),
+    baca.new(
         baca.markup('fluttertongue'),
         baca.stem_tremolo(selector=baca.pleaves()),
         faberge.niente_swells('f'),
+        measures=(37, 44),
         ),
-    baca.measures(
-        (45, 48),
+    baca.new(
         baca.markup('non flutt.'),
         faberge.niente_swells('mf'),
+        measures=(45, 48),
         ),
-    baca.measures(
-        (49, 52),
+    baca.new(
         faberge.niente_swells('p'),
+        measures=(49, 52),
         ),
-    baca.measures(
-        (53, 54),
+    baca.new(
         faberge.niente_swells('pp'),
+        measures=(53, 54),
         ),
-    baca.measures(
-        (55, 60),
+    baca.new(
         faberge.niente_swells('ppp'),
+        measures=(55, 60),
         ),
-    baca.measures(
-        (69, 72),
+    baca.new(
         baca.pitches(
             'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',
             allow_repeats=True,
             ),
         faberge.color_fingerings(),
         faberge.niente_swells('ppp'),
+        measures=(69, 72),
         ),
     )
 
@@ -630,9 +630,9 @@ maker(
 maker(
     ('eh', (45, 60)),
     baca.dynamic('"ff"'),
-    baca.measures(
-        (53, 60),
+    baca.new(
         baca.hairpin('"ff" >o niente', selector=baca.tleaves().rleak()),
+        measures=(53, 60),
         ),
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=-3)
@@ -666,34 +666,34 @@ maker(
 
 maker(
     ('cl', (1, 48)),
-    baca.measures(
-        (1, 44),
+    baca.new(
         baca.pitches('Eb2 E~2'),
+        measures=(1, 44),
         ),
-    baca.measures(
-        (45, 48),
+    baca.new(
         baca.pitches('Eb2'),
+        measures=(45, 48),
         ),
-    baca.measures(
-        (49, 56),
+    baca.new(
         baca.pitches('D2'),
+        measures=(49, 56),
         ),
-    baca.measures(
-        (57, 60),
+    baca.new(
         baca.pitch('C#2'),
+        measures=(57, 60),
         ),
-    baca.measures(
-        (1, 52),
+    baca.new(
         faberge.niente_swells('p'),
+        measures=(1, 52),
         ),
-    baca.measures(
-        (53, 60),
+    baca.new(
         faberge.niente_swells('pp'),
+        measures=(53, 60),
         ),
-    baca.measures(
-        (69, 72),
+    baca.new(
         baca.pitch('C2'),
         faberge.niente_swells('ppp'),
+        measures=(69, 72),
         ),
     )
 
@@ -738,38 +738,36 @@ maker(
     ('perc', (23, 60)),
     baca.markup('as attackless as possible'),
     baca.stem_tremolo(selector=baca.pleaves()),
-    # TODO: teach suite() about measure wrapper
-    # TODO: teach measure wrapper about command iterables
-    [
-        *baca.measures(
-            (23, 48),
+    baca.suite(
+        baca.new(
             baca.pitch('Eb2'),
+            measures=(23, 48),
             ),
-        *baca.measures(
-            (49, 56),
+        baca.new(
             baca.pitch('D2'),
+            measures=(49, 56),
             ),
-        *baca.measures(
-            (57, 60),
+        baca.new(
             baca.pitch('C#2'),
+            measures=(57, 60),
             ),
-        ],
-    baca.measures(
-        (23, 54),
+        ),
+    baca.new(
         baca.hairpin(
             'ppp < pp >',
             bookend=False,
             piece_selector=baca.cmgroups([2, 3]),
             ),
+        measures=(23, 54),
         ),
-    baca.measures(
-        (53, 60),
+    baca.new(
         baca.hairpin(
             '< pp >o niente',
             bookend=-1,
             piece_selector=baca.cmgroups([2, 7]),
             selector=baca.rleaves(),
             ),
+        measures=(53, 60),
         ),
     )
 
@@ -811,9 +809,9 @@ maker(
     ('vn', (9, 22)),
     baca.dynamic('"ff"'),
     baca.markup('spazz.'),
-    baca.measures(
-        (13, 22),
+    baca.new(
         baca.hairpin('"ff" >o niente'),
+        measures=(13, 22),
         ),
     baca.pitch('F4'),
     )
@@ -821,13 +819,13 @@ maker(
 maker(
     ('vn', (23, 52)),
     baca.dynamic('ppp'),
-    baca.measures(
-        (37, 44),
+    baca.new(
         baca.hairpin('ppp < f', selector=baca.rleaves()),
+        measures=(37, 44),
         ),
-    baca.measures(
-        (45, 52),
+    baca.new(
         baca.hairpin('f > ppp'),
+        measures=(45, 52),
         ),
     baca.markup('pochiss. scrath'),
     baca.pitch('E~4'),
@@ -836,9 +834,9 @@ maker(
 maker(
     ('vn', (53, 68)),
     baca.clef('percussion'),
-    baca.measures(
-        (53, 56),
+    baca.new(
         baca.hairpin('"p" < "mf"', selector=baca.rleaves()),
+        measures=(53, 56),
         ),
     baca.staff_lines(1),
     baca.suite(
@@ -886,12 +884,12 @@ maker(
     ('va', (9, 22)),
     baca.dynamic('"ff"'),
     baca.markup('spazz.'),
-    baca.measures(
-        (13, 22),
+    baca.new(
         baca.hairpin(
             '"ff" >o niente',
             selector=baca.tleaves(),
             ),
+        measures=(13, 22),
         ),
     baca.pitch('F4'),
     )
@@ -899,13 +897,13 @@ maker(
 maker(
     ('va', (23, 52)),
     baca.dynamic('pp'),
-    baca.measures(
-        (37, 44),
+    baca.new(
         baca.hairpin('pp < f', selector=baca.rleaves()),
+        measures=(37, 44),
         ),
-    baca.measures(
-        (45, 52),
+    baca.new(
         baca.hairpin('f > pp'),
+        measures=(45, 52),
         ),
     baca.markup('tasto + pochiss. scratch'),
     baca.pitch('G3'),
@@ -915,13 +913,13 @@ maker(
 maker(
     ('va', (53, -1)),
     baca.clef('percussion'),
-    baca.measures(
-        (53, 56),
+    baca.new(
         baca.hairpin('"p" < "mf"', selector=baca.rleaves()),
+        measures=(53, 56),
         ),
-    baca.measures(
-        (73, 80),
+    baca.new(
         baca.hairpin('"mf" >o niente'),
+        measures=(73, 80),
         ),
     baca.staff_lines(1),
     baca.staccato(selector=baca.pheads()),
@@ -978,29 +976,29 @@ maker(
             'do not reattack note heads',
             ]),
         ),
-    baca.measures(
-        (37, 44),
+    baca.new(
         baca.pitch('Eb2'),
+        measures=(37, 44),
         ),
-    baca.measures(
-        (45, 48),
+    baca.new(
         baca.pitch('Fb2'),
+        measures=(45, 48),
         ),
-    baca.measures(
-        (37, 48),
+    baca.new(
         baca.hairpin('p < ff', selector=baca.rleaves()),
+        measures=(37, 48),
         ),
-    baca.measures(
-        (49, 56),
+    baca.new(
         baca.pitch('D2'),
+        measures=(49, 56),
         ),
-    baca.measures(
-        (57, 60),
+    baca.new(
         baca.pitches('C#2 B#1'),
+        measures=(57, 60),
         ),
-    baca.measures(
-        (49, 60),
+    baca.new(
         baca.hairpin('ff >o niente'),
+        measures=(49, 60),
         ),
     )
 
@@ -1025,9 +1023,9 @@ maker(
     ('vc', (61, 80)),
     baca.clef('percussion'),
     baca.dynamic('"mf"'),
-    baca.measures(
-        (73, 80),
+    baca.new(
         baca.hairpin('"mf" >o niente'),
+        measures=(73, 80),
         ),
     baca.not_parts(baca.bar_extent_persistent((0, 2))),
     baca.staff_lines(1),

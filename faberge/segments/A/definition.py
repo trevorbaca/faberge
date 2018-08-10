@@ -475,14 +475,14 @@ maker(
 
 maker(
     ('fl', (81, 92)),
-    baca.measures(
-        (81, 88),
+    baca.new(
         baca.pitch('F#4'),
+        measures=(81, 88),
         ),
-    baca.measures(
-        (89, 92),
+    baca.new(
         baca.pitches('F#4 F#3', allow_repeats=True),
         faberge.color_fingerings(),
+        measures=(89, 92),
         ),
     faberge.niente_swells('p'),
     )
@@ -600,17 +600,17 @@ maker(
 
 maker(
     ('cl', (47, -1)),
-    baca.measures(
-        (47, 62),
+    baca.new(
         faberge.niente_swells('p'),
+        measures=(47, 62),
         ),
-    baca.measures(
-        (63, 70),
+    baca.new(
         faberge.niente_swells('ppp'),
+        measures=(63, 70),
         ),
-    baca.measures(
-        (71, -1),
+    baca.new(
         faberge.niente_swells('p'),
+        measures=(71, -1),
         ),
     baca.pitches('D2 D+2'),
     )
@@ -1014,13 +1014,13 @@ maker(
 
 maker(
     ('vc', (71, 80)),
-    baca.measures(
-        (71, 80),
+    baca.new(
         baca.hairpin('ff > pp', selector=baca.rleaves()),
+        measures=(71, 80),
         ),
-    baca.measures(
-        (81, 88),
+    baca.new(
         baca.hairpin('pp < p', selector=baca.rleaves()),
+        measures=(81, 88),
         ),
     baca.text_spanner(
         [
