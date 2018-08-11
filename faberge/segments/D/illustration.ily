@@ -539,8 +539,10 @@ D_FluteMusicVoice = {                                                          %
 
 
 D_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \D_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -751,8 +753,10 @@ D_EnglishHornMusicVoice = {                                                    %
 
 
 D_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \D_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -875,8 +879,10 @@ D_ClarinetMusicVoice = {                                                       %
 
 
 D_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \D_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -940,6 +946,7 @@ D_PianoRHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -951,6 +958,7 @@ D_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! baca_make_repeat_tied_notes
         \repeatTie
+
     }
 
     % [D PianoRHMusicVoice measure 285 / measure 12]                           %! _comment_measure_numbers
@@ -963,6 +971,7 @@ D_PianoRHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -974,6 +983,7 @@ D_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! baca_make_repeat_tied_notes
         \repeatTie
+
     }
 
     % [D PianoRHMusicVoice measure 288 / measure 15]                           %! _comment_measure_numbers
@@ -1041,8 +1051,10 @@ D_PianoRHMusicVoice = {                                                        %
 
 
 D_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \D_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1090,6 +1102,7 @@ D_PianoLHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -1101,6 +1114,7 @@ D_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! baca_make_repeat_tied_notes
         \repeatTie
+
     }
 
     % [D PianoLHMusicVoice measure 285 / measure 12]                           %! _comment_measure_numbers
@@ -1113,6 +1127,7 @@ D_PianoLHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak edge-height #'(0.7 . 0)
     \times 2/3 {
 
@@ -1124,6 +1139,7 @@ D_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! baca_make_repeat_tied_notes
         \repeatTie
+
     }
 
     % [D PianoLHMusicVoice measure 288 / measure 15]                           %! _comment_measure_numbers
@@ -1293,10 +1309,13 @@ D_PianoLHAttackVoice = {                                                       %
 
 
 D_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \D_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \D_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -1433,8 +1452,10 @@ D_PercussionMusicVoice = {                                                     %
 
 
 D_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \D_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -1685,8 +1706,10 @@ D_ViolinMusicVoice = {                                                         %
 
 
 D_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \D_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -1887,8 +1910,10 @@ D_ViolaMusicVoice = {                                                          %
 
 
 D_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \D_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2139,6 +2164,8 @@ D_CelloMusicVoice = {                                                          %
 
 
 D_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \D_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

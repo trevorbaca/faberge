@@ -1952,8 +1952,10 @@ F_FluteMusicVoice = {                                                          %
 
 
 F_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \F_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2468,8 +2470,10 @@ F_EnglishHornMusicVoice = {                                                    %
 
 
 F_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \F_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -2943,8 +2947,10 @@ F_ClarinetMusicVoice = {                                                       %
 
 
 F_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \F_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -3257,6 +3263,7 @@ F_PianoRHMusicVoice = {                                                        %
 
     % [F PianoRHMusicVoice measure 392 / measure 71]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -3280,7 +3287,9 @@ F_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -3304,6 +3313,7 @@ F_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [F PianoRHMusicVoice measure 395 / measure 74]                           %! _comment_measure_numbers
@@ -3311,6 +3321,7 @@ F_PianoRHMusicVoice = {                                                        %
 
     % [F PianoRHMusicVoice measure 396 / measure 75]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -3334,6 +3345,7 @@ F_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [F PianoRHMusicVoice measure 398 / measure 77]                           %! _comment_measure_numbers
@@ -3451,8 +3463,10 @@ F_PianoRHMusicVoice = {                                                        %
 
 
 F_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \F_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -4116,10 +4130,13 @@ F_PianoLHAttackVoice = {                                                       %
 
 
 F_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \F_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \F_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -4656,8 +4673,10 @@ F_PercussionMusicVoice = {                                                     %
 
 
 F_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \F_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -5104,6 +5123,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -5127,7 +5147,9 @@ F_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -5151,6 +5173,7 @@ F_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [F ViolinMusicVoice measure 395 / measure 74]                            %! _comment_measure_numbers
@@ -5163,6 +5186,7 @@ F_ViolinMusicVoice = {                                                         %
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -5186,6 +5210,7 @@ F_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [F ViolinMusicVoice measure 398 / measure 77]                            %! _comment_measure_numbers
@@ -5678,8 +5703,10 @@ F_ViolinMusicVoice = {                                                         %
 
 
 F_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \F_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -6038,6 +6065,7 @@ F_ViolaMusicVoice = {                                                          %
 
     % [F ViolaMusicVoice measure 392 / measure 71]                             %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -6061,7 +6089,9 @@ F_ViolaMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -6085,6 +6115,7 @@ F_ViolaMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [F ViolaMusicVoice measure 395 / measure 74]                             %! _comment_measure_numbers
@@ -6092,6 +6123,7 @@ F_ViolaMusicVoice = {                                                          %
 
     % [F ViolaMusicVoice measure 396 / measure 75]                             %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -6115,6 +6147,7 @@ F_ViolaMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [F ViolaMusicVoice measure 398 / measure 77]                             %! _comment_measure_numbers
@@ -6594,8 +6627,10 @@ F_ViolaMusicVoice = {                                                          %
 
 
 F_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \F_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -7159,6 +7194,8 @@ F_CelloMusicVoice = {                                                          %
 
 
 F_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \F_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

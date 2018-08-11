@@ -1053,12 +1053,15 @@ G_FluteMusicVoice = {                                                          %
 
 
 G_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \G_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
 G_EnglishHornMusicVoice = {                                                    %! extern
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1150,8 +1153,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 63/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1213,6 +1218,7 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 225/64                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
@@ -1263,6 +1269,7 @@ G_EnglishHornMusicVoice = {                                                    %
 
     % [G EnglishHornMusicVoice measure 446 / measure 18]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1318,8 +1325,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 15/16                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1384,11 +1393,13 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 285/64                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
     % [G EnglishHornMusicVoice measure 449 / measure 21]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1447,8 +1458,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 69/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1519,11 +1532,13 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 151/32                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
     % [G EnglishHornMusicVoice measure 452 / measure 24]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1588,8 +1603,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 63/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1654,11 +1671,13 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 285/64                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
     % [G EnglishHornMusicVoice measure 455 / measure 27]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1714,8 +1733,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 15/16                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1777,6 +1798,7 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 225/64                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
@@ -1794,6 +1816,7 @@ G_EnglishHornMusicVoice = {                                                    %
 
     % [G EnglishHornMusicVoice measure 462 / measure 34]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1852,8 +1875,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 69/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1924,11 +1949,13 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 151/32                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
     % [G EnglishHornMusicVoice measure 465 / measure 37]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -1984,8 +2011,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 15/16                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2050,11 +2079,13 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 285/64                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
     % [G EnglishHornMusicVoice measure 468 / measure 40]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2119,8 +2150,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 63/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2182,6 +2215,7 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 225/64                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
@@ -2196,6 +2230,7 @@ G_EnglishHornMusicVoice = {                                                    %
 
     % [G EnglishHornMusicVoice measure 474 / measure 46]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2254,8 +2289,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 69/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2326,6 +2363,7 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 151/32                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
@@ -2340,6 +2378,7 @@ G_EnglishHornMusicVoice = {                                                    %
 
     % [G EnglishHornMusicVoice measure 480 / measure 52]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2395,8 +2434,10 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 15/16                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2467,6 +2508,7 @@ G_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16 * 151/32                                                          %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
@@ -2477,8 +2519,10 @@ G_EnglishHornMusicVoice = {                                                    %
 
 
 G_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \G_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -2717,8 +2761,10 @@ G_ClarinetMusicVoice = {                                                       %
 
 
 G_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \G_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -2846,6 +2892,7 @@ G_PianoRHMusicVoice = {                                                        %
 
     % [G PianoRHMusicVoice measure 462 / measure 34]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2904,8 +2951,10 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 69/64                                                           %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -2976,11 +3025,13 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 151/32                                                          %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
 
     % [G PianoRHMusicVoice measure 465 / measure 37]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3036,8 +3087,10 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 15/16                                                           %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3102,11 +3155,13 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 285/64                                                          %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
 
     % [G PianoRHMusicVoice measure 468 / measure 40]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3171,8 +3226,10 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 63/64                                                           %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3234,6 +3291,7 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 225/64                                                          %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
 
@@ -3248,6 +3306,7 @@ G_PianoRHMusicVoice = {                                                        %
 
     % [G PianoRHMusicVoice measure 474 / measure 46]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3306,8 +3365,10 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 69/64                                                           %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3378,6 +3439,7 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 151/32                                                          %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
 
@@ -3392,6 +3454,7 @@ G_PianoRHMusicVoice = {                                                        %
 
     % [G PianoRHMusicVoice measure 480 / measure 52]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3447,8 +3510,10 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 15/16                                                           %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -3519,6 +3584,7 @@ G_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16 * 151/32                                                          %! lateral_click_rhythm
         ]                                                                      %! lateral_click_rhythm
+
     }                                                                          %! lateral_click_rhythm
     \revert TupletNumber.text
 
@@ -3529,8 +3595,10 @@ G_PianoRHMusicVoice = {                                                        %
 
 
 G_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \G_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -3882,10 +3950,13 @@ G_PianoLHAttackVoice = {                                                       %
 
 
 G_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \G_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \G_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -4143,8 +4214,10 @@ G_PercussionMusicVoice = {                                                     %
 
 
 G_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \G_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -4911,8 +4984,10 @@ G_ViolinMusicVoice = {                                                         %
 
 
 G_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \G_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -5625,8 +5700,10 @@ G_ViolaMusicVoice = {                                                          %
 
 
 G_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \G_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -5883,6 +5960,8 @@ G_CelloMusicVoice = {                                                          %
 
 
 G_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \G_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
