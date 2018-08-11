@@ -118,8 +118,10 @@ i_FluteMusicVoice = {                                                          %
 
 
 i_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \i_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -161,6 +163,7 @@ i_EnglishHornMusicVoice = {                                                    %
 
     % [_ EnglishHornMusicVoice measure 2]                                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
+
     \override TupletNumber.text = \markup {
         \scale
             #'(0.75 . 0.75)
@@ -236,6 +239,7 @@ i_EnglishHornMusicVoice = {                                                    %
         \revert Staff.Stem.stemlet-length                                      %! ratchet_rhythm
         c'16 * 63/64                                                           %! ratchet_rhythm
         ]                                                                      %! ratchet_rhythm
+
     }                                                                          %! ratchet_rhythm
     \revert TupletNumber.text
 
@@ -246,8 +250,10 @@ i_EnglishHornMusicVoice = {                                                    %
 
 
 i_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \i_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -296,8 +302,10 @@ i_ClarinetMusicVoice = {                                                       %
 
 
 i_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \i_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -346,8 +354,10 @@ i_PianoRHMusicVoice = {                                                        %
 
 
 i_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \i_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -391,10 +401,13 @@ i_PianoLHAttackVoice = {                                                       %
 
 
 i_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \i_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \i_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -443,8 +456,10 @@ i_PercussionMusicVoice = {                                                     %
 
 
 i_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \i_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -524,12 +539,15 @@ i_ViolinMusicVoice = {                                                         %
 
 
 i_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \i_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
 i_ViolaMusicVoice = {                                                          %! extern
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [_ ViolaMusicVoice measure 1]                                        %! _comment_measure_numbers
@@ -566,13 +584,17 @@ i_ViolaMusicVoice = {                                                          %
         e'8                                                                    %! spazzolati_rhythm
         \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazzolato }                                               %! baca_markup:IndicatorCommand
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -582,6 +604,7 @@ i_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
 
     % [_ ViolaMusicVoice measure 2]                                            %! _comment_measure_numbers
@@ -597,8 +620,10 @@ i_ViolaMusicVoice = {                                                          %
 
 
 i_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \i_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -647,6 +672,8 @@ i_CelloMusicVoice = {                                                          %
 
 
 i_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \i_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

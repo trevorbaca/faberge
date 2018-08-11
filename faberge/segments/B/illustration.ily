@@ -1082,6 +1082,7 @@ B_FluteMusicVoice = {                                                          %
                     1
         }
     ]                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         % [B FluteMusicVoice measure 98 / measure 2]                           %! _comment_measure_numbers
@@ -1097,10 +1098,12 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         2
             }
+
     }                                                                          %! glow_rhythm
 
     g''2                                                                       %! glow_rhythm
     \repeatTie
+
     \times 2/3 {                                                               %! glow_rhythm
 
         g''4                                                                   %! glow_rhythm
@@ -1114,6 +1117,7 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 99 / measure 3]                               %! _comment_measure_numbers
@@ -1138,6 +1142,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1154,17 +1159,20 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 101 / measure 5]                              %! _comment_measure_numbers
     g'2                                                                        %! glow_rhythm
     \repeatTie
+
     \times 2/3 {                                                               %! glow_rhythm
 
         g'4                                                                    %! glow_rhythm
         \repeatTie
 
         g''8                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 102 / measure 6]                              %! _comment_measure_numbers
@@ -1242,6 +1250,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1269,7 +1278,9 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g''16                                                                  %! glow_rhythm
@@ -1277,6 +1288,7 @@ B_FluteMusicVoice = {                                                          %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 108 / measure 12]                             %! _comment_measure_numbers
@@ -1316,6 +1328,7 @@ B_FluteMusicVoice = {                                                          %
     :32                                                                        %! IndicatorCommand
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g'16                                                                   %! glow_rhythm
@@ -1357,7 +1370,9 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         % [B FluteMusicVoice measure 111 / measure 15]                         %! _comment_measure_numbers
@@ -1401,6 +1416,7 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -1446,6 +1462,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1456,6 +1473,7 @@ B_FluteMusicVoice = {                                                          %
 
         g''8                                                                   %! glow_rhythm
         :32                                                                    %! IndicatorCommand
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 114 / measure 18]                             %! _comment_measure_numbers
@@ -1491,6 +1509,7 @@ B_FluteMusicVoice = {                                                          %
     g''2                                                                       %! glow_rhythm
     :32                                                                        %! IndicatorCommand
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g''16                                                                  %! glow_rhythm
@@ -1525,6 +1544,7 @@ B_FluteMusicVoice = {                                                          %
         g''16                                                                  %! glow_rhythm
         :32                                                                    %! IndicatorCommand
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 115 / measure 19]                             %! _comment_measure_numbers
@@ -1593,6 +1613,7 @@ B_FluteMusicVoice = {                                                          %
     g'2                                                                        %! glow_rhythm
     :32                                                                        %! IndicatorCommand
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g'16                                                                   %! glow_rhythm
@@ -1634,6 +1655,7 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -1690,6 +1712,7 @@ B_FluteMusicVoice = {                                                          %
                 \finger
                     1
         }
+
     \times 2/3 {                                                               %! glow_rhythm
 
         g'8                                                                    %! glow_rhythm
@@ -1697,6 +1720,7 @@ B_FluteMusicVoice = {                                                          %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 122 / measure 26]                             %! _comment_measure_numbers
@@ -1727,6 +1751,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -1765,7 +1790,9 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -1803,12 +1830,14 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 124 / measure 28]                             %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2                                                                        %! glow_rhythm
     \repeatTie
+
     \times 2/3 {                                                               %! glow_rhythm
 
         g'8                                                                    %! glow_rhythm
@@ -1823,6 +1852,7 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         2
             }
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 125 / measure 29]                             %! _comment_measure_numbers
@@ -1863,6 +1893,7 @@ B_FluteMusicVoice = {                                                          %
     g''2.                                                                      %! glow_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g''16                                                                  %! glow_rhythm
@@ -1881,7 +1912,9 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         % [B FluteMusicVoice measure 129 / measure 33]                         %! _comment_measure_numbers
@@ -1890,6 +1923,7 @@ B_FluteMusicVoice = {                                                          %
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     g''4                                                                       %! glow_rhythm
@@ -1928,6 +1962,7 @@ B_FluteMusicVoice = {                                                          %
     g'2.                                                                       %! glow_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g'16                                                                   %! glow_rhythm
@@ -1953,6 +1988,7 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 132 / measure 36]                             %! _comment_measure_numbers
@@ -1985,6 +2021,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -2028,6 +2065,7 @@ B_FluteMusicVoice = {                                                          %
                         2
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 134 / measure 38]                             %! _comment_measure_numbers
@@ -2051,6 +2089,7 @@ B_FluteMusicVoice = {                                                          %
     g'2                                                                        %! glow_rhythm
     :32                                                                        %! IndicatorCommand
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g'16                                                                   %! glow_rhythm
@@ -2060,6 +2099,7 @@ B_FluteMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
         :32                                                                    %! IndicatorCommand
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 135 / measure 39]                             %! _comment_measure_numbers
@@ -2102,6 +2142,7 @@ B_FluteMusicVoice = {                                                          %
     g''4                                                                       %! glow_rhythm
     :32                                                                        %! IndicatorCommand
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g''16                                                                  %! glow_rhythm
@@ -2118,6 +2159,7 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
 
     g'4                                                                        %! glow_rhythm
@@ -2161,6 +2203,7 @@ B_FluteMusicVoice = {                                                          %
     :32                                                                        %! IndicatorCommand
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g'16                                                                   %! glow_rhythm
@@ -2177,6 +2220,7 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -2214,6 +2258,7 @@ B_FluteMusicVoice = {                                                          %
     g''2                                                                       %! glow_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 2/3 {                                                               %! glow_rhythm
 
         g''4                                                                   %! glow_rhythm
@@ -2227,6 +2272,7 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 143 / measure 47]                             %! _comment_measure_numbers
@@ -2277,6 +2323,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -2293,7 +2340,9 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         % [B FluteMusicVoice measure 146 / measure 50]                         %! _comment_measure_numbers
@@ -2313,6 +2362,7 @@ B_FluteMusicVoice = {                                                          %
                         1
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     g'2                                                                        %! glow_rhythm
@@ -2406,6 +2456,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
@@ -2422,7 +2473,9 @@ B_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         % [B FluteMusicVoice measure 152 / measure 56]                         %! _comment_measure_numbers
@@ -2430,11 +2483,13 @@ B_FluteMusicVoice = {                                                          %
         \repeatTie
 
         g''8                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g''16                                                                  %! glow_rhythm
@@ -2471,6 +2526,7 @@ B_FluteMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 153 / measure 57]                             %! _comment_measure_numbers
@@ -2502,6 +2558,7 @@ B_FluteMusicVoice = {                                                          %
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \times 2/3 {                                                               %! glow_rhythm
 
         % [B FluteMusicVoice measure 155 / measure 59]                         %! _comment_measure_numbers
@@ -2511,11 +2568,13 @@ B_FluteMusicVoice = {                                                          %
         \repeatTie
 
         g''8                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         g''16                                                                  %! glow_rhythm
@@ -2559,6 +2618,7 @@ B_FluteMusicVoice = {                                                          %
                         2
             }
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 156 / measure 60]                             %! _comment_measure_numbers
@@ -2613,6 +2673,7 @@ B_FluteMusicVoice = {                                                          %
     gs''!2                                                                     %! glow_rhythm
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 4/5 {                                                               %! glow_rhythm
 
         gs''!16                                                                %! glow_rhythm
@@ -2649,6 +2710,7 @@ B_FluteMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         gs''!16                                                                %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [B FluteMusicVoice measure 167 / measure 71]                             %! _comment_measure_numbers
@@ -2707,8 +2769,10 @@ B_FluteMusicVoice = {                                                          %
 
 
 B_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \B_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2743,6 +2807,7 @@ B_EnglishHornMusicVoice = {                                                    %
             "Eng. hn."                                                         %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2759,31 +2824,38 @@ B_EnglishHornMusicVoice = {                                                    %
 
         gs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     aqf'!8                                                                     %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 98 / measure 2]                     %! _comment_measure_numbers
         r8                                                                     %! keynoise_rhythm
 
         bf'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         a'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         eqs'!8                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 99 / measure 3]                         %! _comment_measure_numbers
@@ -2794,6 +2866,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     e'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2807,9 +2880,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         bf'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2823,32 +2898,39 @@ B_EnglishHornMusicVoice = {                                                    %
 
         d'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 100 / measure 4]                        %! _comment_measure_numbers
     r8                                                                         %! keynoise_rhythm
 
     bf'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         a'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 101 / measure 5]                        %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         gs'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         aqf'!8                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 102 / measure 6]                        %! _comment_measure_numbers
@@ -2859,6 +2941,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     cs'!16                                                                     %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2872,10 +2955,12 @@ B_EnglishHornMusicVoice = {                                                    %
 
         eqs'!16                                                                %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 103 / measure 7]                        %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2889,31 +2974,38 @@ B_EnglishHornMusicVoice = {                                                    %
 
         cs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     fqs'!8                                                                     %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 104 / measure 8]                    %! _comment_measure_numbers
         r8                                                                     %! keynoise_rhythm
 
         ef'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         e'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         eqs'!8                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 105 / measure 9]                        %! _comment_measure_numbers
@@ -2924,6 +3016,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     bf'!16                                                                     %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2937,9 +3030,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         ef'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 106 / measure 10]                   %! _comment_measure_numbers
@@ -2954,31 +3049,38 @@ B_EnglishHornMusicVoice = {                                                    %
 
         bf'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     a'8                                                                        %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 107 / measure 11]                   %! _comment_measure_numbers
         r8                                                                     %! keynoise_rhythm
 
         fqs'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         f'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         d'8                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 108 / measure 12]                       %! _comment_measure_numbers
@@ -2989,6 +3091,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     a'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3003,6 +3106,7 @@ B_EnglishHornMusicVoice = {                                                    %
         cs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
         \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 109 / measure 13]                       %! _comment_measure_numbers
@@ -3056,12 +3160,15 @@ B_EnglishHornMusicVoice = {                                                    %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gs'!8                                                                      %! keynoise_rhythm
     \baca_effort_ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         aqf'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 114 / measure 18]                   %! _comment_measure_numbers
@@ -3072,14 +3179,17 @@ B_EnglishHornMusicVoice = {                                                    %
 
         a'8.                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         eqs'!8                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -3089,6 +3199,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     e'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 115 / measure 19]                   %! _comment_measure_numbers
@@ -3103,7 +3214,9 @@ B_EnglishHornMusicVoice = {                                                    %
 
         bf'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3117,18 +3230,22 @@ B_EnglishHornMusicVoice = {                                                    %
 
         d'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 116 / measure 20]                       %! _comment_measure_numbers
     r4.                                                                        %! keynoise_rhythm
 
     bf'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         a'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3138,15 +3255,18 @@ B_EnglishHornMusicVoice = {                                                    %
 
         aqf'!8.                                                                %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 117 / measure 21]                       %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         d'8                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -3156,6 +3276,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     fqs'!16                                                                    %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3169,7 +3290,9 @@ B_EnglishHornMusicVoice = {                                                    %
 
         ef'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 118 / measure 22]                   %! _comment_measure_numbers
@@ -3184,6 +3307,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
         fqs'!16                                                                %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4.                                                                        %! keynoise_rhythm
@@ -3316,6 +3440,7 @@ B_EnglishHornMusicVoice = {                                                    %
     % [B EnglishHornMusicVoice measure 141 / measure 45]                       %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
     \stopTrillSpan                                                             %! SpannerCommand
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3332,31 +3457,38 @@ B_EnglishHornMusicVoice = {                                                    %
 
         a'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     gs'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         aqf'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 142 / measure 46]                       %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         bf'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         cs'!8                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 143 / measure 47]                       %! _comment_measure_numbers
@@ -3367,6 +3499,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     f'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3380,9 +3513,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         gs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 144 / measure 48]                   %! _comment_measure_numbers
@@ -3397,32 +3532,39 @@ B_EnglishHornMusicVoice = {                                                    %
 
         fqs'!16                                                                %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     f'8                                                                        %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 145 / measure 49]                   %! _comment_measure_numbers
         r8                                                                     %! keynoise_rhythm
 
         e'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         eqs'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 146 / measure 50]                   %! _comment_measure_numbers
         r4                                                                     %! keynoise_rhythm
 
         ef'!8                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -3432,6 +3574,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     d'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3445,9 +3588,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         e'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 147 / measure 51]                   %! _comment_measure_numbers
@@ -3462,31 +3607,38 @@ B_EnglishHornMusicVoice = {                                                    %
 
         a'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     gs'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         eqs'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 148 / measure 52]                   %! _comment_measure_numbers
         r16                                                                    %! keynoise_rhythm
 
         ef'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         e'8                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 149 / measure 53]                       %! _comment_measure_numbers
@@ -3503,6 +3655,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     aqf'!16                                                                    %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3516,9 +3669,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         f'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 150 / measure 54]                   %! _comment_measure_numbers
@@ -3533,32 +3688,39 @@ B_EnglishHornMusicVoice = {                                                    %
 
         gs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     aqf'!8                                                                     %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 151 / measure 55]                   %! _comment_measure_numbers
         r8                                                                     %! keynoise_rhythm
 
         bf'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         cs'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 152 / measure 56]                   %! _comment_measure_numbers
         r4                                                                     %! keynoise_rhythm
 
         fqs'!8                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -3568,6 +3730,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     d'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3581,9 +3744,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         d'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 153 / measure 57]                   %! _comment_measure_numbers
@@ -3598,32 +3763,39 @@ B_EnglishHornMusicVoice = {                                                    %
 
         ef'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     e'8                                                                        %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         eqs'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [B EnglishHornMusicVoice measure 154 / measure 58]                       %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         bf'!4                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 155 / measure 59]                   %! _comment_measure_numbers
         r4                                                                     %! keynoise_rhythm
 
         a'8                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -3633,6 +3805,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     aqf'!16                                                                    %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -3646,9 +3819,11 @@ B_EnglishHornMusicVoice = {                                                    %
 
         aqf'!16                                                                %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [B EnglishHornMusicVoice measure 156 / measure 60]                   %! _comment_measure_numbers
@@ -3663,6 +3838,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
         f'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -3766,8 +3942,10 @@ B_EnglishHornMusicVoice = {                                                    %
 
 
 B_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \B_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -4388,8 +4566,10 @@ B_ClarinetMusicVoice = {                                                       %
 
 
 B_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \B_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -4705,8 +4885,10 @@ B_PianoRHMusicVoice = {                                                        %
 
 
 B_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \B_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -5246,10 +5428,13 @@ B_PianoLHAttackVoice = {                                                       %
 
 
 B_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \B_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \B_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -5711,8 +5896,10 @@ B_PercussionMusicVoice = {                                                     %
 
 
 B_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \B_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -6337,6 +6524,7 @@ B_ViolinMusicVoice = {                                                         %
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 10/12 {                                                             %! clb_rhythm
 
@@ -6404,7 +6592,9 @@ B_ViolinMusicVoice = {                                                         %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/20 {                                                             %! clb_rhythm
 
@@ -6470,7 +6660,9 @@ B_ViolinMusicVoice = {                                                         %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 6/8 {                                                               %! clb_rhythm
 
@@ -6502,6 +6694,7 @@ B_ViolinMusicVoice = {                                                         %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolinMusicVoice measure 154 / measure 58]                            %! _comment_measure_numbers
@@ -6543,6 +6736,7 @@ B_ViolinMusicVoice = {                                                         %
     d'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 10/14 {                                                             %! clb_rhythm
 
@@ -6590,7 +6784,9 @@ B_ViolinMusicVoice = {                                                         %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 8/10 {                                                              %! clb_rhythm
 
@@ -6626,7 +6822,9 @@ B_ViolinMusicVoice = {                                                         %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/20 {                                                             %! clb_rhythm
 
@@ -6692,7 +6890,9 @@ B_ViolinMusicVoice = {                                                         %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -6746,6 +6946,7 @@ B_ViolinMusicVoice = {                                                         %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolinMusicVoice measure 163 / measure 67]                            %! _comment_measure_numbers
@@ -6762,6 +6963,7 @@ B_ViolinMusicVoice = {                                                         %
     c'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 8/12 {                                                              %! clb_rhythm
 
@@ -6803,6 +7005,7 @@ B_ViolinMusicVoice = {                                                         %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolinMusicVoice measure 165 / measure 69]                            %! _comment_measure_numbers
@@ -6832,6 +7035,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 168 / measure 72]                            %! _comment_measure_numbers
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -6892,7 +7096,9 @@ B_ViolinMusicVoice = {                                                         %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/20 {                                                             %! clb_rhythm
 
@@ -6958,7 +7164,9 @@ B_ViolinMusicVoice = {                                                         %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -6982,6 +7190,7 @@ B_ViolinMusicVoice = {                                                         %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolinMusicVoice measure 174 / measure 78]                            %! _comment_measure_numbers
@@ -7017,6 +7226,7 @@ B_ViolinMusicVoice = {                                                         %
     d'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 8/12 {                                                              %! clb_rhythm
 
@@ -7062,12 +7272,15 @@ B_ViolinMusicVoice = {                                                         %
         ]                                                                      %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 B_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \B_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -7134,6 +7347,7 @@ B_ViolaMusicVoice = {                                                          %
     ef!1                                                                       %! jewelers_twilight_rhythm
     :32                                                                        %! IndicatorCommand
     \repeatTie
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 105 / measure 9]                          %! _comment_measure_numbers
@@ -7143,13 +7357,17 @@ B_ViolaMusicVoice = {                                                          %
         f'8                                                                    %! spazzolati_rhythm
         \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazz. }                                                   %! baca_markup:IndicatorCommand
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7159,14 +7377,18 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 106 / measure 10]                         %! _comment_measure_numbers
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7176,20 +7398,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 107 / measure 11]                         %! _comment_measure_numbers
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7199,20 +7427,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 108 / measure 12]                         %! _comment_measure_numbers
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7222,7 +7456,9 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 109 / measure 13]                         %! _comment_measure_numbers
@@ -7235,7 +7471,9 @@ B_ViolaMusicVoice = {                                                          %
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7245,20 +7483,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 110 / measure 14]                         %! _comment_measure_numbers
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7268,19 +7512,25 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 111 / measure 15]                         %! _comment_measure_numbers
@@ -7291,13 +7541,17 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7307,20 +7561,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 112 / measure 16]                         %! _comment_measure_numbers
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7330,20 +7590,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 113 / measure 17]                         %! _comment_measure_numbers
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7353,13 +7619,17 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 114 / measure 18]                         %! _comment_measure_numbers
@@ -7370,19 +7640,25 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7392,20 +7668,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 115 / measure 19]                         %! _comment_measure_numbers
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 116 / measure 20]                         %! _comment_measure_numbers
@@ -7416,13 +7698,17 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7432,20 +7718,26 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 117 / measure 21]                         %! _comment_measure_numbers
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7455,19 +7747,25 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [B ViolaMusicVoice measure 118 / measure 22]                         %! _comment_measure_numbers
@@ -7478,13 +7776,17 @@ B_ViolaMusicVoice = {                                                          %
 
         f'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         f'8                                                                    %! spazzolati_rhythm
@@ -7496,6 +7798,7 @@ B_ViolaMusicVoice = {                                                          %
         f'8                                                                    %! spazzolati_rhythm
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
 
     % [B ViolaMusicVoice measure 119 / measure 23]                             %! _comment_measure_numbers
@@ -7631,6 +7934,7 @@ B_ViolaMusicVoice = {                                                          %
     g2                                                                         %! jewelers_twilight_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 6/8 {                                                               %! clb_rhythm
 
@@ -7684,7 +7988,9 @@ B_ViolaMusicVoice = {                                                          %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 10/16 {                                                             %! clb_rhythm
 
@@ -7738,7 +8044,9 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -7794,6 +8102,7 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolaMusicVoice measure 154 / measure 58]                             %! _comment_measure_numbers
@@ -7810,6 +8119,7 @@ B_ViolaMusicVoice = {                                                          %
     d'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 12/16 {                                                             %! clb_rhythm
 
@@ -7863,7 +8173,9 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -7917,6 +8229,7 @@ B_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolaMusicVoice measure 159 / measure 63]                             %! _comment_measure_numbers
@@ -7939,6 +8252,7 @@ B_ViolaMusicVoice = {                                                          %
     d'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -7992,6 +8306,7 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolaMusicVoice measure 162 / measure 66]                             %! _comment_measure_numbers
@@ -8033,6 +8348,7 @@ B_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 8/12 {                                                              %! clb_rhythm
 
@@ -8074,7 +8390,9 @@ B_ViolaMusicVoice = {                                                          %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -8128,7 +8446,9 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 10/16 {                                                             %! clb_rhythm
 
@@ -8182,7 +8502,9 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 6/8 {                                                               %! clb_rhythm
 
@@ -8218,6 +8540,7 @@ B_ViolaMusicVoice = {                                                          %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B ViolaMusicVoice measure 170 / measure 74]                             %! _comment_measure_numbers
@@ -8271,6 +8594,7 @@ B_ViolaMusicVoice = {                                                          %
     b8                                                                         %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 10/14 {                                                             %! clb_rhythm
 
@@ -8318,7 +8642,9 @@ B_ViolaMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
@@ -8342,7 +8668,9 @@ B_ViolaMusicVoice = {                                                          %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/20 {                                                             %! clb_rhythm
 
@@ -8412,12 +8740,15 @@ B_ViolaMusicVoice = {                                                          %
         ]                                                                      %! clb_rhythm
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 B_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \B_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -8615,6 +8946,7 @@ B_CelloMusicVoice = {                                                          %
     % [B CelloMusicVoice measure 132 / measure 36]                             %! _comment_measure_numbers
     ef,!2                                                                      %! jewelers_twilight_rhythm
     \repeatTie
+
     \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
     \times 27/28 {                                                             %! baca_make_fused_tuplet_monads
 
@@ -8632,11 +8964,13 @@ B_CelloMusicVoice = {                                                          %
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! baca_make_fused_tuplet_monads
 
     % [B CelloMusicVoice measure 141 / measure 45]                             %! _comment_measure_numbers
     ff,!\breve.                                                                %! baca_make_fused_tuplet_monads
     \glissando                                                                 %! SpannerCommand
+
     \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
     \times 25/28 {                                                             %! baca_make_fused_tuplet_monads
 
@@ -8650,7 +8984,9 @@ B_CelloMusicVoice = {                                                          %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \glissando                                                             %! SpannerCommand
+
     }                                                                          %! baca_make_fused_tuplet_monads
+
     \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
     \times 11/16 {                                                             %! baca_make_fused_tuplet_monads
 
@@ -8661,7 +8997,9 @@ B_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         bs,,!8                                                                 %! baca_make_fused_tuplet_monads
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! baca_make_fused_tuplet_monads
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 20/22 {                                                             %! clb_rhythm
 
@@ -8757,7 +9095,9 @@ B_CelloMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 22/28 {                                                             %! clb_rhythm
 
@@ -8847,7 +9187,9 @@ B_CelloMusicVoice = {                                                          %
         d'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 20/22 {                                                             %! clb_rhythm
 
@@ -8920,6 +9262,7 @@ B_CelloMusicVoice = {                                                          %
         c'8                                                                    %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
 
     % [B CelloMusicVoice measure 166 / measure 70]                             %! _comment_measure_numbers
@@ -8974,6 +9317,7 @@ B_CelloMusicVoice = {                                                          %
     d'8                                                                        %! clb_rhythm
     - \staccato                                                                %! IndicatorCommand
     ]                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 22/26 {                                                             %! clb_rhythm
 
@@ -9063,7 +9407,9 @@ B_CelloMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/16 {                                                             %! clb_rhythm
 
@@ -9117,7 +9463,9 @@ B_CelloMusicVoice = {                                                          %
         b8                                                                     %! clb_rhythm
         - \staccato                                                            %! IndicatorCommand
         ]                                                                      %! clb_rhythm
+
     }                                                                          %! clb_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 14/20 {                                                             %! clb_rhythm
 
@@ -9213,10 +9561,13 @@ B_CelloMusicVoice = {                                                          %
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
 
     }                                                                          %! clb_rhythm
+
 }                                                                              %! extern
 
 
 B_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \B_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

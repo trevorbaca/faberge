@@ -314,6 +314,7 @@ E_FluteMusicVoice = {                                                          %
 
     % [E FluteMusicVoice measure 302 / measure 2]                              %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \times 4/5 {                                                               %! glow_rhythm
 
         % [E FluteMusicVoice measure 303 / measure 3]                          %! _comment_measure_numbers
@@ -334,7 +335,9 @@ E_FluteMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -356,6 +359,7 @@ E_FluteMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -367,6 +371,7 @@ E_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     ]                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -376,7 +381,9 @@ E_FluteMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -391,7 +398,9 @@ E_FluteMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8.                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -401,7 +410,9 @@ E_FluteMusicVoice = {                                                          %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         % [E FluteMusicVoice measure 304 / measure 4]                          %! _comment_measure_numbers
@@ -411,6 +422,7 @@ E_FluteMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -426,6 +438,7 @@ E_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
     ]                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -447,7 +460,9 @@ E_FluteMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -469,7 +484,9 @@ E_FluteMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -491,6 +508,7 @@ E_FluteMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -502,6 +520,7 @@ E_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     ]                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -510,6 +529,7 @@ E_FluteMusicVoice = {                                                          %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [E FluteMusicVoice measure 305 / measure 5]                              %! _comment_measure_numbers
@@ -567,8 +587,10 @@ E_FluteMusicVoice = {                                                          %
 
 
 E_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \E_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -606,6 +628,7 @@ E_EnglishHornMusicVoice = {                                                    %
 
     % [E EnglishHornMusicVoice measure 302 / measure 2]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [E EnglishHornMusicVoice measure 303 / measure 3]                    %! _comment_measure_numbers
@@ -624,7 +647,9 @@ E_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -642,19 +667,23 @@ E_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -666,14 +695,18 @@ E_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'8.                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [E EnglishHornMusicVoice measure 304 / measure 4]                    %! _comment_measure_numbers
@@ -681,6 +714,7 @@ E_EnglishHornMusicVoice = {                                                    %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'8                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -692,6 +726,7 @@ E_EnglishHornMusicVoice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -709,7 +744,9 @@ E_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -727,7 +764,9 @@ E_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -745,18 +784,21 @@ E_EnglishHornMusicVoice = {                                                    %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [E EnglishHornMusicVoice measure 305 / measure 5]                        %! _comment_measure_numbers
@@ -821,8 +863,10 @@ E_EnglishHornMusicVoice = {                                                    %
 
 
 E_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \E_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -856,6 +900,7 @@ E_ClarinetMusicVoice = {                                                       %
 
     % [E ClarinetMusicVoice measure 302 / measure 2]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+
     \times 4/5 {                                                               %! glow_rhythm
 
         % [E ClarinetMusicVoice measure 303 / measure 3]                       %! _comment_measure_numbers
@@ -876,7 +921,9 @@ E_ClarinetMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -898,6 +945,7 @@ E_ClarinetMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -909,6 +957,7 @@ E_ClarinetMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     ]                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -918,7 +967,9 @@ E_ClarinetMusicVoice = {                                                       %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -933,7 +984,9 @@ E_ClarinetMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8.                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -943,7 +996,9 @@ E_ClarinetMusicVoice = {                                                       %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         % [E ClarinetMusicVoice measure 304 / measure 4]                       %! _comment_measure_numbers
@@ -953,6 +1008,7 @@ E_ClarinetMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -968,6 +1024,7 @@ E_ClarinetMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
     ]                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -989,7 +1046,9 @@ E_ClarinetMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -1011,7 +1070,9 @@ E_ClarinetMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
+
     \times 4/5 {                                                               %! glow_rhythm
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
@@ -1033,6 +1094,7 @@ E_ClarinetMusicVoice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
@@ -1044,6 +1106,7 @@ E_ClarinetMusicVoice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     ]                                                                          %! glow_rhythm
+
     \times 2/3 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1052,6 +1115,7 @@ E_ClarinetMusicVoice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
+
     }                                                                          %! glow_rhythm
 
     % [E ClarinetMusicVoice measure 305 / measure 5]                           %! _comment_measure_numbers
@@ -1109,8 +1173,10 @@ E_ClarinetMusicVoice = {                                                       %
 
 
 E_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \E_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -1154,6 +1220,7 @@ E_PianoRHMusicVoice = {                                                        %
 
     % [E PianoRHMusicVoice measure 306 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1180,7 +1247,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1206,7 +1275,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1232,7 +1303,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1258,7 +1331,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1284,7 +1359,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1311,7 +1388,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1337,7 +1416,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1363,7 +1444,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1389,7 +1472,9 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/7 {                                                               %! meccanico_rhythm
 
@@ -1415,6 +1500,7 @@ E_PianoRHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
 
     % [E PianoRHMusicVoice measure 313 / measure 13]                           %! _comment_measure_numbers
@@ -1448,8 +1534,10 @@ E_PianoRHMusicVoice = {                                                        %
 
 
 E_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \E_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -1477,6 +1565,7 @@ E_PianoLHMusicVoice = {                                                        %
 
     % [E PianoLHMusicVoice measure 306 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1497,7 +1586,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1517,7 +1608,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1537,7 +1630,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1557,7 +1652,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1577,7 +1674,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1598,7 +1697,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1618,7 +1719,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1638,7 +1741,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1658,7 +1763,9 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -1678,6 +1785,7 @@ E_PianoLHMusicVoice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
 
     % [E PianoLHMusicVoice measure 313 / measure 13]                           %! _comment_measure_numbers
@@ -1781,10 +1889,13 @@ E_PianoLHAttackVoice = {                                                       %
 
 
 E_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \E_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \E_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -1930,8 +2041,10 @@ E_PercussionMusicVoice = {                                                     %
 
 
 E_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \E_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -1986,6 +2099,7 @@ E_ViolinMusicVoice = {                                                         %
 
     % [E ViolinMusicVoice measure 306 / measure 6]                             %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         % [E ViolinMusicVoice measure 307 / measure 7]                         %! _comment_measure_numbers
@@ -2011,7 +2125,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2036,7 +2152,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2061,7 +2179,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2086,7 +2206,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2111,7 +2233,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         % [E ViolinMusicVoice measure 309 / measure 9]                         %! _comment_measure_numbers
@@ -2137,7 +2261,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2162,7 +2288,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2187,7 +2315,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2212,7 +2342,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2237,7 +2369,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         % [E ViolinMusicVoice measure 311 / measure 11]                        %! _comment_measure_numbers
@@ -2263,7 +2397,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2288,7 +2424,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2313,7 +2451,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2338,7 +2478,9 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \times 4/7 {                                                               %! meccanico_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -2363,6 +2505,7 @@ E_ViolinMusicVoice = {                                                         %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
 
     % [E ViolinMusicVoice measure 313 / measure 13]                            %! _comment_measure_numbers
@@ -2400,8 +2543,10 @@ E_ViolinMusicVoice = {                                                         %
 
 
 E_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \E_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -2581,8 +2726,10 @@ E_ViolaMusicVoice = {                                                          %
 
 
 E_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \E_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2637,6 +2784,7 @@ E_CelloMusicVoice = {                                                          %
 
     % [E CelloMusicVoice measure 306 / measure 6]                              %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2672,7 +2820,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2707,7 +2857,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2742,7 +2894,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2777,7 +2931,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2812,7 +2968,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2848,7 +3006,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2883,7 +3043,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2918,7 +3080,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2953,7 +3117,9 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! meccanico_rhythm
     \times 6/5 {                                                               %! meccanico_rhythm
 
@@ -2988,6 +3154,7 @@ E_CelloMusicVoice = {                                                          %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'16                                                                   %! meccanico_rhythm
         ]                                                                      %! meccanico_rhythm
+
     }                                                                          %! meccanico_rhythm
 
     % [E CelloMusicVoice measure 313 / measure 13]                             %! _comment_measure_numbers
@@ -3025,6 +3192,8 @@ E_CelloMusicVoice = {                                                          %
 
 
 E_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \E_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern

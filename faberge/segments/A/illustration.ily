@@ -1238,6 +1238,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r1
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1254,6 +1255,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 8 / measure 4]                                %! _comment_measure_numbers
@@ -1272,6 +1274,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -1288,6 +1291,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 11 / measure 7]                               %! _comment_measure_numbers
@@ -1331,6 +1335,7 @@ A_FluteMusicVoice = {                                                          %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
     r8                                                                         %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -1345,6 +1350,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 15 / measure 11]                              %! _comment_measure_numbers
@@ -1366,6 +1372,7 @@ A_FluteMusicVoice = {                                                          %
 
     % [A FluteMusicVoice measure 17 / measure 13]                              %! _comment_measure_numbers
     r2.
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1382,6 +1389,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 19 / measure 15]                              %! _comment_measure_numbers
@@ -1462,6 +1470,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1478,6 +1487,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 25 / measure 21]                              %! _comment_measure_numbers
@@ -1499,6 +1509,7 @@ A_FluteMusicVoice = {                                                          %
 
     % [A FluteMusicVoice measure 27 / measure 23]                              %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -1515,6 +1526,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 29 / measure 25]                              %! _comment_measure_numbers
@@ -1551,6 +1563,7 @@ A_FluteMusicVoice = {                                                          %
     - \tweak color #'DeepPink1                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1569,7 +1582,9 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -1586,6 +1601,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 33 / measure 29]                              %! _comment_measure_numbers
@@ -1593,6 +1609,7 @@ A_FluteMusicVoice = {                                                          %
 
     % [A FluteMusicVoice measure 34 / measure 30]                              %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -1607,6 +1624,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 36 / measure 32]                              %! _comment_measure_numbers
@@ -1636,6 +1654,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -1648,7 +1667,9 @@ A_FluteMusicVoice = {                                                          %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1674,6 +1695,7 @@ A_FluteMusicVoice = {                                                          %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 40 / measure 36]                              %! _comment_measure_numbers
@@ -1694,6 +1716,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1712,6 +1735,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 43 / measure 39]                              %! _comment_measure_numbers
@@ -1730,6 +1754,7 @@ A_FluteMusicVoice = {                                                          %
 
     % [A FluteMusicVoice measure 44 / measure 40]                              %! _comment_measure_numbers
     r1
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -1751,6 +1776,7 @@ A_FluteMusicVoice = {                                                          %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 46 / measure 42]                              %! _comment_measure_numbers
@@ -1787,6 +1813,7 @@ A_FluteMusicVoice = {                                                          %
     - \tweak color #'DeepPink1                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1805,6 +1832,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 49 / measure 45]                              %! _comment_measure_numbers
@@ -1844,6 +1872,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r2.
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -1858,6 +1887,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 53 / measure 49]                              %! _comment_measure_numbers
@@ -1898,6 +1928,7 @@ A_FluteMusicVoice = {                                                          %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
     r8                                                                         %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -1925,6 +1956,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 56 / measure 52]                              %! _comment_measure_numbers
@@ -1955,6 +1987,7 @@ A_FluteMusicVoice = {                                                          %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r2
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -1969,6 +2002,7 @@ A_FluteMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A FluteMusicVoice measure 60 / measure 56]                              %! _comment_measure_numbers
@@ -2137,6 +2171,7 @@ A_FluteMusicVoice = {                                                          %
     fs''!2.                                                                    %! glow_rhythm
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
     \repeatTie
+
     \times 2/3 {                                                               %! glow_rhythm
 
         fs''!4                                                                 %! glow_rhythm
@@ -2150,6 +2185,7 @@ A_FluteMusicVoice = {                                                          %
                     \finger
                         1
             }
+
     }                                                                          %! glow_rhythm
 
     % [A FluteMusicVoice measure 95 / measure 91]                              %! _comment_measure_numbers
@@ -2200,8 +2236,10 @@ A_FluteMusicVoice = {                                                          %
 
 
 A_FluteMusicStaff = {                                                          %! extern
+
     \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
     \A_FluteMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -2602,6 +2640,7 @@ A_EnglishHornMusicVoice = {                                                    %
 
     % [A EnglishHornMusicVoice measure 85 / measure 81]                        %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2624,32 +2663,39 @@ A_EnglishHornMusicVoice = {                                                    %
 
         cs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [A EnglishHornMusicVoice measure 86 / measure 82]                        %! _comment_measure_numbers
     r8                                                                         %! keynoise_rhythm
 
     ef'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         e'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [A EnglishHornMusicVoice measure 87 / measure 83]                    %! _comment_measure_numbers
         r16                                                                    %! keynoise_rhythm
 
         eqs'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         gs'!8                                                                  %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -2659,6 +2705,7 @@ A_EnglishHornMusicVoice = {                                                    %
 
     bf'!16                                                                     %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2672,10 +2719,12 @@ A_EnglishHornMusicVoice = {                                                    %
 
         e'16                                                                   %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [A EnglishHornMusicVoice measure 88 / measure 84]                        %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2689,32 +2738,39 @@ A_EnglishHornMusicVoice = {                                                    %
 
         bf'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [A EnglishHornMusicVoice measure 89 / measure 85]                        %! _comment_measure_numbers
     r8                                                                         %! keynoise_rhythm
 
     cs'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r8                                                                     %! keynoise_rhythm
 
         fqs'!4                                                                 %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         % [A EnglishHornMusicVoice measure 90 / measure 86]                    %! _comment_measure_numbers
         r16                                                                    %! keynoise_rhythm
 
         f'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         d'8                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
@@ -2724,6 +2780,7 @@ A_EnglishHornMusicVoice = {                                                    %
 
     a'16                                                                       %! keynoise_rhythm
     ]                                                                          %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2737,10 +2794,12 @@ A_EnglishHornMusicVoice = {                                                    %
 
         cs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     % [A EnglishHornMusicVoice measure 91 / measure 87]                        %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
@@ -2754,32 +2813,39 @@ A_EnglishHornMusicVoice = {                                                    %
 
         eqs'!16                                                                %! keynoise_rhythm
         ]                                                                      %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r8                                                                         %! keynoise_rhythm
 
     ef'!8                                                                      %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         % [A EnglishHornMusicVoice measure 92 / measure 88]                    %! _comment_measure_numbers
         r8                                                                     %! keynoise_rhythm
 
         f'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
 
     r4                                                                         %! keynoise_rhythm
+
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         d'4                                                                    %! keynoise_rhythm
+
     }                                                                          %! keynoise_rhythm
+
     \times 2/3 {                                                               %! keynoise_rhythm
 
         r4                                                                     %! keynoise_rhythm
 
         cs'!8                                                                  %! keynoise_rhythm
         \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
+
     }                                                                          %! keynoise_rhythm
 
     % [A EnglishHornMusicVoice measure 93 / measure 89]                        %! _comment_measure_numbers
@@ -2828,8 +2894,10 @@ A_EnglishHornMusicVoice = {                                                    %
 
 
 A_EnglishHornMusicStaff = {                                                    %! extern
+
     \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
     \A_EnglishHornMusicVoice                                                   %! extern
+
 }                                                                              %! extern
 
 
@@ -2895,6 +2963,7 @@ A_ClarinetMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -2911,6 +2980,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 8 / measure 4]                             %! _comment_measure_numbers
@@ -2918,6 +2988,7 @@ A_ClarinetMusicVoice = {                                                       %
 
     % [A ClarinetMusicVoice measure 9 / measure 5]                             %! _comment_measure_numbers
     r2.
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -2932,7 +3003,9 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -2949,6 +3022,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 12 / measure 8]                            %! _comment_measure_numbers
@@ -2976,6 +3050,7 @@ A_ClarinetMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r2                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -2992,6 +3067,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 15 / measure 11]                           %! _comment_measure_numbers
@@ -3012,6 +3088,7 @@ A_ClarinetMusicVoice = {                                                       %
 
     % [A ClarinetMusicVoice measure 16 / measure 12]                           %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -3026,7 +3103,9 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -3039,6 +3118,7 @@ A_ClarinetMusicVoice = {                                                       %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 19 / measure 15]                           %! _comment_measure_numbers
@@ -3072,6 +3152,7 @@ A_ClarinetMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -3088,6 +3169,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 22 / measure 18]                           %! _comment_measure_numbers
@@ -3124,6 +3206,7 @@ A_ClarinetMusicVoice = {                                                       %
     - \tweak color #'DeepPink1                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -3138,7 +3221,9 @@ A_ClarinetMusicVoice = {                                                       %
         - \tweak color #'DeepPink1                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -3157,6 +3242,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 26 / measure 22]                           %! _comment_measure_numbers
@@ -3204,6 +3290,7 @@ A_ClarinetMusicVoice = {                                                       %
 
     % [A ClarinetMusicVoice measure 30 / measure 26]                           %! _comment_measure_numbers
     r1
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -3231,7 +3318,9 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -3248,6 +3337,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 33 / measure 29]                           %! _comment_measure_numbers
@@ -3266,6 +3356,7 @@ A_ClarinetMusicVoice = {                                                       %
 
     % [A ClarinetMusicVoice measure 34 / measure 30]                           %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -3282,6 +3373,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 36 / measure 32]                           %! _comment_measure_numbers
@@ -3300,6 +3392,7 @@ A_ClarinetMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -3314,7 +3407,9 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -3331,6 +3426,7 @@ A_ClarinetMusicVoice = {                                                       %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 40 / measure 36]                           %! _comment_measure_numbers
@@ -3360,6 +3456,7 @@ A_ClarinetMusicVoice = {                                                       %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -3385,6 +3482,7 @@ A_ClarinetMusicVoice = {                                                       %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ClarinetMusicVoice measure 43 / measure 39]                           %! _comment_measure_numbers
@@ -3829,8 +3927,10 @@ A_ClarinetMusicVoice = {                                                       %
 
 
 A_ClarinetMusicStaff = {                                                       %! extern
+
     \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
     \A_ClarinetMusicVoice                                                      %! extern
+
 }                                                                              %! extern
 
 
@@ -4236,8 +4336,10 @@ A_PianoRHMusicVoice = {                                                        %
 
 
 A_PianoRHMusicStaff = {                                                        %! extern
+
     \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
     \A_PianoRHMusicVoice                                                       %! extern
+
 }                                                                              %! extern
 
 
@@ -4912,10 +5014,13 @@ A_PianoLHAttackVoice = {                                                       %
 
 
 A_PianoLHMusicStaff = <<                                                       %! extern
+
     \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
     \A_PianoLHMusicVoice                                                       %! extern
+
     \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
     \A_PianoLHAttackVoice                                                      %! extern
+
 >>                                                                             %! extern
 
 
@@ -4965,6 +5070,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 6 / measure 2]                           %! _comment_measure_numbers
     r1
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -4980,6 +5086,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2.                                                                    %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 8 / measure 4]                           %! _comment_measure_numbers
@@ -5012,6 +5119,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 10 / measure 6]                          %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5029,6 +5137,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 12 / measure 8]                          %! _comment_measure_numbers
@@ -5079,6 +5188,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4.                                                                        %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5092,7 +5202,9 @@ A_PercussionMusicVoice = {                                                     %
         - \tweak color #'DeepPink1                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5112,6 +5224,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 19 / measure 15]                         %! _comment_measure_numbers
@@ -5143,6 +5256,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r2.                                                                        %! shell_exchange_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5156,6 +5270,7 @@ A_PercussionMusicVoice = {                                                     %
         - \tweak color #blue                                                   %! _treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 22 / measure 18]                         %! _comment_measure_numbers
@@ -5165,6 +5280,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 23 / measure 19]                         %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5182,7 +5298,9 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2                                                                     %! shell_exchange_rhythm
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5202,6 +5320,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 26 / measure 22]                         %! _comment_measure_numbers
@@ -5264,6 +5383,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5277,6 +5397,7 @@ A_PercussionMusicVoice = {                                                     %
         - \tweak color #'DeepPink1                                             %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 32 / measure 28]                         %! _comment_measure_numbers
@@ -5332,6 +5453,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 37 / measure 33]                         %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5349,7 +5471,9 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5365,6 +5489,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r2.                                                                    %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 40 / measure 36]                         %! _comment_measure_numbers
@@ -5417,6 +5542,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5434,6 +5560,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 46 / measure 42]                         %! _comment_measure_numbers
@@ -5463,6 +5590,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5480,6 +5608,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 49 / measure 45]                         %! _comment_measure_numbers
@@ -5511,6 +5640,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5528,6 +5658,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 52 / measure 48]                         %! _comment_measure_numbers
@@ -5572,6 +5703,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5589,6 +5721,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 56 / measure 52]                         %! _comment_measure_numbers
@@ -5621,6 +5754,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 58 / measure 54]                         %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5638,6 +5772,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 60 / measure 56]                         %! _comment_measure_numbers
@@ -5666,6 +5801,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5691,6 +5827,7 @@ A_PercussionMusicVoice = {                                                     %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 62 / measure 58]                         %! _comment_measure_numbers
@@ -5749,6 +5886,7 @@ A_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5766,6 +5904,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 66 / measure 62]                         %! _comment_measure_numbers
@@ -5818,6 +5957,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 74 / measure 70]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -5835,7 +5975,9 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -5853,6 +5995,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 77 / measure 73]                         %! _comment_measure_numbers
@@ -5912,6 +6055,7 @@ A_PercussionMusicVoice = {                                                     %
     - \tweak color #'DeepPink1                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -5931,6 +6075,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 80 / measure 76]                         %! _comment_measure_numbers
@@ -5975,6 +6120,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 82 / measure 78]                         %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6000,6 +6146,7 @@ A_PercussionMusicVoice = {                                                     %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 84 / measure 80]                         %! _comment_measure_numbers
@@ -6090,6 +6237,7 @@ A_PercussionMusicVoice = {                                                     %
 
     % [A PercussionMusicVoice measure 92 / measure 88]                         %! _comment_measure_numbers
     r1                                                                         %! front_incised_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6130,7 +6278,9 @@ A_PercussionMusicVoice = {                                                     %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6150,6 +6300,7 @@ A_PercussionMusicVoice = {                                                     %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A PercussionMusicVoice measure 95 / measure 91]                         %! _comment_measure_numbers
@@ -6208,8 +6359,10 @@ A_PercussionMusicVoice = {                                                     %
 
 
 A_PercussionMusicStaff = {                                                     %! extern
+
     \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
     \A_PercussionMusicVoice                                                    %! extern
+
 }                                                                              %! extern
 
 
@@ -6273,6 +6426,7 @@ A_ViolinMusicVoice = {                                                         %
     - \tweak color #'DeepPink1                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     \<                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6287,6 +6441,7 @@ A_ViolinMusicVoice = {                                                         %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 8 / measure 4]                               %! _comment_measure_numbers
@@ -6310,6 +6465,7 @@ A_ViolinMusicVoice = {                                                         %
 
     % [A ViolinMusicVoice measure 10 / measure 6]                              %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6326,6 +6482,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 12 / measure 8]                              %! _comment_measure_numbers
@@ -6344,6 +6501,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -6356,6 +6514,7 @@ A_ViolinMusicVoice = {                                                         %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 15 / measure 11]                             %! _comment_measure_numbers
@@ -6378,6 +6537,7 @@ A_ViolinMusicVoice = {                                                         %
 
     % [A ViolinMusicVoice measure 16 / measure 12]                             %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6394,7 +6554,9 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6413,6 +6575,7 @@ A_ViolinMusicVoice = {                                                         %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r8                                                                     %! shell_exchange_rhythm
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 19 / measure 15]                             %! _comment_measure_numbers
@@ -6431,6 +6594,7 @@ A_ViolinMusicVoice = {                                                         %
 
     % [A ViolinMusicVoice measure 20 / measure 16]                             %! _comment_measure_numbers
     r1
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6447,6 +6611,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 22 / measure 18]                             %! _comment_measure_numbers
@@ -6476,6 +6641,7 @@ A_ViolinMusicVoice = {                                                         %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
     r4                                                                         %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6494,7 +6660,9 @@ A_ViolinMusicVoice = {                                                         %
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r8                                                                     %! shell_exchange_rhythm
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6520,6 +6688,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 26 / measure 22]                             %! _comment_measure_numbers
@@ -6567,6 +6736,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r1
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6585,7 +6755,9 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6602,6 +6774,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 33 / measure 29]                             %! _comment_measure_numbers
@@ -6649,6 +6822,7 @@ A_ViolinMusicVoice = {                                                         %
 
     % [A ViolinMusicVoice measure 37 / measure 33]                             %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6665,6 +6839,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 39 / measure 35]                             %! _comment_measure_numbers
@@ -6684,6 +6859,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r2.
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6713,6 +6889,7 @@ A_ViolinMusicVoice = {                                                         %
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
 
         r4                                                                     %! shell_exchange_rhythm
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 43 / measure 39]                             %! _comment_measure_numbers
@@ -6753,6 +6930,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6769,6 +6947,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4.                                                                    %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 46 / measure 42]                             %! _comment_measure_numbers
@@ -6796,6 +6975,7 @@ A_ViolinMusicVoice = {                                                         %
 
     % [A ViolinMusicVoice measure 47 / measure 43]                             %! _comment_measure_numbers
     r2
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -6821,6 +7001,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 49 / measure 45]                             %! _comment_measure_numbers
@@ -6851,6 +7032,7 @@ A_ViolinMusicVoice = {                                                         %
 
     % [A ViolinMusicVoice measure 51 / measure 47]                             %! _comment_measure_numbers
     r2.
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -6867,6 +7049,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 53 / measure 49]                             %! _comment_measure_numbers
@@ -6938,6 +7121,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -6950,7 +7134,9 @@ A_ViolinMusicVoice = {                                                         %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -6969,6 +7155,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 60 / measure 56]                             %! _comment_measure_numbers
@@ -6986,6 +7173,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -7011,7 +7199,9 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -7026,6 +7216,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 63 / measure 59]                             %! _comment_measure_numbers
@@ -7064,6 +7255,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4.                                                                        %! shell_exchange_rhythm
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -7089,6 +7281,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 66 / measure 62]                             %! _comment_measure_numbers
@@ -7273,6 +7466,7 @@ A_ViolinMusicVoice = {                                                         %
 
     e'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -7288,7 +7482,9 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -7314,6 +7510,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 77 / measure 73]                             %! _comment_measure_numbers
@@ -7363,6 +7560,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r8                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -7386,6 +7584,7 @@ A_ViolinMusicVoice = {                                                         %
         - \tweak color #'DeepPink1                                             %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         \<                                                                     %! REDUNDANT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 80 / measure 76]                             %! _comment_measure_numbers
@@ -7417,6 +7616,7 @@ A_ViolinMusicVoice = {                                                         %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     r4                                                                         %! shell_exchange_rhythm
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
 
@@ -7433,7 +7633,9 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -7450,6 +7652,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 84 / measure 80]                             %! _comment_measure_numbers
@@ -7620,6 +7823,7 @@ A_ViolinMusicVoice = {                                                         %
 
     e'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
 
@@ -7646,7 +7850,9 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r8                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
+
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 8/7 {                                                               %! shell_exchange_rhythm
 
@@ -7672,6 +7878,7 @@ A_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         r4                                                                     %! shell_exchange_rhythm
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+
     }                                                                          %! shell_exchange_rhythm
 
     % [A ViolinMusicVoice measure 95 / measure 91]                             %! _comment_measure_numbers
@@ -7726,8 +7933,10 @@ A_ViolinMusicVoice = {                                                         %
 
 
 A_ViolinMusicStaff = {                                                         %! extern
+
     \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
     \A_ViolinMusicVoice                                                        %! extern
+
 }                                                                              %! extern
 
 
@@ -8126,6 +8335,7 @@ A_ViolaMusicVoice = {                                                          %
     d1                                                                         %! jewelers_twilight_rhythm
     :32                                                                        %! IndicatorCommand
     \repeatTie
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 67 / measure 63]                          %! _comment_measure_numbers
@@ -8136,13 +8346,17 @@ A_ViolaMusicVoice = {                                                          %
         e'8                                                                    %! spazzolati_rhythm
         \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazz. }                                                   %! baca_markup:IndicatorCommand
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8152,14 +8366,18 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 68 / measure 64]                          %! _comment_measure_numbers
         r4                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8169,19 +8387,25 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 69 / measure 65]                          %! _comment_measure_numbers
@@ -8192,12 +8416,15 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
 
     r4                                                                         %! spazzolati_rhythm
@@ -8210,6 +8437,7 @@ A_ViolaMusicVoice = {                                                          %
 
     % [A ViolaMusicVoice measure 72 / measure 68]                              %! _comment_measure_numbers
     r1                                                                         %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 73 / measure 69]                          %! _comment_measure_numbers
@@ -8220,19 +8448,25 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8242,20 +8476,26 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 74 / measure 70]                          %! _comment_measure_numbers
         r4                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8265,6 +8505,7 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
 
     % [A ViolaMusicVoice measure 75 / measure 71]                              %! _comment_measure_numbers
@@ -8330,6 +8571,7 @@ A_ViolaMusicVoice = {                                                          %
     :32                                                                        %! IndicatorCommand
     \repeatTie
     \stopTextSpan                                                              %! PiecewiseIndicatorCommand(2)
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 85 / measure 81]                          %! _comment_measure_numbers
@@ -8343,7 +8585,9 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
@@ -8353,14 +8597,18 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 86 / measure 82]                          %! _comment_measure_numbers
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8370,13 +8618,17 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 87 / measure 83]                          %! _comment_measure_numbers
@@ -8387,7 +8639,9 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
@@ -8397,6 +8651,7 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
 
     r2                                                                         %! spazzolati_rhythm
@@ -8412,6 +8667,7 @@ A_ViolaMusicVoice = {                                                          %
 
     % [A ViolaMusicVoice measure 91 / measure 87]                              %! _comment_measure_numbers
     r4                                                                         %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8421,13 +8677,17 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         % [A ViolaMusicVoice measure 92 / measure 88]                          %! _comment_measure_numbers
@@ -8438,7 +8698,9 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
@@ -8448,13 +8710,17 @@ A_ViolaMusicVoice = {                                                          %
 
         e'8                                                                    %! spazzolati_rhythm
         ]                                                                      %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
 
         r4                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
+
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
@@ -8464,6 +8730,7 @@ A_ViolaMusicVoice = {                                                          %
         ]                                                                      %! spazzolati_rhythm
 
         r8                                                                     %! spazzolati_rhythm
+
     }                                                                          %! spazzolati_rhythm
 
     % [A ViolaMusicVoice measure 93 / measure 89]                              %! _comment_measure_numbers
@@ -8501,8 +8768,10 @@ A_ViolaMusicVoice = {                                                          %
 
 
 A_ViolaMusicStaff = {                                                          %! extern
+
     \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
     \A_ViolaMusicVoice                                                         %! extern
+
 }                                                                              %! extern
 
 
@@ -8962,6 +9231,8 @@ A_CelloMusicVoice = {                                                          %
 
 
 A_CelloMusicStaff = {                                                          %! extern
+
     \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
     \A_CelloMusicVoice                                                         %! extern
+
 }                                                                              %! extern
