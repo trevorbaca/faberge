@@ -529,7 +529,7 @@ maker(
 maker(
     ('eh', (81, 88)),
     baca.note_head_style_cross(),
-    baca.dynamic("ff"),
+    baca.dynamic('"ff"'),
     baca.markup('keynoise', boxed=True),
     faberge.keynoise_pitches(rotation=0)
     )

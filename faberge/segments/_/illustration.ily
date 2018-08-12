@@ -485,7 +485,7 @@ i_ViolinMusicVoice = {                                                         %
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     e'16                                                                       %! spazzolati_rhythm
-    \baca_effort_f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { spazzolato }                                                   %! baca_markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vn.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -582,7 +582,7 @@ i_ViolaMusicVoice = {                                                          %
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e'8                                                                    %! spazzolati_rhythm
-        \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazzolato }                                               %! baca_markup:IndicatorCommand
 
     }                                                                          %! spazzolati_rhythm

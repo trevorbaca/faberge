@@ -2815,7 +2815,7 @@ B_EnglishHornMusicVoice = {                                                    %
         \override NoteHead.style = #'cross                                     %! baca_note_head_style_cross:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         ef'!16                                                                 %! keynoise_rhythm
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         [                                                                      %! keynoise_rhythm
 
         e'16                                                                   %! keynoise_rhythm
@@ -3159,7 +3159,7 @@ B_EnglishHornMusicVoice = {                                                    %
     \override NoteHead.style = #'cross                                         %! baca_note_head_style_cross:OverrideCommand(1)
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gs'!8                                                                      %! keynoise_rhythm
-    \baca_effort_ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
 
     \times 2/3 {                                                               %! keynoise_rhythm
 
@@ -3448,7 +3448,7 @@ B_EnglishHornMusicVoice = {                                                    %
         \override NoteHead.style = #'cross                                     %! baca_note_head_style_cross:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         eqs'!16                                                                %! keynoise_rhythm
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         [                                                                      %! keynoise_rhythm
 
         ef'!16                                                                 %! keynoise_rhythm
@@ -3646,7 +3646,7 @@ B_EnglishHornMusicVoice = {                                                    %
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     gs'!16                                                                     %! keynoise_rhythm
-    \baca_effort_ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -3890,7 +3890,7 @@ B_EnglishHornMusicVoice = {                                                    %
     % [B EnglishHornMusicVoice measure 165 / measure 69]                       %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
-    \baca_effort_mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { airtone }                                                      %! baca_markup:IndicatorCommand
 
     % [B EnglishHornMusicVoice measure 166 / measure 70]                       %! _comment_measure_numbers
@@ -5834,7 +5834,7 @@ B_PercussionMusicVoice = {                                                     %
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b1                                                                         %! baca_make_repeat_tied_notes
-    \baca_effort_mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
@@ -5961,7 +5961,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 105 / measure 9]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'16                                                                       %! spazzolati_rhythm
-    \baca_effort_ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { spazz. }                                                       %! baca_markup:IndicatorCommand
     [                                                                          %! spazzolati_rhythm
 
@@ -6068,7 +6068,7 @@ B_ViolinMusicVoice = {                                                         %
     % [B ViolinMusicVoice measure 109 / measure 13]                            %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     f'16                                                                       %! spazzolati_rhythm
-    \baca_effort_ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak color #blue                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -6541,7 +6541,7 @@ B_ViolinMusicVoice = {                                                         %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         c'8                                                                    %! clb_rhythm
-        \baca_effort_p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \baca-effort-p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \staccato                                                            %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
@@ -6669,7 +6669,7 @@ B_ViolinMusicVoice = {                                                         %
         % [B ViolinMusicVoice measure 153 / measure 57]                        %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8                                                                    %! clb_rhythm
-        \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         - \staccato                                                            %! IndicatorCommand
         [                                                                      %! clb_rhythm
 
@@ -7012,7 +7012,7 @@ B_ViolinMusicVoice = {                                                         %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \once \override Voice.DynamicText.color = #(x11-color 'DeepPink1)          %! REDUNDANT_DYNAMIC_COLOR:_attach_color_literal(2)
     c'1                                                                        %! baca_make_repeat_tied_notes
-    \baca_effort_mf                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-mf                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
             #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
@@ -7042,7 +7042,7 @@ B_ViolinMusicVoice = {                                                         %
         % [B ViolinMusicVoice measure 169 / measure 73]                        %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8                                                                    %! clb_rhythm
-        \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \staccato                                                            %! IndicatorCommand
         ^ \markup { "col legno battuto" }                                      %! baca_markup:IndicatorCommand
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -7355,7 +7355,7 @@ B_ViolaMusicVoice = {                                                          %
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         f'8                                                                    %! spazzolati_rhythm
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazz. }                                                   %! baca_markup:IndicatorCommand
 
     }                                                                          %! spazzolati_rhythm
@@ -7466,7 +7466,7 @@ B_ViolaMusicVoice = {                                                          %
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         f'8                                                                    %! spazzolati_rhythm
-        \baca_effort_ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -7949,7 +7949,7 @@ B_ViolaMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         b8                                                                     %! clb_rhythm
-        \baca_effort_p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \baca-effort-p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \staccato                                                            %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
@@ -8084,7 +8084,7 @@ B_ViolaMusicVoice = {                                                          %
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         c'8                                                                    %! clb_rhythm
-        \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
+        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(2)
         - \staccato                                                            %! IndicatorCommand
 
         c'8                                                                    %! clb_rhythm
@@ -8511,7 +8511,7 @@ B_ViolaMusicVoice = {                                                          %
         % [B ViolaMusicVoice measure 169 / measure 73]                         %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         d'8                                                                    %! clb_rhythm
-        \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \staccato                                                            %! IndicatorCommand
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
@@ -9016,7 +9016,7 @@ B_CelloMusicVoice = {                                                          %
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         d'8                                                                    %! clb_rhythm
-        \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         - \staccato                                                            %! IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
@@ -9324,7 +9324,7 @@ B_CelloMusicVoice = {                                                          %
         % [B CelloMusicVoice measure 169 / measure 73]                         %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         d'8                                                                    %! clb_rhythm
-        \baca_effort_mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
+        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \staccato                                                            %! IndicatorCommand
         - \tweak color #blue                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:PiecewiseIndicatorCommand(1)
