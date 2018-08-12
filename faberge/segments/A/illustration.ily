@@ -2648,7 +2648,7 @@ A_EnglishHornMusicVoice = {                                                    %
         \override NoteHead.style = #'cross                                     %! baca_note_head_style_cross:OverrideCommand(1)
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         fqs'!16                                                                %! keynoise_rhythm
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
                 #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
@@ -6382,7 +6382,7 @@ A_ViolinMusicVoice = {                                                         %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Voice.DynamicText.color = #(x11-color 'green4)             %! REAPPLIED_DYNAMIC_COLOR:_attach_color_literal(2)
     r4.                                                                        %! shell_exchange_rhythm
-    \baca_effort_f                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    \baca-effort-f                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -7303,7 +7303,7 @@ A_ViolinMusicVoice = {                                                         %
     % [A ViolinMusicVoice measure 67 / measure 63]                             %! _comment_measure_numbers
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     e'16                                                                       %! spazzolati_rhythm
-    \baca_effort_f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { spazz. }                                                       %! baca_markup:IndicatorCommand
     [                                                                          %! spazzolati_rhythm
 
@@ -7694,7 +7694,7 @@ A_ViolinMusicVoice = {                                                         %
 
     \once \override Voice.DynamicText.color = #(x11-color 'blue)               %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
     e'16                                                                       %! spazzolati_rhythm
-    \baca_effort_f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
     ^ \markup { spazz. }                                                       %! baca_markup:IndicatorCommand
     [                                                                          %! spazzolati_rhythm
 
@@ -8344,7 +8344,7 @@ A_ViolaMusicVoice = {                                                          %
 
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e'8                                                                    %! spazzolati_rhythm
-        \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazz. }                                                   %! baca_markup:IndicatorCommand
 
     }                                                                          %! spazzolati_rhythm
@@ -8577,7 +8577,7 @@ A_ViolaMusicVoice = {                                                          %
         % [A ViolaMusicVoice measure 85 / measure 81]                          %! _comment_measure_numbers
         \once \override Voice.DynamicText.color = #(x11-color 'blue)           %! EXPLICIT_DYNAMIC_COLOR:_attach_color_literal(2)
         e'8                                                                    %! spazzolati_rhythm
-        \baca_effort_f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+        \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
         ^ \markup { spazz }                                                    %! baca_markup:IndicatorCommand
         [                                                                      %! spazzolati_rhythm
 
