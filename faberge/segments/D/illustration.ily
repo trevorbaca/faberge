@@ -88,7 +88,7 @@ D_GlobalSkips = {                                                              %
 
     % [D GlobalSkips measure 274 / measure 1]                                  %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
-    \mark #4                                                                   %! IndicatorCommand
+    \mark #4                                                                   %! baca_rehearsal_mark:IndicatorCommand
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -1232,7 +1232,7 @@ D_PianoLHAttackVoice = {                                                       %
     ds,!16                                                                     %! piano_attack_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \marcato                                                                 %! IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
 
     s1                                                                         %! piano_attack_rhythm
 
@@ -1254,7 +1254,7 @@ D_PianoLHAttackVoice = {                                                       %
     ds,!16                                                                     %! piano_attack_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \marcato                                                                 %! IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
 
     s2                                                                         %! piano_attack_rhythm
 
@@ -1416,7 +1416,7 @@ D_PercussionMusicVoice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     % [D PercussionMusicVoice measure 294 / measure 21]                        %! _comment_measure_numbers
     r1.                                                                        %! airtone_chain_rhythm
@@ -1426,11 +1426,11 @@ D_PercussionMusicVoice = {                                                     %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    :32                                                                        %! IndicatorCommand
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [D PercussionMusicVoice measure 296 / measure 23]                        %! _comment_measure_numbers
