@@ -1230,8 +1230,8 @@ D_PianoLHAttackVoice = {                                                       %
 
     % [D PianoLHAttackVoice measure 280 / measure 7]                           %! _comment_measure_numbers
     ds,!16                                                                     %! piano_attack_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
 
     s1                                                                         %! piano_attack_rhythm
@@ -1252,8 +1252,8 @@ D_PianoLHAttackVoice = {                                                       %
 
     % [D PianoLHAttackVoice measure 285 / measure 12]                          %! _comment_measure_numbers
     ds,!16                                                                     %! piano_attack_rhythm
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
-    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1) %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \marcato                                                                 %! IndicatorCommand
 
     s2                                                                         %! piano_attack_rhythm
