@@ -1227,7 +1227,7 @@ Abjad format time: 2 seconds
 LilyPond runtime: 6 seconds
 BACA REPO   50c856cb
             Integrating abjad.Tag.
-skip_wellformedness_check=True
+do_not_check_wellformedness=True
 
 2018-02-10 15:01:53
 Segment-maker runtime: 103 seconds
@@ -1349,7 +1349,7 @@ ABJAD REPO  eeb7fc1d0c
             Fixed WellformednessManager.check_mispitched_ties(),.
             Sat Feb 10 16:14:23
             ... with RhythmMaker._check_wellformedness() commented-out.
-            ... with SegmentMaker.skip_wellformedness_checks=False
+            ... with SegmentMaker.do_not_check_wellformedness=False
 
 2018-02-10 16:40:18
 Segment-maker runtime: 148 seconds
