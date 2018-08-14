@@ -68,7 +68,7 @@ maker = baca.SegmentMaker(
 
 maker(
     'GlobalSkips',
-    baca.metronome_mark('156', selector=baca.leaf(1 - 1)),
+    baca.metronome_mark('156', selector=baca.leaf(1 - 1), redundant=True),
     baca.rehearsal_mark('I'),
     )
 
