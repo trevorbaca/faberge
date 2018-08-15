@@ -758,13 +758,12 @@ maker(
             bookend=False,
             piece_selector=baca.cmgroups([2, 3]),
             ),
-        measures=(23, 54),
+        measures=(23, 52),
         ),
     baca.new(
         baca.hairpin(
-            '< pp >o niente',
-            bookend=-1,
-            piece_selector=baca.cmgroups([2, 7]),
+            'ppp < pp >o niente',
+            piece_selector=baca.mgroups([2, 7]),
             selector=baca.rleaves(),
             ),
         measures=(53, 60),
@@ -819,13 +818,20 @@ maker(
 maker(
     ('vn', (23, 52)),
     baca.dynamic('ppp'),
+#    baca.new(
+#        baca.hairpin('ppp < f', selector=baca.rleaves()),
+#        measures=(37, 44),
+#        ),
+#    baca.new(
+#        baca.hairpin('f > ppp'),
+#        measures=(45, 52),
+#        ),
     baca.new(
-        baca.hairpin('ppp < f', selector=baca.rleaves()),
-        measures=(37, 44),
-        ),
-    baca.new(
-        baca.hairpin('f > ppp'),
-        measures=(45, 52),
+        baca.hairpin(
+            'ppp < f > ppp',
+            piece_selector=baca.cmgroups([8]),
+            ),
+        measures=(37, 52),
         ),
     baca.markup('pochiss. scrath'),
     baca.pitch('E~4'),
@@ -897,13 +903,20 @@ maker(
 maker(
     ('va', (23, 52)),
     baca.dynamic('pp'),
+#    baca.new(
+#        baca.hairpin('pp < f', selector=baca.rleaves()),
+#        measures=(37, 44),
+#        ),
+#    baca.new(
+#        baca.hairpin('f > pp'),
+#        measures=(45, 52),
+#        ),
     baca.new(
-        baca.hairpin('pp < f', selector=baca.rleaves()),
-        measures=(37, 44),
-        ),
-    baca.new(
-        baca.hairpin('f > pp'),
-        measures=(45, 52),
+        baca.hairpin(
+            'pp < f > pp',
+            piece_selector=baca.cmgroups([8]),
+            ),
+        measures=(37, 52),
         ),
     baca.markup('tasto + pochiss. scratch'),
     baca.pitch('G3'),
@@ -985,10 +998,6 @@ maker(
         measures=(45, 48),
         ),
     baca.new(
-        baca.hairpin('p < ff', selector=baca.rleaves()),
-        measures=(37, 48),
-        ),
-    baca.new(
         baca.pitch('D2'),
         measures=(49, 56),
         ),
@@ -997,27 +1006,18 @@ maker(
         measures=(57, 60),
         ),
     baca.new(
-        baca.hairpin('ff >o niente'),
-        measures=(49, 60),
+        baca.hairpin(
+            'p < ff >o niente',
+            piece_selector=baca.lparts([2, 3]),
+            ),
+        measures=(37, 60),
+        ),
+    baca.text_spanner(
+        '(tasto+non vib.) => PO => tasto poss.',
+        abjad.tweak(6).staff_padding,
+        piece_selector=baca.lparts([2, 3]),
         ),
     )
-
-# TODO: make this work again:
-#maker(
-#    ('vc', (37, 60)),
-#    baca.text_spanner(
-#        [
-#            '(tasto+non vib.)',
-#            '=>',
-#            'PO',
-#            '=>',
-#            'tasto poss.',
-#            ],
-#        abjad.tweak(6).staff_padding,
-#        piece_selector=baca.cmgroups([12, 8]),
-#        selector=baca.rleaves(),
-#        ),
-#    )
 
 maker(
     ('vc', (61, 80)),

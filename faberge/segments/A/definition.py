@@ -1015,12 +1015,12 @@ maker(
 maker(
     ('vc', (71, 80)),
     baca.new(
-        baca.hairpin('ff > pp', selector=baca.rleaves()),
-        measures=(71, 80),
-        ),
-    baca.new(
-        baca.hairpin('pp < p', selector=baca.rleaves()),
-        measures=(81, 88),
+        baca.hairpin(
+            'ff > pp < p',
+            bookend=False,
+            piece_selector=baca.omgroups([9, 9]),
+            ),
+        measures=(71, 92),
         ),
     baca.text_spanner(
         [

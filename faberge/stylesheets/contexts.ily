@@ -7,8 +7,8 @@
     \context {
         \name GlobalSkips
         \type Engraver_group
-        \consists Staff_symbol_engraver
         \consists Script_engraver
+        \consists Staff_symbol_engraver
         \consists Text_engraver
         \consists Text_spanner_engraver
 
@@ -52,22 +52,17 @@
         \consists Axis_group_engraver
         \consists Bar_number_engraver
         \consists Mark_engraver
-        \consists Metronome_mark_engraver
+        % prevents LilyPond cyclic chain in pure-Y-offset callbacks warning:
+        \consists Staff_collecting_engraver
         \consists Time_signature_engraver
-        \accepts GlobalSkips
         \accepts GlobalRests
+        \accepts GlobalSkips
         \accepts PageLayout
 
         % TODO: hide in score:
         %\override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
-
-        \override MetronomeMark.X-extent = #'(0 . 0)
-        \override MetronomeMark.Y-extent = #'(0 . 0)
-        \override MetronomeMark.break-align-symbols = #'(left-edge)
-        \override MetronomeMark.extra-offset = #'(0 . 4)
-        \override MetronomeMark.font-size = 3
 
         \override RehearsalMark.X-extent = #'(0 . 0)
         \override RehearsalMark.Y-extent = #'(0 . 0)
@@ -78,7 +73,7 @@
         \override RehearsalMark.outside-staff-priority = 200
         \override RehearsalMark.self-alignment-X = #center
 
-        %\override TimeSignature.X-extent = #'(0 . 0)
+        % prevents StaffSymbol from starting too early after cut-away measures:
         \override TimeSignature.X-extent = ##f
         \override TimeSignature.break-align-symbol = #'left-edge
         \override TimeSignature.break-visibility = #end-of-line-invisible
@@ -86,13 +81,6 @@
         \override TimeSignature.space-alist.clef = #'(extra-space . 0.5)
         \override TimeSignature.style = #'numbered
 
-        \override VerticalAxisGroup.default-staff-staff-spacing = #'(
-            (basic-distance . 0)
-            (minimum-distance . 12) % distance below time signature context
-            (padding . 0)
-            (stretchability . 0)
-        )
-        \override VerticalAxisGroup.minimum-Y-extent = #'(-4 . 4)
     }
 
     % PIANO STAFF
@@ -137,7 +125,7 @@
         \alias StaffGroup
     }
 
-    % MUSIC
+    % MUSIC CONTEXT
     \context {
         \ChoirStaff
         \name MusicContext
@@ -174,7 +162,7 @@
             (next-note semi-fixed-space . 0.0) 
             (right-edge extra-space . 0.0)
             )
-        \override BarLine.X-extent = #'(0 . 0)
+        %%%\override BarLine.X-extent = #'(0 . 0)
 
         \override Beam.breakable = ##t
         \override Beam.damping = 99
