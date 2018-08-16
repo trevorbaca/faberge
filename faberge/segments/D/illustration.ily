@@ -115,6 +115,7 @@ D_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[9'30'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [D GlobalSkips measure 276 / measure 3]                                  %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/12                                                                  %! _make_global_skips(1)
@@ -145,6 +146,7 @@ D_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[9'37'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [D GlobalSkips measure 279 / measure 6]                                  %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/12                                                                  %! _make_global_skips(1)
@@ -195,6 +197,7 @@ D_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[9'51'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [D GlobalSkips measure 284 / measure 11]                                 %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/12                                                                  %! _make_global_skips(1)
@@ -225,6 +228,7 @@ D_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[9'57'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [D GlobalSkips measure 287 / measure 14]                                 %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/12                                                                  %! _make_global_skips(1)
@@ -351,6 +355,7 @@ D_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup "[10'34'']"                                       %! CLOCK_TIME_MARKUP:_label_clock_time
 
     % [D GlobalSkips measure 300 / measure 27]                                 %! _comment_measure_numbers
+    #(ly:expect-warning "strange time signature found")                        %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \time 5/12                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/12                                                                  %! _make_global_skips(1)
