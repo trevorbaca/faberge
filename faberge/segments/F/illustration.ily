@@ -1420,9 +1420,9 @@ F_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-F_FluteMusicVoice = {                                                          %! extern
+F_Flute_Music_Voice = {                                                        %! extern
 
-    % [F FluteMusicVoice measure 322 / measure 1]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 322 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1448,10 +1448,10 @@ F_FluteMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F FluteMusicVoice measure 323 / measure 2]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 323 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 324 / measure 3]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 324 / measure 3]                            %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1463,22 +1463,22 @@ F_FluteMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 325 / measure 4]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 325 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 326 / measure 5]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 326 / measure 5]                            %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 327 / measure 6]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 327 / measure 6]                            %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 328 / measure 7]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 328 / measure 7]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 329 / measure 8]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 329 / measure 8]                            %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 330 / measure 9]                              %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 330 / measure 9]                            %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -1486,7 +1486,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 331 / measure 10]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 331 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -1496,7 +1496,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 332 / measure 11]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 332 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
     \repeatTie
@@ -1505,13 +1505,13 @@ F_FluteMusicVoice = {                                                          %
 
     r2
 
-    % [F FluteMusicVoice measure 333 / measure 12]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 333 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 334 / measure 13]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 334 / measure 13]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 335 / measure 14]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 335 / measure 14]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -1519,7 +1519,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 336 / measure 15]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 336 / measure 15]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -1529,7 +1529,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 337 / measure 16]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 337 / measure 16]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
     \repeatTie
@@ -1538,13 +1538,13 @@ F_FluteMusicVoice = {                                                          %
 
     r2
 
-    % [F FluteMusicVoice measure 338 / measure 17]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 338 / measure 17]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 339 / measure 18]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 339 / measure 18]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 340 / measure 19]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 340 / measure 19]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -1552,7 +1552,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 341 / measure 20]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 341 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -1562,7 +1562,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 342 / measure 21]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 342 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
     \repeatTie
@@ -1571,19 +1571,19 @@ F_FluteMusicVoice = {                                                          %
 
     r2
 
-    % [F FluteMusicVoice measure 343 / measure 22]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 343 / measure 22]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 344 / measure 23]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 344 / measure 23]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 345 / measure 24]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 345 / measure 24]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 346 / measure 25]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 346 / measure 25]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1593,19 +1593,19 @@ F_FluteMusicVoice = {                                                          %
     c''2
     \repeatTie
 
-    % [F FluteMusicVoice measure 347 / measure 26]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 347 / measure 26]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 348 / measure 27]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 348 / measure 27]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 349 / measure 28]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 349 / measure 28]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 350 / measure 29]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 350 / measure 29]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -1616,7 +1616,7 @@ F_FluteMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 351 / measure 30]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 351 / measure 30]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1628,78 +1628,78 @@ F_FluteMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 352 / measure 31]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 352 / measure 31]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 353 / measure 32]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 353 / measure 32]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 354 / measure 33]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 354 / measure 33]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 355 / measure 34]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 355 / measure 34]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
     \repeatTie
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 356 / measure 35]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 356 / measure 35]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 357 / measure 36]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 357 / measure 36]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 358 / measure 37]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 358 / measure 37]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 359 / measure 38]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 359 / measure 38]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 360 / measure 39]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 360 / measure 39]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 361 / measure 40]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 361 / measure 40]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 362 / measure 41]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 362 / measure 41]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 363 / measure 42]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 363 / measure 42]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 364 / measure 43]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 364 / measure 43]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 365 / measure 44]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 365 / measure 44]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 366 / measure 45]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 366 / measure 45]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 367 / measure 46]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 367 / measure 46]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 368 / measure 47]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 368 / measure 47]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
 
-    % [F FluteMusicVoice measure 369 / measure 48]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 369 / measure 48]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 370 / measure 49]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 370 / measure 49]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 371 / measure 50]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 371 / measure 50]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 372 / measure 51]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 372 / measure 51]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -1707,7 +1707,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 373 / measure 52]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 373 / measure 52]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -1717,7 +1717,7 @@ F_FluteMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 374 / measure 53]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 374 / measure 53]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4.                                                                      %! airtone_chain_rhythm
     \repeatTie
@@ -1726,19 +1726,19 @@ F_FluteMusicVoice = {                                                          %
 
     r2
 
-    % [F FluteMusicVoice measure 375 / measure 54]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 375 / measure 54]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 376 / measure 55]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 376 / measure 55]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 377 / measure 56]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 377 / measure 56]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 378 / measure 57]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 378 / measure 57]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -1748,19 +1748,19 @@ F_FluteMusicVoice = {                                                          %
     c''2
     \repeatTie
 
-    % [F FluteMusicVoice measure 379 / measure 58]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 379 / measure 58]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 380 / measure 59]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 380 / measure 59]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 381 / measure 60]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 381 / measure 60]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''4                                                                       %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 382 / measure 61]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 382 / measure 61]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -1771,197 +1771,197 @@ F_FluteMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F FluteMusicVoice measure 383 / measure 62]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 383 / measure 62]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 384 / measure 63]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 384 / measure 63]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 385 / measure 64]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 385 / measure 64]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
 
-    % [F FluteMusicVoice measure 386 / measure 65]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 386 / measure 65]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 387 / measure 66]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 387 / measure 66]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 388 / measure 67]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 388 / measure 67]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
 
-    % [F FluteMusicVoice measure 389 / measure 68]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 389 / measure 68]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 390 / measure 69]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 390 / measure 69]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 391 / measure 70]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 391 / measure 70]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
 
-    % [F FluteMusicVoice measure 392 / measure 71]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 392 / measure 71]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 393 / measure 72]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 393 / measure 72]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 394 / measure 73]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 394 / measure 73]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 395 / measure 74]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 395 / measure 74]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 396 / measure 75]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 396 / measure 75]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 397 / measure 76]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 397 / measure 76]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 398 / measure 77]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 398 / measure 77]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 399 / measure 78]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 399 / measure 78]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 400 / measure 79]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 400 / measure 79]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 401 / measure 80]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 401 / measure 80]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 402 / measure 81]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 402 / measure 81]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 403 / measure 82]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 403 / measure 82]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 404 / measure 83]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 404 / measure 83]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 405 / measure 84]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 405 / measure 84]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 406 / measure 85]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 406 / measure 85]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 407 / measure 86]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 407 / measure 86]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! baca_make_repeat_tied_notes
 
-    % [F FluteMusicVoice measure 408 / measure 87]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 408 / measure 87]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F FluteMusicVoice measure 409 / measure 88]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 409 / measure 88]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 410 / measure 89]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 410 / measure 89]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 411 / measure 90]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 411 / measure 90]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 412 / measure 91]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 412 / measure 91]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 413 / measure 92]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 413 / measure 92]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 414 / measure 93]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 414 / measure 93]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 415 / measure 94]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 415 / measure 94]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 416 / measure 95]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 416 / measure 95]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 417 / measure 96]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 417 / measure 96]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 418 / measure 97]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 418 / measure 97]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 419 / measure 98]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 419 / measure 98]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 420 / measure 99]                             %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 420 / measure 99]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 421 / measure 100]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 421 / measure 100]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 422 / measure 101]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 422 / measure 101]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 423 / measure 102]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 423 / measure 102]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
 
-    % [F FluteMusicVoice measure 424 / measure 103]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 424 / measure 103]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [F FluteMusicVoice measure 425 / measure 104]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 425 / measure 104]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 426 / measure 105]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 426 / measure 105]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 427 / measure 106]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 427 / measure 106]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F FluteMusicVoice measure 428 / measure 107]                            %! _comment_measure_numbers
+    % [F Flute_Music_Voice measure 428 / measure 107]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_FluteMusicStaff = {                                                          %! extern
+F_Flute_Music_Staff = {                                                        %! extern
 
-    \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
-    \F_FluteMusicVoice                                                         %! extern
+    \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
+    \F_Flute_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-F_EnglishHornMusicVoice = {                                                    %! extern
+F_English_Horn_Music_Voice = {                                                 %! extern
 
-    % [F EnglishHornMusicVoice measure 322 / measure 1]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 322 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1991,42 +1991,42 @@ F_EnglishHornMusicVoice = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F EnglishHornMusicVoice measure 323 / measure 2]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 323 / measure 2]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 324 / measure 3]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 324 / measure 3]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 325 / measure 4]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 325 / measure 4]                     %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 326 / measure 5]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 326 / measure 5]                     %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 327 / measure 6]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 327 / measure 6]                     %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 328 / measure 7]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 328 / measure 7]                     %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 329 / measure 8]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 329 / measure 8]                     %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 330 / measure 9]                        %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 330 / measure 9]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 331 / measure 10]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 331 / measure 10]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 332 / measure 11]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 332 / measure 11]                    %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2034,22 +2034,22 @@ F_EnglishHornMusicVoice = {                                                    %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 333 / measure 12]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 333 / measure 12]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 334 / measure 13]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 334 / measure 13]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 335 / measure 14]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 335 / measure 14]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 336 / measure 15]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 336 / measure 15]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 337 / measure 16]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 337 / measure 16]                    %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2057,22 +2057,22 @@ F_EnglishHornMusicVoice = {                                                    %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 338 / measure 17]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 338 / measure 17]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 339 / measure 18]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 339 / measure 18]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 340 / measure 19]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 340 / measure 19]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 341 / measure 20]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 341 / measure 20]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 342 / measure 21]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 342 / measure 21]                    %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2080,23 +2080,23 @@ F_EnglishHornMusicVoice = {                                                    %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 343 / measure 22]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 343 / measure 22]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 344 / measure 23]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 344 / measure 23]                    %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 345 / measure 24]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 345 / measure 24]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 346 / measure 25]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 346 / measure 25]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -2104,20 +2104,20 @@ F_EnglishHornMusicVoice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 347 / measure 26]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 347 / measure 26]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4.                                                                       %! airtone_chain_rhythm
     \repeatTie
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 348 / measure 27]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 348 / measure 27]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 349 / measure 28]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 349 / measure 28]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -2128,10 +2128,10 @@ F_EnglishHornMusicVoice = {                                                    %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 350 / measure 29]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 350 / measure 29]                    %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 351 / measure 30]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 351 / measure 30]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -2139,102 +2139,102 @@ F_EnglishHornMusicVoice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4.                                                                       %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 352 / measure 31]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 352 / measure 31]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 353 / measure 32]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 353 / measure 32]                    %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 354 / measure 33]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 354 / measure 33]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 355 / measure 34]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 355 / measure 34]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 356 / measure 35]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 356 / measure 35]                    %! _comment_measure_numbers
     r2..                                                                       %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 357 / measure 36]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 357 / measure 36]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! airtone_chain_rhythm
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 358 / measure 37]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 358 / measure 37]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 359 / measure 38]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 359 / measure 38]                    %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 360 / measure 39]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 360 / measure 39]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 361 / measure 40]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 361 / measure 40]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 362 / measure 41]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 362 / measure 41]                    %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 363 / measure 42]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 363 / measure 42]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 364 / measure 43]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 364 / measure 43]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 365 / measure 44]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 365 / measure 44]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 366 / measure 45]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 366 / measure 45]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 367 / measure 46]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 367 / measure 46]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 368 / measure 47]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 368 / measure 47]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 369 / measure 48]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 369 / measure 48]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 370 / measure 49]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 370 / measure 49]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 371 / measure 50]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 371 / measure 50]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 372 / measure 51]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 372 / measure 51]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 373 / measure 52]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 373 / measure 52]                    %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 374 / measure 53]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 374 / measure 53]                    %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2242,23 +2242,23 @@ F_EnglishHornMusicVoice = {                                                    %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 375 / measure 54]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 375 / measure 54]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 376 / measure 55]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 376 / measure 55]                    %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 377 / measure 56]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 377 / measure 56]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 378 / measure 57]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 378 / measure 57]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -2266,20 +2266,20 @@ F_EnglishHornMusicVoice = {                                                    %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'8                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 379 / measure 58]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 379 / measure 58]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4.                                                                       %! airtone_chain_rhythm
     \repeatTie
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 380 / measure 59]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 380 / measure 59]                    %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'4                                                                        %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 381 / measure 60]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 381 / measure 60]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -2290,196 +2290,196 @@ F_EnglishHornMusicVoice = {                                                    %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 382 / measure 61]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 382 / measure 61]                    %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F EnglishHornMusicVoice measure 383 / measure 62]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 383 / measure 62]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 384 / measure 63]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 384 / measure 63]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 385 / measure 64]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 385 / measure 64]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 386 / measure 65]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 386 / measure 65]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 387 / measure 66]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 387 / measure 66]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 388 / measure 67]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 388 / measure 67]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 389 / measure 68]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 389 / measure 68]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 390 / measure 69]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 390 / measure 69]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 391 / measure 70]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 391 / measure 70]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 392 / measure 71]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 392 / measure 71]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 393 / measure 72]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 393 / measure 72]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 394 / measure 73]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 394 / measure 73]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 395 / measure 74]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 395 / measure 74]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 396 / measure 75]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 396 / measure 75]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 397 / measure 76]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 397 / measure 76]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 398 / measure 77]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 398 / measure 77]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 399 / measure 78]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 399 / measure 78]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 400 / measure 79]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 400 / measure 79]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 401 / measure 80]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 401 / measure 80]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 402 / measure 81]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 402 / measure 81]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 403 / measure 82]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 403 / measure 82]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 404 / measure 83]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 404 / measure 83]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 405 / measure 84]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 405 / measure 84]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 406 / measure 85]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 406 / measure 85]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 407 / measure 86]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 407 / measure 86]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! baca_make_repeat_tied_notes
 
-    % [F EnglishHornMusicVoice measure 408 / measure 87]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 408 / measure 87]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F EnglishHornMusicVoice measure 409 / measure 88]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 409 / measure 88]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 410 / measure 89]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 410 / measure 89]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 411 / measure 90]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 411 / measure 90]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 412 / measure 91]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 412 / measure 91]                    %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 413 / measure 92]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 413 / measure 92]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 414 / measure 93]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 414 / measure 93]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 415 / measure 94]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 415 / measure 94]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 416 / measure 95]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 416 / measure 95]                    %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 417 / measure 96]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 417 / measure 96]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 418 / measure 97]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 418 / measure 97]                    %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 419 / measure 98]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 419 / measure 98]                    %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 420 / measure 99]                       %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 420 / measure 99]                    %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 421 / measure 100]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 421 / measure 100]                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 422 / measure 101]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 422 / measure 101]                   %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 423 / measure 102]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 423 / measure 102]                   %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 424 / measure 103]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 424 / measure 103]                   %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 425 / measure 104]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 425 / measure 104]                   %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 426 / measure 105]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 426 / measure 105]                   %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 427 / measure 106]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 427 / measure 106]                   %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F EnglishHornMusicVoice measure 428 / measure 107]                      %! _comment_measure_numbers
+    % [F English_Horn_Music_Voice measure 428 / measure 107]                   %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_EnglishHornMusicStaff = {                                                    %! extern
+F_English_Horn_Music_Staff = {                                                 %! extern
 
-    \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
-    \F_EnglishHornMusicVoice                                                   %! extern
+    \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
+    \F_English_Horn_Music_Voice                                                %! extern
 
 }                                                                              %! extern
 
 
-F_ClarinetMusicVoice = {                                                       %! extern
+F_Clarinet_Music_Voice = {                                                     %! extern
 
-    % [F ClarinetMusicVoice measure 322 / measure 1]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 322 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2505,34 +2505,34 @@ F_ClarinetMusicVoice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F ClarinetMusicVoice measure 323 / measure 2]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 323 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 324 / measure 3]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 324 / measure 3]                         %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 325 / measure 4]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 325 / measure 4]                         %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 326 / measure 5]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 326 / measure 5]                         %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 327 / measure 6]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 327 / measure 6]                         %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 328 / measure 7]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 328 / measure 7]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 329 / measure 8]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 329 / measure 8]                         %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 330 / measure 9]                           %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 330 / measure 9]                         %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2540,25 +2540,25 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 331 / measure 10]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 331 / measure 10]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 332 / measure 11]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 332 / measure 11]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 333 / measure 12]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 333 / measure 12]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 334 / measure 13]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 334 / measure 13]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 335 / measure 14]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 335 / measure 14]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2566,25 +2566,25 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 336 / measure 15]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 336 / measure 15]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 337 / measure 16]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 337 / measure 16]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 338 / measure 17]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 338 / measure 17]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 339 / measure 18]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 339 / measure 18]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 340 / measure 19]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 340 / measure 19]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2592,34 +2592,34 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 341 / measure 20]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 341 / measure 20]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 342 / measure 21]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 342 / measure 21]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 343 / measure 22]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 343 / measure 22]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 344 / measure 23]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 344 / measure 23]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 345 / measure 24]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 345 / measure 24]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 346 / measure 25]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 346 / measure 25]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 347 / measure 26]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 347 / measure 26]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 348 / measure 27]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 348 / measure 27]                        %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2627,34 +2627,34 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 349 / measure 28]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 349 / measure 28]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 350 / measure 29]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 350 / measure 29]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 351 / measure 30]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 351 / measure 30]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 352 / measure 31]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 352 / measure 31]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 353 / measure 32]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 353 / measure 32]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 354 / measure 33]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 354 / measure 33]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 355 / measure 34]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 355 / measure 34]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 356 / measure 35]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 356 / measure 35]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2662,62 +2662,62 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 357 / measure 36]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 357 / measure 36]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 358 / measure 37]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 358 / measure 37]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 359 / measure 38]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 359 / measure 38]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 360 / measure 39]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 360 / measure 39]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 361 / measure 40]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 361 / measure 40]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 362 / measure 41]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 362 / measure 41]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 363 / measure 42]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 363 / measure 42]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 364 / measure 43]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 364 / measure 43]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 365 / measure 44]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 365 / measure 44]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 366 / measure 45]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 366 / measure 45]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 367 / measure 46]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 367 / measure 46]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 368 / measure 47]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 368 / measure 47]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 369 / measure 48]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 369 / measure 48]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 370 / measure 49]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 370 / measure 49]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 371 / measure 50]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 371 / measure 50]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 372 / measure 51]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 372 / measure 51]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2725,34 +2725,34 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 373 / measure 52]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 373 / measure 52]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 374 / measure 53]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 374 / measure 53]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 375 / measure 54]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 375 / measure 54]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 376 / measure 55]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 376 / measure 55]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 377 / measure 56]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 377 / measure 56]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 378 / measure 57]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 378 / measure 57]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 379 / measure 58]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 379 / measure 58]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4                                                                       %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 380 / measure 59]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 380 / measure 59]                        %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2760,203 +2760,203 @@ F_ClarinetMusicVoice = {                                                       %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 381 / measure 60]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 381 / measure 60]                        %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''4.                                                                      %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 382 / measure 61]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 382 / measure 61]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ClarinetMusicVoice measure 383 / measure 62]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 383 / measure 62]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 384 / measure 63]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 384 / measure 63]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 385 / measure 64]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 385 / measure 64]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 386 / measure 65]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 386 / measure 65]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 387 / measure 66]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 387 / measure 66]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 388 / measure 67]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 388 / measure 67]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! baca_make_repeat_tied_notes
 
-    % [F ClarinetMusicVoice measure 389 / measure 68]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 389 / measure 68]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 390 / measure 69]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 390 / measure 69]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 391 / measure 70]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 391 / measure 70]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
 
-    % [F ClarinetMusicVoice measure 392 / measure 71]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 392 / measure 71]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 393 / measure 72]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 393 / measure 72]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 394 / measure 73]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 394 / measure 73]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 395 / measure 74]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 395 / measure 74]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 396 / measure 75]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 396 / measure 75]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 397 / measure 76]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 397 / measure 76]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 398 / measure 77]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 398 / measure 77]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 399 / measure 78]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 399 / measure 78]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 400 / measure 79]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 400 / measure 79]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 401 / measure 80]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 401 / measure 80]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 402 / measure 81]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 402 / measure 81]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 403 / measure 82]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 403 / measure 82]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 404 / measure 83]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 404 / measure 83]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 405 / measure 84]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 405 / measure 84]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 406 / measure 85]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 406 / measure 85]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 407 / measure 86]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 407 / measure 86]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! baca_make_repeat_tied_notes
 
-    % [F ClarinetMusicVoice measure 408 / measure 87]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 408 / measure 87]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 409 / measure 88]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 409 / measure 88]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 410 / measure 89]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 410 / measure 89]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 411 / measure 90]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 411 / measure 90]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 412 / measure 91]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 412 / measure 91]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 413 / measure 92]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 413 / measure 92]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 414 / measure 93]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 414 / measure 93]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 415 / measure 94]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 415 / measure 94]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 416 / measure 95]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 416 / measure 95]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 417 / measure 96]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 417 / measure 96]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 418 / measure 97]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 418 / measure 97]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 419 / measure 98]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 419 / measure 98]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 420 / measure 99]                          %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 420 / measure 99]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 421 / measure 100]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 421 / measure 100]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 422 / measure 101]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 422 / measure 101]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 423 / measure 102]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 423 / measure 102]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
 
-    % [F ClarinetMusicVoice measure 424 / measure 103]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 424 / measure 103]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [F ClarinetMusicVoice measure 425 / measure 104]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 425 / measure 104]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 426 / measure 105]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 426 / measure 105]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 427 / measure 106]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 427 / measure 106]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ClarinetMusicVoice measure 428 / measure 107]                         %! _comment_measure_numbers
+    % [F Clarinet_Music_Voice measure 428 / measure 107]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_ClarinetMusicStaff = {                                                       %! extern
+F_Clarinet_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
-    \F_ClarinetMusicVoice                                                      %! extern
+    \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
+    \F_Clarinet_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-F_PianoRHMusicVoice = {                                                        %! extern
+F_Piano_RH_Music_Voice = {                                                     %! extern
 
-    % [F PianoRHMusicVoice measure 322 / measure 1]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 322 / measure 1]                         %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName =                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2980,10 +2980,10 @@ F_PianoRHMusicVoice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F PianoRHMusicVoice measure 323 / measure 2]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 323 / measure 2]                         %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 324 / measure 3]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 324 / measure 3]                         %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -2991,29 +2991,29 @@ F_PianoRHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 325 / measure 4]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 325 / measure 4]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 326 / measure 5]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 326 / measure 5]                         %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 327 / measure 6]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 327 / measure 6]                         %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 328 / measure 7]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 328 / measure 7]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 329 / measure 8]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 329 / measure 8]                         %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 330 / measure 9]                            %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 330 / measure 9]                         %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 331 / measure 10]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 331 / measure 10]                        %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3023,19 +3023,19 @@ F_PianoRHMusicVoice = {                                                        %
     c'2
     \repeatTie
 
-    % [F PianoRHMusicVoice measure 332 / measure 11]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 332 / measure 11]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 333 / measure 12]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 333 / measure 12]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 334 / measure 13]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 334 / measure 13]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 335 / measure 14]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 335 / measure 14]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 336 / measure 15]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 336 / measure 15]                        %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3045,19 +3045,19 @@ F_PianoRHMusicVoice = {                                                        %
     c'2
     \repeatTie
 
-    % [F PianoRHMusicVoice measure 337 / measure 16]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 337 / measure 16]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 338 / measure 17]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 338 / measure 17]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 339 / measure 18]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 339 / measure 18]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 340 / measure 19]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 340 / measure 19]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 341 / measure 20]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 341 / measure 20]                        %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3067,16 +3067,16 @@ F_PianoRHMusicVoice = {                                                        %
     c'2
     \repeatTie
 
-    % [F PianoRHMusicVoice measure 342 / measure 21]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 342 / measure 21]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 343 / measure 22]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 343 / measure 22]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 344 / measure 23]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 344 / measure 23]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 345 / measure 24]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 345 / measure 24]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -3084,51 +3084,51 @@ F_PianoRHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 346 / measure 25]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 346 / measure 25]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 347 / measure 26]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 347 / measure 26]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 348 / measure 27]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 348 / measure 27]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 349 / measure 28]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 349 / measure 28]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 350 / measure 29]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 350 / measure 29]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 351 / measure 30]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 351 / measure 30]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 352 / measure 31]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 352 / measure 31]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 353 / measure 32]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 353 / measure 32]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 354 / measure 33]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 354 / measure 33]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 355 / measure 34]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 355 / measure 34]                        %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 356 / measure 35]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 356 / measure 35]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -3137,55 +3137,55 @@ F_PianoRHMusicVoice = {                                                        %
 
     r2
 
-    % [F PianoRHMusicVoice measure 357 / measure 36]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 357 / measure 36]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 358 / measure 37]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 358 / measure 37]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 359 / measure 38]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 359 / measure 38]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 360 / measure 39]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 360 / measure 39]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 361 / measure 40]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 361 / measure 40]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 362 / measure 41]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 362 / measure 41]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 363 / measure 42]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 363 / measure 42]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 364 / measure 43]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 364 / measure 43]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 365 / measure 44]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 365 / measure 44]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 366 / measure 45]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 366 / measure 45]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 367 / measure 46]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 367 / measure 46]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 368 / measure 47]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 368 / measure 47]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 369 / measure 48]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 369 / measure 48]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 370 / measure 49]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 370 / measure 49]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 371 / measure 50]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 371 / measure 50]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 372 / measure 51]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 372 / measure 51]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 373 / measure 52]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 373 / measure 52]                        %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -3195,16 +3195,16 @@ F_PianoRHMusicVoice = {                                                        %
     c'2
     \repeatTie
 
-    % [F PianoRHMusicVoice measure 374 / measure 53]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 374 / measure 53]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 375 / measure 54]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 375 / measure 54]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 376 / measure 55]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 376 / measure 55]                        %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 377 / measure 56]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 377 / measure 56]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -3212,62 +3212,62 @@ F_PianoRHMusicVoice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 378 / measure 57]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 378 / measure 57]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 379 / measure 58]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 379 / measure 58]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 380 / measure 59]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 380 / measure 59]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 381 / measure 60]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 381 / measure 60]                        %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 382 / measure 61]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 382 / measure 61]                        %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
 
-    % [F PianoRHMusicVoice measure 383 / measure 62]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 383 / measure 62]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 384 / measure 63]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 384 / measure 63]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 385 / measure 64]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 385 / measure 64]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 386 / measure 65]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 386 / measure 65]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 387 / measure 66]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 387 / measure 66]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 388 / measure 67]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 388 / measure 67]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 389 / measure 68]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 389 / measure 68]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 390 / measure 69]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 390 / measure 69]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 391 / measure 70]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 391 / measure 70]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 392 / measure 71]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 392 / measure 71]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F PianoRHMusicVoice measure 393 / measure 72]                       %! _comment_measure_numbers
+        % [F Piano_RH_Music_Voice measure 393 / measure 72]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -3293,7 +3293,7 @@ F_PianoRHMusicVoice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F PianoRHMusicVoice measure 394 / measure 73]                       %! _comment_measure_numbers
+        % [F Piano_RH_Music_Voice measure 394 / measure 73]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -3316,16 +3316,16 @@ F_PianoRHMusicVoice = {                                                        %
 
     }                                                                          %! clb_rhythm
 
-    % [F PianoRHMusicVoice measure 395 / measure 74]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 395 / measure 74]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 396 / measure 75]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 396 / measure 75]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F PianoRHMusicVoice measure 397 / measure 76]                       %! _comment_measure_numbers
+        % [F Piano_RH_Music_Voice measure 397 / measure 76]                    %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -3348,7 +3348,7 @@ F_PianoRHMusicVoice = {                                                        %
 
     }                                                                          %! clb_rhythm
 
-    % [F PianoRHMusicVoice measure 398 / measure 77]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 398 / measure 77]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! clb_rhythm
     [                                                                          %! clb_rhythm
@@ -3369,110 +3369,110 @@ F_PianoRHMusicVoice = {                                                        %
     c'8                                                                        %! clb_rhythm
     ]                                                                          %! clb_rhythm
 
-    % [F PianoRHMusicVoice measure 399 / measure 78]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 399 / measure 78]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 400 / measure 79]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 400 / measure 79]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 401 / measure 80]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 401 / measure 80]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 402 / measure 81]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 402 / measure 81]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 403 / measure 82]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 403 / measure 82]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 404 / measure 83]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 404 / measure 83]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 405 / measure 84]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 405 / measure 84]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 406 / measure 85]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 406 / measure 85]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 407 / measure 86]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 407 / measure 86]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 408 / measure 87]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 408 / measure 87]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 409 / measure 88]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 409 / measure 88]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 410 / measure 89]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 410 / measure 89]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 411 / measure 90]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 411 / measure 90]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 412 / measure 91]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 412 / measure 91]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 413 / measure 92]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 413 / measure 92]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 414 / measure 93]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 414 / measure 93]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 415 / measure 94]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 415 / measure 94]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 416 / measure 95]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 416 / measure 95]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 417 / measure 96]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 417 / measure 96]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 418 / measure 97]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 418 / measure 97]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 419 / measure 98]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 419 / measure 98]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 420 / measure 99]                           %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 420 / measure 99]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 421 / measure 100]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 421 / measure 100]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 422 / measure 101]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 422 / measure 101]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 423 / measure 102]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 423 / measure 102]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 424 / measure 103]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 424 / measure 103]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 425 / measure 104]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 425 / measure 104]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 426 / measure 105]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 426 / measure 105]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 427 / measure 106]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 427 / measure 106]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PianoRHMusicVoice measure 428 / measure 107]                          %! _comment_measure_numbers
+    % [F Piano_RH_Music_Voice measure 428 / measure 107]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_PianoRHMusicStaff = {                                                        %! extern
+F_Piano_RH_Music_Staff = {                                                     %! extern
 
-    \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
-    \F_PianoRHMusicVoice                                                       %! extern
+    \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
+    \F_Piano_RH_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-F_PianoLHMusicVoice = {                                                        %! extern
+F_Piano_LH_Music_Voice = {                                                     %! extern
 
-    % [F PianoLHMusicVoice measure 322 / measure 1]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 322 / measure 1]                         %! _comment_measure_numbers
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -3480,669 +3480,669 @@ F_PianoLHMusicVoice = {                                                        %
     R1 * 3/4                                                                   %! _call_rhythm_commands
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F PianoLHMusicVoice measure 323 / measure 2]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 323 / measure 2]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 324 / measure 3]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 324 / measure 3]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 325 / measure 4]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 325 / measure 4]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 326 / measure 5]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 326 / measure 5]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 327 / measure 6]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 327 / measure 6]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 328 / measure 7]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 328 / measure 7]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 329 / measure 8]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 329 / measure 8]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 330 / measure 9]                            %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 330 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 331 / measure 10]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 331 / measure 10]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 332 / measure 11]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 332 / measure 11]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 333 / measure 12]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 333 / measure 12]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 334 / measure 13]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 334 / measure 13]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 335 / measure 14]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 335 / measure 14]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 336 / measure 15]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 336 / measure 15]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 337 / measure 16]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 337 / measure 16]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 338 / measure 17]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 338 / measure 17]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 339 / measure 18]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 339 / measure 18]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 340 / measure 19]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 340 / measure 19]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 341 / measure 20]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 341 / measure 20]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 342 / measure 21]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 342 / measure 21]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 343 / measure 22]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 343 / measure 22]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 344 / measure 23]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 344 / measure 23]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 345 / measure 24]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 345 / measure 24]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 346 / measure 25]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 346 / measure 25]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 347 / measure 26]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 347 / measure 26]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 348 / measure 27]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 348 / measure 27]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 349 / measure 28]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 349 / measure 28]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 350 / measure 29]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 350 / measure 29]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 351 / measure 30]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 351 / measure 30]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 352 / measure 31]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 352 / measure 31]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 353 / measure 32]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 353 / measure 32]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 354 / measure 33]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 354 / measure 33]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 355 / measure 34]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 355 / measure 34]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 356 / measure 35]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 356 / measure 35]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 357 / measure 36]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 357 / measure 36]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 358 / measure 37]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 358 / measure 37]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 359 / measure 38]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 359 / measure 38]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 360 / measure 39]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 360 / measure 39]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 361 / measure 40]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 361 / measure 40]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 362 / measure 41]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 362 / measure 41]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 363 / measure 42]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 363 / measure 42]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 364 / measure 43]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 364 / measure 43]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 365 / measure 44]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 365 / measure 44]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 366 / measure 45]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 366 / measure 45]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 367 / measure 46]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 367 / measure 46]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 368 / measure 47]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 368 / measure 47]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 369 / measure 48]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 369 / measure 48]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 370 / measure 49]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 370 / measure 49]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 371 / measure 50]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 371 / measure 50]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 372 / measure 51]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 372 / measure 51]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 373 / measure 52]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 373 / measure 52]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 374 / measure 53]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 374 / measure 53]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 375 / measure 54]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 375 / measure 54]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 376 / measure 55]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 376 / measure 55]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 377 / measure 56]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 377 / measure 56]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 378 / measure 57]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 378 / measure 57]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 379 / measure 58]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 379 / measure 58]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 380 / measure 59]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 380 / measure 59]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 381 / measure 60]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 381 / measure 60]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 382 / measure 61]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 382 / measure 61]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 383 / measure 62]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 383 / measure 62]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 384 / measure 63]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 384 / measure 63]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 385 / measure 64]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 385 / measure 64]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 386 / measure 65]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 386 / measure 65]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 387 / measure 66]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 387 / measure 66]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 388 / measure 67]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 388 / measure 67]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 389 / measure 68]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 389 / measure 68]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 390 / measure 69]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 390 / measure 69]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 391 / measure 70]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 391 / measure 70]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 392 / measure 71]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 392 / measure 71]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 393 / measure 72]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 393 / measure 72]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 394 / measure 73]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 394 / measure 73]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 395 / measure 74]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 395 / measure 74]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 396 / measure 75]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 396 / measure 75]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 397 / measure 76]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 397 / measure 76]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 398 / measure 77]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 398 / measure 77]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 399 / measure 78]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 399 / measure 78]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 400 / measure 79]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 400 / measure 79]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 401 / measure 80]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 401 / measure 80]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 402 / measure 81]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 402 / measure 81]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 403 / measure 82]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 403 / measure 82]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 404 / measure 83]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 404 / measure 83]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 405 / measure 84]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 405 / measure 84]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 406 / measure 85]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 406 / measure 85]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 407 / measure 86]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 407 / measure 86]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 408 / measure 87]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 408 / measure 87]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 409 / measure 88]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 409 / measure 88]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 410 / measure 89]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 410 / measure 89]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 411 / measure 90]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 411 / measure 90]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 412 / measure 91]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 412 / measure 91]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 413 / measure 92]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 413 / measure 92]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 414 / measure 93]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 414 / measure 93]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 415 / measure 94]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 415 / measure 94]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 416 / measure 95]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 416 / measure 95]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 417 / measure 96]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 417 / measure 96]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 418 / measure 97]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 418 / measure 97]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 419 / measure 98]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 419 / measure 98]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 420 / measure 99]                           %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 420 / measure 99]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 421 / measure 100]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 421 / measure 100]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 422 / measure 101]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 422 / measure 101]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 423 / measure 102]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 423 / measure 102]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 424 / measure 103]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 424 / measure 103]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 425 / measure 104]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 425 / measure 104]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 426 / measure 105]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 426 / measure 105]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 427 / measure 106]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 427 / measure 106]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHMusicVoice measure 428 / measure 107]                          %! _comment_measure_numbers
+    % [F Piano_LH_Music_Voice measure 428 / measure 107]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-F_PianoLHAttackVoice = {                                                       %! extern
+F_Piano_LH_Attack_Voice = {                                                    %! extern
 
-    % [F PianoLHAttackVoice measure 322 / measure 1]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 322 / measure 1]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
-    % [F PianoLHAttackVoice measure 323 / measure 2]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 323 / measure 2]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 324 / measure 3]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 324 / measure 3]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 325 / measure 4]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 325 / measure 4]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 326 / measure 5]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 326 / measure 5]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 327 / measure 6]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 327 / measure 6]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 328 / measure 7]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 328 / measure 7]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 329 / measure 8]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 329 / measure 8]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 330 / measure 9]                           %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 330 / measure 9]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 331 / measure 10]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 331 / measure 10]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 332 / measure 11]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 332 / measure 11]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 333 / measure 12]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 333 / measure 12]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 334 / measure 13]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 334 / measure 13]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 335 / measure 14]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 335 / measure 14]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 336 / measure 15]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 336 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 337 / measure 16]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 337 / measure 16]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 338 / measure 17]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 338 / measure 17]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 339 / measure 18]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 339 / measure 18]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 340 / measure 19]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 340 / measure 19]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 341 / measure 20]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 341 / measure 20]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 342 / measure 21]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 342 / measure 21]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 343 / measure 22]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 343 / measure 22]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 344 / measure 23]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 344 / measure 23]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 345 / measure 24]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 345 / measure 24]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 346 / measure 25]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 346 / measure 25]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 347 / measure 26]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 347 / measure 26]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 348 / measure 27]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 348 / measure 27]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 349 / measure 28]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 349 / measure 28]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 350 / measure 29]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 350 / measure 29]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 351 / measure 30]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 351 / measure 30]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 352 / measure 31]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 352 / measure 31]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 353 / measure 32]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 353 / measure 32]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 354 / measure 33]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 354 / measure 33]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 355 / measure 34]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 355 / measure 34]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 356 / measure 35]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 356 / measure 35]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 357 / measure 36]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 357 / measure 36]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 358 / measure 37]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 358 / measure 37]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 359 / measure 38]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 359 / measure 38]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 360 / measure 39]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 360 / measure 39]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 361 / measure 40]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 361 / measure 40]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 362 / measure 41]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 362 / measure 41]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 363 / measure 42]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 363 / measure 42]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 364 / measure 43]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 364 / measure 43]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 365 / measure 44]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 365 / measure 44]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 366 / measure 45]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 366 / measure 45]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 367 / measure 46]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 367 / measure 46]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 368 / measure 47]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 368 / measure 47]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 369 / measure 48]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 369 / measure 48]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 370 / measure 49]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 370 / measure 49]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 371 / measure 50]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 371 / measure 50]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 372 / measure 51]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 372 / measure 51]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 373 / measure 52]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 373 / measure 52]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 374 / measure 53]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 374 / measure 53]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 375 / measure 54]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 375 / measure 54]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 376 / measure 55]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 376 / measure 55]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 377 / measure 56]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 377 / measure 56]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 378 / measure 57]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 378 / measure 57]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 379 / measure 58]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 379 / measure 58]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 380 / measure 59]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 380 / measure 59]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 381 / measure 60]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 381 / measure 60]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 382 / measure 61]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 382 / measure 61]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 383 / measure 62]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 383 / measure 62]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 384 / measure 63]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 384 / measure 63]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 385 / measure 64]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 385 / measure 64]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 386 / measure 65]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 386 / measure 65]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 387 / measure 66]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 387 / measure 66]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 388 / measure 67]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 388 / measure 67]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 389 / measure 68]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 389 / measure 68]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 390 / measure 69]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 390 / measure 69]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 391 / measure 70]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 391 / measure 70]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 392 / measure 71]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 392 / measure 71]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 393 / measure 72]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 393 / measure 72]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 394 / measure 73]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 394 / measure 73]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 395 / measure 74]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 395 / measure 74]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 396 / measure 75]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 396 / measure 75]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 397 / measure 76]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 397 / measure 76]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 398 / measure 77]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 398 / measure 77]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 399 / measure 78]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 399 / measure 78]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 400 / measure 79]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 400 / measure 79]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 401 / measure 80]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 401 / measure 80]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 402 / measure 81]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 402 / measure 81]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 403 / measure 82]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 403 / measure 82]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 404 / measure 83]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 404 / measure 83]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 405 / measure 84]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 405 / measure 84]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 406 / measure 85]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 406 / measure 85]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 407 / measure 86]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 407 / measure 86]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 408 / measure 87]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 408 / measure 87]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 409 / measure 88]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 409 / measure 88]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 410 / measure 89]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 410 / measure 89]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 411 / measure 90]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 411 / measure 90]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 412 / measure 91]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 412 / measure 91]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 413 / measure 92]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 413 / measure 92]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 414 / measure 93]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 414 / measure 93]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 415 / measure 94]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 415 / measure 94]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 416 / measure 95]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 416 / measure 95]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 417 / measure 96]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 417 / measure 96]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 418 / measure 97]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 418 / measure 97]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 419 / measure 98]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 419 / measure 98]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 420 / measure 99]                          %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 420 / measure 99]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 421 / measure 100]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 421 / measure 100]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 422 / measure 101]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 422 / measure 101]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 423 / measure 102]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 423 / measure 102]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 424 / measure 103]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 424 / measure 103]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 425 / measure 104]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 425 / measure 104]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 426 / measure 105]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 426 / measure 105]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 427 / measure 106]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 427 / measure 106]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
-    % [F PianoLHAttackVoice measure 428 / measure 107]                         %! _comment_measure_numbers
+    % [F Piano_LH_Attack_Voice measure 428 / measure 107]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
 }                                                                              %! extern
 
 
-F_PianoLHMusicStaff = <<                                                       %! extern
+F_Piano_LH_Music_Staff = <<                                                    %! extern
 
-    \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
-    \F_PianoLHMusicVoice                                                       %! extern
+    \context Voice = "Piano_LH_Music_Voice"                                    %! ScoreTemplate
+    \F_Piano_LH_Music_Voice                                                    %! extern
 
-    \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
-    \F_PianoLHAttackVoice                                                      %! extern
+    \context Voice = "Piano_LH_Attack_Voice"                                   %! ScoreTemplate
+    \F_Piano_LH_Attack_Voice                                                   %! extern
 
 >>                                                                             %! extern
 
 
-F_PercussionMusicVoice = {                                                     %! extern
+F_Percussion_Music_Voice = {                                                   %! extern
 
-    % [F PercussionMusicVoice measure 322 / measure 1]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 322 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4172,19 +4172,19 @@ F_PercussionMusicVoice = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F PercussionMusicVoice measure 323 / measure 2]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 323 / measure 2]                       %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 324 / measure 3]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 324 / measure 3]                       %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 325 / measure 4]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 325 / measure 4]                       %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 326 / measure 5]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 326 / measure 5]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4193,19 +4193,19 @@ F_PercussionMusicVoice = {                                                     %
 
     r2
 
-    % [F PercussionMusicVoice measure 327 / measure 6]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 327 / measure 6]                       %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 328 / measure 7]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 328 / measure 7]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 329 / measure 8]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 329 / measure 8]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 330 / measure 9]                         %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 330 / measure 9]                       %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4213,25 +4213,25 @@ F_PercussionMusicVoice = {                                                     %
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 331 / measure 10]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 331 / measure 10]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 332 / measure 11]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 332 / measure 11]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 333 / measure 12]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 333 / measure 12]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 334 / measure 13]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 334 / measure 13]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 335 / measure 14]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 335 / measure 14]                      %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4239,25 +4239,25 @@ F_PercussionMusicVoice = {                                                     %
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 336 / measure 15]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 336 / measure 15]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 337 / measure 16]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 337 / measure 16]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 338 / measure 17]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 338 / measure 17]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 339 / measure 18]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 339 / measure 18]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 340 / measure 19]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 340 / measure 19]                      %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4265,25 +4265,25 @@ F_PercussionMusicVoice = {                                                     %
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 341 / measure 20]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 341 / measure 20]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 342 / measure 21]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 342 / measure 21]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 343 / measure 22]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 343 / measure 22]                      %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 344 / measure 23]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 344 / measure 23]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 345 / measure 24]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 345 / measure 24]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 346 / measure 25]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 346 / measure 25]                      %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4291,47 +4291,47 @@ F_PercussionMusicVoice = {                                                     %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 347 / measure 26]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 347 / measure 26]                      %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 348 / measure 27]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 348 / measure 27]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 349 / measure 28]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 349 / measure 28]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 350 / measure 29]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 350 / measure 29]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 351 / measure 30]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 351 / measure 30]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 352 / measure 31]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 352 / measure 31]                      %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 353 / measure 32]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 353 / measure 32]                      %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 354 / measure 33]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 354 / measure 33]                      %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 355 / measure 34]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 355 / measure 34]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 356 / measure 35]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 356 / measure 35]                      %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4339,72 +4339,72 @@ F_PercussionMusicVoice = {                                                     %
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 357 / measure 36]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 357 / measure 36]                      %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 358 / measure 37]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 358 / measure 37]                      %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 359 / measure 38]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 359 / measure 38]                      %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 360 / measure 39]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 360 / measure 39]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 361 / measure 40]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 361 / measure 40]                      %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 362 / measure 41]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 362 / measure 41]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 363 / measure 42]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 363 / measure 42]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F PercussionMusicVoice measure 364 / measure 43]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 364 / measure 43]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 365 / measure 44]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 365 / measure 44]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 366 / measure 45]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 366 / measure 45]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 367 / measure 46]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 367 / measure 46]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 368 / measure 47]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 368 / measure 47]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 
-    % [F PercussionMusicVoice measure 369 / measure 48]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 369 / measure 48]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 370 / measure 49]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 370 / measure 49]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 371 / measure 50]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 371 / measure 50]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 372 / measure 51]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 372 / measure 51]                      %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4412,25 +4412,25 @@ F_PercussionMusicVoice = {                                                     %
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 373 / measure 52]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 373 / measure 52]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 374 / measure 53]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 374 / measure 53]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 375 / measure 54]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 375 / measure 54]                      %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 376 / measure 55]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 376 / measure 55]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 377 / measure 56]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 377 / measure 56]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 378 / measure 57]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 378 / measure 57]                      %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -4438,251 +4438,251 @@ F_PercussionMusicVoice = {                                                     %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 379 / measure 58]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 379 / measure 58]                      %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 380 / measure 59]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 380 / measure 59]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 381 / measure 60]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 381 / measure 60]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 382 / measure 61]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 382 / measure 61]                      %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F PercussionMusicVoice measure 383 / measure 62]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 383 / measure 62]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F PercussionMusicVoice measure 384 / measure 63]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 384 / measure 63]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 385 / measure 64]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 385 / measure 64]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 386 / measure 65]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 386 / measure 65]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 387 / measure 66]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 387 / measure 66]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 388 / measure 67]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 388 / measure 67]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F PercussionMusicVoice measure 389 / measure 68]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 389 / measure 68]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 390 / measure 69]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 390 / measure 69]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 391 / measure 70]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 391 / measure 70]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F PercussionMusicVoice measure 392 / measure 71]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 392 / measure 71]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 393 / measure 72]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 393 / measure 72]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 394 / measure 73]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 394 / measure 73]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 395 / measure 74]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 395 / measure 74]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 396 / measure 75]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 396 / measure 75]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 397 / measure 76]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 397 / measure 76]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 398 / measure 77]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 398 / measure 77]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 399 / measure 78]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 399 / measure 78]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 400 / measure 79]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 400 / measure 79]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 401 / measure 80]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 401 / measure 80]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 402 / measure 81]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 402 / measure 81]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 403 / measure 82]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 403 / measure 82]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 404 / measure 83]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 404 / measure 83]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 405 / measure 84]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 405 / measure 84]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 406 / measure 85]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 406 / measure 85]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 407 / measure 86]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 407 / measure 86]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 408 / measure 87]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 408 / measure 87]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 409 / measure 88]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 409 / measure 88]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 410 / measure 89]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 410 / measure 89]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 411 / measure 90]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 411 / measure 90]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 412 / measure 91]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 412 / measure 91]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 413 / measure 92]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 413 / measure 92]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 414 / measure 93]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 414 / measure 93]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 415 / measure 94]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 415 / measure 94]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 416 / measure 95]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 416 / measure 95]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 417 / measure 96]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 417 / measure 96]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 418 / measure 97]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 418 / measure 97]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 419 / measure 98]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 419 / measure 98]                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 420 / measure 99]                        %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 420 / measure 99]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F PercussionMusicVoice measure 421 / measure 100]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 421 / measure 100]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F PercussionMusicVoice measure 422 / measure 101]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 422 / measure 101]                     %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 423 / measure 102]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 423 / measure 102]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [F PercussionMusicVoice measure 424 / measure 103]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 424 / measure 103]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [F PercussionMusicVoice measure 425 / measure 104]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 425 / measure 104]                     %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 426 / measure 105]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 426 / measure 105]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 427 / measure 106]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 427 / measure 106]                     %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F PercussionMusicVoice measure 428 / measure 107]                       %! _comment_measure_numbers
+    % [F Percussion_Music_Voice measure 428 / measure 107]                     %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_PercussionMusicStaff = {                                                     %! extern
+F_Percussion_Music_Staff = {                                                   %! extern
 
-    \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
-    \F_PercussionMusicVoice                                                    %! extern
+    \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
+    \F_Percussion_Music_Voice                                                  %! extern
 
 }                                                                              %! extern
 
 
-F_ViolinMusicVoice = {                                                         %! extern
+F_Violin_Music_Voice = {                                                       %! extern
 
-    % [F ViolinMusicVoice measure 322 / measure 1]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 322 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -4713,16 +4713,16 @@ F_ViolinMusicVoice = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F ViolinMusicVoice measure 323 / measure 2]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 323 / measure 2]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 324 / measure 3]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 324 / measure 3]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 325 / measure 4]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 325 / measure 4]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 326 / measure 5]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 326 / measure 5]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -4730,17 +4730,17 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 327 / measure 6]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 327 / measure 6]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 328 / measure 7]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 328 / measure 7]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 329 / measure 8]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 329 / measure 8]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -4748,7 +4748,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 330 / measure 9]                             %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 330 / measure 9]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4758,7 +4758,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 331 / measure 10]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 331 / measure 10]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4770,17 +4770,17 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 332 / measure 11]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 332 / measure 11]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 333 / measure 12]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 333 / measure 12]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 334 / measure 13]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 334 / measure 13]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -4788,7 +4788,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 335 / measure 14]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 335 / measure 14]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4798,7 +4798,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 336 / measure 15]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 336 / measure 15]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4810,17 +4810,17 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 337 / measure 16]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 337 / measure 16]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 338 / measure 17]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 338 / measure 17]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 339 / measure 18]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 339 / measure 18]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -4828,7 +4828,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 340 / measure 19]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 340 / measure 19]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4838,7 +4838,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 341 / measure 20]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 341 / measure 20]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4850,38 +4850,38 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 342 / measure 21]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 342 / measure 21]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 343 / measure 22]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 343 / measure 22]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 344 / measure 23]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 344 / measure 23]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 345 / measure 24]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 345 / measure 24]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 346 / measure 25]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 346 / measure 25]                          %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 347 / measure 26]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 347 / measure 26]                          %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 348 / measure 27]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 348 / measure 27]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 349 / measure 28]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 349 / measure 28]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4893,41 +4893,41 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 350 / measure 29]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 350 / measure 29]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 351 / measure 30]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 351 / measure 30]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 352 / measure 31]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 352 / measure 31]                          %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 353 / measure 32]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 353 / measure 32]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 354 / measure 33]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 354 / measure 33]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 355 / measure 34]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 355 / measure 34]                          %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 356 / measure 35]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 356 / measure 35]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 357 / measure 36]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 357 / measure 36]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 358 / measure 37]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 358 / measure 37]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 359 / measure 38]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 359 / measure 38]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -4947,60 +4947,60 @@ F_ViolinMusicVoice = {                                                         %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 360 / measure 39]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 360 / measure 39]                          %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 361 / measure 40]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 361 / measure 40]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 362 / measure 41]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 362 / measure 41]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 363 / measure 42]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 363 / measure 42]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 364 / measure 43]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 364 / measure 43]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F ViolinMusicVoice measure 365 / measure 44]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 365 / measure 44]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ViolinMusicVoice measure 366 / measure 45]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 366 / measure 45]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F ViolinMusicVoice measure 367 / measure 46]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 367 / measure 46]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 368 / measure 47]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 368 / measure 47]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 369 / measure 48]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 369 / measure 48]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F ViolinMusicVoice measure 370 / measure 49]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 370 / measure 49]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 371 / measure 50]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 371 / measure 50]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8                                                                         %! airtone_chain_rhythm
@@ -5008,7 +5008,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 372 / measure 51]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 372 / measure 51]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -5018,7 +5018,7 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 373 / measure 52]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 373 / measure 52]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -5030,38 +5030,38 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 374 / measure 53]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 374 / measure 53]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 375 / measure 54]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 375 / measure 54]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 376 / measure 55]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 376 / measure 55]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 377 / measure 56]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 377 / measure 56]                          %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 378 / measure 57]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 378 / measure 57]                          %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 379 / measure 58]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 379 / measure 58]                          %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 380 / measure 59]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 380 / measure 59]                          %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 381 / measure 60]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 381 / measure 60]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -5073,53 +5073,53 @@ F_ViolinMusicVoice = {                                                         %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 382 / measure 61]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 382 / measure 61]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolinMusicVoice measure 383 / measure 62]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 383 / measure 62]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 384 / measure 63]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 384 / measure 63]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ViolinMusicVoice measure 385 / measure 64]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 385 / measure 64]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ViolinMusicVoice measure 386 / measure 65]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 386 / measure 65]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ViolinMusicVoice measure 387 / measure 66]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 387 / measure 66]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 388 / measure 67]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 388 / measure 67]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 389 / measure 68]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 389 / measure 68]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F ViolinMusicVoice measure 390 / measure 69]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 390 / measure 69]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 391 / measure 70]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 391 / measure 70]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 392 / measure 71]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 392 / measure 71]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
@@ -5127,7 +5127,7 @@ F_ViolinMusicVoice = {                                                         %
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F ViolinMusicVoice measure 393 / measure 72]                        %! _comment_measure_numbers
+        % [F Violin_Music_Voice measure 393 / measure 72]                      %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -5153,7 +5153,7 @@ F_ViolinMusicVoice = {                                                         %
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F ViolinMusicVoice measure 394 / measure 73]                        %! _comment_measure_numbers
+        % [F Violin_Music_Voice measure 394 / measure 73]                      %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -5176,12 +5176,12 @@ F_ViolinMusicVoice = {                                                         %
 
     }                                                                          %! clb_rhythm
 
-    % [F ViolinMusicVoice measure 395 / measure 74]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 395 / measure 74]                          %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 396 / measure 75]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 396 / measure 75]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
@@ -5190,7 +5190,7 @@ F_ViolinMusicVoice = {                                                         %
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F ViolinMusicVoice measure 397 / measure 76]                        %! _comment_measure_numbers
+        % [F Violin_Music_Voice measure 397 / measure 76]                      %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -5213,7 +5213,7 @@ F_ViolinMusicVoice = {                                                         %
 
     }                                                                          %! clb_rhythm
 
-    % [F ViolinMusicVoice measure 398 / measure 77]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 398 / measure 77]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! clb_rhythm
     [                                                                          %! clb_rhythm
@@ -5234,16 +5234,16 @@ F_ViolinMusicVoice = {                                                         %
     c'8                                                                        %! clb_rhythm
     ]                                                                          %! clb_rhythm
 
-    % [F ViolinMusicVoice measure 399 / measure 78]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 399 / measure 78]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 400 / measure 79]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 400 / measure 79]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F ViolinMusicVoice measure 401 / measure 80]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 401 / measure 80]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5282,7 +5282,7 @@ F_ViolinMusicVoice = {                                                         %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 402 / measure 81]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 402 / measure 81]                          %! _comment_measure_numbers
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5326,18 +5326,18 @@ F_ViolinMusicVoice = {                                                         %
 
     r16                                                                        %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 403 / measure 82]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 403 / measure 82]                          %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 404 / measure 83]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 404 / measure 83]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F ViolinMusicVoice measure 405 / measure 84]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 405 / measure 84]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5376,7 +5376,7 @@ F_ViolinMusicVoice = {                                                         %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 406 / measure 85]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 406 / measure 85]                          %! _comment_measure_numbers
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5420,18 +5420,18 @@ F_ViolinMusicVoice = {                                                         %
 
     r16                                                                        %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 407 / measure 86]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 407 / measure 86]                          %! _comment_measure_numbers
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 
-    % [F ViolinMusicVoice measure 408 / measure 87]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 408 / measure 87]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F ViolinMusicVoice measure 409 / measure 88]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 409 / measure 88]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5480,7 +5480,7 @@ F_ViolinMusicVoice = {                                                         %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 410 / measure 89]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 410 / measure 89]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5514,19 +5514,19 @@ F_ViolinMusicVoice = {                                                         %
 
     r16                                                                        %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 411 / measure 90]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 411 / measure 90]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 412 / measure 91]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 412 / measure 91]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 413 / measure 92]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 413 / measure 92]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 414 / measure 93]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 414 / measure 93]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 415 / measure 94]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 415 / measure 94]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5575,7 +5575,7 @@ F_ViolinMusicVoice = {                                                         %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 416 / measure 95]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 416 / measure 95]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5596,37 +5596,37 @@ F_ViolinMusicVoice = {                                                         %
 
     r8                                                                         %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 417 / measure 96]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 417 / measure 96]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 418 / measure 97]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 418 / measure 97]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 419 / measure 98]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 419 / measure 98]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 420 / measure 99]                            %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 420 / measure 99]                          %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 421 / measure 100]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 421 / measure 100]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 422 / measure 101]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 422 / measure 101]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 423 / measure 102]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 423 / measure 102]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [F ViolinMusicVoice measure 424 / measure 103]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 424 / measure 103]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [F ViolinMusicVoice measure 425 / measure 104]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 425 / measure 104]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolinMusicVoice measure 426 / measure 105]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 426 / measure 105]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5675,7 +5675,7 @@ F_ViolinMusicVoice = {                                                         %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 427 / measure 106]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 427 / measure 106]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -5696,23 +5696,23 @@ F_ViolinMusicVoice = {                                                         %
 
     r8                                                                         %! spazzolati_rhythm
 
-    % [F ViolinMusicVoice measure 428 / measure 107]                           %! _comment_measure_numbers
+    % [F Violin_Music_Voice measure 428 / measure 107]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_ViolinMusicStaff = {                                                         %! extern
+F_Violin_Music_Staff = {                                                       %! extern
 
-    \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
-    \F_ViolinMusicVoice                                                        %! extern
+    \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
+    \F_Violin_Music_Voice                                                      %! extern
 
 }                                                                              %! extern
 
 
-F_ViolaMusicVoice = {                                                          %! extern
+F_Viola_Music_Voice = {                                                        %! extern
 
-    % [F ViolaMusicVoice measure 322 / measure 1]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 322 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -5743,43 +5743,43 @@ F_ViolaMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F ViolaMusicVoice measure 323 / measure 2]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 323 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 324 / measure 3]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 324 / measure 3]                            %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 325 / measure 4]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 325 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 326 / measure 5]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 326 / measure 5]                            %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 327 / measure 6]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 327 / measure 6]                            %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 328 / measure 7]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 328 / measure 7]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 329 / measure 8]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 329 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 330 / measure 9]                              %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 330 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 331 / measure 10]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 331 / measure 10]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 332 / measure 11]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 332 / measure 11]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -5787,24 +5787,24 @@ F_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 333 / measure 12]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 333 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 334 / measure 13]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 334 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 335 / measure 14]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 335 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 336 / measure 15]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 336 / measure 15]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 337 / measure 16]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 337 / measure 16]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -5812,24 +5812,24 @@ F_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 338 / measure 17]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 338 / measure 17]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 339 / measure 18]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 339 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 340 / measure 19]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 340 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 341 / measure 20]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 341 / measure 20]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 342 / measure 21]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 342 / measure 21]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -5837,11 +5837,11 @@ F_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 343 / measure 22]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 343 / measure 22]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 344 / measure 23]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 344 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -5850,19 +5850,19 @@ F_ViolaMusicVoice = {                                                          %
 
     r2
 
-    % [F ViolaMusicVoice measure 345 / measure 24]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 345 / measure 24]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 346 / measure 25]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 346 / measure 25]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 347 / measure 26]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 347 / measure 26]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 348 / measure 27]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 348 / measure 27]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -5880,16 +5880,16 @@ F_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 349 / measure 28]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 349 / measure 28]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 350 / measure 29]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 350 / measure 29]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 351 / measure 30]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 351 / measure 30]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 352 / measure 31]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 352 / measure 31]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5901,85 +5901,85 @@ F_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 353 / measure 32]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 353 / measure 32]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 354 / measure 33]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 354 / measure 33]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 355 / measure 34]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 355 / measure 34]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 356 / measure 35]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 356 / measure 35]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 357 / measure 36]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 357 / measure 36]                           %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 358 / measure 37]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 358 / measure 37]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 359 / measure 38]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 359 / measure 38]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 360 / measure 39]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 360 / measure 39]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 361 / measure 40]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 361 / measure 40]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 362 / measure 41]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 362 / measure 41]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 363 / measure 42]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 363 / measure 42]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 364 / measure 43]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 364 / measure 43]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 365 / measure 44]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 365 / measure 44]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 366 / measure 45]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 366 / measure 45]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 367 / measure 46]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 367 / measure 46]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 368 / measure 47]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 368 / measure 47]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 369 / measure 48]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 369 / measure 48]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 370 / measure 49]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 370 / measure 49]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 371 / measure 50]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 371 / measure 50]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 372 / measure 51]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 372 / measure 51]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r2..                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 373 / measure 52]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 373 / measure 52]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 374 / measure 53]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 374 / measure 53]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     r8
@@ -5987,11 +5987,11 @@ F_ViolaMusicVoice = {                                                          %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 375 / measure 54]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 375 / measure 54]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 376 / measure 55]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 376 / measure 55]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
     \repeatTie
@@ -6000,19 +6000,19 @@ F_ViolaMusicVoice = {                                                          %
 
     r2
 
-    % [F ViolaMusicVoice measure 377 / measure 56]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 377 / measure 56]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 378 / measure 57]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 378 / measure 57]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 379 / measure 58]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 379 / measure 58]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 380 / measure 59]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 380 / measure 59]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
     \repeatTie
@@ -6030,46 +6030,46 @@ F_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 381 / measure 60]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 381 / measure 60]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 382 / measure 61]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 382 / measure 61]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F ViolaMusicVoice measure 383 / measure 62]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 383 / measure 62]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 384 / measure 63]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 384 / measure 63]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 385 / measure 64]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 385 / measure 64]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 386 / measure 65]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 386 / measure 65]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 387 / measure 66]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 387 / measure 66]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 388 / measure 67]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 388 / measure 67]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 389 / measure 68]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 389 / measure 68]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 390 / measure 69]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 390 / measure 69]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 391 / measure 70]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 391 / measure 70]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 392 / measure 71]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 392 / measure 71]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F ViolaMusicVoice measure 393 / measure 72]                         %! _comment_measure_numbers
+        % [F Viola_Music_Voice measure 393 / measure 72]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -6095,7 +6095,7 @@ F_ViolaMusicVoice = {                                                          %
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F ViolaMusicVoice measure 394 / measure 73]                         %! _comment_measure_numbers
+        % [F Viola_Music_Voice measure 394 / measure 73]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -6118,16 +6118,16 @@ F_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! clb_rhythm
 
-    % [F ViolaMusicVoice measure 395 / measure 74]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 395 / measure 74]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 396 / measure 75]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 396 / measure 75]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! clb_rhythm
     \times 4/6 {                                                               %! clb_rhythm
 
-        % [F ViolaMusicVoice measure 397 / measure 76]                         %! _comment_measure_numbers
+        % [F Viola_Music_Voice measure 397 / measure 76]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! clb_rhythm
         [                                                                      %! clb_rhythm
@@ -6150,7 +6150,7 @@ F_ViolaMusicVoice = {                                                          %
 
     }                                                                          %! clb_rhythm
 
-    % [F ViolaMusicVoice measure 398 / measure 77]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 398 / measure 77]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! clb_rhythm
     [                                                                          %! clb_rhythm
@@ -6171,13 +6171,13 @@ F_ViolaMusicVoice = {                                                          %
     c'8                                                                        %! clb_rhythm
     ]                                                                          %! clb_rhythm
 
-    % [F ViolaMusicVoice measure 399 / measure 78]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 399 / measure 78]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 400 / measure 79]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 400 / measure 79]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 401 / measure 80]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 401 / measure 80]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6216,7 +6216,7 @@ F_ViolaMusicVoice = {                                                          %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 402 / measure 81]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 402 / measure 81]                           %! _comment_measure_numbers
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6260,13 +6260,13 @@ F_ViolaMusicVoice = {                                                          %
 
     r16                                                                        %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 403 / measure 82]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 403 / measure 82]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 404 / measure 83]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 404 / measure 83]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 405 / measure 84]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 405 / measure 84]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6305,7 +6305,7 @@ F_ViolaMusicVoice = {                                                          %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 406 / measure 85]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 406 / measure 85]                           %! _comment_measure_numbers
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6349,13 +6349,13 @@ F_ViolaMusicVoice = {                                                          %
 
     r16                                                                        %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 407 / measure 86]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 407 / measure 86]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 408 / measure 87]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 408 / measure 87]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 409 / measure 88]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 409 / measure 88]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6404,7 +6404,7 @@ F_ViolaMusicVoice = {                                                          %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 410 / measure 89]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 410 / measure 89]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6438,19 +6438,19 @@ F_ViolaMusicVoice = {                                                          %
 
     r16                                                                        %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 411 / measure 90]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 411 / measure 90]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 412 / measure 91]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 412 / measure 91]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 413 / measure 92]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 413 / measure 92]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 414 / measure 93]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 414 / measure 93]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 415 / measure 94]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 415 / measure 94]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6499,7 +6499,7 @@ F_ViolaMusicVoice = {                                                          %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 416 / measure 95]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 416 / measure 95]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6520,37 +6520,37 @@ F_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 417 / measure 96]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 417 / measure 96]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 418 / measure 97]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 418 / measure 97]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 419 / measure 98]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 419 / measure 98]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 420 / measure 99]                             %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 420 / measure 99]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 421 / measure 100]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 421 / measure 100]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 422 / measure 101]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 422 / measure 101]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 423 / measure 102]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 423 / measure 102]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [F ViolaMusicVoice measure 424 / measure 103]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 424 / measure 103]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [F ViolaMusicVoice measure 425 / measure 104]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 425 / measure 104]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F ViolaMusicVoice measure 426 / measure 105]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 426 / measure 105]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6599,7 +6599,7 @@ F_ViolaMusicVoice = {                                                          %
     c'16                                                                       %! spazzolati_rhythm
     ]                                                                          %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 427 / measure 106]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 427 / measure 106]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
     [                                                                          %! spazzolati_rhythm
@@ -6620,23 +6620,23 @@ F_ViolaMusicVoice = {                                                          %
 
     r8                                                                         %! spazzolati_rhythm
 
-    % [F ViolaMusicVoice measure 428 / measure 107]                            %! _comment_measure_numbers
+    % [F Viola_Music_Voice measure 428 / measure 107]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_ViolaMusicStaff = {                                                          %! extern
+F_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \F_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \F_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-F_CelloMusicVoice = {                                                          %! extern
+F_Cello_Music_Voice = {                                                        %! extern
 
-    % [F CelloMusicVoice measure 322 / measure 1]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 322 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -6667,28 +6667,28 @@ F_CelloMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [F CelloMusicVoice measure 323 / measure 2]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 323 / measure 2]                            %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 324 / measure 3]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 324 / measure 3]                            %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 325 / measure 4]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 325 / measure 4]                            %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 326 / measure 5]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 326 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! airtone_chain_rhythm
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 327 / measure 6]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 327 / measure 6]                            %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 328 / measure 7]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 328 / measure 7]                            %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 329 / measure 8]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 329 / measure 8]                            %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6696,7 +6696,7 @@ F_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 330 / measure 9]                              %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 330 / measure 9]                            %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6710,7 +6710,7 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 331 / measure 10]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 331 / measure 10]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6718,13 +6718,13 @@ F_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 332 / measure 11]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 332 / measure 11]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 333 / measure 12]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 333 / measure 12]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 334 / measure 13]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 334 / measure 13]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6732,7 +6732,7 @@ F_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 335 / measure 14]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 335 / measure 14]                           %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6746,7 +6746,7 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 336 / measure 15]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 336 / measure 15]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6754,13 +6754,13 @@ F_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 337 / measure 16]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 337 / measure 16]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 338 / measure 17]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 338 / measure 17]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 339 / measure 18]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 339 / measure 18]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6768,7 +6768,7 @@ F_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 340 / measure 19]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 340 / measure 19]                           %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6782,7 +6782,7 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 341 / measure 20]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 341 / measure 20]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6790,32 +6790,32 @@ F_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 342 / measure 21]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 342 / measure 21]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 343 / measure 22]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 343 / measure 22]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 344 / measure 23]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 344 / measure 23]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 345 / measure 24]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 345 / measure 24]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 346 / measure 25]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 346 / measure 25]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 347 / measure 26]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 347 / measure 26]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 348 / measure 27]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 348 / measure 27]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6829,7 +6829,7 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 349 / measure 28]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 349 / measure 28]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6837,22 +6837,22 @@ F_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 350 / measure 29]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 350 / measure 29]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 351 / measure 30]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 351 / measure 30]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 352 / measure 31]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 352 / measure 31]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 353 / measure 32]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 353 / measure 32]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 354 / measure 33]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 354 / measure 33]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 355 / measure 34]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 355 / measure 34]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6860,7 +6860,7 @@ F_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 356 / measure 35]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 356 / measure 35]                           %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6874,52 +6874,52 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 357 / measure 36]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 357 / measure 36]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 358 / measure 37]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 358 / measure 37]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 359 / measure 38]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 359 / measure 38]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 360 / measure 39]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 360 / measure 39]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 361 / measure 40]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 361 / measure 40]                           %! _comment_measure_numbers
     r2.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 362 / measure 41]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 362 / measure 41]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 363 / measure 42]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 363 / measure 42]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 364 / measure 43]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 364 / measure 43]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 365 / measure 44]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 365 / measure 44]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 366 / measure 45]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 366 / measure 45]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 367 / measure 46]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 367 / measure 46]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 368 / measure 47]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 368 / measure 47]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 369 / measure 48]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 369 / measure 48]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 370 / measure 49]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 370 / measure 49]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 371 / measure 50]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 371 / measure 50]                           %! _comment_measure_numbers
     r4                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6927,7 +6927,7 @@ F_CelloMusicVoice = {                                                          %
 
     r8                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 372 / measure 51]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 372 / measure 51]                           %! _comment_measure_numbers
     r4.                                                                        %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6941,7 +6941,7 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 373 / measure 52]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 373 / measure 52]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6949,32 +6949,32 @@ F_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 374 / measure 53]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 374 / measure 53]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 375 / measure 54]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 375 / measure 54]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 376 / measure 55]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 376 / measure 55]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 377 / measure 56]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 377 / measure 56]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 378 / measure 57]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 378 / measure 57]                           %! _comment_measure_numbers
     r2                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 379 / measure 58]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 379 / measure 58]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! airtone_chain_rhythm
     \repeatTie
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 380 / measure 59]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 380 / measure 59]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6988,7 +6988,7 @@ F_CelloMusicVoice = {                                                          %
 
     r4.                                                                        %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 381 / measure 60]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 381 / measure 60]                           %! _comment_measure_numbers
     r8                                                                         %! airtone_chain_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6996,206 +6996,206 @@ F_CelloMusicVoice = {                                                          %
 
     r4                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 382 / measure 61]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 382 / measure 61]                           %! _comment_measure_numbers
     r1                                                                         %! airtone_chain_rhythm
 
-    % [F CelloMusicVoice measure 383 / measure 62]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 383 / measure 62]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 384 / measure 63]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 384 / measure 63]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 385 / measure 64]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 385 / measure 64]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 386 / measure 65]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 386 / measure 65]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 387 / measure 66]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 387 / measure 66]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 388 / measure 67]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 388 / measure 67]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 389 / measure 68]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 389 / measure 68]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 390 / measure 69]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 390 / measure 69]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 391 / measure 70]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 391 / measure 70]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
 
-    % [F CelloMusicVoice measure 392 / measure 71]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 392 / measure 71]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 393 / measure 72]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 393 / measure 72]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 394 / measure 73]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 394 / measure 73]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 395 / measure 74]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 395 / measure 74]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 396 / measure 75]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 396 / measure 75]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 397 / measure 76]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 397 / measure 76]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 398 / measure 77]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 398 / measure 77]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 399 / measure 78]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 399 / measure 78]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 400 / measure 79]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 400 / measure 79]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 401 / measure 80]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 401 / measure 80]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 402 / measure 81]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 402 / measure 81]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 403 / measure 82]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 403 / measure 82]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 404 / measure 83]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 404 / measure 83]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 405 / measure 84]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 405 / measure 84]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 406 / measure 85]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 406 / measure 85]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 407 / measure 86]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 407 / measure 86]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 408 / measure 87]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 408 / measure 87]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 409 / measure 88]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 409 / measure 88]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak direction #up
     \repeatTie
 
-    % [F CelloMusicVoice measure 410 / measure 89]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 410 / measure 89]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 411 / measure 90]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 411 / measure 90]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 412 / measure 91]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 412 / measure 91]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
-    % [F CelloMusicVoice measure 413 / measure 92]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 413 / measure 92]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 414 / measure 93]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 414 / measure 93]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 415 / measure 94]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 415 / measure 94]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 416 / measure 95]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 416 / measure 95]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 417 / measure 96]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 417 / measure 96]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 418 / measure 97]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 418 / measure 97]                           %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 419 / measure 98]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 419 / measure 98]                           %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 420 / measure 99]                             %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 420 / measure 99]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 421 / measure 100]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 421 / measure 100]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 422 / measure 101]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 422 / measure 101]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 423 / measure 102]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 423 / measure 102]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [F CelloMusicVoice measure 424 / measure 103]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 424 / measure 103]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [F CelloMusicVoice measure 425 / measure 104]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 425 / measure 104]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 426 / measure 105]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 426 / measure 105]                          %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 427 / measure 106]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 427 / measure 106]                          %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [F CelloMusicVoice measure 428 / measure 107]                            %! _comment_measure_numbers
+    % [F Cello_Music_Voice measure 428 / measure 107]                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _make_measure_silences
 
 }                                                                              %! extern
 
 
-F_CelloMusicStaff = {                                                          %! extern
+F_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \F_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \F_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
