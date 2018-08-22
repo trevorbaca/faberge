@@ -1,17 +1,17 @@
-i_GlobalRests = {                                                              %! extern
+i_Global_Rests = {                                                             %! extern
 
-    % [_ GlobalRests measure 1]                                                %! _comment_measure_numbers
+    % [_ Global_Rests measure 1]                                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests
 
-    % [_ GlobalRests measure 2]                                                %! _comment_measure_numbers
+    % [_ Global_Rests measure 2]                                               %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
 
-    % [_ GlobalRests measure 3]                                                %! _comment_measure_numbers
+    % [_ Global_Rests measure 3]                                               %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests
 
-    % [_ GlobalRests measure 4]                                                %! _comment_measure_numbers
+    % [_ Global_Rests measure 4]                                               %! _comment_measure_numbers
     \once \override Score.TimeSignature.stencil = ##f                          %! baca_global_fermata:GlobalFermataCommand(2)
     R1 * 1/4                                                                   %! _make_global_rests
     ^ \baca-fermata-markup                                                     %! baca_global_fermata:GlobalFermataCommand(1)
@@ -19,9 +19,9 @@ i_GlobalRests = {                                                              %
 }                                                                              %! extern
 
 
-i_GlobalSkips = {                                                              %! extern
+i_Global_Skips = {                                                             %! extern
 
-    % [_ GlobalSkips measure 1]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 1]                                               %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -37,7 +37,7 @@ i_GlobalSkips = {                                                              %
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "100" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \startTextSpan                                                             %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 
-    % [_ GlobalSkips measure 2]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 2]                                               %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)
@@ -47,7 +47,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.2]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'01'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 3]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 3]                                               %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -57,7 +57,7 @@ i_GlobalSkips = {                                                              %
 %@% ^ \baca-dark-cyan-markup [_.3]                                             %! STAGE_NUMBER_MARKUP:_label_stage_numbers
 %@% ^ \baca-dark-cyan-markup "[0'02'']"                                        %! CLOCK_TIME_MARKUP:_label_clock_time
 
-    % [_ GlobalSkips measure 4]                                                %! _comment_measure_numbers
+    % [_ Global_Skips measure 4]                                               %! _comment_measure_numbers
     \time 1/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1/4                                                                   %! _make_global_skips(1)

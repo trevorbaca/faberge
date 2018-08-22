@@ -32,12 +32,12 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('100', selector=baca.leaf(1 - 1)),
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(2 - 1)),
     baca.global_fermata('fermata', selector=baca.leaf(4 - 1)),
     )
