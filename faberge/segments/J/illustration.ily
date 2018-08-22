@@ -323,9 +323,9 @@ J_GlobalSkips = {                                                              %
 }                                                                              %! extern
 
 
-J_FluteMusicVoice = {                                                          %! extern
+J_Flute_Music_Voice = {                                                        %! extern
 
-    % [J FluteMusicVoice measure 618 / measure 1]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 618 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -352,115 +352,115 @@ J_FluteMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J FluteMusicVoice measure 619 / measure 2]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 619 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 620 / measure 3]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 620 / measure 3]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 621 / measure 4]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 621 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 622 / measure 5]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 622 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 623 / measure 6]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 623 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 624 / measure 7]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 624 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 625 / measure 8]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 625 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 626 / measure 9]                              %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 626 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
 
-    % [J FluteMusicVoice measure 627 / measure 10]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 627 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 628 / measure 11]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 628 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 629 / measure 12]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 629 / measure 12]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 630 / measure 13]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 630 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 631 / measure 14]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 631 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 632 / measure 15]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 632 / measure 15]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 633 / measure 16]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 633 / measure 16]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 634 / measure 17]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 634 / measure 17]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
 
-    % [J FluteMusicVoice measure 635 / measure 18]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 635 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 636 / measure 19]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 636 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 637 / measure 20]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 637 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 638 / measure 21]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 638 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 639 / measure 22]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 639 / measure 22]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 640 / measure 23]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 640 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J FluteMusicVoice measure 641 / measure 24]                             %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 641 / measure 24]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''2                                                                       %! shell_transition_rhythm
     \repeatTie
@@ -468,17 +468,17 @@ J_FluteMusicVoice = {                                                          %
 }                                                                              %! extern
 
 
-J_FluteMusicStaff = {                                                          %! extern
+J_Flute_Music_Staff = {                                                        %! extern
 
-    \context Voice = "FluteMusicVoice"                                         %! ScoreTemplate
-    \J_FluteMusicVoice                                                         %! extern
+    \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
+    \J_Flute_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-J_EnglishHornMusicVoice = {                                                    %! extern
+J_English_Horn_Music_Voice = {                                                 %! extern
 
-    % [J EnglishHornMusicVoice measure 618 / measure 1]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 618 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -509,115 +509,115 @@ J_EnglishHornMusicVoice = {                                                    %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J EnglishHornMusicVoice measure 619 / measure 2]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 619 / measure 2]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 620 / measure 3]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 620 / measure 3]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 621 / measure 4]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 621 / measure 4]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 622 / measure 5]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 622 / measure 5]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 623 / measure 6]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 623 / measure 6]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 624 / measure 7]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 624 / measure 7]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 625 / measure 8]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 625 / measure 8]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 626 / measure 9]                        %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 626 / measure 9]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
 
-    % [J EnglishHornMusicVoice measure 627 / measure 10]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 627 / measure 10]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 628 / measure 11]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 628 / measure 11]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 629 / measure 12]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 629 / measure 12]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 630 / measure 13]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 630 / measure 13]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 631 / measure 14]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 631 / measure 14]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 632 / measure 15]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 632 / measure 15]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 633 / measure 16]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 633 / measure 16]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 634 / measure 17]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 634 / measure 17]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! shell_transition_rhythm
 
-    % [J EnglishHornMusicVoice measure 635 / measure 18]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 635 / measure 18]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 636 / measure 19]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 636 / measure 19]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 637 / measure 20]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 637 / measure 20]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 638 / measure 21]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 638 / measure 21]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 639 / measure 22]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 639 / measure 22]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 640 / measure 23]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 640 / measure 23]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J EnglishHornMusicVoice measure 641 / measure 24]                       %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 641 / measure 24]                    %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -625,17 +625,17 @@ J_EnglishHornMusicVoice = {                                                    %
 }                                                                              %! extern
 
 
-J_EnglishHornMusicStaff = {                                                    %! extern
+J_English_Horn_Music_Staff = {                                                 %! extern
 
-    \context Voice = "EnglishHornMusicVoice"                                   %! ScoreTemplate
-    \J_EnglishHornMusicVoice                                                   %! extern
+    \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
+    \J_English_Horn_Music_Voice                                                %! extern
 
 }                                                                              %! extern
 
 
-J_ClarinetMusicVoice = {                                                       %! extern
+J_Clarinet_Music_Voice = {                                                     %! extern
 
-    % [J ClarinetMusicVoice measure 618 / measure 1]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 618 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -662,115 +662,115 @@ J_ClarinetMusicVoice = {                                                       %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ClarinetMusicVoice measure 619 / measure 2]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 619 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 620 / measure 3]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 620 / measure 3]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 621 / measure 4]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 621 / measure 4]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 622 / measure 5]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 622 / measure 5]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 623 / measure 6]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 623 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 624 / measure 7]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 624 / measure 7]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 625 / measure 8]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 625 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 626 / measure 9]                           %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 626 / measure 9]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
 
-    % [J ClarinetMusicVoice measure 627 / measure 10]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 627 / measure 10]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 628 / measure 11]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 628 / measure 11]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 629 / measure 12]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 629 / measure 12]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 630 / measure 13]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 630 / measure 13]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 631 / measure 14]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 631 / measure 14]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 632 / measure 15]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 632 / measure 15]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 633 / measure 16]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 633 / measure 16]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 634 / measure 17]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 634 / measure 17]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
 
-    % [J ClarinetMusicVoice measure 635 / measure 18]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 635 / measure 18]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 636 / measure 19]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 636 / measure 19]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 637 / measure 20]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 637 / measure 20]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 638 / measure 21]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 638 / measure 21]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 639 / measure 22]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 639 / measure 22]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2.                                                                      %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 640 / measure 23]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 640 / measure 23]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''1                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ClarinetMusicVoice measure 641 / measure 24]                          %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 641 / measure 24]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''2                                                                       %! shell_transition_rhythm
     \repeatTie
@@ -778,17 +778,17 @@ J_ClarinetMusicVoice = {                                                       %
 }                                                                              %! extern
 
 
-J_ClarinetMusicStaff = {                                                       %! extern
+J_Clarinet_Music_Staff = {                                                     %! extern
 
-    \context Voice = "ClarinetMusicVoice"                                      %! ScoreTemplate
-    \J_ClarinetMusicVoice                                                      %! extern
+    \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
+    \J_Clarinet_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-J_PianoRHMusicVoice = {                                                        %! extern
+J_Piano_RH_Music_Voice = {                                                     %! extern
 
-    % [J PianoRHMusicVoice measure 618 / measure 1]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 618 / measure 1]                         %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName =                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -813,115 +813,115 @@ J_PianoRHMusicVoice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J PianoRHMusicVoice measure 619 / measure 2]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 619 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 620 / measure 3]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 620 / measure 3]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 621 / measure 4]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 621 / measure 4]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 622 / measure 5]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 622 / measure 5]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 623 / measure 6]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 623 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 624 / measure 7]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 624 / measure 7]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 625 / measure 8]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 625 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 626 / measure 9]                            %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 626 / measure 9]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [J PianoRHMusicVoice measure 627 / measure 10]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 627 / measure 10]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 628 / measure 11]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 628 / measure 11]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 629 / measure 12]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 629 / measure 12]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 630 / measure 13]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 630 / measure 13]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 631 / measure 14]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 631 / measure 14]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 632 / measure 15]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 632 / measure 15]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 633 / measure 16]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 633 / measure 16]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 634 / measure 17]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 634 / measure 17]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
 
-    % [J PianoRHMusicVoice measure 635 / measure 18]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 635 / measure 18]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 636 / measure 19]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 636 / measure 19]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 637 / measure 20]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 637 / measure 20]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 638 / measure 21]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 638 / measure 21]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 639 / measure 22]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 639 / measure 22]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 640 / measure 23]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 640 / measure 23]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoRHMusicVoice measure 641 / measure 24]                           %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 641 / measure 24]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -929,17 +929,17 @@ J_PianoRHMusicVoice = {                                                        %
 }                                                                              %! extern
 
 
-J_PianoRHMusicStaff = {                                                        %! extern
+J_Piano_RH_Music_Staff = {                                                     %! extern
 
-    \context Voice = "PianoRHMusicVoice"                                       %! ScoreTemplate
-    \J_PianoRHMusicVoice                                                       %! extern
+    \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
+    \J_Piano_RH_Music_Voice                                                    %! extern
 
 }                                                                              %! extern
 
 
-J_PianoLHMusicVoice = {                                                        %! extern
+J_Piano_LH_Music_Voice = {                                                     %! extern
 
-    % [J PianoLHMusicVoice measure 618 / measure 1]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 618 / measure 1]                         %! _comment_measure_numbers
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -948,115 +948,115 @@ J_PianoLHMusicVoice = {                                                        %
     c'1                                                                        %! shell_transition_rhythm
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J PianoLHMusicVoice measure 619 / measure 2]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 619 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 620 / measure 3]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 620 / measure 3]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 621 / measure 4]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 621 / measure 4]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 622 / measure 5]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 622 / measure 5]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 623 / measure 6]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 623 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 624 / measure 7]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 624 / measure 7]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 625 / measure 8]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 625 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 626 / measure 9]                            %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 626 / measure 9]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [J PianoLHMusicVoice measure 627 / measure 10]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 627 / measure 10]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 628 / measure 11]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 628 / measure 11]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 629 / measure 12]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 629 / measure 12]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 630 / measure 13]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 630 / measure 13]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 631 / measure 14]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 631 / measure 14]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 632 / measure 15]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 632 / measure 15]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 633 / measure 16]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 633 / measure 16]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 634 / measure 17]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 634 / measure 17]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
 
-    % [J PianoLHMusicVoice measure 635 / measure 18]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 635 / measure 18]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 636 / measure 19]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 636 / measure 19]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 637 / measure 20]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 637 / measure 20]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 638 / measure 21]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 638 / measure 21]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 639 / measure 22]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 639 / measure 22]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 640 / measure 23]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 640 / measure 23]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PianoLHMusicVoice measure 641 / measure 24]                           %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 641 / measure 24]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -1064,9 +1064,9 @@ J_PianoLHMusicVoice = {                                                        %
 }                                                                              %! extern
 
 
-J_PianoLHAttackVoice = {                                                       %! extern
+J_Piano_LH_Attack_Voice = {                                                    %! extern
 
-    % [J PianoLHAttackVoice measure 618 / measure 1]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 618 / measure 1]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! piano_attack_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1074,28 +1074,28 @@ J_PianoLHAttackVoice = {                                                       %
 
     s2...                                                                      %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 619 / measure 2]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 619 / measure 2]                        %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 620 / measure 3]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 620 / measure 3]                        %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 621 / measure 4]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 621 / measure 4]                        %! _comment_measure_numbers
     s2                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 622 / measure 5]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 622 / measure 5]                        %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 623 / measure 6]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 623 / measure 6]                        %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 624 / measure 7]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 624 / measure 7]                        %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 625 / measure 8]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 625 / measure 8]                        %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 626 / measure 9]                           %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 626 / measure 9]                        %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! piano_attack_rhythm
 
@@ -1103,71 +1103,71 @@ J_PianoLHAttackVoice = {                                                       %
 
     s8.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 627 / measure 10]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 627 / measure 10]                       %! _comment_measure_numbers
     s2                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 628 / measure 11]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 628 / measure 11]                       %! _comment_measure_numbers
     s2                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 629 / measure 12]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 629 / measure 12]                       %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 630 / measure 13]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 630 / measure 13]                       %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 631 / measure 14]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 631 / measure 14]                       %! _comment_measure_numbers
     s2                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 632 / measure 15]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 632 / measure 15]                       %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 633 / measure 16]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 633 / measure 16]                       %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 634 / measure 17]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 634 / measure 17]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! piano_attack_rhythm
 
     s4..                                                                       %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 635 / measure 18]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 635 / measure 18]                       %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 636 / measure 19]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 636 / measure 19]                       %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 637 / measure 20]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 637 / measure 20]                       %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 638 / measure 21]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 638 / measure 21]                       %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 639 / measure 22]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 639 / measure 22]                       %! _comment_measure_numbers
     s2.                                                                        %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 640 / measure 23]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 640 / measure 23]                       %! _comment_measure_numbers
     s1                                                                         %! piano_attack_rhythm
 
-    % [J PianoLHAttackVoice measure 641 / measure 24]                          %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 641 / measure 24]                       %! _comment_measure_numbers
     s2                                                                         %! piano_attack_rhythm
 
 }                                                                              %! extern
 
 
-J_PianoLHMusicStaff = <<                                                       %! extern
+J_Piano_LH_Music_Staff = <<                                                    %! extern
 
-    \context Voice = "PianoLHMusicVoice"                                       %! ScoreTemplate
-    \J_PianoLHMusicVoice                                                       %! extern
+    \context Voice = "Piano_LH_Music_Voice"                                    %! ScoreTemplate
+    \J_Piano_LH_Music_Voice                                                    %! extern
 
-    \context Voice = "PianoLHAttackVoice"                                      %! ScoreTemplate
-    \J_PianoLHAttackVoice                                                      %! extern
+    \context Voice = "Piano_LH_Attack_Voice"                                   %! ScoreTemplate
+    \J_Piano_LH_Attack_Voice                                                   %! extern
 
 >>                                                                             %! extern
 
 
-J_PercussionMusicVoice = {                                                     %! extern
+J_Percussion_Music_Voice = {                                                   %! extern
 
-    % [J PercussionMusicVoice measure 618 / measure 1]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 618 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1198,115 +1198,115 @@ J_PercussionMusicVoice = {                                                     %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J PercussionMusicVoice measure 619 / measure 2]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 619 / measure 2]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 620 / measure 3]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 620 / measure 3]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 621 / measure 4]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 621 / measure 4]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 622 / measure 5]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 622 / measure 5]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 623 / measure 6]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 623 / measure 6]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 624 / measure 7]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 624 / measure 7]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 625 / measure 8]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 625 / measure 8]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 626 / measure 9]                         %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 626 / measure 9]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [J PercussionMusicVoice measure 627 / measure 10]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 627 / measure 10]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 628 / measure 11]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 628 / measure 11]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 629 / measure 12]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 629 / measure 12]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 630 / measure 13]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 630 / measure 13]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 631 / measure 14]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 631 / measure 14]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 632 / measure 15]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 632 / measure 15]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 633 / measure 16]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 633 / measure 16]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 634 / measure 17]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 634 / measure 17]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
 
-    % [J PercussionMusicVoice measure 635 / measure 18]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 635 / measure 18]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 636 / measure 19]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 636 / measure 19]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 637 / measure 20]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 637 / measure 20]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 638 / measure 21]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 638 / measure 21]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 639 / measure 22]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 639 / measure 22]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 640 / measure 23]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 640 / measure 23]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J PercussionMusicVoice measure 641 / measure 24]                        %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 641 / measure 24]                      %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -1314,17 +1314,17 @@ J_PercussionMusicVoice = {                                                     %
 }                                                                              %! extern
 
 
-J_PercussionMusicStaff = {                                                     %! extern
+J_Percussion_Music_Staff = {                                                   %! extern
 
-    \context Voice = "PercussionMusicVoice"                                    %! ScoreTemplate
-    \J_PercussionMusicVoice                                                    %! extern
+    \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
+    \J_Percussion_Music_Voice                                                  %! extern
 
 }                                                                              %! extern
 
 
-J_ViolinMusicVoice = {                                                         %! extern
+J_Violin_Music_Voice = {                                                       %! extern
 
-    % [J ViolinMusicVoice measure 618 / measure 1]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 618 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1356,123 +1356,123 @@ J_ViolinMusicVoice = {                                                         %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ViolinMusicVoice measure 619 / measure 2]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 619 / measure 2]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 620 / measure 3]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 620 / measure 3]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 621 / measure 4]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 621 / measure 4]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 622 / measure 5]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 622 / measure 5]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 623 / measure 6]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 623 / measure 6]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 624 / measure 7]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 624 / measure 7]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 625 / measure 8]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 625 / measure 8]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 626 / measure 9]                             %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 626 / measure 9]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [J ViolinMusicVoice measure 627 / measure 10]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 627 / measure 10]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 628 / measure 11]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 628 / measure 11]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 629 / measure 12]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 629 / measure 12]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 630 / measure 13]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 630 / measure 13]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 631 / measure 14]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 631 / measure 14]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 632 / measure 15]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 632 / measure 15]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 633 / measure 16]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 633 / measure 16]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 634 / measure 17]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 634 / measure 17]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
 
-    % [J ViolinMusicVoice measure 635 / measure 18]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 635 / measure 18]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 636 / measure 19]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 636 / measure 19]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 637 / measure 20]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 637 / measure 20]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 638 / measure 21]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 638 / measure 21]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 639 / measure 22]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 639 / measure 22]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolinMusicVoice measure 640 / measure 23]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 640 / measure 23]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolinMusicVoice measure 641 / measure 24]                            %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 641 / measure 24]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -1480,17 +1480,17 @@ J_ViolinMusicVoice = {                                                         %
 }                                                                              %! extern
 
 
-J_ViolinMusicStaff = {                                                         %! extern
+J_Violin_Music_Staff = {                                                       %! extern
 
-    \context Voice = "ViolinMusicVoice"                                        %! ScoreTemplate
-    \J_ViolinMusicVoice                                                        %! extern
+    \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
+    \J_Violin_Music_Voice                                                      %! extern
 
 }                                                                              %! extern
 
 
-J_ViolaMusicVoice = {                                                          %! extern
+J_Viola_Music_Voice = {                                                        %! extern
 
-    % [J ViolaMusicVoice measure 618 / measure 1]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 618 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1521,123 +1521,123 @@ J_ViolaMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J ViolaMusicVoice measure 619 / measure 2]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 619 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 620 / measure 3]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 620 / measure 3]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 621 / measure 4]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 621 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 622 / measure 5]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 622 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 623 / measure 6]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 623 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 624 / measure 7]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 624 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 625 / measure 8]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 625 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 626 / measure 9]                              %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 626 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [J ViolaMusicVoice measure 627 / measure 10]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 627 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 628 / measure 11]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 628 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 629 / measure 12]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 629 / measure 12]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 630 / measure 13]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 630 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 631 / measure 14]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 631 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 632 / measure 15]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 632 / measure 15]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 633 / measure 16]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 633 / measure 16]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 634 / measure 17]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 634 / measure 17]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
 
-    % [J ViolaMusicVoice measure 635 / measure 18]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 635 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 636 / measure 19]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 636 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 637 / measure 20]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 637 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 638 / measure 21]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 638 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 639 / measure 22]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 639 / measure 22]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J ViolaMusicVoice measure 640 / measure 23]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 640 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J ViolaMusicVoice measure 641 / measure 24]                             %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 641 / measure 24]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -1645,17 +1645,17 @@ J_ViolaMusicVoice = {                                                          %
 }                                                                              %! extern
 
 
-J_ViolaMusicStaff = {                                                          %! extern
+J_Viola_Music_Staff = {                                                        %! extern
 
-    \context Voice = "ViolaMusicVoice"                                         %! ScoreTemplate
-    \J_ViolaMusicVoice                                                         %! extern
+    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \J_Viola_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
 
 
-J_CelloMusicVoice = {                                                          %! extern
+J_Cello_Music_Voice = {                                                        %! extern
 
-    % [J CelloMusicVoice measure 618 / measure 1]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 618 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName =                                           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \hcenter-in                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1687,123 +1687,123 @@ J_CelloMusicVoice = {                                                          %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J CelloMusicVoice measure 619 / measure 2]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 619 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 620 / measure 3]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 620 / measure 3]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 621 / measure 4]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 621 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 622 / measure 5]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 622 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 623 / measure 6]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 623 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 624 / measure 7]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 624 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 625 / measure 8]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 625 / measure 8]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 626 / measure 9]                              %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 626 / measure 9]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
 
-    % [J CelloMusicVoice measure 627 / measure 10]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 627 / measure 10]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 628 / measure 11]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 628 / measure 11]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 629 / measure 12]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 629 / measure 12]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 630 / measure 13]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 630 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 631 / measure 14]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 631 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 632 / measure 15]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 632 / measure 15]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 633 / measure 16]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 633 / measure 16]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 634 / measure 17]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 634 / measure 17]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
 
-    % [J CelloMusicVoice measure 635 / measure 18]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 635 / measure 18]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 636 / measure 19]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 636 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 637 / measure 20]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 637 / measure 20]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 638 / measure 21]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 638 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 639 / measure 22]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 639 / measure 22]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! shell_transition_rhythm
     \repeatTie
 
-    % [J CelloMusicVoice measure 640 / measure 23]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 640 / measure 23]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1                                                                        %! shell_transition_rhythm
     - \tweak direction #up
     \repeatTie
 
-    % [J CelloMusicVoice measure 641 / measure 24]                             %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 641 / measure 24]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! shell_transition_rhythm
     \repeatTie
@@ -1811,9 +1811,9 @@ J_CelloMusicVoice = {                                                          %
 }                                                                              %! extern
 
 
-J_CelloMusicStaff = {                                                          %! extern
+J_Cello_Music_Staff = {                                                        %! extern
 
-    \context Voice = "CelloMusicVoice"                                         %! ScoreTemplate
-    \J_CelloMusicVoice                                                         %! extern
+    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \J_Cello_Music_Voice                                                       %! extern
 
 }                                                                              %! extern
