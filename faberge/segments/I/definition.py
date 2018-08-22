@@ -67,13 +67,13 @@ maker = baca.SegmentMaker(
     )
 
 maker(
-    'GlobalSkips',
+    'Global_Skips',
     baca.metronome_mark('156', selector=baca.leaf(1 - 1), redundant=True),
     baca.rehearsal_mark('I'),
     )
 
 maker(
-    'GlobalRests',
+    'Global_Rests',
     baca.global_fermata('fermata', selector=baca.leaf(11 - 1)),
     baca.global_fermata('fermata', selector=baca.leaf(14 - 1)),
     baca.global_fermata('fermata', selector=baca.leaf(17 - 1)),
