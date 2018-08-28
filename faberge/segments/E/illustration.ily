@@ -2159,7 +2159,7 @@ E_Piano_LH_Attack_Voice = {                                                    %
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
     % [E Piano_LH_Attack_Voice measure 302 / measure 2]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 303 / measure 3]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -2168,7 +2168,7 @@ E_Piano_LH_Attack_Voice = {                                                    %
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 305 / measure 5]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 306 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -2195,19 +2195,19 @@ E_Piano_LH_Attack_Voice = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 314 / measure 14]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 315 / measure 15]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 316 / measure 16]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 317 / measure 17]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 318 / measure 18]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 319 / measure 19]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands

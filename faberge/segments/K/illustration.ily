@@ -2750,10 +2750,10 @@ K_Piano_LH_Music_Voice = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 645 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 646 / measure 5]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 647 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -2768,7 +2768,7 @@ K_Piano_LH_Music_Voice = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 651 / measure 10]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 652 / measure 11]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -2777,7 +2777,7 @@ K_Piano_LH_Music_Voice = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 654 / measure 13]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 655 / measure 14]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -2786,19 +2786,19 @@ K_Piano_LH_Music_Voice = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 657 / measure 16]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 658 / measure 17]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 659 / measure 18]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 660 / measure 19]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 661 / measure 20]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 662 / measure 21]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -2807,10 +2807,10 @@ K_Piano_LH_Music_Voice = {                                                     %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 664 / measure 23]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 665 / measure 24]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 666 / measure 25]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -2832,10 +2832,10 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 645 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 646 / measure 5]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 647 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -2850,7 +2850,7 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 651 / measure 10]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 652 / measure 11]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -2859,7 +2859,7 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 654 / measure 13]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 655 / measure 14]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -2868,19 +2868,19 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 657 / measure 16]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 658 / measure 17]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 659 / measure 18]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 660 / measure 19]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 661 / measure 20]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 662 / measure 21]                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -2889,10 +2889,10 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 664 / measure 23]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 665 / measure 24]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! _call_rhythm_commands
+    R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 666 / measure 25]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
