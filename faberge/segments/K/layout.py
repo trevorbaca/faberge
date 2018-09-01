@@ -2,7 +2,7 @@ import baca
 import math
 
 
-distances = [20, (24, 24, 32), (24, 24, 32), (24, 24, 32)]
+distances = [24, (24, 24, 32), (24, 24, 32), (24, 24, 32)]
 first_measure_number = 642
 last_measure_number = 666
 measure_count = last_measure_number - first_measure_number + 1
@@ -16,7 +16,7 @@ for page_index in range(page_count):
         baca.system(
             *distances,
             measure=start_measure_number,
-            y_offset=15,
+            y_offset=24,
             ),
         number=page_number,
         )

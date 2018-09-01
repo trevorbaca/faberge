@@ -102,7 +102,10 @@ maker(
     baca.metronome_mark('125', selector=baca.leaf(85 - 1)),
     baca.metronome_mark(baca.Accelerando(), selector=baca.leaf(85 - 1)),
     baca.metronome_mark('156', selector=baca.leaf(94 - 1)),
-    baca.rehearsal_mark('H'),
+    baca.rehearsal_mark(
+        'H',
+        abjad.tweak((0, 12)).extra_offset,
+        ),
     )
 
 ### flute (time) ###

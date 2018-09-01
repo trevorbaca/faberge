@@ -48,7 +48,10 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.metronome_mark('100', selector=baca.leaf(1 - 1)),
-    baca.rehearsal_mark('D'),
+    baca.rehearsal_mark(
+        'D',
+        abjad.tweak((0, 12)).extra_offset,
+        ),
     )
 
 ### flute (time) ###

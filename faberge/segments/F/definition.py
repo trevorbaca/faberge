@@ -135,7 +135,10 @@ maker(
     baca.metronome_mark('100', selector=baca.leaf(1 - 1)),
     baca.metronome_mark('125', selector=baca.leaf(50 - 1)),
     baca.metronome_mark('100', selector=baca.leaf(62 - 1)),
-    baca.rehearsal_mark('F'),
+    baca.rehearsal_mark(
+        'F',
+        abjad.tweak((0, 12)).extra_offset,
+        ),
     )
 
 maker(

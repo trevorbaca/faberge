@@ -53,7 +53,7 @@ maker(
     baca.metronome_mark('80', selector=baca.leaf(1 - 1)),
     baca.rehearsal_mark(
         'B',
-        abjad.tweak((0, 6)).extra_offset,
+        abjad.tweak((0, 12)).extra_offset,
         ),
     )
 
