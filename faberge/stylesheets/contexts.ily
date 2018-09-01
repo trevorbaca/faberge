@@ -8,19 +8,12 @@
         \name GlobalSkips
         \type Engraver_group
         \consists Script_engraver
-        \consists Staff_symbol_engraver
         \consists Text_engraver
-        \consists Text_spanner_engraver
-
-        \override StaffSymbol.stencil = ##f
+        \consists \alternateTextSpannerEngraver
 
         \override TextScript.font-size = 6
-        \override TextScript.outside-staff-priority = 600
-        \override TextScript.staff-padding = 3
 
-        \override TextSpanner.bound-details.right.attach-dir = #LEFT
         \override TextSpanner.font-size = 6
-        \override TextSpanner.staff-padding = 4
         }
 
     % GLOBAL RESTS
@@ -42,7 +35,9 @@
         \name PageLayout
         \type Engraver_group
         \consists Text_engraver
-        \consists Text_spanner_engraver
+        \consists \alternateTextSpannerEngraver
+
+        \override TextSpanner.font-size=6
         }
 
     % GLOBAL CONTEXT
@@ -59,6 +54,7 @@
         \accepts GlobalSkips
         \accepts PageLayout
 
+        \override BarNumber.Y-extent = ##f
         % TODO: hide in score:
         %\override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)

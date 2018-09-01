@@ -82,7 +82,10 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.rehearsal_mark('C'),
+    baca.rehearsal_mark(
+        'C',
+        abjad.tweak((0, 12)).extra_offset,
+        ),
     )
 
 maker(
