@@ -982,7 +982,6 @@ maker(
 
 maker(
     ('vc', (37, 60)),
-    baca.glissando(),
     baca.markup(
         baca.markups.lines([
             'glissando lentissimo',
@@ -1017,6 +1016,8 @@ maker(
         abjad.tweak(6).staff_padding,
         piece_selector=baca.lparts([2, 3]),
         ),
+    # TODO: release need for glissando indicators to come last
+    baca.glissando(),
     )
 
 maker(
