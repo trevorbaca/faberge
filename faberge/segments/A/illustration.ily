@@ -2821,7 +2821,7 @@ A_Flute_Music_Voice = {                                                        %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs'!8                                                                      %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     fs''!16                                                                    %! glow_rhythm
     ^ \markup {
@@ -2841,7 +2841,7 @@ A_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
-    ]                                                                          %! glow_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs'!4                                                                      %! glow_rhythm
@@ -3366,14 +3366,14 @@ A_English_Horn_Music_Voice = {                                                 %
                 \box                                                           %! baca_markup:IndicatorCommand
                     keynoise                                                   %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f'16                                                                   %! keynoise_rhythm
 
         d'16                                                                   %! keynoise_rhythm
 
         cs'!16                                                                 %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -3412,24 +3412,24 @@ A_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! keynoise_rhythm
 
     aqf'!16                                                                    %! keynoise_rhythm
-    [                                                                          %! keynoise_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     bf'!16                                                                     %! keynoise_rhythm
-    ]                                                                          %! keynoise_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         a'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         eqs'!16                                                                %! keynoise_rhythm
 
         ef'!16                                                                 %! keynoise_rhythm
 
         e'16                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -3441,14 +3441,14 @@ A_English_Horn_Music_Voice = {                                                 %
         r16                                                                    %! keynoise_rhythm
 
         a'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         gs'!16                                                                 %! keynoise_rhythm
 
         aqf'!16                                                                %! keynoise_rhythm
 
         bf'!16                                                                 %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -3487,24 +3487,24 @@ A_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! keynoise_rhythm
 
     bf'!16                                                                     %! keynoise_rhythm
-    [                                                                          %! keynoise_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     a'16                                                                       %! keynoise_rhythm
-    ]                                                                          %! keynoise_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! keynoise_rhythm
 
         r16                                                                    %! keynoise_rhythm
 
         gs'!16                                                                 %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         aqf'!16                                                                %! keynoise_rhythm
 
         d'16                                                                   %! keynoise_rhythm
 
         cs'!16                                                                 %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -3516,14 +3516,14 @@ A_English_Horn_Music_Voice = {                                                 %
         r16                                                                    %! keynoise_rhythm
 
         fqs'!16                                                                %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f'16                                                                   %! keynoise_rhythm
 
         e'16                                                                   %! keynoise_rhythm
 
         eqs'!16                                                                %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -7891,67 +7891,67 @@ A_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { spazz. }                                                       %! baca_markup:IndicatorCommand
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Violin_Music_Voice measure 68 / measure 64]                           %! _comment_measure_numbers
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -7959,22 +7959,22 @@ A_Violin_Music_Voice = {                                                       %
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r4                                                                         %! spazzolati_rhythm
 
@@ -7991,67 +7991,67 @@ A_Violin_Music_Voice = {                                                       %
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 74 / measure 70]                           %! _comment_measure_numbers
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 4/3 {                                                               %! shell_exchange_rhythm
@@ -8282,18 +8282,18 @@ A_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { spazz. }                                                       %! baca_markup:IndicatorCommand
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [A Violin_Music_Voice measure 86 / measure 82]                           %! _comment_measure_numbers
     e'16                                                                       %! spazzolati_rhythm
@@ -8305,22 +8305,22 @@ A_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -8328,20 +8328,20 @@ A_Violin_Music_Voice = {                                                       %
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r2                                                                         %! spazzolati_rhythm
 
@@ -8358,10 +8358,8 @@ A_Violin_Music_Voice = {                                                       %
     r4.                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
 
@@ -8373,42 +8371,42 @@ A_Violin_Music_Voice = {                                                       %
 
     % [A Violin_Music_Voice measure 92 / measure 88]                           %! _comment_measure_numbers
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
@@ -8946,12 +8944,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -8967,12 +8965,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -8996,12 +8994,12 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 69 / measure 65]                        %! _comment_measure_numbers
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9028,12 +9026,12 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 73 / measure 69]                        %! _comment_measure_numbers
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9056,12 +9054,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9085,12 +9083,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9165,10 +9163,10 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { spazz }                                                    %! baca_markup:IndicatorCommand
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! spazzolati_rhythm
 
@@ -9179,10 +9177,10 @@ A_Viola_Music_Voice = {                                                        %
         r8                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9198,12 +9196,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9219,10 +9217,10 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 87 / measure 83]                        %! _comment_measure_numbers
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! spazzolati_rhythm
 
@@ -9233,10 +9231,10 @@ A_Viola_Music_Voice = {                                                        %
         r8                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9257,12 +9255,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9278,10 +9276,10 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 92 / measure 88]                        %! _comment_measure_numbers
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! spazzolati_rhythm
 
@@ -9292,10 +9290,10 @@ A_Viola_Music_Voice = {                                                        %
         r8                                                                     %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 
@@ -9310,10 +9308,10 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         r8                                                                     %! spazzolati_rhythm
 

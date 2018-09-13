@@ -474,7 +474,7 @@ E_Flute_Music_Voice = {                                                        %
         % [E Flute_Music_Voice measure 303 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
-        [                                                                      %! glow_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
@@ -520,11 +520,10 @@ E_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
-    ]                                                                          %! glow_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! glow_rhythm
 
@@ -543,7 +542,7 @@ E_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
-        [                                                                      %! glow_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
@@ -560,6 +559,7 @@ E_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -576,6 +576,7 @@ E_Flute_Music_Voice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8                                                                   %! glow_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
@@ -583,7 +584,6 @@ E_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
@@ -591,7 +591,6 @@ E_Flute_Music_Voice = {                                                        %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
-    ]                                                                          %! glow_rhythm
 
     \times 4/5 {                                                               %! glow_rhythm
 
@@ -600,6 +599,30 @@ E_Flute_Music_Voice = {                                                        %
         c''16                                                                  %! glow_rhythm
         \repeatTie
         [                                                                      %! glow_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''16                                                                  %! glow_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''16                                                                  %! glow_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''16                                                                  %! glow_rhythm
+
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''16                                                                  %! glow_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
+
+    }                                                                          %! glow_rhythm
+
+    \times 4/5 {                                                               %! glow_rhythm
+
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''16                                                                  %! glow_rhythm
+        \repeatTie
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
@@ -637,31 +660,7 @@ E_Flute_Music_Voice = {                                                        %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
-        ]                                                                      %! glow_rhythm
-
-    }                                                                          %! glow_rhythm
-
-    \times 4/5 {                                                               %! glow_rhythm
-
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''16                                                                  %! glow_rhythm
-        \repeatTie
-        [                                                                      %! glow_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''16                                                                  %! glow_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''16                                                                  %! glow_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''16                                                                  %! glow_rhythm
-
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''16                                                                  %! glow_rhythm
-        ]                                                                      %! glow_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
@@ -669,17 +668,17 @@ E_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
-    ]                                                                          %! glow_rhythm
 
     \times 2/3 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8                                                                   %! glow_rhythm
         \repeatTie
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
@@ -826,7 +825,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
@@ -836,7 +835,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -846,7 +845,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
@@ -856,7 +855,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -880,11 +879,11 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'8.                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -911,11 +910,11 @@ E_English_Horn_Music_Voice = {                                                 %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'16                                                                       %! keynoise_rhythm
-    [                                                                          %! keynoise_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'16                                                                       %! keynoise_rhythm
-    ]                                                                          %! keynoise_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! keynoise_rhythm
 
@@ -923,7 +922,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
@@ -933,7 +932,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -943,7 +942,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
@@ -953,7 +952,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -963,7 +962,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        [                                                                      %! keynoise_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
@@ -973,7 +972,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         g'16                                                                   %! keynoise_rhythm
-        ]                                                                      %! keynoise_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! keynoise_rhythm
 
@@ -1150,7 +1149,7 @@ E_Clarinet_Music_Voice = {                                                     %
         % [E Clarinet_Music_Voice measure 303 / measure 3]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
-        [                                                                      %! glow_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
@@ -1196,11 +1195,10 @@ E_Clarinet_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
-    ]                                                                          %! glow_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 2/3 {                                                               %! glow_rhythm
 
@@ -1219,7 +1217,7 @@ E_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
-        [                                                                      %! glow_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
@@ -1236,6 +1234,7 @@ E_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1252,6 +1251,7 @@ E_Clarinet_Music_Voice = {                                                     %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8                                                                   %! glow_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
@@ -1259,7 +1259,6 @@ E_Clarinet_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
@@ -1267,7 +1266,6 @@ E_Clarinet_Music_Voice = {                                                     %
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
-    ]                                                                          %! glow_rhythm
 
     \times 4/5 {                                                               %! glow_rhythm
 
@@ -1276,6 +1274,30 @@ E_Clarinet_Music_Voice = {                                                     %
         d''16                                                                  %! glow_rhythm
         \repeatTie
         [                                                                      %! glow_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        d''16                                                                  %! glow_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        d''16                                                                  %! glow_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        d''16                                                                  %! glow_rhythm
+
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        d''16                                                                  %! glow_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
+
+    }                                                                          %! glow_rhythm
+
+    \times 4/5 {                                                               %! glow_rhythm
+
+        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        d''16                                                                  %! glow_rhythm
+        \repeatTie
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
@@ -1313,31 +1335,7 @@ E_Clarinet_Music_Voice = {                                                     %
         \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
-        ]                                                                      %! glow_rhythm
-
-    }                                                                          %! glow_rhythm
-
-    \times 4/5 {                                                               %! glow_rhythm
-
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        d''16                                                                  %! glow_rhythm
-        \repeatTie
-        [                                                                      %! glow_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        d''16                                                                  %! glow_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        d''16                                                                  %! glow_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        d''16                                                                  %! glow_rhythm
-
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        d''16                                                                  %! glow_rhythm
-        ]                                                                      %! glow_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
@@ -1345,17 +1343,17 @@ E_Clarinet_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
-    [                                                                          %! glow_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
-    ]                                                                          %! glow_rhythm
 
     \times 2/3 {                                                               %! glow_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8                                                                   %! glow_rhythm
         \repeatTie
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm

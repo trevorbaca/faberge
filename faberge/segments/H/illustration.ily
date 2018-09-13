@@ -5801,25 +5801,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -5844,12 +5842,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 487 / measure 4]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5872,14 +5870,14 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -5928,29 +5926,29 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 496 / measure 13]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -5960,12 +5958,12 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 497 / measure 14]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -5982,25 +5980,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6037,12 +6033,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 502 / measure 19]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6061,11 +6057,11 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 504 / measure 21]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -6101,25 +6097,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6132,12 +6126,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 510 / measure 27]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6172,14 +6166,14 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -6188,25 +6182,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6231,12 +6223,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 517 / measure 34]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6259,14 +6251,14 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -6314,14 +6306,14 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 525 / measure 42]                          %! _comment_measure_numbers
     r8                                                                         %! violin_gears_rhythm
@@ -6329,15 +6321,15 @@ H_Violin_Music_Voice = {                                                       %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 526 / measure 43]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6347,12 +6339,12 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 527 / measure 44]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -6369,25 +6361,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6425,12 +6415,12 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 532 / measure 49]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -6448,11 +6438,11 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 534 / measure 51]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -6484,25 +6474,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6536,12 +6524,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 543 / measure 60]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6557,25 +6545,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6600,12 +6586,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 547 / measure 64]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6628,14 +6614,14 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -6684,29 +6670,29 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 556 / measure 73]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6716,12 +6702,12 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 557 / measure 74]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -6738,25 +6724,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6793,12 +6777,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 562 / measure 79]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6817,11 +6801,11 @@ H_Violin_Music_Voice = {                                                       %
     % [H Violin_Music_Voice measure 564 / measure 81]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -6857,25 +6841,23 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -6888,12 +6870,12 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Violin_Music_Voice measure 570 / measure 87]                          %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -6928,14 +6910,14 @@ H_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7015,25 +6997,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7058,12 +7038,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 487 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7086,14 +7066,14 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7142,29 +7122,29 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 496 / measure 13]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7174,12 +7154,12 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 497 / measure 14]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -7196,25 +7176,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7251,12 +7229,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 502 / measure 19]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7275,11 +7253,11 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 504 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7315,25 +7293,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7346,12 +7322,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 510 / measure 27]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7386,14 +7362,14 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7402,25 +7378,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7445,12 +7419,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 517 / measure 34]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7473,14 +7447,14 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7528,14 +7502,14 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 525 / measure 42]                           %! _comment_measure_numbers
     r8                                                                         %! violin_gears_rhythm
@@ -7543,15 +7517,15 @@ H_Viola_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 526 / measure 43]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7561,12 +7535,12 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 527 / measure 44]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -7583,25 +7557,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7639,12 +7611,12 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 532 / measure 49]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -7662,11 +7634,11 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 534 / measure 51]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7698,25 +7670,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7750,12 +7720,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 543 / measure 60]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7771,25 +7741,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -7814,12 +7782,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 547 / measure 64]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7842,14 +7810,14 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -7898,29 +7866,29 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 556 / measure 73]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -7930,12 +7898,12 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 557 / measure 74]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -7952,25 +7920,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -8007,12 +7973,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 562 / measure 79]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -8031,11 +7997,11 @@ H_Viola_Music_Voice = {                                                        %
     % [H Viola_Music_Voice measure 564 / measure 81]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -8071,25 +8037,23 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
     ~
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8
-    ]                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! violin_gears_rhythm
@@ -8102,12 +8066,12 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! violin_gears_rhythm
     ~
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Viola_Music_Voice measure 570 / measure 87]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -8142,14 +8106,14 @@ H_Viola_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    [                                                                          %! violin_gears_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! violin_gears_rhythm
-    ]                                                                          %! violin_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! violin_gears_rhythm
 
@@ -8220,7 +8184,7 @@ H_Cello_Music_Voice = {                                                        %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -8238,7 +8202,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8276,7 +8240,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8286,7 +8250,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8333,7 +8297,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8343,7 +8307,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! cello_gears_rhythm
@@ -8369,7 +8333,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 498 / measure 15]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8379,7 +8343,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8422,7 +8386,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 504 / measure 21]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8432,7 +8396,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8458,7 +8422,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 508 / measure 25]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8468,7 +8432,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8506,7 +8470,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8516,12 +8480,12 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Cello_Music_Voice measure 514 / measure 31]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8531,7 +8495,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8569,7 +8533,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8579,7 +8543,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8622,7 +8586,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 525 / measure 42]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8632,7 +8596,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! cello_gears_rhythm
@@ -8658,7 +8622,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 528 / measure 45]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8668,7 +8632,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8715,7 +8679,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 534 / measure 51]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8725,7 +8689,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8751,7 +8715,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 538 / measure 55]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8761,7 +8725,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8804,7 +8768,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 544 / measure 61]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8814,7 +8778,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8852,7 +8816,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8862,7 +8826,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8909,7 +8873,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8919,7 +8883,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! cello_gears_rhythm
@@ -8945,7 +8909,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 558 / measure 75]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -8955,7 +8919,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -8998,7 +8962,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 564 / measure 81]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -9008,7 +8972,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -9034,7 +8998,7 @@ H_Cello_Music_Voice = {                                                        %
     % [H Cello_Music_Voice measure 568 / measure 85]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -9044,7 +9008,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4..                                                                      %! cello_gears_rhythm
@@ -9082,7 +9046,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    [                                                                          %! cello_gears_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
@@ -9092,7 +9056,7 @@ H_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! cello_gears_rhythm
-    ]                                                                          %! cello_gears_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [H Cello_Music_Voice measure 574 / measure 91]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
