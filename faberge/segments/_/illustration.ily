@@ -241,9 +241,9 @@ i_English_Horn_Music_Voice = {                                                 %
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_3:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_3:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-        \override Staff.Stem.stemlet-length = 0.75                             %! ratchet_rhythm
         \once \override Beam.grow-direction = #right
         \clef "percussion"                                                     %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+        \override Staff.Stem.stemlet-length = 0.75                             %! ratchet_rhythm
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
@@ -537,7 +537,7 @@ i_Violin_Music_Voice = {                                                       %
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     ^ \markup { spazzolato }                                                   %! baca_markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vn.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
@@ -550,29 +550,29 @@ i_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
     r16                                                                        %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     e'16                                                                       %! spazzolati_rhythm
 
     e'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -664,12 +664,12 @@ i_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        [                                                                      %! spazzolati_rhythm
+        [                                                                      %! Duration_Specifier__rewrite_meter_
 
         e'8                                                                    %! spazzolati_rhythm
 
         e'8                                                                    %! spazzolati_rhythm
-        ]                                                                      %! spazzolati_rhythm
+        ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! spazzolati_rhythm
 

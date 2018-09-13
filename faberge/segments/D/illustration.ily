@@ -2045,7 +2045,7 @@ D_Violin_Music_Voice = {                                                       %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2060,7 +2060,7 @@ D_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2068,11 +2068,11 @@ D_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2080,56 +2080,56 @@ D_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [D Violin_Music_Voice measure 275 / measure 2]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2137,11 +2137,11 @@ D_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2149,32 +2149,30 @@ D_Violin_Music_Voice = {                                                       %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
@@ -2611,7 +2609,7 @@ D_Cello_Music_Voice = {                                                        %
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName =                                           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \markup {                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -2626,7 +2624,7 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2634,11 +2632,11 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2646,56 +2644,56 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [D Cello_Music_Voice measure 275 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2703,11 +2701,11 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r16                                                                        %! spazzolati_rhythm
 
@@ -2715,32 +2713,30 @@ D_Cello_Music_Voice = {                                                        %
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
+    [                                                                          %! Duration_Specifier__rewrite_meter_
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    [                                                                          %! spazzolati_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'16                                                                       %! spazzolati_rhythm
-    ]                                                                          %! spazzolati_rhythm
+    ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     r8                                                                         %! spazzolati_rhythm
 
