@@ -9079,13 +9079,13 @@ B_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "(tasto+non vib.)"                      %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #6                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! baca_make_fused_tuplet_monads
 
     % [B Cello_Music_Voice measure 141 / measure 45]                           %! _comment_measure_numbers
     ff,!\breve.                                                                %! baca_make_fused_tuplet_monads
-    \glissando                                                                 %! baca_glissando:SpannerCommand
+    \glissando                                                                 %! baca_glissando
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
     \times 25/28 {                                                             %! baca_make_fused_tuplet_monads
@@ -9106,7 +9106,7 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #6                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
     }                                                                          %! baca_make_fused_tuplet_monads
 
@@ -9115,7 +9115,7 @@ B_Cello_Music_Voice = {                                                        %
 
         % [B Cello_Music_Voice measure 153 / measure 57]                       %! _comment_measure_numbers
         cs,!\breve....                                                         %! baca_make_fused_tuplet_monads
-        \glissando                                                             %! baca_glissando:SpannerCommand
+        \glissando                                                             %! baca_glissando
 
         bs,,!8                                                                 %! baca_make_fused_tuplet_monads
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
