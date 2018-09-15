@@ -3404,14 +3404,14 @@ B_English_Horn_Music_Voice = {                                                 %
     af'!8.                                                                     %! eh_trill_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     r16                                                                        %! eh_trill_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     atqf'!8.                                                                   %! eh_trill_rhythm
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 110 / measure 14]                    %! _comment_measure_numbers
     atqf'!16                                                                   %! eh_trill_rhythm
@@ -3440,7 +3440,7 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 113 / measure 17]                    %! _comment_measure_numbers
     r4.                                                                        %! keynoise_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     \override NoteHead.style = #'cross                                         %! baca_note_head_style_cross:OverrideCommand(1)
     gs'!8                                                                      %! keynoise_rhythm
@@ -3610,7 +3610,7 @@ B_English_Horn_Music_Voice = {                                                 %
     a'8.                                                                       %! eh_trill_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 120 / measure 24]                    %! _comment_measure_numbers
     a'2.                                                                       %! eh_trill_rhythm
@@ -3621,19 +3621,19 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     r16                                                                        %! eh_trill_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqs'!8.                                                                    %! eh_trill_rhythm
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 122 / measure 26]                    %! _comment_measure_numbers
     r16                                                                        %! eh_trill_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqf'!2...                                                                  %! eh_trill_rhythm
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 123 / measure 27]                    %! _comment_measure_numbers
     aqf'!1                                                                     %! eh_trill_rhythm
@@ -3644,24 +3644,24 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     r16                                                                        %! eh_trill_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     af'!4..                                                                    %! eh_trill_rhythm
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 125 / measure 29]                    %! _comment_measure_numbers
     aqf'!2                                                                     %! eh_trill_rhythm
 
     % [B English_Horn_Music_Voice measure 126 / measure 30]                    %! _comment_measure_numbers
     r2                                                                         %! eh_trill_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [B English_Horn_Music_Voice measure 127 / measure 31]                    %! _comment_measure_numbers
     bf'!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { doubletrill }                                                  %! baca_markup:IndicatorCommand
-    \startTrillSpan
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 128 / measure 32]                    %! _comment_measure_numbers
     bf'!1                                                                      %! baca_make_repeat_tied_notes
@@ -3688,8 +3688,8 @@ B_English_Horn_Music_Voice = {                                                 %
     % [B English_Horn_Music_Voice measure 133 / measure 37]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     ^ \markup { doubletrill }                                                  %! baca_markup:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
-    \startTrillSpan
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 134 / measure 38]                    %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
@@ -3725,7 +3725,7 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 141 / measure 45]                    %! _comment_measure_numbers
     r4                                                                         %! keynoise_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerCommand
+    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     \times 4/5 {                                                               %! keynoise_rhythm
 
