@@ -1995,7 +1995,6 @@ C_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2004,7 +2003,6 @@ C_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2019,7 +2017,6 @@ C_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2027,7 +2024,6 @@ C_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [C Flute_Music_Voice measure 178 / measure 2]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2043,7 +2039,6 @@ C_Flute_Music_Voice = {                                                        %
         c''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -2059,7 +2054,6 @@ C_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2073,7 +2067,6 @@ C_Flute_Music_Voice = {                                                        %
         c''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -2091,7 +2084,6 @@ C_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [C Flute_Music_Voice measure 180 / measure 4]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2100,14 +2092,12 @@ C_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2122,7 +2112,6 @@ C_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2131,7 +2120,6 @@ C_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -8852,7 +8840,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 234 / measure 58]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -8888,7 +8875,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 237 / measure 61]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9052,7 +9038,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 245 / measure 69]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9088,7 +9073,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 248 / measure 72]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9103,7 +9087,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 250 / measure 74]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9197,7 +9180,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 255 / measure 79]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9233,7 +9215,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 258 / measure 82]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9269,7 +9250,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 261 / measure 85]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9311,7 +9291,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 266 / measure 90]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9326,7 +9305,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 268 / measure 92]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9342,7 +9320,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 270 / measure 94]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -9361,7 +9338,6 @@ C_Viola_Music_Voice = {                                                        %
     % [C Viola_Music_Voice measure 272 / measure 96]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 

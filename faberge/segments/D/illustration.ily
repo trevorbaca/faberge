@@ -1343,7 +1343,6 @@ D_Piano_RH_Music_Voice = {                                                     %
     }
 
     % [D Piano_RH_Music_Voice measure 285 / measure 12]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
@@ -1368,7 +1367,6 @@ D_Piano_RH_Music_Voice = {                                                     %
     }
 
     % [D Piano_RH_Music_Voice measure 288 / measure 15]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
@@ -1535,7 +1533,6 @@ D_Piano_LH_Music_Voice = {                                                     %
     }
 
     % [D Piano_LH_Music_Voice measure 285 / measure 12]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
@@ -1560,7 +1557,6 @@ D_Piano_LH_Music_Voice = {                                                     %
     }
 
     % [D Piano_LH_Music_Voice measure 288 / measure 15]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
@@ -2358,7 +2354,6 @@ D_Viola_Music_Voice = {                                                        %
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2403,7 +2398,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 280 / measure 7]                            %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2418,7 +2412,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 282 / measure 9]                            %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2463,7 +2456,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 288 / measure 15]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2478,7 +2470,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 290 / measure 17]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2493,7 +2484,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 292 / measure 19]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2508,7 +2498,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 294 / measure 21]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2523,7 +2512,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 296 / measure 23]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
@@ -2538,7 +2526,6 @@ D_Viola_Music_Voice = {                                                        %
     % [D Viola_Music_Voice measure 298 / measure 25]                           %! _comment_measure_numbers
     r16                                                                        %! airtone_chain_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! airtone_chain_rhythm
 
