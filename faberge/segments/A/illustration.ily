@@ -2794,7 +2794,6 @@ A_Flute_Music_Voice = {                                                        %
     r16                                                                        %! single_taper
 
     % [A Flute_Music_Voice measure 93 / measure 89]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs''!2.                                                                    %! glow_rhythm
 
     % [A Flute_Music_Voice measure 94 / measure 90]                            %! _comment_measure_numbers
@@ -2818,7 +2817,6 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [A Flute_Music_Voice measure 95 / measure 91]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs'!8                                                                      %! glow_rhythm
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
@@ -2832,7 +2830,6 @@ A_Flute_Music_Voice = {                                                        %
                     2
         }
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs'!16                                                                     %! glow_rhythm
     ^ \markup {
         \override
@@ -2843,7 +2840,6 @@ A_Flute_Music_Voice = {                                                        %
         }
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fs'!4                                                                      %! glow_rhythm
     \repeatTie
 
@@ -2952,7 +2948,6 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     b'8.                                                                       %! eh_trill_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -2967,14 +2962,12 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     btqf'!8.                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bqf'!8.                                                                    %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -2982,7 +2975,6 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     b'8.                                                                       %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3045,14 +3037,12 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     cs''!8.                                                                    %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ctqs''!4..                                                                 %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3061,7 +3051,6 @@ A_English_Horn_Music_Voice = {                                                 %
     \repeatTie
     [                                                                          %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     bs'!8.                                                                     %! eh_trill_rhythm
     ]                                                                          %! eh_trill_rhythm
 
@@ -3070,7 +3059,6 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     btqs'!8.                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3078,7 +3066,6 @@ A_English_Horn_Music_Voice = {                                                 %
     btqs'!16                                                                   %! eh_trill_rhythm
     \repeatTie
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     cs''!4..                                                                   %! eh_trill_rhythm
 
     % [A English_Horn_Music_Voice measure 34 / measure 30]                     %! _comment_measure_numbers
@@ -3088,7 +3075,6 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ctqs''!8.                                                                  %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3146,7 +3132,6 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ds''!4..                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3157,14 +3142,12 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ctqs''!8.                                                                  %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d''8.                                                                      %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3175,7 +3158,6 @@ A_English_Horn_Music_Voice = {                                                 %
     % [A English_Horn_Music_Voice measure 48 / measure 44]                     %! _comment_measure_numbers
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     dqs''!2...                                                                 %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3183,7 +3165,6 @@ A_English_Horn_Music_Voice = {                                                 %
     dqs''!16                                                                   %! eh_trill_rhythm
     \repeatTie
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     dtqs''!2...                                                                %! eh_trill_rhythm
 
     % [A English_Horn_Music_Voice measure 50 / measure 46]                     %! _comment_measure_numbers
@@ -3243,7 +3224,6 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     es''!4..                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3257,7 +3237,6 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs''!4                                                                    %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3564,7 +3543,6 @@ A_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'4..                                                                      %! eh_trill_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3574,14 +3552,12 @@ A_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gqs'!4..                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gqf'!4..                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3594,7 +3570,6 @@ A_English_Horn_Music_Voice = {                                                 %
     \repeatTie
     [                                                                          %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gs'!8.                                                                     %! eh_trill_rhythm
     ]                                                                          %! eh_trill_rhythm
 
@@ -4255,7 +4230,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 54 / measure 50]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs!4                                                                      %! successive_tapers_rhythm
 
     eqs!\breve                                                                 %! successive_tapers_rhythm
@@ -4267,7 +4241,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 57 / measure 53]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e\breve.                                                                   %! successive_tapers_rhythm
@@ -4282,7 +4255,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 62 / measure 58]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs!4                                                                      %! successive_tapers_rhythm
 
     eqs!1.                                                                     %! successive_tapers_rhythm
@@ -4294,7 +4266,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 65 / measure 61]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e1                                                                         %! successive_tapers_rhythm
@@ -4309,7 +4280,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 67 / measure 63]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs!4                                                                      %! single_taper
 
     eqs!2                                                                      %! single_taper
@@ -4349,7 +4319,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! single_taper
 
     % [A Clarinet_Music_Voice measure 75 / measure 71]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e1.                                                                        %! successive_tapers_rhythm
@@ -4361,7 +4330,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 78 / measure 74]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs!4                                                                      %! successive_tapers_rhythm
 
     eqs!\breve                                                                 %! successive_tapers_rhythm
@@ -4376,7 +4344,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 81 / measure 77]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e\breve                                                                    %! successive_tapers_rhythm
@@ -4391,7 +4358,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 85 / measure 81]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs!4                                                                      %! single_taper
 
     eqs!4                                                                      %! single_taper
@@ -4431,7 +4397,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! single_taper
 
     % [A Clarinet_Music_Voice measure 93 / measure 89]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e1..                                                                       %! successive_tapers_rhythm
@@ -4443,7 +4408,6 @@ A_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [A Clarinet_Music_Voice measure 96 / measure 92]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqs!4                                                                      %! successive_tapers_rhythm
 
     eqs!2                                                                      %! successive_tapers_rhythm
@@ -8644,9 +8608,9 @@ A_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto"                                     %! baca_text_spanner:PiecewiseCommand(1)
@@ -8730,9 +8694,9 @@ A_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto"                                     %! baca_text_spanner:PiecewiseCommand(1)
@@ -8826,9 +8790,9 @@ A_Viola_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "tasto"                                     %! baca_text_spanner:PiecewiseCommand(1)
@@ -9093,7 +9057,6 @@ A_Viola_Music_Voice = {                                                        %
     }                                                                          %! spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 75 / measure 71]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d2                                                                         %! jewelers_twilight_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9318,7 +9281,6 @@ A_Viola_Music_Voice = {                                                        %
     }                                                                          %! spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 93 / measure 89]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     d2.                                                                        %! jewelers_twilight_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -9487,9 +9449,9 @@ A_Cello_Music_Voice = {                                                        %
     d,2                                                                        %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "(PO+) poco vib."                           %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "tasto (+poco vib)"                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -9596,9 +9558,9 @@ A_Cello_Music_Voice = {                                                        %
     d,2.                                                                       %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "(tasto + poco vib.)"                       %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "poco pont. + vib. mod."                   %! baca_text_spanner:PiecewiseCommand(1)
@@ -9708,9 +9670,9 @@ A_Cello_Music_Voice = {                                                        %
     d,2                                                                        %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "(poco pont.+) sub. vib. mod."              %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "tasto + non vib."                         %! baca_text_spanner:PiecewiseCommand(1)
@@ -9754,9 +9716,9 @@ A_Cello_Music_Voice = {                                                        %
     d,1                                                                        %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [A Cello_Music_Voice measure 85 / measure 81]                            %! _comment_measure_numbers

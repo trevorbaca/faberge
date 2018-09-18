@@ -6885,7 +6885,6 @@ F_Violin_Music_Voice = {                                                       %
     }                                                                          %! clb_rhythm
 
     % [F Violin_Music_Voice measure 395 / measure 74]                          %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
@@ -7035,7 +7034,6 @@ F_Violin_Music_Voice = {                                                       %
     r16                                                                        %! spazzolati_rhythm
 
     % [F Violin_Music_Voice measure 403 / measure 82]                          %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! baca_make_repeat_tied_notes
 
@@ -7129,7 +7127,6 @@ F_Violin_Music_Voice = {                                                       %
     r16                                                                        %! spazzolati_rhythm
 
     % [F Violin_Music_Voice measure 407 / measure 86]                          %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! baca_make_repeat_tied_notes
 

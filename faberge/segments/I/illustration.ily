@@ -851,7 +851,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -860,7 +859,6 @@ I_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -875,14 +873,12 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -899,7 +895,6 @@ I_Flute_Music_Voice = {                                                        %
         c''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -915,7 +910,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -928,7 +922,6 @@ I_Flute_Music_Voice = {                                                        %
         c''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -946,7 +939,6 @@ I_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [I Flute_Music_Voice measure 580 / measure 3]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -955,14 +947,12 @@ I_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -977,7 +967,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -987,7 +976,6 @@ I_Flute_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! glow_rhythm
 
         % [I Flute_Music_Voice measure 581 / measure 4]                        %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -1002,7 +990,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -1011,7 +998,6 @@ I_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -1026,14 +1012,12 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -1049,7 +1033,6 @@ I_Flute_Music_Voice = {                                                        %
         c''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -1066,7 +1049,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -1079,7 +1061,6 @@ I_Flute_Music_Voice = {                                                        %
         c''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -1096,7 +1077,6 @@ I_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -1105,7 +1085,6 @@ I_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''16                                                                      %! glow_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
@@ -1113,7 +1092,6 @@ I_Flute_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! glow_rhythm
 
         % [I Flute_Music_Voice measure 583 / measure 6]                        %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -1128,7 +1106,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -1137,7 +1114,6 @@ I_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -1152,7 +1128,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -1161,7 +1136,6 @@ I_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         \repeatTie
@@ -1176,7 +1150,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -1184,7 +1157,6 @@ I_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [I Flute_Music_Voice measure 584 / measure 7]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c''8                                                                       %! glow_rhythm
     \repeatTie
@@ -1200,7 +1172,6 @@ I_Flute_Music_Voice = {                                                        %
         c''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -1217,7 +1188,6 @@ I_Flute_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -1230,7 +1200,6 @@ I_Flute_Music_Voice = {                                                        %
         c''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! glow_rhythm
 
@@ -2372,7 +2341,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2381,7 +2349,6 @@ I_Clarinet_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2396,14 +2363,12 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2420,7 +2385,6 @@ I_Clarinet_Music_Voice = {                                                     %
         d''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
 
@@ -2436,7 +2400,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2449,7 +2412,6 @@ I_Clarinet_Music_Voice = {                                                     %
         d''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
 
@@ -2467,7 +2429,6 @@ I_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! glow_rhythm
 
     % [I Clarinet_Music_Voice measure 580 / measure 3]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2476,14 +2437,12 @@ I_Clarinet_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2498,7 +2457,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2508,7 +2466,6 @@ I_Clarinet_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! glow_rhythm
 
         % [I Clarinet_Music_Voice measure 581 / measure 4]                     %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2523,7 +2480,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2532,7 +2488,6 @@ I_Clarinet_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2547,14 +2502,12 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2570,7 +2523,6 @@ I_Clarinet_Music_Voice = {                                                     %
         d''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
 
@@ -2587,7 +2539,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2600,7 +2551,6 @@ I_Clarinet_Music_Voice = {                                                     %
         d''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
 
@@ -2617,7 +2567,6 @@ I_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2626,7 +2575,6 @@ I_Clarinet_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''16                                                                      %! glow_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
@@ -2634,7 +2582,6 @@ I_Clarinet_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! glow_rhythm
 
         % [I Clarinet_Music_Voice measure 583 / measure 6]                     %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2649,7 +2596,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2658,7 +2604,6 @@ I_Clarinet_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2673,7 +2618,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2682,7 +2626,6 @@ I_Clarinet_Music_Voice = {                                                     %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         \repeatTie
@@ -2697,7 +2640,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2705,7 +2647,6 @@ I_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! glow_rhythm
 
     % [I Clarinet_Music_Voice measure 584 / measure 7]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     d''8                                                                       %! glow_rhythm
     \repeatTie
@@ -2721,7 +2662,6 @@ I_Clarinet_Music_Voice = {                                                     %
         d''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
 
@@ -2738,7 +2678,6 @@ I_Clarinet_Music_Voice = {                                                     %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''8.                                                                  %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2751,7 +2690,6 @@ I_Clarinet_Music_Voice = {                                                     %
         d''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         d''4                                                                   %! glow_rhythm
 
@@ -5621,7 +5559,6 @@ I_Cello_Music_Voice = {                                                        %
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [I Cello_Music_Voice measure 584 / measure 7]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! electricity_rhythm
 

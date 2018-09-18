@@ -1632,7 +1632,6 @@ B_Flute_Music_Voice = {                                                        %
         g''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -1664,7 +1663,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 99 / measure 3]                             %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2.                                                                       %! glow_rhythm
     \repeatTie
 
@@ -1678,7 +1676,6 @@ B_Flute_Music_Voice = {                                                        %
         g''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'4                                                                    %! glow_rhythm
         ^ \markup {
             \override
@@ -1704,7 +1701,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 102 / measure 6]                            %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     \repeatTie
 
@@ -1767,7 +1763,6 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''8.                                                                  %! glow_rhythm
         ^ \markup {
             \override
@@ -1785,7 +1780,6 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
 
     }                                                                          %! glow_rhythm
@@ -1843,7 +1837,6 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ^ \markup {
@@ -1860,7 +1853,6 @@ B_Flute_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! glow_rhythm
 
         % [B Flute_Music_Voice measure 111 / measure 15]                       %! _comment_measure_numbers
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie
@@ -1889,7 +1881,6 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''16                                                                  %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ^ \markup {
@@ -1903,7 +1894,6 @@ B_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -1946,7 +1936,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 114 / measure 18]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''8                                                                       %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -1962,7 +1951,6 @@ B_Flute_Music_Voice = {                                                        %
                     1
         }
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''16                                                                      %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     ^ \markup {
@@ -1974,7 +1962,6 @@ B_Flute_Music_Voice = {                                                        %
         }
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -2009,7 +1996,6 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''16                                                                  %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2017,7 +2003,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 115 / measure 19]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -2049,7 +2034,6 @@ B_Flute_Music_Voice = {                                                        %
                     2
         }
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'16                                                                       %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     ^ \markup {
@@ -2061,7 +2045,6 @@ B_Flute_Music_Voice = {                                                        %
         }
 
     % [B Flute_Music_Voice measure 117 / measure 21]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2                                                                        %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -2096,7 +2079,6 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ^ \markup {
@@ -2110,7 +2092,6 @@ B_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'4                                                                        %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -2155,7 +2136,6 @@ B_Flute_Music_Voice = {                                                        %
         g'8                                                                    %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
 
     }                                                                          %! glow_rhythm
@@ -2202,7 +2182,6 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -2217,7 +2196,6 @@ B_Flute_Music_Voice = {                                                        %
 
     \times 4/5 {                                                               %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
@@ -2242,7 +2220,6 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -2256,7 +2233,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 124 / measure 28]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2                                                                        %! glow_rhythm
     \repeatTie
 
@@ -2265,7 +2241,6 @@ B_Flute_Music_Voice = {                                                        %
         g'8                                                                    %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -2309,7 +2284,6 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'8.                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -2328,7 +2302,6 @@ B_Flute_Music_Voice = {                                                        %
         g'16                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
 
     }                                                                          %! glow_rhythm
@@ -2370,7 +2343,6 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'8.                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -2431,7 +2403,6 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''16                                                                  %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ^ \markup {
@@ -2446,7 +2417,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 134 / measure 38]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''8                                                                       %! glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
@@ -2473,7 +2443,6 @@ B_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''4                                                                   %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
@@ -2511,7 +2480,6 @@ B_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'4                                                                    %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ^ \markup {
@@ -2557,7 +2525,6 @@ B_Flute_Music_Voice = {                                                        %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'4                                                                    %! glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ^ \markup {
@@ -2608,14 +2575,12 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 143 / measure 47]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''8                                                                       %! glow_rhythm
     \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g''16                                                                      %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'16                                                                       %! glow_rhythm
     ^ \markup {
         \override
@@ -2626,7 +2591,6 @@ B_Flute_Music_Voice = {                                                        %
         }
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2                                                                        %! glow_rhythm
     \repeatTie
 
@@ -2648,7 +2612,6 @@ B_Flute_Music_Voice = {                                                        %
         g''8                                                                   %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'4                                                                    %! glow_rhythm
         ^ \markup {
             \override
@@ -2669,7 +2632,6 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! glow_rhythm
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'8.                                                                   %! glow_rhythm
         ^ \markup {
             \override
@@ -2691,7 +2653,6 @@ B_Flute_Music_Voice = {                                                        %
 
     g'16                                                                       %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'16                                                                       %! glow_rhythm
     ^ \markup {
         \override
@@ -2703,7 +2664,6 @@ B_Flute_Music_Voice = {                                                        %
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [B Flute_Music_Voice measure 147 / measure 51]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2.                                                                       %! glow_rhythm
     \repeatTie
 
@@ -2752,7 +2712,6 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! glow_rhythm
         \repeatTie
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'4                                                                    %! glow_rhythm
         ^ \markup {
             \override
@@ -2774,7 +2733,6 @@ B_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     \repeatTie
 
@@ -2811,14 +2769,12 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g'16                                                                   %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 153 / measure 57]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g'2.                                                                       %! glow_rhythm
     \repeatTie
 
@@ -2844,7 +2800,6 @@ B_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! glow_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''2                                                                       %! glow_rhythm
     \repeatTie
 
@@ -2881,7 +2836,6 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         g''16                                                                  %! glow_rhythm
         ^ \markup {
             \override
@@ -2895,7 +2849,6 @@ B_Flute_Music_Voice = {                                                        %
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 156 / measure 60]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g''4                                                                       %! glow_rhythm
     \repeatTie
 
@@ -2983,14 +2936,12 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
 
-        \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                 %! _shorten_long_repeat_ties
         gs''!16                                                                %! glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
     }                                                                          %! glow_rhythm
 
     % [B Flute_Music_Voice measure 167 / measure 71]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     gs''!8                                                                     %! glow_rhythm
     \repeatTie
 
@@ -3400,7 +3351,6 @@ B_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     af'!8.                                                                     %! eh_trill_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3409,7 +3359,6 @@ B_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     atqf'!8.                                                                   %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3417,7 +3366,6 @@ B_English_Horn_Music_Voice = {                                                 %
     atqf'!16                                                                   %! eh_trill_rhythm
     \repeatTie
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     af'!2                                                                      %! eh_trill_rhythm
 
     atqf'!4..                                                                  %! eh_trill_rhythm
@@ -3430,7 +3378,6 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
     [                                                                          %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqf'!8.                                                                    %! eh_trill_rhythm
     ]                                                                          %! eh_trill_rhythm
 
@@ -3606,7 +3553,6 @@ B_English_Horn_Music_Voice = {                                                 %
 
     r16                                                                        %! eh_trill_rhythm
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     a'8.                                                                       %! eh_trill_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -3623,7 +3569,6 @@ B_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqs'!8.                                                                    %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3631,7 +3576,6 @@ B_English_Horn_Music_Voice = {                                                 %
     r16                                                                        %! eh_trill_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     aqf'!2...                                                                  %! eh_trill_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3650,7 +3594,8 @@ B_English_Horn_Music_Voice = {                                                 %
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 125 / measure 29]                    %! _comment_measure_numbers
-    aqf'!2                                                                     %! eh_trill_rhythm
+    af'!2                                                                      %! eh_trill_rhythm
+    \repeatTie
 
     % [B English_Horn_Music_Voice measure 126 / measure 30]                    %! _comment_measure_numbers
     r2                                                                         %! eh_trill_rhythm
@@ -4293,7 +4238,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 100 / measure 4]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! successive_tapers_rhythm
 
     fqs!1                                                                      %! successive_tapers_rhythm
@@ -4309,7 +4253,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 103 / measure 7]                         %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f\breve..                                                                  %! successive_tapers_rhythm
@@ -4321,7 +4264,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 108 / measure 12]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! successive_tapers_rhythm
 
     fqs!1..                                                                    %! successive_tapers_rhythm
@@ -4333,7 +4275,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 111 / measure 15]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f1                                                                         %! successive_tapers_rhythm
@@ -4348,7 +4289,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 113 / measure 17]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! successive_tapers_rhythm
 
     fqs!\breve...                                                              %! successive_tapers_rhythm
@@ -4360,7 +4300,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 118 / measure 22]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f\breve.                                                                   %! successive_tapers_rhythm
@@ -4375,7 +4314,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 123 / measure 27]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! successive_tapers_rhythm
 
     fqs!1..                                                                    %! successive_tapers_rhythm
@@ -4387,7 +4325,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 126 / measure 30]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f1..                                                                       %! successive_tapers_rhythm
@@ -4399,7 +4336,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 129 / measure 33]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! successive_tapers_rhythm
 
     fqs!\breve.                                                                %! successive_tapers_rhythm
@@ -4411,7 +4347,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 134 / measure 38]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f\breve                                                                    %! successive_tapers_rhythm
@@ -4426,7 +4361,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 137 / measure 41]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     fqs!4                                                                      %! successive_tapers_rhythm
 
     fqs!1                                                                      %! successive_tapers_rhythm
@@ -4441,7 +4375,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 139 / measure 43]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f\breve..                                                                  %! successive_tapers_rhythm
@@ -4453,7 +4386,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 144 / measure 48]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     f4                                                                         %! successive_tapers_rhythm
 
     f\breve.                                                                   %! successive_tapers_rhythm
@@ -4469,7 +4401,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 149 / measure 53]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e1.                                                                        %! successive_tapers_rhythm
@@ -4481,7 +4412,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 152 / measure 56]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     e4                                                                         %! successive_tapers_rhythm
 
     e2                                                                         %! successive_tapers_rhythm
@@ -4493,7 +4423,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 153 / measure 57]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ds!4                                                                       %! successive_tapers_rhythm
 
     ds!1..                                                                     %! successive_tapers_rhythm
@@ -4505,7 +4434,6 @@ B_Clarinet_Music_Voice = {                                                     %
     r16                                                                        %! successive_tapers_rhythm
 
     % [B Clarinet_Music_Voice measure 156 / measure 60]                        %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     ds!4                                                                       %! successive_tapers_rhythm
 
     ds!8.                                                                      %! successive_tapers_rhythm
@@ -5666,9 +5594,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 122 / measure 26]                      %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
@@ -5685,9 +5613,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 125 / measure 29]                      %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
@@ -5699,9 +5627,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 127 / measure 31]                      %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -5718,9 +5646,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 130 / measure 34]                      %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -5732,9 +5660,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 132 / measure 36]                      %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
@@ -5751,9 +5679,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 135 / measure 39]                      %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -5765,9 +5693,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 137 / measure 41]                      %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -5784,9 +5712,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 140 / measure 44]                      %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
@@ -5798,9 +5726,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 142 / measure 46]                      %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -5817,9 +5745,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 145 / measure 49]                      %! _comment_measure_numbers
     d,2.                                                                       %! baca_make_repeat_tied_notes
@@ -5830,9 +5758,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 147 / measure 51]                      %! _comment_measure_numbers
     d,1                                                                        %! baca_make_repeat_tied_notes
@@ -5849,9 +5777,9 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 150 / measure 54]                      %! _comment_measure_numbers
     d,2                                                                        %! baca_make_repeat_tied_notes
@@ -5863,11 +5791,11 @@ B_Percussion_Music_Voice = {                                                   %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Percussion_Music_Voice measure 152 / measure 56]                      %! _comment_measure_numbers
     d,1                                                                        %! baca_make_repeat_tied_notes
@@ -6506,7 +6434,6 @@ B_Violin_Music_Voice = {                                                       %
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     % [B Violin_Music_Voice measure 119 / measure 23]                          %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -6568,9 +6495,9 @@ B_Violin_Music_Voice = {                                                       %
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Violin_Music_Voice measure 134 / measure 38]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
@@ -6604,9 +6531,9 @@ B_Violin_Music_Voice = {                                                       %
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Violin_Music_Voice measure 142 / measure 46]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
@@ -7122,7 +7049,6 @@ B_Violin_Music_Voice = {                                                       %
     }                                                                          %! clb_rhythm
 
     % [B Violin_Music_Voice measure 165 / measure 69]                          %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -7915,7 +7841,6 @@ B_Viola_Music_Voice = {                                                        %
     }                                                                          %! spazzolati_rhythm
 
     % [B Viola_Music_Voice measure 119 / measure 23]                           %! _comment_measure_numbers
-    \shape #'((2 . 0) (1 . 0) (0.5 . 0) (0 . 0)) RepeatTie                     %! _shorten_long_repeat_ties
     g2                                                                         %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -7977,9 +7902,9 @@ B_Viola_Music_Voice = {                                                        %
     g2.                                                                        %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Viola_Music_Voice measure 134 / measure 38]                           %! _comment_measure_numbers
     g1                                                                         %! jewelers_twilight_rhythm
@@ -8013,9 +7938,9 @@ B_Viola_Music_Voice = {                                                        %
     g1                                                                         %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
 
     % [B Viola_Music_Voice measure 142 / measure 46]                           %! _comment_measure_numbers
     g2.                                                                        %! jewelers_twilight_rhythm
@@ -8925,9 +8850,9 @@ B_Cello_Music_Voice = {                                                        %
     ef,!2.                                                                     %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "(tasto + poco vib.)"                       %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "molto pont. + vib. molto"                 %! baca_text_spanner:PiecewiseCommand(1)
@@ -8994,9 +8919,9 @@ B_Cello_Music_Voice = {                                                        %
     ef,!2                                                                      %! jewelers_twilight_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "(molto pont. + vib. molto)"                %! baca_text_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-right-text "tasto + poco vib."                        %! baca_text_spanner:PiecewiseCommand(1)
