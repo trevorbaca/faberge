@@ -898,7 +898,7 @@ maker(
     baca.stem_tremolo(selector=baca.pleaves()),
     baca.text_spanner(
         'tasto => pont. =>',
-        piece_selector=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 7]),
+        pieces=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 7]),
         selector=baca.rleaves(),
         ),
     )
@@ -1021,7 +1021,7 @@ maker(
         baca.hairpin(
             'ff > pp < p',
             bookend=False,
-            piece_selector=baca.omgroups([9, 9]),
+            pieces=baca.omgroups([9, 9]),
             ),
         measures=(71, 92),
         ),
@@ -1033,7 +1033,7 @@ maker(
             '=>',
             '(tasto+) poco vib.',
             ],
-        piece_selector=baca.cmgroups([10, 9]),
+        pieces=baca.cmgroups([10, 9]),
         selector=baca.rleaves(),
         ),
     )
