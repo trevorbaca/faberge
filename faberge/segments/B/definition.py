@@ -756,14 +756,14 @@ maker(
         baca.hairpin(
             'ppp < pp >',
             bookend=False,
-            piece_selector=baca.cmgroups([2, 3]),
+            pieces=baca.cmgroups([2, 3]),
             ),
         measures=(23, 52),
         ),
     baca.new(
         baca.hairpin(
             'ppp < pp >o niente',
-            piece_selector=baca.mgroups([2, 7]),
+            pieces=baca.mgroups([2, 7]),
             selector=baca.rleaves(),
             ),
         measures=(53, 60),
@@ -829,7 +829,7 @@ maker(
     baca.new(
         baca.hairpin(
             'ppp < f > ppp',
-            piece_selector=baca.cmgroups([8]),
+            pieces=baca.cmgroups([8]),
             ),
         measures=(37, 52),
         ),
@@ -914,7 +914,7 @@ maker(
     baca.new(
         baca.hairpin(
             'pp < f > pp',
-            piece_selector=baca.cmgroups([8]),
+            pieces=baca.cmgroups([8]),
             ),
         measures=(37, 52),
         ),
@@ -1007,14 +1007,14 @@ maker(
     baca.new(
         baca.hairpin(
             'p < ff >o niente',
-            piece_selector=baca.lparts([2, 3]),
+            pieces=baca.lparts([2, 3]),
             ),
         measures=(37, 60),
         ),
     baca.text_spanner(
         '(tasto+non vib.) => PO => tasto poss.',
         abjad.tweak(6).staff_padding,
-        piece_selector=baca.lparts([2, 3]),
+        pieces=baca.lparts([2, 3]),
         ),
     # TODO: release need for glissando indicators to come last
     baca.glissando(),
