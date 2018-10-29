@@ -389,33 +389,6 @@ metadata = abjad.OrderedDict(
             ),
         ('segment_name', 'D'),
         ('segment_number', 5),
-        (
-            'sounds_during_segment',
-            abjad.OrderedDict(
-                [
-                    ('Cello_Music_Voice', True),
-                    ('Cello_Rest_Voice', False),
-                    ('Clarinet_Music_Voice', True),
-                    ('Clarinet_Rest_Voice', False),
-                    ('English_Horn_Music_Voice', True),
-                    ('English_Horn_Rest_Voice', False),
-                    ('Flute_Music_Voice', True),
-                    ('Flute_Rest_Voice', False),
-                    ('Percussion_Music_Voice', True),
-                    ('Percussion_Rest_Voice', False),
-                    ('Piano_LH_Attack_Rest_Voice', False),
-                    ('Piano_LH_Attack_Voice', True),
-                    ('Piano_LH_Music_Voice', True),
-                    ('Piano_LH_Rest_Voice', False),
-                    ('Piano_RH_Music_Voice', True),
-                    ('Piano_RH_Rest_Voice', False),
-                    ('Viola_Music_Voice', True),
-                    ('Viola_Rest_Voice', False),
-                    ('Violin_Music_Voice', True),
-                    ('Violin_Rest_Voice', False),
-                    ]
-                ),
-            ),
         ('start_clock_time', "9'28''"),
         ('stop_clock_time', "10'37''"),
         (
