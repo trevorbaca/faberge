@@ -4,8 +4,8 @@ import math
 
 distances = [24, (24, 24, 32), (24, 24, 32), (24, 24, 32)]
 first_measure_number = 484
-last_measure_number = 577
-measure_count = last_measure_number - first_measure_number + 1
+final_measure_number = 577
+measure_count = final_measure_number - first_measure_number + 1
 measures_per_page = 8
 page_count = math.ceil(measure_count / measures_per_page)
 pages = []
