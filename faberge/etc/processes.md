@@ -1,6 +1,6 @@
 FABERGÉ INVESTIGATIONS - PROCESSES
 
-[A]:
+[A]
 
     process of alternation over segment: first term is broken shell, second term is
     composite papers and kiln.
@@ -28,11 +28,11 @@ FABERGÉ INVESTIGATIONS - PROCESSES
     harpsichord in only the upper register of the instrument. global accelerandi
     and ritardandi inflect endpoint of material.
 
-[A1]:
+[A1]
 
     first term
 
-[A2]:
+[A2]
 
     second term
 
