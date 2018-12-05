@@ -1,13 +1,21 @@
 FABERGÉ - MATERIALS
 
 α.  investigation of the golden gears (sputtering):
+
     bfl: sputtering pitch alternation
+
     eh: sputtering ratchet
+
     bcl: sputtering pitch alternation
+
     pf: sputtering lateral glissandi
+
     perc: continuous bd fingertapping
+
     vn: sputtering spazzolati, triple-struck rimbalzandi
+
     va: sputtering spazzolati, triple-struck rimbalzandi
+
     vc: 1/2 clt glissandi
 
 α.  investigation of the golden gears (turning):
