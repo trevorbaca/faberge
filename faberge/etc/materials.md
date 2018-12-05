@@ -19,6 +19,7 @@ FABERGÉ - MATERIALS
     vc: 1/2 clt glissandi
 
 α.  investigation of the golden gears (turning):
+
     bfl: trill-inflected tone with rhythmicized enveloping
     eh: ratchet with rhythmicized enveloping 
     bcl: trill-inflected tone with rhythmicized enveloping
