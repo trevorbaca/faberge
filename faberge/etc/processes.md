@@ -1,37 +1,40 @@
-FABERGÉ INVESTIGATIONS - STAGES
+FABERGÉ INVESTIGATIONS - PROCESSES
 
-[A]
-process of alternation over segment: first term is broken shell, second term is
-composite papers and kiln.
+[A]:
 
-first term: broken shell: fast tempo: vn, va, vc tremolo flautando descending
-from bridge. underneath tremolo and starting at same time is rapid exchange of
-single pitch in other players in preparation for oboe double-trill of broken
-shell. exchanged note is fluttertongue in piccolo and color trill in clarinet;
-oboe does not yet participate. tremolo flautando keeps interest in
-dynamic enveloping. tremolo flautando persists subito ppp at end of each
-stage as pedal to the following stage. at each pass through alternation note
-exchanged between piccolo and clarinet moves by stepwise motion.
+    process of alternation over segment: first term is broken shell, second term is
+    composite papers and kiln.
 
-second term: papers and kiln: slower effective tempo: single, protracted stroke
-of sponge across bass drum head that accelerates exponentially at the end of
-most strokes and combines with very sparse lower-register harpsichord notes
-second term is a type of intercalation. tremolo flautando crescendos at end
-of every second term to resume dynamic presence of first term.
+    first term: broken shell: fast tempo: vn, va, vc tremolo flautando descending
+    from bridge. underneath tremolo and starting at same time is rapid exchange of
+    single pitch in other players in preparation for oboe double-trill of broken
+    shell. exchanged note is fluttertongue in piccolo and color trill in clarinet;
+    oboe does not yet participate. tremolo flautando keeps interest in
+    dynamic enveloping. tremolo flautando persists subito ppp at end of each
+    stage as pedal to the following stage. at each pass through alternation note
+    exchanged between piccolo and clarinet moves by stepwise motion.
 
-process: alternation between two terms. at each successive occurence of second
-term, harpsichord density increases and register rises. material starts with
-very sparse feather beams that do not yet have the identity of feather beams.
-density increases to reveal identity of feather beams. then straight-valued
-rhythms interpolate to gradually replace feather beams. endpoint in run-away
-harpsichord in only the upper register of the instrument. global accelerandi
-and ritardandi inflect endpoint of material.
+    second term: papers and kiln: slower effective tempo: single, protracted stroke
+    of sponge across bass drum head that accelerates exponentially at the end of
+    most strokes and combines with very sparse lower-register harpsichord notes
+    second term is a type of intercalation. tremolo flautando crescendos at end
+    of every second term to resume dynamic presence of first term.
 
-[A1]
-first term
+    process: alternation between two terms. at each successive occurence of second
+    term, harpsichord density increases and register rises. material starts with
+    very sparse feather beams that do not yet have the identity of feather beams.
+    density increases to reveal identity of feather beams. then straight-valued
+    rhythms interpolate to gradually replace feather beams. endpoint in run-away
+    harpsichord in only the upper register of the instrument. global accelerandi
+    and ritardandi inflect endpoint of material.
 
-[A2]
-second term
+[A1]:
+
+    first term
+
+[A2]:
+
+    second term
 
 [A3]
 first term

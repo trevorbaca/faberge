@@ -3,19 +3,12 @@ FABERGÉ - MATERIALS
 α.  investigation of the golden gears (sputtering):
 
     bfl: sputtering pitch alternation
-
     eh: sputtering ratchet
-
     bcl: sputtering pitch alternation
-
     pf: sputtering lateral glissandi
-
     perc: continuous bd fingertapping
-
     vn: sputtering spazzolati, triple-struck rimbalzandi
-
     va: sputtering spazzolati, triple-struck rimbalzandi
-
     vc: 1/2 clt glissandi
 
 α.  investigation of the golden gears (turning):
@@ -30,6 +23,7 @@ FABERGÉ - MATERIALS
     vc: 1/2 clt glissandi-armonichi oscillandi-enveloped trem alla punta
 
 β.  investigation of the broken shell:
+
     β1. lateral piano A0 scrape
     β2. single pitch rapidly exchanged between two players
     β3. single pitch rapidly exchanged between three players
@@ -42,6 +36,7 @@ FABERGÉ - MATERIALS
     β10. silently depressed ninth chord
 
 γ.  investigation of the jewelers' desk:
+
     γ1. va midregister pochissimo scratch ppp pedal
     γ2. isolated low wind key noise
     γ3. running polyrhythms of low wind key noise
@@ -55,6 +50,7 @@ FABERGÉ - MATERIALS
     γ11. muted pf notes in isolation
 
 δ.  investigation of the kiln and its parts:
+
     δ1. vn, va, vc clb
     δ2. dripping upperregister harpsichord
     δ3. vn, va, vc clb with dripping upperregister harpsichord
@@ -67,6 +63,7 @@ FABERGÉ - MATERIALS
     δ10. piccolo, clarinet, oboe flz, vn, va, vc fff tremolo, maracas
 
 ε.  papers of the house of fabergé:
+
     ε1. long smooth bass drum white noise strokes 
     ε2. vn, va, vc ob strokes
     ε3. fl, ob, cl airtone
