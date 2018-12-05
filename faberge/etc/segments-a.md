@@ -1,4 +1,5 @@
-FABERGÉ - STAGES
+SEGMENTS (INTRO & A)
+====================
 
 [intro.1]
 tempo: 100.
