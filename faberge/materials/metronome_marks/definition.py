@@ -7,8 +7,8 @@ metronome_marks = abjad.OrderedDict([
         abjad.MetronomeMark((1, 4), 41),
         ),
     (
-        '52',
-        abjad.MetronomeMark((1, 4), 52),
+        '51',
+        abjad.MetronomeMark((1, 4), 51),
         ),
     (
         '64',
