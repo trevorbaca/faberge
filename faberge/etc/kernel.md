@@ -43,29 +43,7 @@ KERNEL
     va: spazzolati
     vc: --
 
-    fl: --
-    eh: --
-    cl: --
-    hpschd: --
-    perc: --
-    vn: --
-    va: tremolo-initiated ob
-    vc: --
-
 [C]
-
-    bfl: airtone (2)
-    eh: airtone (1)
-    bcl: airtone (3)
-    pf: --
-    perc: --
-    vn: spazzolati
-    va: tremolo airtone (0)
-    vc: spazzolati
-    ===
-    gears (α) vn, vc spazzolati.
-    papers (ε) tremolo-initiated va ob, eh airtone, bfl airtone, bcl airtone.
-    pf, perc tacet.
 
     bfl: airtone (2)
     eh: airtone (1)
@@ -83,7 +61,7 @@ KERNEL
 [D]
 
     bfl: glow
-    eh: keynoise
+    eh: --
     bcl: glow
     pf: --
     perc: marimba pedal
@@ -91,43 +69,34 @@ KERNEL
     va: [tremolo airtone (0)]
     vc: lowregister pedal
     ===
-    jewelers' desk (γ) momentary recollection.
-    jewelers' desk (γ) bfl glow, eh keynoise, bcl glow,
-    (pf credit card against tuning pegs), attackless ppppp lowregister marimba.
-    pedal, vn quiet pitch, vc lowregister pedal.
+    jewelers' desk (γ) bfl glow, bcl glow, marimba pedal, vc pedal.
+    jewelers' desk (γ) vn / va quite pochiss. scratch pedal.
     papers (ε) va airtone.
 
-    bfl: --
+    picc: piccolo tongueram
     eh: --
     bcl: --
-    hpschd: meccanico repeated pitch
-    perc: bd, shorter castanet roll, pause; repeated with regularity
-    vn: clb meccanico
-    va: [tremolo airtone (0)]
-    vc: clb meccanico
+    pf: damped meccanico repeated pitch
+    perc: woodblock
+    vn: bright pizzicati meccanichi
+    va: bright pizzicati meccanichi
+    vc: bright pizzicati meccanichi
     ===
-    ratchet game (β+δ):
-    faster than previous ratchet game:
-    more mechanical than previous ratchet game:
-    papers (ε) va airtone.
+    repeated with regularity.
     winds tacet.
 
-    bfl: --
-    eh: [shakers electricity]
-    bcl: --
-    pf: --
-    perc: [shakers electricity]
+    bfl: piccolo fluttertongue
+    eh: shakers electricity
+    bcl: shakers electricity
+    pf: shakers electricity
+    perc: shakers electricity
     vn: electricity
-    va: [airtone]
+    va: electricity
     vc: electricity
     ===
-    papers (ε) va airtone.
-    shell (β) eh shakers, perc shakers.
-    shell (β) vn, vc electricity.
-    fl, cl, pf tacet.
+    tutti.
 
 [E]
-
 
     bfl: airtone    (a: 2,4 ... 12,14 ... 22,24 ... 32,34)
     eh: airtone     (a: 1,5 ... 11,15 ... 21,25 ... 31,35)
@@ -144,24 +113,10 @@ KERNEL
     and so on developing in this way with internal pauses.
     as many as three separate airtone chains at once.
     stopping with eh, bd, vn airtone chord.
-    no players tacet.
-
-    bfl: [glowing multiphonic]
-    eh: [airtone]
-    bcl: [glow]
-    hpschd: thin clb
-    perc: [bd airtone]
-    vn: thin clb
-    va: thin clb
-    vc: [lowregister pedal]
-    ===
-    papers (ε) eh, bd airtone chord.
-    jewelers' desk (γ) bfl glowing multiphonic, bcl tone, vc lowregister pedal.
-    kiln (δ) hpschd, vn clb, va clb.
-    no players tacet.
+    tutti.
 
     bfl: --
-    eh: maximal doppeltrill recollection with swell enveloping
+    eh: maximal doubletrill with swell enveloping
     bcl: --
     hpschd: --
     perc: [bd airtone]
@@ -171,18 +126,16 @@ KERNEL
     ===
     papers (ε) bd airtone.
     gears (α) vn, va spazzolati.
-    shell (β) eh doppeltrill with swell enveloping.
+    shell (β) eh doubletrill with swell enveloping.
     four players tacet.
 
 [F]
 
-    bcl sputter gesture of starting up: same as bfl and scored to arrive on D3
-    and allow for 9-way colorfinger variation.
+    bcl 9-way colorfinger variation.
 
-    vn, va sputter gesture of starting up: quadruple-struck rimbalzando
-    followed by short, quiet, isolated tremolo flautando on same pitch
-    followed. progresses to quadruple-struck rimbalzando followed by two or
-    three tremoli flautandi in succession.
+    vn, va, vc quadruple-struck rimbalzando followed by scp-tremolo segment
+    ===
+    suffixed rimbalzandi
 
     bfl: inter. fluttertongue, colortrill
     eh: inter. ratchet
@@ -199,7 +152,7 @@ KERNEL
     eh: airtone (0, 2, 7) ff
     bcl: gears ppppp
     pf: gears ppppp
-    perc: bd airtone (1, 3, 5) ff
+    erc: bd airtone (1, 3, 5) ff
     vn: airtone (4, 6) ff
     va: gears ppppp
     vc: gears ppppp
@@ -233,7 +186,7 @@ KERNEL
     gears (α) vn irregular and very sparse quadruple-struck rimbalzandi.
     gears (α) va irregular and very sparse quadruple-struck rimbalzandi.
     gears (α) pf irregular and very sparse credit card against tuning pegs.
-    no players tacet.
+    tutti.
 
 [K]
 
