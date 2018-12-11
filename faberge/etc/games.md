@@ -136,17 +136,17 @@ game 5 (100, 125, 156)
     [bcl 9-way colorfinger variation fades out]
 
     [disappearance + appearance]
-    5-3 (100@4)
+    5-3 (100:125@4)
     piccolo fluttertongue thins out
     tremolo electricity appears incrementally
 
     [state + appearance]
-    5-4 (100:125@4)
+    5-4 (125:156@4)
     tremolo electricity
     shakers electricity appears incrementally
 
     [state + state + state]
-    5-5 (125:156@8)
+    5-5 (156@8)
     tremolo electricity
     shakers electricity
     tutti electricity
