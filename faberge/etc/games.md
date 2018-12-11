@@ -13,36 +13,38 @@ game 1 (80, 64, 52, 41)
     1-1 (80:64@4)
     colored airtone chain alone
 
-    [layers of transformed cells]
+    [transformed cells + transformed  cells]
     1-2 (64:52@4)
     colored airtone chain
-    glow cells
+    low glow cells
 
-    [process + cells]
+    [transformed cells + alternation]
     1-3 (52:41@4)
-    ibid + glow cell with suffixed colortrills at middles
+    colored airtone chain
+    low glow cells alternating with suffixed colortrills
 
     [alternation]
     1-4 (41@4)
-    low glow cells swell-alternate with suffixed colortrills
-    low glow cells (p < mf > p)
-    suffixed colortrills (p < mf > p)
+    [colored airtone chain drops out]
+    low glow cells alternating with suffixed colortrills
 
     [state]
     1-5 (41@4)
-    suffixed colortrills (swell-shaped) alone
+    [low glow cells drop out]
+    suffixed colortrills
 
 game 2 (80, 100, 125, 156)
 --------------------------
 
-    [state + cells]
+    [cells + state]
     2-1 (80@4)
     meccanico cells becomes high glow cells
-    [swell-shaped suffixed colortrills persist]
+    [suffixed colortrills persist]
 
-    [transformed cells]
+    [transformed cells + fade-out]
     2-2 (80:100@4)
     meccanico cells becomes high glow cells
+    [suffixed colortrills fade out]
 
     [cells]
     2-3 (100:125@4)
@@ -55,33 +57,34 @@ game 2 (80, 100, 125, 156)
 game 3 (156, 125, 100)
 ----------------------
 
-    [heterogenous cells + homogeneous cells]
+    [cellular texture + cells]
     3-1 (156@4)
-    ppppp ratchet spazzolati prefix suffixed rimbalzandi
-    [high glow cells persist]
+    ppppp desynchronized rimbalzandi cells
+    [high glow cells thin out and fade out]
 
-    [heterogeneous cells]
+    [transformation]
     3-2 (156@4)
-    ppppp ratchet spazzolati prefix suffixed rimbalzandi
-    [high glow cells drop out]
+    ppppp rimbalzandi cells become synchronized
 
     [cells + fade-in]
     3-3 (156:125@4)
-    ppppp ratchet spazzolati continue
-    ppppp desynchronized suffixed colortrills appear
+    ppppp synchronized rimbalzandi cells
+    ppppp desynchronized suffixed colortrills fade in
 
     [transformation]
     3-4 (125@4)
-    ppp suffixed rimbalzandi, suffixed colortrills synchronize
+    ppp synchronized rimbalzandi cells
+    synchronized suffixed colortrills
 
     [cells]
     3-5 (125@4)
-    ppp synchronized suffixed rimbalzandi with suffixed colortrills
+    ppp synchronized rimbalzandi cells
+    synchronized suffixed colortrills
+    [rimbalzandi cells fade out]
 
-    [transformation + exit]
+    [transformation]
     3-6 (125:100@4)
     p suffixed colortrills become loure pulses + superball groans
-    [suffixed rimbalzandi drop out]
 
     [cells]
     3-7 (100@4)
@@ -94,57 +97,58 @@ game 3 (156, 125, 100)
 game 4 (52, 64)
 ---------------
 
-    [cells]
+    [texture appears + cells disappear]
     4-1 (52@4)
-    castanet-prefixed, -suffixed clb cells
-    [wind loure pulses with superball groans persist]
+    continuous clb fades in
+    [wind loure pulses with superball groans thin out and fade out]
 
-    [cells]
+    [texture persists]
     4-2 (52@4)
-    castanet-prefixed, -suffixed clb cells
-    [loure pulses drop out]
+    continuous clb
 
-    [transformation + entrance]
-    4-3 (52:64@4)
+    [texture becomes cells; material appears]
+    4-3 (52@4)
+    castanets shape clb into cells
+    bcl 9-way colorfinger variation fades in
+
+    [cells become material; material persists]
+    4-4 (52:64@4)
     castanet clb cells become colored doubletrill castanets
-    bcl 9-way colorfinger variation appears
+    [bcl 9-way colorfinger variation continues]
 
-    [state]
-    4-4 (64@4)
+    [material persists; material persists]
+    4-5 (64@4)
     colored doubletrill castanets
     [bcl 9-way colorfinger variation continues]
 
 game 5 (100, 125, 156)
 ----------------------
 
-    [state + entrance]
+    [appearance + disappearance + material]
     5-1 (100@4)
-    piccolo fluttertongue becomes tremolo electricity
-    [colored doubletrill castanets persist]
+    piccolo fluttertongue appears incrementally
+    [colored doubletrill castanets thin out]
     [bcl 9-way colorfinger variation persists]
 
-    [state + exit]
+    [state + disappearance]
     5-2 (100@4)
     piccolo fluttertongue
-    [colored doubletrill castanets drop out]
-    [bcl 9-way colorfinger variation persists]
-
-    [transformation + fade-out]
-    5-3 (100@4)
-    piccolo fluttertongue, tremolo electricity swell-alternate
-    [piccolo fluttertongue recedes]
     [bcl 9-way colorfinger variation fades out]
 
-    [transformation]
+    [disappearance + appearance]
+    5-3 (100@4)
+    piccolo fluttertongue thins out
+    tremolo electricity appears incrementally
+
+    [state + appearance]
     5-4 (100:125@4)
-    tremolo electricity becomes shakers electricity
+    tremolo electricity
+    shakers electricity appears incrementally
 
-    [transformation]
-    5-5 (125:156@4)
-    shakers electricity becomes tutti electricity
-
-    [state]
-    5-6 (156@8)
+    [state + state + state]
+    5-5 (125:156@8)
+    tremolo electricity
+    shakers electricity
     tutti electricity
 
     ===
