@@ -6,6 +6,7 @@ from abjadext import rmakers
 def shell_exchange_rhythm(
     total_parts,
     this_part,
+    *,
     extra_counts_per_division_rotation=None,
     rotation=None,
     ):

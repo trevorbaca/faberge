@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def cello_gears_rhythm(
+    *,
     include_oscillando=False,
     include_glissando=False,
     include_tremolo=False,

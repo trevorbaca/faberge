@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def agitated_wind_rhythm(
+    *,
     count_rotation=None,
     ):
     """

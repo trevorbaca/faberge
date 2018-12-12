@@ -3,7 +3,11 @@ import baca
 from abjadext import rmakers
 
 
-def meccanico_rhythm(attack_count, fuse_counts=None):
+def meccanico_rhythm(
+    attack_count,
+    *,
+    fuse_counts=None,
+    ):
     """
     Makes meccanico rhythm.
     """
