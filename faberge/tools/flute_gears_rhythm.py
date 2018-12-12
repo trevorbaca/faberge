@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def flute_gears_rhythm(
+    *,
     include_fluttertongue=False,
     include_colortrill=False,
     include_tone=False,

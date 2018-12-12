@@ -5,6 +5,7 @@ import faberge
 
 def margin_markup(
     key: str,
+    *,
     alert: baca.IndicatorCommand  = None,
     context: str = 'Staff',
     selector: baca.typings.Selector = 'baca.leaf(0)',

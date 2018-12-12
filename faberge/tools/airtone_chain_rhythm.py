@@ -6,6 +6,7 @@ from abjadext import rmakers
 def airtone_chain_rhythm(
     total_events,
     my_event_indices,
+    *,
     counts=(4, 12, 8, 4, 12, 12, 8),
     event_rotation=None,
     overlap_counts=True,

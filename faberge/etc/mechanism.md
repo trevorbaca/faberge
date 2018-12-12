@@ -1,12 +1,7 @@
 MECHANISM
 =========
 
-* lone bowed crotale (A.1)
-* castanet-initiated bd strike (A.2)
-* spazzolato cell (A.3)
-* xfb glow (A.4)
-
-game 1 (80, 64, 52, 41)
+game 1 (80, 64, 51, 41)
 -----------------------
 
     [transformed cells]
@@ -14,12 +9,12 @@ game 1 (80, 64, 52, 41)
     colored airtone chain alone
 
     [transformed cells + transformed  cells]
-    1-2 (64:52@4)
+    1-2 (64:51@4)
     colored airtone chain
     low glow cells
 
     [transformed cells + alternation]
-    1-3 (52:41@4)
+    1-3 (51:41@4)
     colored airtone chain
     low glow cells alternating with suffixed colortrills
 
@@ -94,25 +89,25 @@ game 3 (156, 125, 100)
     simultaneous woodblock + damped piano articulation of cells
     ppppp, ppp, p
 
-game 4 (52, 64)
+game 4 (51, 64)
 ---------------
 
     [texture appears + cells disappear]
-    4-1 (52@4)
+    4-1 (51@4)
     continuous clb fades in
     [wind loure pulses with superball groans thin out and fade out]
 
     [texture persists]
-    4-2 (52@4)
+    4-2 (51@4)
     continuous clb
 
     [texture becomes cells; material appears]
-    4-3 (52@4)
+    4-3 (51@4)
     castanets shape clb into cells
     bcl 9-way colorfinger variation fades in
 
     [cells become material; material persists]
-    4-4 (52:64@4)
+    4-4 (51:64@4)
     castanet clb cells become colored doubletrill castanets
     [bcl 9-way colorfinger variation continues]
 
@@ -155,3 +150,11 @@ game 5 (100, 125, 156)
     eh ratchet articulates cells
     superball articulates cells
     fingertapped bd pedal
+
+A
+=
+
+    lone bowed crotale (A.1)
+    castanet-initiated bd strike (A.2)
+    spazzolato cell (A.3)
+     xfb glow (A.4)

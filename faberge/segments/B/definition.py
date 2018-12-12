@@ -423,7 +423,9 @@ maker(
 
 maker(
     ('vn', (53, 68)),
-    faberge.clb_rhythm(fuse_counts=[2, 2, 1]),
+    faberge.clb_rhythm(
+        fuse_counts=[2, 2, 1],
+        ),
     )
 
 maker(
@@ -433,7 +435,9 @@ maker(
 
 maker(
     ('vn', (73, 80)),
-    faberge.clb_rhythm(fuse_counts=[2, 2, 1]),
+    faberge.clb_rhythm(
+        fuse_counts=[2, 2, 1],
+        ),
     )
 
 # va
@@ -459,7 +463,9 @@ maker(
 
 maker(
     ('va', (53, -1)),
-    faberge.clb_rhythm(fuse_counts=[1, 2, 2]),
+    faberge.clb_rhythm(
+        fuse_counts=[1, 2, 2],
+        ),
     )
 
 # vc
@@ -487,13 +493,15 @@ maker(
 maker(
     ('vc', (57, 60)),
     baca.make_fused_tuplet_monads(
-        tuplet_ratio=abjad.Ratio((31, 1)),
+        tuplet_ratio=(31, 1),
         ),
     )
 
 maker(
     ('vc', (61, -1)),
-    faberge.clb_rhythm(fuse_counts=[3]),
+    faberge.clb_rhythm(
+        fuse_counts=[3],
+        ),
     )
 
 # fl

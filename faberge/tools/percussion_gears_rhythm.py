@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def percussion_gears_rhythm(
+    *,
     include_superball=False,
     include_fingertapping=False,
     ):

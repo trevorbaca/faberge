@@ -5,6 +5,7 @@ from abjadext import rmakers
 
 def glowing_wind_rhythm(
     counts,
+    *,
     count_rotation=None,
     extra_counts_per_division=(4, 12, 4, 4, 8),
     extra_counts_per_division_rotation=None,

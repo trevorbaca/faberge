@@ -4,7 +4,8 @@ from abjadext import rmakers
 
 
 def clb_rhythm(
-    count_rotation=None,
+    *,
+    ###count_rotation=None,
     fuse_counts=None,
     ):
     """
@@ -20,23 +21,23 @@ def clb_rhythm(
             )
         expression = expression.map(baca.sequence().sum())
         expression = expression.flatten()
-    counts = baca.sequence([
-        [1, 1, 1, 1, 1],
-        [-4],
-        [1, 1, 1, 1, 1, 1],
-        [-2],
-        [1, 1, 1, 1],
-        [-6],
-        [1, 1, 1, 1, 1],
-        [1, 1, 1, 1, 1],
-        [-8],
-        [1, 1, 1, 1, 1, 1],
-        [-4],
-        [1, 1, 1, 1, 1, 1],
-        [-6],
-        ])
-    counts = counts.rotate(n=count_rotation)
-    counts = counts.flatten()
+#    counts = baca.sequence([
+#        [1, 1, 1, 1, 1],
+#        [-4],
+#        [1, 1, 1, 1, 1, 1],
+#        [-2],
+#        [1, 1, 1, 1],
+#        [-6],
+#        [1, 1, 1, 1, 1],
+#        [1, 1, 1, 1, 1],
+#        [-8],
+#        [1, 1, 1, 1, 1, 1],
+#        [-4],
+#        [1, 1, 1, 1, 1, 1],
+#        [-6],
+#        ])
+#    counts = counts.rotate(n=count_rotation)
+#    counts = counts.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2, 6, 2, 0, 4],
         tag='clb_rhythm',

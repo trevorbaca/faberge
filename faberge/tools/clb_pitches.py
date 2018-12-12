@@ -2,7 +2,10 @@ import baca
 from abjadext import rmakers
 
 
-def clb_pitches(rotation=None):
+def clb_pitches(
+    *,
+    rotation=None,
+    ):
     """
     Makes clb pitches.
     """

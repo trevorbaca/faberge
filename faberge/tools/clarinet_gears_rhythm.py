@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def clarinet_gears_rhythm(
+    *,
     include_colortrill=False,
     include_tone=False,
     ):
