@@ -1,8 +1,6 @@
 TO-DO
 =====
 
-1.  silences.
+1.  KIFOLEMHDNJGC
 
-2.  relata.
-
-3.  repeats.
+2.  repeats.
