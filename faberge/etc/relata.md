@@ -3,7 +3,7 @@ RELATA
 
 1.  lone bowed crotale (A.1)
 
-    synchronized rimbalzando cells (A.1)
+    synchronized rimbalzando cells (3-3) look back to (A.1)
     piccolo fluttertongue (5-3) looks back to (A.1)
 
 2.  castanet-initiated bd strike (A.2)
@@ -20,7 +20,6 @@ RELATA
 
     high glow cell (2-4) looks back to (A.4)
     loure pulses (3-7) look back to (A.4)
-    piccolo fluttertongue (5-2, 5-3) look back to (A.4)
 
 5.  colored airtone chain (1-1)
     

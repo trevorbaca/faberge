@@ -1,5 +1,5 @@
-GAMES
-=====
+MECHANISM
+=========
 
 * lone bowed crotale (A.1)
 * castanet-initiated bd strike (A.2)
