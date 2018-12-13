@@ -75,7 +75,7 @@ metadata = abjad.OrderedDict(
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
-                                    value=(0, 2),
+                                    value=(-2, 2),
                                     ),
                                 ),
                             abjad.Momento(
@@ -86,7 +86,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='bass',
                                 ),
                             abjad.Momento(
                                 context='Cello_Music_Voice',
@@ -354,7 +354,7 @@ metadata = abjad.OrderedDict(
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
-                                    value=(-2, 0),
+                                    value=(-2, 2),
                                     ),
                                 ),
                             abjad.Momento(
@@ -365,7 +365,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='Violin_Music_Voice',

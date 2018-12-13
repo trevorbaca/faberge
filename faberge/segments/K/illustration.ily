@@ -828,19 +828,19 @@ K_Violin_Music_Voice = {                                                       %
                 #16                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 Vn.                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.StaffSymbol.line-count = 1                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        \clef "percussion"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b8                                                                     %! clb_rhythm
+        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+        a'8                                                                    %! clb_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -857,84 +857,84 @@ K_Violin_Music_Voice = {                                                       %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
 
     }                                                                          %! clb_rhythm
 
     % [K Violin_Music_Voice measure 195 / measure 3]                           %! _comment_measure_numbers
-    d'8                                                                        %! clb_rhythm
+    c''8                                                                       %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     [                                                                          %! clb_rhythm
 
-    d'8                                                                        %! clb_rhythm
+    c''8                                                                       %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    d'8                                                                        %! clb_rhythm
+    c''8                                                                       %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    d'8                                                                        %! clb_rhythm
+    c''8                                                                       %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    d'8                                                                        %! clb_rhythm
+    c''8                                                                       %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    d'8                                                                        %! clb_rhythm
+    c''8                                                                       %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! clb_rhythm
 
@@ -942,23 +942,23 @@ K_Violin_Music_Voice = {                                                       %
     \times 4/6 {                                                               %! clb_rhythm
 
         % [K Violin_Music_Voice measure 196 / measure 4]                       %! _comment_measure_numbers
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
@@ -993,59 +993,59 @@ K_Violin_Music_Voice = {                                                       %
         % [K Violin_Music_Voice measure 198 / measure 6]                       %! _comment_measure_numbers
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [K Violin_Music_Voice measure 199 / measure 7]                       %! _comment_measure_numbers
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
 
     }                                                                          %! clb_rhythm
 
     % [K Violin_Music_Voice measure 200 / measure 8]                           %! _comment_measure_numbers
-    b8                                                                         %! clb_rhythm
+    a'8                                                                        %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     [                                                                          %! clb_rhythm
 
-    b8                                                                         %! clb_rhythm
+    a'8                                                                        %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c'8                                                                        %! clb_rhythm
+    b'8                                                                        %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c'8                                                                        %! clb_rhythm
+    b'8                                                                        %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c'8                                                                        %! clb_rhythm
+    b'8                                                                        %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c'8                                                                        %! clb_rhythm
+    b'8                                                                        %! clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! clb_rhythm
 
@@ -1053,35 +1053,35 @@ K_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! clb_rhythm
 
         % [K Violin_Music_Voice measure 201 / measure 9]                       %! _comment_measure_numbers
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        c'8                                                                    %! clb_rhythm
+        b'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        a'8                                                                    %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        c''8                                                                   %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
@@ -1135,15 +1135,15 @@ K_Viola_Music_Voice = {                                                        %
             #16                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             Va.                                                                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 5                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \clef "alto"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1162,7 +1162,7 @@ K_Viola_Music_Voice = {                                                        %
             #16                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
             Va.                                                                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         }                                                                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2
@@ -1385,19 +1385,19 @@ K_Cello_Music_Voice = {                                                        %
                 #16                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
                 Vc.                                                            %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             }                                                                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.StaffSymbol.line-count = 1                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        \clef "percussion"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \clef "bass"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b8                                                                     %! clb_rhythm
+        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+        c8                                                                     %! clb_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -1414,37 +1414,37 @@ K_Cello_Music_Voice = {                                                        %
             }                                                                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
 
@@ -1454,47 +1454,47 @@ K_Cello_Music_Voice = {                                                        %
     \times 8/14 {                                                              %! clb_rhythm
 
         % [K Cello_Music_Voice measure 194 / measure 2]                        %! _comment_measure_numbers
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
 
@@ -1504,41 +1504,41 @@ K_Cello_Music_Voice = {                                                        %
     \times 10/12 {                                                             %! clb_rhythm
 
         % [K Cello_Music_Voice measure 195 / measure 3]                        %! _comment_measure_numbers
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
@@ -1573,23 +1573,23 @@ K_Cello_Music_Voice = {                                                        %
         % [K Cello_Music_Voice measure 198 / measure 6]                        %! _comment_measure_numbers
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
 
@@ -1599,23 +1599,23 @@ K_Cello_Music_Voice = {                                                        %
     \times 4/6 {                                                               %! clb_rhythm
 
         % [K Cello_Music_Voice measure 199 / measure 7]                        %! _comment_measure_numbers
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
 
@@ -1625,53 +1625,53 @@ K_Cello_Music_Voice = {                                                        %
     \times 14/16 {                                                             %! clb_rhythm
 
         % [K Cello_Music_Voice measure 200 / measure 8]                        %! _comment_measure_numbers
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         [                                                                      %! clb_rhythm
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! clb_rhythm
+        c8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! clb_rhythm
+        e8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! clb_rhythm
+        d8                                                                     %! clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! clb_rhythm
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
