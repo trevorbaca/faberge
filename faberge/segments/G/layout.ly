@@ -1,4 +1,4 @@
-% first_page_number = 26
+% first_page_number = 28
 % page_count = 1
 % measure_count = 1 + 1
 % time_signatures = [
@@ -19,7 +19,7 @@
         \context PageLayout = "Page_Layout"                                    %! _make_global_context
         {   %*% Page_Layout                                                    %! _make_global_context
 
-            % [Page_Layout measure 181]                                        %! _comment_measure_numbers
+            % [Page_Layout measure 188]                                        %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
             \autoPageBreaksOff                                                 %! BreakMeasureMap(1):BREAK
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
@@ -29,7 +29,7 @@
         %@% - \baca-start-spm-left-only "[1/24]"                               %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                              %! SPACING_MARKUP
 
-            % [Page_Layout measure 182]                                        %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+            % [Page_Layout measure 189]                                        %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
             \baca-new-spacing-section #1 #4                                    %! PHANTOM:_style_phantom_measures(1):HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                           %! PHANTOM:_style_phantom_measures(1):BreakMeasureMap(2):BREAK
             \baca-time-signature-transparent                                   %! PHANTOM:_style_phantom_measures(2)

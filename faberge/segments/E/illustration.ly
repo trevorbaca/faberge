@@ -4,7 +4,7 @@
 \include "../../stylesheets/stylesheet.ily"                                    %! _make_lilypond_file:LilyPondFile
 \include "../../stylesheets/nonfirst-segment.ily"                              %! _make_lilypond_file:LilyPondFile
 \include "illustration.ily"                                                    %! extern
-\paper { first-page-number = #24 }                                             %! __make_segment_pdf__
+\paper { first-page-number = #26 }                                             %! __make_segment_pdf__
 
 
 \score {                                                                       %! _make_lilypond_file:LilyPondFile

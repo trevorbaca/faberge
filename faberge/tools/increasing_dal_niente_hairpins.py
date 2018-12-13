@@ -6,21 +6,25 @@ def increasing_dal_niente_hairpins():
     """
     Makes increasing dal niente hairpins.
     """
-    return baca.suite(
-        baca.new(
-            baca.hairpin('niente o< p', selector=baca.rleaves()),
+    return baca.chunk(
+        baca.hairpin(
+            'niente o< p',
             map=baca.run(0),
+            selector=baca.leaves().rleak(),
             ),
-        baca.new(
-            baca.hairpin('niente o< mp', selector=baca.rleaves()),
+        baca.hairpin(
+            'niente o< mp',
             map=baca.run(1),
+            selector=baca.leaves().rleak(),
             ),
-        baca.new(
-            baca.hairpin('niente o< mf', selector=baca.rleaves()),
+        baca.hairpin(
+            'niente o< mf',
             map=baca.runs()[2:4],
+            selector=baca.leaves().rleak(),
             ),
-        baca.new(
-            baca.hairpin('niente o< f', selector=baca.rleaves()),
+        baca.hairpin(
+            'niente o< f',
             map=baca.runs()[4:],
+            selector=baca.leaves().rleak(),
             ),
         )

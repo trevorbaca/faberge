@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [192],
+            [199],
             ),
         ('duration', "0'01''"),
         ('final_measure_number', 199),
@@ -153,7 +153,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
@@ -220,7 +220,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='percussion',
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
