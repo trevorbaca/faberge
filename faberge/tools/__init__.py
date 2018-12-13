@@ -4,7 +4,6 @@ from .agitated_wind_rhythm import agitated_wind_rhythm
 from .airtone_chain_rhythm import airtone_chain_rhythm
 from .airtone_pedal_rhythm import airtone_pedal_rhythm
 from .cello_gears_rhythm import cello_gears_rhythm
-from .chord_pitches import chord_pitches
 from .clarinet_gears_rhythm import clarinet_gears_rhythm
 from .clb_pitches import clb_pitches
 from .clb_rhythm import clb_rhythm
@@ -13,7 +12,7 @@ from .dal_niente_hairpins import dal_niente_hairpins
 from .eh_trill_rhythm import eh_trill_rhythm
 from .electricity_rhythm import electricity_rhythm
 from .flute_gears_rhythm import flute_gears_rhythm
-from .front_incised_notes import front_incised_notes
+from .front_incised_divisions import front_incised_divisions
 from .glow_rhythm import glow_rhythm
 from .glowing_wind_rhythm import glowing_wind_rhythm
 from .increasing_dal_niente_hairpins import increasing_dal_niente_hairpins

@@ -3073,6 +3073,8 @@ B_English_Horn_Music_Voice = {                                                 %
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #1.5                               %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -3390,6 +3392,8 @@ B_English_Horn_Music_Voice = {                                                 %
 
         cs'!16                                                                 %! keynoise_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
 
     }                                                                          %! keynoise_rhythm
@@ -3434,6 +3438,8 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     % [B English_Horn_Music_Voice measure 113 / measure 17]                    %! _comment_measure_numbers
+    \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #1.5                               %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     r4.                                                                        %! keynoise_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
@@ -3594,6 +3600,8 @@ B_English_Horn_Music_Voice = {                                                 %
     r4.                                                                        %! keynoise_rhythm
 
     ef'!8                                                                      %! keynoise_rhythm
+    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
     \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 119 / measure 23]                    %! _comment_measure_numbers
@@ -3717,6 +3725,8 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     % [B English_Horn_Music_Voice measure 141 / measure 45]                    %! _comment_measure_numbers
+    \override TupletBracket.direction = #down                                  %! baca_tuplet_bracket_down:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #1.5                               %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     r4                                                                         %! keynoise_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
@@ -4123,52 +4133,75 @@ B_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! keynoise_rhythm
 
     d'8                                                                        %! keynoise_rhythm
+    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
+    \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
     \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
 
-    % [B English_Horn_Music_Voice measure 157 / measure 61]                    %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \clef "percussion"                                                         %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
-    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    r2.                                                                        %! baca_make_rests
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                "remove staple"                                                %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
-    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "English_Horn_Music_Voice"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B English_Horn_Music_Voice measure 157 / measure 61]            %! _comment_measure_numbers
+            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \once \override Staff.StaffSymbol.line-count = 1                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \clef "percussion"                                                 %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.Clef.color = #(x11-color 'blue)              %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+            g'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            ^ \markup {                                                        %! baca_markup:IndicatorCommand
+                \override                                                      %! baca_markup:IndicatorCommand
+                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
+                    \box                                                       %! baca_markup:IndicatorCommand
+                        "remove staple"                                        %! baca_markup:IndicatorCommand
+                }                                                              %! baca_markup:IndicatorCommand
+            \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "English_Horn_Rest_Voice"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B English_Horn_Rest_Voice measure 157 / measure 61]             %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [B English_Horn_Music_Voice measure 158 / measure 62]                    %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 159 / measure 63]                    %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_rests
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 160 / measure 64]                    %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 161 / measure 65]                    %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_rests
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 162 / measure 66]                    %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 163 / measure 67]                    %! _comment_measure_numbers
-    r2                                                                         %! baca_make_rests
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 164 / measure 68]                    %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 165 / measure 69]                    %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { airtone }                                                      %! baca_markup:IndicatorCommand
 
@@ -6036,6 +6069,7 @@ B_Percussion_Music_Voice = {                                                   %
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
     b1                                                                         %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak self-alignment-X #-0.75                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
@@ -7255,6 +7289,7 @@ B_Violin_Music_Voice = {                                                       %
     % [B Violin_Music_Voice measure 165 / measure 69]                          %! _comment_measure_numbers
     c'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak self-alignment-X #-0.75                                           %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand

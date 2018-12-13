@@ -3,13 +3,13 @@ import baca
 from abjadext import rmakers
 
 
-def front_incised_notes(
+def front_incised_divisions(
     *,
     dmask=None,
     start_rest_durations=None,
     ):
     """
-    Makes front-incised notes.
+    Makes front-incised divisions.
     """
 
     start_rest_durations = [abjad.Duration(_) for _ in start_rest_durations]
@@ -27,7 +27,7 @@ def front_incised_notes(
                 prefix_counts=[1],
                 talea_denominator=lcm,
                 ),
-            tag='front_incised_rhythm',
+            tag='front_incised_divisions',
             ),
         )
     return rhythm_specifier
