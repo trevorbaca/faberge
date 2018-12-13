@@ -25,7 +25,7 @@ def glow_rhythm(
         tag='glow_rhythm',
         tie_specifier=rmakers.TieSpecifier(
             tie_across_divisions=True,
-            repeat_ties=True,
+            repeat_ties=(1, 4),
             ),
         tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(

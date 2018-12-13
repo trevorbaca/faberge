@@ -135,7 +135,7 @@
 
         % necessary for uniform overlapping polyrhythms with accidentals;
         % but removed here for English horn downbeat sixteenths:
-        %\override Accidental.X-extent = ##f
+        \override Accidental.X-extent = ##f
 
         \override BarLine.hair-thickness = 0.5
         \override BarLine.space-alist = #'(
@@ -148,7 +148,7 @@
             (next-note semi-fixed-space . 0.0) 
             (right-edge extra-space . 0.0)
             )
-        %%%\override BarLine.X-extent = #'(0 . 0)
+        \override BarLine.X-extent = #'(0 . 0)
 
         \override Beam.breakable = ##t
         \override Beam.damping = 99

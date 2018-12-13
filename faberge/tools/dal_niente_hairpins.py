@@ -5,7 +5,8 @@ def dal_niente_hairpins(stop):
     """
     Makes dal niente hairpins.
     """
-    return baca.new(
-        baca.hairpin(f'niente o< {stop}', selector=baca.rleaves()),
+    return baca.hairpin(
+        f'niente o< {stop}',
         map=baca.runs(),
+        selector=baca.leaves().rleak(),
         )

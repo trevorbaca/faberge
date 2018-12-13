@@ -678,13 +678,17 @@ maker(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
         ),
+    baca.dynamic_text_x_extent_zero(),
     baca.markup('airtone'),
     baca.pitch('F3'),
     )
 
 maker(
     ('eh', (73, 80)),
-    baca.clef('treble'),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.clef_shift('treble'),
+        ),
     baca.staff_lines(5),
     )
 
@@ -812,6 +816,7 @@ maker(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
         ),
+    baca.dynamic_text_x_extent_zero(),
     baca.markup(
         baca.markups.lines([
             'rub sponge on bass drum head;',
@@ -826,7 +831,10 @@ maker(
 
 maker(
     ('perc', (73, 80)),
-    baca.clef('treble'),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.clef_shift('treble'),
+        ),
     baca.staff_lines(5),
     )
 
@@ -909,6 +917,7 @@ maker(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
         ),
+    baca.dynamic_text_x_extent_zero(),
     baca.markup(
         baca.markups.lines([
             'bow directly on bridge;',
