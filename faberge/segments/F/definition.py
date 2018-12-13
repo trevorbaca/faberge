@@ -9,6 +9,7 @@ import os
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=[(4, 4)],
     transpose_score=False,

@@ -19,7 +19,7 @@
         \context PageLayout = "Page_Layout"                                    %! _make_global_context
         {   %*% Page_Layout                                                    %! _make_global_context
 
-            % [Page_Layout measure 184]                                        %! _comment_measure_numbers
+            % [Page_Layout measure 192]                                        %! _comment_measure_numbers
             \baca-new-spacing-section #35 #576                                 %! HorizontalSpacingSpecifier(1):SPACING
             \autoPageBreaksOff                                                 %! BreakMeasureMap(1):BREAK
             \noBreak                                                           %! BreakMeasureMap(2):BREAK

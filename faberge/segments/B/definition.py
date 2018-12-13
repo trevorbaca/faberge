@@ -38,10 +38,11 @@ maker = baca.TimeSignatureMaker(
 time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
-    final_bar_line='|.',
-    final_markup=(['Madison, WI.'], ['April', 'May 2016.']),
-    final_markup_extra_offset=(-12, -4),
+    ###final_bar_line='|.',
+    ##final_markup=(['Madison, WI.'], ['April', 'May 2016.']),
+    ###final_markup_extra_offset=(-12, -4),
     ignore_repeat_pitch_classes=True,
+    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
     transpose_score=True,
