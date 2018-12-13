@@ -274,7 +274,7 @@ maker(
 
 maker(
     ('perc', (81, 88)),
-    faberge.front_incised_notes(
+    faberge.front_incised_divisions(
         dmask=~rmakers.silence([-4, -3, -2]),
         start_rest_durations=[
             (0, 1), (0, 1), (0, 1), (0, 1),
@@ -623,7 +623,6 @@ maker(
 
 maker(
     ('rh', (1, 88)),
-    faberge.chord_pitches('D4 E4 F#4 C5 D5'),
     baca.markup(
         baca.markups.lines([
             'depress silently;',
@@ -632,20 +631,26 @@ maker(
             boxed=True,
             ),
         ),
+    baca.pitch('<D4 E4 F#4 C5 D5>'),
     baca.note_head_style_harmonic(),
     )
 
 maker(
     ('attack', (1, 88)),
     faberge.piano_clusters(),
-    baca.dynamic('sfz', selector=baca.pheads()),
+    baca.dynamic(
+        'sfz',
+        selector=baca.pheads(),
+        ),
     )
 
 # perc
 
 maker(
     ('perc', (1, 80)),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(
+        selector=baca.ptails(),
+        ),
     baca.markup(
         baca.Markup('BOWED CROTALES').boxed(),
         selector=baca.pleaf(0),
@@ -741,7 +746,9 @@ maker(
 
 maker(
     ('perc', (81, 88)),
-    baca.accent(selector=baca.pheads()),
+    baca.accent(
+        selector=baca.pheads(),
+        ),
     baca.clef('percussion'),
     baca.dynamic('ff'),
     baca.pitches('D4 D4 B3', exact=True),
@@ -761,7 +768,9 @@ maker(
 maker(
     ('perc', (89, 92)),
     baca.clef('treble'),
-    baca.laissez_vibrer(selector=baca.ptails()),
+    baca.laissez_vibrer(
+        selector=baca.ptails(),
+        ),
     baca.pitch('F#4'),
     baca.staff_lines(5),
     baca.markup('bowed crotales', boxed=True),
@@ -896,47 +905,70 @@ maker(
     baca.dynamic('mp'),
     baca.markup('XFB sempre'),
     baca.pitch('D3'),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
     baca.text_spanner(
         'tasto => pont. =>',
         pieces=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 7]),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('va', (13, 16)),
-    baca.dynamic('pp', selector=baca.pleaf(0)),
+    baca.dynamic(
+        'pp',
+        selector=baca.pleaf(0),
+        ),
     )
 
 maker(
     ('va', (17, 22)),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin(
+        'pp < mp',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('va', (27, 30)),
-    baca.dynamic('pp', selector=baca.pleaf(0)),
+    baca.dynamic(
+        'pp',
+        selector=baca.pleaf(0),
+        ),
     )
 
 maker(
     ('va', (31, 36)),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin(
+        'pp < mp',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('va', (41, 46)),
-    baca.dynamic('pp', selector=baca.pleaf(0)),
+    baca.dynamic(
+        'pp',
+        selector=baca.pleaf(0),
+        ),
     )
 
 maker(
     ('va', (47, 52)),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin(
+        'pp < mp',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
     ('va', (57, 62)),
-    baca.dynamic('pp', selector=baca.pleaf(0)),
+    baca.dynamic(
+        'pp',
+        selector=baca.pleaf(0),
+        ),
     )
 
 maker(
@@ -950,13 +982,18 @@ maker(
     ('va', (71, 80)),
     baca.markup('XFB'),
     baca.pitch('D3'),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
     baca.text_spanner('tasto => pont.'),
     )
 
 maker(
     ('va', (71, 76)),
-    baca.hairpin('pp < mp', selector=baca.rleaves()),
+    baca.hairpin(
+        'pp < mp',
+        selector=baca.leaves().rleak(),
+        ),
     )
 
 maker(
@@ -971,7 +1008,9 @@ maker(
     baca.dynamic('pp'),
     baca.markup('XFB'),
     baca.pitch('D3'),
-    baca.stem_tremolo(selector=baca.pleaves()),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
     baca.text_spanner('pont. => tasto'),
     )
 
@@ -985,34 +1024,46 @@ maker(
 
 maker(
     ('vc', (1, 16)),
-    baca.hairpin('p < f', selector=baca.rleaves()),
+    baca.hairpin(
+        'p < f',
+        selector=baca.leaves().rleak(),
+        ),
     baca.text_spanner(
         'tasto + poco vib. => PO (+poco vib.)',
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('vc', (23, 36)),
-    baca.hairpin('f > p', selector=baca.rleaves()),
+    baca.hairpin(
+        'f > p',
+        selector=baca.leaves().rleak(),
+        ),
     baca.text_spanner(
         '(PO+) poco vib. => tasto (+poco vib)',
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('vc', (47, 54)),
-    baca.hairpin('p < ff', selector=baca.rleaves()),
+    baca.hairpin(
+        'p < ff',
+        selector=baca.leaves().rleak(),
+        ),
     baca.text_spanner(
         '(tasto + poco vib.) => poco pont. + vib. mod.',
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('vc', (63, 70)),
-    baca.dynamic('ppp', selector=baca.pleaf(0)),
+    baca.dynamic(
+        'ppp',
+        selector=baca.pleaf(0),
+        ),
     baca.markup('(poco pont.+) sub. non vib.'),
     )
 
@@ -1035,6 +1086,6 @@ maker(
             '(tasto+) poco vib.',
             ],
         pieces=baca.cmgroups([10, 9]),
-        selector=baca.rleaves(),
+        selector=baca.leaves().rleak(),
         ),
     )

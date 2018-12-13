@@ -51,8 +51,8 @@ metadata = abjad.OrderedDict(
             [192],
             ),
         ('duration', "0'01''"),
-        ('final_measure_number', 192),
-        ('first_measure_number', 192),
+        ('final_measure_number', 199),
+        ('first_measure_number', 199),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -390,8 +390,8 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'J'),
         ('segment_number', 11),
-        ('start_clock_time', "6'46''"),
-        ('stop_clock_time', "6'47''"),
+        ('start_clock_time', "7'01''"),
+        ('stop_clock_time', "7'02''"),
         (
             'time_signatures',
             ['4/4'],

@@ -6917,22 +6917,22 @@ A_Percussion_Music_Voice = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    r2                                                                         %! front_incised_rhythm
+    r2                                                                         %! front_incised_divisions
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Percussion_Music_Voice measure 86 / measure 82]                       %! _comment_measure_numbers
-    r2.                                                                        %! front_incised_rhythm
+    r2.                                                                        %! front_incised_divisions
 
     % [A Percussion_Music_Voice measure 87 / measure 83]                       %! _comment_measure_numbers
-    r1                                                                         %! front_incised_rhythm
+    r1                                                                         %! front_incised_divisions
 
     % [A Percussion_Music_Voice measure 88 / measure 84]                       %! _comment_measure_numbers
-    r2                                                                         %! front_incised_rhythm
+    r2                                                                         %! front_incised_divisions
 
     % [A Percussion_Music_Voice measure 89 / measure 85]                       %! _comment_measure_numbers
-    r4                                                                         %! front_incised_rhythm
+    r4                                                                         %! front_incised_divisions
 
-    d'2                                                                        %! front_incised_rhythm
+    d'2                                                                        %! front_incised_divisions
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
@@ -6945,15 +6945,15 @@ A_Percussion_Music_Voice = {                                                   %
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [A Percussion_Music_Voice measure 90 / measure 86]                       %! _comment_measure_numbers
-    r16                                                                        %! front_incised_rhythm
+    r16                                                                        %! front_incised_divisions
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    d'2...                                                                     %! front_incised_rhythm
+    d'2...                                                                     %! front_incised_divisions
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [A Percussion_Music_Voice measure 91 / measure 87]                       %! _comment_measure_numbers
-    b2.                                                                        %! front_incised_rhythm
+    b2.                                                                        %! front_incised_divisions
     - \accent                                                                  %! baca_accent:IndicatorCommand
     ^ \markup {                                                                %! baca_markup:IndicatorCommand
         \override                                                              %! baca_markup:IndicatorCommand
@@ -6964,7 +6964,7 @@ A_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A Percussion_Music_Voice measure 92 / measure 88]                       %! _comment_measure_numbers
-    r1                                                                         %! front_incised_rhythm
+    r1                                                                         %! front_incised_divisions
 
     \tweak text #tuplet-number::calc-fraction-text                             %! shell_exchange_rhythm
     \times 6/5 {                                                               %! shell_exchange_rhythm
