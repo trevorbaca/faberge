@@ -56,6 +56,7 @@ maker(
 maker(
     ('vn', (1, 4)),
     baca.markup('col legno battuto'),
+    baca.staff_lines(1),
     faberge.clb_pitches(),
     faberge.clb_rhythm(
         fuse_counts=[2, 1, 1],
@@ -83,11 +84,11 @@ maker(
 
 # va
 
-maker(
-    'va',
-    baca.clef('alto'),
-    baca.staff_lines(5),
-    )
+#maker(
+#    'va',
+#    baca.clef('alto'),
+#    baca.staff_lines(5),
+#    )
 
 maker(
     ('va', (1, 5)),
@@ -119,6 +120,7 @@ maker(
 maker(
     ('vc', (1, 4)),
     baca.markup('col legno battuto'),
+    baca.staff_lines(1),
     faberge.clb_pitches(),
     faberge.clb_rhythm(
         fuse_counts=[1, 1, 2],
