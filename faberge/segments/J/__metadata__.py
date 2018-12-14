@@ -153,7 +153,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
@@ -220,7 +220,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
