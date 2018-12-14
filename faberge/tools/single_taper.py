@@ -4,6 +4,7 @@ from abjadext import rmakers
 
 
 def single_taper(
+    *,
     denominator=16,
     start_talea=[4],
     stop_talea=[3, -1],

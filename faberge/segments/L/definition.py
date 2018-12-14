@@ -15,9 +15,12 @@ maker = baca.SegmentMaker(
         ],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=[(4, 4)],
+    time_signatures=[
+        (7, 4), (4, 4), (7, 4), (4, 4),
+        (4, 4), (4, 4), (4, 4), (4, 4),
+        ],
     transpose_score=False,
-    validate_measure_count=1,
+    validate_measure_count=8,
     )
 
 maker(
@@ -26,4 +29,10 @@ maker(
         'L',
         abjad.tweak((0, 18)).extra_offset,
         ),
+    )
+
+# vn
+
+maker(
+    'vn',
     )
