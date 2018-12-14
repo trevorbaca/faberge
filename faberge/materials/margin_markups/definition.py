@@ -2,55 +2,48 @@ import abjad
 import baca
 
 
-def _make_margin_markup(markup, context='Staff'):
-    return abjad.MarginMarkup(
-        context=context,
-        markup=baca.markups.instrument(markup, hcenter_in=16),
-        )
-
 margin_markups = abjad.OrderedDict([
     (
         'B. cl.',
-        _make_margin_markup('B. cl.'),
+        abjad.MarginMarkup(markup=r'\faberge-bcl-markup'),
         ),
     (
         'B. fl.',
-        _make_margin_markup('B. fl.'),
+        abjad.MarginMarkup(markup=r'\faberge-bfl-markup'),
         ),
     (
         'Cl.',
-        _make_margin_markup('Cl.'),
+        abjad.MarginMarkup(markup=r'\faberge-cl-markup'),
         ),
     (
         'Eng. hn.',
-        _make_margin_markup('Eng. hn.'),
+        abjad.MarginMarkup(markup=r'\faberge-eh-markup'),
         ),
     (
         'Fl.',
-        _make_margin_markup('Fl.'),
-        ),
-    (
-        'Hpschd.',
-        _make_margin_markup('Hpschd.', context='PianoStaff'),
+        abjad.MarginMarkup(markup=r'\faberge-fl-markup'),
         ),
     (
         'Perc.',
-        _make_margin_markup('Perc.'),
+        abjad.MarginMarkup(markup=r'\faberge-perc-markup'),
         ),
     (
         'Pf.',
-        _make_margin_markup('Pf.', context='PianoStaff'),
+        abjad.MarginMarkup(
+            context='PianoStaff',
+            markup=r'\faberge-pf-markup',
+            ),
         ),
     (
         'Va.',
-        _make_margin_markup('Va.'),
+        abjad.MarginMarkup(markup=r'\faberge-va-markup'),
         ),
     (
         'Vc.',
-        _make_margin_markup('Vc.'),
+        abjad.MarginMarkup(markup=r'\faberge-vc-markup'),
         ),
     (
         'Vn.',
-        _make_margin_markup('Vn.'),
+        abjad.MarginMarkup(markup=r'\faberge-vn-markup'),
         ),
     ])
