@@ -44,7 +44,6 @@ maker(
 
 maker(
     'vn',
-    faberge.lateral_click_rhythm(),
     )
 
 # vc

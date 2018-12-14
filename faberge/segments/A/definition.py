@@ -38,6 +38,10 @@ maker = baca.TimeSignatureMaker(
 time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
+    activate=[
+        abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
+        abjad.Tags().STAGE_NUMBER_MARKUP,
+        ],
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,

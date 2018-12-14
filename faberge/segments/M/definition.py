@@ -9,6 +9,10 @@ import os
 ###############################################################################
 
 maker = baca.SegmentMaker(
+    activate=[
+        abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
+        abjad.Tags().STAGE_NUMBER_MARKUP,
+        ],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=[(4, 4)],

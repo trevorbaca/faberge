@@ -26,6 +26,10 @@ maker = baca.TimeSignatureMaker(
 time_signatures = maker.run()
 
 maker = baca.SegmentMaker(
+    activate=[
+        abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
+        abjad.Tags().STAGE_NUMBER_MARKUP,
+        ],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     time_signatures=time_signatures,
@@ -92,16 +96,16 @@ maker(
             'Pf.',
             context='PianoStaff',
             ),
-        baca.start_markup(
-            'Piano',
-            context='PianoStaff',
-            hcenter_in=16,
-            ),
 #        baca.start_markup(
-#            r'\faberge-piano-markup',
+#            'Piano',
 #            context='PianoStaff',
-#            literal=True,
+#            hcenter_in=16,
 #            ),
+        baca.start_markup(
+            r'\faberge-piano-markup',
+            context='PianoStaff',
+            literal=True,
+            ),
         ),
     )
 
