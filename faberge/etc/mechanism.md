@@ -1,8 +1,8 @@
 MECHANISM
 =========
 
-game 1 (80, 64, 51, 41)
------------------------
+process 1 (80, 64, 51, 41)
+--------------------------
 
     [transformed cells]
     1-1 (80:64@4)
@@ -28,8 +28,8 @@ game 1 (80, 64, 51, 41)
     [low glow cells drop out]
     suffixed colortrills
 
-game 2 (80, 100, 125, 156)
---------------------------
+process 2 (80, 100, 125, 156)
+-----------------------------
 
     [cells + state]
     2-1 (80@4)
@@ -49,8 +49,8 @@ game 2 (80, 100, 125, 156)
     2-4 (125:156@4)
     high glow cells repeat
 
-game 3 (156, 125, 100)
-----------------------
+process 3 (156, 125, 100)
+-------------------------
 
     [cellular texture + cells]
     3-1 (156@4)
@@ -89,8 +89,8 @@ game 3 (156, 125, 100)
     simultaneous woodblock + damped piano articulation of cells
     ppppp, ppp, p
 
-game 4 (51, 64)
----------------
+process 4 (51, 64)
+------------------
 
     [texture appears + cells disappear]
     4-1 (51@4)
@@ -116,8 +116,8 @@ game 4 (51, 64)
     colored doubletrill castanets
     [bcl 9-way colorfinger variation continues]
 
-game 5 (100, 125, 156)
-----------------------
+process 5 (100, 125, 156)
+-------------------------
 
     [appearance + disappearance + material]
     5-1 (100@4)
@@ -144,7 +144,6 @@ game 5 (100, 125, 156)
     5-5 (156@8)
     tremolo electricity
     shakers electricity
-    tutti electricity
 
     ===
     eh ratchet articulates cells

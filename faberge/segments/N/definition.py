@@ -23,3 +23,31 @@ maker(
         abjad.tweak((0, 18)).extra_offset,
         ),
     )
+
+# vn
+
+maker(
+    'vn',
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2))
+        ),
+    baca.staff_lines(5),
+    )
+
+# va
+
+maker(
+    'va',
+    baca.clef('alto'),
+    baca.staff_lines(5),
+    )
+
+# vc
+
+maker(
+    'vc',
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2))
+        ),
+    baca.staff_lines(5),
+    )

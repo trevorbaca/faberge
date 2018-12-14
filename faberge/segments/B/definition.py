@@ -452,7 +452,7 @@ maker(
 
 maker(
     ('va', (1, 8)),
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -466,7 +466,7 @@ maker(
 
 maker(
     ('va', (23, 52)),
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -480,7 +480,7 @@ maker(
 
 maker(
     ('vc', (1, 36)),
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -517,7 +517,10 @@ maker(
 maker(
     'fl',
     baca.new(
-        baca.pitches('G4 G4 G4 G3 G4 G3 G4 G3 G3 G3', allow_repeats=True),
+        baca.pitches(
+            'G4 G4 G4 G3 G4 G3 G4 G3 G3 G3',
+            allow_repeats=True,
+            ),
         faberge.color_fingerings(),
         measures=(1, 60),
         ),
@@ -596,7 +599,9 @@ maker(
     ('eh', (1, 12)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    faberge.keynoise_pitches(rotation=-1)
+    faberge.keynoise_pitches(
+        rotation=-1,
+        )
     )
 
 maker(
@@ -613,7 +618,9 @@ maker(
     ('eh', (17, 22)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    faberge.keynoise_pitches(rotation=-2)
+    faberge.keynoise_pitches(
+        rotation=-2,
+        )
     )
 
 maker(
@@ -658,7 +665,9 @@ maker(
         measures=(53, 60),
         ),
     baca.note_head_style_cross(),
-    faberge.keynoise_pitches(rotation=-3)
+    faberge.keynoise_pitches(
+        rotation=-3,
+        )
     )
 
 maker(
@@ -908,7 +917,9 @@ maker(
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
         ),
-    faberge.clb_pitches(rotation=-3),
+    faberge.clb_pitches(
+        rotation=-3,
+        ),
     )
 
 maker(
@@ -936,7 +947,9 @@ maker(
     baca.staccato(
         selector=baca.pheads(),
         ),
-    faberge.clb_pitches(rotation=-3),
+    faberge.clb_pitches(
+        rotation=-3,
+        ),
     )
 
 # va
@@ -1011,7 +1024,9 @@ maker(
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
         ),
-    faberge.clb_pitches(rotation=-4),
+    faberge.clb_pitches(
+        rotation=-4,
+        ),
     )
 
 # vc
@@ -1115,5 +1130,7 @@ maker(
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
         ),
-    faberge.clb_pitches(rotation=-5),
+    faberge.clb_pitches(
+        rotation=-5,
+        ),
     )

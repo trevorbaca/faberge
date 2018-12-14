@@ -34,20 +34,32 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.metronome_mark('100', selector=baca.leaf(1 - 1)),
+    baca.metronome_mark(
+        '100',
+        selector=baca.leaf(1 - 1),
+        ),
     )
 
 maker(
     'Global_Rests',
-    baca.global_fermata('fermata', selector=baca.leaf(2 - 1)),
-    baca.global_fermata('fermata', selector=baca.leaf(4 - 1)),
+    baca.global_fermata(
+        'fermata',
+        selector=baca.leaf(2 - 1),
+        ),
+    baca.global_fermata(
+        'fermata',
+        selector=baca.leaf(4 - 1),
+        ),
     )
 
 maker(
     'fl',
     baca.suite(
         faberge.margin_markup('Fl.'),
-        baca.start_markup('Flute', hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-flute-markup',
+            literal=True,
+            ),
         ),
     )
 
@@ -55,7 +67,10 @@ maker(
     'eh',
     baca.suite(
         faberge.margin_markup('Eng. hn.'),
-        baca.start_markup(['English', 'horn'], hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-english-horn-markup',
+            literal=True,
+            ),
         ),
     )
 
@@ -63,15 +78,30 @@ maker(
     'cl',
     baca.suite(
         faberge.margin_markup('Cl.'),
-        baca.start_markup('Clarinet', hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-clarinet-markup',
+            literal=True,
+            ),
         ),
     )
 
 maker(
     'rh',
     baca.suite(
-        faberge.margin_markup('Pf.', context='PianoStaff'),
-        baca.start_markup('Piano', context='PianoStaff', hcenter_in=16),
+        faberge.margin_markup(
+            'Pf.',
+            context='PianoStaff',
+            ),
+        baca.start_markup(
+            'Piano',
+            context='PianoStaff',
+            hcenter_in=16,
+            ),
+#        baca.start_markup(
+#            r'\faberge-piano-markup',
+#            context='PianoStaff',
+#            literal=True,
+#            ),
         ),
     )
 
@@ -79,7 +109,10 @@ maker(
     'perc',
     baca.suite(
         faberge.margin_markup('Perc.'),
-        baca.start_markup('Percussion', hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-percussion-markup',
+            literal=True,
+            ),
         ),
     )
 
@@ -87,7 +120,10 @@ maker(
     'vn',
     baca.suite(
         faberge.margin_markup('Vn.'),
-        baca.start_markup('Violin', hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-violin-markup',
+            literal=True,
+            ),
         ),
     )
 
@@ -95,7 +131,10 @@ maker(
     'va',
     baca.suite(
         faberge.margin_markup('Va.'),
-        baca.start_markup('Viola', hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-viola-markup',
+            literal=True,
+            ),
         ),
     )
 
@@ -103,14 +142,20 @@ maker(
     'vc',
     baca.suite(
         faberge.margin_markup('Vc.'),
-        baca.start_markup('Cello', hcenter_in=16),
+        baca.start_markup(
+            r'\faberge-cello-markup',
+            literal=True,
+            ),
         ),
     )
 
 maker(
     ('eh', 3),
     baca.clef('percussion'),
-    baca.markup('ratchet', boxed=True),
+    baca.markup(
+        'ratchet',
+        boxed=True,
+        ),
     baca.staff_lines(1),
     baca.staff_position(0),
     faberge.ratchet_rhythm(),
