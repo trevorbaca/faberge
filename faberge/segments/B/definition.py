@@ -391,17 +391,17 @@ maker(
 
 maker(
     ('perc', (23, 48)),
-    faberge.marimba_pedal_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     ('perc', (49, 56)),
-    faberge.marimba_pedal_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     ('perc', (57, 60)),
-    faberge.marimba_pedal_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
