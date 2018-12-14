@@ -51,8 +51,8 @@ metadata = abjad.OrderedDict(
             [209],
             ),
         ('duration', "0'44''"),
-        ('final_measure_number', 216),
-        ('first_measure_number', 209),
+        ('final_measure_number', 224),
+        ('first_measure_number', 217),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -332,7 +332,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
@@ -380,7 +380,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
@@ -390,8 +390,8 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'L'),
         ('segment_number', 13),
-        ('start_clock_time', "7'35''"),
-        ('stop_clock_time', "8'19''"),
+        ('start_clock_time', "8'12''"),
+        ('stop_clock_time', "8'56''"),
         (
             'time_signatures',
             [

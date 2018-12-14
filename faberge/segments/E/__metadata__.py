@@ -50,8 +50,12 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [179],
             ),
-        ('duration', "0'03''"),
-        ('final_measure_number', 179),
+        ('duration', "0'38''"),
+        (
+            'fermata_measure_numbers',
+            [181],
+            ),
+        ('final_measure_number', 187),
         ('first_measure_number', 179),
         (
             'persistent_indicators',
@@ -296,7 +300,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='4/4',
+                                value='3/4',
                                 ),
                             ],
                         ),
@@ -332,7 +336,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
@@ -380,7 +384,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
@@ -390,11 +394,21 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'E'),
         ('segment_number', 6),
-        ('start_clock_time', "6'10''"),
-        ('stop_clock_time', "6'13''"),
+        ('start_clock_time', "6'12''"),
+        ('stop_clock_time', "6'50''"),
         (
             'time_signatures',
-            ['4/4'],
+            [
+                '4/4',
+                '9/4',
+                '1/4',
+                '4/4',
+                '4/4',
+                '7/4',
+                '5/4',
+                '8/4',
+                '3/4',
+                ],
             ),
         ]
     )
