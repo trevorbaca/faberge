@@ -114,12 +114,7 @@ i_Flute_Music_Voice = {                                                        %
             #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             Fl.                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-    \set Staff.instrumentName =                                                %! baca_start_markup:-PARTS:IndicatorCommand
-    \markup {                                                                  %! baca_start_markup:-PARTS:IndicatorCommand
-        \hcenter-in                                                            %! baca_start_markup:-PARTS:IndicatorCommand
-            #16                                                                %! baca_start_markup:-PARTS:IndicatorCommand
-            Flute                                                              %! baca_start_markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca_start_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \faberge-flute-markup                          %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -197,16 +192,7 @@ i_English_Horn_Music_Voice = {                                                 %
                     #16                                                        %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
                     "Eng. hn."                                                 %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
                 }                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-            \set Staff.instrumentName =                                        %! baca_start_markup:-PARTS:IndicatorCommand
-            \markup {                                                          %! baca_start_markup:-PARTS:IndicatorCommand
-                \hcenter-in                                                    %! baca_start_markup:-PARTS:IndicatorCommand
-                    #16                                                        %! baca_start_markup:-PARTS:IndicatorCommand
-                    \center-column                                             %! baca_start_markup:-PARTS:IndicatorCommand
-                        {                                                      %! baca_start_markup:-PARTS:IndicatorCommand
-                            English                                            %! baca_start_markup:-PARTS:IndicatorCommand
-                            horn                                               %! baca_start_markup:-PARTS:IndicatorCommand
-                        }                                                      %! baca_start_markup:-PARTS:IndicatorCommand
-                }                                                              %! baca_start_markup:-PARTS:IndicatorCommand
+            \set Staff.instrumentName = \faberge-english-horn-markup           %! baca_start_markup:-PARTS:IndicatorCommand
             \clef "treble"                                                     %! DEFAULT_CLEF:_set_status_tag:attach_defaults
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.Clef.color = #(x11-color 'DarkViolet)        %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
@@ -386,12 +372,7 @@ i_Clarinet_Music_Voice = {                                                     %
             #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             Cl.                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-    \set Staff.instrumentName =                                                %! baca_start_markup:-PARTS:IndicatorCommand
-    \markup {                                                                  %! baca_start_markup:-PARTS:IndicatorCommand
-        \hcenter-in                                                            %! baca_start_markup:-PARTS:IndicatorCommand
-            #16                                                                %! baca_start_markup:-PARTS:IndicatorCommand
-            Clarinet                                                           %! baca_start_markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca_start_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \faberge-clarinet-markup                       %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -644,12 +625,7 @@ i_Percussion_Music_Voice = {                                                   %
             #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             Perc.                                                              %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-    \set Staff.instrumentName =                                                %! baca_start_markup:-PARTS:IndicatorCommand
-    \markup {                                                                  %! baca_start_markup:-PARTS:IndicatorCommand
-        \hcenter-in                                                            %! baca_start_markup:-PARTS:IndicatorCommand
-            #16                                                                %! baca_start_markup:-PARTS:IndicatorCommand
-            Percussion                                                         %! baca_start_markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca_start_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \faberge-percussion-markup                     %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -722,12 +698,7 @@ i_Violin_Music_Voice = {                                                       %
             #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             Vn.                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-    \set Staff.instrumentName =                                                %! baca_start_markup:-PARTS:IndicatorCommand
-    \markup {                                                                  %! baca_start_markup:-PARTS:IndicatorCommand
-        \hcenter-in                                                            %! baca_start_markup:-PARTS:IndicatorCommand
-            #16                                                                %! baca_start_markup:-PARTS:IndicatorCommand
-            Violin                                                             %! baca_start_markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca_start_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \faberge-violin-markup                         %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "treble"                                                             %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -851,12 +822,7 @@ i_Viola_Music_Voice = {                                                        %
                 #16                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
                 Va.                                                            %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             }                                                                  %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-        \set Staff.instrumentName =                                            %! baca_start_markup:-PARTS:IndicatorCommand
-        \markup {                                                              %! baca_start_markup:-PARTS:IndicatorCommand
-            \hcenter-in                                                        %! baca_start_markup:-PARTS:IndicatorCommand
-                #16                                                            %! baca_start_markup:-PARTS:IndicatorCommand
-                Viola                                                          %! baca_start_markup:-PARTS:IndicatorCommand
-            }                                                                  %! baca_start_markup:-PARTS:IndicatorCommand
+        \set Staff.instrumentName = \faberge-viola-markup                      %! baca_start_markup:-PARTS:IndicatorCommand
         \clef "alto"                                                           %! DEFAULT_CLEF:_set_status_tag:attach_defaults
         \once \override Staff.Clef.color = #(x11-color 'DarkViolet)            %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -974,12 +940,7 @@ i_Cello_Music_Voice = {                                                        %
             #16                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
             Vc.                                                                %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
         }                                                                      %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
-    \set Staff.instrumentName =                                                %! baca_start_markup:-PARTS:IndicatorCommand
-    \markup {                                                                  %! baca_start_markup:-PARTS:IndicatorCommand
-        \hcenter-in                                                            %! baca_start_markup:-PARTS:IndicatorCommand
-            #16                                                                %! baca_start_markup:-PARTS:IndicatorCommand
-            Cello                                                              %! baca_start_markup:-PARTS:IndicatorCommand
-        }                                                                      %! baca_start_markup:-PARTS:IndicatorCommand
+    \set Staff.instrumentName = \faberge-cello-markup                          %! baca_start_markup:-PARTS:IndicatorCommand
     \clef "bass"                                                               %! DEFAULT_CLEF:_set_status_tag:attach_defaults
     \once \override Staff.Clef.color = #(x11-color 'DarkViolet)                %! DEFAULT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)

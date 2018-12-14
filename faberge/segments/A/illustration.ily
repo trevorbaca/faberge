@@ -8733,7 +8733,7 @@ A_Viola_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -8753,62 +8753,62 @@ A_Viola_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Viola_Music_Voice measure 6 / measure 2]                              %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 7 / measure 3]                              %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 8 / measure 4]                              %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 9 / measure 5]                              %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 10 / measure 6]                             %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 11 / measure 7]                             %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 12 / measure 8]                             %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 13 / measure 9]                             %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 14 / measure 10]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 15 / measure 11]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 16 / measure 12]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 17 / measure 13]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -8819,22 +8819,22 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 18 / measure 14]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 19 / measure 15]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 20 / measure 16]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 21 / measure 17]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8847,54 +8847,54 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 22 / measure 18]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 23 / measure 19]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 24 / measure 20]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 25 / measure 21]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 26 / measure 22]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 27 / measure 23]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [A Viola_Music_Voice measure 28 / measure 24]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 29 / measure 25]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 30 / measure 26]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 31 / measure 27]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -8905,22 +8905,22 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 32 / measure 28]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 33 / measure 29]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 34 / measure 30]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 35 / measure 31]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8933,54 +8933,54 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 36 / measure 32]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 37 / measure 33]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 38 / measure 34]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 39 / measure 35]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 40 / measure 36]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 41 / measure 37]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [A Viola_Music_Voice measure 42 / measure 38]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 43 / measure 39]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 44 / measure 40]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 45 / measure 41]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -8991,32 +8991,32 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 46 / measure 42]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 47 / measure 43]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 48 / measure 44]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 49 / measure 45]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 50 / measure 46]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 51 / measure 47]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9029,54 +9029,54 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 52 / measure 48]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 53 / measure 49]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 54 / measure 50]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 55 / measure 51]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 56 / measure 52]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 57 / measure 53]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [A Viola_Music_Voice measure 58 / measure 54]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 59 / measure 55]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 60 / measure 56]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 61 / measure 57]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -9090,27 +9090,27 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 62 / measure 58]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 63 / measure 59]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 64 / measure 60]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 65 / measure 61]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 66 / measure 62]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
@@ -9287,7 +9287,7 @@ A_Viola_Music_Voice = {                                                        %
     }                                                                          %! spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 75 / measure 71]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9302,49 +9302,49 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 76 / measure 72]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 77 / measure 73]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 78 / measure 74]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 79 / measure 75]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 80 / measure 76]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 81 / measure 77]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
 
     % [A Viola_Music_Voice measure 82 / measure 78]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 83 / measure 79]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 84 / measure 80]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
@@ -9511,7 +9511,7 @@ A_Viola_Music_Voice = {                                                        %
     }                                                                          %! spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 93 / measure 89]                            %! _comment_measure_numbers
-    d2.                                                                        %! jewelers_twilight_rhythm
+    d2.                                                                        %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -9524,17 +9524,17 @@ A_Viola_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Viola_Music_Voice measure 94 / measure 90]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 95 / measure 91]                            %! _comment_measure_numbers
-    d2                                                                         %! jewelers_twilight_rhythm
+    d2                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
 
     % [A Viola_Music_Voice measure 96 / measure 92]                            %! _comment_measure_numbers
-    d1                                                                         %! jewelers_twilight_rhythm
+    d1                                                                         %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
@@ -9592,7 +9592,7 @@ A_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -9615,94 +9615,94 @@ A_Cello_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Cello_Music_Voice measure 6 / measure 2]                              %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 7 / measure 3]                              %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 8 / measure 4]                              %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 9 / measure 5]                              %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 10 / measure 6]                             %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 11 / measure 7]                             %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 12 / measure 8]                             %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 13 / measure 9]                             %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 14 / measure 10]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 15 / measure 11]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 16 / measure 12]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 17 / measure 13]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 18 / measure 14]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 19 / measure 15]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 20 / measure 16]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 21 / measure 17]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [A Cello_Music_Voice measure 22 / measure 18]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 23 / measure 19]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 24 / measure 20]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 25 / measure 21]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 26 / measure 22]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 27 / measure 23]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
@@ -9716,102 +9716,102 @@ A_Cello_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Cello_Music_Voice measure 28 / measure 24]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 29 / measure 25]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 30 / measure 26]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 31 / measure 27]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 32 / measure 28]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 33 / measure 29]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 34 / measure 30]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 35 / measure 31]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 36 / measure 32]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 37 / measure 33]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 38 / measure 34]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 39 / measure 35]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 40 / measure 36]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 41 / measure 37]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [A Cello_Music_Voice measure 42 / measure 38]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 43 / measure 39]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 44 / measure 40]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 45 / measure 41]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 46 / measure 42]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 47 / measure 43]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 48 / measure 44]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 49 / measure 45]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 50 / measure 46]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 51 / measure 47]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
@@ -9825,105 +9825,105 @@ A_Cello_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Cello_Music_Voice measure 52 / measure 48]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 53 / measure 49]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 54 / measure 50]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 55 / measure 51]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 56 / measure 52]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 57 / measure 53]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 58 / measure 54]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 59 / measure 55]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [A Cello_Music_Voice measure 60 / measure 56]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 61 / measure 57]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 62 / measure 58]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 63 / measure 59]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 64 / measure 60]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 65 / measure 61]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 66 / measure 62]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 67 / measure 63]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { "(poco pont.+) sub. non vib." }                                %! baca_markup:IndicatorCommand
     \repeatTie
 
     % [A Cello_Music_Voice measure 68 / measure 64]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 69 / measure 65]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 70 / measure 66]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 71 / measure 67]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 72 / measure 68]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 73 / measure 69]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 74 / measure 70]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 75 / measure 71]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
@@ -9937,39 +9937,39 @@ A_Cello_Music_Voice = {                                                        %
     \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
 
     % [A Cello_Music_Voice measure 76 / measure 72]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 77 / measure 73]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 78 / measure 74]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 79 / measure 75]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 80 / measure 76]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 81 / measure 77]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 82 / measure 78]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 83 / measure 79]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 84 / measure 80]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
@@ -9978,53 +9978,53 @@ A_Cello_Music_Voice = {                                                        %
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [A Cello_Music_Voice measure 85 / measure 81]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 86 / measure 82]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 87 / measure 83]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 88 / measure 84]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 89 / measure 85]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 90 / measure 86]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 91 / measure 87]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 92 / measure 88]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 93 / measure 89]                            %! _comment_measure_numbers
-    d,2.                                                                       %! jewelers_twilight_rhythm
+    d,2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
 
     % [A Cello_Music_Voice measure 94 / measure 90]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 95 / measure 91]                            %! _comment_measure_numbers
-    d,2                                                                        %! jewelers_twilight_rhythm
+    d,2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     % [A Cello_Music_Voice measure 96 / measure 92]                            %! _comment_measure_numbers
-    d,1                                                                        %! jewelers_twilight_rhythm
+    d,1                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
     \revert TextSpanner.staff-padding                                          %! baca_text_spanner_staff_padding:OverrideCommand(2)
 

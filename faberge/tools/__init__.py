@@ -14,9 +14,7 @@ from .electricity_rhythm import electricity_rhythm
 from .flute_gears_rhythm import flute_gears_rhythm
 from .front_incised_divisions import front_incised_divisions
 from .glow_rhythm import glow_rhythm
-from .glowing_wind_rhythm import glowing_wind_rhythm
 from .increasing_dal_niente_hairpins import increasing_dal_niente_hairpins
-from .jewelers_twilight_rhythm import jewelers_twilight_rhythm
 from .keynoise_pitches import keynoise_pitches
 from .keynoise_rhythm import keynoise_rhythm
 from .lateral_click_rhythm import lateral_click_rhythm

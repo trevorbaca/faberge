@@ -356,7 +356,7 @@ maker(
 
 maker(
     ('va', (1, 62)),
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -374,7 +374,7 @@ maker(
 
 maker(
     ('va', (71, 80)),
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -392,14 +392,14 @@ maker(
 
 maker(
     ('va', (89, 92)),
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 # vc
 
 maker(
     'vc',
-    faberge.jewelers_twilight_rhythm(),
+    baca.make_repeat_tied_notes(),
     )
 
 # fl
