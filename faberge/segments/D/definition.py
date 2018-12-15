@@ -42,3 +42,35 @@ maker(
         selector=baca.leaf(9 - 1),
         ),
     )
+
+# fl
+
+maker(
+    ('fl', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [2, 6]),
+    )
+
+# eh
+
+maker(
+    ('eh', (1, 4)),
+    faberge.airtone_chain_rhythm(
+        10,
+        [1, 5, 9],
+        prolong_last_count=True,
+        ),
+    )
+
+# cl
+
+maker(
+    ('cl', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [3, 7]),
+    )
+
+# va
+
+maker(
+    ('va', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [0, 4, 8]),
+    )
