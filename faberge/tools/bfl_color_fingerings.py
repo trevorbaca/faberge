@@ -1,8 +1,9 @@
 import baca
 
 
-def color_fingerings():
+def bfl_color_fingerings():
     """
-    Color fingerings.
+    Makes bass flute color fingerings.
     """
+
     return baca.color_fingerings([0, 1, 2, 1, 0, 1, 0, 1, 2, 1, 2, 1])

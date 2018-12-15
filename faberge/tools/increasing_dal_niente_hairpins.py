@@ -6,6 +6,7 @@ def increasing_dal_niente_hairpins():
     """
     Makes increasing dal niente hairpins.
     """
+
     return baca.chunk(
         baca.hairpin(
             'niente o< p',

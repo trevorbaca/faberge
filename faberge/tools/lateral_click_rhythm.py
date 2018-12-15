@@ -7,6 +7,7 @@ def lateral_click_rhythm():
     """
     Makes lateral click rhythm.
     """
+
     interpolation_specifiers = [
         rmakers.InterpolationSpecifier(
             start_duration=abjad.Duration(3, 8),

@@ -489,7 +489,7 @@ maker(
         ),
     baca.new(
         baca.pitches('F#4 F#3', allow_repeats=True),
-        faberge.color_fingerings(),
+        faberge.bfl_color_fingerings(),
         measures=(89, 92),
         ),
     faberge.niente_swells('p'),

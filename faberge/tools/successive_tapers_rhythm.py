@@ -12,9 +12,9 @@ def successive_tapers_rhythm(
     """
     Makes successive tapers rhythm.
     """
+
     division_expression = None
     if fuse_counts is not None:
-        #division_expression = baca.DivisionSequenceExpression()
         division_expression = baca.sequence()
         division_expression = division_expression.partition_by_counts(
             fuse_counts,

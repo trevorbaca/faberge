@@ -7,6 +7,7 @@ def piano_attack_rhythm():
     """
     Makes piano attack rhythm.
     """
+
     rhythm_maker = rmakers.IncisedRhythmMaker(
         incise_specifier=rmakers.InciseSpecifier(
             fill_with_notes=False,
