@@ -291,7 +291,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 manifest='metronome_marks',
-                                value='80',
+                                value='64',
                                 ),
                             abjad.Momento(
                                 context='Global_Skips',
