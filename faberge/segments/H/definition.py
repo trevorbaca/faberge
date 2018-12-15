@@ -42,3 +42,47 @@ maker(
         selector=baca.leaf(8 - 1),
         ),
     )
+
+# vn
+
+maker(
+    ('vn', 1),
+    baca.rhythm(
+        "{ c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', (1, 4)),
+    baca.quadruple_staccato(
+        selector=baca.plts()[abjad.index([0], 2)],
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts()[abjad.index([1], 2)],
+        ),
+    )
+
+maker(
+    ('vn', 2),
+    baca.rhythm(
+        r"\times 5/6 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 3),
+    baca.rhythm(
+        "{ c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 4),
+    baca.rhythm(
+        r"\times 5/6 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
