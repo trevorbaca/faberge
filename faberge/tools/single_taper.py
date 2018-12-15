@@ -12,6 +12,7 @@ def single_taper(
     """
     Makes single tapers.
     """
+
     return baca.rhythm(
         rhythm_maker=rmakers.IncisedRhythmMaker(
             incise_specifier=rmakers.InciseSpecifier(

@@ -13,6 +13,7 @@ def shell_exchange_rhythm(
     """
     Makes shell exchange rhythm.
     """
+
     assert total_parts in (2, 3, 4), repr(total_parts)
     if isinstance(this_part, int):
         this_part = (this_part,)

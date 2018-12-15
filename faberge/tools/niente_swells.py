@@ -6,6 +6,7 @@ def niente_swells(dynamic):
     """
     Makes niente swells.
     """
+
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(

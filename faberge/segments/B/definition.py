@@ -525,7 +525,7 @@ maker(
             'G4 G4 G4 G3 G4 G3 G4 G3 G3 G3',
             allow_repeats=True,
             ),
-        faberge.color_fingerings(),
+        faberge.bfl_color_fingerings(),
         measures=(1, 60),
         ),
     baca.new(
@@ -591,7 +591,7 @@ maker(
             'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',
             allow_repeats=True,
             ),
-        faberge.color_fingerings(),
+        faberge.bfl_color_fingerings(),
         faberge.niente_swells('ppp'),
         measures=(69, 72),
         ),

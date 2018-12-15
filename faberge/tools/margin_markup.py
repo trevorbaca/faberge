@@ -13,6 +13,7 @@ def margin_markup(
     """
     Makes tagged margin markup indicator command.
     """
+
     margin_markup = faberge.margin_markups[key]
     command = baca.margin_markup(
         margin_markup,

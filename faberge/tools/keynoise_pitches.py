@@ -8,6 +8,7 @@ def keynoise_pitches(
     """
     Makes keynoise pitches.
     """
+
     keynoise_pitches = [[-1.5, -2, -5, -6], [-4, -3, -2.5], [1, 1.5, 3, 2]]
     keynoise_pitches = baca.sequence(keynoise_pitches)
     keynoise_pitches = keynoise_pitches.helianthate(-1, 1)

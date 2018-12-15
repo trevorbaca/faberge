@@ -4,25 +4,6 @@ import faberge
 from abjadext import rmakers
 
 
-#def keynoise_rhythm():
-#    rhythm_maker = rmakers.TaleaRhythmMaker(
-#        burnish_specifier=rmakers.BurnishSpecifier(
-#            left_classes=[abjad.Rest],
-#            left_counts=[1],
-#            ),
-#        division_masks=rmakers.silence([0, 3, 5, 6], 8),
-#        extra_counts_per_division=[1, 3, 1, 0, 2],
-#        tag='keynoise_rhythm',
-#        talea=rmakers.Talea(
-#            counts=[1],
-#            denominator=16,
-#            ),
-#        )
-#    return baca.rhythm(
-#        division_expression=baca.strict_quarter_divisions(),
-#        rhythm_maker=rhythm_maker,
-#        )
-
 def keynoise_rhythm(
     *,
     dmask=None,
