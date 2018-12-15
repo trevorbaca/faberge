@@ -15,15 +15,30 @@ maker = baca.SegmentMaker(
         ],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
-    time_signatures=[(4, 4)],
+    time_signatures=[
+        (12, 4), (10, 4), (12, 4), (10, 4),
+        (8, 4), (6, 4), (8, 4), (1, 4), (6, 4),
+        ],
     transpose_score=False,
-    validate_measure_count=1,
+    validate_measure_count=9,
     )
 
 maker(
     'Global_Skips',
+    baca.metronome_mark(
+        '125',
+        selector=baca.skip(5 - 1),
+        ),
     baca.rehearsal_mark(
         'H',
         abjad.tweak((0, 18)).extra_offset,
+        ),
+    )
+
+maker(
+    'Global_Rests',
+    baca.global_fermata(
+        'fermata',
+        selector=baca.leaf(8 - 1),
         ),
     )
