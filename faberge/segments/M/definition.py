@@ -47,6 +47,13 @@ maker(
         ),
     )
 
+# fl
+
+maker(
+    ('fl', 5),
+    baca.instrument(faberge.instruments['Flute']),
+    )
+
 # cl
 
 maker(

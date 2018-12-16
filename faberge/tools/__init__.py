@@ -10,6 +10,7 @@ from .dal_niente_hairpins import dal_niente_hairpins
 from .eh_trill_rhythm import eh_trill_rhythm
 from .front_incised_divisions import front_incised_divisions
 from .glow_rhythm import glow_rhythm
+from .halves_rhythm import halves_rhythm
 from .increasing_dal_niente_hairpins import increasing_dal_niente_hairpins
 from .keynoise_pitches import keynoise_pitches
 from .keynoise_rhythm import keynoise_rhythm

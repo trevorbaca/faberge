@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [225],
+            [241],
             ),
         ('duration', "0'27''"),
         ('final_measure_number', 248),
@@ -184,7 +184,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 manifest='instruments',
-                                value='BassFlute',
+                                value='Flute',
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',

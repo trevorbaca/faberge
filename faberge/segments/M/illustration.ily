@@ -243,6 +243,7 @@ M_Flute_Music_Voice = {                                                        %
 
     % [M Flute_Music_Voice measure 245 / measure 5]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
+    ^ \baca-explicit-indicator-markup "(“Flute”)"                              %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     % [M Flute_Music_Voice measure 246 / measure 6]                            %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
@@ -260,7 +261,7 @@ M_Flute_Music_Voice = {                                                        %
 
             % [M Flute_Music_Voice measure 249 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

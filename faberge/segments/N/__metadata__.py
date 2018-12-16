@@ -48,10 +48,10 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [233],
+            [249],
             ),
-        ('duration', "0'02''"),
-        ('final_measure_number', 249),
+        ('duration', "0'20''"),
+        ('final_measure_number', 256),
         ('first_measure_number', 249),
         (
             'persistent_indicators',
@@ -184,7 +184,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 manifest='instruments',
-                                value='BassFlute',
+                                value='Flute',
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
@@ -199,7 +199,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='f',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -291,12 +291,12 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Global_Skips',
                                 manifest='metronome_marks',
-                                value='100',
+                                value='125',
                                 ),
                             abjad.Momento(
                                 context='Global_Skips',
                                 prototype='abjad.TimeSignature',
-                                value='4/4',
+                                value='8/4',
                                 ),
                             ],
                         ),
@@ -391,10 +391,19 @@ metadata = abjad.OrderedDict(
         ('segment_name', 'N'),
         ('segment_number', 15),
         ('start_clock_time', "10'28''"),
-        ('stop_clock_time', "10'30''"),
+        ('stop_clock_time', "10'48''"),
         (
             'time_signatures',
-            ['4/4'],
+            [
+                '3/4',
+                '4/4',
+                '3/4',
+                '4/4',
+                '5/4',
+                '6/4',
+                '7/4',
+                '8/4',
+                ],
             ),
         ]
     )
