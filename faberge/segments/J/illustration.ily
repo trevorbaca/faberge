@@ -1,30 +1,30 @@
 J_Global_Rests = {                                                             %! extern
 
-    % [J Global_Rests measure 223 / measure 1]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 232 / measure 1]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [J Global_Rests measure 224 / measure 2]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 233 / measure 2]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 225 / measure 3]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 234 / measure 3]                                 %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 226 / measure 4]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 235 / measure 4]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 227 / measure 5]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 236 / measure 5]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 228 / measure 6]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 237 / measure 6]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 229 / measure 7]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 238 / measure 7]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 230 / measure 8]                                 %! _comment_measure_numbers
+    % [J Global_Rests measure 239 / measure 8]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [J Global_Rests measure 231 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    % [J Global_Rests measure 240 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
@@ -32,7 +32,7 @@ J_Global_Rests = {                                                             %
 
 J_Global_Skips = {                                                             %! extern
 
-    % [J Global_Skips measure 223 / measure 1]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 232 / measure 1]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -43,7 +43,7 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "223"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "232"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[3-6]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -53,10 +53,10 @@ J_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "100" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[8'47'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'06'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 224 / measure 2]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 233 / measure 2]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -69,14 +69,14 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "224"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "233"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-colored-left-only "[A.3]" #darkgreen                     %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[8'47'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'06'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 225 / measure 3]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 234 / measure 3]                                 %! _comment_measure_numbers
     \time 9/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 9/4                                                                   %! _make_global_skips(1)
@@ -90,7 +90,7 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "225"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "234"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-colored-left-only "[3-1]" #darkgreen                     %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -100,10 +100,10 @@ J_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "156" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[8'49'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'08'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 226 / measure 4]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 235 / measure 4]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
@@ -117,7 +117,7 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "226"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "235"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[3-6]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -127,10 +127,10 @@ J_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "100" #'blue        %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[8'49'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'08'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 227 / measure 5]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 236 / measure 5]                                 %! _comment_measure_numbers
     s1 * 5/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -141,14 +141,14 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "227"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "236"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[3-7]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[8'51'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'10'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 228 / measure 6]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 237 / measure 6]                                 %! _comment_measure_numbers
     s1 * 5/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -158,12 +158,12 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "228"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "237"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[8'51'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'10'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 229 / measure 7]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 238 / measure 7]                                 %! _comment_measure_numbers
     s1 * 5/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -173,12 +173,12 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "229"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "238"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[8'54'']"                                      %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[9'13'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [J Global_Skips measure 230 / measure 8]                                 %! _comment_measure_numbers
+    % [J Global_Skips measure 239 / measure 8]                                 %! _comment_measure_numbers
     s1 * 5/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -188,14 +188,14 @@ J_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "230"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "239"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[8'54'']" "[9'09'']"                                %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[9'13'']" "[9'28'']"                                %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-    % [J Global_Skips measure 231 / measure 9]                                 %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+    % [J Global_Skips measure 240 / measure 9]                                 %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
@@ -216,7 +216,7 @@ J_Flute_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 4/5 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Flute_Music_Voice measure 223 / measure 1]                        %! _comment_measure_numbers
+        % [J Flute_Music_Voice measure 232 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-fl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -253,7 +253,7 @@ J_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
 
-    % [J Flute_Music_Voice measure 224 / measure 2]                            %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 233 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -269,7 +269,7 @@ J_Flute_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 9/5 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Flute_Music_Voice measure 225 / measure 3]                        %! _comment_measure_numbers
+        % [J Flute_Music_Voice measure 234 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -292,7 +292,7 @@ J_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
 
-    % [J Flute_Music_Voice measure 226 / measure 4]                            %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 235 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -312,7 +312,7 @@ J_Flute_Music_Voice = {                                                        %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
-    % [J Flute_Music_Voice measure 227 / measure 5]                            %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 236 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -331,7 +331,7 @@ J_Flute_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 5/6 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Flute_Music_Voice measure 228 / measure 6]                        %! _comment_measure_numbers
+        % [J Flute_Music_Voice measure 237 / measure 6]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -352,7 +352,7 @@ J_Flute_Music_Voice = {                                                        %
 
     }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
 
-    % [J Flute_Music_Voice measure 229 / measure 7]                            %! _comment_measure_numbers
+    % [J Flute_Music_Voice measure 238 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -371,7 +371,7 @@ J_Flute_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 5/4 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Flute_Music_Voice measure 230 / measure 8]                        %! _comment_measure_numbers
+        % [J Flute_Music_Voice measure 239 / measure 8]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -391,7 +391,7 @@ J_Flute_Music_Voice = {                                                        %
         \context Voice = "Flute_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Flute_Music_Voice measure 231 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Flute_Music_Voice measure 240 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -400,7 +400,7 @@ J_Flute_Music_Voice = {                                                        %
         \context Voice = "Flute_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Flute_Rest_Voice measure 231 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Flute_Rest_Voice measure 240 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -425,7 +425,7 @@ J_Flute_Music_Staff = {                                                        %
 
 J_English_Horn_Music_Voice = {                                                 %! extern
 
-    % [J English_Horn_Music_Voice measure 223 / measure 1]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 232 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -445,25 +445,25 @@ J_English_Horn_Music_Voice = {                                                 %
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J English_Horn_Music_Voice measure 224 / measure 2]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 233 / measure 2]                     %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J English_Horn_Music_Voice measure 225 / measure 3]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 234 / measure 3]                     %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J English_Horn_Music_Voice measure 226 / measure 4]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 235 / measure 4]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J English_Horn_Music_Voice measure 227 / measure 5]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 236 / measure 5]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J English_Horn_Music_Voice measure 228 / measure 6]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 237 / measure 6]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J English_Horn_Music_Voice measure 229 / measure 7]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 238 / measure 7]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J English_Horn_Music_Voice measure 230 / measure 8]                     %! _comment_measure_numbers
+    % [J English_Horn_Music_Voice measure 239 / measure 8]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -471,7 +471,7 @@ J_English_Horn_Music_Voice = {                                                 %
         \context Voice = "English_Horn_Music_Voice"                            %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J English_Horn_Music_Voice measure 231 / measure 9]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J English_Horn_Music_Voice measure 240 / measure 9]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -480,7 +480,7 @@ J_English_Horn_Music_Voice = {                                                 %
         \context Voice = "English_Horn_Rest_Voice"                             %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J English_Horn_Rest_Voice measure 231 / measure 9]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J English_Horn_Rest_Voice measure 240 / measure 9]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -505,7 +505,7 @@ J_English_Horn_Music_Staff = {                                                 %
 
 J_Clarinet_Music_Voice = {                                                     %! extern
 
-    % [J Clarinet_Music_Voice measure 223 / measure 1]                         %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 232 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-cl-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -536,7 +536,7 @@ J_Clarinet_Music_Voice = {                                                     %
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    % [J Clarinet_Music_Voice measure 224 / measure 2]                         %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 233 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
     [                                                                          %! faberge_even_quarter_note_tuplet_rhythm
@@ -555,7 +555,7 @@ J_Clarinet_Music_Voice = {                                                     %
     ]                                                                          %! faberge_even_quarter_note_tuplet_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    % [J Clarinet_Music_Voice measure 225 / measure 3]                         %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 234 / measure 3]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -583,7 +583,7 @@ J_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 5/6 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Clarinet_Music_Voice measure 226 / measure 4]                     %! _comment_measure_numbers
+        % [J Clarinet_Music_Voice measure 235 / measure 4]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -612,7 +612,7 @@ J_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 5/6 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Clarinet_Music_Voice measure 227 / measure 5]                     %! _comment_measure_numbers
+        % [J Clarinet_Music_Voice measure 236 / measure 5]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -633,7 +633,7 @@ J_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
 
-    % [J Clarinet_Music_Voice measure 228 / measure 6]                         %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 237 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -652,7 +652,7 @@ J_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
     \times 5/4 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
 
-        % [J Clarinet_Music_Voice measure 229 / measure 7]                     %! _comment_measure_numbers
+        % [J Clarinet_Music_Voice measure 238 / measure 7]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -667,7 +667,7 @@ J_Clarinet_Music_Voice = {                                                     %
 
     }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
 
-    % [J Clarinet_Music_Voice measure 230 / measure 8]                         %! _comment_measure_numbers
+    % [J Clarinet_Music_Voice measure 239 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
 
@@ -688,7 +688,7 @@ J_Clarinet_Music_Voice = {                                                     %
         \context Voice = "Clarinet_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Clarinet_Music_Voice measure 231 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Clarinet_Music_Voice measure 240 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -697,7 +697,7 @@ J_Clarinet_Music_Voice = {                                                     %
         \context Voice = "Clarinet_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Clarinet_Rest_Voice measure 231 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Clarinet_Rest_Voice measure 240 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -722,7 +722,7 @@ J_Clarinet_Music_Staff = {                                                     %
 
 J_Piano_RH_Music_Voice = {                                                     %! extern
 
-    % [J Piano_RH_Music_Voice measure 223 / measure 1]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 232 / measure 1]                         %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)     %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -736,25 +736,25 @@ J_Piano_RH_Music_Voice = {                                                     %
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J Piano_RH_Music_Voice measure 224 / measure 2]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 233 / measure 2]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_RH_Music_Voice measure 225 / measure 3]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 234 / measure 3]                         %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_RH_Music_Voice measure 226 / measure 4]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 235 / measure 4]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_RH_Music_Voice measure 227 / measure 5]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 236 / measure 5]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_RH_Music_Voice measure 228 / measure 6]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 237 / measure 6]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_RH_Music_Voice measure 229 / measure 7]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 238 / measure 7]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_RH_Music_Voice measure 230 / measure 8]                         %! _comment_measure_numbers
+    % [J Piano_RH_Music_Voice measure 239 / measure 8]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -762,7 +762,7 @@ J_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Piano_RH_Music_Voice measure 231 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Piano_RH_Music_Voice measure 240 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -771,7 +771,7 @@ J_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Piano_RH_Rest_Voice measure 231 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Piano_RH_Rest_Voice measure 240 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -796,7 +796,7 @@ J_Piano_RH_Music_Staff = {                                                     %
 
 J_Piano_LH_Music_Voice = {                                                     %! extern
 
-    % [J Piano_LH_Music_Voice measure 223 / measure 1]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 232 / measure 1]                         %! _comment_measure_numbers
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -804,25 +804,25 @@ J_Piano_LH_Music_Voice = {                                                     %
     R1 * 1/1                                                                   %! _call_rhythm_commands
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J Piano_LH_Music_Voice measure 224 / measure 2]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 233 / measure 2]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Music_Voice measure 225 / measure 3]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 234 / measure 3]                         %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Music_Voice measure 226 / measure 4]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 235 / measure 4]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Music_Voice measure 227 / measure 5]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 236 / measure 5]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Music_Voice measure 228 / measure 6]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 237 / measure 6]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Music_Voice measure 229 / measure 7]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 238 / measure 7]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Music_Voice measure 230 / measure 8]                         %! _comment_measure_numbers
+    % [J Piano_LH_Music_Voice measure 239 / measure 8]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -830,7 +830,7 @@ J_Piano_LH_Music_Voice = {                                                     %
         \context Voice = "Piano_LH_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Piano_LH_Music_Voice measure 231 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Piano_LH_Music_Voice measure 240 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -839,7 +839,7 @@ J_Piano_LH_Music_Voice = {                                                     %
         \context Voice = "Piano_LH_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Piano_LH_Rest_Voice measure 231 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Piano_LH_Rest_Voice measure 240 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -856,30 +856,30 @@ J_Piano_LH_Music_Voice = {                                                     %
 
 J_Piano_LH_Attack_Voice = {                                                    %! extern
 
-    % [J Piano_LH_Attack_Voice measure 223 / measure 1]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 232 / measure 1]                        %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
-    % [J Piano_LH_Attack_Voice measure 224 / measure 2]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 233 / measure 2]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Attack_Voice measure 225 / measure 3]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 234 / measure 3]                        %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Attack_Voice measure 226 / measure 4]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 235 / measure 4]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Attack_Voice measure 227 / measure 5]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 236 / measure 5]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Attack_Voice measure 228 / measure 6]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 237 / measure 6]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Attack_Voice measure 229 / measure 7]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 238 / measure 7]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Piano_LH_Attack_Voice measure 230 / measure 8]                        %! _comment_measure_numbers
+    % [J Piano_LH_Attack_Voice measure 239 / measure 8]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -887,7 +887,7 @@ J_Piano_LH_Attack_Voice = {                                                    %
         \context Voice = "Piano_LH_Attack_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Piano_LH_Attack_Voice measure 231 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Piano_LH_Attack_Voice measure 240 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -896,7 +896,7 @@ J_Piano_LH_Attack_Voice = {                                                    %
         \context Voice = "Piano_LH_Attack_Rest_Voice"                          %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Piano_LH_Attack_Rest_Voice measure 231 / measure 9]           %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Piano_LH_Attack_Rest_Voice measure 240 / measure 9]           %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -924,7 +924,7 @@ J_Piano_LH_Music_Staff = <<                                                    %
 
 J_Percussion_Music_Voice = {                                                   %! extern
 
-    % [J Percussion_Music_Voice measure 223 / measure 1]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 232 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -944,25 +944,25 @@ J_Percussion_Music_Voice = {                                                   %
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J Percussion_Music_Voice measure 224 / measure 2]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 233 / measure 2]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Percussion_Music_Voice measure 225 / measure 3]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 234 / measure 3]                       %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Percussion_Music_Voice measure 226 / measure 4]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 235 / measure 4]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Percussion_Music_Voice measure 227 / measure 5]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 236 / measure 5]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Percussion_Music_Voice measure 228 / measure 6]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 237 / measure 6]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Percussion_Music_Voice measure 229 / measure 7]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 238 / measure 7]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Percussion_Music_Voice measure 230 / measure 8]                       %! _comment_measure_numbers
+    % [J Percussion_Music_Voice measure 239 / measure 8]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -970,7 +970,7 @@ J_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Music_Voice"                              %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Percussion_Music_Voice measure 231 / measure 9]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Percussion_Music_Voice measure 240 / measure 9]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -979,7 +979,7 @@ J_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Rest_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Percussion_Rest_Voice measure 231 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Percussion_Rest_Voice measure 240 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1004,7 +1004,7 @@ J_Percussion_Music_Staff = {                                                   %
 
 J_Violin_Music_Voice = {                                                       %! extern
 
-    % [J Violin_Music_Voice measure 223 / measure 1]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 232 / measure 1]                           %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1025,25 +1025,25 @@ J_Violin_Music_Voice = {                                                       %
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J Violin_Music_Voice measure 224 / measure 2]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 233 / measure 2]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Violin_Music_Voice measure 225 / measure 3]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 234 / measure 3]                           %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Violin_Music_Voice measure 226 / measure 4]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 235 / measure 4]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Violin_Music_Voice measure 227 / measure 5]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 236 / measure 5]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Violin_Music_Voice measure 228 / measure 6]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 237 / measure 6]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Violin_Music_Voice measure 229 / measure 7]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 238 / measure 7]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Violin_Music_Voice measure 230 / measure 8]                           %! _comment_measure_numbers
+    % [J Violin_Music_Voice measure 239 / measure 8]                           %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1051,7 +1051,7 @@ J_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Music_Voice"                                  %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Violin_Music_Voice measure 231 / measure 9]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Violin_Music_Voice measure 240 / measure 9]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1060,7 +1060,7 @@ J_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Rest_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Violin_Rest_Voice measure 231 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Violin_Rest_Voice measure 240 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1085,7 +1085,7 @@ J_Violin_Music_Staff = {                                                       %
 
 J_Viola_Music_Voice = {                                                        %! extern
 
-    % [J Viola_Music_Voice measure 223 / measure 1]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 232 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-va-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1105,25 +1105,25 @@ J_Viola_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-va-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J Viola_Music_Voice measure 224 / measure 2]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 233 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Viola_Music_Voice measure 225 / measure 3]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 234 / measure 3]                            %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Viola_Music_Voice measure 226 / measure 4]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 235 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Viola_Music_Voice measure 227 / measure 5]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 236 / measure 5]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Viola_Music_Voice measure 228 / measure 6]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 237 / measure 6]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Viola_Music_Voice measure 229 / measure 7]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 238 / measure 7]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Viola_Music_Voice measure 230 / measure 8]                            %! _comment_measure_numbers
+    % [J Viola_Music_Voice measure 239 / measure 8]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1131,7 +1131,7 @@ J_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Viola_Music_Voice measure 231 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Viola_Music_Voice measure 240 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1140,7 +1140,7 @@ J_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Viola_Rest_Voice measure 231 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Viola_Rest_Voice measure 240 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1165,7 +1165,7 @@ J_Viola_Music_Staff = {                                                        %
 
 J_Cello_Music_Voice = {                                                        %! extern
 
-    % [J Cello_Music_Voice measure 223 / measure 1]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 232 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1186,25 +1186,25 @@ J_Cello_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [J Cello_Music_Voice measure 224 / measure 2]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 233 / measure 2]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [J Cello_Music_Voice measure 225 / measure 3]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 234 / measure 3]                            %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
-    % [J Cello_Music_Voice measure 226 / measure 4]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 235 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Cello_Music_Voice measure 227 / measure 5]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 236 / measure 5]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Cello_Music_Voice measure 228 / measure 6]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 237 / measure 6]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Cello_Music_Voice measure 229 / measure 7]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 238 / measure 7]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [J Cello_Music_Voice measure 230 / measure 8]                            %! _comment_measure_numbers
+    % [J Cello_Music_Voice measure 239 / measure 8]                            %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1212,7 +1212,7 @@ J_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Cello_Music_Voice measure 231 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Cello_Music_Voice measure 240 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1221,7 +1221,7 @@ J_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [J Cello_Rest_Voice measure 231 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [J Cello_Rest_Voice measure 240 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
