@@ -8,6 +8,7 @@ from .clb_pitches import clb_pitches
 from .clb_rhythm import clb_rhythm
 from .dal_niente_hairpins import dal_niente_hairpins
 from .eh_trill_rhythm import eh_trill_rhythm
+from .even_quarter_note_tuplet_rhythm import even_quarter_note_tuplet_rhythm
 from .front_incised_divisions import front_incised_divisions
 from .glow_rhythm import glow_rhythm
 from .halves_rhythm import halves_rhythm

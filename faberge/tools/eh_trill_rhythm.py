@@ -30,7 +30,7 @@ def eh_trill_rhythm(
         division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
         read_talea_once_only=True,
-        tag='eh_trill_rhythm',
+        tag='faberge_eh_trill_rhythm',
         talea=rmakers.Talea(
             counts=counts,
             denominator=16,
