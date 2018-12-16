@@ -1,8 +1,6 @@
 KERNEL
 ======
 
-[B]
-
     fl: --
     eh: --
     cl: --
@@ -43,8 +41,6 @@ KERNEL
     va: spazzolati
     vc: --
 
-[C]
-
     bfl: airtone (2)
     eh: airtone (1)
     bcl: airtone (3)
@@ -58,15 +54,13 @@ KERNEL
     papers (ε) vn harmonic glissando, vc harmonic glissando pp.
     pf, perc tacet.
 
-[D]
-
     bfl: glow
     eh: --
     bcl: glow
     pf: --
     perc: marimba pedal
     vn: quiet pitch (pochiss. scratch)
-    va: [tremolo airtone (0)]
+    va: tremolo airtone (0)
     vc: lowregister pedal
     ===
     jewelers' desk (γ) bfl glow, bcl glow, marimba pedal, vc pedal.
@@ -95,8 +89,6 @@ KERNEL
     vc: electricity
     ===
     tutti.
-
-[E]
 
     bfl: airtone    (a: 2,4 ... 12,14 ... 22,24 ... 32,34)
     eh: airtone     (a: 1,5 ... 11,15 ... 21,25 ... 31,35)
@@ -129,8 +121,6 @@ KERNEL
     shell (β) eh doubletrill with swell enveloping.
     four players tacet.
 
-[F]
-
     bcl 9-way colorfinger variation.
 
     vn, va, vc quadruple-struck rimbalzando followed by scp-tremolo segment
@@ -145,8 +135,6 @@ KERNEL
     vn: spazzolati + rimbalzandi + tasto XFB
     va: spazzolati, rimbalzandi + tasto XFB
     vc: short 1/2 clt glissandi + tremolo alla punta
-
-[H]
 
     bfl: gears ppppp
     eh: airtone (0, 2, 7) ff
@@ -165,29 +153,25 @@ KERNEL
     bcl: --
     pf: --
     perc: --
-    vn: [electricity ppp]
-    va: [electricity ppp]
-    vc: [electricity ppp]
+    vn: electricity ppp
+    va: electricity ppp
+    vc: electricity ppp
     ===
     five players tacet.
 
-[J]
-
-    bfl: [airtone]
-    eh: [airtone]
-    bcl: [airtone]
+    bfl: airtone
+    eh: airtone
+    bcl: airtone
     pf: pegs
-    perc: [bd airtone]
+    perc: bd airtone
     vn: sparse rimbalzandi
     va: sparse rimbalzandi
-    vc: [pedal]
+    vc: pedal
     ===
     papers (ε) bfl airtone, eh airtone, bcl airtone, bd airtone.
     gears (α) vn irregular and very sparse quadruple-struck rimbalzandi.
     gears (α) va irregular and very sparse quadruple-struck rimbalzandi.
     gears (α) pf irregular and very sparse credit card against tuning pegs.
     tutti.
-
-[K]
 
     gears (α) woodblock sounds loudly five times.
