@@ -27,7 +27,7 @@ def front_incised_divisions(
                 prefix_counts=[1],
                 talea_denominator=lcm,
                 ),
-            tag='front_incised_divisions',
+            tag='faberge_front_incised_divisions',
             ),
         )
     return rhythm_specifier

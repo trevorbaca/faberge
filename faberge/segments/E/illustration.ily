@@ -854,37 +854,37 @@ E_Violin_Music_Voice = {                                                       %
     R1 * 2                                                                     %! _make_measure_silences
 
     % [E Violin_Music_Voice measure 195 / measure 9]                           %! _comment_measure_numbers
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \markup { spazzolato }                                                   %! baca_markup:IndicatorCommand
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    r16                                                                        %! spazzolati_rhythm
+    r16                                                                        %! faberge_spazzolati_rhythm
 
-    r16                                                                        %! spazzolati_rhythm
+    r16                                                                        %! faberge_spazzolati_rhythm
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    r16                                                                        %! spazzolati_rhythm
+    r16                                                                        %! faberge_spazzolati_rhythm
 
-    r16                                                                        %! spazzolati_rhythm
+    r16                                                                        %! faberge_spazzolati_rhythm
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
 
-    e'16                                                                       %! spazzolati_rhythm
+    e'16                                                                       %! faberge_spazzolati_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -985,37 +985,37 @@ E_Viola_Music_Voice = {                                                        %
     % [E Viola_Music_Voice measure 194 / measure 8]                            %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_measure_silences
 
-    \times 2/3 {                                                               %! spazzolati_rhythm
+    \times 2/3 {                                                               %! faberge_spazzolati_rhythm
 
         % [E Viola_Music_Voice measure 195 / measure 9]                        %! _comment_measure_numbers
-        r4                                                                     %! spazzolati_rhythm
+        r4                                                                     %! faberge_spazzolati_rhythm
 
-        e'8                                                                    %! spazzolati_rhythm
+        e'8                                                                    %! faberge_spazzolati_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { spazzolato }                                               %! baca_markup:IndicatorCommand
 
-    }                                                                          %! spazzolati_rhythm
+    }                                                                          %! faberge_spazzolati_rhythm
 
-    \times 2/3 {                                                               %! spazzolati_rhythm
+    \times 2/3 {                                                               %! faberge_spazzolati_rhythm
 
-        e'8                                                                    %! spazzolati_rhythm
+        e'8                                                                    %! faberge_spazzolati_rhythm
 
-        r4                                                                     %! spazzolati_rhythm
+        r4                                                                     %! faberge_spazzolati_rhythm
 
-    }                                                                          %! spazzolati_rhythm
+    }                                                                          %! faberge_spazzolati_rhythm
 
-    \times 2/3 {                                                               %! spazzolati_rhythm
+    \times 2/3 {                                                               %! faberge_spazzolati_rhythm
 
-        e'8                                                                    %! spazzolati_rhythm
+        e'8                                                                    %! faberge_spazzolati_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        e'8                                                                    %! spazzolati_rhythm
+        e'8                                                                    %! faberge_spazzolati_rhythm
 
-        e'8                                                                    %! spazzolati_rhythm
+        e'8                                                                    %! faberge_spazzolati_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! spazzolati_rhythm
+    }                                                                          %! faberge_spazzolati_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

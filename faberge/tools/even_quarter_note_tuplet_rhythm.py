@@ -3,22 +3,22 @@ import baca
 from abjadext import rmakers
 
 
-def halves_rhythm():
+def even_quarter_note_tuplet_rhythm(
+    count,
+    ):
     """
-    Makes halves rhythm.
+    Makes even quarter note tuplet rhythm.
     """
 
     rhythm_maker = rmakers.TupletRhythmMaker(
-        tag='faberge_halves_rhythm',
-        tuplet_ratios=[(1, 1)],
+        tag='faberge_even_quarter_note_tuplet_rhythm',
+        tuplet_ratios=[count * (1,)],
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
             rewrite_rest_filled=True,
             trivialize=True,
             ),
         )
-
     return baca.rhythm(
-        rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         )
