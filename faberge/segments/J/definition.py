@@ -55,6 +55,55 @@ maker(
 # fl
 
 maker(
-    ('fl', 1),
-    faberge.even_quarter_note_tuplet_rhythm(5),
+    ('fl', [1, 2, 3, 4]),
+    baca.glissando(
+        allow_repeats=True,
+        selector=baca.leaves()[1:],
+        ),
+    )
+
+maker(
+    ('fl', (1, 4)),
+    faberge.even_quarter_note_tuplet_rhythm([1, 0, -4, 0]),
+    )
+
+maker(
+    ('fl', (5, 8)),
+    faberge.even_quarter_note_tuplet_rhythm([0, 1, 0, -1]),
+    )
+
+# fl, cl
+
+maker(
+    (['fl', 'cl'], 1),
+    baca.trill_spanner(
+        selector=baca.leaves()[:2],
+        ),
+    )
+
+maker(
+    (['fl', 'cl'], [1, 2, 3]),
+    baca.trill_spanner(
+        selector=baca.leaves()[-1:].rleak().rleak(),
+        ),
+    )
+
+# cl
+
+maker(
+    ('cl', [1, 2, 3, 4]),
+    baca.glissando(
+        allow_repeats=True,
+        selector=baca.leaves()[1:],
+        ),
+    )
+
+maker(
+    ('cl', (1, 4)),
+    faberge.even_quarter_note_tuplet_rhythm([0, 1, -3, 1]),
+    )
+
+maker(
+    ('cl', (5, 8)),
+    faberge.even_quarter_note_tuplet_rhythm([1, 0, -1, 0]),
     )
