@@ -48,11 +48,11 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [234],
+            [257],
             ),
-        ('duration', "0'29''"),
-        ('final_measure_number', 257),
-        ('first_measure_number', 250),
+        ('duration', "0'26''"),
+        ('final_measure_number', 264),
+        ('first_measure_number', 257),
         (
             'persistent_indicators',
             abjad.OrderedDict(
@@ -184,7 +184,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 manifest='instruments',
-                                value='BassFlute',
+                                value='Flute',
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
@@ -199,7 +199,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='f',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -390,8 +390,8 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'O'),
         ('segment_number', 16),
-        ('start_clock_time', "10'30''"),
-        ('stop_clock_time', "10'59''"),
+        ('start_clock_time', "10'48''"),
+        ('stop_clock_time', "11'14''"),
         (
             'time_signatures',
             [

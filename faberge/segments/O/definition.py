@@ -27,12 +27,8 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.metronome_mark(
-        '125',
-        selector=baca.skip(1 - 1),
-        ),
-    baca.metronome_mark(
         '156',
-        selector=baca.skip(5 - 1),
+        selector=baca.skip(1 - 1),
         ),
     baca.rehearsal_mark(
         'O',
