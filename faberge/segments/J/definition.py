@@ -64,12 +64,12 @@ maker(
 
 maker(
     ('fl', (1, 4)),
-    faberge.even_quarter_note_tuplet_rhythm([1, 0, -4, 0]),
+    faberge.even_tuplet_rhythm(4, [1, 0, -4, 0]),
     )
 
 maker(
     ('fl', (5, 8)),
-    faberge.even_quarter_note_tuplet_rhythm([0, 1, 0, -1]),
+    faberge.even_tuplet_rhythm(4, [0, 1, 0, -1]),
     )
 
 # fl, cl
@@ -100,10 +100,10 @@ maker(
 
 maker(
     ('cl', (1, 4)),
-    faberge.even_quarter_note_tuplet_rhythm([0, 1, -3, 1]),
+    faberge.even_tuplet_rhythm(4, [0, 1, -3, 1]),
     )
 
 maker(
     ('cl', (5, 8)),
-    faberge.even_quarter_note_tuplet_rhythm([1, 0, -1, 0]),
+    faberge.even_tuplet_rhythm(4, [1, 0, -1, 0]),
     )

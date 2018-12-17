@@ -213,8 +213,8 @@ J_Global_Skips = {                                                             %
 
 J_Flute_Music_Voice = {                                                        %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 4/5 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 4/5 {                                                               %! faberge_even_tuplet_rhythm
 
         % [J Flute_Music_Voice measure 239 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-fl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -224,7 +224,7 @@ J_Flute_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Fl.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -235,156 +235,156 @@ J_Flute_Music_Voice = {                                                        %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [J Flute_Music_Voice measure 240 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \glissando                                                                 %! baca_glissando
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 9/5 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 9/5 {                                                               %! faberge_even_tuplet_rhythm
 
         % [J Flute_Music_Voice measure 241 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [J Flute_Music_Voice measure 242 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \glissando                                                                 %! baca_glissando
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \glissando                                                                 %! baca_glissando
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \glissando                                                                 %! baca_glissando
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     % [J Flute_Music_Voice measure 243 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 5/6 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/6 {                                                               %! faberge_even_tuplet_rhythm
 
         % [J Flute_Music_Voice measure 244 / measure 6]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [J Flute_Music_Voice measure 245 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 5/4 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/4 {                                                               %! faberge_even_tuplet_rhythm
 
         % [J Flute_Music_Voice measure 246 / measure 8]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -513,7 +513,7 @@ J_Clarinet_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Cl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -524,164 +524,174 @@ J_Clarinet_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     \glissando                                                                 %! baca_glissando
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \glissando                                                                 %! baca_glissando
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    % [J Clarinet_Music_Voice measure 240 / measure 2]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    [                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 3/2 {                                                               %! faberge_even_tuplet_rhythm
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    ]                                                                          %! faberge_even_quarter_note_tuplet_rhythm
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
-
-    % [J Clarinet_Music_Voice measure 241 / measure 3]                         %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \glissando                                                                 %! baca_glissando
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4.                                                                       %! faberge_even_quarter_note_tuplet_rhythm
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
-
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 5/6 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
-
-        % [J Clarinet_Music_Voice measure 242 / measure 4]                     %! _comment_measure_numbers
+        % [J Clarinet_Music_Voice measure 240 / measure 2]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        [                                                                      %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'8                                                                    %! faberge_even_tuplet_rhythm
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'8                                                                    %! faberge_even_tuplet_rhythm
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        ]                                                                      %! faberge_even_tuplet_rhythm
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+    }                                                                          %! faberge_even_tuplet_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 9/6 {                                                               %! faberge_even_tuplet_rhythm
+
+        % [J Clarinet_Music_Voice measure 241 / measure 3]                     %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \glissando                                                             %! baca_glissando
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \glissando                                                             %! baca_glissando
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \glissando                                                             %! baca_glissando
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 5/6 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+    }                                                                          %! faberge_even_tuplet_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/6 {                                                               %! faberge_even_tuplet_rhythm
+
+        % [J Clarinet_Music_Voice measure 242 / measure 4]                     %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \glissando                                                             %! baca_glissando
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \glissando                                                             %! baca_glissando
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \glissando                                                             %! baca_glissando
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \glissando                                                             %! baca_glissando
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+
+    }                                                                          %! faberge_even_tuplet_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/6 {                                                               %! faberge_even_tuplet_rhythm
 
         % [J Clarinet_Music_Voice measure 243 / measure 5]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [J Clarinet_Music_Voice measure 244 / measure 6]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 5/4 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/4 {                                                               %! faberge_even_tuplet_rhythm
 
         % [J Clarinet_Music_Voice measure 245 / measure 7]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [J Clarinet_Music_Voice measure 246 / measure 8]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

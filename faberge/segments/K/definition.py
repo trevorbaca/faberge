@@ -51,6 +51,20 @@ maker(
         ),
     )
 
+# fl
+
+maker(
+    ('fl', (1, 4)),
+    faberge.even_tuplet_rhythm(8, [2, -2, 0, 0]),
+    )
+
+# cl
+
+maker(
+    ('cl', (1, 4)),
+    faberge.even_tuplet_rhythm(8, [-2, 2, 1, 1]),
+    )
+
 # vn
 
 maker(

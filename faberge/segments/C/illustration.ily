@@ -1048,15 +1048,15 @@ C_Percussion_Music_Voice = {                                                   %
     % [C Percussion_Music_Voice measure 179 / measure 3]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_quarter_note_tuplet_rhythm
-    \times 5/4 {                                                               %! faberge_even_quarter_note_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/4 {                                                               %! faberge_even_tuplet_rhythm
 
         % [C Percussion_Music_Voice measure 180 / measure 4]                   %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak padding #2.5                                                  %! baca_markup:IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
@@ -1065,20 +1065,20 @@ C_Percussion_Music_Voice = {                                                   %
                     woodblock                                                  %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
 
-        b'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
-        b'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
-        b'4                                                                    %! faberge_even_quarter_note_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_quarter_note_tuplet_rhythm
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [C Percussion_Music_Voice measure 181 / measure 5]                       %! _comment_measure_numbers
-    b'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
-    b'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
-    b'4                                                                        %! faberge_even_quarter_note_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
