@@ -47,20 +47,144 @@ maker(
         ),
     )
 
+# perc
+
+maker(
+    ('perc', 4),
+    baca.bar_extent((-2, 2)),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    faberge.even_tuplet_rhythm(4, [1]),
+    )
+
+maker(
+    ('perc', 5),
+    baca.staff_lines(5),
+    )
+
 # vn
 
 maker(
-    'vn',
+    ('vn', 1),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 2),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 3),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 4),
+    baca.rhythm(
+        "{ c'2 c'2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# vn, va
+
+maker(
+    (['vn', 'va'], (1, 4)),
+    baca.quadruple_staccato(
+        selector=baca.plts()[abjad.index([0], 2)],
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts()[abjad.index([1], 2)],
+        ),
     )
 
 # va
 
 maker(
-    'va',
+    ('va', 1),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 2),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 3),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 4),
+    baca.rhythm(
+        "{ c'2 c'2 }",
+        annotate_unpitched_music=True,
+        ),
     )
 
 # vc
 
 maker(
-    'vc',
+    ('vc', 1),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', [1, 2, 3, 4]),
+    baca.down_bow(
+        abjad.tweak(1).padding,
+        abjad.tweak(0.5).parent_alignment_X,
+        full=True,
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.leaves()[:1].rleak(),
+        ),
+    )
+
+maker(
+    ('vc', 2),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 3),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 4),
+    baca.rhythm(
+        "{ c'2 c'2 }",
+        annotate_unpitched_music=True,
+        ),
     )
