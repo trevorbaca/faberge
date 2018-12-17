@@ -89,7 +89,7 @@ maker(
         ),
     baca.staff_lines(1),
     baca.staff_position(0),
-    faberge.even_quarter_note_tuplet_rhythm([-1, 0]),
+    faberge.even_tuplet_rhythm(4, [-1, 0]),
     )
 
 maker(
