@@ -13,7 +13,7 @@ I_Global_Rests = {                                                             %
     R1 * 1                                                                     %! _make_global_rests(1)
 
     % [I Global_Rests measure 234 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _make_global_rests(1)
+    R1 * 9/4                                                                   %! _make_global_rests(1)
 
     % [I Global_Rests measure 235 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests(1)
@@ -48,14 +48,14 @@ I_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "230"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-left-only "[4-1]"                                        %! STAGE_NUMBER_MARKUP
+    - \baca-start-snm-left-only "[3-4]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
-%@% - \abjad-invisible-line                                                    %! REDUNDANT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "125"                       %! REDUNDANT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-%@% \bacaStartTextSpanMM                                                       %! REDUNDANT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
-    - \abjad-invisible-line                                                    %! REDUNDANT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "125" #'DeepPink1   %! REDUNDANT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-    \bacaStartTextSpanMM                                                       %! REDUNDANT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+%@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% - \baca-metronome-mark-spanner-left-text 2 0 1 "125"                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+%@% \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
+    - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "125" #'green4      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
+    \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
 %@% - \baca-start-ct-left-only "[9'12'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
@@ -107,9 +107,9 @@ I_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [I Global_Skips measure 234 / measure 5]                                 %! _comment_measure_numbers
-    \time 10/4                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 9/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 5/2                                                                   %! _make_global_skips(1)
+    s1 * 9/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -149,7 +149,7 @@ I_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "235"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-left-only "[4-2]"                                        %! STAGE_NUMBER_MARKUP
+    - \baca-start-snm-left-only "[3-5]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "125"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -253,7 +253,7 @@ I_Flute_Music_Voice = {                                                        %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Flute_Music_Voice measure 234 / measure 5]                            %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Flute_Music_Voice measure 235 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -336,7 +336,7 @@ I_English_Horn_Music_Voice = {                                                 %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I English_Horn_Music_Voice measure 234 / measure 5]                     %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I English_Horn_Music_Voice measure 235 / measure 6]                     %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -415,7 +415,7 @@ I_Clarinet_Music_Voice = {                                                     %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Clarinet_Music_Voice measure 234 / measure 5]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Clarinet_Music_Voice measure 235 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -492,7 +492,7 @@ I_Piano_RH_Music_Voice = {                                                     %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Piano_RH_Music_Voice measure 234 / measure 5]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_RH_Music_Voice measure 235 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -563,7 +563,7 @@ I_Piano_LH_Music_Voice = {                                                     %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Music_Voice measure 234 / measure 5]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Music_Voice measure 235 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -623,7 +623,7 @@ I_Piano_LH_Attack_Voice = {                                                    %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 234 / measure 5]                        %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 235 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -709,7 +709,7 @@ I_Percussion_Music_Voice = {                                                   %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Music_Voice measure 234 / measure 5]                       %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Percussion_Music_Voice measure 235 / measure 6]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -793,7 +793,7 @@ I_Violin_Music_Voice = {                                                       %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Violin_Music_Voice measure 234 / measure 5]                           %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Violin_Music_Voice measure 235 / measure 6]                           %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -876,7 +876,7 @@ I_Viola_Music_Voice = {                                                        %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Viola_Music_Voice measure 234 / measure 5]                            %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Viola_Music_Voice measure 235 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
@@ -960,7 +960,7 @@ I_Cello_Music_Voice = {                                                        %
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
     % [I Cello_Music_Voice measure 234 / measure 5]                            %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Cello_Music_Voice measure 235 / measure 6]                            %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands

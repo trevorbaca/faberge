@@ -24,7 +24,7 @@ maker = baca.SegmentMaker(
     stage_markup=stage_markup,
     time_signatures=[
         (5, 4), (4, 4), (3, 4), (2, 4),
-        (10, 4),
+        (9, 4),
         (2, 4), (2, 4), (3, 4), (4, 4),
         ],
     transpose_score=False,
