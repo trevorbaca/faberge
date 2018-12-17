@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [214],
+            [230],
             ),
         ('duration', "0'24''"),
         ('final_measure_number', 238),
@@ -132,7 +132,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='f',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
@@ -168,7 +168,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-mf',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
@@ -199,7 +199,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='f',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
