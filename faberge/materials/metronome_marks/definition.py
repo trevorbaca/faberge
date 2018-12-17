@@ -30,4 +30,18 @@ metronome_marks = abjad.OrderedDict([
         '156',
         abjad.MetronomeMark((1, 4), 156),
         ),
+    (
+        '4=4:5(4)',
+        abjad.MetricModulation(
+            left_rhythm=abjad.Note('c4'),
+            right_rhythm=abjad.Tuplet((5, 4), [abjad.Note('c4')]),
+            ),
+        ),
+    (
+        '4=5:4(4)',
+        abjad.MetricModulation(
+            left_rhythm=abjad.Note('c4'),
+            right_rhythm=abjad.Tuplet((4, 5), [abjad.Note('c4')]),
+            ),
+        ),
     ])
