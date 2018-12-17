@@ -157,8 +157,19 @@ class ScoreTemplate(baca.ScoreTemplate):
             'vn': 'Violin_Music_Voice',
             'va': 'Viola_Music_Voice',
             'vc': 'Cello_Music_Voice',
+            'tutti': [
+                'Flute_Music_Voice',
+                'English_Horn_Music_Voice',
+                'Clarinet_Music_Voice',
+                'Piano_RH_Music_Voice',
+                'Piano_LH_Music_Voice',
+                'Piano_LH_Attack_Voice',
+                'Percussion_Music_Voice',
+                'Violin_Music_Voice',
+                'Viola_Music_Voice',
+                'Cello_Music_Voice',
+                ],
             })
-
 
     ### SPECIAL METHODS ###
 
@@ -456,6 +467,21 @@ class ScoreTemplate(baca.ScoreTemplate):
                     ('vn', 'Violin_Music_Voice'),
                     ('va', 'Viola_Music_Voice'),
                     ('vc', 'Cello_Music_Voice'),
+                    (
+                        'tutti',
+                        [
+                            'Flute_Music_Voice',
+                            'English_Horn_Music_Voice',
+                            'Clarinet_Music_Voice',
+                            'Piano_RH_Music_Voice',
+                            'Piano_LH_Music_Voice',
+                            'Piano_LH_Attack_Voice',
+                            'Percussion_Music_Voice',
+                            'Violin_Music_Voice',
+                            'Viola_Music_Voice',
+                            'Cello_Music_Voice',
+                            ],
+                        ),
                     ]
                 )
 

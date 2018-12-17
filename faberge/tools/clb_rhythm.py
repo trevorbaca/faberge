@@ -5,11 +5,13 @@ from abjadext import rmakers
 
 def clb_rhythm(
     *,
+    extra_counts=None,
     fuse_counts=None,
     ):
     """
     Makes clb rhythm.
     """
+    extra_counts = extra_counts or (2, 6, 2, 0, 4)
 
     expression = None
     if fuse_counts is not None:
@@ -22,7 +24,7 @@ def clb_rhythm(
         expression = expression.map(baca.sequence().sum())
         expression = expression.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        extra_counts_per_division=[2, 6, 2, 0, 4],
+        extra_counts_per_division=extra_counts,
         tag='faberge_clb_rhythm',
         talea=rmakers.Talea(
             counts=[1],

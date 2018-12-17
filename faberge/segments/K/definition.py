@@ -98,19 +98,13 @@ maker(
 
 # va
 
-#maker(
-#    'va',
-#    baca.clef('alto'),
-#    baca.staff_lines(5),
-#    )
-
 maker(
     ('va', (1, 5)),
-    baca.make_repeat_tied_notes(),
     baca.bow_speed_spanner(
         'XFB =|',
         abjad.tweak(3.5).staff_padding,
         ),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
