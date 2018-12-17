@@ -2,7 +2,7 @@
 % page_count = 1
 % measure_count = 9 + 1
 % time_signatures = [
-% '5/4', '4/4', '3/4', '2/4', '10/4', '2/4', '2/4', '3/4', '4/4'
+% '5/4', '4/4', '3/4', '2/4', '9/4', '2/4', '2/4', '3/4', '4/4'
 %  ]
 
 
@@ -56,7 +56,7 @@
             % [Page_Layout measure 251]                                        %! _comment_measure_numbers
             \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            s1 * 5/2                                                           %! _make_global_skips(1)
+            s1 * 9/4                                                           %! _make_global_skips(1)
         %@% \bacaStopTextSpanSPM                                               %! SPACING_MARKUP
         %@% - \baca-start-spm-left-only "[1/24]"                               %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                              %! SPACING_MARKUP

@@ -9,9 +9,9 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[4-1]', 1),
+    ('[3-4]', 1),
     ('[2-4]', 5, 'darkgreen'),
-    ('[4-2]', 6),
+    ('[3-5]', 6),
     )
 
 maker = baca.SegmentMaker(
@@ -24,7 +24,7 @@ maker = baca.SegmentMaker(
     stage_markup=stage_markup,
     time_signatures=[
         (6, 4), (6, 4), (6, 4), (4, 4),
-        (10, 4),
+        (9, 4),
         (6, 4), (5, 4), (5, 4), (5, 4),
         ],
     transpose_score=False,
@@ -33,10 +33,6 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.metronome_mark(
-        '125',
-        selector=baca.skip(1 - 1),
-        ),
     baca.metronome_mark(
         '156',
         selector=baca.skip(5 - 1),

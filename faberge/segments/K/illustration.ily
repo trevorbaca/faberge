@@ -13,7 +13,7 @@ K_Global_Rests = {                                                             %
     R1 * 1/2                                                                   %! _make_global_rests(1)
 
     % [K Global_Rests measure 251 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _make_global_rests(1)
+    R1 * 9/4                                                                   %! _make_global_rests(1)
 
     % [K Global_Rests measure 252 / measure 6]                                 %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_global_rests(1)
@@ -111,9 +111,9 @@ K_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [K Global_Skips measure 251 / measure 5]                                 %! _comment_measure_numbers
-    \time 10/4                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
+    \time 9/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
-    s1 * 5/2                                                                   %! _make_global_skips(1)
+    s1 * 9/4                                                                   %! _make_global_skips(1)
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
@@ -210,7 +210,7 @@ K_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "255"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[10'14'']" "[10'31'']"                              %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[10'14'']" "[10'30'']"                              %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
@@ -359,7 +359,7 @@ K_Flute_Music_Voice = {                                                        %
 
             % [K Flute_Music_Voice measure 251 / measure 5]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 5/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 9/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -367,7 +367,7 @@ K_Flute_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [K Flute_Rest_Voice measure 251 / measure 5]                     %! _comment_measure_numbers
-            R1 * 5/2                                                           %! _make_multimeasure_rest_container
+            R1 * 9/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -454,7 +454,7 @@ K_English_Horn_Music_Voice = {                                                 %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K English_Horn_Music_Voice measure 251 / measure 5]                     %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K English_Horn_Music_Voice measure 252 / measure 6]                     %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -649,7 +649,7 @@ K_Clarinet_Music_Voice = {                                                     %
 
             % [K Clarinet_Music_Voice measure 251 / measure 5]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 5/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 9/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -657,7 +657,7 @@ K_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [K Clarinet_Rest_Voice measure 251 / measure 5]                  %! _comment_measure_numbers
-            R1 * 5/2                                                           %! _make_multimeasure_rest_container
+            R1 * 9/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -738,7 +738,7 @@ K_Piano_RH_Music_Voice = {                                                     %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Piano_RH_Music_Voice measure 251 / measure 5]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_RH_Music_Voice measure 252 / measure 6]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -809,7 +809,7 @@ K_Piano_LH_Music_Voice = {                                                     %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 251 / measure 5]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Music_Voice measure 252 / measure 6]                         %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -869,7 +869,7 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 251 / measure 5]                        %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 252 / measure 6]                        %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -955,7 +955,7 @@ K_Percussion_Music_Voice = {                                                   %
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Percussion_Music_Voice measure 251 / measure 5]                       %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K Percussion_Music_Voice measure 252 / measure 6]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _call_rhythm_commands
@@ -1153,7 +1153,7 @@ K_Violin_Music_Voice = {                                                       %
 
             % [K Violin_Music_Voice measure 251 / measure 5]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 5/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 9/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1161,7 +1161,7 @@ K_Violin_Music_Voice = {                                                       %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [K Violin_Rest_Voice measure 251 / measure 5]                    %! _comment_measure_numbers
-            R1 * 5/2                                                           %! _make_multimeasure_rest_container
+            R1 * 9/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1356,19 +1356,12 @@ K_Viola_Music_Voice = {                                                        %
 
     % [K Viola_Music_Voice measure 251 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.
-    \repeatTie
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2
+    c'1.
+    - \tweak direction #up
     \repeatTie
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.
-    \repeatTie
-
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! baca_make_repeat_tied_notes
     \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
@@ -1713,7 +1706,7 @@ K_Cello_Music_Voice = {                                                        %
 
             % [K Cello_Music_Voice measure 251 / measure 5]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 5/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 9/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1721,7 +1714,7 @@ K_Cello_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [K Cello_Rest_Voice measure 251 / measure 5]                     %! _comment_measure_numbers
-            R1 * 5/2                                                           %! _make_multimeasure_rest_container
+            R1 * 9/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
