@@ -86,10 +86,42 @@ maker(
         ),
     )
 
+maker(
+    ('vn', 5),
+    baca.rhythm(
+        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 6),
+    baca.rhythm(
+        r"{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 7),
+    baca.rhythm(
+        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 9),
+    baca.rhythm(
+        r"{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # vn, va
 
 maker(
-    (['vn', 'va'], (1, 4)),
+    (['vn', 'va'], [(1, 7), 9]),
     baca.quadruple_staccato(
         selector=baca.plts().filter_duration('==', (1, 2), preprolated=True),
         ),
@@ -128,6 +160,72 @@ maker(
     ('va', 4),
     baca.rhythm(
         r"\times 5/6 { c'1 c'2 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 5),
+    baca.rhythm(
+        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 6),
+    baca.rhythm(
+        r"{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 7),
+    baca.rhythm(
+        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 9),
+    baca.rhythm(
+        r"{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# vc
+
+maker(
+    ('vc', 5),
+    baca.rhythm(
+        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 6),
+    baca.rhythm(
+        r"{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 7),
+    baca.rhythm(
+        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 9),
+    baca.rhythm(
+        r"{ c'2 c'1 }",
         annotate_unpitched_music=True,
         ),
     )
