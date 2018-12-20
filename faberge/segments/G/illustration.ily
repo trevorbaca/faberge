@@ -511,7 +511,7 @@ G_Piano_RH_Music_Voice = {                                                     %
         ^ \baca-reapplied-indicator-markup "(“Piano”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "chord."                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak bound-details.right.padding #3.25                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak color #magenta                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
@@ -695,6 +695,42 @@ G_Piano_RH_Music_Voice = {                                                     %
         c''8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_RH_Music_Voice measure 216 / measure 6]                     %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        r16
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
         \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
         r16
@@ -706,9 +742,9 @@ G_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Piano_RH_Music_Voice measure 216 / measure 6]                 %! _comment_measure_numbers
+            % [G Piano_RH_Music_Voice measure 217 / measure 7]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanPA                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -716,24 +752,120 @@ G_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Piano_RH_Rest_Voice measure 216 / measure 6]                  %! _comment_measure_numbers
-            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+            % [G Piano_RH_Rest_Voice measure 217 / measure 7]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Piano_RH_Music_Voice measure 217 / measure 7]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    {
 
-    % [G Piano_RH_Music_Voice measure 218 / measure 8]                         %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _make_measure_silences
+        % [G Piano_RH_Music_Voice measure 218 / measure 8]                     %! _comment_measure_numbers
+        \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "chord."                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak color #magenta                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5.5                                            %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
-    % [G Piano_RH_Music_Voice measure 219 / measure 9]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_measure_silences
+        r8
 
-    % [G Piano_RH_Music_Voice measure 220 / measure 10]                        %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_measure_silences
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        r16
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_RH_Music_Voice measure 219 / measure 9]                     %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        r4
+
+        r4
+
+        r4
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_RH_Music_Voice measure 220 / measure 10]                    %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        r4
+
+        r4
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -743,6 +875,7 @@ G_Piano_RH_Music_Voice = {                                                     %
             % [G Piano_RH_Music_Voice measure 221 / measure 11]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanPA                                                %! PHANTOM:_style_phantom_measures(5):PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1231,38 +1364,81 @@ G_Violin_Music_Voice = {                                                       %
 
     }
 
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+
+        % [G Violin_Music_Voice measure 216 / measure 6]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+    }
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_Music_Voice"                                  %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_Music_Voice measure 216 / measure 6]                   %! _comment_measure_numbers
+            % [G Violin_Music_Voice measure 217 / measure 7]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Violin_Rest_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Violin_Rest_Voice measure 216 / measure 6]                    %! _comment_measure_numbers
-            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+            % [G Violin_Rest_Voice measure 217 / measure 7]                    %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Violin_Music_Voice measure 217 / measure 7]                           %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/5 {
 
-    % [G Violin_Music_Voice measure 218 / measure 8]                           %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _make_measure_silences
+        % [G Violin_Music_Voice measure 218 / measure 8]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-    % [G Violin_Music_Voice measure 219 / measure 9]                           %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_measure_silences
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
-    % [G Violin_Music_Voice measure 220 / measure 10]                          %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_measure_silences
+    }
+
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+
+        % [G Violin_Music_Voice measure 219 / measure 9]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+    }
+
+    {
+
+        % [G Violin_Music_Voice measure 220 / measure 10]                      %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+    }
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1372,39 +1548,86 @@ G_Viola_Music_Voice = {                                                        %
     c'2
     \repeatTie
 
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+
+        % [G Viola_Music_Voice measure 216 / measure 6]                        %! _comment_measure_numbers
+        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(3)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+    }
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Music_Voice measure 216 / measure 6]                    %! _comment_measure_numbers
+            % [G Viola_Music_Voice measure 217 / measure 7]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanBowSpeed                                          %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(3)
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Viola_Rest_Voice measure 216 / measure 6]                     %! _comment_measure_numbers
-            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+            % [G Viola_Rest_Voice measure 217 / measure 7]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Viola_Music_Voice measure 217 / measure 7]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 9/5 {
 
-    % [G Viola_Music_Voice measure 218 / measure 8]                            %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _make_measure_silences
+        % [G Viola_Music_Voice measure 218 / measure 8]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
-    % [G Viola_Music_Voice measure 219 / measure 9]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_measure_silences
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-    % [G Viola_Music_Voice measure 220 / measure 10]                           %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_measure_silences
+    }
+
+    \tweak text #tuplet-number::calc-fraction-text
+    \times 6/5 {
+
+        % [G Viola_Music_Voice measure 219 / measure 9]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+    }
+
+    {
+
+        % [G Viola_Music_Voice measure 220 / measure 10]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+    }
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1676,38 +1899,174 @@ G_Cello_Music_Voice = {                                                        %
 
     }
 
+    {
+
+        % [G Cello_Music_Voice measure 216 / measure 6]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        [
+
+        r16
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        ]
+
+        r16
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        r8
+
+    }
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Music_Voice measure 216 / measure 6]                    %! _comment_measure_numbers
+            % [G Cello_Music_Voice measure 217 / measure 7]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [G Cello_Rest_Voice measure 216 / measure 6]                     %! _comment_measure_numbers
-            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+            % [G Cello_Rest_Voice measure 217 / measure 7]                     %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [G Cello_Music_Voice measure 217 / measure 7]                            %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _make_measure_silences
+    {
 
-    % [G Cello_Music_Voice measure 218 / measure 8]                            %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _make_measure_silences
+        % [G Cello_Music_Voice measure 218 / measure 8]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        [
 
-    % [G Cello_Music_Voice measure 219 / measure 9]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_measure_silences
+        r16
 
-    % [G Cello_Music_Voice measure 220 / measure 10]                           %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_measure_silences
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        ]
+
+        r8
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        [
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        ]
+
+        r8
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        [
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        ]
+
+        r8
+
+    }
+
+    {
+
+        % [G Cello_Music_Voice measure 219 / measure 9]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        r16
+
+        r4
+
+        r4
+
+        r4
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        r8
+
+    }
+
+    {
+
+        % [G Cello_Music_Voice measure 220 / measure 10]                       %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8.
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        r16
+
+        r4
+
+        r4
+
+        r4
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        r8
+
+    }
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

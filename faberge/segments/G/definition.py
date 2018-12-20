@@ -65,7 +65,7 @@ maker(
     )
 
 maker(
-    ('rh', (1, 5)),
+    ('rh', [(1, 6), (8, 10)]),
     baca.ottava(),
     baca.pitch_annotation_spanner(
         'chord. -|',
@@ -75,7 +75,7 @@ maker(
     )
 
 maker(
-    ('rh', [1, 3, 4, 5]),
+    ('rh', [1, 3, 4, 5, 6, 8, 9, 10]),
     baca.beam(),
     baca.accent(
         selector=baca.pleaf(1),
@@ -106,6 +106,39 @@ maker(
     ('rh', 5),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', 6),
+    baca.rhythm(
+        "{ c''8 [ r8 c''8. r16 c''8 r8 c''8 ] r8 r4 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', 8),
+    baca.rhythm(
+        "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
+        " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', 9),
+    baca.rhythm(
+        "{ c''8 r8 r4 r4 r4 r4 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', 10),
+    baca.rhythm(
+        "{ c''8 r8 r4 r4 r4 c''8. r16 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -163,6 +196,48 @@ maker(
         ),
     )
 
+maker(
+    ('vn', 6),
+    baca.rhythm(
+        r"\times 6/5 { c'2 c'2. }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', [6, (8, 10)]),
+    baca.quadruple_staccato(
+        selector=baca.plts()[abjad.index([0], 2)],
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts()[abjad.index([1], 2)],
+        ),
+    )
+
+maker(
+    ('vn', 8),
+    baca.rhythm(
+        r"\times 9/5 { c'2 c'2. }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 9),
+    baca.rhythm(
+        r"\times 6/5 { c'2 c'2. }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 10),
+    baca.rhythm(
+        r"{ c'2 c'2. }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # va
 
 maker(
@@ -171,6 +246,49 @@ maker(
     baca.bow_speed_spanner(
         'XFB =|',
         abjad.tweak(3.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('va', 6),
+    baca.rhythm(
+        r"\times 6/5 { c'2. c'2 }",
+        annotate_unpitched_music=True,
+        ),
+    baca.staff_lines(5),
+    )
+
+maker(
+    ('va', [6, (8, 10)]),
+    baca.quadruple_staccato(
+        selector=baca.plts()[abjad.index([1], 2)],
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts()[abjad.index([0], 2)],
+        ),
+    )
+
+maker(
+    ('va', 8),
+    baca.rhythm(
+        r"\times 9/5 { c'2. c'2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 9),
+    baca.rhythm(
+        r"\times 6/5 { c'2. c'2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 10),
+    baca.rhythm(
+        r"{ c'2. c'2 }",
+        annotate_unpitched_music=True,
         ),
     )
 
@@ -196,7 +314,14 @@ maker(
     )
 
 maker(
-    ('vc', [1, (3, 5)]),
+    ('vc', [6, 8, 9, 10]),
+    baca.accent(
+        selector=baca.pleaf(0),
+        ),
+    )
+
+maker(
+    ('vc', [1, (3, 6), (8, 10)]),
     baca.stem_tremolo(
         selector=baca.pheads(),
         ),
@@ -223,6 +348,39 @@ maker(
     ('vc', 5),
     baca.rhythm(
         "{ c'8. r16 c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 6),
+    baca.rhythm(
+        "{ c'8. [ r16 c'8 r8 c'8 r8 c'8. ] r16 r4 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 8),
+    baca.rhythm(
+        "{ c'8. [ r16 c'8 ] r8 r4 c'8 [ r8 c'8 r8"
+        " c'8 ] r8 r4 c'8 [ r8 c'8 ] r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 9),
+    baca.rhythm(
+        "{ c'8. r16 r4 r4 r4 r4 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', 10),
+    baca.rhythm(
+        "{ c'8. r16 r4 r4 r4 c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
