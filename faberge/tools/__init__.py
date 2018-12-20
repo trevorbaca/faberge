@@ -5,8 +5,8 @@ from .back_incised_divisions import back_incised_divisions
 from .bcl_color_fingering_rhythm import bcl_color_fingering_rhythm
 from .bcl_color_fingerings import bcl_color_fingerings
 from .bfl_color_fingerings import bfl_color_fingerings
-from .clb_pitches import clb_pitches
 from .clb_rhythm import clb_rhythm
+from .clb_staff_positions import clb_staff_positions
 from .dal_niente_hairpins import dal_niente_hairpins
 from .downbeat_attack import downbeat_attack
 from .eh_trill_rhythm import eh_trill_rhythm

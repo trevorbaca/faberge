@@ -223,7 +223,7 @@ M_Flute_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    r2.                                                                        %! faberge_airtone_chain_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Fl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -233,26 +233,49 @@ M_Flute_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [M Flute_Music_Voice measure 265 / measure 2]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c''2                                                                       %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-    % [M Flute_Music_Voice measure 266 / measure 3]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    r1                                                                         %! faberge_airtone_chain_rhythm
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Flute_Music_Voice measure 266 / measure 3]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c''1 * 1                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Flute_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Flute_Rest_Voice measure 266 / measure 3]                     %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [M Flute_Music_Voice measure 267 / measure 4]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [M Flute_Music_Voice measure 268 / measure 5]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
     ^ \baca-explicit-indicator-markup "(“Flute”)"                              %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
 
     % [M Flute_Music_Voice measure 269 / measure 6]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [M Flute_Music_Voice measure 270 / measure 7]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [M Flute_Music_Voice measure 271 / measure 8]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -304,27 +327,45 @@ M_English_Horn_Music_Voice = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    g'2.                                                                       %! baca_make_repeat_tied_notes
+    r4                                                                         %! faberge_airtone_chain_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak bound-details.right.padding #2.25                                 %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    g'2                                                                        %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
     % [M English_Horn_Music_Voice measure 265 / measure 2]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    g'1.                                                                       %! baca_make_repeat_tied_notes
+    g'8                                                                        %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \repeatTie
+
+    r8
+
+    r2
+
+    r4.
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    g'4.                                                                       %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-f                                                             %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
     % [M English_Horn_Music_Voice measure 266 / measure 3]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     g'1                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
+    - \tweak bound-details.right.padding #2.25                                 %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [M English_Horn_Music_Voice measure 267 / measure 4]                     %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -401,202 +442,64 @@ M_English_Horn_Music_Staff = {                                                 %
 
 M_Clarinet_Music_Voice = {                                                     %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
-    \times 3/4 {                                                               %! faberge_bcl_color_fingering_rhythm
+    % [M Clarinet_Music_Voice measure 264 / measure 1]                         %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \faberge-cl-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+    r2.                                                                        %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    ^ \baca-reapplied-indicator-markup "[“Cl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \faberge-cl-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        % [M Clarinet_Music_Voice measure 264 / measure 1]                     %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        ^ \baca-reapplied-indicator-markup "[“Cl.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        6
-            }
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    % [M Clarinet_Music_Voice measure 265 / measure 2]                         %! _comment_measure_numbers
+    r4.                                                                        %! faberge_airtone_chain_rhythm
 
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    d''4.                                                                      %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
 
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        6
-            }
-
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-
-    }                                                                          %! faberge_bcl_color_fingering_rhythm
-
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
-    \times 6/7 {                                                               %! faberge_bcl_color_fingering_rhythm
-
-        % [M Clarinet_Music_Voice measure 265 / measure 2]                     %! _comment_measure_numbers
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
-
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-    }                                                                          %! faberge_bcl_color_fingering_rhythm
+    r2.                                                                        %! faberge_airtone_chain_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge_bcl_color_fingering_rhythm
 
         % [M Clarinet_Music_Voice measure 266 / measure 3]                     %! _comment_measure_numbers
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        6
+            }
+        [                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        7
+            }
+        ]                                                                      %! faberge_bcl_color_fingering_rhythm
+
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
@@ -607,7 +510,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        2
+                        6
             }
 
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
@@ -620,23 +523,12 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        7
             }
 
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
 
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
+        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak self-alignment-X #0
@@ -646,21 +538,9 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        7
             }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
+        ~
 
     }                                                                          %! faberge_bcl_color_fingering_rhythm
 
@@ -669,6 +549,9 @@ M_Clarinet_Music_Voice = {                                                     %
 
         % [M Clarinet_Music_Voice measure 267 / measure 4]                     %! _comment_measure_numbers
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        [                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak self-alignment-X #0
@@ -678,9 +561,124 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        5
+                        1
+            }
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        7
+            }
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        1
+            }
+        ]                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        2
+            }
+
+        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        1
+            }
+        \breathe                                                               %! baca_breathe:IndicatorCommand
+
+    }                                                                          %! faberge_bcl_color_fingering_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
+    \times 6/7 {                                                               %! faberge_bcl_color_fingering_rhythm
+
+        % [M Clarinet_Music_Voice measure 268 / measure 5]                     %! _comment_measure_numbers
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        2
             }
         [                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        3
+            }
+        ]                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        2
+            }
+
+        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        3
+            }
 
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
@@ -695,33 +693,6 @@ M_Clarinet_Music_Voice = {                                                     %
                         4
             }
 
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        5
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        6
-            }
-
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
@@ -732,7 +703,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        5
+                        3
             }
 
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
@@ -745,7 +716,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        6
+                        4
             }
         [                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -759,56 +730,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        7
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
-        \breathe                                                               %! baca_breathe:IndicatorCommand
-
-    }                                                                          %! faberge_bcl_color_fingering_rhythm
-
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
-    \times 6/7 {                                                               %! faberge_bcl_color_fingering_rhythm
-
-        % [M Clarinet_Music_Voice measure 268 / measure 5]                     %! _comment_measure_numbers
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        6
-            }
-
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
+                        5
             }
 
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
@@ -821,51 +743,8 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        1
+                        4
             }
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        7
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        1
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
-        ~
         ]                                                                      %! faberge_bcl_color_fingering_rhythm
 
     }                                                                          %! faberge_bcl_color_fingering_rhythm
@@ -875,8 +754,120 @@ M_Clarinet_Music_Voice = {                                                     %
 
         % [M Clarinet_Music_Voice measure 269 / measure 6]                     %! _comment_measure_numbers
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        5
+            }
+
+        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        6
+            }
 
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        5
+            }
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        6
+            }
+        [                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        7
+            }
+        ]                                                                      %! faberge_bcl_color_fingering_rhythm
+
+        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        6
+            }
+
+    }                                                                          %! faberge_bcl_color_fingering_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
+    \times 6/7 {                                                               %! faberge_bcl_color_fingering_rhythm
+
+        % [M Clarinet_Music_Voice measure 270 / measure 7]                     %! _comment_measure_numbers
+        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        7
+            }
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+
+        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        7
+            }
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak self-alignment-X #0
@@ -888,19 +879,6 @@ M_Clarinet_Music_Voice = {                                                     %
                     \finger
                         1
             }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        2
-            }
         [                                                                      %! faberge_bcl_color_fingering_rhythm
 
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
@@ -913,7 +891,22 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        7
+            }
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #3.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        1
             }
         ]                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -930,7 +923,7 @@ M_Clarinet_Music_Voice = {                                                     %
                         2
             }
 
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
+        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak self-alignment-X #0
@@ -940,125 +933,9 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        1
             }
         ~
-
-    }                                                                          %! faberge_bcl_color_fingering_rhythm
-
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
-    \times 6/7 {                                                               %! faberge_bcl_color_fingering_rhythm
-
-        % [M Clarinet_Music_Voice measure 270 / measure 7]                     %! _comment_measure_numbers
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        3
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        5
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        4
-            }
-
-        e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        5
-            }
-        ]                                                                      %! faberge_bcl_color_fingering_rhythm
-
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        6
-            }
-
-        e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #3.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
-                        5
-            }
         \breathe                                                               %! baca_breathe:IndicatorCommand
 
     }                                                                          %! faberge_bcl_color_fingering_rhythm
@@ -1067,6 +944,8 @@ M_Clarinet_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! faberge_bcl_color_fingering_rhythm
 
         % [M Clarinet_Music_Voice measure 271 / measure 8]                     %! _comment_measure_numbers
+        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
+
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
@@ -1077,7 +956,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        6
+                        2
             }
         [                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -1091,7 +970,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        7
+                        3
             }
         ]                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -1105,7 +984,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        6
+                        2
             }
 
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
@@ -1118,12 +997,10 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        7
+                        3
             }
 
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
-
-        e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak self-alignment-X #0
@@ -1133,7 +1010,7 @@ M_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        7
+                        4
             }
 
     }                                                                          %! faberge_bcl_color_fingering_rhythm
@@ -1379,46 +1256,87 @@ M_Piano_LH_Music_Staff = <<                                                    %
 
 M_Percussion_Music_Voice = {                                                   %! extern
 
-    % [M Percussion_Music_Voice measure 264 / measure 1]                       %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 3/4                                                                   %! _call_rhythm_commands
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-mf                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Percussion_Music_Voice measure 264 / measure 1]               %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-perc-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.line-count = 1                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \baca-effort-mf                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Perc.”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“Percussion”)"                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-perc-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Percussion_Rest_Voice measure 264 / measure 1]                %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [M Percussion_Music_Voice measure 265 / measure 2]                       %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [M Percussion_Music_Voice measure 266 / measure 3]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    b'1                                                                        %! baca_make_repeat_tied_notes
+    - \tweak bound-details.right.padding #2.25                                 %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [M Percussion_Music_Voice measure 267 / measure 4]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    b'1                                                                        %! baca_make_repeat_tied_notes
+    - \tweak direction #up
+    \repeatTie
 
-    % [M Percussion_Music_Voice measure 268 / measure 5]                       %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Percussion_Music_Voice measure 268 / measure 5]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Percussion_Rest_Voice measure 268 / measure 5]                %! _comment_measure_numbers
+            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [M Percussion_Music_Voice measure 269 / measure 6]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [M Percussion_Music_Voice measure 270 / measure 7]                       %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [M Percussion_Music_Voice measure 271 / measure 8]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1551,35 +1469,73 @@ M_Viola_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 3/4                                                                   %! _call_rhythm_commands
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'4.                                                                       %! faberge_airtone_chain_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-va-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [M Viola_Music_Voice measure 265 / measure 2]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    r4.                                                                        %! faberge_airtone_chain_rhythm
 
-    % [M Viola_Music_Voice measure 266 / measure 3]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    % [M Viola_Music_Voice measure 265 / measure 2]                            %! _comment_measure_numbers
+    r2                                                                         %! faberge_airtone_chain_rhythm
+
+    r8
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \repeatTie
+
+    r4                                                                         %! faberge_airtone_chain_rhythm
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Viola_Music_Voice measure 266 / measure 3]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [M Viola_Rest_Voice measure 266 / measure 3]                     %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [M Viola_Music_Voice measure 267 / measure 4]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [M Viola_Music_Voice measure 268 / measure 5]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [M Viola_Music_Voice measure 269 / measure 6]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [M Viola_Music_Voice measure 270 / measure 7]                            %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [M Viola_Music_Voice measure 271 / measure 8]                            %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

@@ -168,7 +168,7 @@ maker(
     baca.staccato(
         selector=baca.pheads(),
         ),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     )
 
 # va

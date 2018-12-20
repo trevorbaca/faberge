@@ -2,12 +2,12 @@ import baca
 from abjadext import rmakers
 
 
-def clb_pitches(
+def clb_staff_positions(
     *,
     rotation=None,
     ):
     """
-    Makes clb pitches.
+    Makes clb staff positions.
     """
 
     staff_positions = [
@@ -25,4 +25,8 @@ def clb_pitches(
     staff_positions = baca.sequence(staff_positions)
     staff_positions = staff_positions.rotate(n=rotation)
     staff_positions = staff_positions.flatten()
-    return baca.staff_positions(staff_positions, allow_repeats=True)
+
+    return baca.staff_positions(
+        staff_positions,
+        allow_repeats=True,
+        )

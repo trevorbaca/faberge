@@ -50,14 +50,38 @@ maker(
 # fl
 
 maker(
+    ('fl', (1, 2)),
+    faberge.airtone_chain_rhythm(20, [2, 6, 10, 14, 18]),
+    )
+
+maker(
     ('fl', 5),
     baca.instrument(faberge.instruments['Flute']),
+    )
+
+# fl, eh, cl, va
+
+maker(
+    (['fl', 'eh', 'cl', 'va'], (1, 2)),
+    baca.new(
+        baca.dynamic('"f"'),
+        map=baca.plts().filter_length('==', 1),
+        ),
+    baca.hairpin(
+        'o<| "f"',
+        map=baca.plts().filter_length('>', 1),
+        ),
     )
 
 # cl
 
 maker(
-    'cl',
+    ('cl', (1, 2)),
+    faberge.airtone_chain_rhythm(20, [3, 7, 11, 15, 19]),
+    )
+
+maker(
+    ('cl', (3, 8)),
     baca.pitch('D3'),
     faberge.bcl_color_fingering_rhythm(),
     faberge.bcl_color_fingerings(
@@ -70,17 +94,41 @@ maker(
     )
 
 maker(
-    ('cl', [2, 4, 7]),
+    ('cl', [4, 7]),
     baca.breathe(),
     )
 
 # eh
 
 maker(
-    ('eh', (1, 4)),
+    ('eh', (1, 2)),
+    faberge.airtone_chain_rhythm(20, [1, 5, 9, 13, 17]),
+    )
+
+maker(
+    ('eh', (3, 4)),
     baca.make_repeat_tied_notes(),
     baca.trill_spanner(
         None,
         abjad.tweak(2.25).bound_details__right__padding,
         ),
+    )
+
+# perc
+
+maker(
+    ('perc', (3, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.staff_position(0),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2.25).bound_details__right__padding,
+        ),
+    )
+
+# va
+
+maker(
+    ('va', (1, 2)),
+    faberge.airtone_chain_rhythm(20, [0, 4, 8, 12, 16]),
     )

@@ -146,7 +146,7 @@ maker(
 
 maker(
     ('vn', (5, 7)),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         extra_counts=[2, 1],
         fuse_counts=[2, 1],
@@ -198,7 +198,7 @@ maker(
 
 maker(
     ('va', (6, 7)),
-    faberge.clb_pitches(rotation=-4),
+    faberge.clb_staff_positions(rotation=-4),
     faberge.clb_rhythm(
         extra_counts=[2],
         fuse_counts=[2],
