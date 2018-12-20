@@ -205,16 +205,6 @@ maker(
     )
 
 maker(
-    ('vn', [6, (8, 10)]),
-    baca.quadruple_staccato(
-        selector=baca.plts()[abjad.index([0], 2)],
-        ),
-    baca.stem_tremolo(
-        selector=baca.plts()[abjad.index([1], 2)],
-        ),
-    )
-
-maker(
     ('vn', 8),
     baca.rhythm(
         r"\times 9/5 { c'2 c'2. }",
@@ -238,6 +228,18 @@ maker(
         ),
     )
 
+# vn, va
+
+maker(
+    (['vn', 'va'], [6, (8, 10)]),
+    baca.quadruple_staccato(
+        selector=baca.plts().filter_duration('==', (1, 2), preprolated=True),
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts().filter_duration('==', (3, 4), preprolated=True),
+        ),
+    )
+
 # va
 
 maker(
@@ -256,16 +258,6 @@ maker(
         annotate_unpitched_music=True,
         ),
     baca.staff_lines(5),
-    )
-
-maker(
-    ('va', [6, (8, 10)]),
-    baca.quadruple_staccato(
-        selector=baca.plts()[abjad.index([1], 2)],
-        ),
-    baca.stem_tremolo(
-        selector=baca.plts()[abjad.index([0], 2)],
-        ),
     )
 
 maker(

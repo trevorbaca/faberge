@@ -886,7 +886,7 @@ I_Violin_Music_Voice = {                                                       %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
     }
 
@@ -1027,7 +1027,7 @@ I_Viola_Music_Voice = {                                                        %
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
     }
 

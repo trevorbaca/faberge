@@ -101,10 +101,10 @@ maker(
 maker(
     (['vn', 'va'], (1, 4)),
     baca.quadruple_staccato(
-        selector=baca.plts()[abjad.index([0], 2)],
+        selector=baca.plts().filter_duration('==', (1, 2), preprolated=True),
         ),
     baca.stem_tremolo(
-        selector=baca.plts()[abjad.index([1], 2)],
+        selector=baca.plts().filter_duration('==', (1, 1), preprolated=True)
         ),
     )
 
