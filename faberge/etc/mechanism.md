@@ -121,18 +121,18 @@ process 5 (100, 125, 156)
 
     [appearance + disappearance + material]
     5-1 (100@4)
-    piccolo fluttertongue appears incrementally
+    high flute appears incrementally
     [colored doubletrill castanets thin out]
     [bcl 9-way colorfinger variation persists]
 
     [state + disappearance]
     5-2 (100@4)
-    piccolo fluttertongue
+    high flute fluttertongue
     [bcl 9-way colorfinger variation fades out]
 
     [disappearance + appearance]
     5-3 (100:125@4)
-    piccolo fluttertongue thins out
+    high flute thins out
     tremolo electricity appears incrementally
 
     [state + appearance]

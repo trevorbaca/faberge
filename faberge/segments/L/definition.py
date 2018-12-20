@@ -171,6 +171,11 @@ maker(
     faberge.clb_staff_positions(),
     )
 
+maker(
+    (['vn', 'va', 'vc'], 7),
+    baca.staff_lines(5),
+    )
+
 # va
 
 maker(
