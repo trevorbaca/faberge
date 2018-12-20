@@ -71,7 +71,7 @@ maker(
     ('vn', (1, 4)),
     baca.markup('col legno battuto'),
     baca.staff_lines(1),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[2, 1, 1],
         ),
@@ -79,7 +79,7 @@ maker(
 
 maker(
     ('vn', (6, 9)),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[2, 1, 1],
         ),
@@ -117,7 +117,7 @@ maker(
     baca.stem_down(),
     baca.staff_lines(1),
     baca.tuplet_bracket_staff_padding(3.5),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[1, 2, 1],
         ),
@@ -129,7 +129,7 @@ maker(
     ('vc', (1, 4)),
     baca.markup('col legno battuto'),
     baca.staff_lines(1),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[1, 1, 2],
         ),
@@ -137,7 +137,7 @@ maker(
 
 maker(
     ('vc', (6, 9)),
-    faberge.clb_pitches(),
+    faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[1, 1, 2],
         ),
