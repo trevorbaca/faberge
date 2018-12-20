@@ -7,11 +7,14 @@ def clb_rhythm(
     *,
     extra_counts=None,
     fuse_counts=None,
+    rotation=None,
     ):
     """
     Makes clb rhythm.
     """
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
+    extra_counts = baca.sequence(extra_counts)
+    extra_counts = extra_counts.rotate(n=rotation)
 
     expression = None
     if fuse_counts is not None:
