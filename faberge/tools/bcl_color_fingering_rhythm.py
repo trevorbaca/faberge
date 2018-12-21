@@ -4,17 +4,22 @@ from abjadext import rmakers
 
 def bcl_color_fingering_rhythm(
     *,
+    ltmask=None,
     rotation=None,
     ):
     """
     Makes bass clarinet colorfinger rhythm.
     """
 
+    if ltmask is not None:
+        ltmask = [ltmask]
+
     counts = baca.sequence([1, 1, 2, 3, 1, 3, 1, 1, 1, 1, 2, 3])
     counts = counts.rotate(n=rotation)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2],
+        logical_tie_masks=ltmask,
         tag='faberge_bcl_color_fingering_rhythm',
         talea=rmakers.Talea(
             counts=counts,
