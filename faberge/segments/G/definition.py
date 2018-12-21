@@ -36,6 +36,10 @@ maker(
         '156',
         selector=baca.skip(1 - 1),
         ),
+    baca.metronome_mark(
+        '4=5:4(4)',
+        selector=baca.skip(1 - 1),
+        ),
     baca.rehearsal_mark(
         'G',
         abjad.tweak((0, 18)).extra_offset,
@@ -57,9 +61,31 @@ maker(
 # fl, eh, cl
 
 maker(
+    (['fl', 'eh', 'cl'], 4),
+    baca.dynamic('p'),
+    )
+
+maker(
     (['fl', 'eh', 'cl'], [4, 5]),
     baca.breathe(),
-    baca.make_repeat_tied_notes()
+    baca.make_repeat_tied_notes(),
+    )
+
+# eh
+
+maker(
+    ('eh', (4, 5)),
+    baca.markup(
+        'airtone',
+        abjad.tweak(2.5).padding,
+        boxed=True,
+        ),
+    baca.staff_lines(1),
+    baca.staff_lines(
+        5,
+        selector=baca.leaves().rleak()[-1],
+        ),
+    baca.staff_position(0),
     )
 
 # pf
@@ -188,6 +214,11 @@ maker(
 
 maker(
     ('perc', (4, 5)),
+    baca.markup(
+        'BD (sponge)',
+        abjad.tweak(2.5).padding,
+        boxed=True,
+        ),
     faberge.airtone_chain_rhythm(6, [2, 5]),
     )
 
@@ -303,21 +334,13 @@ maker(
 # va
 
 maker(
-    ('va', (3, 5)),
+    ('va', (3, 6)),
     baca.bow_speed_spanner(
         'XFB =|',
         abjad.tweak(3.5).staff_padding,
         ),
     baca.make_repeat_tied_notes(),
     baca.staff_lines(5),
-    )
-
-maker(
-    ('va', 6),
-    baca.rhythm(
-        r"\times 6/5 { c'2. c'2 }",
-        annotate_unpitched_music=True,
-        ),
     )
 
 maker(
