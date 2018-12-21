@@ -26,6 +26,10 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.metronome_mark(
+        '4=4:5(4)',
+        selector=baca.skip(1 - 1),
+        ),
+    baca.metronome_mark(
         '41',
         selector=baca.skip(1 - 1),
         ),
@@ -45,27 +49,77 @@ maker(
 
 # fl
 
+# fl, eh, cl 
+
 maker(
-    ('fl', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [2, 6]),
+    (['fl', 'eh', 'cl'], [2, 4, 5, 8]),
+    baca.breathe(),
+    baca.make_notes(),
     )
 
 # eh
 
-maker(
-    ('eh', (1, 4)),
-    faberge.airtone_chain_rhythm(
-        10,
-        [1, 5, 9],
-        prolong_last_count=True,
-        ),
-    )
-
 # cl
 
+# perc
+
 maker(
-    ('cl', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [3, 7]),
+    ('perc', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [2, 6]),
+    )
+
+#maker(
+#    ('perc', (1, 8)),
+#    baca.chunk(
+#        baca.dynamic(
+#            'niente',
+#            selector=baca.leaves().rleak()[-1],
+#            ),
+#        baca.hairpin(
+#            'o< p >o',
+#            pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
+#            selector=baca.leaves(),
+#            ),
+#        ),
+#    baca.markup(
+#        'marimba',
+#        boxed=True,
+#        ),
+#    baca.new(
+#        baca.repeat_tie_to(),
+#        map=baca.pleaves()[abjad.index([1], 2)],
+#        ),
+#    baca.stem_tremolo(
+#        selector=baca.pleaves(),
+#        ),
+#    faberge.halves_rhythm(),
+#    )
+
+# perc, vn, va, vc
+
+maker(
+    (['perc', 'vn', 'va', 'vc'], (1, 4)),
+    baca.dynamic(
+        '"f"',
+        map=baca.plts().filter_length('==', 1),
+        ),
+    baca.hairpin(
+        'o<| "f"',
+        map=baca.plts().filter_length('>', 1),
+        ),
+    baca.staff_lines(1),
+    baca.staff_lines(
+        5,
+        selector=baca.leaves().rleak()[-1],
+        ),
+    baca.staff_position(0),
+    )
+
+# vn
+
+maker(
+    ('vn', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [1, 5, 9]),
     )
 
 # va
@@ -74,3 +128,30 @@ maker(
     ('va', (1, 4)),
     faberge.airtone_chain_rhythm(10, [0, 4, 8]),
     )
+
+# vc
+
+maker(
+    ('vc', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [3, 7]),
+    )
+
+#maker(
+#    ('vc', (1, 8)),
+#    baca.chunk(
+#        baca.dynamic(
+#            'niente',
+#            selector=baca.leaves().rleak()[-1],
+#            ),
+#        baca.hairpin(
+#            'o< mp >o',
+#            pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
+#            selector=baca.leaves(),
+#            ),
+#        ),
+#    baca.new(
+#        baca.repeat_tie_to(),
+#        map=baca.pleaves()[abjad.index([1], 2)],
+#        ),
+#    faberge.halves_rhythm(),
+#    )

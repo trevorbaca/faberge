@@ -117,7 +117,6 @@ maker(
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2))
         ),
-    baca.staff_lines(5),
     )
 
 # va
@@ -125,7 +124,6 @@ maker(
 maker(
     'va',
     baca.clef('alto'),
-    baca.staff_lines(5),
     )
 
 # vc
@@ -135,5 +133,4 @@ maker(
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2))
         ),
-    baca.staff_lines(5),
     )

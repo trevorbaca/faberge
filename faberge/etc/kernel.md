@@ -64,7 +64,7 @@ KERNEL
     vc: lowregister pedal
     ===
     jewelers' desk (γ) bfl glow, bcl glow, marimba pedal, vc pedal.
-    jewelers' desk (γ) vn / va quite pochiss. scratch pedal.
+    jewelers' desk (γ) vn / va quiet pochiss. scratch pedal.
     papers (ε) va airtone.
 
     picc: piccolo tongueram
