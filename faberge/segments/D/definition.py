@@ -68,33 +68,6 @@ maker(
     faberge.airtone_chain_rhythm(10, [2, 6]),
     )
 
-#maker(
-#    ('perc', (1, 8)),
-#    baca.chunk(
-#        baca.dynamic(
-#            'niente',
-#            selector=baca.leaves().rleak()[-1],
-#            ),
-#        baca.hairpin(
-#            'o< p >o',
-#            pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
-#            selector=baca.leaves(),
-#            ),
-#        ),
-#    baca.markup(
-#        'marimba',
-#        boxed=True,
-#        ),
-#    baca.new(
-#        baca.repeat_tie_to(),
-#        map=baca.pleaves()[abjad.index([1], 2)],
-#        ),
-#    baca.stem_tremolo(
-#        selector=baca.pleaves(),
-#        ),
-#    faberge.halves_rhythm(),
-#    )
-
 # perc, vn, va, vc
 
 maker(
@@ -135,23 +108,3 @@ maker(
     ('vc', (1, 4)),
     faberge.airtone_chain_rhythm(10, [3, 7]),
     )
-
-#maker(
-#    ('vc', (1, 8)),
-#    baca.chunk(
-#        baca.dynamic(
-#            'niente',
-#            selector=baca.leaves().rleak()[-1],
-#            ),
-#        baca.hairpin(
-#            'o< mp >o',
-#            pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
-#            selector=baca.leaves(),
-#            ),
-#        ),
-#    baca.new(
-#        baca.repeat_tie_to(),
-#        map=baca.pleaves()[abjad.index([1], 2)],
-#        ),
-#    faberge.halves_rhythm(),
-#    )

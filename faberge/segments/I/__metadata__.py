@@ -380,7 +380,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\baca-effort-f',
                                 ),
                             ],
                         ),
