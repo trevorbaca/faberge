@@ -233,123 +233,126 @@ K_Global_Skips = {                                                             %
 
 K_Flute_Music_Voice = {                                                        %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 10/12 {                                                             %! faberge_even_tuplet_rhythm
+    <<                                                                         %! _make_multimeasure_rest_container
 
-        % [K Flute_Music_Voice measure 247 / measure 1]                        %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \faberge-fl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        ^ \baca-reapplied-indicator-markup "[“Fl.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        ^ \baca-reapplied-indicator-markup "(“BassFlute”)"                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [                                                                      %! faberge_even_tuplet_rhythm
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \faberge-fl-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+        \context Voice = "Flute_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+            % [K Flute_Music_Voice measure 247 / measure 1]                    %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-fl-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            c'1 * 5/4                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Fl.”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“BassFlute”)"                 %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-fl-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        \context Voice = "Flute_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+            % [K Flute_Rest_Voice measure 247 / measure 1]                     %! _comment_measure_numbers
+            R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        ]                                                                      %! faberge_even_tuplet_rhythm
-
-    }                                                                          %! faberge_even_tuplet_rhythm
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 8/6 {                                                               %! faberge_even_tuplet_rhythm
+    \times 8/10 {                                                              %! faberge_even_tuplet_rhythm
 
         % [K Flute_Music_Voice measure 248 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         [                                                                      %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ]                                                                      %! faberge_even_tuplet_rhythm
 
     }                                                                          %! faberge_even_tuplet_rhythm
 
-    % [K Flute_Music_Voice measure 249 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_even_tuplet_rhythm
-    [                                                                          %! faberge_even_tuplet_rhythm
+    <<                                                                         %! _make_multimeasure_rest_container
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_even_tuplet_rhythm
+        \context Voice = "Flute_Music_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_even_tuplet_rhythm
+            % [K Flute_Music_Voice measure 249 / measure 3]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_even_tuplet_rhythm
+        \context Voice = "Flute_Rest_Voice"                                    %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_even_tuplet_rhythm
-    ]                                                                          %! faberge_even_tuplet_rhythm
+            % [K Flute_Rest_Voice measure 249 / measure 3]                     %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Flute_Music_Voice measure 250 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     [                                                                          %! faberge_even_tuplet_rhythm
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ]                                                                          %! faberge_even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -507,137 +510,124 @@ K_English_Horn_Music_Staff = {                                                 %
 
 K_Clarinet_Music_Voice = {                                                     %! extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 10/8 {                                                              %! faberge_even_tuplet_rhythm
+    <<                                                                         %! _make_multimeasure_rest_container
 
-        % [K Clarinet_Music_Voice measure 247 / measure 1]                     %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        ^ \baca-reapplied-indicator-markup "[“Cl.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        [                                                                      %! faberge_even_tuplet_rhythm
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+        \context Voice = "Clarinet_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+            % [K Clarinet_Music_Voice measure 247 / measure 1]                 %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-cl-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            c'1 * 5/4                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Cl.”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"              %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-cl-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        \context Voice = "Clarinet_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+            % [K Clarinet_Rest_Voice measure 247 / measure 1]                  %! _comment_measure_numbers
+            R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+    >>                                                                         %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        ]                                                                      %! faberge_even_tuplet_rhythm
+    % [K Clarinet_Music_Voice measure 248 / measure 2]                         %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    [                                                                          %! faberge_even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 8/10 {                                                              %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-        % [K Clarinet_Music_Voice measure 248 / measure 2]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        [                                                                      %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    ]                                                                          %! faberge_even_tuplet_rhythm
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+    <<                                                                         %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        \context Voice = "Clarinet_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+            % [K Clarinet_Music_Voice measure 249 / measure 3]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        ]                                                                      %! faberge_even_tuplet_rhythm
+        \context Voice = "Clarinet_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
 
-    }                                                                          %! faberge_even_tuplet_rhythm
+            % [K Clarinet_Rest_Voice measure 249 / measure 3]                  %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 6/7 {                                                               %! faberge_even_tuplet_rhythm
+        }                                                                      %! _make_multimeasure_rest_container
 
-        % [K Clarinet_Music_Voice measure 249 / measure 3]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        [                                                                      %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_even_tuplet_rhythm
-        ]                                                                      %! faberge_even_tuplet_rhythm
-
-    }                                                                          %! faberge_even_tuplet_rhythm
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 4/5 {                                                               %! faberge_even_tuplet_rhythm
+    \times 4/6 {                                                               %! faberge_even_tuplet_rhythm
 
         % [K Clarinet_Music_Voice measure 250 / measure 4]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         [                                                                      %! faberge_even_tuplet_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ]                                                                      %! faberge_even_tuplet_rhythm
 
     }                                                                          %! faberge_even_tuplet_rhythm
@@ -925,49 +915,121 @@ K_Piano_LH_Music_Staff = <<                                                    %
 
 K_Percussion_Music_Voice = {                                                   %! extern
 
-    % [K Percussion_Music_Voice measure 247 / measure 1]                       %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 5/4                                                                   %! _call_rhythm_commands
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Percussion_Music_Voice measure 247 / measure 1]               %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-perc-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.line-count = 1                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+            c'1 * 5/4                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \mf                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Perc.”]"                     %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“Percussion”)"                %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-perc-markup              %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Percussion_Rest_Voice measure 247 / measure 1]                %! _comment_measure_numbers
+            R1 * 5/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Percussion_Music_Voice measure 248 / measure 2]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    \override Stem.direction = #down                                           %! baca_stem_down:OverrideCommand(1)
+    a'4                                                                        %! faberge_downbeat_attack
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [K Percussion_Music_Voice measure 249 / measure 3]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    r2.
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Percussion_Music_Voice measure 249 / measure 3]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            a'1 * 3/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Percussion_Rest_Voice measure 249 / measure 3]                %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Percussion_Music_Voice measure 250 / measure 4]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    a'4                                                                        %! faberge_downbeat_attack
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \revert Stem.direction                                                     %! baca_stem_down:OverrideCommand(2)
 
-    % [K Percussion_Music_Voice measure 251 / measure 5]                       %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _call_rhythm_commands
+    r4
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Percussion_Music_Voice measure 251 / measure 5]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 9/4                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [K Percussion_Rest_Voice measure 251 / measure 5]                %! _comment_measure_numbers
+            R1 * 9/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Percussion_Music_Voice measure 252 / measure 6]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [K Percussion_Music_Voice measure 253 / measure 7]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _call_rhythm_commands
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [K Percussion_Music_Voice measure 254 / measure 8]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _call_rhythm_commands
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [K Percussion_Music_Voice measure 255 / measure 9]                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 1                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
