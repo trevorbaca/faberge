@@ -54,15 +54,51 @@ maker(
 # fl
 
 maker(
-    ('fl', (1, 4)),
-    faberge.even_tuplet_rhythm(8, [2, -2, 0, 0]),
+    ('fl', 2),
+    faberge.even_tuplet_rhythm(8, [2]),
+    )
+
+maker(
+    ('fl', 4),
+    faberge.even_tuplet_rhythm(8, [0]),
+    )
+
+# fl, cl
+
+maker(
+    (['fl', 'cl'], [2, 4]),
+    baca.espressivo(
+        selector=baca.pheads(),
+        ),
     )
 
 # cl
 
 maker(
-    ('cl', (1, 4)),
-    faberge.even_tuplet_rhythm(8, [-2, 2, 1, 1]),
+    ('cl', 2),
+    faberge.even_tuplet_rhythm(8, [0]),
+    )
+
+maker(
+    ('cl', 4),
+    faberge.even_tuplet_rhythm(8, [2]),
+    )
+
+# perc
+
+maker(
+    ('perc', [2, 4]),
+    baca.hairpin(
+        'o<| mf',
+        selector=baca.leaves()[:2],
+        ),
+    faberge.downbeat_attack(denominator=4),
+    )
+
+maker(
+    ('perc', (2, 4)),
+    baca.staff_position(-1),
+    baca.stem_down(),
     )
 
 # vn
