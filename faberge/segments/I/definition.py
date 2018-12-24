@@ -55,6 +55,21 @@ maker(
         ),
     )
 
+# fl
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
+# eh
+
+# cl
+
+# pf
+
 # perc
 
 maker(
@@ -112,15 +127,67 @@ maker(
         ),
     )
 
+maker(
+    ('vn', 6),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 7),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', 8),
+    baca.rhythm(
+        r"\times 5/4 { c'2 c'2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # vn, va
 
 maker(
-    (['vn', 'va'], (1, 4)),
+    (['vn', 'va'], [(1, 4), (6, 8)]),
     baca.quadruple_staccato(
         selector=baca.plts().filter_duration('==', (1, 2), preprolated=True),
         ),
     baca.stem_tremolo(
         selector=baca.plts().filter_duration('==', (1, 1), preprolated=True)
+        ),
+    )
+
+maker(
+    (['vn', 'va'], 6),
+    baca.hairpin(
+        'mp p >o',
+        bookend=False,
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    (['vn', 'va'], 7),
+    baca.hairpin(
+        'p pp >o niente',
+        bookend=False,
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    (['vn', 'va'], 8),
+    baca.hairpin(
+        'pp ppp',
+        pieces=baca.lparts([1, 1]),
         ),
     )
 
@@ -154,6 +221,30 @@ maker(
     ('va', 4),
     baca.rhythm(
         "{ c'2 c'2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 6),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 7),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', 8),
+    baca.rhythm(
+        r"\times 5/4 { c'2 c'2 }",
         annotate_unpitched_music=True,
         ),
     )
