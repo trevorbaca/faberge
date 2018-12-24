@@ -10,6 +10,7 @@ from .clb_staff_positions import clb_staff_positions
 from .dal_niente_hairpins import dal_niente_hairpins
 from .downbeat_attack import downbeat_attack
 from .eh_trill_rhythm import eh_trill_rhythm
+from .end_of_cell_attack import end_of_cell_attack
 from .even_tuplet_rhythm import even_tuplet_rhythm
 from .front_incised_divisions import front_incised_divisions
 from .glow_rhythm import glow_rhythm

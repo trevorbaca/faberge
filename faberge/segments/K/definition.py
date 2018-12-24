@@ -54,49 +54,103 @@ maker(
 # fl
 
 maker(
-    ('fl', 2),
+    ('fl', 1),
     faberge.even_tuplet_rhythm(8, [2]),
     )
 
 maker(
-    ('fl', 4),
+    ('fl', 3),
     faberge.even_tuplet_rhythm(8, [0]),
     )
 
 # fl, cl
 
 maker(
-    (['fl', 'cl'], [2, 4]),
+    ['fl', 'cl'],
+    baca.dls_staff_padding(7),
+    )
+
+maker(
+    (['fl', 'cl'], 1),
+    baca.hairpin(
+        'o< mp >o niente',
+        pieces=baca.leaves().partition_by_ratio((2, 3)),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    (['fl', 'cl'], [1, 3]),
     baca.espressivo(
         selector=baca.pheads(),
+        ),
+    )
+
+maker(
+    (['fl', 'cl'], 3),
+    baca.hairpin(
+        'o< p >o niente',
+        pieces=baca.leaves().partition_by_ratio((2, 3)),
+        selector=baca.leaves().rleak(),
         ),
     )
 
 # cl
 
 maker(
-    ('cl', 2),
+    ('cl', 1),
     faberge.even_tuplet_rhythm(8, [0]),
     )
 
 maker(
-    ('cl', 4),
+    ('cl', 3),
     faberge.even_tuplet_rhythm(8, [2]),
+    )
+
+# pf
+
+maker(
+    'rh',
+    baca.clef('bass'),
+    )
+
+maker(
+    ('rh', [2, 3, 4]),
+    baca.dynamic('f'),
+    baca.laissez_vibrer(
+        selector=baca.ptails(),
+        ),
+    baca.stopped(
+        selector=baca.pheads(),
+        ),
+    faberge.end_of_cell_attack(denominator=8),
     )
 
 # perc
 
 maker(
-    ('perc', [2, 4]),
+    ('perc', 1),
     baca.hairpin(
-        'o<| mf',
+        'o<| mp',
         selector=baca.leaves()[:2],
         ),
+    )
+
+maker(
+    ('perc', [1, 3]),
     faberge.downbeat_attack(denominator=4),
     )
 
 maker(
-    ('perc', (2, 4)),
+    ('perc', 3),
+    baca.hairpin(
+        'o<| p',
+        selector=baca.leaves()[:2],
+        ),
+    )
+
+maker(
+    ('perc', (1, 3)),
     baca.staff_position(-1),
     baca.stem_down(),
     )
@@ -122,6 +176,19 @@ maker(
     )
 
 # vn, vc
+
+maker(
+    ['vn', 'vc'],
+    baca.dls_staff_padding(10),
+    )
+
+maker(
+    (['vn', 'vc'], 1),
+    baca.hairpin(
+        '"pp" < mp',
+        selector=baca.leaves().rleak(),
+        ),
+    )
 
 maker(
     (['vn', 'vc'], [(1, 4), (6, 9)]),
