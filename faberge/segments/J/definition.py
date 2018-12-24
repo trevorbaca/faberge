@@ -102,15 +102,15 @@ maker(
 # eh
 
 maker(
-    ('eh', (1, 2)),
+    ('eh', 3),
     baca.rhythm(
-        r"{ r2. \times 4/5 { c'4 c'4 c'4 c'4 c'4 } }",
+        "{ c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 }",
         annotate_unpitched_music=True,
         )
     )
 
 maker(
-    ('eh', (1, 4)),
+    ('eh', (3, 4)),
     baca.new(
         baca.trill_spanner(
             None,
@@ -120,14 +120,6 @@ maker(
         map=baca.plts(),
         ),
     baca.trill_spanner_staff_padding(6),
-    )
-
-maker(
-    ('eh', 3),
-    baca.rhythm(
-        "{ c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
-        )
     )
 
 maker(
@@ -181,20 +173,17 @@ maker(
 # perc
 
 maker(
-    ('perc', (1, 2)),
-    baca.rhythm(
-        r"{ c'4 c'4 c'4 \times 4/5 { c'4 c'4 c'4 c'4 c'4 } }",
-        annotate_unpitched_music=True,
-        )
+    ('perc', 1),
+    faberge.even_tuplet_rhythm(4, [0]),
+    baca.staff_position(0),
     )
 
 maker(
-    ('perc', (1, 4)),
+    ('perc', (3, 4)),
     baca.markup(
         'castanets',
         abjad.tweak(11.5).staff_padding,
         boxed=True,
-        selector=baca.pleaf(3),
         ),
     baca.new(
         baca.trill_spanner(
@@ -202,16 +191,9 @@ maker(
             abjad.tweak(2.25).bound_details__right__padding,
             selector=baca.leaves().rleak(),
             ),
-        map=baca.plts()[3:],
+        map=baca.plts(),
         ),
-    baca.staff_position(
-        0,
-        selector=baca.leaves()[:3],
-        ),
-    baca.staff_position(
-        1,
-        selector=baca.leaves()[3:],
-        ),
+    baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner_staff_padding(8),
     )
