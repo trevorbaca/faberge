@@ -157,7 +157,7 @@
         \override BreathingSign.X-extent = ##f
         \override BreathingSign.extra-offset = #'(-1.5 . 0)
 
-        \override DynamicLineSpanner.padding = #3
+        %\override DynamicLineSpanner.padding = #3
 
         % leave dynamic alignment set to center in this score
         %\override DynamicText.self-alignment-X = #left
