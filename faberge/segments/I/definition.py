@@ -38,7 +38,15 @@ maker(
         selector=baca.skip(5 - 1),
         ),
     baca.metronome_mark(
+        '4=4:5(4)',
+        selector=baca.skip(5 - 1),
+        ),
+    baca.metronome_mark(
         '125',
+        selector=baca.skip(6 - 1),
+        ),
+    baca.metronome_mark(
+        '4=4:5(4)',
         selector=baca.skip(6 - 1),
         ),
     baca.rehearsal_mark(
@@ -60,6 +68,14 @@ maker(
 maker(
     ('perc', 5),
     baca.staff_lines(5),
+    )
+
+maker(
+    ('perc', 8),
+    baca.bar_extent((-2, 2)),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    faberge.even_tuplet_rhythm(4, [-1]),
     )
 
 # vn
