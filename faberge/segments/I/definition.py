@@ -25,10 +25,10 @@ maker = baca.SegmentMaker(
     time_signatures=[
         (6, 4), (6, 4), (6, 4), (4, 4),
         (9, 4),
-        (6, 4), (5, 4), (5, 4), (5, 4),
+        (6, 4), (6, 4), (5, 4),
         ],
     transpose_score=False,
-    validate_measure_count=9,
+    validate_measure_count=8,
     )
 
 maker(
