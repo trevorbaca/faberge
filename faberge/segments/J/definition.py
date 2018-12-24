@@ -181,14 +181,9 @@ maker(
 # perc
 
 maker(
-    'perc',
-    baca.staff_lines(1),
-    )
-
-maker(
     ('perc', (1, 2)),
     baca.rhythm(
-        r"{ r2. \times 4/5 { c'4 c'4 c'4 c'4 c'4 } }",
+        r"{ c'4 c'4 c'4 \times 4/5 { c'4 c'4 c'4 c'4 c'4 } }",
         annotate_unpitched_music=True,
         )
     )
@@ -199,6 +194,7 @@ maker(
         'castanets',
         abjad.tweak(11.5).staff_padding,
         boxed=True,
+        selector=baca.pleaf(3),
         ),
     baca.new(
         baca.trill_spanner(
@@ -206,9 +202,16 @@ maker(
             abjad.tweak(2.25).bound_details__right__padding,
             selector=baca.leaves().rleak(),
             ),
-        map=baca.plts(),
+        map=baca.plts()[3:],
         ),
-    baca.staff_position(1),
+    baca.staff_position(
+        0,
+        selector=baca.leaves()[:3],
+        ),
+    baca.staff_position(
+        1,
+        selector=baca.leaves()[3:],
+        ),
     baca.stem_up(),
     baca.trill_spanner_staff_padding(8),
     )
