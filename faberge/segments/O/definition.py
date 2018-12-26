@@ -10,7 +10,7 @@ import os
 
 stage_markup = (
     ('[5-4]', 1),
-    ('[4-5]', 5),
+    ('[5-5]', 5),
     )
 
 maker = baca.SegmentMaker(
@@ -36,130 +36,125 @@ maker(
         '156',
         selector=baca.skip(1 - 1),
         ),
+    baca.metronome_mark(
+        '4=5:4(4)',
+        selector=baca.skip(1 - 1),
+        ),
     baca.rehearsal_mark(
         'O',
         abjad.tweak((0, 18)).extra_offset,
         ),
     )
 
-# fl
+# fl, eh, cl, pf, perc
 
 maker(
-    ('fl', (5, 8)),
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
+    ['fl', 'eh', 'cl', 'rh', 'perc'],
+    baca.dls_staff_padding(7),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    )
+
+maker(
+    (['fl', 'eh', 'cl', 'rh', 'perc'], (1, 4)),
+    baca.dynamic('ff'),
     baca.make_repeat_tied_notes(),
+    )
+
+maker(
+    (['fl', 'eh', 'cl', 'rh', 'perc'], (1, 5)),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.pleaves(),
         ),
     )
 
-# eh
-
 maker(
-    ('eh', (4, 8)),
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pheads(),
-        ),
-    )
-
-# cl
-
-maker(
-    ('cl', (3, 8)),
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pheads(),
-        ),
-    )
-
-# pf
-
-maker(
-    ('rh', (2, 8)),
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pheads(),
-        ),
-    )
-
-# perc
-
-maker(
-    'perc',
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pheads(),
-        ),
+    (['fl', 'eh', 'cl', 'rh', 'perc'], 5),
+    baca.repeat_tie_to(),
+    faberge.downbeat_attack()
     )
 
 # vn
 
 maker(
     'vn',
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    )
+
+maker(
+    ('vn', (1, 7)),
+    baca.tuplet_bracket_staff_padding(1.5),
+    faberge.halves_rhythm(
+        tuplet_ratios=[(2, 3)],
+        ),
+    )
+
+maker(
+    ('vn', 8),
+    baca.make_notes(),
+    )
+
+# vn, va, vc
+
+maker(
+    ['vn', 'va', 'vc'],
+    baca.accent(
         selector=baca.pheads(),
         ),
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    (['vn', 'va', 'vc'], 1),
+    baca.dynamic('ff'),
+    )
+
+maker(
+    (['vn', 'va', 'vc'], 5),
+    baca.dynamic('pp'),
     )
 
 # va
 
 maker(
     'va',
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.pleaves(),
         ),
+    )
+
+maker(
+    ('va', (1, 7)),
+    baca.tuplet_bracket_staff_padding(1.5),
+    faberge.halves_rhythm(
+        tuplet_ratios=[(2, 1)],
+        ),
+    )
+
+maker(
+    ('va', 8),
+    baca.make_notes(),
     )
 
 # vc
 
 maker(
     'vc',
-    baca.flat_glissando(
-        'C4',
-        abjad.tweak('blue').color,
-        hide_middle_stems=True,
-        ),
-    baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pheads(),
+        selector=baca.pleaves(),
         ),
+    )
+
+maker(
+    ('vc', (1, 7)),
+    faberge.halves_rhythm(),
+    )
+
+maker(
+    ('vc', 8),
+    baca.make_notes(),
     )
 
 maker(
