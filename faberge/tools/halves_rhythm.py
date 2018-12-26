@@ -3,16 +3,20 @@ import baca
 from abjadext import rmakers
 
 
-def halves_rhythm():
+def halves_rhythm(
+    *,
+    tuplet_ratios=[(1, 1)],
+    ):
     """
     Makes halves rhythm.
     """
 
     rhythm_maker = rmakers.TupletRhythmMaker(
         tag='faberge_halves_rhythm',
-        tuplet_ratios=[(1, 1)],
+        tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True,
+            force_fraction=True,
             rewrite_rest_filled=True,
             trivialize=True,
             ),
