@@ -36,7 +36,15 @@ maker(
         selector=baca.skip(1 - 1),
         ),
     baca.metronome_mark(
+        '4=5:4(4)',
+        selector=baca.skip(1 - 1),
+        ),
+    baca.metronome_mark(
         '125',
+        selector=baca.skip(5 - 1),
+        ),
+    baca.metronome_mark(
+        '4=5:4(4)',
         selector=baca.skip(5 - 1),
         ),
     baca.rehearsal_mark(
@@ -60,6 +68,43 @@ maker(
     )
 
 # fl, cl
+
+maker(
+    (['fl', 'cl'], 2),
+    baca.hairpin(
+        'o< p >o pp > ppp',
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    )
+
+maker(
+    (['fl', 'cl'], [2, 4]),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.pleaf(2),
+        ),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.pleaf(-1),
+        ),
+    baca.glissando(
+        allow_repeats=True,
+        selector=baca.pleaves()[-2:], 
+        ),
+    baca.trill_spanner(
+        None,
+        selector=baca.leaves()[:3],
+        ),
+    faberge.suffixed_colortrill_rhythm(),
+    )
+
+maker(
+    (['fl', 'cl'], 4),
+    baca.hairpin(
+        'o< pp >o ppp > pppp',
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    )
 
 maker(
     (['fl', 'cl'], 5),
@@ -138,11 +183,64 @@ maker(
 # perc
 
 maker(
+    'perc',
+    baca.staff_lines(1),
+    )
+
+maker(
     ('perc', [3, 4]),
-    # downbeat attack
+    faberge.downbeat_attack(),
+    )
+
+maker(
+    ('perc', (3, 4)),
+    baca.markup(
+        'castanets',
+        abjad.tweak(11.5).staff_padding,
+        boxed=True,
+        ),
+    baca.new(
+        baca.trill_spanner(
+            None,
+            abjad.tweak(2.25).bound_details__right__padding,
+            selector=baca.leaves().rleak(),
+            ),
+        map=baca.plts(),
+        ),
+    baca.staff_position(1),
+    baca.stem_up(),
+    baca.trill_spanner_staff_padding(8),
+    )
+
+maker(
+    ('perc', 5),
+    baca.hairpin(
+        'o<| mf',
+        selector=baca.leaves()[:2],
+        ),
+    faberge.downbeat_attack(denominator=2),
+    )
+
+maker(
+    ('perc', 5),
+    baca.markup(
+        'BD groan (superball)',
+        abjad.tweak(2).padding,
+        boxed=True,
+        ),
+    baca.staff_position(-1),
+    baca.stem_down(),
     )
 
 # vn
+
+maker(
+    ('vn', 3),
+    faberge.clb_staff_positions(),
+    faberge.clb_rhythm(
+        extra_counts=[3],
+        ),
+    )
 
 maker(
     ('vn', (5, 7)),
@@ -161,19 +259,32 @@ maker(
 # vn, va
 
 maker(
-    ([('vn', (5, 7)), ('va', (6, 7))]),
+    ([
+        ('vn', 3),
+        ('vn', (5, 7)),
+        ('va', 3),
+        ('va', (6, 7)),
+        ]),
     baca.damp_spanner(
         # unusual staff-padding because 1-line staff:
         abjad.tweak(7).staff_padding,
         ),
     baca.dynamic('p'),
-    baca.markup('col legno battuto'),
+    baca.markup(
+        'col legno battuto',
+        abjad.tweak(2.5).padding,
+        ),
     baca.staccato(
         selector=baca.pheads(),
         ),
     baca.staff_lines(1),
     baca.stem_down(),
     baca.tuplet_bracket_staff_padding(3.5),
+    )
+
+maker(
+    (['vn', 'va'], 4),
+    baca.staff_lines(5),
     )
 
 maker(
@@ -185,6 +296,14 @@ maker(
     )
 
 # va
+
+maker(
+    ('va', 3),
+    faberge.clb_staff_positions(),
+    faberge.clb_rhythm(
+        extra_counts=[2],
+        ),
+    )
 
 maker(
     ('va', 5),

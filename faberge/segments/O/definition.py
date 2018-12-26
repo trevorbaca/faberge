@@ -8,6 +8,11 @@ import os
 ##################################### [O] #####################################
 ###############################################################################
 
+stage_markup = (
+    ('[5-4]', 1),
+    ('[4-5]', 5),
+    )
+
 maker = baca.SegmentMaker(
     activate=[
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
@@ -16,6 +21,7 @@ maker = baca.SegmentMaker(
     final_segment=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=[
         (8, 4), (7, 4), (8, 4), (7, 4),
         (8, 4), (7, 4), (8, 4), (7, 4),

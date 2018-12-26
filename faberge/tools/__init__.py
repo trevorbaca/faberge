@@ -28,3 +28,4 @@ from .shell_exchange_rhythm import shell_exchange_rhythm
 from .single_taper import single_taper
 from .spazzolati_rhythm import spazzolati_rhythm
 from .successive_tapers_rhythm import successive_tapers_rhythm
+from .suffixed_colortrill_rhythm import suffixed_colortrill_rhythm
