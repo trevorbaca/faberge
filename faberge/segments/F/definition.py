@@ -2,6 +2,7 @@ import abjad
 import baca
 import faberge
 import os
+from abjadext import rmakers
 
 
 ###############################################################################
@@ -9,7 +10,7 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[2-2]', 1),
+    ('[2-2 + A.3]', 1),
     ('[2-3]', 5),
     )
 
@@ -235,6 +236,17 @@ maker(
 # vn
 
 maker(
+    ('vn', 1),
+    baca.dynamic('"f"'),
+    baca.markup('spazzolato'),
+    baca.pitch('E4'),
+    faberge.spazzolati_rhythm(
+        counts_rotation=0,
+        dmask=rmakers.silence([0, 1, 2], inverted=True),
+        ),
+    )
+
+maker(
     ('vn', 3),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
@@ -296,6 +308,19 @@ maker(
     )
 
 # va
+
+maker(
+    ('va', 1),
+    baca.dynamic('"f"'),
+    baca.markup('spazzolato'),
+    baca.pitch('E4'),
+    faberge.spazzolati_rhythm(
+        counts_rotation=-1,
+        extra_counts_per_division=[1],
+        denominator=8,
+        dmask=rmakers.silence([0, 1, 2], inverted=True),
+        ),
+    )
 
 maker(
     ('va', 3),

@@ -1,30 +1,30 @@
 N_Global_Rests = {                                                             %! extern
 
-    % [N Global_Rests measure 271 / measure 1]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 270 / measure 1]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [N Global_Rests measure 272 / measure 2]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 271 / measure 2]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [N Global_Rests measure 273 / measure 3]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 272 / measure 3]                                 %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
 
-    % [N Global_Rests measure 274 / measure 4]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 273 / measure 4]                                 %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_global_rests(1)
 
-    % [N Global_Rests measure 275 / measure 5]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 274 / measure 5]                                 %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_global_rests(1)
 
-    % [N Global_Rests measure 276 / measure 6]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 275 / measure 6]                                 %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_global_rests(1)
 
-    % [N Global_Rests measure 277 / measure 7]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 276 / measure 7]                                 %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _make_global_rests(1)
 
-    % [N Global_Rests measure 278 / measure 8]                                 %! _comment_measure_numbers
+    % [N Global_Rests measure 277 / measure 8]                                 %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_global_rests(1)
 
-    % [N Global_Rests measure 279 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    % [N Global_Rests measure 278 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
@@ -32,7 +32,7 @@ N_Global_Rests = {                                                             %
 
 N_Global_Skips = {                                                             %! extern
 
-    % [N Global_Skips measure 271 / measure 1]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 270 / measure 1]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
@@ -43,7 +43,7 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "271"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "270"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[5-2]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -53,10 +53,10 @@ N_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "100" #'green4      %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[11'35'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'33'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 272 / measure 2]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 271 / measure 2]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -68,12 +68,12 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "2"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "272"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "271"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'35'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'33'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 273 / measure 3]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 272 / measure 3]                                 %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/4                                                                   %! _make_global_skips(1)
@@ -85,12 +85,12 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "3"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "273"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "272"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'36'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'34'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 274 / measure 4]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 273 / measure 4]                                 %! _comment_measure_numbers
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
@@ -102,12 +102,12 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "4"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "274"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "273"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'36'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'34'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 275 / measure 5]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 274 / measure 5]                                 %! _comment_measure_numbers
     \time 5/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/4                                                                   %! _make_global_skips(1)
@@ -121,7 +121,7 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "5"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "275"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "274"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
     - \baca-start-snm-left-only "[5-3]"                                        %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
@@ -327,10 +327,10 @@ N_Global_Skips = {                                                             %
             }                                                                  %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
         }                                                                      %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[11'39'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'37'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 276 / measure 6]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 275 / measure 6]                                 %! _comment_measure_numbers
     \time 6/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
@@ -342,12 +342,12 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "6"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "276"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "275"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'39'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'37'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 277 / measure 7]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 276 / measure 7]                                 %! _comment_measure_numbers
     \time 7/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 7/4                                                                   %! _make_global_skips(1)
@@ -359,12 +359,12 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "7"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "277"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "276"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'41'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'39'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
-    % [N Global_Skips measure 278 / measure 8]                                 %! _comment_measure_numbers
+    % [N Global_Skips measure 277 / measure 8]                                 %! _comment_measure_numbers
     \time 8/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 2                                                                     %! _make_global_skips(1)
@@ -376,14 +376,14 @@ N_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "8"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
-%@% - \baca-start-mn-left-only "278"                                           %! MEASURE_NUMBER_MARKUP
+%@% - \baca-start-mn-left-only "277"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[11'41'']" "[11'55'']"                              %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[11'39'']" "[11'53'']"                              %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
 
-    % [N Global_Skips measure 279 / measure 9]                                 %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
+    % [N Global_Skips measure 278 / measure 9]                                 %! PHANTOM:_style_phantom_measures(1):_comment_measure_numbers
     \time 1/4                                                                  %! PHANTOM:_style_phantom_measures(1):EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(3)
     \baca-time-signature-transparent                                           %! PHANTOM:_style_phantom_measures(2)
     s1 * 1/4                                                                   %! PHANTOM:_make_global_skips(3)
@@ -401,7 +401,7 @@ N_Global_Skips = {                                                             %
 
 N_Flute_Music_Voice = {                                                        %! extern
 
-    % [N Flute_Music_Voice measure 271 / measure 1]                            %! _comment_measure_numbers
+    % [N Flute_Music_Voice measure 270 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-fl-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -432,7 +432,7 @@ N_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [N Flute_Music_Voice measure 272 / measure 2]                            %! _comment_measure_numbers
+    % [N Flute_Music_Voice measure 271 / measure 2]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -450,7 +450,7 @@ N_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [N Flute_Music_Voice measure 273 / measure 3]                            %! _comment_measure_numbers
+    % [N Flute_Music_Voice measure 272 / measure 3]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4.                                                                       %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -468,7 +468,7 @@ N_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [N Flute_Music_Voice measure 274 / measure 4]                            %! _comment_measure_numbers
+    % [N Flute_Music_Voice measure 273 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -488,7 +488,7 @@ N_Flute_Music_Voice = {                                                        %
 
     {
 
-        % [N Flute_Music_Voice measure 275 / measure 5]                        %! _comment_measure_numbers
+        % [N Flute_Music_Voice measure 274 / measure 5]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -510,7 +510,7 @@ N_Flute_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-        % [N Flute_Music_Voice measure 276 / measure 6]                        %! _comment_measure_numbers
+        % [N Flute_Music_Voice measure 275 / measure 6]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -532,7 +532,7 @@ N_Flute_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-        % [N Flute_Music_Voice measure 277 / measure 7]                        %! _comment_measure_numbers
+        % [N Flute_Music_Voice measure 276 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -554,7 +554,7 @@ N_Flute_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-        % [N Flute_Music_Voice measure 278 / measure 8]                        %! _comment_measure_numbers
+        % [N Flute_Music_Voice measure 277 / measure 8]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -583,7 +583,7 @@ N_Flute_Music_Voice = {                                                        %
         \context Voice = "Flute_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Flute_Music_Voice measure 279 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Flute_Music_Voice measure 278 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -592,7 +592,7 @@ N_Flute_Music_Voice = {                                                        %
         \context Voice = "Flute_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Flute_Rest_Voice measure 279 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Flute_Rest_Voice measure 278 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -617,7 +617,7 @@ N_Flute_Music_Staff = {                                                        %
 
 N_English_Horn_Music_Voice = {                                                 %! extern
 
-    % [N English_Horn_Music_Voice measure 271 / measure 1]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 270 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -637,25 +637,25 @@ N_English_Horn_Music_Voice = {                                                 %
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N English_Horn_Music_Voice measure 272 / measure 2]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 271 / measure 2]                     %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
-    % [N English_Horn_Music_Voice measure 273 / measure 3]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 272 / measure 3]                     %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [N English_Horn_Music_Voice measure 274 / measure 4]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 273 / measure 4]                     %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
-    % [N English_Horn_Music_Voice measure 275 / measure 5]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 274 / measure 5]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [N English_Horn_Music_Voice measure 276 / measure 6]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 275 / measure 6]                     %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [N English_Horn_Music_Voice measure 277 / measure 7]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 276 / measure 7]                     %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
-    % [N English_Horn_Music_Voice measure 278 / measure 8]                     %! _comment_measure_numbers
+    % [N English_Horn_Music_Voice measure 277 / measure 8]                     %! _comment_measure_numbers
     R1 * 2/1                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -663,7 +663,7 @@ N_English_Horn_Music_Voice = {                                                 %
         \context Voice = "English_Horn_Music_Voice"                            %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N English_Horn_Music_Voice measure 279 / measure 9]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N English_Horn_Music_Voice measure 278 / measure 9]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -672,7 +672,7 @@ N_English_Horn_Music_Voice = {                                                 %
         \context Voice = "English_Horn_Rest_Voice"                             %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N English_Horn_Rest_Voice measure 279 / measure 9]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N English_Horn_Rest_Voice measure 278 / measure 9]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -700,7 +700,7 @@ N_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
     \times 3/4 {                                                               %! faberge_bcl_color_fingering_rhythm
 
-        % [N Clarinet_Music_Voice measure 271 / measure 1]                     %! _comment_measure_numbers
+        % [N Clarinet_Music_Voice measure 270 / measure 1]                     %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -713,6 +713,13 @@ N_Clarinet_Music_Voice = {                                                     %
         \baca-effort-f                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Cl.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        [                                                                      %! faberge_bcl_color_fingering_rhythm
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
         - \tweak self-alignment-X #0
@@ -722,15 +729,8 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        7
+                        1
             }
-        [                                                                      %! faberge_bcl_color_fingering_rhythm
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_bcl_color_fingering_rhythm
         ]                                                                      %! faberge_bcl_color_fingering_rhythm
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -744,7 +744,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        1
+                        2
             }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -758,7 +758,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        2
+                        1
             }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -772,7 +772,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        1
+                        2
             }
 
     }                                                                          %! faberge_bcl_color_fingering_rhythm
@@ -780,7 +780,7 @@ N_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge_bcl_color_fingering_rhythm
 
-        % [N Clarinet_Music_Voice measure 272 / measure 2]                     %! _comment_measure_numbers
+        % [N Clarinet_Music_Voice measure 271 / measure 2]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
@@ -792,7 +792,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        2
+                        3
             }
 
         r8
@@ -814,7 +814,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        2
             }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -828,7 +828,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        2
+                        3
             }
         ~
 
@@ -837,7 +837,7 @@ N_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
     \times 3/4 {                                                               %! faberge_bcl_color_fingering_rhythm
 
-        % [N Clarinet_Music_Voice measure 273 / measure 3]                     %! _comment_measure_numbers
+        % [N Clarinet_Music_Voice measure 272 / measure 3]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'4                                                                    %! faberge_bcl_color_fingering_rhythm
 
@@ -858,7 +858,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        4
             }
         ~
 
@@ -867,7 +867,7 @@ N_Clarinet_Music_Voice = {                                                     %
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge_bcl_color_fingering_rhythm
 
-        % [N Clarinet_Music_Voice measure 274 / measure 4]                     %! _comment_measure_numbers
+        % [N Clarinet_Music_Voice measure 273 / measure 4]                     %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8                                                                    %! faberge_bcl_color_fingering_rhythm
         [                                                                      %! faberge_bcl_color_fingering_rhythm
@@ -883,7 +883,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        4
+                        3
             }
         ]                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -900,7 +900,7 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        3
+                        4
             }
         [                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -915,20 +915,6 @@ N_Clarinet_Music_Voice = {                                                     %
                 #'(circle-padding . 0.25)
                 \circle
                     \finger
-                        4
-            }
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'8                                                                    %! faberge_bcl_color_fingering_rhythm
-        - \tweak direction #down
-        - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
-        - \tweak staff-padding #4.5
-        ^ \markup {
-            \override
-                #'(circle-padding . 0.25)
-                \circle
-                    \finger
                         5
             }
 
@@ -958,6 +944,20 @@ N_Clarinet_Music_Voice = {                                                     %
                 \circle
                     \finger
                         5
+            }
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'8                                                                    %! faberge_bcl_color_fingering_rhythm
+        - \tweak direction #down
+        - \tweak parent-alignment-X #-0.5
+        - \tweak self-alignment-X #0
+        - \tweak staff-padding #4.5
+        ^ \markup {
+            \override
+                #'(circle-padding . 0.25)
+                \circle
+                    \finger
+                        6
             }
         ]                                                                      %! faberge_bcl_color_fingering_rhythm
 
@@ -968,7 +968,7 @@ N_Clarinet_Music_Voice = {                                                     %
         \context Voice = "Clarinet_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Clarinet_Music_Voice measure 275 / measure 5]                 %! _comment_measure_numbers
+            % [N Clarinet_Music_Voice measure 274 / measure 5]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
 
@@ -977,20 +977,20 @@ N_Clarinet_Music_Voice = {                                                     %
         \context Voice = "Clarinet_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Clarinet_Rest_Voice measure 275 / measure 5]                  %! _comment_measure_numbers
+            % [N Clarinet_Rest_Voice measure 274 / measure 5]                  %! _comment_measure_numbers
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Clarinet_Music_Voice measure 276 / measure 6]                         %! _comment_measure_numbers
+    % [N Clarinet_Music_Voice measure 275 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [N Clarinet_Music_Voice measure 277 / measure 7]                         %! _comment_measure_numbers
+    % [N Clarinet_Music_Voice measure 276 / measure 7]                         %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _make_measure_silences
 
-    % [N Clarinet_Music_Voice measure 278 / measure 8]                         %! _comment_measure_numbers
+    % [N Clarinet_Music_Voice measure 277 / measure 8]                         %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -998,7 +998,7 @@ N_Clarinet_Music_Voice = {                                                     %
         \context Voice = "Clarinet_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Clarinet_Music_Voice measure 279 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Clarinet_Music_Voice measure 278 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1007,7 +1007,7 @@ N_Clarinet_Music_Voice = {                                                     %
         \context Voice = "Clarinet_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Clarinet_Rest_Voice measure 279 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Clarinet_Rest_Voice measure 278 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1037,7 +1037,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Piano_RH_Music_Voice measure 271 / measure 1]                 %! _comment_measure_numbers
+            % [N Piano_RH_Music_Voice measure 270 / measure 1]                 %! _comment_measure_numbers
             \set PianoStaff.shortInstrumentName = \faberge-pf-markup           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \clef "bass"                                                       %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
@@ -1059,23 +1059,23 @@ N_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Piano_RH_Rest_Voice measure 271 / measure 1]                  %! _comment_measure_numbers
+            % [N Piano_RH_Rest_Voice measure 270 / measure 1]                  %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Piano_RH_Music_Voice measure 272 / measure 2]                         %! _comment_measure_numbers
+    % [N Piano_RH_Music_Voice measure 271 / measure 2]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N Piano_RH_Music_Voice measure 273 / measure 3]                         %! _comment_measure_numbers
+    % [N Piano_RH_Music_Voice measure 272 / measure 3]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
     \times 4/5 {                                                               %! faberge_even_tuplet_rhythm
 
-        % [N Piano_RH_Music_Voice measure 274 / measure 4]                     %! _comment_measure_numbers
+        % [N Piano_RH_Music_Voice measure 273 / measure 4]                     %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1099,7 +1099,7 @@ N_Piano_RH_Music_Voice = {                                                     %
 
     }                                                                          %! faberge_even_tuplet_rhythm
 
-    % [N Piano_RH_Music_Voice measure 275 / measure 5]                         %! _comment_measure_numbers
+    % [N Piano_RH_Music_Voice measure 274 / measure 5]                         %! _comment_measure_numbers
     d4                                                                         %! faberge_even_tuplet_rhythm
 
     d4                                                                         %! faberge_even_tuplet_rhythm
@@ -1115,7 +1115,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Piano_RH_Music_Voice measure 276 / measure 6]                 %! _comment_measure_numbers
+            % [N Piano_RH_Music_Voice measure 275 / measure 6]                 %! _comment_measure_numbers
             \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1128,17 +1128,17 @@ N_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Piano_RH_Rest_Voice measure 276 / measure 6]                  %! _comment_measure_numbers
+            % [N Piano_RH_Rest_Voice measure 275 / measure 6]                  %! _comment_measure_numbers
             R1 * 3/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Piano_RH_Music_Voice measure 277 / measure 7]                         %! _comment_measure_numbers
+    % [N Piano_RH_Music_Voice measure 276 / measure 7]                         %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _make_measure_silences
 
-    % [N Piano_RH_Music_Voice measure 278 / measure 8]                         %! _comment_measure_numbers
+    % [N Piano_RH_Music_Voice measure 277 / measure 8]                         %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1146,7 +1146,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Piano_RH_Music_Voice measure 279 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Piano_RH_Music_Voice measure 278 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1155,7 +1155,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         \context Voice = "Piano_RH_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Piano_RH_Rest_Voice measure 279 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Piano_RH_Rest_Voice measure 278 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1180,7 +1180,7 @@ N_Piano_RH_Music_Staff = {                                                     %
 
 N_Piano_LH_Music_Voice = {                                                     %! extern
 
-    % [N Piano_LH_Music_Voice measure 271 / measure 1]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 270 / measure 1]                         %! _comment_measure_numbers
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -1188,25 +1188,25 @@ N_Piano_LH_Music_Voice = {                                                     %
     R1 * 3/4                                                                   %! _call_rhythm_commands
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [N Piano_LH_Music_Voice measure 272 / measure 2]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 271 / measure 2]                         %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Music_Voice measure 273 / measure 3]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 272 / measure 3]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Music_Voice measure 274 / measure 4]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 273 / measure 4]                         %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Music_Voice measure 275 / measure 5]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 274 / measure 5]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Music_Voice measure 276 / measure 6]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 275 / measure 6]                         %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Music_Voice measure 277 / measure 7]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 276 / measure 7]                         %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Music_Voice measure 278 / measure 8]                         %! _comment_measure_numbers
+    % [N Piano_LH_Music_Voice measure 277 / measure 8]                         %! _comment_measure_numbers
     R1 * 2/1                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1214,7 +1214,7 @@ N_Piano_LH_Music_Voice = {                                                     %
         \context Voice = "Piano_LH_Music_Voice"                                %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Piano_LH_Music_Voice measure 279 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Piano_LH_Music_Voice measure 278 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1223,7 +1223,7 @@ N_Piano_LH_Music_Voice = {                                                     %
         \context Voice = "Piano_LH_Rest_Voice"                                 %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Piano_LH_Rest_Voice measure 279 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Piano_LH_Rest_Voice measure 278 / measure 9]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1240,30 +1240,30 @@ N_Piano_LH_Music_Voice = {                                                     %
 
 N_Piano_LH_Attack_Voice = {                                                    %! extern
 
-    % [N Piano_LH_Attack_Voice measure 271 / measure 1]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 270 / measure 1]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
-    % [N Piano_LH_Attack_Voice measure 272 / measure 2]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 271 / measure 2]                        %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Attack_Voice measure 273 / measure 3]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 272 / measure 3]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Attack_Voice measure 274 / measure 4]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 273 / measure 4]                        %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Attack_Voice measure 275 / measure 5]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 274 / measure 5]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Attack_Voice measure 276 / measure 6]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 275 / measure 6]                        %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Attack_Voice measure 277 / measure 7]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 276 / measure 7]                        %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
-    % [N Piano_LH_Attack_Voice measure 278 / measure 8]                        %! _comment_measure_numbers
+    % [N Piano_LH_Attack_Voice measure 277 / measure 8]                        %! _comment_measure_numbers
     R1 * 2/1                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1271,7 +1271,7 @@ N_Piano_LH_Attack_Voice = {                                                    %
         \context Voice = "Piano_LH_Attack_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Piano_LH_Attack_Voice measure 279 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Piano_LH_Attack_Voice measure 278 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1280,7 +1280,7 @@ N_Piano_LH_Attack_Voice = {                                                    %
         \context Voice = "Piano_LH_Attack_Rest_Voice"                          %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Piano_LH_Attack_Rest_Voice measure 279 / measure 9]           %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Piano_LH_Attack_Rest_Voice measure 278 / measure 9]           %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1313,7 +1313,7 @@ N_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Percussion_Music_Voice measure 271 / measure 1]               %! _comment_measure_numbers
+            % [N Percussion_Music_Voice measure 270 / measure 1]               %! _comment_measure_numbers
             \set Staff.shortInstrumentName = \faberge-perc-markup              %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1339,23 +1339,23 @@ N_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Percussion_Rest_Voice measure 271 / measure 1]                %! _comment_measure_numbers
+            % [N Percussion_Rest_Voice measure 270 / measure 1]                %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Percussion_Music_Voice measure 272 / measure 2]                       %! _comment_measure_numbers
+    % [N Percussion_Music_Voice measure 271 / measure 2]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N Percussion_Music_Voice measure 273 / measure 3]                       %! _comment_measure_numbers
+    % [N Percussion_Music_Voice measure 272 / measure 3]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [N Percussion_Music_Voice measure 274 / measure 4]                       %! _comment_measure_numbers
+    % [N Percussion_Music_Voice measure 273 / measure 4]                       %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N Percussion_Music_Voice measure 275 / measure 5]                       %! _comment_measure_numbers
+    % [N Percussion_Music_Voice measure 274 / measure 5]                       %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_downbeat_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
@@ -1379,7 +1379,7 @@ N_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Percussion_Music_Voice measure 276 / measure 6]               %! _comment_measure_numbers
+            % [N Percussion_Music_Voice measure 275 / measure 6]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 3/2                                                          %! _make_multimeasure_rest_container
 
@@ -1388,17 +1388,17 @@ N_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Percussion_Rest_Voice measure 276 / measure 6]                %! _comment_measure_numbers
+            % [N Percussion_Rest_Voice measure 275 / measure 6]                %! _comment_measure_numbers
             R1 * 3/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Percussion_Music_Voice measure 277 / measure 7]                       %! _comment_measure_numbers
+    % [N Percussion_Music_Voice measure 276 / measure 7]                       %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _make_measure_silences
 
-    % [N Percussion_Music_Voice measure 278 / measure 8]                       %! _comment_measure_numbers
+    % [N Percussion_Music_Voice measure 277 / measure 8]                       %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1406,7 +1406,7 @@ N_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Music_Voice"                              %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Percussion_Music_Voice measure 279 / measure 9]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Percussion_Music_Voice measure 278 / measure 9]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1415,7 +1415,7 @@ N_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Rest_Voice"                               %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Percussion_Rest_Voice measure 279 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Percussion_Rest_Voice measure 278 / measure 9]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1445,7 +1445,7 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Music_Voice"                                  %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Violin_Music_Voice measure 271 / measure 1]                   %! _comment_measure_numbers
+            % [N Violin_Music_Voice measure 270 / measure 1]                   %! _comment_measure_numbers
             \set Staff.shortInstrumentName = \faberge-vn-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1472,20 +1472,20 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Rest_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Violin_Rest_Voice measure 271 / measure 1]                    %! _comment_measure_numbers
+            % [N Violin_Rest_Voice measure 270 / measure 1]                    %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Violin_Music_Voice measure 272 / measure 2]                           %! _comment_measure_numbers
+    % [N Violin_Music_Voice measure 271 / measure 2]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N Violin_Music_Voice measure 273 / measure 3]                           %! _comment_measure_numbers
+    % [N Violin_Music_Voice measure 272 / measure 3]                           %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [N Violin_Music_Voice measure 274 / measure 4]                           %! _comment_measure_numbers
+    % [N Violin_Music_Voice measure 273 / measure 4]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1508,7 +1508,7 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Music_Voice"                                  %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Violin_Music_Voice measure 275 / measure 5]                   %! _comment_measure_numbers
+            % [N Violin_Music_Voice measure 274 / measure 5]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1519,14 +1519,14 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Rest_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Violin_Rest_Voice measure 275 / measure 5]                    %! _comment_measure_numbers
+            % [N Violin_Rest_Voice measure 274 / measure 5]                    %! _comment_measure_numbers
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Violin_Music_Voice measure 276 / measure 6]                           %! _comment_measure_numbers
+    % [N Violin_Music_Voice measure 275 / measure 6]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1544,7 +1544,7 @@ N_Violin_Music_Voice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [N Violin_Music_Voice measure 277 / measure 7]                           %! _comment_measure_numbers
+    % [N Violin_Music_Voice measure 276 / measure 7]                           %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1569,7 +1569,7 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Music_Voice"                                  %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Violin_Music_Voice measure 278 / measure 8]                   %! _comment_measure_numbers
+            % [N Violin_Music_Voice measure 277 / measure 8]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 2                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1580,7 +1580,7 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Rest_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Violin_Rest_Voice measure 278 / measure 8]                    %! _comment_measure_numbers
+            % [N Violin_Rest_Voice measure 277 / measure 8]                    %! _comment_measure_numbers
             R1 * 2                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1592,7 +1592,7 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Music_Voice"                                  %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Violin_Music_Voice measure 279 / measure 9]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Violin_Music_Voice measure 278 / measure 9]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1601,7 +1601,7 @@ N_Violin_Music_Voice = {                                                       %
         \context Voice = "Violin_Rest_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Violin_Rest_Voice measure 279 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Violin_Rest_Voice measure 278 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1631,7 +1631,7 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Viola_Music_Voice measure 271 / measure 1]                    %! _comment_measure_numbers
+            % [N Viola_Music_Voice measure 270 / measure 1]                    %! _comment_measure_numbers
             \set Staff.shortInstrumentName = \faberge-va-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1657,20 +1657,20 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Viola_Rest_Voice measure 271 / measure 1]                     %! _comment_measure_numbers
+            % [N Viola_Rest_Voice measure 270 / measure 1]                     %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Viola_Music_Voice measure 272 / measure 2]                            %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 271 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N Viola_Music_Voice measure 273 / measure 3]                            %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 272 / measure 3]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [N Viola_Music_Voice measure 274 / measure 4]                            %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 273 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1693,7 +1693,7 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Viola_Music_Voice measure 275 / measure 5]                    %! _comment_measure_numbers
+            % [N Viola_Music_Voice measure 274 / measure 5]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1704,14 +1704,14 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Viola_Rest_Voice measure 275 / measure 5]                     %! _comment_measure_numbers
+            % [N Viola_Rest_Voice measure 274 / measure 5]                     %! _comment_measure_numbers
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Viola_Music_Voice measure 276 / measure 6]                            %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 275 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1729,7 +1729,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [N Viola_Music_Voice measure 277 / measure 7]                            %! _comment_measure_numbers
+    % [N Viola_Music_Voice measure 276 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1754,7 +1754,7 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Viola_Music_Voice measure 278 / measure 8]                    %! _comment_measure_numbers
+            % [N Viola_Music_Voice measure 277 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 2                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1765,7 +1765,7 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Viola_Rest_Voice measure 278 / measure 8]                     %! _comment_measure_numbers
+            % [N Viola_Rest_Voice measure 277 / measure 8]                     %! _comment_measure_numbers
             R1 * 2                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1777,7 +1777,7 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Viola_Music_Voice measure 279 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Viola_Music_Voice measure 278 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1786,7 +1786,7 @@ N_Viola_Music_Voice = {                                                        %
         \context Voice = "Viola_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Viola_Rest_Voice measure 279 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Viola_Rest_Voice measure 278 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
@@ -1816,7 +1816,7 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Music_Voice measure 271 / measure 1]                    %! _comment_measure_numbers
+            % [N Cello_Music_Voice measure 270 / measure 1]                    %! _comment_measure_numbers
             \set Staff.shortInstrumentName = \faberge-vc-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1843,20 +1843,20 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Rest_Voice measure 271 / measure 1]                     %! _comment_measure_numbers
+            % [N Cello_Rest_Voice measure 270 / measure 1]                     %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Cello_Music_Voice measure 272 / measure 2]                            %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 271 / measure 2]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    % [N Cello_Music_Voice measure 273 / measure 3]                            %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 272 / measure 3]                            %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    % [N Cello_Music_Voice measure 274 / measure 4]                            %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 273 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1879,7 +1879,7 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Music_Voice measure 275 / measure 5]                    %! _comment_measure_numbers
+            % [N Cello_Music_Voice measure 274 / measure 5]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1890,14 +1890,14 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Rest_Voice measure 275 / measure 5]                     %! _comment_measure_numbers
+            % [N Cello_Rest_Voice measure 274 / measure 5]                     %! _comment_measure_numbers
             R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [N Cello_Music_Voice measure 276 / measure 6]                            %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 275 / measure 6]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2.                                                                       %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1915,7 +1915,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [N Cello_Music_Voice measure 277 / measure 7]                            %! _comment_measure_numbers
+    % [N Cello_Music_Voice measure 276 / measure 7]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
@@ -1940,7 +1940,7 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Music_Voice measure 278 / measure 8]                    %! _comment_measure_numbers
+            % [N Cello_Music_Voice measure 277 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 2                                                            %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1951,7 +1951,7 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [N Cello_Rest_Voice measure 278 / measure 8]                     %! _comment_measure_numbers
+            % [N Cello_Rest_Voice measure 277 / measure 8]                     %! _comment_measure_numbers
             R1 * 2                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1963,7 +1963,7 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Music_Voice"                                   %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Cello_Music_Voice measure 279 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Cello_Music_Voice measure 278 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1972,7 +1972,7 @@ N_Cello_Music_Voice = {                                                        %
         \context Voice = "Cello_Rest_Voice"                                    %! PHANTOM:_make_multimeasure_rest_container
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
-            % [N Cello_Rest_Voice measure 279 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            % [N Cello_Rest_Voice measure 278 / measure 9]                     %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \once \override Score.TimeSignature.X-extent = ##f                 %! PHANTOM:_style_phantom_measures(6)
             \once \override MultiMeasureRest.transparent = ##t                 %! PHANTOM:_style_phantom_measures(7)
             \stopStaff                                                         %! PHANTOM:_style_phantom_measures(8)
