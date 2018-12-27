@@ -1048,7 +1048,7 @@ K_Percussion_Music_Voice = {                                                   %
 
             % [K Percussion_Music_Voice measure 247 / measure 2]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            a'1 * 1                                                            %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 

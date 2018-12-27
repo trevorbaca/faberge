@@ -59,14 +59,15 @@ maker(
     'cl',
     baca.pitch(
         'D3',
-        selector=baca.plts(),
+        selector=baca.plts(
+            exclude='HIDDEN',
+            ),
         ),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(0).self_alignment_X,
         abjad.tweak(3.5).staff_padding,
-        rotation=1,
         ),
     )
 
