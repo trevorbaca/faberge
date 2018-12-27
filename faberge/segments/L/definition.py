@@ -57,7 +57,10 @@ maker(
 
 maker(
     'cl',
-    baca.pitch('D3'),
+    baca.pitch(
+        'D3',
+        selector=baca.plts(),
+        ),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
@@ -100,7 +103,6 @@ maker(
         baca.trill_spanner(None),
         map=baca.plts(),
         ),
-    baca.staff_lines(1),
     baca.staff_position(0),
     )
 
