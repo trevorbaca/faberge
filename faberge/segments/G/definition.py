@@ -187,7 +187,6 @@ maker(
         abjad.tweak(2.5).padding,
         boxed=True,
         ),
-    baca.staff_lines(1),
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(

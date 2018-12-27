@@ -17,7 +17,7 @@ def suffixed_colortrill_rhythm():
             ),
         tag='faberge_suffixed_colortrill_rhythm',
         tie_specifier=rmakers.TieSpecifier(
-            repeat_ties=(1, 4),
+            strip_ties=True,
             ),
         )
 
