@@ -448,7 +448,7 @@ O_Flute_Music_Voice = {                                                        %
 
             % [O Flute_Music_Voice measure 284 / measure 6]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            b'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -562,7 +562,7 @@ O_English_Horn_Music_Voice = {                                                 %
 
             % [O English_Horn_Music_Voice measure 284 / measure 6]             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            b'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -676,7 +676,7 @@ O_Clarinet_Music_Voice = {                                                     %
 
             % [O Clarinet_Music_Voice measure 284 / measure 6]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            b'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -790,7 +790,7 @@ O_Piano_RH_Music_Voice = {                                                     %
 
             % [O Piano_RH_Music_Voice measure 284 / measure 6]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            d1 * 7/4                                                           %! _make_multimeasure_rest_container
+            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1032,7 +1032,7 @@ O_Percussion_Music_Voice = {                                                   %
 
             % [O Percussion_Music_Voice measure 284 / measure 6]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            b'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
