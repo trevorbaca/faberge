@@ -15,6 +15,7 @@ def halves_rhythm(
         tag='faberge_halves_rhythm',
         tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(
+            denominator=(1, 4),
             extract_trivial=True,
             force_fraction=True,
             rewrite_rest_filled=True,

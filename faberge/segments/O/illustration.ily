@@ -1093,7 +1093,7 @@ O_Percussion_Music_Staff = {                                                   %
 O_Violin_Music_Voice = {                                                       %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 4/5 {                                                               %! faberge_halves_rhythm
+    \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 278 / measure 1]                       %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1145,7 +1145,7 @@ O_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge_halves_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 4/5 {                                                               %! faberge_halves_rhythm
+    \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 280 / measure 3]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1177,7 +1177,7 @@ O_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge_halves_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 4/5 {                                                               %! faberge_halves_rhythm
+    \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 282 / measure 5]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1211,7 +1211,7 @@ O_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge_halves_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 4/5 {                                                               %! faberge_halves_rhythm
+    \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 284 / measure 7]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1274,7 +1274,7 @@ O_Violin_Music_Staff = {                                                       %
 O_Viola_Music_Voice = {                                                        %! extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 2/3 {                                                               %! faberge_halves_rhythm
+    \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 278 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1325,7 +1325,7 @@ O_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge_halves_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 2/3 {                                                               %! faberge_halves_rhythm
+    \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 280 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1357,7 +1357,7 @@ O_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge_halves_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 2/3 {                                                               %! faberge_halves_rhythm
+    \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 282 / measure 5]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
@@ -1391,7 +1391,7 @@ O_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge_halves_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
-    \times 2/3 {                                                               %! faberge_halves_rhythm
+    \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 284 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
