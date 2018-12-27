@@ -133,7 +133,6 @@ maker(
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(0).self_alignment_X,
         abjad.tweak(4.5).staff_padding,
-        rotation=1,
         ),
     )
 

@@ -16,6 +16,9 @@ def suffixed_colortrill_rhythm():
             talea_denominator=4,
             ),
         tag='faberge_suffixed_colortrill_rhythm',
+        tie_specifier=rmakers.TieSpecifier(
+            repeat_ties=(1, 4),
+            ),
         )
 
     return baca.rhythm(

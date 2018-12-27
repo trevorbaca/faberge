@@ -13,7 +13,6 @@ stage_markup = (
     ('[1-5 + 3-1 + 5-2]', 2, 'darkgreen'),
     ('[1-5 + 4-3]', 4, 'darkgreen'),
     ('[2-1]', 6),
-    ('[A.3]', 9, 'red'),
     )
 
 maker = baca.SegmentMaker(
@@ -26,10 +25,10 @@ maker = baca.SegmentMaker(
     stage_markup=stage_markup,
     time_signatures=[
         (4, 4), (9, 4), (1, 4), (4, 4), (4, 4),
-        (7, 4), (5, 4), (8, 4), (3, 4),
+        (7, 4), (5, 4), (8, 4),
         ],
     transpose_score=False,
-    validate_measure_count=9,
+    validate_measure_count=8,
     )
 
 maker(
@@ -62,33 +61,23 @@ maker(
 
 # fl
 
+# fl, cl
+
 maker(
-    ('fl', (1, 2)),
-    baca.make_repeat_tied_notes(),
+    (['fl', 'cl'], [(1, 2), (4, 8)]),
+    faberge.suffixed_colortrill_rhythm(),
     )
+
+# eh
+
+# cl
+
+# pf
+
+# perc
 
 # vn
 
-maker(
-    ('vn', 9),
-    baca.dynamic('"f"'),
-    baca.markup('spazzolato'),
-    baca.pitch('E4'),
-    faberge.spazzolati_rhythm(
-        counts_rotation=0,
-        ),
-    )
-
 # va
 
-maker(
-    ('va', 9),
-    baca.dynamic('"f"'),
-    baca.markup('spazzolato'),
-    baca.pitch('E4'),
-    faberge.spazzolati_rhythm(
-        counts_rotation=-1,
-        extra_counts_per_division=[1],
-        denominator=8,
-        ),
-    )
+# vc

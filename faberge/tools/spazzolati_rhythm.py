@@ -29,6 +29,7 @@ def spazzolati_rhythm(
     counts = abjad.sequence(counts)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
+
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
@@ -38,6 +39,7 @@ def spazzolati_rhythm(
             denominator=denominator,
             ),
         )
+
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         rewrite_meter=True,
