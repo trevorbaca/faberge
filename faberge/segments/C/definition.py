@@ -196,11 +196,9 @@ maker(
             pieces=baca.clparts([1]),
             ),
         ),
-    baca.chunk(
-        faberge.airtone_chain_rhythm(
-            20,
-            [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
-            do_not_overlap_counts=True,
-            ),
+    faberge.airtone_chain_rhythm(
+        20,
+        [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19],
+        do_not_overlap_counts=True,
         ),
     )
