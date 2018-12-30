@@ -226,7 +226,7 @@ maker(
 maker(
     (['perc', 'vn', 'vc'], (4, 5)),
     baca.hairpin(
-        'o<| "f"',
+        'o< "f"',
         selector=baca.leaves().rleak(),
         map=baca.plts(),
         ),

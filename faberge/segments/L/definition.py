@@ -36,11 +36,17 @@ maker(
         '64',
         selector=baca.skip(5 - 1),
         ),
+    baca.metronome_mark(
+        '4=5:4(4)',
+        selector=baca.skip(5 - 1),
+        ),
     baca.rehearsal_mark(
         'L',
         abjad.tweak((0, 18)).extra_offset,
         ),
     )
+
+# fl
 
 # eh
 
@@ -94,6 +100,13 @@ maker(
 maker(
     ('cl', (7, 8)),
     faberge.bcl_color_fingering_rhythm(),
+    )
+
+# pf
+
+maker(
+    ('rh', (4, 5)),
+    faberge.even_tuplet_rhythm(4, [1, 0]),
     )
 
 # perc
@@ -169,7 +182,9 @@ maker(
 maker(
     ['vn', 'va', 'vc'],
     baca.staccato(
-        selector=baca.pheads(),
+        selector=baca.pheads(
+            exclude=baca.enums.HIDDEN,
+            ),
         ),
     faberge.clb_staff_positions(),
     )

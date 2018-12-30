@@ -9,7 +9,7 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[1-1]', 1, 'darkgreen'),
+    ('[4-5 + 1-1]', 1, 'darkgreen'),
     ('[4-5]', 3),
     ('[5-1]', 5),
     )
@@ -23,8 +23,8 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (3, 4), (6, 4), (4, 4), (4, 4),
-        (6, 4), (4, 4), (6, 4), (4, 4),
+        (4, 4), (4, 4), (6, 4), (4, 4),
+        (3, 4), (4, 4), (6, 4), (4, 4),
         ],
     transpose_score=True,
     validate_measure_count=8,
@@ -34,10 +34,18 @@ maker(
     'Global_Skips',
     baca.metronome_mark(
         '80',
-        selector=baca.skip(4 - 1),
+        selector=baca.skip(3 - 1),
+        ),
+    baca.metronome_mark(
+        '4=5:4(4)',
+        selector=baca.skip(3 - 1),
         ),
     baca.metronome_mark(
         '100',
+        selector=baca.skip(5 - 1),
+        ),
+    baca.metronome_mark(
+        '4=5:4(4)',
         selector=baca.skip(5 - 1),
         ),
     baca.rehearsal_mark(
@@ -105,13 +113,10 @@ maker(
 
 maker(
     (['fl', 'eh', 'cl', 'va'], (1, 2)),
-    baca.new(
-        baca.dynamic('"f"'),
-        map=baca.plts().filter_length('==', 1),
-        ),
     baca.hairpin(
-        'o<| "f"',
-        map=baca.plts().filter_length('>', 1),
+        'o< "f"',
+        selector=baca.leaves().rleak(),
+        map=baca.plts(),
         ),
     )
 
@@ -177,8 +182,8 @@ maker(
 # pf
 
 maker(
-    ('rh', (3, 4)),
-    faberge.even_tuplet_rhythm(4, [1, 0]),
+    ('rh', (2, 4)),
+    faberge.even_tuplet_rhythm(4, [1, 0, 0]),
     )
 
 # perc
@@ -221,6 +226,6 @@ maker(
 # vn
 
 maker(
-    ('vn', (4, 5)),
-    faberge.even_tuplet_rhythm(4, [1, 0]),
+    ('vn', (4, 6)),
+    faberge.even_tuplet_rhythm(4, [1, 0, 0]),
     )

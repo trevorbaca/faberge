@@ -78,15 +78,15 @@ maker(
 
 maker(
     (['perc', 'vn', 'va', 'vc'], (1, 4)),
-    baca.dynamic(
-        '"f"',
-        map=baca.plts().filter_length('==', 1),
-        ),
     baca.hairpin(
-        'o<| "f"',
-        map=baca.plts().filter_length('>', 1),
+        'o< "f"',
+        selector=baca.leaves().rleak(),
+        map=baca.plts(),
         ),
-    baca.staff_lines(1),
+    baca.new(
+        baca.staff_lines(1),
+        match=[1, 2, 3],
+        ),
     baca.staff_lines(
         5,
         selector=baca.leaves().rleak()[-1],
