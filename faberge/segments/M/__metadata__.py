@@ -50,7 +50,7 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [262],
             ),
-        ('duration', "0'25''"),
+        ('duration', "0'23''"),
         ('final_measure_number', 269),
         ('first_measure_number', 262),
         (
@@ -132,7 +132,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-f',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -168,7 +168,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-f',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -342,7 +342,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-f',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -401,17 +401,17 @@ metadata = abjad.OrderedDict(
         ('segment_name', 'M'),
         ('segment_number', 14),
         ('start_clock_time', "11'06''"),
-        ('stop_clock_time', "11'31''"),
+        ('stop_clock_time', "11'29''"),
         (
             'time_signatures',
             [
                 '4/4',
                 '4/4',
-                '6/4',
                 '4/4',
-                '3/4',
                 '4/4',
-                '6/4',
+                '4/4',
+                '4/4',
+                '4/4',
                 '4/4',
                 ],
             ),
