@@ -184,7 +184,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 manifest='instruments',
-                                value='BassFlute',
+                                value='Flute',
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',

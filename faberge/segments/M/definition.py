@@ -23,8 +23,8 @@ maker = baca.SegmentMaker(
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=[
-        (4, 4), (4, 4), (6, 4), (4, 4),
-        (3, 4), (4, 4), (6, 4), (4, 4),
+        (4, 4), (4, 4), (4, 4), (4, 4),
+        (4, 4), (4, 4), (4, 4), (4, 4),
         ],
     transpose_score=True,
     validate_measure_count=8,
@@ -56,14 +56,21 @@ maker(
 
 # fl
 
-maker(
-    ('fl', (1, 2)),
-    faberge.airtone_chain_rhythm(20, [2, 6, 10, 14, 18]),
-    )
+#maker(
+#    ('fl', (1, 2)),
+#    faberge.airtone_chain_rhythm(20, [2, 6, 10, 14, 18]),
+#    )
 
 maker(
     ('fl', 5),
-    baca.instrument(faberge.instruments['Flute']),
+    baca.hairpin(
+        'o< p >o niente',
+        pieces=baca.lparts([1, 1 + 1]),
+        ),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
     )
 
 maker(
@@ -79,7 +86,7 @@ maker(
     )
 
 maker(
-    ('fl', (6, 8)),
+    ('fl', (5, 8)),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -92,7 +99,7 @@ maker(
         pieces=baca.lparts([1, 1 + 1]),
         ),
     baca.rhythm(
-        "{ c'4. c'4. r2. }",
+        "{ c'4. c'4. r4 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -109,26 +116,33 @@ maker(
         ),
     )
 
-# fl, eh, cl, va
+# tutti
 
 maker(
-    (['fl', 'eh', 'cl', 'va'], (1, 2)),
-    baca.hairpin(
-        'o< "f"',
-        selector=baca.leaves().rleak(),
-        map=baca.plts(),
-        ),
+    'tutti',
+    baca.dls_staff_padding(6),
     )
+
+# fl, eh, cl, va
+
+#maker(
+#    (['fl', 'eh', 'cl', 'va'], (1, 2)),
+#    baca.hairpin(
+#        'o< "f"',
+#        selector=baca.leaves().rleak(),
+#        map=baca.plts(),
+#        ),
+#    )
 
 # cl
 
-maker(
-    ('cl', (1, 2)),
-    faberge.airtone_chain_rhythm(20, [3, 7, 11, 15, 19]),
-    )
+#maker(
+#    ('cl', (1, 2)),
+#    faberge.airtone_chain_rhythm(20, [3, 7, 11, 15, 19]),
+#    )
 
 maker(
-    ('cl', (3, 8)),
+    'cl',
     baca.pitch('D3'),
     faberge.bcl_color_fingering_rhythm(),
     faberge.bcl_color_fingerings(
@@ -147,35 +161,98 @@ maker(
 
 # eh
 
-maker(
-    ('eh', (1, 2)),
-    faberge.airtone_chain_rhythm(20, [1, 5, 9, 13, 17]),
-    )
+#maker(
+#    ('eh', (1, 2)),
+#    faberge.airtone_chain_rhythm(20, [1, 5, 9, 13, 17]),
+#    )
+
+#maker(
+#    ('eh', (3, 4)),
+#    baca.make_repeat_tied_notes(),
+#    )
+#
+#maker(
+#    ('eh', [5, 6, 7]),
+#    baca.new(
+#        baca.repeat_tie_to(),
+#        match=0,
+#        ),
+#    faberge.downbeat_attack(denominator=4),
+#    )
+#
+## eh (stage 2)
+#
+#maker(
+#    ('eh', (3, 7)),
+#    baca.new(
+#        baca.trill_spanner(
+#            None,
+#            abjad.tweak(2.25).bound_details__right__padding,
+#            ),
+#        map=baca.plts(),
+#        ),
+#    )
 
 maker(
-    ('eh', (3, 4)),
-    baca.make_repeat_tied_notes(),
-    )
-
-maker(
-    ('eh', [5, 6, 7]),
-    baca.new(
-        baca.repeat_tie_to(),
-        match=0,
+    ('eh', 1),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
         ),
-    faberge.downbeat_attack(denominator=4),
     )
 
-# eh (stage 2)
+maker(
+    ('eh', (1, 6)),
+    baca.hairpin(
+        'o< mf >o niente',
+        map=baca.runs(),
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2.5).padding,
+        map=baca.runs(),
+        ),
+    )
 
 maker(
-    ('eh', (3, 7)),
-    baca.new(
-        baca.trill_spanner(
-            None,
-            abjad.tweak(2.25).bound_details__right__padding,
-            ),
-        map=baca.plts(),
+    ('eh', 2),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 3),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 4),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 5),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 6),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
         ),
     )
 
@@ -189,23 +266,16 @@ maker(
 # perc
 
 maker(
-    ('perc', (3, 4)),
-    baca.make_repeat_tied_notes(),
+    ('perc', [1, 2, 3, 4, 5, 6]),
+    faberge.downbeat_attack(),
     )
 
 maker(
-    ('perc', [5, 6, 7]),
-    baca.new(
-        baca.repeat_tie_to(),
-        match=0,
+    ('perc', (1, 6)),
+    baca.markup(
+        '(castanets)',
+        abjad.tweak(2.5).padding,
         ),
-    faberge.downbeat_attack(denominator=4),
-    )
-
-# perc (stage 2)
-
-maker(
-    ('perc', (3, 7)),
     baca.new(
         baca.trill_spanner(
             None,
@@ -216,16 +286,26 @@ maker(
     baca.staff_position(0),
     )
 
-# va
-
-maker(
-    ('va', (1, 2)),
-    faberge.airtone_chain_rhythm(20, [0, 4, 8, 12, 16]),
-    )
-
 # vn
 
 maker(
-    ('vn', (4, 6)),
-    faberge.even_tuplet_rhythm(4, [1, 0, 0]),
+    ('vn', (4, 5)),
+    faberge.even_tuplet_rhythm(4, [1, 0]),
+    )
+
+# va
+
+#maker(
+#    ('va', (1, 2)),
+#    faberge.airtone_chain_rhythm(20, [0, 4, 8, 12, 16]),
+#    )
+
+maker(
+    ('va', (1, 6)),
+    baca.bow_speed_spanner(
+        'XFB =|',
+        abjad.tweak(5).staff_padding,
+        map=baca.plts(),
+        ),
+    faberge.back_incised_divisions(),
     )

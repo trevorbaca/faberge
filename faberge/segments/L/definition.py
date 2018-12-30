@@ -48,15 +48,60 @@ maker(
 
 # fl
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
 # eh
 
 maker(
-    ('eh', (5, 8)),
-    baca.new(
-        baca.trill_spanner(None),
-        map=baca.plts(),
+    ('eh', 5),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
         ),
-    faberge.back_incised_divisions(),
+    )
+
+maker(
+    ('eh', (5, 8)),
+    baca.hairpin(
+        'o< mf >o niente',
+        map=baca.runs(),
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2.5).padding,
+        map=baca.runs(),
+        ),
+    )
+
+maker(
+    ('eh', 6),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 7),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 8),
+    baca.rhythm(
+        "{ c'4. c'4. r4 }",
+        annotate_unpitched_music=True,
+        ),
     )
 
 # cl
@@ -113,6 +158,11 @@ maker(
 
 maker(
     'perc',
+    baca.markup(
+        'castanets',
+        abjad.tweak(2.5).padding,
+        boxed=True,
+        ),
     baca.new(
         baca.trill_spanner(None),
         map=baca.plts(),
@@ -121,13 +171,8 @@ maker(
     )
 
 maker(
-    ('perc', [1, 2, 3, 4]),
+    ('perc', [1, 2, 3, 4, 5, 6, 7, 8]),
     faberge.downbeat_attack(),
-    )
-
-maker(
-    ('perc', (5, 8)),
-    faberge.back_incised_divisions(),
     )
 
 # vn
@@ -180,11 +225,9 @@ maker(
 # vn, va, vc
 
 maker(
-    ['vn', 'va', 'vc'],
+    (['vn', 'va', 'vc'], (1, 6)),
     baca.staccato(
-        selector=baca.pheads(
-            exclude=baca.enums.HIDDEN,
-            ),
+        selector=baca.pheads(),
         ),
     faberge.clb_staff_positions(),
     )
@@ -239,6 +282,17 @@ maker(
 maker(
     ('va', (5, 6)),
     baca.beam(),
+    )
+
+maker(
+    ('va', (7, 8)),
+    baca.bow_speed_spanner(
+        'XFB =|',
+        abjad.tweak(5).staff_padding,
+        map=baca.plts(),
+        ),
+    baca.dynamic('p'),
+    faberge.back_incised_divisions(),
     )
 
 # vc
