@@ -415,8 +415,8 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'O'),
         ('segment_number', 16),
-        ('start_clock_time', "11'53''"),
-        ('stop_clock_time', "12'16''"),
+        ('start_clock_time', "11'51''"),
+        ('stop_clock_time', "12'14''"),
         (
             'time_signatures',
             [
