@@ -56,10 +56,10 @@ maker(
 
 # fl
 
-#maker(
-#    ('fl', (1, 2)),
-#    faberge.airtone_chain_rhythm(20, [2, 6, 10, 14, 18]),
-#    )
+maker(
+    ('fl', (1, 4)),
+    faberge.airtone_chain_rhythm(20, [1, 3, 5]),
+    )
 
 maker(
     ('fl', 5),
@@ -123,28 +123,22 @@ maker(
     baca.dls_staff_padding(6),
     )
 
-# fl, eh, cl, va
+# fl, vn
 
-#maker(
-#    (['fl', 'eh', 'cl', 'va'], (1, 2)),
-#    baca.hairpin(
-#        'o< "f"',
-#        selector=baca.leaves().rleak(),
-#        map=baca.plts(),
-#        ),
-#    )
+maker(
+    (['fl', 'vn'], (1, 3)),
+    baca.hairpin(
+        'o< "f"',
+        selector=baca.leaves().rleak(),
+        map=baca.plts(),
+        ),
+    )
 
 # cl
-
-#maker(
-#    ('cl', (1, 2)),
-#    faberge.airtone_chain_rhythm(20, [3, 7, 11, 15, 19]),
-#    )
 
 maker(
     'cl',
     baca.pitch('D3'),
-    faberge.bcl_color_fingering_rhythm(),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
@@ -155,43 +149,16 @@ maker(
     )
 
 maker(
-    ('cl', [4, 7]),
-    baca.breathe(),
+    ('cl', [1, 5]),
+    faberge.downbeat_attack(denominator=8),
+    )
+
+maker(
+    ('cl', [(2, 4), (6, 8)]),
+    faberge.bcl_color_fingering_rhythm(),
     )
 
 # eh
-
-#maker(
-#    ('eh', (1, 2)),
-#    faberge.airtone_chain_rhythm(20, [1, 5, 9, 13, 17]),
-#    )
-
-#maker(
-#    ('eh', (3, 4)),
-#    baca.make_repeat_tied_notes(),
-#    )
-#
-#maker(
-#    ('eh', [5, 6, 7]),
-#    baca.new(
-#        baca.repeat_tie_to(),
-#        match=0,
-#        ),
-#    faberge.downbeat_attack(denominator=4),
-#    )
-#
-## eh (stage 2)
-#
-#maker(
-#    ('eh', (3, 7)),
-#    baca.new(
-#        baca.trill_spanner(
-#            None,
-#            abjad.tweak(2.25).bound_details__right__padding,
-#            ),
-#        map=baca.plts(),
-#        ),
-#    )
 
 maker(
     ('eh', 1),
@@ -289,16 +256,16 @@ maker(
 # vn
 
 maker(
+    ('vn', (1, 3)),
+    faberge.airtone_chain_rhythm(20, [0, 2, 4]),
+    )
+
+maker(
     ('vn', (4, 5)),
     faberge.even_tuplet_rhythm(4, [1, 0]),
     )
 
 # va
-
-#maker(
-#    ('va', (1, 2)),
-#    faberge.airtone_chain_rhythm(20, [0, 4, 8, 12, 16]),
-#    )
 
 maker(
     ('va', (1, 6)),
@@ -308,4 +275,29 @@ maker(
         map=baca.plts(),
         ),
     faberge.back_incised_divisions(),
+    )
+
+# vc
+
+maker(
+    ('vc', (1, 3)),
+    baca.note_head_style_harmonic(),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.pleaves(),
+            ),
+        baca.pitches('A3 C4'),
+        baca.glissando(),
+        baca.hairpin(
+            'niente o< p >o',
+            final_hairpin=False,
+            map=baca.runs().map(baca.rleak()),
+            pieces=baca.clparts([1]),
+            ),
+        ),
+    faberge.airtone_chain_rhythm(
+        20,
+        [0, 1, 2, 3, 5],
+        do_not_overlap_counts=True,
+        ),
     )
