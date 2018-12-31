@@ -221,6 +221,13 @@ maker(
     faberge.airtone_chain_rhythm(6, [2, 5]),
     )
 
+maker(
+    ('perc', 6),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
+    )
+
 # perc, vn, vc
 
 maker(

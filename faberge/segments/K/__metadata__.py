@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [246],
+            [245],
             ),
         ('duration', "0'32''"),
         ('final_measure_number', 253),
@@ -75,7 +75,7 @@ metadata = abjad.OrderedDict(
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
-                                    value=(-2, 2),
+                                    value=(0, 2),
                                     ),
                                 ),
                             abjad.Momento(
@@ -211,6 +211,18 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
@@ -364,7 +376,7 @@ metadata = abjad.OrderedDict(
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
-                                    value=(-2, 2),
+                                    value=(-2, 0),
                                     ),
                                 ),
                             abjad.Momento(

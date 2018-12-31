@@ -46,6 +46,15 @@ maker(
         ),
     )
 
+# fl
+
+maker(
+    'fl',
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 0)),
+        ),
+    )
+
 # fl, eh, cl, pf, perc
 
 maker(
@@ -72,6 +81,33 @@ maker(
     (['fl', 'eh', 'cl', 'rh', 'perc'], 5),
     baca.repeat_tie_to(),
     faberge.downbeat_attack()
+    )
+
+# cl
+
+maker(
+    'cl',
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2)),
+        ),
+    )
+
+# pf
+
+maker(
+    'rh',
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 0)),
+        ),
+    )
+
+# perc
+
+maker(
+    'perc',
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2)),
+        ),
     )
 
 # vn

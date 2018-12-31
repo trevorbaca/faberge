@@ -185,6 +185,9 @@ maker(
 
 maker(
     'perc',
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2)),
+        ),
     baca.staff_lines(1),
     )
 
