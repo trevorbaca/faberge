@@ -70,6 +70,33 @@ maker(
     baca.make_notes(),
     )
 
+# fl, cl
+
+maker(
+    (['fl', 'cl'], [3, 6, 7]),
+    baca.dynamic_text_self_alignment_x(
+        -1,
+        selector=baca.pleaf(2),
+        ),
+    baca.dynamic_text_self_alignment_x(
+        -0.75,
+        selector=baca.pleaf(-1),
+        ),
+    baca.glissando(
+        allow_repeats=True,
+        selector=baca.pleaves()[2:], 
+        ),
+    baca.hairpin(
+        'o< mp >o p > pp',
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    baca.trill_spanner(
+        None,
+        selector=baca.leaves()[:3],
+        ),
+    faberge.suffixed_colortrill_rhythm(),
+    )
+
 # eh
 
 # cl
@@ -79,21 +106,21 @@ maker(
 # vn
 
 maker(
-    ('vn', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [1, 4, 7]),
+    ('vn', (1, 8)),
+    faberge.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
     )
 
 maker(
-    ('vn', 5),
+    ('vn', 9),
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2)),
         ),
     )
 
-# vn, vc
+# vn, va
 
 maker(
-    (['vn', 'va'], (1, 4)),
+    (['vn', 'va'], (1, 8)),
     baca.hairpin(
         'o< "f"',
         selector=baca.leaves().rleak(),
@@ -109,14 +136,14 @@ maker(
 # va
 
 maker(
-    ('va', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [0, 3, 6]),
+    ('va', (1, 8)),
+    faberge.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
     )
 
 # vc
 
 maker(
-    ('vc', (1, 4)),
+    ('vc', (1, 8)),
     baca.note_head_style_harmonic(),
     baca.suite(
         baca.untie_to(
@@ -132,8 +159,8 @@ maker(
             ),
         ),
     faberge.airtone_chain_rhythm(
-        10,
-        [0, 1, 3, 4, 6, 7],
+        20,
+        [0, 1, 3, 4, 6, 7, 9, 10, 13, 14, 17, 18],
         do_not_overlap_counts=True,
         ),
     )
