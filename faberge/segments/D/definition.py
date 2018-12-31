@@ -55,6 +55,13 @@ maker(
 
 # fl
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
 # fl, eh, cl 
 
 maker(
@@ -69,23 +76,21 @@ maker(
 
 # perc
 
+# vn
+
 maker(
-    ('perc', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [2, 6]),
+    ('vn', (1, 4)),
+    faberge.airtone_chain_rhythm(10, [1, 4, 7]),
     )
 
-# perc, vn, va, vc
+# vn, vc
 
 maker(
-    (['perc', 'vn', 'va', 'vc'], (1, 4)),
+    (['vn', 'va'], (1, 4)),
     baca.hairpin(
         'o< "f"',
         selector=baca.leaves().rleak(),
         map=baca.plts(),
-        ),
-    baca.new(
-        baca.staff_lines(1),
-        match=[1, 2, 3],
         ),
     baca.staff_lines(
         5,
@@ -94,23 +99,35 @@ maker(
     baca.staff_position(0),
     )
 
-# vn
-
-maker(
-    ('vn', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [1, 5, 9]),
-    )
 
 # va
 
 maker(
     ('va', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [0, 4, 8]),
+    faberge.airtone_chain_rhythm(10, [0, 3, 6]),
     )
 
 # vc
 
 maker(
     ('vc', (1, 4)),
-    faberge.airtone_chain_rhythm(10, [3, 7]),
+    baca.note_head_style_harmonic(),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.pleaves(),
+            ),
+        baca.pitches('A3 C4'),
+        baca.glissando(),
+        baca.hairpin(
+            'niente o< p >o',
+            final_hairpin=False,
+            map=baca.runs().map(baca.rleak()),
+            pieces=baca.clparts([1]),
+            ),
+        ),
+    faberge.airtone_chain_rhythm(
+        10,
+        [0, 1, 3, 4, 6, 7],
+        do_not_overlap_counts=True,
+        ),
     )
