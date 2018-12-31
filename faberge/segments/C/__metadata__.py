@@ -322,7 +322,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='baca.StaffLines',
-                                value=5,
+                                value=1,
                                 ),
                             ],
                         ),
@@ -370,7 +370,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='baca.StaffLines',
-                                value=5,
+                                value=1,
                                 ),
                             ],
                         ),

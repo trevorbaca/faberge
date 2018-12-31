@@ -72,6 +72,13 @@ maker(
     baca.make_repeat_tied_notes(),
     )
 
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
 # fl, eh, cl, vn, va
 
 maker(
@@ -115,14 +122,18 @@ maker(
 # perc
 
 maker(
+    'perc',
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    )
+
+maker(
     ('perc', 1),
     baca.markup(
         'woodblock',
         abjad.tweak(2.5).padding,
         boxed=True,
         ),
-    baca.staff_lines(1),
-    baca.staff_position(0),
     faberge.even_tuplet_rhythm(4, [0]),
     )
 
@@ -133,14 +144,7 @@ maker(
     )
 
 maker(
-    ('perc', 6),
-    baca.staff_lines(5),
-    )
-
-maker(
     ('perc', 8),
-    baca.staff_lines(1),
-    baca.staff_position(0),
     faberge.even_tuplet_rhythm(4, [-1]),
     )
 
@@ -152,7 +156,7 @@ maker(
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2))
         ),
-    baca.staff_lines(5),
+    baca.staff_position(0),
     )
 
 maker(
@@ -165,7 +169,7 @@ maker(
 maker(
     'va',
     baca.clef('alto'),
-    baca.staff_lines(5),
+    baca.staff_position(0),
     )
 
 maker(
