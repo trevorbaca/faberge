@@ -128,7 +128,6 @@ maker(
         'castanets',
         boxed=True,
         ),
-    baca.staff_lines(1),
     )
 
 maker(
@@ -153,6 +152,9 @@ maker(
 
 maker(
     ('perc', 8),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
     baca.staff_lines(5),
     )
 

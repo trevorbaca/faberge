@@ -83,6 +83,13 @@ maker(
     faberge.airtone_chain_rhythm(10, [1, 4, 7]),
     )
 
+maker(
+    ('vn', 5),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
+    )
+
 # vn, vc
 
 maker(
@@ -98,7 +105,6 @@ maker(
         ),
     baca.staff_position(0),
     )
-
 
 # va
 

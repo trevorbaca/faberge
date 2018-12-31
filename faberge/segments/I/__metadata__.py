@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [230],
+            [229],
             ),
         ('duration', "0'22''"),
         ('final_measure_number', 236),
@@ -211,6 +211,18 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',

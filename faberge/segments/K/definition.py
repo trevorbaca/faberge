@@ -160,6 +160,9 @@ maker(
 maker(
     ('vn', (1, 4)),
     baca.markup('col legno battuto'),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 0))
+        ),
     baca.staff_lines(1),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
@@ -231,6 +234,9 @@ maker(
 maker(
     ('vc', (1, 4)),
     baca.markup('col legno battuto'),
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2))
+        ),
     baca.staff_lines(1),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(

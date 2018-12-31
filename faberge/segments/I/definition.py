@@ -87,7 +87,9 @@ maker(
 
 maker(
     ('perc', 8),
-    baca.bar_extent((-2, 2)),
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2)),
+        ),
     baca.staff_lines(1),
     baca.staff_position(0),
     faberge.even_tuplet_rhythm(4, [-1]),

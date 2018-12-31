@@ -123,6 +123,9 @@ maker(
 
 maker(
     'perc',
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2))
+        ),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
@@ -153,9 +156,6 @@ maker(
 maker(
     'vn',
     baca.clef('treble'),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2))
-        ),
     baca.staff_position(0),
     )
 

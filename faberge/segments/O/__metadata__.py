@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [279],
+            [278],
             ),
         ('duration', "0'23''"),
         ('final_measure_number', 285),
@@ -113,6 +113,18 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Cl.',
+                                ),
+                            abjad.Momento(
+                                context='Clarinet_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
@@ -188,6 +200,18 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 0),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='Flute_Music_Voice',
                                 manifest='instruments',
                                 value='Flute',
                                 ),
@@ -221,6 +245,18 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(0, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
@@ -272,6 +308,18 @@ metadata = abjad.OrderedDict(
                     (
                         'Piano_RH_Music_Staff',
                         [
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 0),
+                                    ),
+                                ),
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Clef',
