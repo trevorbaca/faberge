@@ -173,7 +173,7 @@ maker(
         'crotale (bowed)',
         boxed=True,
         ),
-    faberge.downbeat_attack(),
+    faberge.downbeat_attack(denominator=2),
     )
 
 # vn 

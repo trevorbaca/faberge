@@ -11,8 +11,7 @@ import os
 stage_markup = (
     ('[3-2 + 3-7 + 4-5]', 1, 'darkgreen'),
     ('[3-2]', 3),
-    ('[3-2 + 1-2]', 4, 'red'),
-    ('[3-3 + 5-2]', 5, 'darkgreen'),
+    ('[3-3 + A.1 + 5-2]', 5, 'darkgreen'),
     ('[3-3]', 9),
     )
 
@@ -38,6 +37,10 @@ maker(
         '125',
         selector=baca.skip(5 - 1),
         ),
+    baca.metronome_mark(
+        '4=4:5(4)',
+        selector=baca.skip(5 - 1),
+        ),
     baca.rehearsal_mark(
         'H',
         abjad.tweak((0, 18)).extra_offset,
@@ -50,6 +53,137 @@ maker(
         'fermata',
         selector=baca.leaf(8 - 1),
         ),
+    )
+
+# fl
+
+maker(
+    ('fl', 5),
+    baca.hairpin(
+        'o< mp >o niente',
+        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        selector=baca.leaves(),
+        ),
+    baca.rhythm(
+        "{ c'2. c'2. r2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('fl', (5, 7)),
+    baca.markup(
+        '(flutt.)',
+        abjad.tweak(2.5).padding,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    )
+
+maker(
+    ('fl', 6),
+    baca.hairpin(
+        'o< p >o niente',
+        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.rhythm(
+        "{ c'2. c'2. }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('fl', 7),
+    baca.hairpin(
+        'o< pp >o niente',
+        pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
+        selector=baca.leaves(),
+        ),
+    baca.rhythm(
+        "{ c'2. c'2. r2 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# tutti
+
+maker(
+    'tutti',
+    baca.dls_staff_padding(6),
+    )
+
+# eh
+
+maker(
+    ('eh', 1),
+    baca.rhythm(
+        "{ c'1 c'1 r1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', 2),
+    baca.rhythm(
+        "{ c'2. c'2. r1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', (1, 2)),
+    baca.hairpin(
+        'o< mf >o niente',
+        map=baca.pleaves().partition_by_counts([2], cyclic=True),
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(1.5).padding,
+        map=baca.runs(),
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+
+# cl
+
+# pf
+
+# perc
+
+maker(
+    ('perc', [1, 2]),
+    baca.markup(
+        'castanets',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        match=0,
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(1.5).padding,
+        map=baca.runs(),
+        selector=baca.leaves().rleak(),
+        ),
+    faberge.downbeat_attack(denominator=2),
+    )
+
+maker(
+    ('perc', 5),
+    baca.hairpin(
+        'o<| f',
+        selector=baca.leaves()[:2],
+        ),
+    baca.laissez_vibrer(),
+    baca.markup(
+        'crotale (bowed)',
+        boxed=True,
+        ),
+    faberge.downbeat_attack(denominator=2),
     )
 
 # vn
