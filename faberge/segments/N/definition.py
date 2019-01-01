@@ -145,13 +145,26 @@ maker(
         abjad.tweak(2.5).padding,
         boxed=True,
         ),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
     baca.staff_lines(1),
     baca.staff_position(0),
     faberge.even_tuplet_rhythm(4, [1, 0]),
     )
 
 maker(
+    ('rh', 5),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 0)),
+        ),
+    )
+
+maker(
     ('rh', 6),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
     baca.staff_lines(5),
     )
 
