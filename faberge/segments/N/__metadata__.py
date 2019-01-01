@@ -276,6 +276,18 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),

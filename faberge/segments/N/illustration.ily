@@ -1076,6 +1076,7 @@ N_Piano_RH_Music_Voice = {                                                     %
     \times 4/5 {                                                               %! faberge_even_tuplet_rhythm
 
         % [N Piano_RH_Music_Voice measure 273 / measure 4]                     %! _comment_measure_numbers
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1100,6 +1101,7 @@ N_Piano_RH_Music_Voice = {                                                     %
     }                                                                          %! faberge_even_tuplet_rhythm
 
     % [N Piano_RH_Music_Voice measure 274 / measure 5]                         %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
     d4                                                                         %! faberge_even_tuplet_rhythm
 
     d4                                                                         %! faberge_even_tuplet_rhythm
@@ -1116,6 +1118,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [N Piano_RH_Music_Voice measure 275 / measure 6]                 %! _comment_measure_numbers
+            \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
             \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
