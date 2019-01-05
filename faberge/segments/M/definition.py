@@ -243,14 +243,12 @@ maker(
         '(castanets)',
         abjad.tweak(2.5).padding,
         ),
-    baca.new(
-        baca.trill_spanner(
-            None,
-            abjad.tweak(2.25).bound_details__right__padding,
-            ),
+    baca.staff_position(0),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2.25).bound_details__right__padding,
         map=baca.plts(),
         ),
-    baca.staff_position(0),
     )
 
 # vn

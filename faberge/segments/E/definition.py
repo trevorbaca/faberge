@@ -132,11 +132,11 @@ maker(
 
 maker(
     ('perc', [4, 5, 6, 7]),
-    baca.new(
-        baca.trill_spanner(None),
+    baca.staff_position(0),
+    baca.trill_spanner(
+        None,
         map=baca.plts(),
         ),
-    baca.staff_position(0),
     faberge.downbeat_attack(),
     )
 

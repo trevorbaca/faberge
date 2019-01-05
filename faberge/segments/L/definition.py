@@ -163,8 +163,8 @@ maker(
         abjad.tweak(2.5).padding,
         boxed=True,
         ),
-    baca.new(
-        baca.trill_spanner(None),
+    baca.trill_spanner(
+        None,
         map=baca.plts(),
         ),
     baca.staff_position(0),

@@ -500,20 +500,18 @@ maker(
 maker(
     ('eh', (13, 16)),
     baca.dynamic('f'),
-    baca.new(
-        baca.trill_spanner(),
+    baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
+    baca.trill_spanner(
         map=baca.runs(),
         ),
-    baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
     )
 
 maker(
     ('eh', (27, 30)),
-    baca.new(
-        baca.trill_spanner(),
+    baca.pitches('F#4 F#+4 E#4 E#+4'),
+    baca.trill_spanner(
         map=baca.runs(),
         ),
-    baca.pitches('F#4 F#+4 E#4 E#+4'),
     )
 
 maker(
@@ -527,11 +525,10 @@ maker(
 
 maker(
     ('eh', (57, 62)),
-    baca.new(
-        baca.trill_spanner(),
+    baca.pitches('A#4 A+4 A#+4'),
+    baca.trill_spanner(
         map=baca.runs(),
         ),
-    baca.pitches('A#4 A+4 A#+4'),
     )
 
 maker(
@@ -545,11 +542,10 @@ maker(
 maker(
     ('eh', (89, 92)),
     baca.dynamic('f'),
-    baca.new(
-        baca.trill_spanner(),
+    baca.pitches('C4 C+4 C~4 C#4'),
+    baca.trill_spanner(
         map=baca.runs(),
         ),
-    baca.pitches('C4 C+4 C~4 C#4'),
     )
 
 # cl
@@ -755,18 +751,17 @@ maker(
         ),
     baca.clef('percussion'),
     baca.dynamic('ff'),
-    baca.pitches('D4 D4 B3', exact=True),
-    baca.new(
-        baca.trill_spanner(),
-        map=baca.plts()[:2],
-        ),
-    baca.staff_lines(2),
+    baca.markup('castanets', boxed=True),
     baca.markup(
         'bass drum',
         boxed=True,
         selector=baca.plt(-1),
         ),
-    baca.markup('castanets', boxed=True),
+    baca.pitches('D4 D4 B3', exact=True),
+    baca.staff_lines(2),
+    baca.trill_spanner(
+        map=baca.plts()[:2],
+        ),
     )
 
 maker(
