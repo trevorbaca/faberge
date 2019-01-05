@@ -228,7 +228,7 @@ maker(
 maker(
     ('perc', 5),
     baca.markup(
-        'BD groan (superball)',
+        'BD (superball)',
         abjad.tweak(2).padding,
         boxed=True,
         ),

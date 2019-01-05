@@ -757,7 +757,6 @@ I_Percussion_Music_Voice = {                                                   %
     \times 5/4 {                                                               %! faberge_even_tuplet_rhythm
 
         % [I Percussion_Music_Voice measure 236 / measure 8]                   %! _comment_measure_numbers
-        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -768,6 +767,7 @@ I_Percussion_Music_Voice = {                                                   %
 
         b'4                                                                    %! faberge_even_tuplet_rhythm
 
+        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
         b'4                                                                    %! faberge_even_tuplet_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 

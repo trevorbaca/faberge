@@ -112,6 +112,7 @@ maker(
 maker(
     'rh',
     baca.clef('bass'),
+    baca.dls_staff_padding(2.5),
     )
 
 maker(
@@ -127,6 +128,11 @@ maker(
     )
 
 # perc
+
+maker(
+    'perc',
+    baca.dls_staff_padding(6),
+    )
 
 maker(
     ('perc', 1),
