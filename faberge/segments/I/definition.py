@@ -88,7 +88,10 @@ maker(
 maker(
     ('perc', 8),
     baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
+        baca.bar_extent_persistent(
+            (0, 2),
+            selector=baca.leaf(-1),
+            ),
         ),
     baca.staff_lines(1),
     baca.staff_position(0),
