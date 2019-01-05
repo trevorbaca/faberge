@@ -153,14 +153,12 @@ maker(
 
 maker(
     ('eh', (3, 4)),
-    baca.new(
-        baca.trill_spanner(
-            None,
-            abjad.tweak(2.25).bound_details__right__padding,
-            abjad.tweak(1.5).padding,
-            selector=baca.leaves().rleak(),
-            ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(1.5).padding,
         map=baca.plts(),
+        selector=baca.leaves().rleak(),
         ),
     baca.material_annotation_spanner(
         '4-5 -|',

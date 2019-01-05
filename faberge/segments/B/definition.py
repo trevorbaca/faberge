@@ -611,11 +611,10 @@ maker(
 maker(
     ('eh', (13, 16)),
     baca.dynamic('f'),
-    baca.new(
-        baca.trill_spanner(),
+    baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
+    baca.trill_spanner(
         map=baca.runs(),
         ),
-    baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
     )
 
 maker(
@@ -630,8 +629,7 @@ maker(
 maker(
     ('eh', (23, 30)),
     baca.dynamic('ff'),
-    baca.new(
-        baca.trill_spanner(),
+    baca.trill_spanner(
         map=baca.runs(),
         ),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
@@ -640,22 +638,20 @@ maker(
 maker(
     ('eh', (31, 36)),
     baca.dynamic('fff'),
-    baca.new(
-        baca.trill_spanner(),
-        map=baca.runs(),
-        ),
     baca.markup('doubletrill'),
     baca.pitch('Eb4'),
+    baca.trill_spanner(
+        map=baca.runs(),
+        ),
     )
 
 maker(
     ('eh', (37, 44)),
-    baca.new(
-        baca.trill_spanner(),
-        map=baca.runs(),
-        ),
     baca.markup('doubletrill'),
     baca.pitch('E4'),
+    baca.trill_spanner(
+        map=baca.runs(),
+        ),
     )
 
 maker(

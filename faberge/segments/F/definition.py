@@ -203,16 +203,14 @@ maker(
         abjad.tweak(11.5).staff_padding,
         boxed=True,
         ),
-    baca.new(
-        baca.trill_spanner(
-            None,
-            abjad.tweak(2.25).bound_details__right__padding,
-            selector=baca.leaves().rleak(),
-            ),
-        map=baca.plts(),
-        ),
     baca.staff_position(1),
     baca.stem_up(),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2.25).bound_details__right__padding,
+        map=baca.plts(),
+        selector=baca.leaves().rleak(),
+        ),
     baca.trill_spanner_staff_padding(8),
     )
 
