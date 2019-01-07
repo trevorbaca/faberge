@@ -33,12 +33,12 @@ process 2 (80, 100, 125, 156)
 
     [cells + state]
     2-1 (80@4)
-    meccanico cells becomes high glow cells
+    meccanico cells become high glow cells
     [suffixed colortrills persist]
 
     [transformed cells + fade-out]
     2-2 (80:100@4)
-    meccanico cells becomes high glow cells
+    meccanico cells become high glow cells
     [suffixed colortrills fade out]
 
     [cells]

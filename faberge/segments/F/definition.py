@@ -10,8 +10,8 @@ from abjadext import rmakers
 ###############################################################################
 
 stage_markup = (
-    ('[2-2 + A.3]', 1),
-    ('[2-3]', 5),
+    ('[2-2 (A.3) (4-3)]', 1),
+    ('[2-3 (3-7) (4-2)]', 5),
     )
 
 maker = baca.SegmentMaker(
@@ -57,7 +57,21 @@ maker(
 # fl
 
 maker(
+    ('fl', (1, 4)),
+    baca.material_annotation_spanner(
+        '2-2 =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
     ('fl', 5),
+    baca.material_annotation_spanner(
+        '3-7 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.even_tuplet_rhythm(4, [-2]),
     )
 
@@ -122,7 +136,21 @@ maker(
 # cl
 
 maker(
+    ('cl', (1, 4)),
+    baca.material_annotation_spanner(
+        '2-2 =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
     ('cl', 5),
+    baca.material_annotation_spanner(
+        '3-7 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.even_tuplet_rhythm(4, [-1]),
     )
 
@@ -150,6 +178,10 @@ maker(
 
 maker(
     ('rh', (5, 8)),
+    baca.material_annotation_spanner(
+        '2-3 =|',
+        abjad.tweak(8).staff_padding,
+        ),
     baca.ottava(),
     baca.pitch_annotation_spanner(
         'chord. -|',
@@ -204,6 +236,12 @@ maker(
         abjad.tweak(11.5).staff_padding,
         boxed=True,
         ),
+    baca.material_annotation_spanner(
+        '4-3 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(15.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(
@@ -231,6 +269,12 @@ maker(
         abjad.tweak(2).padding,
         boxed=True,
         ),
+    baca.material_annotation_spanner(
+        '3-7 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     baca.staff_position(-1),
     baca.stem_down(),
     )
@@ -241,6 +285,12 @@ maker(
     ('vn', 1),
     baca.dynamic('"f"'),
     baca.markup('spazzolato'),
+    baca.material_annotation_spanner(
+        'A.3 -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
@@ -250,6 +300,12 @@ maker(
 
 maker(
     ('vn', 3),
+    baca.material_annotation_spanner(
+        '4-3 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(2.5 + 3 * 2.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         extra_counts=[3],
@@ -258,6 +314,12 @@ maker(
 
 maker(
     ('vn', (5, 7)),
+    baca.material_annotation_spanner(
+        '4-2 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(10.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         extra_counts=[2, 1],
@@ -315,6 +377,12 @@ maker(
     ('va', 1),
     baca.dynamic('"f"'),
     baca.markup('spazzolato'),
+    baca.material_annotation_spanner(
+        'A.3 -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
@@ -326,6 +394,12 @@ maker(
 
 maker(
     ('va', 3),
+    baca.material_annotation_spanner(
+        '4-3 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(2.5 + 3 * 2.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         extra_counts=[2],
@@ -336,14 +410,26 @@ maker(
     ('va', 5),
     baca.bow_speed_spanner(
         'XFB =|',
-        abjad.tweak(5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.breathe(),
     baca.make_repeat_tied_notes(),
+    baca.material_annotation_spanner(
+        '3-7 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     )
 
 maker(
     ('va', (6, 7)),
+    baca.material_annotation_spanner(
+        '4-2 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(10.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.clb_staff_positions(rotation=-4),
     faberge.clb_rhythm(
         extra_counts=[2],
@@ -373,6 +459,14 @@ maker(
         ),
     baca.stem_tremolo(
         selector=baca.pheads(),
+        ),
+    )
+
+maker(
+    ('vc', (5, 8)),
+    baca.material_annotation_spanner(
+        '2-3 =|',
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 

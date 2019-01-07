@@ -45,7 +45,7 @@ C_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "177"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-left-only "[1-1]"                                        %! STAGE_NUMBER_MARKUP
+    - \baca-start-snm-left-only "[1-1 (2-1)]"                                  %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-bracketed-metric-modulation-tuplet-rhs #2 #0 #1 #"64" #2 #0 #2 #0 #5 #4 #'(1 . 1) %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -97,7 +97,6 @@ C_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanLMI                                                       %! LOCAL_MEASURE_INDEX_MARKUP
     \bacaStopTextSpanLMN                                                       %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% \bacaStopTextSpanMN                                                        %! MEASURE_NUMBER_MARKUP
-    \bacaStopTextSpanSNM                                                       %! STAGE_NUMBER_MARKUP
 %@% \bacaStopTextSpanCT                                                        %! CLOCK_TIME_MARKUP
 %@% - \baca-start-lmi-left-only "3"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
@@ -105,8 +104,6 @@ C_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "180"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-colored-left-only "[2-1]" #darkgreen                     %! STAGE_NUMBER_MARKUP
-    \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
 %@% - \baca-start-ct-left-only "[6'06'']"                                      %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
@@ -639,6 +636,12 @@ C_Piano_RH_Music_Voice = {                                                     %
             % [C Piano_RH_Music_Voice measure 179 / measure 3]                 %! _comment_measure_numbers
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
             c'8
+            - \abjad-solid-line-with-hook                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+            - \baca-text-spanner-left-text "2-1"                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+            - \tweak bound-details.right.padding #2.75                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+            - \tweak color #darkgreen                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+            - \tweak staff-padding #5.5                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+            \bacaStartTextSpanMA                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
             r8
 
@@ -703,6 +706,7 @@ C_Piano_RH_Music_Voice = {                                                     %
             % [C Piano_RH_Music_Voice measure 181 / measure 5]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 

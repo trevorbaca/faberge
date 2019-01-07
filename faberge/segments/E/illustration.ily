@@ -47,7 +47,7 @@ E_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "194"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-colored-left-only "[1-5 + 5-2]" #darkgreen               %! STAGE_NUMBER_MARKUP
+    - \baca-start-snm-left-only "[1-5 (5-2)]"                                  %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "41"                        %! REAPPLIED_METRONOME_MARK:_set_status_tag:_reapply_persistent_indicators(2):_attach_metronome_marks(2)
@@ -74,7 +74,7 @@ E_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "195"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-colored-left-only "[1-5 + 3-1 + 5-2]" #darkgreen         %! STAGE_NUMBER_MARKUP
+    - \baca-start-snm-left-only "[1-5 (3-1) (5-2)]"                            %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "156"                       %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -118,7 +118,7 @@ E_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "197"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-    - \baca-start-snm-colored-left-only "[1-5 + 4-3]" #darkgreen               %! STAGE_NUMBER_MARKUP
+    - \baca-start-snm-left-only "[1-5 (4-3)]"                                  %! STAGE_NUMBER_MARKUP
     \bacaStartTextSpanSNM                                                      %! STAGE_NUMBER_MARKUP
 %@% - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
 %@% - \baca-metronome-mark-spanner-left-text 2 0 1 "41"                        %! EXPLICIT_METRONOME_MARK:_set_status_tag:_attach_metronome_marks(2)
@@ -245,7 +245,7 @@ E_Flute_Music_Voice = {                                                        %
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "5-2"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak color #darkgreen                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #5                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -312,6 +312,11 @@ E_Flute_Music_Voice = {                                                        %
     % [E Flute_Music_Voice measure 197 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'4                                                                        %! faberge_suffixed_colortrill_rhythm
+    - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "1-5 (2-1)"                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -411,6 +416,7 @@ E_Flute_Music_Voice = {                                                        %
             % [E Flute_Music_Voice measure 202 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -536,6 +542,11 @@ E_Clarinet_Music_Voice = {                                                     %
     ^ \baca-reapplied-indicator-markup "[“Cl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "1-5 (2-1)"                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-cl-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -694,6 +705,7 @@ E_Clarinet_Music_Voice = {                                                     %
             % [E Clarinet_Music_Voice measure 202 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -984,7 +996,7 @@ E_Percussion_Music_Voice = {                                                   %
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "4-3"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak color #darkgreen                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #7                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
@@ -1127,12 +1139,20 @@ E_Violin_Music_Voice = {                                                       %
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c'4
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
     }
@@ -1175,7 +1195,7 @@ E_Violin_Music_Voice = {                                                       %
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
@@ -1209,6 +1229,7 @@ E_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge_clb_rhythm
 
     % [E Violin_Music_Voice measure 198 / measure 5]                           %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
     a'8                                                                        %! faberge_downbeat_attack
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
@@ -1295,6 +1316,7 @@ E_Violin_Music_Voice = {                                                       %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [E Violin_Music_Voice measure 201 / measure 8]                   %! _comment_measure_numbers
+            \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
             \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1397,14 +1419,22 @@ E_Viola_Music_Voice = {                                                        %
 
         % [E Viola_Music_Voice measure 195 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c'4
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #3.25                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #7                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4
+        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
@@ -1449,7 +1479,7 @@ E_Viola_Music_Voice = {                                                        %
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
@@ -1695,7 +1725,7 @@ E_Cello_Music_Voice = {                                                        %
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
@@ -1736,6 +1766,7 @@ E_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge_clb_rhythm
 
     % [E Cello_Music_Voice measure 198 / measure 5]                            %! _comment_measure_numbers
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
     d8                                                                         %! faberge_downbeat_attack
     - \staccato                                                                %! baca_staccato:IndicatorCommand
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
@@ -1831,6 +1862,7 @@ E_Cello_Music_Voice = {                                                        %
             \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 2                                                            %! _make_multimeasure_rest_container

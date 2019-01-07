@@ -9,8 +9,7 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[1-1]', 1),
-    ('[2-1]', 4, 'darkgreen'),
+    ('[1-1 (2-1)]', 1),
     ('[1-2]', 5),
     )
 
@@ -112,6 +111,11 @@ maker(
 
 maker(
     ('rh', (3, 4)),
+    baca.material_annotation_spanner(
+        '2-1 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
+        ),
     baca.rhythm(
         r"{ \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }"
         r" \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 } }",

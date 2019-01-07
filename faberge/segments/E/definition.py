@@ -9,9 +9,9 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[1-5 + 5-2]', 1, 'darkgreen'),
-    ('[1-5 + 3-1 + 5-2]', 2, 'darkgreen'),
-    ('[1-5 + 4-3]', 4, 'darkgreen'),
+    ('[1-5 (5-2)]', 1),
+    ('[1-5 (3-1) (5-2)]', 2),
+    ('[1-5 (4-3)]', 4),
     ('[2-1]', 6),
     )
 
@@ -74,7 +74,7 @@ maker(
         ),
     baca.material_annotation_spanner(
         '5-2 -|',
-        abjad.tweak('red').color,
+        abjad.tweak('darkgreen').color,
         abjad.tweak(5).staff_padding,
         ),
     baca.stem_tremolo(
@@ -86,6 +86,14 @@ maker(
 maker(
     ('fl', 3),
     baca.dynamic('niente'),
+    )
+
+maker(
+    ('fl', (4, 8)),
+    baca.material_annotation_spanner(
+        '1-5 (2-1) =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
     )
 
 # fl, cl
@@ -118,6 +126,14 @@ maker(
 
 # cl
 
+maker(
+    ('cl', (1, 8)),
+    baca.material_annotation_spanner(
+        '1-5 (2-1) =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
 # pf
 
 # perc
@@ -144,7 +160,7 @@ maker(
     ('perc', (4, 7)),
     baca.material_annotation_spanner(
         '4-3 -|',
-        abjad.tweak('red').color,
+        abjad.tweak('darkgreen').color,
         # unusual staff-padding because 1-line staff:
         abjad.tweak(7).staff_padding,
         ),
@@ -163,7 +179,7 @@ maker(
 maker(
     ('vn', 2),
     baca.rhythm(
-        r"\times 9/5 { c'2 c'2. }",
+        r"\times 9/5 { c'2 c'4 c'4 c'4 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -174,13 +190,16 @@ maker(
     )
 
 maker(
-    ('vn', 5),
-    faberge.downbeat_attack(denominator=8),
+    ('vn', (4, 5)),
+    baca.beam(),
     )
 
 maker(
-    ('vn', (4, 5)),
-    baca.beam(),
+    ('vn', 5),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 0)),
+        ),
+    faberge.downbeat_attack(denominator=8),
     )
 
 maker(
@@ -189,13 +208,20 @@ maker(
     )
 
 maker(
+    ('vn', (6, 7)),
+    baca.beam(),
+    )
+
+maker(
     ('vn', 7),
     faberge.downbeat_attack(denominator=8),
     )
 
 maker(
-    ('vn', (6, 7)),
-    baca.beam(),
+    ('vn', 8),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
     )
 
 # vn, va
@@ -204,7 +230,7 @@ maker(
     (['vn', 'va'], 2),
     baca.material_annotation_spanner(
         '3-1 -|',
-        abjad.tweak('red').color,
+        abjad.tweak('darkgreen').color,
         # unusual staff-padding because 1-line staff:
         abjad.tweak(7).staff_padding,
         ),
@@ -212,7 +238,7 @@ maker(
         selector=baca.plts().filter_duration('==', (1, 2), preprolated=True),
         ),
     baca.stem_tremolo(
-        selector=baca.plts().filter_duration('==', (3, 4), preprolated=True),
+        selector=baca.plts().filter_duration('==', (1, 4), preprolated=True),
         ),
     )
 
@@ -227,7 +253,7 @@ maker(
     (['vn', 'va', 'vc'], (4, 7)),
     baca.material_annotation_spanner(
         '4-3 -|',
-        abjad.tweak('red').color,
+        abjad.tweak('darkgreen').color,
         abjad.tweak(5).staff_padding,
         ),
     baca.staccato(
@@ -248,7 +274,7 @@ maker(
 maker(
     ('va', 2),
     baca.rhythm(
-        r"\times 9/5 { c'2. c'2 }",
+        r"\times 9/5 { c'4 c'4 c'4 c'2 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -259,13 +285,13 @@ maker(
     )
 
 maker(
-    ('va', 5),
-    faberge.downbeat_attack(denominator=8),
+    ('va', (4, 5)),
+    baca.beam(),
     )
 
 maker(
-    ('va', (4, 5)),
-    baca.beam(),
+    ('va', 5),
+    faberge.downbeat_attack(denominator=8),
     )
 
 maker(
@@ -274,13 +300,13 @@ maker(
     )
 
 maker(
-    ('va', 7),
-    faberge.downbeat_attack(denominator=8),
+    ('va', (6, 7)),
+    baca.beam(),
     )
 
 maker(
-    ('va', (6, 7)),
-    baca.beam(),
+    ('va', 7),
+    faberge.downbeat_attack(denominator=8),
     )
 
 # vc
@@ -291,13 +317,16 @@ maker(
     )
 
 maker(
-    ('vc', 5),
-    faberge.downbeat_attack(denominator=8),
+    ('vc', (4, 5)),
+    baca.beam(),
     )
 
 maker(
-    ('vc', (4, 5)),
-    baca.beam(),
+    ('vc', 5),
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2)),
+        ),
+    faberge.downbeat_attack(denominator=8),
     )
 
 maker(
@@ -306,11 +335,18 @@ maker(
     )
 
 maker(
+    ('vc', (6, 7)),
+    baca.beam(),
+    )
+
+maker(
     ('vc', 7),
     faberge.downbeat_attack(denominator=8),
     )
 
 maker(
-    ('vc', (6, 7)),
-    baca.beam(),
+    ('vc', 8),
+    baca.not_parts(
+        baca.bar_extent_persistent((-2, 2)),
+        ),
     )
