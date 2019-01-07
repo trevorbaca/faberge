@@ -221,7 +221,6 @@ maker(
 
 maker(
     ('va', (6, 9)),
-    baca.clef('percussion'),
     baca.markup('col legno battuto'),
     baca.staccato(
         selector=baca.pheads(),

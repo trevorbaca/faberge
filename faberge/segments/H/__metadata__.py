@@ -105,7 +105,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-f',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -286,6 +286,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'Piano_RH_Music_Voice',
+                        [
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='abjad.Dynamic',
+                                value='pp',
+                                ),
+                            ],
+                        ),
+                    (
                         'Piano_Staff_Group',
                         [
                             abjad.Momento(
@@ -348,7 +358,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -396,7 +406,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-f',
+                                value='pp',
                                 ),
                             ],
                         ),

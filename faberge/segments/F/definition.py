@@ -130,6 +130,7 @@ maker(
 
 maker(
     ('rh', 5),
+    baca.dynamic('mp'),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
         annotate_unpitched_music=True,
@@ -354,6 +355,7 @@ maker(
 
 maker(
     ('vc', 5),
+    baca.dynamic('mp'),
     baca.rhythm(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
