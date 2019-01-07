@@ -240,11 +240,6 @@ maker(
 
 # va
 
-maker(
-    'va',
-    baca.clef('alto'),
-    )
-
 # vc
 
 maker(
