@@ -287,6 +287,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'Piano_RH_Music_Voice',
+                        [
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='abjad.Dynamic',
+                                value='mp',
+                                ),
+                            ],
+                        ),
+                    (
                         'Piano_Staff_Group',
                         [
                             abjad.Momento(

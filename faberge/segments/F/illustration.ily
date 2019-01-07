@@ -765,47 +765,155 @@ F_Clarinet_Music_Staff = {                                                     %
 
 F_Piano_RH_Music_Voice = {                                                     %! extern
 
+    {
+
+        % [F Piano_RH_Music_Voice measure 202 / measure 1]                     %! _comment_measure_numbers
+        \set PianoStaff.shortInstrumentName = \faberge-pf-markup               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \override DynamicLineSpanner.staff-padding = #8                        %! baca_dls_staff_padding:OverrideCommand(1)
+        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+        ^ \baca-reapplied-indicator-markup "[“Pf.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+        ^ \baca-reapplied-indicator-markup "(“Piano”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "2-2 / 2-3"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+        \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \set PianoStaff.shortInstrumentName = \faberge-pf-markup               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        r16
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [F Piano_RH_Music_Voice measure 203 / measure 2]                     %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r8
+
+    }
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Piano_RH_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [F Piano_RH_Music_Voice measure 202 / measure 1]                 %! _comment_measure_numbers
-            \set PianoStaff.shortInstrumentName = \faberge-pf-markup           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            \override DynamicLineSpanner.staff-padding = #8                    %! baca_dls_staff_padding:OverrideCommand(1)
-            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            % [F Piano_RH_Music_Voice measure 204 / measure 3]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
-            ^ \baca-reapplied-indicator-markup "[“Pf.”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-            ^ \baca-reapplied-indicator-markup "(“Piano”)"                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-            \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-            \set PianoStaff.shortInstrumentName = \faberge-pf-markup           %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Piano_RH_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [F Piano_RH_Rest_Voice measure 202 / measure 1]                  %! _comment_measure_numbers
-            R1 * 7/4                                                           %! _make_multimeasure_rest_container
+            % [F Piano_RH_Rest_Voice measure 204 / measure 3]                  %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    % [F Piano_RH_Music_Voice measure 203 / measure 2]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_measure_silences
+    {
 
-    % [F Piano_RH_Music_Voice measure 204 / measure 3]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+        % [F Piano_RH_Music_Voice measure 205 / measure 4]                     %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
-    % [F Piano_RH_Music_Voice measure 205 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_measure_silences
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+
+        r16
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8
+
+        r8
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c''8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
 
     {
 
@@ -813,14 +921,7 @@ F_Piano_RH_Music_Voice = {                                                     %
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "2-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "chord."                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -1724,7 +1825,7 @@ F_Viola_Music_Voice = {                                                        %
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         r4                                                                     %! faberge_spazzolati_rhythm
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-effort-f                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+        \p                                                                     %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Va.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Viola”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)

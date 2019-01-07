@@ -157,8 +157,16 @@ maker(
 # pf
 
 maker(
-    ('rh', 5),
-    baca.dynamic('mp'),
+    'rh',
+    baca.material_annotation_spanner(
+        '2-2 / 2-3 =|',
+        abjad.tweak(8).staff_padding,
+        ),
+    )
+
+maker(
+    ('rh', 1),
+    baca.beam(),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
         annotate_unpitched_music=True,
@@ -166,7 +174,33 @@ maker(
     )
 
 maker(
-    ('rh', [5, 6, 7, 8]),
+    ('rh', 2),
+    baca.beam(),
+    baca.rhythm(
+        "{ c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', 4),
+    baca.beam(),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', 5),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', [1, 4, 5, 6, 7, 8]),
     baca.beam(),
     baca.accent(
         selector=baca.pleaf(1),
@@ -178,10 +212,6 @@ maker(
 
 maker(
     ('rh', (5, 8)),
-    baca.material_annotation_spanner(
-        '2-3 =|',
-        abjad.tweak(8).staff_padding,
-        ),
     baca.ottava(),
     baca.pitch_annotation_spanner(
         'chord. -|',

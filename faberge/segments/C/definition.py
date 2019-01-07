@@ -110,7 +110,14 @@ maker(
 # pf
 
 maker(
+    'rh',
+    baca.dls_staff_padding(4.5),
+    )
+
+maker(
     ('rh', (3, 4)),
+    baca.beam(),
+    baca.dynamic('mp'),
     baca.material_annotation_spanner(
         '2-1 -|',
         abjad.tweak('darkgreen').color,
