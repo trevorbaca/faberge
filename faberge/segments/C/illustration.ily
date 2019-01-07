@@ -601,6 +601,7 @@ C_Piano_RH_Music_Voice = {                                                     %
             % [C Piano_RH_Music_Voice measure 177 / measure 1]                 %! _comment_measure_numbers
             \set PianoStaff.shortInstrumentName = \faberge-pf-markup           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
             \override DynamicLineSpanner.staff-padding = #6                    %! baca_dls_staff_padding:OverrideCommand(1)
+            \override DynamicLineSpanner.staff-padding = #4.5                  %! baca_dls_staff_padding:OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -636,6 +637,9 @@ C_Piano_RH_Music_Voice = {                                                     %
             % [C Piano_RH_Music_Voice measure 179 / measure 3]                 %! _comment_measure_numbers
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
             c'8
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+            [                                                                  %! baca_beam:SpannerIndicatorCommand(1)
             - \abjad-solid-line-with-hook                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "2-1"                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak bound-details.right.padding #2.75                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -691,6 +695,7 @@ C_Piano_RH_Music_Voice = {                                                     %
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
             c'8
+            ]                                                                  %! baca_beam:SpannerIndicatorCommand(2)
 
             r8
 
@@ -728,6 +733,7 @@ C_Piano_RH_Music_Voice = {                                                     %
 
     % [C Piano_RH_Music_Voice measure 184 / measure 8]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
