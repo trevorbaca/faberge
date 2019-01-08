@@ -55,7 +55,10 @@ maker(
 
 maker(
     ('fl', 1),
-    faberge.even_tuplet_rhythm(8, [2]),
+    faberge.even_tuplet_rhythm(
+        denominator=8,
+        extra_counts=[2],
+        ),
     )
 
 maker(
@@ -68,7 +71,9 @@ maker(
 
 maker(
     ('fl', 3),
-    faberge.even_tuplet_rhythm(8, [0]),
+    faberge.even_tuplet_rhythm(
+        denominator=8,
+        ),
     )
 
 # fl, cl
@@ -119,7 +124,9 @@ maker(
 
 maker(
     ('cl', 1),
-    faberge.even_tuplet_rhythm(8, [0]),
+    faberge.even_tuplet_rhythm(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -132,7 +139,10 @@ maker(
 
 maker(
     ('cl', 3),
-    faberge.even_tuplet_rhythm(8, [2]),
+    faberge.even_tuplet_rhythm(
+        denominator=8,
+        extra_counts=[2],
+        ),
     )
 
 # pf

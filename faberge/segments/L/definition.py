@@ -151,7 +151,9 @@ maker(
 
 maker(
     ('rh', (4, 5)),
-    faberge.even_tuplet_rhythm(4, [1, 0]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1, 0],
+        ),
     )
 
 # perc

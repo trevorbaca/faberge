@@ -4,8 +4,9 @@ from abjadext import rmakers
 
 
 def even_tuplet_rhythm(
-    denominator,
-    extra_counts=None,
+    *,
+    denominator=4,
+    extra_counts=(0,),
     ):
     """
     Makes even tuplet rhythm.

@@ -227,7 +227,9 @@ maker(
 
 maker(
     ('rh', (2, 4)),
-    faberge.even_tuplet_rhythm(4, [1, 0, 0]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1, 0, 0],
+        ),
     )
 
 # perc
@@ -260,7 +262,9 @@ maker(
 
 maker(
     ('vn', (4, 5)),
-    faberge.even_tuplet_rhythm(4, [1, 0]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1, 0],
+        ),
     )
 
 # va
