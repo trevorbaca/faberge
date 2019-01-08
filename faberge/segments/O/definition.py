@@ -58,27 +58,27 @@ maker(
 # fl, eh, cl, pf, perc
 
 maker(
-    ['fl', 'eh', 'cl', 'rh', 'perc'],
+    ['fl', 'eh', 'cl', 'rh'],
     baca.dls_staff_padding(7),
     baca.staff_lines(1),
     baca.staff_position(0),
     )
 
 maker(
-    (['fl', 'eh', 'cl', 'rh', 'perc'], (1, 4)),
+    (['fl', 'eh', 'cl', 'rh'], (1, 4)),
     baca.dynamic('ff'),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    (['fl', 'eh', 'cl', 'rh', 'perc'], (1, 5)),
+    (['fl', 'eh', 'cl', 'rh'], (1, 5)),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
     )
 
 maker(
-    (['fl', 'eh', 'cl', 'rh', 'perc'], 5),
+    (['fl', 'eh', 'cl', 'rh'], 5),
     baca.repeat_tie_to(),
     faberge.downbeat_attack()
     )
@@ -104,10 +104,12 @@ maker(
 # perc
 
 maker(
-    'perc',
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
+    ('perc', 1),
+    baca.rhythm(
+        r"{ c'4 c'4 c'4 c'4 c'4 r2. }",
+        annotate_unpitched_music=True,
         ),
+    baca.staff_position(0),
     )
 
 # vn
@@ -191,16 +193,8 @@ maker(
 maker(
     ('vc', 8),
     baca.make_notes(),
-    )
-
-maker(
-    ('vc', -1),
-    baca.markup(
-        abjad.Markup.from_literal(
-            r'\faberge-colophon-markup',
-            literal=True,
-            ),
-        abjad.tweak((-20, -17.5)).extra_offset,
-        selector=baca.leaf(-1),
+    baca.mark(
+        r'\faberge-colophon-markup',
+        selector=baca.leaves().rleak()[-1],
         ),
     )

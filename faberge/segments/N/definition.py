@@ -50,10 +50,7 @@ maker(
 
 maker(
     'fl',
-    baca.markup(
-        '(flutt.)',
-        abjad.tweak(2.5).padding,
-        ),
+    baca.dls_staff_padding(6),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -140,9 +137,11 @@ maker(
 
 maker(
     ('rh', (4, 5)),
+    baca.dynamic('mp'),
+    baca.dls_staff_padding(8),
     baca.markup(
         'woodblock',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(2).padding,
         boxed=True,
         ),
     baca.not_parts(
@@ -182,6 +181,7 @@ maker(
 
 maker(
     ('perc', 5),
+    baca.dls_staff_padding(6),
     baca.hairpin(
         'o<| f',
         selector=baca.leaves()[:2],
@@ -189,19 +189,45 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'crotale (bowed)',
+        abjad.tweak(2).padding,
         boxed=True,
         ),
     faberge.downbeat_attack(denominator=2),
     )
 
+maker(
+    ('perc', 8),
+    baca.dls_staff_padding(8),
+    baca.dynamic('mp'),
+    baca.markup(
+        'woodblock',
+        abjad.tweak(2).padding,
+        boxed=True,
+        ),
+    baca.not_parts(
+        baca.bar_extent_persistent(
+            (0, 2),
+            selector=baca.leaf(-1),
+            )
+        ),
+    baca.rhythm(
+        r"{ \times 4/5 { c'4 c'4 c'4 c'4 c'4 }"
+        r" \times 4/5 { c'4 c'4 c'4 c'4 c'4} }",
+        annotate_unpitched_music=True,
+        ),
+    baca.staff_lines(1),
+    baca.staff_position(0),
+    )
+
 # vn 
+
 maker(
     'vn',
+    baca.dls_staff_padding(6),
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2))
         ),
     )
-
 
 # vn, va, vc
 
@@ -242,7 +268,17 @@ maker(
 
 # va
 
+maker(
+    'va',
+    baca.dls_staff_padding(6),
+    )
+
 # vc
+
+maker(
+    'vc',
+    baca.dls_staff_padding(6),
+    )
 
 maker(
     'vc',
