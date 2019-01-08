@@ -90,6 +90,20 @@ maker(
 # eh
 
 maker(
+    ('eh', 1),
+    baca.rhythm(
+        "{ c'4 c'4 c'4 r2. }",
+        annotate_unpitched_music=True,
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
+        map=baca.plts(),
+        ),
+    baca.trill_spanner_staff_padding(5.5),
+    )
+
+maker(
     ('eh', (4, 5)),
     baca.markup(
         'airtone',
@@ -461,7 +475,6 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.staff_lines(5),
     )
 
 maker(
