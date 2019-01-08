@@ -785,60 +785,47 @@ O_Piano_LH_Music_Staff = <<                                                    %
 
 O_Percussion_Music_Voice = {                                                   %! extern
 
-    % [O Percussion_Music_Voice measure 278 / measure 1]                       %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
-    \override DynamicLineSpanner.staff-padding = #7                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    {
 
-    % [O Percussion_Music_Voice measure 279 / measure 2]                       %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+        % [O Percussion_Music_Voice measure 278 / measure 1]                   %! _comment_measure_numbers
+        \set Staff.shortInstrumentName = \faberge-perc-markup                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.StaffSymbol.line-count = 1                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+        b'4
+        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+        ^ \baca-reapplied-indicator-markup "[“Perc.”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+        ^ \baca-reapplied-indicator-markup "(“Percussion”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \set Staff.shortInstrumentName = \faberge-perc-markup                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [O Percussion_Music_Voice measure 280 / measure 3]                       %! _comment_measure_numbers
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+        b'4
 
-    % [O Percussion_Music_Voice measure 281 / measure 4]                       %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+        b'4
 
-    % [O Percussion_Music_Voice measure 282 / measure 5]                       %! _comment_measure_numbers
-    b'4                                                                        %! faberge_downbeat_attack
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+        b'4
 
-    r1..
+        b'4
+
+        r2.
+
+    }
 
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Percussion_Music_Voice measure 283 / measure 6]               %! _comment_measure_numbers
+            % [O Percussion_Music_Voice measure 279 / measure 2]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
@@ -847,19 +834,30 @@ O_Percussion_Music_Voice = {                                                   %
         \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [O Percussion_Rest_Voice measure 283 / measure 6]                %! _comment_measure_numbers
+            % [O Percussion_Rest_Voice measure 279 / measure 2]                %! _comment_measure_numbers
             R1 * 7/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
 
+    % [O Percussion_Music_Voice measure 280 / measure 3]                       %! _comment_measure_numbers
+    R1 * 2                                                                     %! _make_measure_silences
+
+    % [O Percussion_Music_Voice measure 281 / measure 4]                       %! _comment_measure_numbers
+    R1 * 7/4                                                                   %! _make_measure_silences
+
+    % [O Percussion_Music_Voice measure 282 / measure 5]                       %! _comment_measure_numbers
+    R1 * 2                                                                     %! _make_measure_silences
+
+    % [O Percussion_Music_Voice measure 283 / measure 6]                       %! _comment_measure_numbers
+    R1 * 7/4                                                                   %! _make_measure_silences
+
     % [O Percussion_Music_Voice measure 284 / measure 7]                       %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_measure_silences
 
     % [O Percussion_Music_Voice measure 285 / measure 8]                       %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _make_measure_silences
-    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1364,8 +1362,6 @@ O_Cello_Music_Voice = {                                                        %
     c'1..                                                                      %! baca_make_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \tweak extra-offset #'(-20 . -17.5)                                      %! baca_markup:IndicatorCommand
-    ^ \faberge-colophon-markup                                                 %! baca_markup:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1374,6 +1370,7 @@ O_Cello_Music_Voice = {                                                        %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [O Cello_Music_Voice measure 286 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            \mark \faberge-colophon-markup                                     %! PHANTOM:_style_phantom_measures(5):baca_mark:IndicatorCommand
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 

@@ -221,7 +221,7 @@ metadata = abjad.OrderedDict(
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
-                                    value=(-2, 2),
+                                    value=(0, 2),
                                     ),
                                 ),
                             abjad.Momento(
@@ -237,7 +237,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='baca.StaffLines',
-                                value=5,
+                                value=1,
                                 ),
                             ],
                         ),
@@ -247,7 +247,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='f',
+                                value='mp',
                                 ),
                             ],
                         ),

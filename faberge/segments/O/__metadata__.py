@@ -281,7 +281,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='mp',
                                 ),
                             ],
                         ),

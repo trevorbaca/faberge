@@ -8,7 +8,7 @@ faberge-colophon-markup = \markup {
     \right-column {
         \line { Madison, WI. }
         \line { Mar. \hspace #0.75 – \hspace #0.75 Apr. 2016. }
-        \line { Oct. \hspace #0.75 – \hspace #0.75 Dec. 2018. }
+        \line { Oct. 2018 \hspace #0.75 – \hspace #0.75 Jan. 2019. }
         }
     }
 
