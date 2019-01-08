@@ -549,13 +549,13 @@ O_Piano_RH_Music_Voice = {                                                     %
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
     \override DynamicLineSpanner.staff-padding = #7                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)     %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    d\breve                                                                    %! baca_make_repeat_tied_notes
+    b'\breve                                                                   %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -566,25 +566,25 @@ O_Piano_RH_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [O Piano_RH_Music_Voice measure 279 / measure 2]                         %! _comment_measure_numbers
-    d1..                                                                       %! baca_make_repeat_tied_notes
+    b'1..                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Piano_RH_Music_Voice measure 280 / measure 3]                         %! _comment_measure_numbers
-    d\breve                                                                    %! baca_make_repeat_tied_notes
+    b'\breve                                                                   %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Piano_RH_Music_Voice measure 281 / measure 4]                         %! _comment_measure_numbers
-    d1..                                                                       %! baca_make_repeat_tied_notes
+    b'1..                                                                      %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Piano_RH_Music_Voice measure 282 / measure 5]                         %! _comment_measure_numbers
-    d4                                                                         %! faberge_downbeat_attack
+    b'4                                                                        %! faberge_downbeat_attack
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 

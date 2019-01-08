@@ -190,7 +190,7 @@ maker(
 maker(
     'rh',
     baca.clef('bass'),
-    baca.dls_staff_padding(2.5),
+    baca.dls_staff_padding(3.5),
     )
 
 maker(
@@ -222,6 +222,7 @@ maker(
         selector=baca.pleaf(-1),
         ),
     baca.clef('treble'),
+    baca.dynamic('pp'),
     baca.material_annotation_spanner(
         '3-1 -|',
         abjad.tweak('red').color,
