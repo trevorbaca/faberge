@@ -1370,6 +1370,9 @@ O_Cello_Music_Voice = {                                                        %
         {                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
             % [O Cello_Music_Voice measure 286 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
+            \once \override Score.RehearsalMark.direction = #down              %! PHANTOM:_style_phantom_measures(5):baca_rehearsal_mark_down:OverrideCommand(1)
+            \once \override Score.RehearsalMark.padding = #6                   %! PHANTOM:_style_phantom_measures(5):baca_rehearsal_padding:OverrideCommand(1)
+            \once \override Score.RehearsalMark.self-alignment-X = #right      %! PHANTOM:_style_phantom_measures(5):baca_rehearsal_mark_self_alignment_x:OverrideCommand(1)
             \mark \faberge-colophon-markup                                     %! PHANTOM:_style_phantom_measures(5):baca_mark:IndicatorCommand
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
