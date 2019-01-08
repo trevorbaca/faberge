@@ -1072,7 +1072,7 @@ J_Piano_RH_Music_Voice = {                                                     %
 
     % [J Piano_RH_Music_Voice measure 237 / measure 1]                         %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override DynamicLineSpanner.staff-padding = #2.5                          %! baca_dls_staff_padding:OverrideCommand(1)
+    \override DynamicLineSpanner.staff-padding = #3.5                          %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)     %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -1131,6 +1131,8 @@ J_Piano_RH_Music_Voice = {                                                     %
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1207,7 +1209,7 @@ J_Piano_RH_Music_Voice = {                                                     %
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'8                                                                        %! faberge_end_of_cell_attack
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \stopped                                                                 %! baca_stoppped:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)

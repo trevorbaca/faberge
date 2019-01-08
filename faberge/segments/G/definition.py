@@ -141,13 +141,13 @@ maker(
 
 maker(
     ('rh', [1, 3, 4, 5, 6, 8, 9, 10]),
-    baca.beam(),
     baca.accent(
         selector=baca.pleaf(1),
         ),
     baca.accent(
         selector=baca.pleaf(-1),
         ),
+    baca.beam(),
     )
 
 maker(
@@ -317,13 +317,13 @@ maker(
 
 maker(
     ('vn', [1, 3]),
-    baca.beam(),
     baca.accent(
         selector=baca.pleaf(1),
         ),
     baca.accent(
         selector=baca.pleaf(3),
         ),
+    baca.beam(),
     )
 
 maker(
@@ -523,13 +523,13 @@ maker(
 
 maker(
     ('vc', [1, 3]),
-    baca.beam(),
     baca.accent(
         selector=baca.pleaf(0),
         ),
     baca.accent(
         selector=baca.pleaf(-3),
         ),
+    baca.beam(),
     )
 
 maker(

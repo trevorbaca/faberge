@@ -843,7 +843,7 @@ N_Piano_RH_Music_Voice = {                                                     %
 
             % [N Piano_RH_Music_Voice measure 270 / measure 1]                 %! _comment_measure_numbers
             \set PianoStaff.shortInstrumentName = \faberge-pf-markup           %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            \clef "bass"                                                       %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
             \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -851,7 +851,7 @@ N_Piano_RH_Music_Voice = {                                                     %
             \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \f                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            \mp                                                                %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
             ^ \baca-reapplied-indicator-markup "[“Pf.”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
             ^ \baca-reapplied-indicator-markup "(“Piano”)"                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
             \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab) %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -885,7 +885,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak padding #2.5                                                  %! baca_markup:IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
@@ -894,27 +894,27 @@ N_Piano_RH_Music_Voice = {                                                     %
                     woodblock                                                  %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        b'4                                                                    %! faberge_even_tuplet_rhythm
 
     }                                                                          %! faberge_even_tuplet_rhythm
 
     % [N Piano_RH_Music_Voice measure 274 / measure 5]                         %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    b'4                                                                        %! faberge_even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 

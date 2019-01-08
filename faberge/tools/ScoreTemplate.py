@@ -151,9 +151,17 @@ class ScoreTemplate(baca.ScoreTemplate):
             'eh': 'English_Horn_Music_Voice',
             'cl': 'Clarinet_Music_Voice',
             'rh': 'Piano_RH_Music_Voice',
+            'rhx': [
+                'Piano_RH_Music_Voice',
+                'Piano_RH_Rest_Voice',
+                ],
             'lh': 'Piano_LH_Music_Voice',
             'attack': 'Piano_LH_Attack_Voice',
             'perc': 'Percussion_Music_Voice',
+            'percx': [
+                'Percussion_Music_Voice',
+                'Percussion_Rest_Voice',
+                ],
             'vn': 'Violin_Music_Voice',
             'va': 'Viola_Music_Voice',
             'vc': 'Cello_Music_Voice',
@@ -461,9 +469,20 @@ class ScoreTemplate(baca.ScoreTemplate):
                     ('eh', 'English_Horn_Music_Voice'),
                     ('cl', 'Clarinet_Music_Voice'),
                     ('rh', 'Piano_RH_Music_Voice'),
+                    (
+                        'rhx',
+                        ['Piano_RH_Music_Voice', 'Piano_RH_Rest_Voice'],
+                        ),
                     ('lh', 'Piano_LH_Music_Voice'),
                     ('attack', 'Piano_LH_Attack_Voice'),
                     ('perc', 'Percussion_Music_Voice'),
+                    (
+                        'percx',
+                        [
+                            'Percussion_Music_Voice',
+                            'Percussion_Rest_Voice',
+                            ],
+                        ),
                     ('vn', 'Violin_Music_Voice'),
                     ('va', 'Viola_Music_Voice'),
                     ('vc', 'Cello_Music_Voice'),
