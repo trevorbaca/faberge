@@ -72,7 +72,9 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
-    faberge.even_tuplet_rhythm(4, [-2]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[-2],
+        ),
     )
 
 # tutti
@@ -133,6 +135,23 @@ maker(
         ),
     )
 
+# eh
+
+maker(
+    ('eh', 4),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1],
+        ),
+    )
+
+maker(
+    ('eh', 5),
+    baca.rhythm(
+        "{ c'4 c'4 c'4 r1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # cl
 
 maker(
@@ -151,7 +170,9 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
-    faberge.even_tuplet_rhythm(4, [-1]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[-1],
+        ),
     )
 
 # pf

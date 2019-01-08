@@ -140,7 +140,9 @@ maker(
     baca.bar_extent((-2, 2)),
     baca.staff_lines(1),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(4, [1]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1],
+        ),
     )
 
 maker(
@@ -177,7 +179,9 @@ maker(
         ),
     baca.staff_lines(1),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(4, [-1]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[-1],
+        ),
     )
 
 # vn

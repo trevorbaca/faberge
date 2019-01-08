@@ -73,7 +73,9 @@ maker(
 
 maker(
     ('fl', (5, 8)),
-    faberge.even_tuplet_rhythm(4, [0, 1, 0, -1]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[0, 1, 0, -1],
+        ),
     )
 
 # fl, cl
@@ -182,7 +184,9 @@ maker(
 
 maker(
     ('cl', (5, 8)),
-    faberge.even_tuplet_rhythm(4, [1, 0, -1, 0]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1, 0, -1, 0],
+        ),
     )
 
 # pf
@@ -268,7 +272,7 @@ maker(
 maker(
     ('perc', 1),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(4, [0]),
+    faberge.even_tuplet_rhythm(),
     )
 
 maker(

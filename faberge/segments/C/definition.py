@@ -148,18 +148,24 @@ maker(
         abjad.tweak(2.5).padding,
         boxed=True,
         ),
-    faberge.even_tuplet_rhythm(4, [0]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[0],
+        ),
     )
 
 maker(
     ('perc', (4, 5)),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(4, [-1, 0]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[-1, 0],
+        ),
     )
 
 maker(
     ('perc', 8),
-    faberge.even_tuplet_rhythm(4, [-1]),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[-1],
+        ),
     )
 
 # vn
