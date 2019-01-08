@@ -399,6 +399,7 @@ maker(
 
 maker(
     ('va', (3, 8)),
+    baca.dynamic('mp'),
     baca.bow_speed_spanner(
         'XFB =|',
         abjad.tweak(3).staff_padding,

@@ -133,7 +133,7 @@ maker(
     ('rh', [(1, 6), (8, 10)]),
     baca.ottava(),
     baca.pitch_annotation_spanner(
-        'chord. -|',
+        'chord -|',
         abjad.tweak('magenta').color,
         abjad.tweak(5.5).staff_padding,
         ),
@@ -454,6 +454,7 @@ maker(
         'XFB =|',
         abjad.tweak(3).staff_padding,
         ),
+    baca.dynamic('mp'),
     baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         'A.4 -|',
