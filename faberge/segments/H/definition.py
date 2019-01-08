@@ -9,10 +9,8 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[3-2 + 3-7 + 4-5]', 1, 'darkgreen'),
-    ('[3-2]', 3),
-    ('[3-3 + A.1 + 5-2]', 5, 'darkgreen'),
-    ('[3-3]', 9),
+    ('[3-2 (3-7) (4-5)]', 1),
+    ('[3-3 (A.1) (5-2)]', 5),
     )
 
 maker = baca.SegmentMaker(
@@ -72,9 +70,10 @@ maker(
 
 maker(
     ('fl', (5, 7)),
-    baca.markup(
-        '(flutt.)',
-        abjad.tweak(2.5).padding,
+    baca.material_annotation_spanner(
+        '5-2 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -140,6 +139,11 @@ maker(
         pieces=baca.lparts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
+    baca.material_annotation_spanner(
+        '4-5 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(1.5).padding,
@@ -173,6 +177,15 @@ maker(
     )
 
 maker(
+    ('perc', (1, 2)),
+    baca.material_annotation_spanner(
+        '4-5 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
     ('perc', 5),
     baca.hairpin(
         'o<| f',
@@ -183,10 +196,23 @@ maker(
         'crotale (bowed)',
         boxed=True,
         ),
+    baca.material_annotation_spanner(
+        'A.1 -|',
+        abjad.tweak('red').color,
+        abjad.tweak(5.5).staff_padding,
+        ),
     faberge.downbeat_attack(denominator=2),
     )
 
 # vn
+
+maker(
+    'vn',
+    baca.material_annotation_spanner(
+        '3-2 / 3-3 =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
 
 maker(
     ('vn', 1),
@@ -267,6 +293,14 @@ maker(
 # va
 
 maker(
+    'va',
+    baca.material_annotation_spanner(
+        '3-2 / 3-3 =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
     ('va', 1),
     baca.rhythm(
         "{ c'2 c'1 c'1 c'2 }",
@@ -337,6 +371,28 @@ maker(
     baca.rhythm(
         r"\times 8/12 { c'2 c'1 c'2 c'1 }",
         annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vc', [5, 6, 7, 9]),
+    baca.down_bow(
+        abjad.tweak(1).padding,
+        abjad.tweak(0.5).parent_alignment_X,
+        full=True,
+        ),
+    baca.half_clt_spanner(
+        abjad.tweak(5.5).staff_padding,
+        map=baca.leaves()[abjad.index([0], 2)],
+        selector=baca.leaves()[:1].rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (5, 9)),
+    baca.material_annotation_spanner(
+        '3-3 =|',
+        abjad.tweak(8).staff_padding,
         ),
     )
 
