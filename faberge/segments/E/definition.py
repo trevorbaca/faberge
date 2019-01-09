@@ -9,9 +9,7 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[1-5 (5-2)]', 1),
-    ('[1-5 (3-1) (5-2)]', 2),
-    ('[1-5 (4-3)]', 4),
+    ('[1-5 (3-1) (4-3) (5-2)]', 1),
     ('[2-1]', 6),
     )
 
@@ -96,7 +94,7 @@ maker(
 maker(
     ('fl', (4, 8)),
     baca.material_annotation_spanner(
-        '1-5 (2-1) =|',
+        '1-5 / 2-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
     )
@@ -134,7 +132,7 @@ maker(
 maker(
     ('cl', (1, 8)),
     baca.material_annotation_spanner(
-        '1-5 (2-1) =|',
+        '1-5 / 2-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
     )
@@ -313,6 +311,15 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (4, 7)),
+    baca.damp_spanner(
+        abjad.tweak(7).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.dynamic('"mf"'),
+    baca.markup(
+        'col legno battuto',
+        abjad.tweak(2).padding,
+        ),
     baca.material_annotation_spanner(
         '4-3 -|',
         abjad.tweak('darkgreen').color,

@@ -50,7 +50,7 @@ metadata = abjad.OrderedDict(
             'bol_measure_numbers',
             [254],
             ),
-        ('duration', "0'40''"),
+        ('duration', "0'37''"),
         ('final_measure_number', 261),
         ('first_measure_number', 254),
         (
@@ -132,7 +132,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -413,7 +413,7 @@ metadata = abjad.OrderedDict(
         ('segment_name', 'L'),
         ('segment_number', 13),
         ('start_clock_time', "10'26''"),
-        ('stop_clock_time', "11'06''"),
+        ('stop_clock_time', "11'03''"),
         (
             'time_signatures',
             [

@@ -132,7 +132,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -412,8 +412,8 @@ metadata = abjad.OrderedDict(
         ('phantom', True),
         ('segment_name', 'M'),
         ('segment_number', 14),
-        ('start_clock_time', "11'06''"),
-        ('stop_clock_time', "11'29''"),
+        ('start_clock_time', "11'03''"),
+        ('stop_clock_time', "11'26''"),
         (
             'time_signatures',
             [

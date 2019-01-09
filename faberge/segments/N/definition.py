@@ -26,7 +26,7 @@ maker = baca.SegmentMaker(
         (3, 4), (4, 4), (3, 4), (4, 4),
         (5, 4), (6, 4), (7, 4), (8, 4),
         ],
-    transpose_score=False,
+    transpose_score=True,
     validate_measure_count=8,
     )
 
@@ -122,8 +122,20 @@ maker(
 
 maker(
     ('cl', (1, 4)),
+    baca.dls_staff_padding(8),
+    baca.hairpin(
+        'pp < p > pp',
+        map=baca.runs(),
+        pieces=baca.plts().partition_by_ratio((2, 3)),
+        ),
+    baca.pitch(
+        'D3',
+        selector=baca.plts(
+            exclude=baca.enums.HIDDEN,
+            ),
+        ),
     faberge.bcl_color_fingering_rhythm(
-        ltmask=rmakers.silence([6, 7, 8, 9, 12, 13, 14, 17]),
+        ltmask=rmakers.silence([6, 7, 12, 17]),
         ),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
