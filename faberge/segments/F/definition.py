@@ -299,10 +299,16 @@ maker(
 
 maker(
     'perc',
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('perc', 1),
+    baca.rhythm(
+        r"{ c'4 c'4 c'4 r1 }",
+        annotate_unpitched_music=True,
         ),
-    baca.staff_lines(1),
+    baca.staff_position(0),
     )
 
 maker(

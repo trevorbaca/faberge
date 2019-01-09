@@ -8,6 +8,7 @@ def suffixed_colortrill_rhythm():
     """
 
     rhythm_maker = rmakers.IncisedRhythmMaker(
+        extra_counts_per_division=[1],
         incise_specifier=rmakers.InciseSpecifier(
             prefix_counts=[2],
             prefix_talea=[1],
@@ -18,6 +19,9 @@ def suffixed_colortrill_rhythm():
         tag='faberge_suffixed_colortrill_rhythm',
         tie_specifier=rmakers.TieSpecifier(
             strip_ties=True,
+            ),
+        tuplet_specifier=rmakers.TupletSpecifier(
+            force_fraction=True,
             ),
         )
 
