@@ -12,7 +12,7 @@ def even_tuplet_rhythm(
     Makes even tuplet rhythm.
     """
 
-    assert denominator in (4, 8), repr(denominator)
+    assert denominator in (2, 4, 8), repr(denominator)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts,

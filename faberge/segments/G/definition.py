@@ -290,7 +290,7 @@ maker(
     baca.material_annotation_spanner(
         '1-2 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     baca.staff_position(-1),
