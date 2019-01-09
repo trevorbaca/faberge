@@ -153,7 +153,7 @@ maker(
     baca.dls_staff_padding(8),
     baca.markup(
         'woodblock',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.not_parts(
@@ -201,7 +201,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'crotale (bowed)',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     faberge.downbeat_attack(denominator=2),
@@ -213,7 +213,7 @@ maker(
     baca.dynamic('mp'),
     baca.markup(
         'woodblock',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.not_parts(

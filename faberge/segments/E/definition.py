@@ -125,6 +125,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
+        abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
     faberge.suffixed_colortrill_rhythm(),
@@ -153,7 +154,11 @@ maker(
 
 maker(
     ('rh', 6),
-    baca.dynamic('mp'),
+    baca.dynamic(
+        '(mp)',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.rhythm(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
@@ -198,15 +203,16 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'BD (struck)',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
         'A.2 -|',
         abjad.tweak('red').color,
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
-    baca.staff_position(0),
+    baca.staff_position(-1),
+    baca.stem_down(),
     faberge.downbeat_attack(
         denominator=2,
         ),
@@ -217,16 +223,17 @@ maker(
     baca.dynamic('f'),
     baca.markup(
         'castanets',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     )
 
 maker(
     ('perc', [4, 5, 6, 7]),
-    baca.staff_position(0),
+    baca.staff_position(1),
     baca.trill_spanner(
         None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
         ),
     faberge.downbeat_attack(),
@@ -237,15 +244,17 @@ maker(
     baca.material_annotation_spanner(
         '4-3 -|',
         abjad.tweak('darkgreen').color,
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
+    baca.stem_up(),
     )
 
 maker(
     ('perc', 8),
+    baca.dynamic('mp'),
     baca.markup(
         'woodblock',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.rhythm(
@@ -353,7 +362,11 @@ maker(
         abjad.tweak(7).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
-    baca.dynamic('"mf"'),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.markup(
         'col legno battuto',
         abjad.tweak(2).padding,

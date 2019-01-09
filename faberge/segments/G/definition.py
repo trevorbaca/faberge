@@ -107,7 +107,7 @@ maker(
     ('eh', (4, 5)),
     baca.markup(
         'airtone',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.staff_lines(1),
@@ -243,15 +243,15 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.markup(
         'castanets',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(
         None,
-        abjad.tweak(8).staff_padding,
         abjad.tweak(2).bound_details__right__padding,
+        abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     )
@@ -272,7 +272,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'BD (struck)',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.staff_position(-1),
@@ -284,7 +284,7 @@ maker(
     ('perc', (4, 5)),
     baca.markup(
         'BD (sponge)',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
@@ -293,6 +293,8 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.staff_position(-1),
+    baca.stem_down(),
     faberge.airtone_chain_rhythm(6, [2, 5]),
     )
 
@@ -316,7 +318,6 @@ maker(
         5,
         selector=baca.leaves().rleak()[-1],
         ),
-    baca.staff_position(0),
     )
 
 # vn
@@ -372,6 +373,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(6, [1, 4]),
     )
 
@@ -578,6 +580,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(6, [0, 3]),
     )
 

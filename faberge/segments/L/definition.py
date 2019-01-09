@@ -76,6 +76,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
+        abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
     faberge.suffixed_colortrill_rhythm(),
@@ -112,6 +113,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
+        abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(2.5).padding,
         map=baca.runs(),
         ),
@@ -243,7 +245,7 @@ maker(
     'perc',
     baca.markup(
         'castanets',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
@@ -255,7 +257,9 @@ maker(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
         ),
-    baca.staff_position(0),
+    baca.staff_position(1),
+    baca.stem_up(),
+    baca.tuplet_bracket_down(),
     )
 
 maker(

@@ -251,7 +251,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'BD (struck)',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(

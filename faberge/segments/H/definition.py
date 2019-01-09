@@ -146,7 +146,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
-        abjad.tweak(1.5).padding,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         selector=baca.leaves().rleak(),
         ),
@@ -169,7 +169,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
-        abjad.tweak(1.5).padding,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         selector=baca.leaves().rleak(),
         ),
@@ -181,8 +181,16 @@ maker(
     baca.material_annotation_spanner(
         '4-5 -|',
         abjad.tweak('darkgreen').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
+    baca.staff_lines(1),
+    baca.staff_position(1),
+    baca.stem_up(),
+    )
+
+maker(
+    ('perc', 3),
+    baca.staff_lines(5),
     )
 
 maker(
@@ -194,12 +202,13 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'crotale (bowed)',
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
         'A.1 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     faberge.downbeat_attack(denominator=2),
     )

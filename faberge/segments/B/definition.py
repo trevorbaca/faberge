@@ -613,6 +613,8 @@ maker(
     baca.dynamic('f'),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
@@ -630,6 +632,8 @@ maker(
     ('eh', (23, 30)),
     baca.dynamic('ff'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
@@ -641,6 +645,8 @@ maker(
     baca.markup('doubletrill'),
     baca.pitch('Eb4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
@@ -650,6 +656,8 @@ maker(
     baca.markup('doubletrill'),
     baca.pitch('E4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
@@ -675,6 +683,7 @@ maker(
     baca.clef('percussion'),
     baca.markup(
         'remove staple',
+        abjad.tweak(1.5).padding,
         boxed=True,
         selector=baca.leaf(0),
         ),

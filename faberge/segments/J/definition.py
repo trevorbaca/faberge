@@ -96,7 +96,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
-        abjad.tweak(1.5).padding,
+        abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
     faberge.suffixed_colortrill_rhythm(),
@@ -157,7 +157,7 @@ maker(
     ('eh', (3, 4)),
     baca.trill_spanner(
         None,
-        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(1.5).padding,
         map=baca.plts(),
         selector=baca.leaves().rleak(),
@@ -290,7 +290,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
-        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(7).staff_padding,
         map=baca.plts(),
         selector=baca.leaves().rleak(),
@@ -325,7 +325,7 @@ maker(
     ('perc', (5, 8)),
     baca.markup(
         'BD (superball)',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(

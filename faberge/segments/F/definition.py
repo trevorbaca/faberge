@@ -108,6 +108,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
+        abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
     faberge.suffixed_colortrill_rhythm(),
@@ -124,6 +125,10 @@ maker(
 maker(
     (['fl', 'cl'], 5),
     baca.espressivo(
+        abjad.tweak(
+            (0, 0),
+            tag=baca.enums.NOT_PARTS,
+            ).X_extent,
         selector=baca.pheads(),
         ),
     baca.hairpin(
@@ -320,24 +325,23 @@ maker(
     ('perc', (3, 4)),
     baca.markup(
         'castanets',
-        abjad.tweak(11.5).staff_padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
         '4-3 -|',
         abjad.tweak('darkgreen').color,
-        abjad.tweak(15.5).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     baca.staff_position(1),
     baca.stem_up(),
     baca.trill_spanner(
         None,
-        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
         selector=baca.leaves().rleak(),
         ),
-    baca.trill_spanner_staff_padding(8),
     )
 
 maker(
@@ -353,13 +357,13 @@ maker(
     ('perc', 5),
     baca.markup(
         'BD (superball)',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
         '3-7 -|',
         abjad.tweak('darkgreen').color,
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     baca.staff_position(-1),
@@ -372,7 +376,10 @@ maker(
     ('vn', 1),
     baca.dls_staff_padding(4),
     baca.dynamic('"f"'),
-    baca.markup('spazzolato'),
+    baca.markup(
+        'spazzolato',
+        abjad.tweak(2).padding,
+        ),
     baca.material_annotation_spanner(
         'A.3 -|',
         abjad.tweak('red').color,
@@ -504,7 +511,10 @@ maker(
 maker(
     ('va', 1),
     baca.dynamic('"f"'),
-    baca.markup('spazzolato'),
+    baca.markup(
+        'spazzolato',
+        abjad.tweak(2).padding,
+        ),
     baca.material_annotation_spanner(
         'A.3 -|',
         abjad.tweak('red').color,

@@ -198,6 +198,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
+        abjad.tweak(2).bound_details__right__padding,
         abjad.tweak(2.5).padding,
         map=baca.runs(),
         ),
@@ -261,14 +262,11 @@ maker(
 
 maker(
     ('perc', (1, 6)),
-    baca.markup(
-        '(castanets)',
-        abjad.tweak(2.5).padding,
-        ),
-    baca.staff_position(0),
+    baca.staff_position(1),
+    baca.stem_up(),
     baca.trill_spanner(
         None,
-        abjad.tweak(2.25).bound_details__right__padding,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
         ),
     )

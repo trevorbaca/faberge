@@ -87,6 +87,7 @@ maker(
     baca.clef('percussion'),
     baca.markup(
         'ratchet',
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.staff_lines(1),
