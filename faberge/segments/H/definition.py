@@ -202,6 +202,37 @@ maker(
         ),
     )
 
+maker(
+    ('eh', 4),
+    baca.rhythm(
+        r"{ \times 5/4 { c'4 c'4 c'4 c'4 } \times 5/4 { c'4 c'4 c'4 c'4 } }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('eh', (4, 5)),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
+        map=baca.plts(),
+        ),
+    baca.trill_spanner_staff_padding(5.5),
+    )
+
+maker(
+    ('eh', 5),
+    baca.rhythm(
+        r"{ c'4 c'4 c'4 c'4 r1 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # cl
 
 maker(
@@ -276,7 +307,7 @@ maker(
     'vn',
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
@@ -285,6 +316,24 @@ maker(
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', [1, 2, 3, 4, 5, 6, 7, 9]),
+    baca.hairpin(
+        'p niente o< p > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    baca.scp_spanner(
+        'ord. -> pont. -> ord.',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=False,
+        bookend=-1,
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves()[-3:],
         ),
     )
 
@@ -364,8 +413,9 @@ maker(
     'va',
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
+    baca.tuplet_bracket_up(),
     )
 
 maker(
@@ -378,9 +428,21 @@ maker(
             selector=baca.plts().filter_duration('==', (1, 3)),
             ),
         ),
+    baca.hairpin(
+        'p niente o< p > pp niente o< p > pp p',
+        pieces=baca.clparts([1]),
+        ),
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
         annotate_unpitched_music=True,
+        ),
+    baca.scp_spanner(
+        r'\baca-null-markup || ord. -> pont. -> ord. ||'
+        r' ord. -> pont. -> ord. || \baca-null-markup',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.clparts([1]),
+        selector=baca.leaves(),
         ),
     )
 
@@ -394,10 +456,22 @@ maker(
             selector=baca.plts().filter_duration('==', (5, 18)),
             ),
         ),
+    baca.hairpin(
+        'niente o< p > pp p niente o< p > pp p',
+        pieces=baca.clparts([1]),
+        ),
     baca.rhythm(
         r"\times 5/6 { \times 2/3 { c'2 c'2 c'2 } c'2"
         r" \times 2/3 { c'2 c'2 c'2 }c'2 }",
         annotate_unpitched_music=True,
+        ),
+    baca.scp_spanner(
+        r'ord. -> pont. -> ord. || \baca-null-markup ||'
+        r' ord. -> pont. -> ord. || \baca-null-markup ||',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.clparts([1]),
+        selector=baca.leaves(),
         ),
     )
 
@@ -411,9 +485,21 @@ maker(
             selector=baca.plts().filter_duration('==', (1, 3)),
             ),
         ),
+    baca.hairpin(
+        'p niente o< p > pp niente o< p > pp p',
+        pieces=baca.clparts([1]),
+        ),
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
         annotate_unpitched_music=True,
+        ),
+    baca.scp_spanner(
+        r'\baca-null-markup || ord. -> pont. -> ord. ||'
+        r' ord. -> pont. -> ord. || \baca-null-markup',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.clparts([1]),
+        selector=baca.leaves(),
         ),
     )
 
@@ -427,10 +513,22 @@ maker(
             selector=baca.plts().filter_duration('==', (5, 18)),
             ),
         ),
+    baca.hairpin(
+        'niente o< p > pp p p niente o< p > pp',
+        pieces=baca.clparts([1]),
+        ),
     baca.rhythm(
         r"\times 5/6 { \times 2/3 {c'2 c'2 c'2 } c'2"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
+        ),
+    baca.scp_spanner(
+        r'ord. -> pont. -> ord. || \baca-null-markup ||'
+        r' \baca-null-markup || ord. -> pont. -> ord. ||',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=False,
+        pieces=baca.clparts([1]),
+        selector=baca.leaves(),
         ),
     )
 
@@ -440,6 +538,24 @@ maker(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', [5, 6, 7, 9]),
+    baca.hairpin(
+        'p niente o< p > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    baca.scp_spanner(
+        'ord. -> pont. -> ord.',
+        abjad.tweak(8).staff_padding,
+        autodetect_right_padding=False,
+        bookend=-1,
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 2]),
+        selector=baca.leaves()[-3:],
         ),
     )
 
