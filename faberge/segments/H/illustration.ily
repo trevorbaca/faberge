@@ -227,46 +227,122 @@ H_Global_Skips = {                                                             %
 
 H_Flute_Music_Voice = {                                                        %! extern
 
+    % [H Flute_Music_Voice measure 220 / measure 1]                            %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \faberge-fl-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
+    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    ^ \baca-reapplied-indicator-markup "[“Fl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Flute”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "3-7"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+    - \tweak color #darkgreen                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \faberge-fl-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 5/6 {                                                               %! faberge_even_tuplet_rhythm
+
+        % [H Flute_Music_Voice measure 221 / measure 2]                        %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+    }                                                                          %! faberge_even_tuplet_rhythm
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Flute_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [H Flute_Music_Voice measure 220 / measure 1]                    %! _comment_measure_numbers
-            \set Staff.shortInstrumentName = \faberge-fl-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-            \override DynamicLineSpanner.staff-padding = #6                    %! baca_dls_staff_padding:OverrideCommand(1)
-            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            % [H Flute_Music_Voice measure 222 / measure 3]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             c'1 * 3                                                            %! _make_multimeasure_rest_container
-            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \p                                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-            ^ \baca-reapplied-indicator-markup "[“Fl.”]"                       %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-            ^ \baca-reapplied-indicator-markup "(“Flute”)"                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-            \set Staff.shortInstrumentName = \faberge-fl-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Flute_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [H Flute_Rest_Voice measure 220 / measure 1]                     %! _comment_measure_numbers
+            % [H Flute_Rest_Voice measure 222 / measure 3]                     %! _comment_measure_numbers
             R1 * 3                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [H Flute_Music_Voice measure 221 / measure 2]                            %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _make_measure_silences
-
-    % [H Flute_Music_Voice measure 222 / measure 3]                            %! _comment_measure_numbers
-    R1 * 3                                                                     %! _make_measure_silences
 
     % [H Flute_Music_Voice measure 223 / measure 4]                            %! _comment_measure_numbers
     R1 * 5/2                                                                   %! _make_measure_silences
@@ -574,46 +650,140 @@ H_English_Horn_Music_Staff = {                                                 %
 
 H_Clarinet_Music_Voice = {                                                     %! extern
 
-    % [H Clarinet_Music_Voice measure 220 / measure 1]                         %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \faberge-cl-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 3/1                                                                   %! _call_rhythm_commands
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Cl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \faberge-cl-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 6/7 {                                                               %! faberge_even_tuplet_rhythm
+
+        % [H Clarinet_Music_Voice measure 220 / measure 1]                     %! _comment_measure_numbers
+        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
+        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        ^ \baca-reapplied-indicator-markup "[“Cl.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+        ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "3-7"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \set Staff.shortInstrumentName = \faberge-cl-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'2                                                                    %! faberge_even_tuplet_rhythm
+        - \espressivo                                                          %! baca_espressivo:IndicatorCommand
+
+    }                                                                          %! faberge_even_tuplet_rhythm
 
     % [H Clarinet_Music_Voice measure 221 / measure 2]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    % [H Clarinet_Music_Voice measure 222 / measure 3]                         %! _comment_measure_numbers
-    R1 * 3/1                                                                   %! _call_rhythm_commands
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'2                                                                        %! faberge_even_tuplet_rhythm
+    - \espressivo                                                              %! baca_espressivo:IndicatorCommand
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Clarinet_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Clarinet_Music_Voice measure 222 / measure 3]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3                                                            %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Clarinet_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [H Clarinet_Rest_Voice measure 222 / measure 3]                  %! _comment_measure_numbers
+            R1 * 3                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [H Clarinet_Music_Voice measure 223 / measure 4]                         %! _comment_measure_numbers
-    R1 * 5/2                                                                   %! _call_rhythm_commands
+    R1 * 5/2                                                                   %! _make_measure_silences
 
     % [H Clarinet_Music_Voice measure 224 / measure 5]                         %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 2                                                                     %! _make_measure_silences
 
     % [H Clarinet_Music_Voice measure 225 / measure 6]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [H Clarinet_Music_Voice measure 226 / measure 7]                         %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 2                                                                     %! _make_measure_silences
 
     % [H Clarinet_Music_Voice measure 227 / measure 8]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+    R1 * 1/4                                                                   %! _make_measure_silences
 
     % [H Clarinet_Music_Voice measure 228 / measure 9]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1079,23 +1249,47 @@ H_Violin_Music_Voice = {                                                       %
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-2 / 3-3"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1107,17 +1301,41 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1128,17 +1346,41 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1150,17 +1392,41 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1171,17 +1437,41 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1192,9 +1482,21 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1205,17 +1507,41 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1247,10 +1573,22 @@ H_Violin_Music_Voice = {                                                       %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
+
+        }
 
     }
 
@@ -1318,19 +1656,43 @@ H_Viola_Music_Voice = {                                                        %
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-2 / 3-3"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
+
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
@@ -1341,18 +1703,42 @@ H_Viola_Music_Voice = {                                                        %
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
 
-        % [H Viola_Music_Voice measure 221 / measure 2]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            % [H Viola_Music_Voice measure 221 / measure 2]                    %! _comment_measure_numbers
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
@@ -1364,30 +1750,66 @@ H_Viola_Music_Voice = {                                                        %
 
         % [H Viola_Music_Voice measure 222 / measure 3]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        c'2
+        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
+
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
-        - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
-
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
 
     }
 
     \tweak text #tuplet-number::calc-fraction-text
     \times 5/6 {
 
-        % [H Viola_Music_Voice measure 223 / measure 4]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            % [H Viola_Music_Voice measure 223 / measure 4]                    %! _comment_measure_numbers
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
@@ -1397,9 +1819,21 @@ H_Viola_Music_Voice = {                                                        %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1410,17 +1844,41 @@ H_Viola_Music_Voice = {                                                        %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1431,9 +1889,21 @@ H_Viola_Music_Voice = {                                                        %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1444,17 +1914,41 @@ H_Viola_Music_Voice = {                                                        %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+        }
 
     }
 
@@ -1486,10 +1980,22 @@ H_Viola_Music_Voice = {                                                        %
         c'2
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
-        :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \times 2/3 {
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+
+            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
+            c'2
+            :32                                                                %! baca_stem_tremolo:IndicatorCommand
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
+
+        }
 
     }
 

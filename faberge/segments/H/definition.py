@@ -56,6 +56,14 @@ maker(
 # fl
 
 maker(
+    ('fl', (1, 2)),
+    faberge.even_tuplet_rhythm(
+        denominator=2,
+        extra_counts=[0, 1],
+        ),
+    )
+
+maker(
     ('fl', 5),
     baca.hairpin(
         'o< mp >o niente',
@@ -106,6 +114,48 @@ maker(
         ),
     )
 
+# fl, cl
+
+maker(
+    (['fl', 'cl'], (1, 2)),
+    baca.espressivo(
+        selector=baca.pheads(),
+        ),
+    baca.hairpin(
+        'o< mp >o niente',
+        map=baca.cmgroups(),
+        pieces=baca.leaves().partition_by_counts([2], overhang=True),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.material_annotation_spanner(
+        '3-7 -|',
+        abjad.tweak('darkgreen').color,
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+#maker(
+#    (['fl', 'cl'], [1, 2]),
+#    baca.dynamic_text_self_alignment_x(
+#        -1,
+#        selector=baca.pleaf(2),
+#        ),
+#    baca.dynamic_text_self_alignment_x(
+#        -0.75,
+#        selector=baca.pleaf(-1),
+#        ),
+#    baca.glissando(
+#        allow_repeats=True,
+#        selector=baca.pleaves()[2:], 
+#        ),
+#    baca.trill_spanner(
+#        None,
+#        abjad.tweak(2).bound_details__right__padding,
+#        selector=baca.leaves()[:3],
+#        ),
+#    faberge.suffixed_colortrill_rhythm(),
+#    )
+
 # tutti
 
 maker(
@@ -152,8 +202,15 @@ maker(
         ),
     )
 
-
 # cl
+
+maker(
+    ('cl', (1, 2)),
+    faberge.even_tuplet_rhythm(
+        denominator=2,
+        extra_counts=[1, 0],
+        ),
+    )
 
 # pf
 
@@ -219,22 +276,33 @@ maker(
     'vn',
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
 maker(
     ('vn', 1),
     baca.rhythm(
-        "{ c'2 c'1 c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('vn', [(1, 7), 9]),
+    baca.quadruple_staccato(
+        selector=baca.plts()[abjad.index([0], 4)],
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts()[abjad.index([0], 4, inverted=True)],
         ),
     )
 
 maker(
     ('vn', 2),
     baca.rhythm(
-        r"\times 5/6 { c'2 c'1 c'2 c'1 }",
+        r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -242,7 +310,7 @@ maker(
 maker(
     ('vn', 3),
     baca.rhythm(
-        "{ c'2 c'1 c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -250,7 +318,8 @@ maker(
 maker(
     ('vn', 4),
     baca.rhythm(
-        r"\times 5/6 { c'2 c'1 c'2 c'1 }",
+        r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -258,7 +327,8 @@ maker(
 maker(
     ('vn', 5),
     baca.rhythm(
-        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -266,7 +336,7 @@ maker(
 maker(
     ('vn', 6),
     baca.rhythm(
-        r"{ c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -274,7 +344,8 @@ maker(
 maker(
     ('vn', 7),
     baca.rhythm(
-        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -282,20 +353,8 @@ maker(
 maker(
     ('vn', 9),
     baca.rhythm(
-        r"{ c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
-        ),
-    )
-
-# vn, va
-
-maker(
-    (['vn', 'va'], [(1, 7), 9]),
-    baca.quadruple_staccato(
-        selector=baca.plts().filter_duration('==', (1, 2), preprolated=True),
-        ),
-    baca.stem_tremolo(
-        selector=baca.plts().filter_duration('==', (1, 1), preprolated=True),
         ),
     )
 
@@ -305,38 +364,72 @@ maker(
     'va',
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
 maker(
     ('va', 1),
+    baca.chunk(
+        baca.quadruple_staccato(
+            selector=baca.plts().filter_duration('==', (1, 2)),
+            ),
+        baca.stem_tremolo(
+            selector=baca.plts().filter_duration('==', (1, 3)),
+            ),
+        ),
     baca.rhythm(
-        "{ c'2 c'1 c'1 c'2 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
         annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('va', 2),
+    baca.chunk(
+        baca.quadruple_staccato(
+            selector=baca.plts().filter_duration('==', (5, 12)),
+            ),
+        baca.stem_tremolo(
+            selector=baca.plts().filter_duration('==', (5, 18)),
+            ),
+        ),
     baca.rhythm(
-        r"\times 5/6 { c'1 c'2 c'1 c'2 }",
+        r"\times 5/6 { \times 2/3 { c'2 c'2 c'2 } c'2"
+        r" \times 2/3 { c'2 c'2 c'2 }c'2 }",
         annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('va', 3),
+    baca.chunk(
+        baca.quadruple_staccato(
+            selector=baca.plts().filter_duration('==', (1, 2)),
+            ),
+        baca.stem_tremolo(
+            selector=baca.plts().filter_duration('==', (1, 3)),
+            ),
+        ),
     baca.rhythm(
-        "{ c'1 c'2 c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
         annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('va', 4),
+    baca.chunk(
+        baca.quadruple_staccato(
+            selector=baca.plts().filter_duration('==', (5, 12)),
+            ),
+        baca.stem_tremolo(
+            selector=baca.plts().filter_duration('==', (5, 18)),
+            ),
+        ),
     baca.rhythm(
-        r"\times 5/6 { c'1 c'2 c'2 c'1 }",
+        r"\times 5/6 { \times 2/3 {c'2 c'2 c'2 } c'2"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -344,15 +437,30 @@ maker(
 maker(
     ('va', 5),
     baca.rhythm(
-        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('va', (5, 9)),
+    baca.quadruple_staccato(
+        selector=baca.plts(
+            exclude=baca.enums.HIDDEN,
+            )[abjad.index([0], 4)],
+        ),
+    baca.stem_tremolo(
+        selector=baca.plts(
+            exclude=baca.enums.HIDDEN,
+            )[abjad.index([0], 4, inverted=True)],
         ),
     )
 
 maker(
     ('va', 6),
     baca.rhythm(
-        r"{ c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -360,7 +468,8 @@ maker(
 maker(
     ('va', 7),
     baca.rhythm(
-        r"\times 8/12 { c'2 c'1 c'2 c'1 }",
+        r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
+        r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
@@ -368,7 +477,7 @@ maker(
 maker(
     ('va', 9),
     baca.rhythm(
-        r"{ c'2 c'1 }",
+        r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
     )
