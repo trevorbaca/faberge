@@ -158,6 +158,26 @@ maker(
     faberge.bcl_color_fingering_rhythm(),
     )
 
+maker(
+    ('cl', (2, 5)),
+    baca.hairpin(
+        'p < mp > p',
+        map=baca.runs(),
+        pieces=baca.plts().partition_by_ratio((1, 1)),
+        selector=baca.tleaves()[:-1],
+        ),
+    )
+
+maker(
+    ('cl', (6, 8)),
+    baca.hairpin(
+        'pp < p > pp',
+        map=baca.runs(),
+        pieces=baca.plts().partition_by_ratio((1, 1)),
+        selector=baca.tleaves()[:-1],
+        ),
+    )
+
 # eh
 
 maker(
