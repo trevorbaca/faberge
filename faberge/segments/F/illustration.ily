@@ -623,6 +623,7 @@ F_English_Horn_Music_Voice = {                                                 %
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert TrillSpanner.staff-padding                                     %! baca_trill_spanner_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_even_tuplet_rhythm
 
@@ -635,7 +636,6 @@ F_English_Horn_Music_Voice = {                                                 %
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
             \stopTrillSpan                                                     %! PHANTOM:_style_phantom_measures(5):baca_trill_spanner:SpannerIndicatorCommand(2)
-            \revert TrillSpanner.staff-padding                                 %! PHANTOM:_style_phantom_measures(5):baca_trill_spanner_staff_padding:OverrideCommand(2)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

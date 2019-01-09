@@ -69,6 +69,10 @@ maker(
         allow_repeats=True,
         selector=baca.pleaves()[2:], 
         ),
+    baca.hairpin(
+        'o< mp >o p > pp',
+        pieces=baca.lparts([1, 1, 2]),
+        ),
     baca.material_annotation_spanner(
         '2-1 -|',
         abjad.tweak('red').color,
@@ -79,14 +83,8 @@ maker(
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
+    baca.tuplet_bracket_down(),
     faberge.suffixed_colortrill_rhythm(),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
     )
 
 # eh
@@ -214,7 +212,7 @@ maker(
 
 maker(
     ('rh', 3),
-    baca.dynamic('mp'),
+    baca.dynamic('(mp)'),
     baca.rhythm(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
@@ -243,6 +241,12 @@ maker(
 
 maker(
     'perc',
+    baca.dls_staff_padding(3),
+    baca.dynamic(
+        'f-sempre',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.markup(
         'castanets',
         abjad.tweak(1.5).padding,
@@ -250,16 +254,16 @@ maker(
         ),
     baca.material_annotation_spanner(
         '4-3 / 4-4 =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(13).staff_padding,
         ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
+        abjad.tweak(3).padding,
         map=baca.plts(),
         ),
     baca.staff_position(1),
     baca.stem_up(),
-    baca.tuplet_bracket_down(),
     )
 
 maker(
@@ -269,8 +273,22 @@ maker(
 
 maker(
     ('perc', 4),
+    baca.hairpin(
+        'p -- f',
+        selector=baca.plts()[1:].rleak(),
+        ),
+    baca.trill_spanner_staff_padding(8),
     faberge.even_tuplet_rhythm(
         extra_counts=[1],
+        ),
+    )
+
+maker(
+    ('perc', (6, 8)),
+    baca.dynamic(
+        'p-sempre',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
         ),
     )
 
