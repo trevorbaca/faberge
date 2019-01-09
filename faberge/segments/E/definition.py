@@ -9,7 +9,7 @@ import os
 ###############################################################################
 
 stage_markup = (
-    ('[1-5 (3-1) (4-3) (5-2)]', 1),
+    ('[1-5 (A.2) (3-1) (4-3) (5-2)]', 1),
     ('[2-1]', 6),
     )
 
@@ -61,7 +61,8 @@ maker(
 
 maker(
     'fl',
-    baca.dls_staff_padding(6.5),
+    baca.dls_staff_padding(8),
+    baca.tuplet_bracket_down(),
     )
 
 maker(
@@ -118,6 +119,10 @@ maker(
         allow_repeats=True,
         selector=baca.pleaves()[2:], 
         ),
+    baca.hairpin(
+        'o< mp >o p > pp',
+        pieces=baca.lparts([1, 1, 2]),
+        ),
     baca.trill_spanner(
         None,
         selector=baca.leaves()[:3],
@@ -130,11 +135,13 @@ maker(
 # cl
 
 maker(
-    ('cl', (1, 8)),
+    'cl',
+    baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         '1-5 / 2-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.tuplet_bracket_down(),
     )
 
 # pf
@@ -154,12 +161,8 @@ maker(
     )
 
 maker(
-    ('rh', (6, 7)),
-    baca.beam(),
-    )
-
-maker(
     ('rh', (6, 8)),
+    baca.beam(),
     baca.material_annotation_spanner(
         '2-1 =|',
         abjad.tweak(8).staff_padding,
@@ -168,12 +171,14 @@ maker(
 
 maker(
     ('rh', 7),
-    faberge.downbeat_attack(denominator=8),
+    baca.rhythm(
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
     )
 
 maker(
     ('rh', 8),
-    baca.beam(),
     baca.rhythm(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
@@ -183,9 +188,36 @@ maker(
 # perc
 
 maker(
+    'perc',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('perc', 2),
+    baca.dynamic('mf'),
+    baca.laissez_vibrer(),
+    baca.markup(
+        'BD (struck)',
+        abjad.tweak(2).padding,
+        boxed=True,
+        ),
+    baca.material_annotation_spanner(
+        'A.2 -|',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        ),
+    baca.staff_position(0),
+    faberge.downbeat_attack(
+        denominator=2,
+        ),
+    )
+
+maker(
     ('perc', 4),
+    baca.dynamic('f'),
     baca.markup(
         'castanets',
+        abjad.tweak(2).padding,
         boxed=True,
         ),
     )
@@ -205,17 +237,23 @@ maker(
     baca.material_annotation_spanner(
         '4-3 -|',
         abjad.tweak('darkgreen').color,
-        # unusual staff-padding because 1-line staff:
-        abjad.tweak(7).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
 maker(
     ('perc', 8),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
+    baca.markup(
+        'woodblock',
+        abjad.tweak(2).padding,
+        boxed=True,
         ),
-    baca.staff_lines(5),
+    baca.rhythm(
+        r"{ \times 4/5 { c'4 c'4 c'4 c'4 c'4 }"
+        r" \times 4/5 { c'4 c'4 c'4 c'4 c'4 } }",
+        annotate_unpitched_music=True,
+        ),
+    baca.staff_position(0),
     )
 
 # vn
