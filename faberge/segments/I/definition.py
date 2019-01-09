@@ -88,7 +88,7 @@ maker(
         ),
     baca.trill_spanner(
         None,
-        abjad.tweak(1.5).padding,
+        abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
     faberge.suffixed_colortrill_rhythm(),
@@ -138,6 +138,11 @@ maker(
 maker(
     ('perc', 4),
     baca.bar_extent((-2, 2)),
+    baca.markup(
+        'woodblock',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        ),
     baca.staff_lines(1),
     baca.staff_position(0),
     faberge.even_tuplet_rhythm(
@@ -151,7 +156,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         'BD (struck)',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     baca.material_annotation_spanner(
@@ -171,6 +176,11 @@ maker(
 
 maker(
     ('perc', 8),
+    baca.markup(
+        'woodblock',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        ),
     baca.not_parts(
         baca.bar_extent_persistent(
             (0, 2),

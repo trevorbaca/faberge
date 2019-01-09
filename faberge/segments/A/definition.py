@@ -502,6 +502,8 @@ maker(
     baca.dynamic('f'),
     baca.pitches('E4 Eb~4 E~4 E4 E#+4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
@@ -510,14 +512,17 @@ maker(
     ('eh', (27, 30)),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
 
 maker(
     ('eh', (41, 46)),
-    baca.new(
-        baca.trill_spanner(),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
@@ -527,6 +532,8 @@ maker(
     ('eh', (57, 62)),
     baca.pitches('A#4 A+4 A#+4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
@@ -535,7 +542,11 @@ maker(
     ('eh', (81, 88)),
     baca.note_head_style_cross(),
     baca.dynamic('"ff"'),
-    baca.markup('keynoise', boxed=True),
+    baca.markup(
+        'keynoise',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        ),
     faberge.keynoise_pitches(rotation=0)
     )
 
@@ -544,6 +555,8 @@ maker(
     baca.dynamic('f'),
     baca.pitches('C4 C+4 C~4 C#4'),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
     )
@@ -652,7 +665,9 @@ maker(
         selector=baca.ptails(),
         ),
     baca.markup(
-        baca.Markup('BOWED CROTALES').boxed(),
+        'crotale (bowed)',
+        abjad.tweak(1.5).padding,
+        boxed=True,
         selector=baca.pleaf(0),
         ),
     )
@@ -751,15 +766,22 @@ maker(
         ),
     baca.clef('percussion'),
     baca.dynamic('ff'),
-    baca.markup('castanets', boxed=True),
     baca.markup(
-        'bass drum',
+        'castanets',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        ),
+    baca.markup(
+        'BD (struck)',
+        abjad.tweak(1.5).padding,
         boxed=True,
         selector=baca.plt(-1),
         ),
     baca.pitches('D4 D4 B3', exact=True),
     baca.staff_lines(2),
     baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
         map=baca.plts()[:2],
         ),
     )
@@ -772,7 +794,11 @@ maker(
         ),
     baca.pitch('F#4'),
     baca.staff_lines(5),
-    baca.markup('bowed crotales', boxed=True),
+    baca.markup(
+        'crotale (bowed)',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        ),
     faberge.dal_niente_hairpins('f'),
     )
 

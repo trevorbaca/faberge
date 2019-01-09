@@ -145,7 +145,7 @@ maker(
     ('perc', 1),
     baca.markup(
         'woodblock',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         boxed=True,
         ),
     faberge.even_tuplet_rhythm(
