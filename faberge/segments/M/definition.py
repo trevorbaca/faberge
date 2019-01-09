@@ -221,7 +221,6 @@ maker(
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
-        abjad.tweak(2.5).padding,
         map=baca.runs(),
         ),
     )
