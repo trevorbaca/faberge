@@ -141,7 +141,12 @@ maker(
     baca.markup(
         'woodblock',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
+        ),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
         ),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -157,6 +162,7 @@ maker(
     baca.markup(
         'BD (struck)',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
         ),
     baca.material_annotation_spanner(
@@ -179,7 +185,12 @@ maker(
     baca.markup(
         'woodblock',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
+        ),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
         ),
     baca.not_parts(
         baca.bar_extent_persistent(

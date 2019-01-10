@@ -378,7 +378,7 @@ maker(
     baca.dynamic('"f"'),
     baca.markup(
         'spazzolato',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         'A.3 -|',
@@ -405,7 +405,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     faberge.clb_rhythm(
         extra_counts=[3],
@@ -513,7 +513,7 @@ maker(
     baca.dynamic('"f"'),
     baca.markup(
         'spazzolato',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         'A.3 -|',
@@ -543,7 +543,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     faberge.clb_rhythm(
         extra_counts=[2],
@@ -609,7 +609,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-2 -|',

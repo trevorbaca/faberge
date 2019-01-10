@@ -87,10 +87,6 @@ maker(
         measures=(11, 12),
         ),
     baca.new(
-        baca.markup(
-            'fluttertongue',
-            abjad.tweak(1.5).padding,
-            ),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -98,10 +94,6 @@ maker(
         measures=(13, 22),
         ),
     baca.new(
-        baca.markup(
-            'non flutt.',
-            abjad.tweak(1.5).padding,
-            ),
         faberge.niente_swells('mf'),
         measures=(23, 26),
         ),
@@ -114,10 +106,6 @@ maker(
         measures=(31, 36),
         ),
     baca.new(
-        baca.markup(
-            'fluttertongue',
-            abjad.tweak(1.5).padding,
-            ),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -125,10 +113,6 @@ maker(
         measures=(37, 44),
         ),
     baca.new(
-        baca.markup(
-            'non flutt.',
-            abjad.tweak(1.5).padding,
-            ),
         faberge.niente_swells('mf'),
         measures=(45, 48),
         ),

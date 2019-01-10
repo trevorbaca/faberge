@@ -1805,8 +1805,6 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 109 / measure 13]                           %! _comment_measure_numbers
     g'2.                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { fluttertongue }                                                %! baca_markup:IndicatorCommand
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2118,8 +2116,6 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 119 / measure 23]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge_glow_rhythm
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "non flutt." }                                                 %! baca_markup:IndicatorCommand
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2378,8 +2374,6 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 133 / measure 37]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { fluttertongue }                                                %! baca_markup:IndicatorCommand
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2560,8 +2554,6 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 141 / measure 45]                           %! _comment_measure_numbers
     g''1                                                                       %! faberge_glow_rhythm
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "non flutt." }                                                 %! baca_markup:IndicatorCommand
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
