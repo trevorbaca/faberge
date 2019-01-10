@@ -82,7 +82,7 @@ maker(
     baca.material_annotation_spanner(
         '1-2 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     )
@@ -108,6 +108,7 @@ maker(
     baca.markup(
         'airtone',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
         ),
     baca.staff_lines(1),
@@ -244,6 +245,7 @@ maker(
     baca.markup(
         'castanets',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
         ),
     baca.staff_position(1),
@@ -273,6 +275,7 @@ maker(
     baca.markup(
         'BD (struck)',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
         ),
     baca.staff_position(-1),
@@ -352,7 +355,7 @@ maker(
     ('vn', (1, 3)),
     baca.material_annotation_spanner(
         '2-4 =|',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -370,7 +373,7 @@ maker(
     baca.material_annotation_spanner(
         '1-2 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     baca.staff_position(0),
@@ -475,7 +478,7 @@ maker(
     baca.material_annotation_spanner(
         'A.4 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -559,7 +562,7 @@ maker(
     ('vc', (1, 3)),
     baca.material_annotation_spanner(
         '2-4 =|',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -577,7 +580,7 @@ maker(
     baca.material_annotation_spanner(
         '1-2 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     baca.staff_position(0),
@@ -603,7 +606,7 @@ maker(
     ('vc', (6, 10)),
     baca.material_annotation_spanner(
         '3-1 =|',
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
