@@ -104,6 +104,12 @@ maker(
 
 # perc
 
+maker(
+    ('perc', 1),
+    baca.staff_position(0),
+    faberge.even_tuplet_rhythm(),
+    )
+
 # vn
 
 maker(
