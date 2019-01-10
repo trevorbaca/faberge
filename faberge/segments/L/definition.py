@@ -207,7 +207,7 @@ maker(
     faberge.bcl_color_fingering_rhythm(),
     )
 
-# pf
+# rh
 
 maker(
     ('rh', 3),
