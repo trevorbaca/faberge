@@ -354,7 +354,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-3 =|',

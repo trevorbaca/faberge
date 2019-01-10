@@ -272,7 +272,7 @@ maker(
     baca.dls_staff_padding(9),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-1 =|',
@@ -325,7 +325,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-2 =|',
@@ -405,7 +405,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-2 =|',
@@ -430,7 +430,7 @@ maker(
     baca.dls_staff_padding(9),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-1 =|',
@@ -483,7 +483,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2.5).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-2 =|',

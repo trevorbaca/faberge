@@ -72,10 +72,6 @@ maker(
         pieces=baca.pleaves().partition_by_counts([1], cyclic=True),
         selector=baca.leaves(),
         ),
-    baca.markup(
-        'flutt.',
-        abjad.tweak(2.5).padding,
-        ),
     baca.material_annotation_spanner(
         '5-2 -|',
         abjad.tweak('darkgreen').color,
@@ -369,7 +365,7 @@ maker(
         ),
     baca.markup(
         'col legno battuto',
-        abjad.tweak(2).padding,
+        abjad.tweak(1.5).padding,
         ),
     baca.material_annotation_spanner(
         '4-3 -|',
