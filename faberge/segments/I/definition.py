@@ -96,6 +96,37 @@ maker(
 
 # eh
 
+maker(
+    ('eh', 4),
+    faberge.even_tuplet_rhythm(
+        extra_counts=[1],
+        ),
+    )
+
+maker(
+    ('eh', (4, 5)),
+    baca.dynamic('f'),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
+        map=baca.plts(),
+        ),
+    baca.trill_spanner_staff_padding(5.5),
+    )
+
+maker(
+    ('eh', 5),
+    baca.rhythm(
+        r"{ c'4 c'4 r1.. }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # cl
 
 # rh
@@ -114,7 +145,11 @@ maker(
         selector=baca.pleaf(-1),
         ),
     baca.beam(),
-    baca.dynamic('mp'),
+    baca.dynamic(
+        'mp',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.material_annotation_spanner(
         '2-4 -|',
         abjad.tweak('red').color,
@@ -136,23 +171,8 @@ maker(
 # perc
 
 maker(
-    ('perc', 4),
-    baca.bar_extent((-2, 2)),
-    baca.markup(
-        'woodblock',
-        abjad.tweak(1.5).padding,
-        abjad.tweak(0).parent_alignment_X,
-        boxed=True,
-        ),
-    baca.material_annotation_spanner(
-        'MM =|',
-        abjad.tweak(8).staff_padding,
-        ),
-    baca.staff_lines(1),
-    baca.staff_position(0),
-    faberge.even_tuplet_rhythm(
-        extra_counts=[1],
-        ),
+    'perc',
+    baca.dls_staff_padding(6),
     )
 
 maker(
@@ -168,11 +188,14 @@ maker(
     baca.material_annotation_spanner(
         'A.2 -|',
         abjad.tweak('red').color,
-        abjad.tweak(10.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
+    baca.staff_lines(1),
     baca.staff_position(-1),
     baca.stem_down(),
-    faberge.downbeat_attack(),
+    faberge.downbeat_attack(
+        denominator=2,
+        ),
     )
 
 maker(
@@ -182,6 +205,7 @@ maker(
 
 maker(
     ('perc', 8),
+    baca.dynamic('f'),
     baca.markup(
         'woodblock',
         abjad.tweak(1.5).padding,
@@ -278,11 +302,15 @@ maker(
         selector=baca.pleaf(3),
         ),
     baca.beam(),
-    baca.dynamic('mp'),
+    baca.dynamic(
+        'mp-ancora',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-0.75, 0)).extra_offset,
+        ),
     baca.material_annotation_spanner(
         '2-4 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2)),
@@ -452,11 +480,16 @@ maker(
         'XFB =|',
         abjad.tweak(3).staff_padding,
         ),
+    baca.dynamic(
+        'mp-ancora',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         'A.4 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     )
 
@@ -573,11 +606,15 @@ maker(
         selector=baca.pleaf(-3),
         ),
     baca.beam(),
-    baca.dynamic('mp'),
+    baca.dynamic(
+        'mp',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.material_annotation_spanner(
         '2-4 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         ),
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2)),

@@ -579,46 +579,141 @@ I_Flute_Music_Staff = {                                                        %
 
 I_English_Horn_Music_Voice = {                                                 %! extern
 
-    % [I English_Horn_Music_Voice measure 229 / measure 1]                     %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 3/2                                                                   %! _call_rhythm_commands
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "English_Horn_Music_Voice"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [I English_Horn_Music_Voice measure 229 / measure 1]             %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-eh-markup                %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+            \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+            \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+            ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                  %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"               %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)     %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-eh-markup                %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+            \override Staff.Clef.color = #(x11-color 'OliveDrab)               %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "English_Horn_Rest_Voice"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [I English_Horn_Rest_Voice measure 229 / measure 1]              %! _comment_measure_numbers
+            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [I English_Horn_Music_Voice measure 230 / measure 2]                     %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [I English_Horn_Music_Voice measure 231 / measure 3]                     %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
-    % [I English_Horn_Music_Voice measure 232 / measure 4]                     %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
+    \times 4/5 {                                                               %! faberge_even_tuplet_rhythm
 
-    % [I English_Horn_Music_Voice measure 233 / measure 5]                     %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _call_rhythm_commands
+        % [I English_Horn_Music_Voice measure 232 / measure 4]                 %! _comment_measure_numbers
+        \override TrillSpanner.staff-padding = #5.5                            %! baca_trill_spanner_staff_padding:OverrideCommand(1)
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "MM"                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    % [I English_Horn_Music_Voice measure 234 / measure 6]                     %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4                                                                    %! faberge_even_tuplet_rhythm
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+    }                                                                          %! faberge_even_tuplet_rhythm
+
+    {
+
+        % [I English_Horn_Music_Voice measure 233 / measure 5]                 %! _comment_measure_numbers
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
+        c'4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        r1..
+        \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \revert TrillSpanner.staff-padding                                     %! baca_trill_spanner_staff_padding:OverrideCommand(2)
+
+    }
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "English_Horn_Music_Voice"                            %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [I English_Horn_Music_Voice measure 234 / measure 6]             %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "English_Horn_Rest_Voice"                             %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [I English_Horn_Rest_Voice measure 234 / measure 6]              %! _comment_measure_numbers
+            R1 * 3/2                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [I English_Horn_Music_Voice measure 235 / measure 7]                     %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 3/2                                                                   %! _make_measure_silences
 
     % [I English_Horn_Music_Voice measure 236 / measure 8]                     %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _call_rhythm_commands
+    R1 * 5/4                                                                   %! _make_measure_silences
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1079,7 +1174,9 @@ I_Piano_RH_Music_Voice = {                                                     %
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''8
+        - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1351,6 +1448,7 @@ I_Percussion_Music_Voice = {                                                   %
             \stopStaff                                                         %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.line-count = 5                   %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
             \startStaff                                                        %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+            \override DynamicLineSpanner.staff-padding = #6                    %! baca_dls_staff_padding:OverrideCommand(1)
             \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1385,43 +1483,16 @@ I_Percussion_Music_Voice = {                                                   %
     % [I Percussion_Music_Voice measure 231 / measure 3]                       %! _comment_measure_numbers
     R1 * 3/2                                                                   %! _make_measure_silences
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 4/5 {                                                               %! faberge_even_tuplet_rhythm
-
-        % [I Percussion_Music_Voice measure 232 / measure 4]                   %! _comment_measure_numbers
-        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \once \override Staff.BarLine.bar-extent = #'(-2 . 2)                  %! baca_bar_extent:OverrideCommand(1)
-        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b'4                                                                    %! faberge_even_tuplet_rhythm
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \override                                                          %! baca_markup:IndicatorCommand
-                #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
-                \box                                                           %! baca_markup:IndicatorCommand
-                    woodblock                                                  %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
-        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "MM"                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-
-        b'4                                                                    %! faberge_even_tuplet_rhythm
-
-        b'4                                                                    %! faberge_even_tuplet_rhythm
-
-        b'4                                                                    %! faberge_even_tuplet_rhythm
-
-        b'4                                                                    %! faberge_even_tuplet_rhythm
-
-    }                                                                          %! faberge_even_tuplet_rhythm
+    % [I Percussion_Music_Voice measure 232 / measure 4]                       %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [I Percussion_Music_Voice measure 233 / measure 5]                       %! _comment_measure_numbers
+    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \once \override Stem.direction = #down                                     %! baca_stem_down:OverrideCommand(1)
-    a'4                                                                        %! faberge_downbeat_attack
+    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+    a'2                                                                        %! faberge_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
@@ -1433,15 +1504,14 @@ I_Percussion_Music_Voice = {                                                   %
             \box                                                               %! baca_markup:IndicatorCommand
                 "BD (struck)"                                                  %! baca_markup:IndicatorCommand
         }                                                                      %! baca_markup:IndicatorCommand
-    \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A.2"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #10.5                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
-    r\breve
+    r1..
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1481,6 +1551,8 @@ I_Percussion_Music_Voice = {                                                   %
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         b'4                                                                    %! faberge_even_tuplet_rhythm
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
@@ -1501,6 +1573,7 @@ I_Percussion_Music_Voice = {                                                   %
 
         \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:-PARTS:IndicatorCommand
         b'4                                                                    %! faberge_even_tuplet_rhythm
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_even_tuplet_rhythm
 
@@ -1741,15 +1814,17 @@ I_Violin_Music_Voice = {                                                       %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak extra-offset #'(-0.75 . 0)                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        \baca-mp-ancora                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-4"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         r8
@@ -1812,8 +1887,8 @@ I_Violin_Music_Voice = {                                                       %
         % [I Violin_Music_Voice measure 234 / measure 6]                       %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -2157,6 +2232,10 @@ I_Viola_Music_Voice = {                                                        %
     % [I Viola_Music_Voice measure 233 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
     c'1.
+    - \tweak X-extent #'(0 . 0)                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak extra-offset #'(-1 . 0)                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-mp-ancora                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
     - \abjad-dashed-line-with-hook                                             %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "XFB"                                       %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(1)
@@ -2167,7 +2246,7 @@ I_Viola_Music_Voice = {                                                        %
     - \baca-text-spanner-left-text "A.4"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak color #red                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5.5                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
@@ -2179,8 +2258,8 @@ I_Viola_Music_Voice = {                                                        %
         % [I Viola_Music_Voice measure 234 / measure 6]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'2
-        - \tweak color #(x11-color 'DeepPink1)                                 %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! REDUNDANT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
         \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca_bow_speed_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
@@ -2448,7 +2527,9 @@ I_Cello_Music_Voice = {                                                        %
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c'8.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
@@ -2457,7 +2538,7 @@ I_Cello_Music_Voice = {                                                        %
         - \baca-text-spanner-left-text "2-4"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         r16

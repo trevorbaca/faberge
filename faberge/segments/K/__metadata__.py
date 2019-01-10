@@ -168,7 +168,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='niente',
+                                value='\\baca-pp-whiteout',
                                 ),
                             ],
                         ),
