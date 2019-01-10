@@ -66,7 +66,50 @@ breaks = baca.breaks(
         [171, 20, (17,)],
         number=16,
         ),
-    partial_score=176,
+    baca.page(
+        [180, 20, (17,)],
+        number=17,
+        ),
+    baca.page(
+        [190, 20, (17,)],
+        number=18,
+        ),
+    baca.page(
+        [200, 20, (17,)],
+        number=19,
+        ),
+    baca.page(
+        [210, 20, (17,)],
+        number=20,
+        ),
+    baca.page(
+        [220, 20, (17,)],
+        number=21,
+        ),
+    baca.page(
+        [230, 20, (17,)],
+        number=22,
+        ),
+    baca.page(
+        [240, 20, (17,)],
+        number=23,
+        ),
+    baca.page(
+        [250, 20, (17,)],
+        number=24,
+        ),
+    baca.page(
+        [260, 20, (17,)],
+        number=25,
+        ),
+    baca.page(
+        [270, 20, (17,)],
+        number=26,
+        ),
+    baca.page(
+        [280, 20, (17,)],
+        number=27,
+        ),
     )
 
 spacing = baca.scorewide_spacing(
