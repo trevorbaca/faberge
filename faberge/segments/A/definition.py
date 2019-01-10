@@ -106,7 +106,6 @@ maker(
 
 maker(
     ('eh', (1, 12)),
-    baca.clef('treble'),
     baca.staff_lines(5),
     )
 
@@ -411,7 +410,10 @@ maker(
 maker(
     ('fl', (1, 12)),
     baca.pitch('F#6'),
-    baca.markup('match sound of crotales'),
+    baca.markup(
+        'match sound of crotales',
+        abjad.tweak(1.5).padding,
+        ),
     faberge.dal_niente_hairpins('f'),
     )
 
@@ -566,7 +568,10 @@ maker(
 maker(
     ('cl', (1, 12)),
     baca.pitch('F#6'),
-    baca.markup('match sound of crotales'),
+    baca.markup(
+        'match sound of crotales',
+        abjad.tweak(1.5).padding,
+        ),
     faberge.dal_niente_hairpins('f'),
     )
 
@@ -643,6 +648,7 @@ maker(
             ],
             boxed=True,
             ),
+        abjad.tweak(1.5).padding,
         ),
     baca.pitch('<D4 E4 F#4 C5 D5>'),
     baca.note_head_style_harmonic(),
@@ -764,7 +770,6 @@ maker(
     baca.accent(
         selector=baca.pheads(),
         ),
-    baca.clef('percussion'),
     baca.dynamic('ff'),
     baca.markup(
         'castanets',
@@ -788,7 +793,6 @@ maker(
 
 maker(
     ('perc', (89, 92)),
-    baca.clef('treble'),
     baca.laissez_vibrer(
         selector=baca.ptails(),
         ),
@@ -807,7 +811,10 @@ maker(
 maker(
     ('vn', (1, 12)),
     baca.pitch('F#6'),
-    baca.markup('match sound of crotales'),
+    baca.markup(
+        'match sound of crotales',
+        abjad.tweak(1.5).padding,
+        ),
     faberge.dal_niente_hairpins('f'),
     )
 
@@ -884,7 +891,10 @@ maker(
 maker(
     ('vn', (63, 70)),
     baca.dynamic('"f"'),
-    baca.markup('spazz.'),
+    baca.markup(
+        'spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('E4'),
     )
 
@@ -895,7 +905,10 @@ maker(
 
 maker(
     ('vn', (71, 76)),
-    baca.markup('non spazz.'),
+    baca.markup(
+        'non spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     faberge.increasing_dal_niente_hairpins(),
     )
 
@@ -907,13 +920,19 @@ maker(
 maker(
     ('vn', (81, 88)),
     baca.dynamic('"f"'),
-    baca.markup('spazz.'),
+    baca.markup(
+        'spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('E4'),
     )
 
 maker(
     ('vn', (89, 92)),
-    baca.markup('non spazz.'),
+    baca.markup(
+        'non spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('F#6'),
     faberge.dal_niente_hairpins('f'),
     )
@@ -928,7 +947,10 @@ maker(
 maker(
     ('va', (1, 62)),
     baca.dynamic('mp'),
-    baca.markup('XFB sempre'),
+    baca.markup(
+        'XFB sempre',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('D3'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -999,13 +1021,19 @@ maker(
 maker(
     ('va', (63, 70)),
     baca.dynamic('"f"'),
-    baca.markup('spazz.'),
+    baca.markup(
+        'spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('E4'),
     )
 
 maker(
     ('va', (71, 80)),
-    baca.markup('XFB'),
+    baca.markup(
+        'XFB',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('D3'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -1024,14 +1052,20 @@ maker(
 maker(
     ('va', (81, 88)),
     baca.dynamic('"f"'),
-    baca.markup('spazz'),
+    baca.markup(
+        'spazz',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('E4'),
     )
 
 maker(
     ('va', (89, 92)),
     baca.dynamic('pp'),
-    baca.markup('XFB'),
+    baca.markup(
+        'XFB',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('D3'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -1089,7 +1123,10 @@ maker(
         'ppp',
         selector=baca.pleaf(0),
         ),
-    baca.markup('(poco pont.+) sub. non vib.'),
+    baca.markup(
+        '(poco pont.+) sub. non vib.',
+        abjad.tweak(1.5).padding,
+        ),
     )
 
 maker(

@@ -99,7 +99,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='bass',
                                 ),
                             abjad.Momento(
                                 context='Cello_Music_Voice',
@@ -330,7 +330,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='alto',
                                 ),
                             abjad.Momento(
                                 context='Viola_Music_Voice',
@@ -378,7 +378,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='percussion',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='Violin_Music_Voice',

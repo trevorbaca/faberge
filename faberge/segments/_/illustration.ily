@@ -251,16 +251,10 @@ i_English_Horn_Music_Voice = {                                                 %
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_3:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_3:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \once \override Beam.grow-direction = #right
-        \clef "percussion"                                                     %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \override Staff.Stem.stemlet-length = 0.75                             %! faberge_ratchet_rhythm
-        \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        c'16 * 187/32                                                          %! faberge_ratchet_rhythm
+        b'16 * 187/32                                                          %! faberge_ratchet_rhythm
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         ^ \markup {                                                            %! baca_markup:IndicatorCommand
             \override                                                          %! baca_markup:IndicatorCommand
@@ -269,18 +263,17 @@ i_English_Horn_Music_Voice = {                                                 %
                     ratchet                                                    %! baca_markup:IndicatorCommand
             }                                                                  %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_ratchet_rhythm
-        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        c'16 * 139/32                                                          %! faberge_ratchet_rhythm
+        b'16 * 139/32                                                          %! faberge_ratchet_rhythm
 
-        c'16 * 73/32                                                           %! faberge_ratchet_rhythm
+        b'16 * 73/32                                                           %! faberge_ratchet_rhythm
 
-        c'16 * 23/16                                                           %! faberge_ratchet_rhythm
+        b'16 * 23/16                                                           %! faberge_ratchet_rhythm
 
-        c'16 * 71/64                                                           %! faberge_ratchet_rhythm
+        b'16 * 71/64                                                           %! faberge_ratchet_rhythm
 
         \revert Staff.Stem.stemlet-length                                      %! faberge_ratchet_rhythm
-        c'16 * 63/64                                                           %! faberge_ratchet_rhythm
+        b'16 * 63/64                                                           %! faberge_ratchet_rhythm
         ]                                                                      %! faberge_ratchet_rhythm
 
     }                                                                          %! faberge_ratchet_rhythm
@@ -649,6 +642,7 @@ i_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { spazzolato }                                                   %! baca_markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vn.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     [                                                                          %! Duration_Specifier__rewrite_meter_
@@ -769,6 +763,7 @@ i_Viola_Music_Voice = {                                                        %
         e'8                                                                    %! faberge_spazzolati_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         ^ \markup { spazzolato }                                               %! baca_markup:IndicatorCommand
 
     }                                                                          %! faberge_spazzolati_rhythm

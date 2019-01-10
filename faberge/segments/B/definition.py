@@ -320,7 +320,6 @@ maker(
 
 maker(
     ('eh', (61, 68)),
-    #baca.make_rests(),
     baca.tacet(),
     )
 
@@ -412,6 +411,14 @@ maker(
 maker(
     ('perc', (69, 72)),
     baca.make_repeat_tied_notes(),
+    )
+
+maker(
+    ('perc', (79, 80)),
+    baca.rhythm(
+        r"{ r2 \times 5/4 { c'4 c'4 c'4 c'4 } }",
+        annotate_unpitched_music=True,
+        ),
     )
 
 # vn
@@ -541,7 +548,10 @@ maker(
         measures=(11, 12),
         ),
     baca.new(
-        baca.markup('fluttertongue'),
+        baca.markup(
+            'fluttertongue',
+            abjad.tweak(1.5).padding,
+            ),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -549,7 +559,10 @@ maker(
         measures=(13, 22),
         ),
     baca.new(
-        baca.markup('non flutt.'),
+        baca.markup(
+            'non flutt.',
+            abjad.tweak(1.5).padding,
+            ),
         faberge.niente_swells('mf'),
         measures=(23, 26),
         ),
@@ -562,7 +575,10 @@ maker(
         measures=(31, 36),
         ),
     baca.new(
-        baca.markup('fluttertongue'),
+        baca.markup(
+            'fluttertongue',
+            abjad.tweak(1.5).padding,
+            ),
         baca.stem_tremolo(
             selector=baca.pleaves(),
             ),
@@ -570,7 +586,10 @@ maker(
         measures=(37, 44),
         ),
     baca.new(
-        baca.markup('non flutt.'),
+        baca.markup(
+            'non flutt.',
+            abjad.tweak(1.5).padding,
+            ),
         faberge.niente_swells('mf'),
         measures=(45, 48),
         ),
@@ -642,7 +661,10 @@ maker(
 maker(
     ('eh', (31, 36)),
     baca.dynamic('fff'),
-    baca.markup('doubletrill'),
+    baca.markup(
+        'doubletrill',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('Eb4'),
     baca.trill_spanner(
         None,
@@ -653,7 +675,10 @@ maker(
 
 maker(
     ('eh', (37, 44)),
-    baca.markup('doubletrill'),
+    baca.markup(
+        'doubletrill',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('E4'),
     baca.trill_spanner(
         None,
@@ -680,7 +705,6 @@ maker(
 
 maker(
     ('eh', (61, 72)),
-    baca.clef('percussion'),
     baca.markup(
         'remove staple',
         abjad.tweak(1.5).padding,
@@ -694,19 +718,18 @@ maker(
     ('eh', (69, 72)),
     baca.dynamic(
         '"mf"',
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
         ),
-    baca.dynamic_text_x_extent_zero(),
-    baca.markup('airtone'),
-    baca.pitch('F3'),
+    baca.markup(
+        'airtone',
+        abjad.tweak(1.5).padding,
+        ),
+    baca.staff_position(0),
     )
 
 maker(
     ('eh', (73, 80)),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.clef_shift('treble'),
-        ),
     baca.staff_lines(5),
     )
 
@@ -774,6 +797,7 @@ maker(
         ),
     baca.markup(
         'lv possibile',
+        abjad.tweak(1.5),
         selector=baca.ptail(0),
         ),
     baca.pitch('G4'),
@@ -785,13 +809,17 @@ maker(
     baca.clef('bass'),
     baca.markup(
         faberge.markup.to_marimba(),
+        abjad.tweak(1.5).padding,
         selector=baca.leaf(0),
         ),
     )
 
 maker(
     ('perc', (23, 60)),
-    baca.markup('as attackless as possible'),
+    baca.markup(
+        'as attackless as possible',
+        abjad.tweak(1.5).padding,
+        ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -829,7 +857,6 @@ maker(
 
 maker(
     ('perc', (69, 72)),
-    baca.clef('percussion'),
     baca.dynamic(
         '"mf"',
         abjad.tweak(-0.75).self_alignment_X,
@@ -842,6 +869,7 @@ maker(
             ],
             boxed=True,
             ),
+        abjad.tweak(1.5).padding,
         ),
     baca.pitch('B3'),
     baca.staff_lines(2),
@@ -862,6 +890,7 @@ maker(
     ('vn', (1, 8)),
     baca.markup(
         'lv possibile',
+        abjad.tweak(1.5).padding,
         selector=baca.ptail(0),
         ),
     baca.pitch('G6'),
@@ -871,7 +900,10 @@ maker(
 maker(
     ('vn', (9, 22)),
     baca.dynamic('"ff"'),
-    baca.markup('spazz.'),
+    baca.markup(
+        'spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     baca.new(
         baca.hairpin('"ff" >o niente'),
         measures=(13, 22),
@@ -900,7 +932,10 @@ maker(
             ),
         measures=(37, 52),
         ),
-    baca.markup('pochiss. scrath'),
+    baca.markup(
+        'pochiss. scratch',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('E~4'),
     )
 
@@ -914,7 +949,6 @@ maker(
 
 maker(
     ('vn', (53, 68)),
-    baca.clef('percussion'),
     baca.staff_lines(1),
     baca.suite(
         baca.not_parts(baca.bar_extent((-2, 2))),
@@ -925,6 +959,7 @@ maker(
         ),
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
+        abjad.tweak(1.5).padding,
         ),
     faberge.clb_staff_positions(
         rotation=-3,
@@ -945,13 +980,17 @@ maker(
             ],
             boxed=True,
             ),
+        abjad.tweak(1.5).padding,
         ),
     baca.pitch('C4'),
     )
 
 maker(
     ('vn', (73, 80)),
-    baca.markup('col legno battuto'),
+    baca.markup(
+        'col legno battuto',
+        abjad.tweak(1.5).padding,
+        ),
     baca.hairpin('"mf" >o niente'),
     baca.staccato(
         selector=baca.pheads(),
@@ -974,7 +1013,10 @@ maker(
 maker(
     ('va', (9, 22)),
     baca.dynamic('"ff"'),
-    baca.markup('spazz.'),
+    baca.markup(
+        'spazz.',
+        abjad.tweak(1.5).padding,
+        ),
     baca.new(
         baca.hairpin(
             '"ff" >o niente',
@@ -1006,7 +1048,10 @@ maker(
             ),
         measures=(37, 52),
         ),
-    baca.markup('tasto + pochiss. scratch'),
+    baca.markup(
+        'tasto + pochiss. scratch',
+        abjad.tweak(1.5).padding,
+        ),
     baca.pitch('G3'),
     )
 
@@ -1021,7 +1066,6 @@ maker(
 
 maker(
     ('va', (53, -1)),
-    baca.clef('percussion'),
     baca.new(
         baca.hairpin('"mf" >o niente'),
         measures=(73, 80),
@@ -1032,6 +1076,7 @@ maker(
         ),
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
+        abjad.tweak(1.5).padding,
         ),
     faberge.clb_staff_positions(
         rotation=-4,
@@ -1089,6 +1134,7 @@ maker(
             'glissando lentissimo',
             'do not reattack note heads',
             ]),
+        abjad.tweak(1.5).padding,
         ),
     baca.new(
         baca.pitch('Eb2'),
@@ -1124,7 +1170,6 @@ maker(
 
 maker(
     ('vc', (61, 80)),
-    baca.clef('percussion'),
     baca.dynamic('"mf"'),
     baca.new(
         baca.hairpin('"mf" >o niente'),
@@ -1138,6 +1183,7 @@ maker(
     baca.text_script_staff_padding(8),
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
+        abjad.tweak(1.5).padding,
         ),
     faberge.clb_staff_positions(
         rotation=-5,
