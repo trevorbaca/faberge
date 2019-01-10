@@ -134,20 +134,11 @@ maker(
 
 maker(
     'perc',
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2))
-        ),
-    baca.staff_lines(1),
     baca.staff_position(0),
     )
 
 maker(
     ('perc', 1),
-    baca.markup(
-        'woodblock',
-        abjad.tweak(1.5).padding,
-        boxed=True,
-        ),
     faberge.even_tuplet_rhythm(
         extra_counts=[0],
         ),
@@ -155,7 +146,7 @@ maker(
 
 maker(
     ('perc', (4, 5)),
-    baca.staff_position(0),
+    baca.dynamic('mf'),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1, 0],
         ),
@@ -163,6 +154,7 @@ maker(
 
 maker(
     ('perc', 8),
+    baca.dynamic('mp'),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
         ),
@@ -172,7 +164,6 @@ maker(
 
 maker(
     'vn',
-    baca.clef('treble'),
     baca.staff_position(0),
     )
 
@@ -185,7 +176,6 @@ maker(
 
 maker(
     'va',
-    baca.clef('alto'),
     baca.staff_position(0),
     )
 
@@ -198,7 +188,6 @@ maker(
 
 maker(
     'vc',
-    baca.clef('bass'),
     baca.not_parts(
         baca.bar_extent_persistent((-2, 2))
         ),

@@ -55,6 +55,15 @@ maker(
 
 # fl
 
+maker(
+    'fl',
+    baca.material_annotation_spanner(
+        '1-3 / 1-4 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
+        ),
+    )
+
 # tutti
 
 maker(
@@ -100,17 +109,48 @@ maker(
 
 # eh
 
+maker(
+    'eh',
+    baca.material_annotation_spanner(
+        '1-3 / 1-4 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
+        ),
+    )
+
 # cl
+
+maker(
+    'cl',
+    baca.material_annotation_spanner(
+        '1-3 / 1-4 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
+        ),
+    )
 
 # perc
 
 maker(
     ('perc', 1),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        ),
     baca.staff_position(0),
     faberge.even_tuplet_rhythm(),
     )
 
 # vn
+
+maker(
+    'vn',
+    baca.material_annotation_spanner(
+        '1-3 / 1-4 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
+        ),
+    )
 
 maker(
     ('vn', (1, 8)),
@@ -143,11 +183,29 @@ maker(
 # va
 
 maker(
+    'va',
+    baca.material_annotation_spanner(
+        '1-3 / 1-4 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
+        ),
+    )
+
+maker(
     ('va', (1, 8)),
     faberge.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
     )
 
 # vc
+
+maker(
+    'vc',
+    baca.material_annotation_spanner(
+        '1-3 / 1-4 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
+        ),
+    )
 
 maker(
     ('vc', (1, 8)),

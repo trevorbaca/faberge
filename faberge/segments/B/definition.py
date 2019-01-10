@@ -683,16 +683,21 @@ maker(
 
 maker(
     ('perc', (61, 68)),
+    baca.clef('treble'),
     baca.make_rests(),
     )
 
 maker(
     ('perc', (69, 72)),
+    baca.chunk(
+        baca.not_parts(baca.bar_extent((-2, 2))),
+        baca.not_parts(baca.bar_extent_persistent((0, 2))),
+        ),
     baca.dynamic(
         '"mf"',
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
         ),
-    baca.dynamic_text_x_extent_zero(),
     baca.make_repeat_tied_notes(),
     baca.markup(
         baca.markups.lines([
@@ -702,27 +707,26 @@ maker(
             boxed=True,
             ),
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         ),
-    baca.pitch('B3'),
-    baca.staff_lines(2),
+    baca.staff_lines(1),
+    baca.staff_position(-1),
+    baca.stem_down(),
     )
-
-maker(
-    ('perc', (73, 80)),
-    baca.chunk(
-        baca.clef('treble'),
-        baca.clef_shift('treble'),
-        ),
-    baca.staff_lines(5),
-    )
-
 
 maker(
     ('perc', (79, 80)),
+    baca.dynamic('f'),
+    baca.markup(
+        'woodblock',
+        abjad.tweak(1.5).padding,
+        boxed=True,
+        ),
     baca.rhythm(
         r"{ r2 \times 5/4 { c'4 c'4 c'4 c'4 } }",
         annotate_unpitched_music=True,
         ),
+    baca.staff_position(0),
     )
 
 # vn
@@ -795,18 +799,18 @@ maker(
 
 maker(
     ('vn', (53, 68)),
-    baca.staff_lines(1),
-    baca.suite(
+    baca.chunk(
         baca.not_parts(baca.bar_extent((-2, 2))),
         baca.not_parts(baca.bar_extent_persistent((-2, 0))),
-        ),
-    baca.staccato(
-        selector=baca.pheads(),
         ),
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
         abjad.tweak(1.5).padding,
         ),
+    baca.staccato(
+        selector=baca.pheads(),
+        ),
+    baca.staff_lines(1),
     faberge.clb_rhythm(
         fuse_counts=[2, 2, 1],
         ),
@@ -819,9 +823,9 @@ maker(
     ('vn', (69, 72)),
     baca.dynamic(
         '"mf"',
-        abjad.tweak(-0.75).self_alignment_X,
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
         ),
-    baca.dynamic_text_x_extent_zero(),
     baca.make_repeat_tied_notes(),
     baca.markup(
         baca.markups.lines([
@@ -832,7 +836,7 @@ maker(
             ),
         abjad.tweak(1.5).padding,
         ),
-    baca.pitch('C4'),
+    baca.staff_position(0),
     )
 
 maker(
@@ -1055,20 +1059,22 @@ maker(
 maker(
     ('vc', (61, 80)),
     baca.dynamic('"mf"'),
-    baca.new(
-        baca.hairpin('"mf" >o niente'),
-        measures=(73, 80),
-        ),
-    baca.not_parts(baca.bar_extent_persistent((0, 2))),
-    baca.staff_lines(1),
-    baca.staccato(
-        selector=baca.pheads(),
-        ),
-    baca.text_script_staff_padding(8),
     baca.markup(
         faberge.markup.col_legno_battuto_first_appearance(),
         abjad.tweak(1.5).padding,
         ),
+    baca.new(
+        baca.hairpin('"mf" >o niente'),
+        measures=(73, 80),
+        ),
+    baca.not_parts(
+        baca.bar_extent_persistent((0, 2)),
+        ),
+    baca.staccato(
+        selector=baca.pheads(),
+        ),
+    baca.staff_lines(1),
+    baca.text_script_staff_padding(8),
     faberge.clb_rhythm(
         fuse_counts=[3],
         ),
