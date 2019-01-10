@@ -107,7 +107,7 @@ maker(
     faberge.airtone_chain_rhythm(20, [3, 7]),
     )
 
-# pf
+# rh
 
 maker(
     'rh',
