@@ -3376,9 +3376,9 @@ B_English_Horn_Music_Voice = {                                                 %
 
         cs'!16                                                                 %! faberge_keynoise_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
         \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-        \revert NoteHead.style                                                 %! baca_note_head_style_cross:OverrideCommand(2)
 
     }                                                                          %! faberge_keynoise_rhythm
 
@@ -3586,9 +3586,9 @@ B_English_Horn_Music_Voice = {                                                 %
     r4.                                                                        %! faberge_keynoise_rhythm
 
     ef'!8                                                                      %! faberge_keynoise_rhythm
+    \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
     \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-    \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 119 / measure 23]                    %! _comment_measure_numbers
     r4                                                                         %! faberge_eh_trill_rhythm
@@ -4127,9 +4127,9 @@ B_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! faberge_keynoise_rhythm
 
     d'8                                                                        %! faberge_keynoise_rhythm
+    \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
     \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
     \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
-    \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
