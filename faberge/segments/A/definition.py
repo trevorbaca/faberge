@@ -69,6 +69,11 @@ maker(
 # fl
 
 maker(
+    'fl',
+    baca.dls_staff_padding(5),
+    )
+
+maker(
     ('fl', (1, 12)),
     baca.markup(
         r'\faberge-match-sound-of-crotales',
@@ -195,6 +200,11 @@ maker(
 # eh
 
 maker(
+    'eh',
+    baca.dls_staff_padding(4),
+    )
+
+maker(
     ('eh', (1, 12)),
     baca.staff_lines(5),
     )
@@ -283,6 +293,11 @@ maker(
     )
 
 # cl
+
+maker(
+    'cl',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('cl', (1, 12)),
@@ -431,6 +446,11 @@ maker(
 # attack
 
 maker(
+    'attack',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
     ('attack', (1, 12)),
     faberge.piano_attack_rhythm(),
     )
@@ -465,6 +485,11 @@ maker(
     )
 
 # perc
+
+maker(
+    'perc',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('perc', (1, 12)),
@@ -638,6 +663,11 @@ maker(
     )
 
 # vn
+
+maker(
+    'vn',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('vn', (1, 12)),
@@ -815,6 +845,7 @@ maker(
 
 maker(
     'va',
+    baca.dls_staff_padding(5),
     baca.text_spanner_staff_padding(4),
     )
 
@@ -977,6 +1008,7 @@ maker(
 
 maker(
     'vc',
+    baca.dls_staff_padding(5),
     baca.make_repeat_tied_notes(),
     baca.pitch('D2'),
     baca.text_spanner_staff_padding(4),
