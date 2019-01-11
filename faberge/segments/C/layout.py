@@ -2,12 +2,13 @@ import baca
 import math
 
 
+distances = [24, (24, 24, 32), (24, 24, 32), (24, 24, 32)]
 breaks = baca.breaks(
     baca.page(
         baca.system(
-            20, 30,
+            *distances,
             measure=1,
-            y_offset=30,
+            y_offset=40,
             ),
         number=1,
         ),
