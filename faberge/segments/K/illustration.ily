@@ -1,38 +1,3 @@
-K_Global_Rests = {                                                             %! extern
-
-    % [K Global_Rests measure 245 / measure 1]                                 %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 246 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [K Global_Rests measure 247 / measure 3]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 248 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 249 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 250 / measure 6]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 251 / measure 7]                                 %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 252 / measure 8]                                 %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
-
-    % [K Global_Rests measure 253 / measure 9]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [K Global_Rests measure 254 / measure 10]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
-    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
-
-}                                                                              %! extern
-
-
 K_Global_Skips = {                                                             %! extern
 
     % [K Global_Skips measure 245 / measure 1]                                 %! _comment_measure_numbers
@@ -227,6 +192,41 @@ K_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanCT                                                        %! PHANTOM:_style_phantom_measures(1):CLOCK_TIME_MARKUP
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
+
+}                                                                              %! extern
+
+
+K_Global_Rests = {                                                             %! extern
+
+    % [K Global_Rests measure 245 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 5/4                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 246 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [K Global_Rests measure 247 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 248 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 249 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 9/4                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 250 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 251 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 252 / measure 8]                                 %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [K Global_Rests measure 253 / measure 9]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [K Global_Rests measure 254 / measure 10]                                %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
 
@@ -445,12 +445,15 @@ K_Flute_Music_Voice = {                                                        %
 }                                                                              %! extern
 
 
-K_Flute_Music_Staff = {                                                        %! extern
+K_Flute_Music_Staff = <<                                                       %! extern
+
+    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \K_Global_Rests                                                            %! extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
     \K_Flute_Music_Voice                                                       %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 K_English_Horn_Music_Voice = {                                                 %! extern

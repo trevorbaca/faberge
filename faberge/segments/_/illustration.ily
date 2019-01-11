@@ -1,27 +1,3 @@
-i_Global_Rests = {                                                             %! extern
-
-    % [_ Global_Rests measure 1]                                               %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! _make_global_rests(1)
-
-    % [_ Global_Rests measure 2]                                               %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
-
-    % [_ Global_Rests measure 3]                                               %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [_ Global_Rests measure 4]                                               %! _comment_measure_numbers
-    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
-    R1 * 1/4                                                                   %! _make_global_rests(1)
-    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
-
-    % [_ Global_Rests measure 5]                                               %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
-    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
-
-}                                                                              %! extern
-
-
 i_Global_Skips = {                                                             %! extern
 
     % [_ Global_Skips measure 1]                                               %! _comment_measure_numbers
@@ -111,6 +87,30 @@ i_Global_Skips = {                                                             %
 }                                                                              %! extern
 
 
+i_Global_Rests = {                                                             %! extern
+
+    % [_ Global_Rests measure 1]                                               %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 2]                                               %! _comment_measure_numbers
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    R1 * 1/4                                                                   %! _make_global_rests(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+
+    % [_ Global_Rests measure 3]                                               %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [_ Global_Rests measure 4]                                               %! _comment_measure_numbers
+    \baca-fermata-measure                                                      %! baca_global_fermata:GlobalFermataCommand(2)
+    R1 * 1/4                                                                   %! _make_global_rests(1)
+    ^ \baca-short-fermata-markup                                               %! baca_global_fermata:GlobalFermataCommand(1)
+
+    % [_ Global_Rests measure 5]                                               %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
+
+}                                                                              %! extern
+
+
 i_Flute_Music_Voice = {                                                        %! extern
 
     % [_ Flute_Music_Voice measure 1]                                          %! _comment_measure_numbers
@@ -166,12 +166,15 @@ i_Flute_Music_Voice = {                                                        %
 }                                                                              %! extern
 
 
-i_Flute_Music_Staff = {                                                        %! extern
+i_Flute_Music_Staff = <<                                                       %! extern
+
+    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \i_Global_Rests                                                            %! extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
     \i_Flute_Music_Voice                                                       %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 i_English_Horn_Music_Voice = {                                                 %! extern
