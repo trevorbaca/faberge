@@ -861,7 +861,7 @@ maker(
 maker(
     ('vn', (69, 72)),
     baca.dynamic(
-        '"mf"-ancora',
+        '("mf")',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-2, 0)).extra_offset,
         ),
@@ -989,7 +989,7 @@ maker(
 
 maker(
     'vc',
-    baca.dls_staff_padding(5),
+    baca.dls_staff_padding(6),
     )
 
 maker(
