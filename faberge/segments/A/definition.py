@@ -54,7 +54,10 @@ maker(
     'Global_Skips',
     baca.rehearsal_mark(
         'A',
-        abjad.tweak((0, 12)).extra_offset,
+        abjad.tweak(
+            (0, 18),
+            tag=baca.enums.ONLY_SEGMENT,
+            ).extra_offset,
         ),
     )
 
