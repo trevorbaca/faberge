@@ -22,7 +22,7 @@
             \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
             \autoPageBreaksOff                                                 %! BreakMeasureMap(1):BREAK
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
-            \baca-lbsd #50 #'(20 24)                                           %! BREAK:IndicatorCommand
+            \baca-lbsd #70 #'(18 18 18 24 18 18 24 18 18 24)                   %! BREAK:IndicatorCommand
             \pageBreak                                                         %! BREAK:IndicatorCommand
             s1 * 3/4                                                           %! _make_global_skips(1)
         %@% - \baca-start-spm-left-only "[1/28]"                               %! SPACING_MARKUP

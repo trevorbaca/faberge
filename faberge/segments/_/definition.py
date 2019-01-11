@@ -8,14 +8,10 @@ import os
 ##################################### [_] #####################################
 ###############################################################################
 
-def stage(n):
-    return {
-        1: 1,
-        2: 2,
-        3: 3,
-        4: 4,
-        5: 5,
-        }[n]
+stage_markup = (
+    ('[1]', 1),
+    ('[2]', 3),
+    )
 
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
@@ -32,6 +28,7 @@ maker = baca.SegmentMaker(
         ],
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=time_signatures,
     validate_measure_count=4,
     )
@@ -47,11 +44,11 @@ maker(
 maker(
     'Global_Rests',
     baca.global_fermata(
-        'fermata',
+        'short',
         selector=baca.leaf(2 - 1),
         ),
     baca.global_fermata(
-        'fermata',
+        'short',
         selector=baca.leaf(4 - 1),
         ),
     )
