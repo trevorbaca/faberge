@@ -1,4 +1,3 @@
-from .MarkupLibrary import MarkupLibrary
 from .ScoreTemplate import ScoreTemplate
 from .airtone_chain_rhythm import airtone_chain_rhythm
 from .back_incised_divisions import back_incised_divisions

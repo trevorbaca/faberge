@@ -8,6 +8,5 @@ if not (
 del distutils
 del platform
 from faberge.tools import *
-from faberge.tools import MarkupLibrary as markup
 from faberge.materials import *
 from faberge import segments
