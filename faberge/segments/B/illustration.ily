@@ -9232,11 +9232,11 @@ B_Cello_Music_Voice = {                                                        %
         ^ \markup { \faberge-glissando-lentissimo-do-not-reattack-note-heads } %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "(tasto+non vib.)"                      %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #6                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! baca_make_fused_tuplet_monads
 
@@ -9256,6 +9256,7 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
+        \glissando                                                             %! baca_glissando
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "PO"                                    %! baca_text_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-right-text "tasto poss."                          %! baca_text_spanner:PiecewiseCommand(1)
@@ -9263,7 +9264,6 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #6                                              %! baca_text_spanner:PiecewiseCommand(1)
         \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
 
     }                                                                          %! baca_make_fused_tuplet_monads
 
