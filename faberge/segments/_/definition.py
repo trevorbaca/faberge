@@ -84,9 +84,16 @@ maker(
 
 maker(
     ('eh', 3),
+    baca.dls_staff_padding(8.5),
+    baca.dynamic(
+        '(f)',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.markup(
         'ratchet',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         boxed=True,
         ),
     baca.staff_lines(1),
@@ -107,7 +114,7 @@ maker(
         ),
     )
 
-# pf
+# rh
 
 maker(
     'rh',
@@ -122,6 +129,13 @@ maker(
             literal=True,
             ),
         ),
+    )
+
+# lh
+
+maker(
+    'lh',
+    baca.clef('bass'),
     )
 
 # perc
@@ -141,6 +155,7 @@ maker(
 
 maker(
     'vn',
+    baca.dls_staff_padding(4),
     baca.suite(
         faberge.margin_markup('Vn.'),
         baca.start_markup(
@@ -167,6 +182,8 @@ maker(
 
 maker(
     'va',
+    baca.clef('alto'),
+    baca.dls_staff_padding(6),
     baca.suite(
         faberge.margin_markup('Va.'),
         baca.start_markup(
@@ -195,6 +212,7 @@ maker(
 
 maker(
     'vc',
+    baca.clef('bass'),
     baca.suite(
         faberge.margin_markup('Vc.'),
         baca.start_markup(

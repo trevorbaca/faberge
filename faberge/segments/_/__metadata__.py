@@ -131,6 +131,16 @@ metadata = abjad.OrderedDict(
                             ],
                         ),
                     (
+                        'English_Horn_Music_Voice',
+                        [
+                            abjad.Momento(
+                                context='English_Horn_Music_Voice',
+                                prototype='abjad.Dynamic',
+                                value='\\baca-f-parenthesized',
+                                ),
+                            ],
+                        ),
+                    (
                         'Flute_Music_Staff',
                         [
                             abjad.Momento(
