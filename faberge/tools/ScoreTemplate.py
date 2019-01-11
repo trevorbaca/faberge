@@ -150,23 +150,32 @@ class ScoreTemplate(baca.ScoreTemplate):
         super(ScoreTemplate, self).__init__()
         self.voice_abbreviations.update({
             'fl': 'Flute_Music_Voice',
+            'flr': 'Flute_Rest_Voice',
             'eh': 'English_Horn_Music_Voice',
+            'ehr': 'English_Horn_Rest_Voice',
             'cl': 'Clarinet_Music_Voice',
+            'clr': 'Clarinet_Rest_Voice',
             'rh': 'Piano_RH_Music_Voice',
+            'rhr': 'Piano_RH_Rest_Voice',
             'rhx': [
                 'Piano_RH_Music_Voice',
                 'Piano_RH_Rest_Voice',
                 ],
             'lh': 'Piano_LH_Music_Voice',
+            'lhr': 'Piano_LH_Rest_Voice',
             'attack': 'Piano_LH_Attack_Voice',
             'perc': 'Percussion_Music_Voice',
+            'percr': 'Percussion_Rest_Voice',
             'percx': [
                 'Percussion_Music_Voice',
                 'Percussion_Rest_Voice',
                 ],
             'vn': 'Violin_Music_Voice',
+            'vnr': 'Violin_Rest_Voice',
             'va': 'Viola_Music_Voice',
+            'var': 'Viola_Rest_Voice',
             'vc': 'Cello_Music_Voice',
+            'vcr': 'Cello_Rest_Voice',
             'tutti': [
                 'Flute_Music_Voice',
                 'English_Horn_Music_Voice',
@@ -468,16 +477,22 @@ class ScoreTemplate(baca.ScoreTemplate):
             abjad.OrderedDict(
                 [
                     ('fl', 'Flute_Music_Voice'),
+                    ('flr', 'Flute_Rest_Voice'),
                     ('eh', 'English_Horn_Music_Voice'),
+                    ('ehr', 'English_Horn_Rest_Voice'),
                     ('cl', 'Clarinet_Music_Voice'),
+                    ('clr', 'Clarinet_Rest_Voice'),
                     ('rh', 'Piano_RH_Music_Voice'),
+                    ('rhr', 'Piano_RH_Rest_Voice'),
                     (
                         'rhx',
                         ['Piano_RH_Music_Voice', 'Piano_RH_Rest_Voice'],
                         ),
                     ('lh', 'Piano_LH_Music_Voice'),
+                    ('lhr', 'Piano_LH_Rest_Voice'),
                     ('attack', 'Piano_LH_Attack_Voice'),
                     ('perc', 'Percussion_Music_Voice'),
+                    ('percr', 'Percussion_Rest_Voice'),
                     (
                         'percx',
                         [
@@ -486,8 +501,11 @@ class ScoreTemplate(baca.ScoreTemplate):
                             ],
                         ),
                     ('vn', 'Violin_Music_Voice'),
+                    ('vnr', 'Violin_Rest_Voice'),
                     ('va', 'Viola_Music_Voice'),
+                    ('var', 'Viola_Rest_Voice'),
                     ('vc', 'Cello_Music_Voice'),
+                    ('vcr', 'Cello_Rest_Voice'),
                     (
                         'tutti',
                         [
