@@ -21,11 +21,11 @@ faberge-airtone = \markup
     \box
     airtone
 
-faberge-as-attackless-as-possible = \markup
+faberge-attackless = \markup
     \whiteout
     \override #'(box-padding . 0.5)
     \box
-    "as attackless as possible"
+    attackless
 
 faberge-bd-sponge = \markup
     \whiteout

@@ -74,62 +74,70 @@ maker(
 
 maker(
     'fl',
-    baca.new(
-        faberge.niente_swells('p'),
-        measures=(1, 8),
-        ),
-    baca.new(
-        faberge.niente_swells('mp'),
-        measures=(9, 10),
-        ),
-    baca.new(
-        faberge.niente_swells('mf'),
-        measures=(11, 12),
-        ),
-    baca.new(
-        faberge.niente_swells('f'),
-        measures=(13, 22),
-        ),
-    baca.new(
-        faberge.niente_swells('mf'),
-        measures=(23, 26),
-        ),
-    baca.new(
-        faberge.niente_swells('mp'),
-        measures=(27, 30),
-        ),
-    baca.new(
-        faberge.niente_swells('mf'),
-        measures=(31, 36),
-        ),
-    baca.new(
-        faberge.niente_swells('f'),
-        measures=(37, 44),
-        ),
-    baca.new(
-        faberge.niente_swells('mf'),
-        measures=(45, 48),
-        ),
-    baca.new(
-        faberge.niente_swells('p'),
-        measures=(49, 52),
-        ),
-    baca.new(
-        faberge.niente_swells('pp'),
-        measures=(53, 54),
-        ),
-    baca.new(
-        faberge.niente_swells('ppp'),
-        measures=(55, 60),
-        ),
-    baca.new(
-        faberge.niente_swells('ppp'),
-        measures=(69, 72),
+    baca.dls_staff_padding(5),
+    )
+
+maker(
+    'fl',
+    baca.chunk(
+        baca.new(
+            faberge.niente_swells('p'),
+            measures=(1, 8),
+            ),
+        baca.new(
+            faberge.niente_swells('mp'),
+            measures=(9, 10),
+            ),
+        baca.new(
+            faberge.niente_swells('mf'),
+            measures=(11, 12),
+            ),
+        baca.new(
+            faberge.niente_swells('f'),
+            measures=(13, 22),
+            ),
+        baca.new(
+            faberge.niente_swells('mf'),
+            measures=(23, 26),
+            ),
+        baca.new(
+            faberge.niente_swells('mp'),
+            measures=(27, 30),
+            ),
+        baca.new(
+            faberge.niente_swells('mf'),
+            measures=(31, 36),
+            ),
+        baca.new(
+            faberge.niente_swells('f'),
+            measures=(37, 44),
+            ),
+        baca.new(
+            faberge.niente_swells('mf'),
+            measures=(45, 48),
+            ),
+        baca.new(
+            faberge.niente_swells('p'),
+            measures=(49, 52),
+            ),
+        baca.new(
+            faberge.niente_swells('pp'),
+            measures=(53, 54),
+            ),
+        baca.new(
+            faberge.niente_swells('ppp'),
+            measures=(55, 60),
+            ),
+        baca.new(
+            faberge.niente_swells('ppp'),
+            measures=(69, 72),
+            ),
         ),
     )
 
 maker(
     ('fl', (1, 8)),
+    baca.tuplet_bracket_staff_padding(1),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
@@ -177,6 +185,11 @@ maker(
             ],
         tuplet_ratio_rotation=-2,
         ),
+    )
+
+maker(
+    ('fl', (11, 15)),
+    baca.tuplet_bracket_staff_padding(3),
     )
 
 maker(
@@ -229,6 +242,11 @@ maker(
     )
 
 maker(
+    ('fl', 27),
+    baca.tuplet_bracket_staff_padding(3),
+    )
+
+maker(
     ('fl', (27, 30)),
     faberge.glow_rhythm(
         dmask=[
@@ -254,6 +272,11 @@ maker(
             ],
         tuplet_ratio_rotation=-7,
         ),
+    )
+
+maker(
+    ('fl', (32, 33)),
+    baca.tuplet_bracket_staff_padding(3),
     )
 
 maker(
@@ -351,17 +374,25 @@ maker(
 # eh
 
 maker(
+    'eh',
+    baca.dls_staff_padding(4),
+    )
+
+maker(
     ('eh', (1, 12)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    baca.tuplet_bracket_down(),
-    baca.tuplet_bracket_staff_padding(1.5),
     faberge.keynoise_pitches(
         rotation=-1,
         ),
     faberge.keynoise_rhythm(
         dmask=rmakers.silence([0, 4], 9),
         ),
+    )
+
+maker(
+    ('eh', (1, 60)),
+    baca.tuplet_bracket_staff_padding(1),
     )
 
 maker(
@@ -382,8 +413,6 @@ maker(
     ('eh', (17, 22)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    baca.tuplet_bracket_down(),
-    baca.tuplet_bracket_staff_padding(1.5),
     faberge.keynoise_pitches(
         rotation=-2,
         ),
@@ -445,8 +474,6 @@ maker(
     ('eh', (45, 60)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
-    baca.tuplet_bracket_down(),
-    baca.tuplet_bracket_staff_padding(1.5),
     faberge.keynoise_pitches(
         rotation=-3,
         ),
@@ -464,19 +491,19 @@ maker(
     )
 
 maker(
-    ('eh', (61, 68)),
-    baca.tacet(),
-    )
-
-maker(
-    ('eh', (61, 72)),
+    ('ehr', 61),
     baca.markup(
         r'\faberge-remove-staple',
         abjad.tweak(1.5).padding,
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.mmrest(0),
         ),
+    )
+
+maker(
+    ('eh', (61, 68)),
     baca.staff_lines(1),
+    baca.tacet(),
     )
 
 maker(
@@ -490,6 +517,7 @@ maker(
     baca.markup(
         r'\faberge-airtone',
         abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
         literal=True,
         ),
     baca.staff_position(0),
@@ -571,6 +599,11 @@ maker(
 # attack
 
 maker(
+    'attack',
+    baca.dls_staff_padding(6),
+    )
+
+maker(
     ('attack', (1, 22)),
     faberge.piano_attack_rhythm(),
     )
@@ -595,7 +628,13 @@ maker(
 # perc
 
 maker(
-    ('perc', (1, 8)),
+    'perc',
+    baca.dls_staff_padding(6),
+    )
+
+
+maker(
+    ('perc', 1),
     baca.laissez_vibrer(
         selector=baca.ptails(),
         ),
@@ -611,19 +650,23 @@ maker(
     )
 
 maker(
-    ('perc', (9, 10)),
-    baca.clef('bass'),
-    baca.make_rests(),
+    ('percr', 2),
     baca.markup(
         r'\faberge-to-marimba',
         abjad.tweak(1.5).padding,
         literal=True,
-        selector=baca.leaf(0),
+        selector=baca.mmrest(0),
         ),
     )
 
 maker(
+    ('perc', (2, 22)),
+    baca.tacet(),
+    )
+
+maker(
     ('perc', (23, 48)),
+    baca.clef('bass'),
     baca.make_repeat_tied_notes(),
     )
 
@@ -653,7 +696,7 @@ maker(
             ),
         ),
     baca.markup(
-        r'\faberge-as-attackless-as-possible',
+        r'\faberge-attackless',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -683,8 +726,7 @@ maker(
 
 maker(
     ('perc', (61, 68)),
-    baca.clef('treble'),
-    baca.make_rests(),
+    baca.tacet(),
     )
 
 maker(
@@ -693,6 +735,7 @@ maker(
         baca.not_parts(baca.bar_extent((-2, 2))),
         baca.not_parts(baca.bar_extent_persistent((0, 2))),
         ),
+    baca.clef('treble'),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -726,6 +769,11 @@ maker(
     )
 
 # vn
+
+maker(
+    'vn',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('vn', (1, 8)),
@@ -794,7 +842,7 @@ maker(
         baca.not_parts(baca.bar_extent_persistent((-2, 0))),
         ),
     baca.markup(
-        r'\faberge-col-legno-battuto-first-appearance',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -813,7 +861,7 @@ maker(
 maker(
     ('vn', (69, 72)),
     baca.dynamic(
-        '"mf"',
+        '"mf"-ancora',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-2, 0)).extra_offset,
         ),
@@ -846,6 +894,11 @@ maker(
     )
 
 # va
+
+maker(
+    'va',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('va', (1, 8)),
@@ -915,7 +968,7 @@ maker(
         ),
     baca.staff_lines(1),
     baca.markup(
-        r'\faberge-col-legno-battuto-first-appearance',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -933,6 +986,11 @@ maker(
     )
 
 # vc
+
+maker(
+    'vc',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('vc', (1, 36)),
@@ -1040,7 +1098,7 @@ maker(
     ('vc', (61, 80)),
     baca.dynamic('"mf"'),
     baca.markup(
-        r'\faberge-col-legno-battuto-first-appearance',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
