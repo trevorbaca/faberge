@@ -5633,7 +5633,7 @@ B_Percussion_Music_Voice = {                                                   %
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak -pending-value #1.5                                               %! baca_markup:IndicatorCommand
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { "lv possibile" }                                               %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

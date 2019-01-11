@@ -591,7 +591,7 @@ maker(
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         'lv possibile',
-        abjad.tweak(1.5),
+        abjad.tweak(1.5).padding,
         selector=baca.ptail(0),
         ),
     baca.pitch('G4'),
