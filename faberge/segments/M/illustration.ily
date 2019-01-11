@@ -1,35 +1,3 @@
-M_Global_Rests = {                                                             %! extern
-
-    % [M Global_Rests measure 262 / measure 1]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 263 / measure 2]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 264 / measure 3]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 265 / measure 4]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 266 / measure 5]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 267 / measure 6]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 268 / measure 7]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 269 / measure 8]                                 %! _comment_measure_numbers
-    R1 * 1                                                                     %! _make_global_rests(1)
-
-    % [M Global_Rests measure 270 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
-    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
-
-}                                                                              %! extern
-
-
 M_Global_Skips = {                                                             %! extern
 
     % [M Global_Skips measure 262 / measure 1]                                 %! _comment_measure_numbers
@@ -192,6 +160,38 @@ M_Global_Skips = {                                                             %
 %@% \bacaStopTextSpanCT                                                        %! PHANTOM:_style_phantom_measures(1):CLOCK_TIME_MARKUP
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
+
+}                                                                              %! extern
+
+
+M_Global_Rests = {                                                             %! extern
+
+    % [M Global_Rests measure 262 / measure 1]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 263 / measure 2]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 264 / measure 3]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 265 / measure 4]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 266 / measure 5]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 267 / measure 6]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 268 / measure 7]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 269 / measure 8]                                 %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_global_rests(1)
+
+    % [M Global_Rests measure 270 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
+    R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
 }                                                                              %! extern
 
@@ -407,12 +407,15 @@ M_Flute_Music_Voice = {                                                        %
 }                                                                              %! extern
 
 
-M_Flute_Music_Staff = {                                                        %! extern
+M_Flute_Music_Staff = <<                                                       %! extern
+
+    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \M_Global_Rests                                                            %! extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
     \M_Flute_Music_Voice                                                       %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 M_English_Horn_Music_Voice = {                                                 %! extern

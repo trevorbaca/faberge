@@ -21,9 +21,6 @@
             \context GlobalContext = "Global_Context"                          %! _make_global_context
             <<                                                                 %! _make_global_context
 
-                \context GlobalRests = "Global_Rests"                          %! _make_global_context
-                \C_Global_Rests                                                %! extern
-
                 \context GlobalSkips = "Global_Skips"                          %! _make_global_context
                 \C_Global_Skips                                                %! extern
 

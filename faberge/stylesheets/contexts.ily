@@ -24,7 +24,7 @@
 
         \override MultiMeasureRest.transparent = ##t
 
-        \override MultiMeasureRestText.extra-offset = #'(0 . -7)
+        \override MultiMeasureRestText.staff-padding = 2
         \override MultiMeasureRestText.font-size = 3
         \override MultiMeasureRestText.outside-staff-priority = 0
         \override MultiMeasureRestText.padding = 0
@@ -54,8 +54,6 @@
         \accepts PageLayout
 
         \override BarNumber.Y-extent = ##f
-        % TODO: hide in score:
-        %\override BarNumber.break-visibility = #end-of-line-invisible
         \override BarNumber.extra-offset = #'(-4 . -4)
         \override BarNumber.font-size = 1
 
@@ -78,6 +76,7 @@
     % STAFF
     \context {
         \Staff
+        \accepts GlobalRests
         \remove Time_signature_engraver
     }
 
