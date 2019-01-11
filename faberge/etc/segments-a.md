@@ -2,6 +2,7 @@ SEGMENTS (INTRO & A)
 ====================
 
 [intro.1]
+1 measure
 tempo: 100.
 gears (α) vn spazzolati, va spazzolati.
 six players tacet.
@@ -16,10 +17,10 @@ no pause.
     va: spazzolati
     vc: --
 
-[intro.2]
 short fermata.
 
-[intro 3]
+[intro 2]
+1 measure
 gears (α) eh ratchet.
 six players tacet.
 
@@ -32,7 +33,6 @@ six players tacet.
     va: --
     vc: --
 
-[intro.4]
 short fermata.
 
 [A.1]

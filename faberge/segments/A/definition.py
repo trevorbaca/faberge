@@ -30,6 +30,26 @@ def stage(n):
         17: (89, 92),
         }[n]
 
+stage_markup = (
+    ('[A.1]', 1),
+    ('[A.2]', 13),
+    ('[A.3]', 17),
+    ('[A.4]', 23),
+    ('[A.5]', 27),
+    ('[A.6]', 31),
+    ('[A.7]', 37),
+    ('[A.8]', 41),
+    ('[A.9]', 47),
+    ('[A.10]', 53),
+    ('[A.11]', 55),
+    ('[A.12]', 57),
+    ('[A.13]', 63),
+    ('[A.14]', 71),
+    ('[A.15]', 77),
+    ('[A.16]', 81),
+    ('[A.17]', 89),
+    )
+
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
     count=92,
@@ -45,6 +65,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=92,
