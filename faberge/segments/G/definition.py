@@ -114,10 +114,10 @@ maker(
 maker(
     ('eh', (4, 5)),
     baca.markup(
-        'airtone',
+        r'\faberge-airtone',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.staff_lines(1),
     baca.staff_lines(
@@ -251,10 +251,10 @@ maker(
     ('perc', 1),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'castanets',
+        r'\faberge-castanets',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.staff_position(1),
     baca.stem_up(),
@@ -281,10 +281,10 @@ maker(
     baca.dynamic('p'),
     baca.laissez_vibrer(),
     baca.markup(
-        'BD (struck)',
+        r'\faberge-bd-struck',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.staff_position(-1),
     baca.stem_down(),
@@ -294,9 +294,9 @@ maker(
 maker(
     ('perc', (4, 5)),
     baca.markup(
-        'BD (sponge)',
+        r'\faberge-bd-sponge',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '1-2 -|',

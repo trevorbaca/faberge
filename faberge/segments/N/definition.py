@@ -172,10 +172,10 @@ maker(
         ),
     baca.dls_staff_padding(8),
     baca.markup(
-        'woodblock',
+        r'\faberge-woodblock',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'MM =|',
@@ -225,10 +225,10 @@ maker(
         ),
     baca.laissez_vibrer(),
     baca.markup(
-        'crotale (bowed)',
+        r'\faberge-crotale-bowed',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.1 -|',
@@ -243,10 +243,10 @@ maker(
     baca.dls_staff_padding(8),
     baca.dynamic('mp'),
     baca.markup(
-        'woodblock',
+        r'\faberge-woodblock',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'MM =|',

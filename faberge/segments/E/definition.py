@@ -206,9 +206,9 @@ maker(
     baca.dynamic('mf'),
     baca.laissez_vibrer(),
     baca.markup(
-        'BD (struck)',
+        r'\faberge-bd-struck',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.2 -|',
@@ -226,9 +226,9 @@ maker(
     ('perc', 4),
     baca.dynamic('f'),
     baca.markup(
-        'castanets',
+        r'\faberge-castanets',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     )
 
@@ -257,9 +257,9 @@ maker(
     ('perc', 8),
     baca.dynamic('mp'),
     baca.markup(
-        'woodblock',
+        r'\faberge-woodblock',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.rhythm(
         r"{ \times 4/5 { c'4 c'4 c'4 c'4 c'4 }"
@@ -372,8 +372,9 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        'col legno battuto',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '4-3 -|',

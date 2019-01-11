@@ -258,9 +258,9 @@ maker(
 maker(
     ('perc', [1, 2]),
     baca.markup(
-        'castanets',
+        r'\faberge-castanets',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         match=0,
         ),
     baca.trill_spanner(
@@ -297,9 +297,9 @@ maker(
         ),
     baca.laissez_vibrer(),
     baca.markup(
-        'crotale (bowed)',
+        r'\faberge-crotale-bowed',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.1 -|',

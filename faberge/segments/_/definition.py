@@ -88,10 +88,10 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        'ratchet',
+        r'\faberge-ratchet',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.staff_lines(1),
     baca.staff_position(0),
@@ -166,8 +166,9 @@ maker(
     ('vn', 1),
     baca.dynamic('"f"'),
     baca.markup(
-        'spazzolato',
+        r'\faberge-spazzolato',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
@@ -194,8 +195,9 @@ maker(
     ('va', 1),
     baca.dynamic('"f"'),
     baca.markup(
-        'spazzolato',
+        r'\faberge-spazzolato',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(

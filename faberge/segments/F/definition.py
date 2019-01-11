@@ -332,9 +332,9 @@ maker(
 maker(
     ('perc', (3, 4)),
     baca.markup(
-        'castanets',
+        r'\faberge-castanets',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '4-3 -|',
@@ -364,9 +364,9 @@ maker(
 maker(
     ('perc', 5),
     baca.markup(
-        'BD (superball)',
+        r'\faberge-bd-superball',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '3-7 -|',
@@ -385,8 +385,9 @@ maker(
     baca.dls_staff_padding(4),
     baca.dynamic('"f"'),
     baca.markup(
-        'spazzolato',
+        r'\faberge-spazzolato',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.3 -|',
@@ -412,8 +413,9 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        'col legno battuto',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     faberge.clb_rhythm(
         extra_counts=[3],
@@ -520,8 +522,9 @@ maker(
     ('va', 1),
     baca.dynamic('"f"'),
     baca.markup(
-        'spazzolato',
+        r'\faberge-spazzolato',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.3 -|',
@@ -550,8 +553,9 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        'col legno battuto',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     faberge.clb_rhythm(
         extra_counts=[2],
@@ -616,8 +620,9 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        'col legno battuto',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '4-2 -|',
