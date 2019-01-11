@@ -173,21 +173,22 @@ maker(
     )
 
 maker(
+    ('fl', (81, 88)),
+    baca.pitch('F#4'),
+    )
+
+maker(
     ('fl', (81, 92)),
-    baca.new(
-        baca.pitch('F#4'),
-        measures=(81, 88),
-        ),
-    baca.new(
-        baca.pitches('F#4 F#3', allow_repeats=True),
-        faberge.bfl_color_fingerings(),
-        measures=(89, 92),
-        ),
     faberge.niente_swells('p'),
     )
 
 maker(
     ('fl', (89, 92)),
+    baca.pitches(
+        'F#4 F#3',
+        allow_repeats=True,
+        ),
+    faberge.bfl_color_fingerings(),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([6, 7], 18),
@@ -238,12 +239,12 @@ maker(
 
 maker(
     ('eh', (41, 46)),
+    baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.runs(),
         ),
-    baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 15, -1, 3, -1, 3, -8, -1, 16, 15],
         ),
@@ -366,6 +367,7 @@ maker(
 
 maker(
     ('cl', (47, 62)),
+    faberge.niente_swells('p'),
     faberge.successive_tapers_rhythm(
         denominator=16,
         fuse_counts=(3, 3, 5, 3, 2, 5, 5),
@@ -376,23 +378,12 @@ maker(
 
 maker(
     ('cl', (47, 92)),
-    baca.new(
-        faberge.niente_swells('p'),
-        measures=(47, 62),
-        ),
-    baca.new(
-        faberge.niente_swells('ppp'),
-        measures=(63, 70),
-        ),
-    baca.new(
-        faberge.niente_swells('p'),
-        measures=(71, -1),
-        ),
     baca.pitches('D2 D+2'),
     )
 
 maker(
     ('cl', (63, 70)),
+    faberge.niente_swells('ppp'),
     faberge.single_taper(
         denominator=16,
         start_talea=[4],
@@ -408,6 +399,11 @@ maker(
         start_talea=[4],
         stop_talea=[3, -1],
         ),
+    )
+
+maker(
+    ('cl', (71, 92)),
+    faberge.niente_swells('p'),
     )
 
 maker(
@@ -439,6 +435,7 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
+    # TODO: suite?
     baca.pitch('<D4 E4 F#4 C5 D5>'),
     baca.note_head_style_harmonic(),
     )
@@ -457,6 +454,7 @@ maker(
 
 maker(
     ('attack', (1, 88)),
+    # TODO: suite?
     faberge.piano_clusters(),
     baca.dynamic(
         'sfz',
@@ -630,7 +628,10 @@ maker(
         literal=True,
         selector=baca.plt(-1),
         ),
-    baca.pitches('D4 D4 B3', exact=True),
+    baca.pitches(
+        'D4 D4 B3',
+        exact=True,
+        ),
     baca.staff_lines(2),
     baca.trill_spanner(
         None,
@@ -1057,7 +1058,6 @@ maker(
         selector=baca.pleaf(0),
         ),
     baca.markup(
-        ###'(poco pont.+) sub. non vib.',
         r'\faberge-poco-pont-plus-sub-non-vib',
         abjad.tweak(1.5).padding,
         literal=True,
@@ -1066,14 +1066,6 @@ maker(
 
 maker(
     ('vc', (71, 80)),
-    baca.new(
-        baca.hairpin(
-            'ff > pp < p',
-            bookend=False,
-            pieces=baca.omgroups([9, 9]),
-            ),
-        measures=(71, 92),
-        ),
     baca.text_spanner(
         [
             '(poco pont.+) sub. vib. mod.',
@@ -1084,5 +1076,14 @@ maker(
             ],
         pieces=baca.cmgroups([10, 9]),
         selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (71, 92)),
+    baca.hairpin(
+        'ff > pp < p',
+        bookend=False,
+        pieces=baca.omgroups([9, 9]),
         ),
     )
