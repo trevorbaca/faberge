@@ -1002,6 +1002,7 @@ maker(
             measures=(57, 60),
             ),
         ),
+    baca.glissando(),
     baca.hairpin(
         'p < ff >o niente',
         pieces=baca.lparts([2, 3]),
@@ -1016,8 +1017,6 @@ maker(
         abjad.tweak(6).staff_padding,
         pieces=baca.lparts([2, 3]),
         ),
-    # TODO: release need for glissando indicators to come last
-    baca.glissando(),
     )
 
 maker(
