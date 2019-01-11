@@ -3700,7 +3700,7 @@ B_English_Horn_Music_Voice = {                                                 %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { doubletrill }                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-doubletrill }                                         %! baca_markup:IndicatorCommand
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -3729,7 +3729,7 @@ B_English_Horn_Music_Voice = {                                                 %
     % [B English_Horn_Music_Voice measure 133 / measure 37]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { doubletrill }                                                  %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-doubletrill }                                         %! baca_markup:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -4194,12 +4194,7 @@ B_English_Horn_Music_Voice = {                                                 %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        "remove staple"                                        %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            ^ \markup { \faberge-remove-staple }                               %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4243,7 +4238,7 @@ B_English_Horn_Music_Voice = {                                                 %
     - \tweak extra-offset #'(-2 . 0)                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { airtone }                                                      %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-airtone }                                             %! baca_markup:IndicatorCommand
 
     % [B English_Horn_Music_Voice measure 166 / measure 70]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
@@ -5690,7 +5685,7 @@ B_Percussion_Music_Voice = {                                                   %
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "lv possibile" }                                               %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-lv-possibile }                                        %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -5728,12 +5723,7 @@ B_Percussion_Music_Voice = {                                                   %
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
     r2.                                                                        %! baca_make_rests
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                "to marimba"                                                   %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-to-marimba }                                          %! baca_markup:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Percussion_Music_Voice measure 106 / measure 10]                      %! _comment_measure_numbers
@@ -5799,7 +5789,7 @@ B_Percussion_Music_Voice = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "as attackless as possible" }                                  %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-as-attackless-as-possible }                           %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -6086,16 +6076,7 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "rub sponge on bass drum head;"                        %! baca_markup:IndicatorCommand
-                        "noise only: no pitch"                                 %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-rub-sponge-on-bass-drum-head }                        %! baca_markup:IndicatorCommand
 
     % [B Percussion_Music_Voice measure 166 / measure 70]                      %! _comment_measure_numbers
     a'2.                                                                       %! baca_make_repeat_tied_notes
@@ -6158,12 +6139,7 @@ B_Percussion_Music_Voice = {                                                   %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        woodblock                                              %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            ^ \markup { \faberge-woodblock }                                   %! baca_markup:IndicatorCommand
 
             b'4
 
@@ -6227,7 +6203,7 @@ B_Violin_Music_Voice = {                                                       %
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "lv possibile" }                                               %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-lv-possibile }                                        %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6263,7 +6239,7 @@ B_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { spazz. }                                                       %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-spazz }                                               %! baca_markup:IndicatorCommand
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     f'16                                                                       %! faberge_spazzolati_rhythm
@@ -6697,7 +6673,7 @@ B_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "pochiss. scratch" }                                           %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-pochiss-scratch }                                     %! baca_markup:IndicatorCommand
 
     % [B Violin_Music_Voice measure 120 / measure 24]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
@@ -6840,17 +6816,7 @@ B_Violin_Music_Voice = {                                                       %
         \baca-effort-p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \override                                                          %! baca_markup:IndicatorCommand
-                #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
-                \box                                                           %! baca_markup:IndicatorCommand
-                    \column                                                    %! baca_markup:IndicatorCommand
-                        {                                                      %! baca_markup:IndicatorCommand
-                            "col legno battuto:"                               %! baca_markup:IndicatorCommand
-                            "as bright and pointlike as possible;"             %! baca_markup:IndicatorCommand
-                            "(mute string with left hand)"                     %! baca_markup:IndicatorCommand
-                        }                                                      %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-col-legno-battuto-first-appearance }              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! faberge_clb_rhythm
@@ -7311,16 +7277,7 @@ B_Violin_Music_Voice = {                                                       %
     - \tweak extra-offset #'(-2 . 0)                                           %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf                                                            %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                \column                                                        %! baca_markup:IndicatorCommand
-                    {                                                          %! baca_markup:IndicatorCommand
-                        "bow directly on bridge;"                              %! baca_markup:IndicatorCommand
-                        "noise only: no pitch"                                 %! baca_markup:IndicatorCommand
-                    }                                                          %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-bow-directly-on-bridge-noise-only }                   %! baca_markup:IndicatorCommand
 
     % [B Violin_Music_Voice measure 166 / measure 70]                          %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
@@ -7343,7 +7300,7 @@ B_Violin_Music_Voice = {                                                       %
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { "col legno battuto" }                                      %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-col-legno-battuto }                               %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7672,7 +7629,7 @@ B_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { spazz. }                                                   %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-spazz }                                           %! baca_markup:IndicatorCommand
 
     }                                                                          %! faberge_spazzolati_rhythm
 
@@ -8122,7 +8079,7 @@ B_Viola_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { "tasto + pochiss. scratch" }                                   %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-tasto-plus-pochiss-scratch }                          %! baca_markup:IndicatorCommand
 
     % [B Viola_Music_Voice measure 120 / measure 24]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
@@ -8263,17 +8220,7 @@ B_Viola_Music_Voice = {                                                        %
         \baca-effort-p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \override                                                          %! baca_markup:IndicatorCommand
-                #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
-                \box                                                           %! baca_markup:IndicatorCommand
-                    \column                                                    %! baca_markup:IndicatorCommand
-                        {                                                      %! baca_markup:IndicatorCommand
-                            "col legno battuto:"                               %! baca_markup:IndicatorCommand
-                            "as bright and pointlike as possible;"             %! baca_markup:IndicatorCommand
-                            "(mute string with left hand)"                     %! baca_markup:IndicatorCommand
-                        }                                                      %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-col-legno-battuto-first-appearance }              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! faberge_clb_rhythm
@@ -9282,13 +9229,7 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \column                                                            %! baca_markup:IndicatorCommand
-                {                                                              %! baca_markup:IndicatorCommand
-                    "glissando lentissimo"                                     %! baca_markup:IndicatorCommand
-                    "do not reattack note heads"                               %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-glissando-lentissimo-do-not-reattack-note-heads } %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
@@ -9355,17 +9296,7 @@ B_Cello_Music_Voice = {                                                        %
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \override                                                          %! baca_markup:IndicatorCommand
-                #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
-                \box                                                           %! baca_markup:IndicatorCommand
-                    \column                                                    %! baca_markup:IndicatorCommand
-                        {                                                      %! baca_markup:IndicatorCommand
-                            "col legno battuto:"                               %! baca_markup:IndicatorCommand
-                            "as bright and pointlike as possible;"             %! baca_markup:IndicatorCommand
-                            "(mute string with left hand)"                     %! baca_markup:IndicatorCommand
-                        }                                                      %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-col-legno-battuto-first-appearance }              %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_clb_rhythm
 
         e8                                                                     %! faberge_clb_rhythm

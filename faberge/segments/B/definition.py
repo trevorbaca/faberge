@@ -409,8 +409,9 @@ maker(
     baca.dynamic('fff'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'doubletrill',
+        r'\faberge-doubletrill',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.pitch('Eb4'),
     baca.trill_spanner(
@@ -424,8 +425,9 @@ maker(
     ('eh', (37, 44)),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'doubletrill',
+        r'\faberge-doubletrill',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.pitch('E4'),
     baca.trill_spanner(
@@ -464,9 +466,9 @@ maker(
 maker(
     ('eh', (61, 72)),
     baca.markup(
-        'remove staple',
+        r'\faberge-remove-staple',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         selector=baca.leaf(0),
         ),
     baca.staff_lines(1),
@@ -481,8 +483,9 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'airtone',
+        r'\faberge-airtone',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.staff_position(0),
     )
@@ -598,8 +601,9 @@ maker(
         ),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
-        'lv possibile',
+        r'\faberge-lv-possibile',
         abjad.tweak(1.5).padding,
+        literal=True,
         selector=baca.ptail(0),
         ),
     baca.pitch('G4'),
@@ -611,8 +615,9 @@ maker(
     baca.clef('bass'),
     baca.make_rests(),
     baca.markup(
-        faberge.markup.to_marimba(),
+        r'\faberge-to-marimba',
         abjad.tweak(1.5).padding,
+        literal=True,
         selector=baca.leaf(0),
         ),
     )
@@ -625,8 +630,9 @@ maker(
 maker(
     ('perc', (23, 60)),
     baca.markup(
-        'as attackless as possible',
+        r'\faberge-as-attackless-as-possible',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -692,14 +698,10 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.lines([
-            'rub sponge on bass drum head;',
-            'noise only: no pitch',
-            ],
-            boxed=True,
-            ),
+        r'\faberge-rub-sponge-on-bass-drum-head',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
+        literal=True,
         ),
     baca.staff_lines(1),
     baca.staff_position(-1),
@@ -710,9 +712,9 @@ maker(
     ('perc', (79, 80)),
     baca.dynamic('f'),
     baca.markup(
-        'woodblock',
+        r'\faberge-woodblock',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.rhythm(
         r"{ r2 \times 5/4 { c'4 c'4 c'4 c'4 } }",
@@ -727,8 +729,9 @@ maker(
     ('vn', (1, 8)),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
-        'lv possibile',
+        r'\faberge-lv-possibile',
         abjad.tweak(1.5).padding,
+        literal=True,
         selector=baca.ptail(0),
         ),
     baca.pitch('G6'),
@@ -739,8 +742,9 @@ maker(
     ('vn', (9, 22)),
     baca.dynamic('"ff"'),
     baca.markup(
-        'spazz.',
+        r'\faberge-spazz',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.new(
         baca.hairpin('"ff" >o niente'),
@@ -757,8 +761,9 @@ maker(
     baca.dynamic('ppp'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'pochiss. scratch',
+        r'\faberge-pochiss-scratch',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
 #    baca.new(
 #        baca.hairpin(
@@ -796,8 +801,9 @@ maker(
         baca.not_parts(baca.bar_extent_persistent((-2, 0))),
         ),
     baca.markup(
-        faberge.markup.col_legno_battuto_first_appearance(),
+        r'\faberge-col-legno-battuto-first-appearance',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.staccato(
         selector=baca.pheads(),
@@ -820,13 +826,9 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        baca.markups.lines([
-            'bow directly on bridge;',
-            'noise only: no pitch',
-            ],
-            boxed=True,
-            ),
+        r'\faberge-bow-directly-on-bridge-noise-only',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.staff_position(0),
     )
@@ -834,8 +836,9 @@ maker(
 maker(
     ('vn', (73, 80)),
     baca.markup(
-        'col legno battuto',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.hairpin('"mf" >o niente'),
     baca.staccato(
@@ -864,8 +867,9 @@ maker(
     ('va', (9, 22)),
     baca.dynamic('"ff"'),
     baca.markup(
-        'spazz.',
+        r'\faberge-spazz',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.new(
         baca.hairpin(
@@ -887,8 +891,9 @@ maker(
     baca.dynamic('pp'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        'tasto + pochiss. scratch',
+        r'\faberge-tasto-plus-pochiss-scratch',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
 #    baca.new(
 #        baca.hairpin(
@@ -930,8 +935,9 @@ maker(
         selector=baca.pheads(),
         ),
     baca.markup(
-        faberge.markup.col_legno_battuto_first_appearance(),
+        r'\faberge-col-legno-battuto-first-appearance',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     faberge.clb_rhythm(
         fuse_counts=[1, 2, 2],
@@ -994,11 +1000,9 @@ maker(
 maker(
     ('vc', (37, 60)),
     baca.markup(
-        baca.markups.lines([
-            'glissando lentissimo',
-            'do not reattack note heads',
-            ]),
+        r'\faberge-glissando-lentissimo-do-not-reattack-note-heads',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.new(
         baca.pitch('Eb2'),
@@ -1052,8 +1056,9 @@ maker(
     ('vc', (61, 80)),
     baca.dynamic('"mf"'),
     baca.markup(
-        faberge.markup.col_legno_battuto_first_appearance(),
+        r'\faberge-col-legno-battuto-first-appearance',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.new(
         baca.hairpin('"mf" >o niente'),

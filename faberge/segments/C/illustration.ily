@@ -1016,6 +1016,8 @@ C_Percussion_Music_Voice = {                                                   %
         b'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-woodblock }                                       %! baca_markup:IndicatorCommand
 
         b'4                                                                    %! faberge_even_tuplet_rhythm
 

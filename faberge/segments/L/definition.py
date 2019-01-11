@@ -255,9 +255,9 @@ maker(
         abjad.tweak((-1, 0)).extra_offset,
         ),
     baca.markup(
-        'castanets',
+        r'\faberge-castanets',
         abjad.tweak(1.5).padding,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '4-3 / 4-4 =|',
@@ -361,8 +361,9 @@ maker(
         selector=baca.tleaves().rleak(),
         ),
     baca.markup(
-        'col legno battuto',
+        r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '4-3 =|',

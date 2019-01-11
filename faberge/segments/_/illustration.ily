@@ -271,12 +271,7 @@ i_English_Horn_Music_Voice = {                                                 %
         \baca-f-parenthesized                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \override                                                          %! baca_markup:IndicatorCommand
-                #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
-                \box                                                           %! baca_markup:IndicatorCommand
-                    ratchet                                                    %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-ratchet }                                         %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_ratchet_rhythm
 
         b'16 * 139/32                                                          %! faberge_ratchet_rhythm
@@ -660,7 +655,7 @@ i_Violin_Music_Voice = {                                                       %
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { spazzolato }                                                   %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-spazzolato }                                          %! baca_markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vn.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     [                                                                          %! Duration_Specifier__rewrite_meter_
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -783,7 +778,7 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { spazzolato }                                               %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-spazzolato }                                      %! baca_markup:IndicatorCommand
 
     }                                                                          %! faberge_spazzolati_rhythm
 

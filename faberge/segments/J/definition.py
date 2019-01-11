@@ -295,10 +295,10 @@ maker(
         abjad.tweak(0).parent_alignment_X,
         ),
     baca.markup(
-        'castanets',
+        r'\faberge-castanets',
         abjad.tweak(10).staff_padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '4-5 -|',
@@ -342,10 +342,10 @@ maker(
 maker(
     ('perc', (5, 8)),
     baca.markup(
-        'BD (superball)',
+        r'\faberge-bd-superball',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         '3-7 =|',
@@ -366,8 +366,9 @@ maker(
     ('vn', 2),
     baca.dynamic('"f"'),
     baca.markup(
-        'spazzolato',
+        r'\faberge-spazzolato',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.3 -|',
@@ -422,8 +423,9 @@ maker(
     ('va', 2),
     baca.dynamic('"f"'),
     baca.markup(
-        'spazzolato',
+        r'\faberge-spazzolato',
         abjad.tweak(1.5).padding,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.3 -|',

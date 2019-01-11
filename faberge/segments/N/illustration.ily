@@ -979,12 +979,7 @@ N_Piano_RH_Music_Voice = {                                                     %
         \baca-mp-whiteout                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
-        ^ \markup {                                                            %! baca_markup:IndicatorCommand
-            \override                                                          %! baca_markup:IndicatorCommand
-                #'(box-padding . 0.5)                                          %! baca_markup:IndicatorCommand
-                \box                                                           %! baca_markup:IndicatorCommand
-                    woodblock                                                  %! baca_markup:IndicatorCommand
-            }                                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-woodblock }                                       %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "MM"                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -1269,12 +1264,7 @@ N_Percussion_Music_Voice = {                                                   %
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup {                                                                %! baca_markup:IndicatorCommand
-        \override                                                              %! baca_markup:IndicatorCommand
-            #'(box-padding . 0.5)                                              %! baca_markup:IndicatorCommand
-            \box                                                               %! baca_markup:IndicatorCommand
-                "crotale (bowed)"                                              %! baca_markup:IndicatorCommand
-        }                                                                      %! baca_markup:IndicatorCommand
+    ^ \markup { \faberge-crotale-bowed }                                       %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1331,12 +1321,7 @@ N_Percussion_Music_Voice = {                                                   %
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
             - \tweak parent-alignment-X #0                                     %! baca_markup:IndicatorCommand
-            ^ \markup {                                                        %! baca_markup:IndicatorCommand
-                \override                                                      %! baca_markup:IndicatorCommand
-                    #'(box-padding . 0.5)                                      %! baca_markup:IndicatorCommand
-                    \box                                                       %! baca_markup:IndicatorCommand
-                        woodblock                                              %! baca_markup:IndicatorCommand
-                }                                                              %! baca_markup:IndicatorCommand
+            ^ \markup { \faberge-woodblock }                                   %! baca_markup:IndicatorCommand
             - \abjad-dashed-line-with-hook                                     %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "MM"                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak bound-details.right.padding #2.5                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect

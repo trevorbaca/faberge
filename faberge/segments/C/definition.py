@@ -163,6 +163,11 @@ maker(
 maker(
     ('perc', 8),
     baca.dynamic('mp'),
+    baca.markup(
+        r'\faberge-woodblock',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
         ),

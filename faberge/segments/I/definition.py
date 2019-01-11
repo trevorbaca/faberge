@@ -188,10 +188,10 @@ maker(
     baca.dynamic('p'),
     baca.laissez_vibrer(),
     baca.markup(
-        'BD (struck)',
+        r'\faberge-bd-struck',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'A.2 -|',
@@ -215,10 +215,10 @@ maker(
     ('perc', 8),
     baca.dynamic('f'),
     baca.markup(
-        'woodblock',
+        r'\faberge-woodblock',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        boxed=True,
+        literal=True,
         ),
     baca.material_annotation_spanner(
         'MM =|',
