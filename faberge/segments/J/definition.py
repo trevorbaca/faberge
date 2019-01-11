@@ -47,17 +47,16 @@ maker(
         '100',
         selector=baca.skip(4 - 1),
         ),
-    baca.not_segment(
-        baca.rehearsal_mark(
-            'J',
-            abjad.tweak((0, 18)).extra_offset,
-            ),
-        ),
-    baca.only_segment(
-        baca.rehearsal_mark(
-            'J',
-            abjad.tweak((-9, 18)).extra_offset,
-            ),
+    baca.rehearsal_mark(
+        'J',
+        abjad.tweak(
+            (0, 14),
+            tag=baca.enums.ONLY_SCORE,
+            ).extra_offset,
+        abjad.tweak(
+            (-9, 18),
+            tag=baca.enums.ONLY_SEGMENT,
+            ).extra_offset,
         ),
     )
 

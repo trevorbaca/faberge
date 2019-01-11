@@ -52,12 +52,17 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
-    baca.rehearsal_mark(
-        'A',
-        abjad.tweak(
-            (0, 18),
-            tag=baca.enums.ONLY_SEGMENT,
-            ).extra_offset,
+    baca.only_score(
+        baca.rehearsal_mark(
+            'A',
+            abjad.tweak((0, 14)).extra_offset,
+            ),
+        ),
+    baca.only_segment(
+        baca.rehearsal_mark(
+            'A',
+            abjad.tweak((0, 18)).extra_offset,
+            ),
         ),
     )
 
