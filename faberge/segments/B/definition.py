@@ -56,9 +56,17 @@ maker(
         '80',
         selector=baca.leaf(1 - 1),
         ),
-    baca.rehearsal_mark(
-        'B',
-        abjad.tweak((0, 12)).extra_offset,
+    baca.only_score(
+        baca.rehearsal_mark(
+            'B',
+            abjad.tweak((0, 14)).extra_offset,
+            ),
+        ),
+    baca.only_segment(
+        baca.rehearsal_mark(
+            'B',
+            abjad.tweak((0, 18)).extra_offset,
+            ),
         ),
     )
 

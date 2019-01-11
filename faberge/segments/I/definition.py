@@ -49,9 +49,17 @@ maker(
         '4=4:5(4)',
         selector=baca.skip(6 - 1),
         ),
-    baca.rehearsal_mark(
-        'I',
-        abjad.tweak((0, 18)).extra_offset,
+    baca.only_score(
+        baca.rehearsal_mark(
+            'I',
+            abjad.tweak((0, 14)).extra_offset,
+            ),
+        ),
+    baca.only_segment(
+        baca.rehearsal_mark(
+            'I',
+            abjad.tweak((0, 18)).extra_offset,
+            ),
         ),
     )
 
