@@ -1007,7 +1007,7 @@ maker(
 
 maker(
     'vc',
-    baca.dls_staff_padding(5),
+    baca.dls_staff_padding(6),
     baca.make_repeat_tied_notes(),
     baca.pitch('D2'),
     baca.text_spanner_staff_padding(4),
