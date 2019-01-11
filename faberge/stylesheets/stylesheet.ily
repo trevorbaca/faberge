@@ -1,4 +1,4 @@
-#(set-default-paper-size "11x17landscape")
+#(set-default-paper-size "ledger")
 #(set-global-staff-size 12)
 
 \include "/Users/trevorbaca/baca/lilypond/baca.ily"
@@ -31,14 +31,14 @@
             " "
     }
     evenHeaderMarkup = \markup \fill-line { " " }
-    left-margin = 30\mm
+    left-margin = 25\mm
     oddFooterMarkup = \evenFooterMarkup
     oddHeaderMarkup = \markup \fill-line { " " }
     print-first-page-number = ##f
     print-page-number = ##t
     ragged-bottom = ##t
     ragged-last-bottom = ##t
-    right-margin = 5\mm
+    right-margin = 15\mm
     markup-system-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 48)
