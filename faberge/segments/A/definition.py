@@ -435,9 +435,8 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    # TODO: suite?
-    baca.pitch('<D4 E4 F#4 C5 D5>'),
     baca.note_head_style_harmonic(),
+    baca.pitch('<D4 E4 F#4 C5 D5>'),
     )
 
 # attack
@@ -454,12 +453,11 @@ maker(
 
 maker(
     ('attack', (1, 88)),
-    # TODO: suite?
-    faberge.piano_clusters(),
     baca.dynamic(
         'sfz',
         selector=baca.pheads(),
         ),
+    faberge.piano_clusters(),
     )
 
 maker(
