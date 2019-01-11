@@ -9,26 +9,25 @@ from abjadext import rmakers
 ##################################### [B] #####################################
 ###############################################################################
 
-def stage(n):
-    return {
-        1: (1, 8),
-        2: (9, 10),
-        3: (11, 12),
-        4: (13, 16),
-        5: (17, 22),
-        6: (23, 26),
-        7: (27, 30),
-        8: (31, 36),
-        9: (37, 44),
-        10: (45, 48),
-        11: (49, 52),
-        12: (53, 54),
-        13: (55, 56),
-        14: (57, 60),
-        15: (61, 68),
-        16: (69, 72),
-        17: (73, 80),
-        }[n]
+stage_markup = (
+    ('[B.1]', 1),
+    ('[B.2]', 9),
+    ('[B.3]', 11),
+    ('[B.4]', 13),
+    ('[B.5]', 17),
+    ('[B.6]', 23),
+    ('[B.7]', 27),
+    ('[B.8]', 31),
+    ('[B.9]', 37),
+    ('[B.10]', 45),
+    ('[B.11]', 49),
+    ('[B.12]', 53),
+    ('[B.13]', 55),
+    ('[B.14]', 57),
+    ('[B.15]', 61),
+    ('[B.16]', 69),
+    ('[B.17]', 73),
+    )
 
 maker = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
@@ -45,6 +44,7 @@ maker = baca.SegmentMaker(
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
+    stage_markup=stage_markup,
     time_signatures=time_signatures,
     transpose_score=True,
     validate_measure_count=80,
