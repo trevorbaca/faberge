@@ -36,6 +36,7 @@ six players tacet.
 short fermata.
 
 [A.1]
+12 measures
 shell (β) pf attacks field.
 shell (β) fl, cl, vn, crotale rapidly exchange exponentially enveloped pitch.
 shell (β) va tasto XFB fills out harmonic field on mp lower fundamental.
@@ -68,6 +69,7 @@ no pause.
         tasto + poco vib. -> PO (+ poco vib.) ...
 
 [A.2]
+4 measures
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale subito ppp.
 shell (β) va tasto XFB subito ppp.
@@ -100,6 +102,7 @@ no pause.
         ... tasto (+ poco vib.) -> PO (+ poco vib.) ...
 
 [A.3]
+6 measures
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from ppp to mp.
@@ -129,6 +132,7 @@ no pause.
         ... PO (+ poco vib.) ...
 
 [A.4]
+4 measures
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -157,6 +161,7 @@ no pause.
         (PO + poco vib.) -> tasto (+ poco vib.) ...
 
 [A.5]
+4 measures
 shell (β) pf resonance continues.
 shell (β) eh forte trills return.
 shell (β) fl, cl, vn, bowed crotale subito pp.
@@ -186,6 +191,7 @@ no pause.
         ... (PO + poco vib.) -> tasto (+ poco vib.) ...
 
 [A.6]
+6 measures
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from pp to mp.
@@ -214,6 +220,7 @@ no pause.
         ... PO (+ poco vib.) -> p tasto (+ poco vib.) ...
 
 [A.7]
+4 measures
 shell (β) pf resonance continues.
 shell (β) fl, cl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -240,6 +247,7 @@ jewelers' desk (γ) vc achieves [1].
         ... tasto (+ poco vib.) ...
 
 [A.8]
+6 measures
 shell (β) pf resonance continues.
 shell (β) cl falls silent and takes bcl.
 shell (β) fl, vn, bowed crotale subito pp.
@@ -269,6 +277,7 @@ no pause.
         ... tasto (+ poco vib.) ...
 
 [A.9]
+6 measures
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale crescendo from pp to f.
 shell (β) va tasto XFB crescendoes from pp to mp.
@@ -298,6 +307,7 @@ no pause.
         (tasto + poco vib.) -> poco pont. + vib. mod. ...
 
 [A.10]
+2 measures
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -327,6 +337,7 @@ no pause.
         ... (tasto + poco vib.) -> poco pont. + vib. mod. ...
 
 [A.11]
+2 measures
 shell (β) pf resonance continues.
 shell (β) fl, vn, bowed crotale continue forte.
 shell (β) va tasto XFB continues mp.
@@ -356,6 +367,7 @@ no pause.
         ... poco pont. + vib. mod. ...
 
 [A.12]
+6 measures
 shell (β) pf resonance continues.
 shell (β) fl falls silent and takes bfl.
 shell (β) vn, bowed crotale subito pp with rhythm shared between two players.
@@ -383,6 +395,7 @@ no pause.
         ... poco pont. + vib. mod. ...
 
 [A.13]
+8 measures
 shell (β) pf resonance continues.
 jewelers' desk (γ) bcl, vc subito ppp.
 gears (α) vn spazzolati, va spazzolati shine through for a moment.
@@ -404,6 +417,7 @@ no pause.
         (poco pont. +) non vib.
 
 [A.14]
+6 measures
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale crescendo from pp to forte.
 shell (β) va tasto XFB crescendoes from pp to mp.
@@ -431,6 +445,7 @@ no pause.
         (poco pont +) vib. mod. -> tasto + non vib. ...
 
 [A.15]
+4 measures
 shell (β) pf resonance continues.
 shell (β) vn, crotale continue forte.
 shell (β) va tasto XFB begins final decrescendo.
@@ -458,6 +473,7 @@ no pause.
         ... (poco pont +) vib. mod. -> tasto + non vib. ...
 
 [A.16]
+8 mesaures
 (shorter stage.)
 shell (β) pf resonance continues.
 shell (β) vn, perc momentarily tacet.
@@ -488,6 +504,7 @@ no pause.
         (tasto +) non vib. -> (tasto +) poco vib.
 
 [A.17]
+4 measures
 shell (β) pf resonance continues.
 shell (β) vn, bowed crotale subito pp.
 shell (β) eh trills return.
@@ -516,8 +533,8 @@ no pause.
         p ...
         (tasto +) poco vib. ...
 
-[A2.1]
-(short stage.)
+[B.1]
+8 measures
 shell (β) pf attacks field.
 shell (β) vn, bowed crotale attack final note simultaneously ff.
 shell (β) va XFB continues pp.
@@ -551,7 +568,8 @@ no pause.
         ... p ...
         (tasto +) poco vib. ...
 
-[A2.2]
+[B.2]
+2 measures
 shell (β) pf resonance, bowed crotale resonance continue.
 jewelers' desk (γ) eh keynoise continues.
 jewelers' desk (γ) bfl, bcl, vc begin transition from [1] to [2.3].
@@ -579,7 +597,8 @@ no pause.
         p < ff ...
         (tasto + poco vib.) -> molto pont. + vib. molto ...
 
-[A2.3]
+[B.3]
+2 measures
 gears (α) vn spazzolati, va spazzolati begin decrescendo from ff to niente.
 jewelers' desk (γ) eh keynoise continues.
 jewelers' desk (γ) bfl, bcl, vc continue transition from [1] to [2.3].
@@ -606,7 +625,8 @@ no pause.
         ... p < ff ...
         ... (tasto + poco vib.) -> molto pont. + vib. molto ...
 
-[A2.4]
+[B.4]
+4 measures
 shell (β) pf resonance continues.
 shell (β) eh trills return.
 gears (α) vn, va spazzolati continue decrescendo.
@@ -635,7 +655,8 @@ no pause.
         ... ff ...
         ... molto pont. + vib. molto ...
 
-[A2.5]
+[B.5]
+6 measures
 shell (β) pf resonance continues.
 gears (α) vn, va spazzolati complete decrescendo.
 jewelers' desk (γ) eh keynoise.
@@ -663,7 +684,8 @@ perc tacet.
         ... ff ...
         ... molto pont. + vib. molto ...
 
-[A2.6]
+[B.6]
+4 measures
 shell (β) pf attacks same pitch as marimba and sustains with middle pedal.
 shell (β) eh trills begin approaching apotheosis.
 jewelers' desk (γ) bfl, bcl, vc transitions from [2.3] to [1].
@@ -696,7 +718,8 @@ no pause.
         ff > p
         (molto pont. + vib. molto) -> tasto + poco vib.
 
-[A2.7]
+[B.7]
+4 measures
 jewelers' desk (γ) bfl glow, marimba, vn, va reilluminates with mf swells.
 jewelers' desk (γ) pf resonance continues.
 jewelers' desk (γ) bcl, vc achieve [1].
@@ -726,7 +749,8 @@ shell (β) eh trills continue approaching apotheosis.
         ... p ...
         [[tasto + poco vib.]] -> (tasto +) non. vib. ...
 
-[A2.8]
+[B.8]
+6 measures
 long stage.
 
     bfl: ... glow ...
@@ -753,7 +777,8 @@ long stage.
         ... p ...
         ... (tasto +) non vib. ...
 
-[A2.9]
+[B.9]
+8 measures
 long stage.
 
     bfl: ... glow ...
@@ -781,7 +806,8 @@ long stage.
         p < f ...
         (tasto +) non vib -> PO (+ non vib.) ...
 
-[A2.10]
+[B.10]
+4 measures
 
     bfl: ... glow 
         ... G3 / G4 ...
@@ -806,7 +832,8 @@ long stage.
         ... p < f ...
         ... (tasto +) non vib -> PO (+ non vib.) ...
 
-[A2.11]
+[B.11]
+4 measures
 
     bfl: glow
         ... G3 / G4 ...
@@ -831,7 +858,8 @@ long stage.
         f > niente ...
         [[PO (+ non vib)]] -> tasto (+ non vib) ...
 
-[A2.12]
+[B.12]
+2 measures
 
     bfl: glow
         ... G3 / G4 ...
@@ -853,7 +881,8 @@ long stage.
         ... f > niente ...
         ... PO (+ non vib) -> tasto (+ non vib) ...
 
-[A2.13]
+[B.13]
+2 measures
 
     bfl: glow ...
         ... G3 / G4 ...
@@ -875,7 +904,8 @@ long stage.
         ... f > niente ...
         ... PO (+ non vib) -> tasto (+ non vib) ...
 
-[A2.14]
+[B.14]
+4 measures
 
     bfl: ... glow
         ... G3 / G4
@@ -897,7 +927,8 @@ long stage.
         ... PO (+ non vib) -> tasto (+ non vib)
         C#2 -> B#1
 
-[A2.15]
+[B.15]
+8 measures
 prefigure lead-in.
 
     bfl: --
@@ -912,7 +943,8 @@ prefigure lead-in.
     vc: continuous clb ...
         mf ...
 
-[A2.16]
+[B.16]
+4 measures
 composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
 
     bfl: glow
@@ -932,7 +964,8 @@ composite cell (γ+ε) eh airtone, bd airtone, vn airtone prefigured [E].
     vc: ... continuous clb ...
         ... mf
 
-[A2.17]
+[B.17]
+8 measures
 prefigure exit.
 
     bfl: --
