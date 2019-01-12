@@ -2731,45 +2731,55 @@ A_Flute_Music_Voice = {                                                        %
 
     r8                                                                         %! faberge_shell_exchange_rhythm
 
-    % [A Flute_Music_Voice measure 61 / measure 57]                            %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_rests
-    ^ \baca-explicit-indicator-markup "(“BassFlute”)"                          %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-
-    % [A Flute_Music_Voice measure 62 / measure 58]                            %! _comment_measure_numbers
-    r2                                                                         %! baca_make_rests
-
-    % [A Flute_Music_Voice measure 63 / measure 59]                            %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
-
-    % [A Flute_Music_Voice measure 64 / measure 60]                            %! _comment_measure_numbers
-    r2                                                                         %! baca_make_rests
-
-    % [A Flute_Music_Voice measure 65 / measure 61]                            %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_rests
-
-    % [A Flute_Music_Voice measure 66 / measure 62]                            %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
-
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Flute_Music_Voice"                                   %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [A Flute_Music_Voice measure 67 / measure 63]                    %! _comment_measure_numbers
+            % [A Flute_Music_Voice measure 61 / measure 57]                    %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-bfl-markup               %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
+            \set Staff.instrumentName = \faberge-bfl-markup                    %! _clone_segment_initial_short_instrument_name
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
             c''1 * 3/4                                                         %! _make_multimeasure_rest_container
+            ^ \baca-explicit-indicator-markup "(“BassFlute”)"                  %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            ^ \baca-explicit-indicator-markup "[“B. fl.”]"                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-bfl-markup               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Flute_Rest_Voice"                                    %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [A Flute_Rest_Voice measure 67 / measure 63]                     %! _comment_measure_numbers
+            % [A Flute_Rest_Voice measure 61 / measure 57]                     %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
+            - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
+            ^ \markup { \faberge-to-bass-flute }                               %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
+
+    % [A Flute_Music_Voice measure 62 / measure 58]                            %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
+    R1 * 1/2                                                                   %! _make_measure_silences
+
+    % [A Flute_Music_Voice measure 63 / measure 59]                            %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+
+    % [A Flute_Music_Voice measure 64 / measure 60]                            %! _comment_measure_numbers
+    R1 * 1/2                                                                   %! _make_measure_silences
+
+    % [A Flute_Music_Voice measure 65 / measure 61]                            %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
+
+    % [A Flute_Music_Voice measure 66 / measure 62]                            %! _comment_measure_numbers
+    R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
+
+    % [A Flute_Music_Voice measure 67 / measure 63]                            %! _comment_measure_numbers
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A Flute_Music_Voice measure 68 / measure 64]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
@@ -4322,24 +4332,52 @@ A_Clarinet_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
-    % [A Clarinet_Music_Voice measure 45 / measure 41]                         %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_rests
-    ^ \baca-explicit-indicator-markup "(“BassClarinet”)"                       %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Clarinet_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Clarinet_Music_Voice measure 45 / measure 41]                 %! _comment_measure_numbers
+            \set Staff.shortInstrumentName = \faberge-bcl-markup               %! EXPLICIT_MARGIN_MARKUP:_set_status_tag:baca_margin_markup:-PARTS:IndicatorCommand
+            \set Staff.instrumentName = \faberge-bcl-markup                    %! _clone_segment_initial_short_instrument_name
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.InstrumentName.color = #(x11-color 'blue)    %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            d''1 * 3/4                                                         %! _make_multimeasure_rest_container
+            ^ \baca-explicit-indicator-markup "(“BassClarinet”)"               %! EXPLICIT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+            ^ \baca-explicit-indicator-markup "[“B. cl.”]"                     %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+            \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)  %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+            \set Staff.shortInstrumentName = \faberge-bcl-markup               %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Clarinet_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Clarinet_Rest_Voice measure 45 / measure 41]                  %! _comment_measure_numbers
+            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+            - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
+            ^ \markup { \faberge-to-bass-clarinet }                            %! baca_markup:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Clarinet_Music_Voice measure 46 / measure 42]                         %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A Clarinet_Music_Voice measure 47 / measure 43]                         %! _comment_measure_numbers
-    r2                                                                         %! baca_make_rests
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [A Clarinet_Music_Voice measure 48 / measure 44]                         %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A Clarinet_Music_Voice measure 49 / measure 45]                         %! _comment_measure_numbers
-    r1                                                                         %! baca_make_rests
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A Clarinet_Music_Voice measure 50 / measure 46]                         %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_rests
+    R1 * 3/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A Clarinet_Music_Voice measure 51 / measure 47]                         %! _comment_measure_numbers
     e4                                                                         %! faberge_successive_tapers_rhythm

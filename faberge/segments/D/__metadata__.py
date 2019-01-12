@@ -117,7 +117,7 @@ metadata = abjad.OrderedDict(
                                 context='Clarinet_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
-                                value='Cl.',
+                                value='B. cl.',
                                 ),
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
@@ -184,12 +184,12 @@ metadata = abjad.OrderedDict(
                                 context='Flute_Music_Voice',
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
-                                value='Fl.',
+                                value='B. fl.',
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 manifest='instruments',
-                                value='Flute',
+                                value='BassFlute',
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
