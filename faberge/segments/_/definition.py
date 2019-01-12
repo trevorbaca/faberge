@@ -57,12 +57,9 @@ maker(
 
 maker(
     'fl',
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-flute-markup'),
         faberge.margin_markup('Fl.'),
-        baca.start_markup(
-            r'\faberge-flute-markup',
-            literal=True,
-            ),
         ),
     )
 
@@ -70,12 +67,9 @@ maker(
 
 maker(
     'eh',
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-english-horn-markup'),
         faberge.margin_markup('Eng. hn.'),
-        baca.start_markup(
-            r'\faberge-english-horn-markup',
-            literal=True,
-            ),
         ),
     )
 
@@ -102,12 +96,9 @@ maker(
 
 maker(
     'cl',
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-clarinet-markup'),
         faberge.margin_markup('Cl.'),
-        baca.start_markup(
-            r'\faberge-clarinet-markup',
-            literal=True,
-            ),
         ),
     )
 
@@ -115,15 +106,14 @@ maker(
 
 maker(
     'rh',
-    baca.suite(
-        faberge.margin_markup(
-            'Pf.',
-            context='PianoStaff',
-            ),
+    baca.chunk(
         baca.start_markup(
             r'\faberge-piano-markup',
             context='PianoStaff',
-            literal=True,
+            ),
+        faberge.margin_markup(
+            'Pf.',
+            context='PianoStaff',
             ),
         ),
     )
@@ -139,12 +129,9 @@ maker(
 
 maker(
     'perc',
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-percussion-markup'),
         faberge.margin_markup('Perc.'),
-        baca.start_markup(
-            r'\faberge-percussion-markup',
-            literal=True,
-            ),
         ),
     )
 
@@ -153,12 +140,9 @@ maker(
 maker(
     'vn',
     baca.dls_staff_padding(4),
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-violin-markup'),
         faberge.margin_markup('Vn.'),
-        baca.start_markup(
-            r'\faberge-violin-markup',
-            literal=True,
-            ),
         ),
     )
 
@@ -182,12 +166,9 @@ maker(
     'va',
     baca.clef('alto'),
     baca.dls_staff_padding(6),
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-viola-markup'),
         faberge.margin_markup('Va.'),
-        baca.start_markup(
-            r'\faberge-viola-markup',
-            literal=True,
-            ),
         ),
     )
 
@@ -212,11 +193,8 @@ maker(
 maker(
     'vc',
     baca.clef('bass'),
-    baca.suite(
+    baca.chunk(
+        baca.start_markup(r'\faberge-cello-markup'),
         faberge.margin_markup('Vc.'),
-        baca.start_markup(
-            r'\faberge-cello-markup',
-            literal=True,
-            ),
         ),
     )

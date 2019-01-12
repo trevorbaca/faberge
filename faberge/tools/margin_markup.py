@@ -21,4 +21,4 @@ def margin_markup(
         context=context,
         selector=selector,
         )
-    return baca.tag('-PARTS', command)
+    return baca.not_parts(command)
