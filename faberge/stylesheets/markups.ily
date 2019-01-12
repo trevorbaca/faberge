@@ -175,6 +175,18 @@ faberge-tasto-plus-pochiss-scratch = \markup
     \whiteout
     "tasto + pochiss. scratch"
 
+faberge-to-bass-clarinet = \markup
+    \whiteout
+    \override #'(box-padding . 0.5)
+    \box
+    "to bass clarinet"
+
+faberge-to-bass-flute = \markup
+    \whiteout
+    \override #'(box-padding . 0.5)
+    \box
+    "to bass flute"
+
 faberge-to-marimba = \markup
     \whiteout
     \override #'(box-padding . 0.5)

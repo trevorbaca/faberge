@@ -70,11 +70,6 @@ maker(
 # fl
 
 maker(
-    'fl',
-    baca.instrument(faberge.instruments['Flute']),
-    )
-
-maker(
     ('fl', (1, 4)),
     faberge.airtone_chain_rhythm(20, [2, 6]),
     )

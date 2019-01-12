@@ -160,9 +160,20 @@ maker(
     )
 
 maker(
+    ('flr', 57),
+    baca.markup(
+        r'\faberge-to-bass-flute',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        selector=baca.mmrest(0),
+        ),
+    )
+
+maker(
     ('fl', (57, 62)),
     baca.instrument(faberge.instruments['BassFlute']),
-    baca.make_rests(),
+    baca.tacet(),
+    faberge.margin_markup('B. fl.'),
     )
 
 maker(
@@ -362,9 +373,20 @@ maker(
     )
 
 maker(
+    ('clr', 41),
+    baca.markup(
+        r'\faberge-to-bass-clarinet',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        selector=baca.mmrest(0),
+        ),
+    )
+
+maker(
     ('cl', (41, 46)),
     baca.instrument(faberge.instruments['BassClarinet']),
-    baca.make_rests(),
+    baca.tacet(),
+    faberge.margin_markup('B. cl.'),
     )
 
 maker(
