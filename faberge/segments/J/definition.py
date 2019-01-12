@@ -31,6 +31,23 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.chunk(
+        baca.rehearsal_mark(
+            'J',
+            abjad.tweak(
+                (0, 14),
+                tag=baca.enums.ONLY_SCORE,
+                ).extra_offset,
+            abjad.tweak(
+                (-9, 18),
+                tag=baca.enums.ONLY_SEGMENT,
+                ).extra_offset,
+            ),
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.metronome_mark(
         '100',
         selector=baca.skip(1 - 1),
@@ -47,16 +64,19 @@ maker(
         '100',
         selector=baca.skip(4 - 1),
         ),
-    baca.rehearsal_mark(
-        'J',
-        abjad.tweak(
-            (0, 14),
-            tag=baca.enums.ONLY_SCORE,
-            ).extra_offset,
-        abjad.tweak(
-            (-9, 18),
-            tag=baca.enums.ONLY_SEGMENT,
-            ).extra_offset,
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent((-1, 3)),
+        baca.literal(r'\bar ".|:"'),
+        measures=2,
+        ),
+    baca.chunk(
+        baca.bar_line_x_extent((0, 2)),
+        baca.literal(r'\bar ":|."'),
+        measures=6,
         ),
     )
 

@@ -31,6 +31,24 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.chunk(
+        baca.only_score(
+            baca.rehearsal_mark(
+                'G',
+                abjad.tweak((0, 14)).extra_offset,
+                ),
+            ),
+        baca.only_segment(
+            baca.rehearsal_mark(
+                'G',
+                abjad.tweak((0, 18)).extra_offset,
+                ),
+            ),
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.metronome_mark(
         '156',
         selector=baca.skip(1 - 1),
@@ -39,28 +57,50 @@ maker(
         '4=5:4(4)',
         selector=baca.skip(1 - 1),
         ),
-    baca.only_score(
-        baca.rehearsal_mark(
-            'G',
-            abjad.tweak((0, 14)).extra_offset,
-            ),
-        ),
-    baca.only_segment(
-        baca.rehearsal_mark(
-            'G',
-            abjad.tweak((0, 18)).extra_offset,
-            ),
-        ),
     )
 
 maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-1, 2),
+            selector=baca.skip(0),
+            ),
+        baca.bar_line_x_extent(
+            (0, 3),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(3, 5),
+        ),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (0, 3),
+            after=True,
+            selector=baca.skip(-1),
+            ),
+        baca.volta(),
+        measures=(6, 8),
+        ),
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-1, 3),
+            selector=baca.skip(0),
+            ),
+        baca.literal(r'\bar ".|:"'),
+        measures=10,
+        ),
+    )
+    
+maker(
     'Global_Rests',
     baca.global_fermata(
-        'fermata',
+        'short',
         selector=baca.leaf(2 - 1),
         ),
     baca.global_fermata(
-        'fermata',
+        'short',
         selector=baca.leaf(7 - 1),
         ),
     )
@@ -163,6 +203,11 @@ maker(
     )
 
 maker(
+    ('rh', [1, 3, 4, 5]),
+    baca.beam(),
+    )
+
+maker(
     ('rh', [1, 3, 4, 5, 6, 8, 9, 10]),
     baca.accent(
         selector=baca.pleaf(1),
@@ -170,7 +215,6 @@ maker(
     baca.accent(
         selector=baca.pleaf(-1),
         ),
-    baca.beam(),
     )
 
 maker(

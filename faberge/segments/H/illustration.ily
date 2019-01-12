@@ -27,6 +27,8 @@ H_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [H Global_Skips measure 221 / measure 2]                                 %! _comment_measure_numbers
+    \once \override Score.BarLine.X-extent = #'(-2 . 2)                        %! baca_bar_line_x_extent:OverrideCommand(1)
+    \bar ":|."                                                                 %! baca_literal:IndicatorCommand
     \time 10/4                                                                 %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 5/2                                                                   %! _make_global_skips(1)
