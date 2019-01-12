@@ -529,11 +529,6 @@ maker(
     baca.staff_position(0),
     )
 
-maker(
-    ('eh', (73, 80)),
-    baca.staff_lines(5),
-    )
-
 # cl
 
 maker(

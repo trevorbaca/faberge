@@ -341,7 +341,7 @@ C_English_Horn_Music_Voice = {                                                 %
     % [C English_Horn_Music_Voice measure 177 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
@@ -359,15 +359,13 @@ C_English_Horn_Music_Voice = {                                                 %
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_airtone_chain_rhythm
+    b'2                                                                        %! faberge_airtone_chain_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [C English_Horn_Music_Voice measure 178 / measure 2]                     %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_airtone_chain_rhythm
+    b'8                                                                        %! faberge_airtone_chain_rhythm
     \repeatTie
 
     r8
@@ -378,15 +376,13 @@ C_English_Horn_Music_Voice = {                                                 %
 
     r4.
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'8                                                                        %! faberge_airtone_chain_rhythm
+    b'8                                                                        %! faberge_airtone_chain_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [C English_Horn_Music_Voice measure 179 / measure 3]                     %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_airtone_chain_rhythm
+    b'2                                                                        %! faberge_airtone_chain_rhythm
     \repeatTie
 
     r4                                                                         %! faberge_airtone_chain_rhythm
@@ -399,16 +395,13 @@ C_English_Horn_Music_Voice = {                                                 %
     r2                                                                         %! faberge_airtone_chain_rhythm
 
     % [C English_Horn_Music_Voice measure 181 / measure 5]                     %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! baca_make_repeat_tied_notes
+    b'2.                                                                       %! baca_make_repeat_tied_notes
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
     % [C English_Horn_Music_Voice measure 182 / measure 6]                     %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.
+    b'2.
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2
+    b'2
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 

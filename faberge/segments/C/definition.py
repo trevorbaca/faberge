@@ -111,7 +111,13 @@ maker(
 
 maker(
     ('eh', (1, 4)),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [1, 5]),
+    )
+
+maker(
+    ('eh', (5, 6)),
+    baca.staff_position(0),
     )
 
 # cl
