@@ -25,9 +25,28 @@ maker = baca.SegmentMaker(
     time_signatures=[
         (3, 4), (4, 4), (3, 4), (4, 4),
         (5, 4), (6, 4), (7, 4), (8, 4),
+        (1, 4),
         ],
     transpose_score=True,
-    validate_measure_count=8,
+    validate_measure_count=9,
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.only_score(
+            baca.rehearsal_mark(
+                'N',
+                abjad.tweak((0, 14)).extra_offset,
+                ),
+            ),
+        baca.only_segment(
+            baca.rehearsal_mark(
+                'N',
+                abjad.tweak((0, 18)).extra_offset,
+                ),
+            ),
+        ),
     )
 
 maker(
@@ -40,17 +59,13 @@ maker(
         '4=5:4(4)',
         selector=baca.skip(5 - 1),
         ),
-    baca.only_score(
-        baca.rehearsal_mark(
-            'N',
-            abjad.tweak((0, 14)).extra_offset,
-            ),
-        ),
-    baca.only_segment(
-        baca.rehearsal_mark(
-            'N',
-            abjad.tweak((0, 18)).extra_offset,
-            ),
+    )
+
+maker(
+    'Global_Rests',
+    baca.global_fermata(
+        'short',
+        selector=baca.leaf(9 - 1),
         ),
     )
 
@@ -64,7 +79,9 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.pleaves(
+            exclude=baca.enums.HIDDEN,
+            ),
         ),
     )
 
@@ -156,7 +173,6 @@ maker(
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(0).self_alignment_X,
         abjad.tweak(4.5).staff_padding,
         ),
     )

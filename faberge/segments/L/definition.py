@@ -31,33 +31,31 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.chunk(
+        baca.only_score(
+            baca.rehearsal_mark(
+                'L',
+                abjad.tweak((0, 14)).extra_offset,
+                ),
+            ),
+        baca.only_segment(
+            baca.rehearsal_mark(
+                'L',
+                abjad.tweak((0, 18)).extra_offset,
+                ),
+            ),
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.metronome_mark(
         '80',
         selector=baca.skip(3 - 1),
         ),
     baca.metronome_mark(
-        '51',
-        selector=baca.skip(4 - 1),
-        ),
-    baca.metronome_mark(
         '64',
-        selector=baca.skip(5 - 1),
-        ),
-    baca.metronome_mark(
-        '4=5:4(4)',
-        selector=baca.skip(5 - 1),
-        ),
-    baca.only_score(
-        baca.rehearsal_mark(
-            'L',
-            abjad.tweak((0, 14)).extra_offset,
-            ),
-        ),
-    baca.only_segment(
-        baca.rehearsal_mark(
-            'L',
-            abjad.tweak((0, 18)).extra_offset,
-            ),
+        selector=baca.skip(4 - 1),
         ),
     )
 
@@ -152,6 +150,7 @@ maker(
 
 maker(
     'cl',
+    baca.dls_staff_padding(8),
     baca.pitch(
         'D3',
         selector=baca.plts(
@@ -161,7 +160,6 @@ maker(
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(0).self_alignment_X,
         abjad.tweak(3.5).staff_padding,
         ),
     )
@@ -219,7 +217,11 @@ maker(
 
 maker(
     ('rh', 3),
-    baca.dynamic('(mp)'),
+    baca.dynamic(
+        '(mp)',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.rhythm(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
@@ -273,28 +275,37 @@ maker(
     )
 
 maker(
-    ('perc', [1, 2, 3, 5, 6, 7, 8]),
+    ('perc', [1, 2, 3, 4, 5, 6]),
     faberge.downbeat_attack(),
     )
 
 maker(
-    ('perc', 4),
-    baca.hairpin(
-        'p -- f',
-        selector=baca.plts()[1:].rleak(),
-        ),
-    baca.trill_spanner_staff_padding(8),
-    faberge.even_tuplet_rhythm(
-        extra_counts=[1],
-        ),
-    )
-
-maker(
-    ('perc', (6, 8)),
+    ('perc', 7),
     baca.dynamic(
         'p-sempre',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-1, 0)).extra_offset,
+        ),
+    )
+
+maker(
+    ('perc', 7),
+    baca.markup(
+        r'\faberge-woodblock',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('perc', 8),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
         ),
     )
 

@@ -23,7 +23,7 @@ M_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-metronome-mark-spanner-colored-left-text 2 0 1 "64" #'green4       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! REAPPLIED_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[11'03'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'02'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 263 / measure 2]                                 %! _comment_measure_numbers
@@ -38,7 +38,7 @@ M_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "263"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'03'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'02'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 264 / measure 3]                                 %! _comment_measure_numbers
@@ -60,7 +60,7 @@ M_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-colored-bracketed-metric-modulation-tuplet-rhs #2 #0 #1 #"80" #2 #0 #2 #0 #4 #5 #'(1 . 1) #'blue %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[11'06'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'05'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 265 / measure 4]                                 %! _comment_measure_numbers
@@ -75,7 +75,7 @@ M_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "265"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'06'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'05'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 266 / measure 5]                                 %! _comment_measure_numbers
@@ -100,7 +100,7 @@ M_Global_Skips = {                                                             %
     - \abjad-invisible-line                                                    %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     - \baca-colored-bracketed-metric-modulation-tuplet-rhs #2 #0 #1 #"100" #2 #0 #2 #0 #4 #5 #'(1 . 1) #'blue %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
     \bacaStartTextSpanMM                                                       %! EXPLICIT_METRONOME_MARK_WITH_COLOR:_attach_metronome_marks(3)
-%@% - \baca-start-ct-left-only "[11'10'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'09'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 267 / measure 6]                                 %! _comment_measure_numbers
@@ -115,7 +115,7 @@ M_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "267"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'10'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'09'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 268 / measure 7]                                 %! _comment_measure_numbers
@@ -130,7 +130,7 @@ M_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "268"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-left-only "[11'13'']"                                     %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-left-only "[11'12'']"                                     %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [M Global_Skips measure 269 / measure 8]                                 %! _comment_measure_numbers
@@ -145,7 +145,7 @@ M_Global_Skips = {                                                             %
     \bacaStartTextSpanLMN                                                      %! LOCAL_MEASURE_NUMBER_MARKUP
 %@% - \baca-start-mn-left-only "269"                                           %! MEASURE_NUMBER_MARKUP
 %@% \bacaStartTextSpanMN                                                       %! MEASURE_NUMBER_MARKUP
-%@% - \baca-start-ct-both "[11'13'']" "[11'26'']"                              %! CLOCK_TIME_MARKUP
+%@% - \baca-start-ct-both "[11'12'']" "[11'25'']"                              %! CLOCK_TIME_MARKUP
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
     \baca-bar-line-visible                                                     %! _attach_final_bar_line
     \bar "|"                                                                   %! _attach_final_bar_line
@@ -685,7 +685,6 @@ M_Clarinet_Music_Voice = {                                                     %
     ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak direction #down
     - \tweak parent-alignment-X #-0.5
-    - \tweak self-alignment-X #0
     - \tweak staff-padding #3.5
     ^ \markup {
         \override
@@ -714,7 +713,6 @@ M_Clarinet_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -730,7 +728,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -744,7 +741,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -759,7 +755,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -772,7 +767,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -795,7 +789,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -810,7 +803,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -825,7 +817,6 @@ M_Clarinet_Music_Voice = {                                                     %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -841,7 +832,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -854,7 +844,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -873,7 +862,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -887,7 +875,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -901,7 +888,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -914,7 +900,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -927,7 +912,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -942,7 +926,6 @@ M_Clarinet_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -958,7 +941,6 @@ M_Clarinet_Music_Voice = {                                                     %
     e'8                                                                        %! faberge_downbeat_attack
     - \tweak direction #down
     - \tweak parent-alignment-X #-0.5
-    - \tweak self-alignment-X #0
     - \tweak staff-padding #3.5
     ^ \markup {
         \override
@@ -979,7 +961,6 @@ M_Clarinet_Music_Voice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -995,7 +976,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1009,7 +989,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1022,7 +1001,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1035,7 +1013,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1048,7 +1025,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1071,7 +1047,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1084,7 +1059,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1101,7 +1075,6 @@ M_Clarinet_Music_Voice = {                                                     %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1117,7 +1090,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1130,7 +1102,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1152,7 +1123,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'8                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1166,7 +1136,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1179,7 +1148,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4.                                                                   %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1194,7 +1162,6 @@ M_Clarinet_Music_Voice = {                                                     %
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1207,7 +1174,6 @@ M_Clarinet_Music_Voice = {                                                     %
         e'4                                                                    %! faberge_bcl_color_fingering_rhythm
         - \tweak direction #down
         - \tweak parent-alignment-X #-0.5
-        - \tweak self-alignment-X #0
         - \tweak staff-padding #3.5
         ^ \markup {
             \override
@@ -1550,79 +1516,103 @@ M_Piano_LH_Music_Staff = <<                                                    %
 
 M_Percussion_Music_Voice = {                                                   %! extern
 
-    % [M Percussion_Music_Voice measure 262 / measure 1]                       %! _comment_measure_numbers
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-    \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \override Stem.direction = #up                                             %! baca_stem_up:OverrideCommand(1)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c''4                                                                       %! faberge_downbeat_attack
-    - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-p-sempre                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-    ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "4-5 / 5-1"                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-    - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    {
 
-    r2.
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        % [M Percussion_Music_Voice measure 262 / measure 1]                   %! _comment_measure_numbers
+        \set Staff.shortInstrumentName = \faberge-perc-markup                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+        \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.StaffSymbol.line-count = 1                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+        \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
+        \override Stem.direction = #up                                         %! baca_stem_up:OverrideCommand(1)
+        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+        c''2.
+        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \baca-p-sempre                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+        ^ \baca-reapplied-indicator-markup "[“Perc.”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+        ^ \baca-reapplied-indicator-markup "(“Percussion”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "4-5 / 5-1"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+        \set Staff.shortInstrumentName = \faberge-perc-markup                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [M Percussion_Music_Voice measure 263 / measure 2]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        r4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    r2.
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+    }
 
-    % [M Percussion_Music_Voice measure 264 / measure 3]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    {
 
-    r2.
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        % [M Percussion_Music_Voice measure 263 / measure 2]                   %! _comment_measure_numbers
+        c''2.
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    % [M Percussion_Music_Voice measure 265 / measure 4]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        r4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    r2.
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+    }
 
-    % [M Percussion_Music_Voice measure 266 / measure 5]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+    {
 
-    r2.
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        % [M Percussion_Music_Voice measure 264 / measure 3]                   %! _comment_measure_numbers
+        c''2.
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    % [M Percussion_Music_Voice measure 267 / measure 6]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \revert Stem.direction                                                     %! baca_stem_up:OverrideCommand(2)
+        r4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    r2.
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+    }
+
+    {
+
+        % [M Percussion_Music_Voice measure 265 / measure 4]                   %! _comment_measure_numbers
+        c''2.
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        r4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+
+    }
+
+    {
+
+        % [M Percussion_Music_Voice measure 266 / measure 5]                   %! _comment_measure_numbers
+        c''2.
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+
+        r4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+
+    }
+
+    {
+
+        % [M Percussion_Music_Voice measure 267 / measure 6]                   %! _comment_measure_numbers
+        c''2.
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \revert Stem.direction                                                 %! baca_stem_up:OverrideCommand(2)
+
+        r4
+        \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
+
+    }
 
     <<                                                                         %! _make_multimeasure_rest_container
 

@@ -31,6 +31,24 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.chunk(
+        baca.only_score(
+            baca.rehearsal_mark(
+                'E',
+                abjad.tweak((0, 14)).extra_offset,
+                ),
+            ),
+        baca.only_segment(
+            baca.rehearsal_mark(
+                'E',
+                abjad.tweak((0, 18)).extra_offset,
+                ),
+            ),
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.metronome_mark(
         '156',
         selector=baca.skip(2 - 1),
@@ -43,24 +61,29 @@ maker(
         '80',
         selector=baca.skip(6 - 1),
         ),
-    baca.only_score(
-        baca.rehearsal_mark(
-            'E',
-            abjad.tweak((0, 14)).extra_offset,
+    )
+
+maker(
+    'Global_Skips',
+    baca.chunk(
+        baca.bar_line_x_extent(
+            (-1, 2),
+            selector=baca.skip(0),
             ),
-        ),
-    baca.only_segment(
-        baca.rehearsal_mark(
-            'E',
-            abjad.tweak((0, 18)).extra_offset,
+        baca.bar_line_x_extent(
+            (-2, 3),
+            after=True,
+            selector=baca.skip(-1),
             ),
+        baca.volta(),
+        measures=(2, 4),
         ),
     )
 
 maker(
     'Global_Rests',
     baca.global_fermata(
-        'fermata',
+        'short',
         selector=baca.leaf(3 - 1),
         ),
     )

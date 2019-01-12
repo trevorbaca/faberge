@@ -31,6 +31,24 @@ maker = baca.SegmentMaker(
 
 maker(
     'Global_Skips',
+    baca.chunk(
+        baca.only_score(
+            baca.rehearsal_mark(
+                'M',
+                abjad.tweak((0, 14)).extra_offset,
+                ),
+            ),
+        baca.only_segment(
+            baca.rehearsal_mark(
+                'M',
+                abjad.tweak((0, 18)).extra_offset,
+                ),
+            ),
+        ),
+    )
+
+maker(
+    'Global_Skips',
     baca.metronome_mark(
         '80',
         selector=baca.skip(3 - 1),
@@ -46,18 +64,6 @@ maker(
     baca.metronome_mark(
         '4=5:4(4)',
         selector=baca.skip(5 - 1),
-        ),
-    baca.only_score(
-        baca.rehearsal_mark(
-            'M',
-            abjad.tweak((0, 14)).extra_offset,
-            ),
-        ),
-    baca.only_segment(
-        baca.rehearsal_mark(
-            'M',
-            abjad.tweak((0, 18)).extra_offset,
-            ),
         ),
     )
 
@@ -168,7 +174,6 @@ maker(
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(0).self_alignment_X,
         abjad.tweak(3.5).staff_padding,
         rotation=-16,
         ),
@@ -289,8 +294,11 @@ maker(
 # perc
 
 maker(
-    ('perc', [1, 2, 3, 4, 5, 6]),
-    faberge.downbeat_attack(),
+    ('perc', 1),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
     )
 
 maker(
@@ -305,6 +313,46 @@ maker(
         None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
+        ),
+    )
+
+maker(
+    ('perc', 2),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('perc', 3),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('perc', 4),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('perc', 5),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('perc', 6),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
         ),
     )
 
