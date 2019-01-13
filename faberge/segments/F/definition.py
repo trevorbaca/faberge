@@ -141,7 +141,7 @@ maker(
     baca.espressivo(
         abjad.tweak(
             (0, 0),
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ).X_extent,
         selector=baca.pheads(),
         ),
@@ -418,7 +418,7 @@ maker(
         baca.bar_extent_persistent(
             (-2, 0),
             after=True,
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
         ),
@@ -495,7 +495,7 @@ maker(
     baca.chunk(
         baca.bar_extent_persistent(
             (-2, 2),
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(5),
         ),

@@ -369,7 +369,7 @@ maker(
     baca.chunk(
         baca.bar_extent_persistent(
             (-2, 2),
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(5),
         ),
@@ -426,7 +426,7 @@ maker(
         baca.bar_extent_persistent(
             (-2, 0),
             after=True,
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
         ),
@@ -634,7 +634,7 @@ maker(
         baca.bar_extent_persistent(
             (0, 2),
             after=True,
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
         ),

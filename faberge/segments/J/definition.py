@@ -36,11 +36,11 @@ maker(
             'J',
             abjad.tweak(
                 (0, 14),
-                tag=baca.enums.ONLY_SCORE,
+                tag=baca.const.ONLY_SCORE,
                 ).extra_offset,
             abjad.tweak(
                 (-9, 18),
-                tag=baca.enums.ONLY_SEGMENT,
+                tag=baca.const.ONLY_SEGMENT,
                 ).extra_offset,
             ),
         ),

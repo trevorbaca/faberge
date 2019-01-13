@@ -296,7 +296,7 @@ maker(
         baca.bar_extent_persistent(
             (0, 2),
             after=True,
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
         ),
@@ -314,7 +314,7 @@ maker(
     baca.chunk(
         baca.bar_extent_persistent(
             (-2, 2),
-            tag=baca.enums.NOT_PARTS,
+            tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(5),
         ),
@@ -602,12 +602,12 @@ maker(
     ('va', (5, 9)),
     baca.quadruple_staccato(
         selector=baca.plts(
-            exclude=baca.enums.HIDDEN,
+            exclude=baca.const.HIDDEN,
             )[abjad.index([0], 4)],
         ),
     baca.stem_tremolo(
         selector=baca.plts(
-            exclude=baca.enums.HIDDEN,
+            exclude=baca.const.HIDDEN,
             )[abjad.index([0], 4, inverted=True)],
         ),
     )
