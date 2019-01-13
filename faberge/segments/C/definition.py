@@ -163,7 +163,6 @@ maker(
 
 maker(
     ('rh', (3, 4)),
-    baca.beam(),
     baca.dynamic('mp'),
     baca.material_annotation_spanner(
         '2-1 -|',
@@ -177,6 +176,18 @@ maker(
         ),
     )
 
+maker(
+    ('rh', (3, 5)),
+    baca.beam(),
+    )
+
+maker(
+    ('rh', 5),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
+    )
+
 # perc
 
 maker(
@@ -187,6 +198,10 @@ maker(
 
 maker(
     ('perc', 1),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        ),
     faberge.even_tuplet_rhythm(
         extra_counts=[0],
         ),
@@ -195,6 +210,10 @@ maker(
 maker(
     ('perc', (4, 5)),
     baca.dynamic('mf'),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        ),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1, 0],
         ),
@@ -203,6 +222,10 @@ maker(
 maker(
     ('perc', 8),
     baca.dynamic('mp'),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        ),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
         ),

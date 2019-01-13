@@ -25,7 +25,7 @@ maker = baca.SegmentMaker(
         (4, 4), (4, 4), (4, 4), (3, 4),
         (4, 4), (4, 4), (4, 4), (3, 4), (1, 4),
         ],
-    transpose_score=False,
+    transpose_score=True,
     validate_measure_count=9,
     )
 
@@ -76,6 +76,15 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
         ),
+    )
+
+maker(
+    ('fl', [4, 5, 8]),
+    baca.dynamic(
+        'p',
+        match=[0, 2],
+        ),
+    baca.pitch('G#3'),
     )
 
 # tutti
@@ -130,6 +139,7 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
         ),
+    baca.staff_position(0),
     )
 
 # cl
@@ -141,6 +151,15 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
         ),
+    )
+
+maker(
+    ('cl', [4, 5, 8]),
+    baca.dynamic(
+        'p',
+        match=[0, 2],
+        ),
+    baca.pitch('C2'),
     )
 
 # perc
@@ -221,6 +240,10 @@ maker(
 maker(
     ('vc', (1, 8)),
     baca.note_head_style_harmonic(),
+    baca.string_number_spanner(
+        'IV =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
     baca.suite(
         baca.untie_to(
             selector=baca.pleaves(),

@@ -246,7 +246,7 @@ H_Flute_Music_Voice = {                                                        %
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    c''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“BassFlute”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -264,11 +264,11 @@ H_Flute_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    c''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    c''2                                                                       %! faberge_even_tuplet_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
@@ -278,15 +278,15 @@ H_Flute_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    c''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    c''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    c''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
@@ -294,7 +294,7 @@ H_Flute_Music_Voice = {                                                        %
 
         % [H Flute_Music_Voice measure 221 / measure 2]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        c''2                                                                   %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
@@ -303,11 +303,11 @@ H_Flute_Music_Voice = {                                                        %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        c''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        c''2                                                                   %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
@@ -317,15 +317,15 @@ H_Flute_Music_Voice = {                                                        %
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        c''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        c''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        c''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
     }                                                                          %! faberge_even_tuplet_rhythm
@@ -337,7 +337,7 @@ H_Flute_Music_Voice = {                                                        %
 
             % [H Flute_Music_Voice measure 222 / measure 3]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3                                                            %! _make_multimeasure_rest_container
+            c''1 * 3                                                           %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
@@ -361,7 +361,7 @@ H_Flute_Music_Voice = {                                                        %
 
         % [H Flute_Music_Voice measure 224 / measure 5]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c''2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -374,7 +374,7 @@ H_Flute_Music_Voice = {                                                        %
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c''2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -393,14 +393,14 @@ H_Flute_Music_Voice = {                                                        %
 
         % [H Flute_Music_Voice measure 225 / measure 6]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c''2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c''2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -415,7 +415,7 @@ H_Flute_Music_Voice = {                                                        %
 
         % [H Flute_Music_Voice measure 226 / measure 7]                        %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c''2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -424,7 +424,7 @@ H_Flute_Music_Voice = {                                                        %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        c''2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -446,7 +446,7 @@ H_Flute_Music_Voice = {                                                        %
 
             % [H Flute_Music_Voice measure 227 / measure 8]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            c''1 * 1/4                                                         %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -472,7 +472,7 @@ H_Flute_Music_Voice = {                                                        %
 
             % [H Flute_Music_Voice measure 229 / measure 10]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -524,7 +524,7 @@ H_English_Horn_Music_Voice = {                                                 %
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        g'1
         ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"                   %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -543,7 +543,7 @@ H_English_Horn_Music_Voice = {                                                 %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        g'1
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -562,7 +562,7 @@ H_English_Horn_Music_Voice = {                                                 %
 
         % [H English_Horn_Music_Voice measure 221 / measure 2]                 %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        g'2.
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -570,7 +570,7 @@ H_English_Horn_Music_Voice = {                                                 %
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.
+        g'2.
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -592,7 +592,7 @@ H_English_Horn_Music_Voice = {                                                 %
 
             % [H English_Horn_Music_Voice measure 222 / measure 3]             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3                                                            %! _make_multimeasure_rest_container
+            g'1 * 3                                                            %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -615,7 +615,7 @@ H_English_Horn_Music_Voice = {                                                 %
             % [H English_Horn_Music_Voice measure 223 / measure 4]             %! _comment_measure_numbers
             \override TrillSpanner.staff-padding = #5.5                        %! baca_trill_spanner_staff_padding:OverrideCommand(1)
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             - \abjad-dashed-line-with-hook                                     %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "MM"                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak bound-details.right.padding #2.75                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -625,19 +625,19 @@ H_English_Horn_Music_Voice = {                                                 %
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -648,25 +648,25 @@ H_English_Horn_Music_Voice = {                                                 %
         \times 5/4 {
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'4
+            g'4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -679,25 +679,25 @@ H_English_Horn_Music_Voice = {                                                 %
 
         % [H English_Horn_Music_Voice measure 224 / measure 5]                 %! _comment_measure_numbers
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -716,7 +716,7 @@ H_English_Horn_Music_Voice = {                                                 %
 
             % [H English_Horn_Music_Voice measure 225 / measure 6]             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            g'1 * 3/2                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -747,7 +747,7 @@ H_English_Horn_Music_Voice = {                                                 %
 
             % [H English_Horn_Music_Voice measure 229 / measure 10]            %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -797,7 +797,7 @@ H_Clarinet_Music_Voice = {                                                     %
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“B. cl.”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                  %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -815,11 +815,11 @@ H_Clarinet_Music_Voice = {                                                     %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
@@ -829,26 +829,26 @@ H_Clarinet_Music_Voice = {                                                     %
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_even_tuplet_rhythm
+        d''2                                                                   %! faberge_even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
     }                                                                          %! faberge_even_tuplet_rhythm
 
     % [H Clarinet_Music_Voice measure 221 / measure 2]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    d''2                                                                       %! faberge_even_tuplet_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
@@ -857,11 +857,11 @@ H_Clarinet_Music_Voice = {                                                     %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    d''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    d''2                                                                       %! faberge_even_tuplet_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
@@ -871,11 +871,11 @@ H_Clarinet_Music_Voice = {                                                     %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    d''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_even_tuplet_rhythm
+    d''2                                                                       %! faberge_even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -885,7 +885,7 @@ H_Clarinet_Music_Voice = {                                                     %
 
             % [H Clarinet_Music_Voice measure 222 / measure 3]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3                                                            %! _make_multimeasure_rest_container
+            d''1 * 3                                                           %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
@@ -928,7 +928,7 @@ H_Clarinet_Music_Voice = {                                                     %
 
             % [H Clarinet_Music_Voice measure 229 / measure 10]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            d''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

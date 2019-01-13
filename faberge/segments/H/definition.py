@@ -25,7 +25,7 @@ maker = baca.SegmentMaker(
         (12, 4), (10, 4), (12, 4), (10, 4),
         (8, 4), (6, 4), (8, 4), (1, 4), (6, 4),
         ],
-    transpose_score=False,
+    transpose_score=True,
     validate_measure_count=9,
     )
 

@@ -256,7 +256,7 @@ O_Flute_Music_Voice = {                                                        %
 
             % [O Flute_Music_Voice measure 284 / measure 6]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            c''1 * 7/4                                                         %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -284,7 +284,7 @@ O_Flute_Music_Voice = {                                                        %
 
             % [O Flute_Music_Voice measure 287 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -375,7 +375,7 @@ O_English_Horn_Music_Voice = {                                                 %
 
             % [O English_Horn_Music_Voice measure 284 / measure 6]             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            g'1 * 7/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -403,7 +403,7 @@ O_English_Horn_Music_Voice = {                                                 %
 
             % [O English_Horn_Music_Voice measure 287 / measure 9]             %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -491,7 +491,7 @@ O_Clarinet_Music_Voice = {                                                     %
 
             % [O Clarinet_Music_Voice measure 284 / measure 6]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
+            d''1 * 7/4                                                         %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -519,7 +519,7 @@ O_Clarinet_Music_Voice = {                                                     %
 
             % [O Clarinet_Music_Voice measure 287 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            d''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
