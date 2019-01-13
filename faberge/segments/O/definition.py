@@ -64,8 +64,13 @@ maker(
 
 maker(
     'fl',
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
         ),
     )
 
@@ -74,7 +79,6 @@ maker(
 maker(
     ['fl', 'eh', 'cl', 'rh'],
     baca.dls_staff_padding(7),
-    baca.staff_lines(1),
     baca.staff_position(0),
     )
 
@@ -97,12 +101,24 @@ maker(
     faberge.downbeat_attack()
     )
 
+# eh
+
+maker(
+    'eh',
+    baca.staff_lines(1),
+    )
+
 # cl
 
 maker(
     'cl',
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
         ),
     )
 
@@ -110,8 +126,13 @@ maker(
 
 maker(
     'rh',
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
         ),
     )
 

@@ -81,8 +81,9 @@ maker(
     baca.dynamic('p'),
     baca.pitch('G#3'),
     baca.chunk(
-        baca.not_parts(
-            baca.bar_extent_persistent((-2, 2)),
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
             ),
         baca.staff_lines(5),
         ),
@@ -142,8 +143,9 @@ maker(
 maker(
     ('cl', (5, 6)),
     baca.chunk(
-        baca.not_parts(
-            baca.bar_extent_persistent((-2, 2)),
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
             ),
         baca.staff_lines(5),
         ),

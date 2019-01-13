@@ -181,6 +181,14 @@ maker(
 
 maker(
     ('rh', (4, 5)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dynamic(
         'mp-whiteout',
         abjad.tweak((0, 0)).X_extent,
@@ -197,10 +205,6 @@ maker(
         'MM =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
-    baca.staff_lines(1),
     baca.staff_position(0),
     faberge.even_tuplet_rhythm(
         extra_counts=[1, 0],
@@ -208,28 +212,27 @@ maker(
     )
 
 maker(
-    ('rh', 5),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0)),
-        ),
-    )
-
-maker(
     ('rh', 6),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
-    baca.staff_lines(5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        )
     )
 
 # perc
 
 maker(
     'perc',
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
-    baca.staff_lines(5),
     )
 
 maker(
@@ -241,7 +244,7 @@ maker(
         ),
     baca.laissez_vibrer(),
     baca.markup(
-        r'\faberge-crotale-bowed',
+        r'\faberge-crotales-bowed',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
         literal=True,
@@ -256,6 +259,14 @@ maker(
 
 maker(
     ('perc', 8),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dls_staff_padding(8),
     baca.dynamic('mp'),
     baca.markup(
@@ -268,18 +279,11 @@ maker(
         'MM =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent(
-            (0, 2),
-            selector=baca.leaf(-1),
-            )
-        ),
     baca.rhythm(
         r"{ \times 4/5 { c'4 c'4 c'4 c'4 c'4 }"
         r" \times 4/5 { c'4 c'4 c'4 c'4 c'4} }",
         annotate_unpitched_music=True,
         ),
-    baca.staff_lines(1),
     baca.staff_position(0),
     )
 
@@ -292,9 +296,6 @@ maker(
         '5-3 =|',
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
-        ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2))
         ),
     )
 
@@ -375,12 +376,5 @@ maker(
         '5-3 =|',
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.enums.HIDDEN).rleak(),
-        ),
-    )
-
-maker(
-    'vc',
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2))
         ),
     )

@@ -171,25 +171,22 @@ maker(
     faberge.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
     )
 
-maker(
-    ('vn', 9),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
-    )
-
 # vn, va
 
 maker(
     (['vn', 'va'], (1, 8)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        selector=baca.leaves().rleak()[-1],
+        ),
     baca.hairpin(
         'o< "f"',
         selector=baca.leaves().rleak(),
         map=baca.plts(),
-        ),
-    baca.staff_lines(
-        5,
-        selector=baca.leaves().rleak()[-1],
         ),
     baca.staff_position(0),
     )

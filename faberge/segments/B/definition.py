@@ -380,8 +380,11 @@ maker(
 maker(
     ('fl', 73),
     baca.chunk(
-        baca.not_parts(
-            baca.bar_extent_persistent((-2, 0)),
+        ###baca.bar_extent((-2, 2)),
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
             ),
         baca.staff_lines(1),
         ),
@@ -601,8 +604,11 @@ maker(
 maker(
     ('cl', 73),
     baca.chunk(
-        baca.not_parts(
-            baca.bar_extent_persistent((0, 2)),
+        ###baca.bar_extent((-2, 2)),
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
             ),
         baca.staff_lines(1),
         ),
@@ -753,8 +759,12 @@ maker(
 maker(
     ('perc', (69, 72)),
     baca.chunk(
-        baca.not_parts(baca.bar_extent((-2, 2))),
-        baca.not_parts(baca.bar_extent_persistent((0, 2))),
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
         ),
     baca.clef('treble'),
     baca.dynamic(
@@ -769,7 +779,6 @@ maker(
         abjad.tweak(0).parent_alignment_X,
         literal=True,
         ),
-    baca.staff_lines(1),
     baca.staff_position(-1),
     baca.stem_down(),
     )
@@ -859,8 +868,12 @@ maker(
 maker(
     ('vn', (53, 68)),
     baca.chunk(
-        baca.not_parts(baca.bar_extent((-2, 2))),
-        baca.not_parts(baca.bar_extent_persistent((-2, 0))),
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
         ),
     baca.markup(
         r'\faberge-col-legno-battuto',
@@ -870,7 +883,6 @@ maker(
     baca.staccato(
         selector=baca.pheads(),
         ),
-    baca.staff_lines(1),
     faberge.clb_rhythm(
         fuse_counts=[2, 2, 1],
         ),
@@ -984,15 +996,15 @@ maker(
 
 maker(
     ('va', (53, 80)),
-    baca.staccato(
-        selector=baca.pheads(),
-        ),
-    baca.staff_lines(1),
     baca.markup(
         r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
+    baca.staccato(
+        selector=baca.pheads(),
+        ),
+    baca.staff_lines(1),
     faberge.clb_rhythm(
         fuse_counts=[1, 2, 2],
         ),
@@ -1117,19 +1129,23 @@ maker(
 
 maker(
     ('vc', (61, 80)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dynamic('"mf"'),
     baca.markup(
         r'\faberge-col-legno-battuto',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
-        ),
     baca.staccato(
         selector=baca.pheads(),
         ),
-    baca.staff_lines(1),
     baca.text_script_staff_padding(8),
     faberge.clb_rhythm(
         fuse_counts=[3],

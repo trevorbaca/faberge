@@ -76,11 +76,11 @@ faberge-col-legno-battuto-first-appearance = \markup
         "(mute string with left hand)"
     }
 
-faberge-crotale-bowed = \markup
+faberge-crotales-bowed = \markup
     \whiteout
     \override #'(box-padding . 0.5)
     \box
-    "crotale (bowed)"
+    "crotales (bowed)"
 
 faberge-depress-silently = \markup
     \whiteout

@@ -292,19 +292,32 @@ maker(
 
 maker(
     ('perc', (1, 2)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.material_annotation_spanner(
         '4-5 -|',
         abjad.tweak('darkgreen').color,
         abjad.tweak(8).staff_padding,
         ),
-    baca.staff_lines(1),
     baca.staff_position(1),
     baca.stem_up(),
     )
 
 maker(
     ('perc', 3),
-    baca.staff_lines(5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     )
 
 maker(
@@ -315,7 +328,7 @@ maker(
         ),
     baca.laissez_vibrer(),
     baca.markup(
-        r'\faberge-crotale-bowed',
+        r'\faberge-crotales-bowed',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
