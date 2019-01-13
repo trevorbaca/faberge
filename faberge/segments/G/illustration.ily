@@ -279,7 +279,7 @@ G_Flute_Music_Voice = {                                                        %
         %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
             \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            c''1 * 3/2                                                         %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
             ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -308,7 +308,7 @@ G_Flute_Music_Voice = {                                                        %
 
     % [G Flute_Music_Voice measure 213 / measure 4]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1.                                                                       %! baca_make_repeat_tied_notes
+    c''1.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -321,10 +321,10 @@ G_Flute_Music_Voice = {                                                        %
 
     % [G Flute_Music_Voice measure 214 / measure 5]                            %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.
+    c''2.
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2
+    c''2
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -335,7 +335,7 @@ G_Flute_Music_Voice = {                                                        %
 
             % [G Flute_Music_Voice measure 215 / measure 6]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            c''1 * 3/2                                                         %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -370,7 +370,7 @@ G_Flute_Music_Voice = {                                                        %
 
             % [G Flute_Music_Voice measure 220 / measure 11]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -423,7 +423,7 @@ G_English_Horn_Music_Voice = {                                                 %
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                      %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -435,13 +435,13 @@ G_English_Horn_Music_Voice = {                                                 %
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'4
+        g'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -459,7 +459,7 @@ G_English_Horn_Music_Voice = {                                                 %
 
             % [G English_Horn_Music_Voice measure 211 / measure 2]             %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            g'1 * 1/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -513,7 +513,7 @@ G_English_Horn_Music_Voice = {                                                 %
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            g'1 * 3/2                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -548,7 +548,7 @@ G_English_Horn_Music_Voice = {                                                 %
 
             % [G English_Horn_Music_Voice measure 220 / measure 11]            %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            g'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -600,7 +600,7 @@ G_Clarinet_Music_Voice = {                                                     %
         %@% \override Staff.Clef.color = ##f                                   %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
             \set Staff.forceClef = ##t                                         %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
             \once \override Staff.StaffSymbol.color = #(x11-color 'green4)     %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            d''1 * 3/2                                                         %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'green4)                                %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             _ #(make-dynamic-script (markup #:whiteout #:normal-text #:italic "niente")) %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
             ^ \baca-reapplied-indicator-markup "[“B. cl.”]"                    %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -629,7 +629,7 @@ G_Clarinet_Music_Voice = {                                                     %
 
     % [G Clarinet_Music_Voice measure 213 / measure 4]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1.                                                                       %! baca_make_repeat_tied_notes
+    d''1.                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -642,10 +642,10 @@ G_Clarinet_Music_Voice = {                                                     %
 
     % [G Clarinet_Music_Voice measure 214 / measure 5]                         %! _comment_measure_numbers
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.
+    d''2.
 
     \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2
+    d''2
     \repeatTie
     \breathe                                                                   %! baca_breathe:IndicatorCommand
 
@@ -656,7 +656,7 @@ G_Clarinet_Music_Voice = {                                                     %
 
             % [G Clarinet_Music_Voice measure 215 / measure 6]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/2                                                          %! _make_multimeasure_rest_container
+            d''1 * 3/2                                                         %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -691,7 +691,7 @@ G_Clarinet_Music_Voice = {                                                     %
 
             % [G Clarinet_Music_Voice measure 220 / measure 11]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            d''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

@@ -663,13 +663,13 @@ C_Piano_RH_Music_Voice = {                                                     %
             c'8
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-            [                                                                  %! baca_beam:SpannerIndicatorCommand(1)
             - \abjad-solid-line-with-hook                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "2-1"                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak bound-details.right.padding #2.75                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
             - \tweak color #darkgreen                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak staff-padding #5.5                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanMA                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+            [                                                                  %! baca_beam:SpannerIndicatorCommand(1)
 
             r8
 
@@ -719,7 +719,6 @@ C_Piano_RH_Music_Voice = {                                                     %
 
             \baca-unpitched-music-warning                                      %! _color_unpitched_notes
             c'8
-            ]                                                                  %! baca_beam:SpannerIndicatorCommand(2)
 
             r8
 
@@ -727,30 +726,36 @@ C_Piano_RH_Music_Voice = {                                                     %
 
     }
 
+    % [C Piano_RH_Music_Voice measure 181 / measure 5]                         %! _comment_measure_numbers
+    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
+    c'8                                                                        %! faberge_downbeat_attack
+    \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
+    ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
+
+    r8
+
+    r2
+
     <<                                                                         %! _make_multimeasure_rest_container
 
         \context Voice = "Piano_RH_Music_Voice"                                %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [C Piano_RH_Music_Voice measure 181 / measure 5]                 %! _comment_measure_numbers
+            % [C Piano_RH_Music_Voice measure 182 / measure 6]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 3/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
+            c'1 * 5/4                                                          %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
         \context Voice = "Piano_RH_Rest_Voice"                                 %! _make_multimeasure_rest_container
         {                                                                      %! _make_multimeasure_rest_container
 
-            % [C Piano_RH_Rest_Voice measure 181 / measure 5]                  %! _comment_measure_numbers
-            R1 * 3/4                                                           %! _make_multimeasure_rest_container
+            % [C Piano_RH_Rest_Voice measure 182 / measure 6]                  %! _comment_measure_numbers
+            R1 * 5/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
 
     >>                                                                         %! _make_multimeasure_rest_container
-
-    % [C Piano_RH_Music_Voice measure 182 / measure 6]                         %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _make_measure_silences
 
     % [C Piano_RH_Music_Voice measure 183 / measure 7]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
@@ -945,6 +950,11 @@ C_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "MM"                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -962,6 +972,7 @@ C_Percussion_Music_Voice = {                                                   %
             % [C Percussion_Music_Voice measure 178 / measure 2]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -985,6 +996,11 @@ C_Percussion_Music_Voice = {                                                   %
         b'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "MM"                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         b'4                                                                    %! faberge_even_tuplet_rhythm
 
@@ -1009,6 +1025,7 @@ C_Percussion_Music_Voice = {                                                   %
             % [C Percussion_Music_Voice measure 182 / measure 6]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 5/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1032,6 +1049,11 @@ C_Percussion_Music_Voice = {                                                   %
         b'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "MM"                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         b'4                                                                    %! faberge_even_tuplet_rhythm
 
@@ -1050,6 +1072,7 @@ C_Percussion_Music_Voice = {                                                   %
             % [C Percussion_Music_Voice measure 185 / measure 9]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
