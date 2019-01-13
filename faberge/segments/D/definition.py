@@ -225,7 +225,10 @@ maker(
         baca.untie_to(
             selector=baca.pleaves(),
             ),
-        baca.pitches('A3 C4'),
+        baca.pitches(
+            'Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3',
+            persist='CELLO_GLISSANDI',
+            ),
         baca.glissando(),
         baca.hairpin(
             'niente o< p >o',
