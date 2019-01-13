@@ -48,7 +48,7 @@ metadata = abjad.OrderedDict(
             ),
         (
             'bol_measure_numbers',
-            [5, 15, 25, 35, 45, 55, 65, 75, 85, 95],
+            [5, 14, 23, 32, 41, 50, 59, 68, 77, 86, 95],
             ),
         ('duration', "2'52''"),
         ('final_measure_number', 96),
@@ -75,6 +75,16 @@ metadata = abjad.OrderedDict(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='bass',
+                                ),
+                            abjad.Momento(
+                                context='Cello_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
                                 ),
                             ],
                         ),
@@ -107,6 +117,16 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
+                            abjad.Momento(
+                                context='Clarinet_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
                             ],
                         ),
                     (
@@ -137,6 +157,16 @@ metadata = abjad.OrderedDict(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='English_Horn_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
@@ -174,6 +204,16 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Clef',
                                 value='treble',
                                 ),
+                            abjad.Momento(
+                                context='Flute_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
                             ],
                         ),
                     (
@@ -194,6 +234,17 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 manifest='margin_markups',
                                 value='Perc.',
+                                ),
+                            abjad.Momento(
+                                context='Percussion_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
@@ -240,6 +291,16 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Clef',
                                 value='bass',
                                 ),
+                            abjad.Momento(
+                                context='Piano_LH_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
                             ],
                         ),
                     (
@@ -249,6 +310,16 @@ metadata = abjad.OrderedDict(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
                                 ),
                             ],
                         ),
@@ -302,6 +373,16 @@ metadata = abjad.OrderedDict(
                                 prototype='abjad.Clef',
                                 value='alto',
                                 ),
+                            abjad.Momento(
+                                context='Viola_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
                             ],
                         ),
                     (
@@ -332,6 +413,16 @@ metadata = abjad.OrderedDict(
                                 context='Violin_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Violin_Music_Voice',
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
                                 ),
                             ],
                         ),

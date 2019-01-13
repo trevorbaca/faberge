@@ -283,6 +283,14 @@ maker(
 
 maker(
     ('vn', (1, 4)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dls_staff_padding(9),
     baca.markup(
         r'\faberge-col-legno-battuto',
@@ -293,10 +301,6 @@ maker(
         '4-1 =|',
         abjad.tweak(7 + 2.5).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0))
-        ),
-    baca.staff_lines(1),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[2, 1, 1],
@@ -312,6 +316,13 @@ maker(
         selector=baca.pleaf(3),
         ),
     baca.beam(),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     baca.dls_staff_padding(5),
     baca.dynamic('mp'),
     baca.material_annotation_spanner(
@@ -319,19 +330,23 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
     baca.rhythm(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8"
         " c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
         ),
-    baca.staff_lines(5),
     )
 
 maker(
     ('vn', (6, 9)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dls_staff_padding(9),
     baca.dynamic(
         '"mf"',
@@ -347,17 +362,9 @@ maker(
         '4-2 =|',
         abjad.tweak(7 + 2.5).staff_padding,
         ),
-    baca.staff_lines(1),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[2, 1, 1],
-        ),
-    )
-
-maker(
-    ('vn', 7),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0)),
         ),
     )
 
@@ -444,6 +451,14 @@ maker(
 
 maker(
     ('vc', (1, 4)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dls_staff_padding(9),
     baca.markup(
         r'\faberge-col-legno-battuto',
@@ -454,10 +469,6 @@ maker(
         '4-1 =|',
         abjad.tweak(7 + 2.5).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2))
-        ),
-    baca.staff_lines(1),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[1, 1, 2],
@@ -473,6 +484,13 @@ maker(
         selector=baca.pleaf(-3),
         ),
     baca.beam(),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     baca.dls_staff_padding(5),
     baca.dynamic('mp'),
     baca.material_annotation_spanner(
@@ -480,19 +498,23 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
     baca.rhythm(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8"
         " c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
         ),
-    baca.staff_lines(5),
     )
 
 maker(
     ('vc', (6, 9)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dls_staff_padding(9),
     baca.dynamic(
         '"mf"',
@@ -508,16 +530,8 @@ maker(
         '4-2 =|',
         abjad.tweak(7 + 2.5).staff_padding,
         ),
-    baca.staff_lines(1),
     faberge.clb_staff_positions(),
     faberge.clb_rhythm(
         fuse_counts=[1, 1, 2],
-        ),
-    )
-
-maker(
-    ('vc', 7),
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
         ),
     )

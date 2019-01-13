@@ -205,6 +205,14 @@ maker(
 
 maker(
     ('perc', 5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dynamic('p'),
     baca.laissez_vibrer(),
     baca.markup(
@@ -218,7 +226,6 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
-    baca.staff_lines(1),
     baca.staff_position(-1),
     baca.stem_down(),
     faberge.downbeat_attack(
@@ -228,11 +235,25 @@ maker(
 
 maker(
     ('perc', 6),
-    baca.staff_lines(5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     )
 
 maker(
     ('perc', 8),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dynamic('f'),
     baca.markup(
         r'\faberge-woodblock',
@@ -244,13 +265,6 @@ maker(
         'MM =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.not_parts(
-        baca.bar_extent_persistent(
-            (0, 2),
-            selector=baca.leaf(-1),
-            ),
-        ),
-    baca.staff_lines(1),
     baca.staff_position(0),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
@@ -339,9 +353,6 @@ maker(
         '2-4 -|',
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
-        ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
         ),
     baca.rhythm(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8"
@@ -643,9 +654,6 @@ maker(
         '2-4 -|',
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
-        ),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
         ),
     baca.rhythm(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8"

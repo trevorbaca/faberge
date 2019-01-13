@@ -356,13 +356,6 @@ maker(
     baca.beam(),
     )
 
-maker(
-    ('vn', 7),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
-    )
-
 # vn, va, vc
 
 maker(
@@ -391,7 +384,13 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], 7),
-    baca.staff_lines(5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     )
 
 # va
@@ -501,11 +500,4 @@ maker(
 maker(
     ('vc', 6),
     faberge.downbeat_attack(denominator=8),
-    )
-
-maker(
-    ('vc', 7),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
-        ),
     )

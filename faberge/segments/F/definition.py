@@ -414,6 +414,14 @@ maker(
 
 maker(
     ('vn', 3),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -484,8 +492,12 @@ maker(
 
 maker(
     ('vn', 8),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
     )
 
@@ -503,11 +515,6 @@ maker(
     )
 
 maker(
-    (['vn', 'va'], 3),
-    baca.staff_lines(1),
-    )
-
-maker(
     (['vn', 'va'], 7),
     baca.dynamic_text_extra_offset((-4, 0)),
     baca.dynamic_text_x_extent_zero(),
@@ -516,11 +523,6 @@ maker(
         selector=baca.leaves().rleak(),
         ),
     baca.hairpin_shorten_pair((4, 0)),
-    )
-
-maker(
-    (['vn', 'va'], 8),
-    baca.staff_lines(5),
     )
 
 # va
@@ -564,6 +566,7 @@ maker(
         abjad.tweak(1.5).padding,
         literal=True,
         ),
+    baca.staff_lines(1),
     faberge.clb_rhythm(
         extra_counts=[2],
         ),
@@ -651,6 +654,11 @@ maker(
 maker(
     ('va', (6, 8)),
     baca.dls_staff_padding(8),
+    )
+
+maker(
+    ('va', 8),
+    baca.staff_lines(5),
     )
 
 # vc

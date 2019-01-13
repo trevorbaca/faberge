@@ -531,7 +531,7 @@ maker(
         selector=baca.ptails(),
         ),
     baca.markup(
-        r'\faberge-crotale-bowed',
+        r'\faberge-crotales-bowed',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.pleaf(0),
@@ -638,6 +638,14 @@ maker(
     baca.accent(
         selector=baca.pheads(),
         ),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.dynamic('ff'),
     baca.markup(
         r'\faberge-castanets',
@@ -650,11 +658,7 @@ maker(
         literal=True,
         selector=baca.plt(-1),
         ),
-    baca.pitches(
-        'D4 D4 B3',
-        exact=True,
-        ),
-    baca.staff_lines(2),
+    baca.staff_positions([1, 1, -1]),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -671,14 +675,30 @@ maker(
     )
 
 maker(
+    ('perc', (81, 86)),
+    baca.stem_up(),
+    )
+
+maker(
+    ('perc', 87),
+    baca.stem_down(),
+    )
+
+maker(
     ('perc', (89, 92)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     baca.laissez_vibrer(
         selector=baca.ptails(),
         ),
     baca.pitch('F#4'),
-    baca.staff_lines(5),
     baca.markup(
-        r'\faberge-crotale-bowed',
+        r'\faberge-crotales-bowed',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

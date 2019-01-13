@@ -326,14 +326,19 @@ maker(
 
 maker(
     ('vn', (4, 5)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.beam(),
     )
 
 maker(
     ('vn', 5),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 0)),
-        ),
     faberge.downbeat_attack(denominator=8),
     )
 
@@ -354,8 +359,12 @@ maker(
 
 maker(
     ('vn', 8),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
     )
 
@@ -377,11 +386,6 @@ maker(
     )
 
 # vn, va, vc
-
-maker(
-    (['vn', 'va', 'vc'], 4),
-    baca.staff_lines(1),
-    )
 
 maker(
     (['vn', 'va', 'vc'], (4, 7)),
@@ -410,11 +414,6 @@ maker(
     baca.stem_down(),
     baca.tuplet_bracket_down(),
     faberge.clb_staff_positions(),
-    )
-
-maker(
-    (['vn', 'va', 'vc'], 8),
-    baca.staff_lines(5),
     )
 
 # va
@@ -447,6 +446,7 @@ maker(
 
 maker(
     ('va', 4),
+    baca.staff_lines(1),
     faberge.clb_rhythm(extra_counts=[6]),
     )
 
@@ -475,15 +475,23 @@ maker(
     faberge.downbeat_attack(denominator=8),
     )
 
+maker(
+    ('va', 8),
+    baca.staff_lines(5),
+    )
+
 # vc
 
 maker(
-    'vc',
-    baca.clef('bass'),
-    )
-
-maker(
     ('vc', 4),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (0, 2),
+            after=True,
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     faberge.clb_rhythm(extra_counts=[4]),
     )
 
@@ -494,9 +502,6 @@ maker(
 
 maker(
     ('vc', 5),
-    baca.not_parts(
-        baca.bar_extent_persistent((0, 2)),
-        ),
     faberge.downbeat_attack(denominator=8),
     )
 
@@ -517,7 +522,11 @@ maker(
 
 maker(
     ('vc', 8),
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.enums.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
     )
