@@ -29,6 +29,10 @@ metadata = abjad.OrderedDict(
                         'H',
                         [227],
                         ),
+                    (
+                        'N',
+                        [278],
+                        ),
                     ]
                 ),
             ),
@@ -382,6 +386,7 @@ metadata = abjad.OrderedDict(
                             '6/4',
                             '7/4',
                             '8/4',
+                            '1/4',
                             ],
                         ),
                     (

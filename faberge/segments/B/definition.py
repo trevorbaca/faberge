@@ -785,11 +785,18 @@ maker(
 
 maker(
     ('perc', (79, 80)),
+    baca.dls_staff_padding(8),
     baca.dynamic('f'),
     baca.markup(
         r'\faberge-woodblock',
         abjad.tweak(1.5).padding,
         literal=True,
+        ),
+    baca.material_annotation_spanner(
+        'MM =|',
+        abjad.tweak(8).staff_padding,
+        right_broken=True,
+        selector=baca.ltleaves().rleak(),
         ),
     baca.rhythm(
         r"{ r2 \times 5/4 { c'4 c'4 c'4 c'4 } }",
