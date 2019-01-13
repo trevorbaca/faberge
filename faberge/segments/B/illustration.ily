@@ -6174,6 +6174,7 @@ B_Percussion_Music_Voice = {                                                   %
     {
 
         % [B Percussion_Music_Voice measure 175 / measure 79]                  %! _comment_measure_numbers
+        \override DynamicLineSpanner.staff-padding = #8                        %! baca_dls_staff_padding:OverrideCommand(1)
         r2
 
         \tweak text #tuplet-number::calc-fraction-text
@@ -6184,12 +6185,18 @@ B_Percussion_Music_Voice = {                                                   %
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
             ^ \markup { \faberge-woodblock }                                   %! baca_markup:IndicatorCommand
+            - \abjad-dashed-line-with-hook                                     %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
+            - \baca-text-spanner-left-text "MM"                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
+            - \tweak bound-details.right.padding #2.5                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken:autodetect
+            - \tweak staff-padding #8                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
+            \bacaStartTextSpanMA                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
 
             b'4
 
             b'4
 
             b'4
+            \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }
@@ -6204,6 +6211,7 @@ B_Percussion_Music_Voice = {                                                   %
             % [B Percussion_Music_Voice measure 177 / measure 81]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

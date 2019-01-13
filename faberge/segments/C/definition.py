@@ -70,6 +70,15 @@ maker(
 # fl
 
 maker(
+    'fl',
+    baca.material_annotation_spanner(
+        '1-1 / 1-2 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
+
+maker(
     ('fl', (1, 4)),
     baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [2, 6]),
@@ -120,6 +129,15 @@ maker(
 # eh
 
 maker(
+    'eh',
+    baca.material_annotation_spanner(
+        '1-1 / 1-2 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
+
+maker(
     ('eh', (1, 4)),
     baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [1, 5]),
@@ -133,6 +151,15 @@ maker(
     )
 
 # cl
+
+maker(
+    'cl',
+    baca.material_annotation_spanner(
+        '1-1 / 1-2 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.ltleaves().rleak(),
+        ),
+    )
 
 maker(
     ('cl', (1, 4)),
@@ -225,6 +252,7 @@ maker(
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(8).staff_padding,
+        right_broken=True,
         ),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
@@ -236,6 +264,11 @@ maker(
 maker(
     'vn',
     baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        '1-1 / 1-2 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.ltleaves().rleak(),
+        ),
     baca.staff_position(0),
     )
 
@@ -249,6 +282,11 @@ maker(
 maker(
     'va',
     baca.dls_staff_padding(6),
+    baca.material_annotation_spanner(
+        '1-1 / 1-2 =|',
+        abjad.tweak(8).staff_padding,
+        selector=baca.ltleaves().rleak(),
+        ),
     baca.staff_position(0),
     )
 
@@ -269,6 +307,10 @@ maker(
         ),
     baca.clef('treble'),
     baca.dls_staff_padding(8),
+    baca.material_annotation_spanner(
+        '1-1 / 1-2 =|',
+        abjad.tweak(8).staff_padding,
+        ),
     baca.note_head_style_harmonic(),
     baca.string_number_spanner(
         'IV =|',

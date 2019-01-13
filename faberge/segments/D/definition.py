@@ -71,6 +71,7 @@ maker(
 
 maker(
     'fl',
+    baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         '1-3 / 1-4 =|',
         abjad.tweak(8).staff_padding,
@@ -79,19 +80,37 @@ maker(
     )
 
 maker(
-    ('fl', [4, 5, 8]),
-    baca.dynamic(
-        'p',
-        match=[0, 2],
-        ),
+    ('fl', [2, 4]),
+    baca.dynamic('p'),
     baca.pitch('G#3'),
     )
 
-# tutti
+maker(
+    ('fl', 3),
+    baca.pitches(
+        'G#3 G#3 G#3 F#3',
+        allow_repeats=True,
+        exact=True,
+        ),
+    )
 
 maker(
-    'tutti',
-    baca.dls_staff_padding(6),
+    ('fl', 5),
+    baca.pitch('A3'),
+    )
+
+maker(
+    ('fl', (6, 7)),
+    baca.pitches(
+        'A3 A3 A3 G3',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
+    ('fl', 8),
+    baca.dynamic('p'),
+    baca.pitch('B3'),
     )
 
 # fl, eh, cl 
@@ -146,6 +165,7 @@ maker(
 
 maker(
     'cl',
+    baca.dls_staff_padding(7),
     baca.material_annotation_spanner(
         '1-3 / 1-4 =|',
         abjad.tweak(8).staff_padding,
@@ -154,30 +174,65 @@ maker(
     )
 
 maker(
-    ('cl', [4, 5, 8]),
-    baca.dynamic(
-        'p',
-        match=[0, 2],
-        ),
+    ('cl', [2, 4]),
+    baca.dynamic('p'),
     baca.pitch('C2'),
+    )
+
+maker(
+    ('cl', 3),
+    baca.pitches(
+        'C3 C3 Db3 C3',
+        allow_repeats=True,
+        exact=True,
+        ),
+    )
+
+maker(
+    ('cl', 5),
+    baca.pitch('B1'),
+    )
+
+maker(
+    ('cl', (6, 7)),
+    baca.pitches(
+        'B2 B2 C3 B2',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
+    ('cl', 8),
+    baca.pitch('Bb1'),
     )
 
 # perc
 
 maker(
     ('perc', 1),
+    faberge.even_tuplet_rhythm(),
+    )
+
+maker(
+    ('perc', (1, 2)),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(8).staff_padding,
+        selector=baca.tleaves().rleak(),
         ),
     baca.staff_position(0),
-    faberge.even_tuplet_rhythm(),
+    )
+
+maker(
+    ('perc', 2),
+    faberge.downbeat_attack(),
     )
 
 # vn
 
 maker(
     'vn',
+    baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         '1-3 / 1-4 =|',
         abjad.tweak(8).staff_padding,
@@ -187,6 +242,10 @@ maker(
 
 maker(
     ('vn', (1, 8)),
+    baca.dynamic(
+        '"f"',
+        selector=baca.rest(0),
+        ),
     faberge.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
     )
 
@@ -214,6 +273,7 @@ maker(
 
 maker(
     'va',
+    baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         '1-3 / 1-4 =|',
         abjad.tweak(8).staff_padding,
@@ -230,6 +290,7 @@ maker(
 
 maker(
     'vc',
+    baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         '1-3 / 1-4 =|',
         abjad.tweak(8).staff_padding,
