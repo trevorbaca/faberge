@@ -164,7 +164,7 @@ maker(
     baca.pitch(
         'D3',
         selector=baca.pleaves(
-            exclude=baca.enums.HIDDEN,
+            exclude=baca.const.HIDDEN,
             ),
         ),
     baca.material_annotation_spanner(
