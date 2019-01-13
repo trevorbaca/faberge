@@ -88,16 +88,6 @@ maker(
         ),
     )
 
-#maker(
-#    ('fl', 7),
-#    baca.chunk(
-#        baca.not_parts(
-#            baca.bar_extent_persistent((-2, 0)),
-#            ),
-#        baca.staff_lines(1),
-#        ),
-#    )
-
 # fl, eh, cl
 
 maker(
