@@ -377,6 +377,16 @@ maker(
         ),
     )
 
+maker(
+    ('fl', 73),
+    baca.chunk(
+        baca.not_parts(
+            baca.bar_extent_persistent((-2, 0)),
+            ),
+        baca.staff_lines(1),
+        ),
+    )
+
 # eh
 
 maker(
@@ -585,6 +595,16 @@ maker(
         denominator=16,
         start_talea=[4],
         stop_talea=[3, -1],
+        ),
+    )
+
+maker(
+    ('cl', 73),
+    baca.chunk(
+        baca.not_parts(
+            baca.bar_extent_persistent((0, 2)),
+            ),
+        baca.staff_lines(1),
         ),
     )
 

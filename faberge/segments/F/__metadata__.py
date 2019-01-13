@@ -116,6 +116,18 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='Clarinet_Music_Voice',
                                 manifest='instruments',
                                 value='BassClarinet',
                                 ),
@@ -123,6 +135,11 @@ metadata = abjad.OrderedDict(
                                 context='Clarinet_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Clarinet_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
@@ -183,6 +200,18 @@ metadata = abjad.OrderedDict(
                                 ),
                             abjad.Momento(
                                 context='Flute_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
+                                prototype='abjad.PersistentOverride',
+                                value=abjad.PersistentOverride(
+                                    after=True,
+                                    attribute='bar_extent',
+                                    context='Staff',
+                                    grob='bar_line',
+                                    value=(-2, 2),
+                                    ),
+                                ),
+                            abjad.Momento(
+                                context='Flute_Music_Voice',
                                 manifest='instruments',
                                 value='BassFlute',
                                 ),
@@ -190,6 +219,11 @@ metadata = abjad.OrderedDict(
                                 context='Flute_Music_Voice',
                                 prototype='abjad.Clef',
                                 value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Flute_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),

@@ -478,6 +478,11 @@ maker(
 # vc
 
 maker(
+    'vc',
+    baca.clef('bass'),
+    )
+
+maker(
     ('vc', 4),
     faberge.clb_rhythm(extra_counts=[4]),
     )

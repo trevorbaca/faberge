@@ -25,7 +25,7 @@ maker = baca.SegmentMaker(
         (3, 4), (5, 4), (3, 4), (5, 4),
         (3, 4), (5, 4), (3, 4), (5, 4),
         ],
-    transpose_score=False,
+    transpose_score=True,
     validate_measure_count=8,
     )
 
@@ -71,20 +71,44 @@ maker(
 
 maker(
     ('fl', (1, 4)),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [2, 6]),
+    )
+
+maker(
+    ('fl', (5, 6)),
+    baca.dls_staff_padding(2.5),
+    baca.dynamic('p'),
+    baca.pitch('G#3'),
+    baca.chunk(
+        baca.not_parts(
+            baca.bar_extent_persistent((-2, 2)),
+            ),
+        baca.staff_lines(5),
+        ),
+    )
+
+#maker(
+#    ('fl', 7),
+#    baca.chunk(
+#        baca.not_parts(
+#            baca.bar_extent_persistent((-2, 0)),
+#            ),
+#        baca.staff_lines(1),
+#        ),
+#    )
+
+# fl, eh, cl
+
+maker(
+    (['fl', 'eh', 'cl'], (1, 4)),
+    baca.dls_staff_padding(6),
     )
 
 maker(
     (['fl', 'eh', 'cl'], [5, 6]),
     baca.breathe(),
     baca.make_repeat_tied_notes(),
-    )
-
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
     )
 
 # fl, eh, cl, vn, va
@@ -112,6 +136,8 @@ maker(
 
 maker(
     ('eh', (5, 6)),
+    baca.dls_staff_padding(6),
+    baca.dynamic('"mf"'),
     baca.staff_position(0),
     )
 
@@ -119,7 +145,21 @@ maker(
 
 maker(
     ('cl', (1, 4)),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [3, 7]),
+    )
+
+maker(
+    ('cl', (5, 6)),
+    baca.chunk(
+        baca.not_parts(
+            baca.bar_extent_persistent((-2, 2)),
+            ),
+        baca.staff_lines(5),
+        ),
+    baca.dls_staff_padding(7),
+    baca.dynamic('p'),
+    baca.pitch('C2'),
     )
 
 # rh
@@ -149,6 +189,7 @@ maker(
 
 maker(
     'perc',
+    baca.dls_staff_padding(8),
     baca.staff_position(0),
     )
 
@@ -170,11 +211,6 @@ maker(
 maker(
     ('perc', 8),
     baca.dynamic('mp'),
-    baca.markup(
-        r'\faberge-woodblock',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
         ),
@@ -184,6 +220,7 @@ maker(
 
 maker(
     'vn',
+    baca.dls_staff_padding(6),
     baca.staff_position(0),
     )
 
@@ -196,6 +233,7 @@ maker(
 
 maker(
     'va',
+    baca.dls_staff_padding(6),
     baca.staff_position(0),
     )
 
@@ -208,16 +246,24 @@ maker(
 
 maker(
     'vc',
-    baca.not_parts(
-        baca.bar_extent_persistent((-2, 2))
+    baca.chunk(
+        baca.not_parts(
+            baca.bar_extent_persistent((-2, 2)),
+            ),
+        baca.staff_lines(5),
         ),
+    baca.clef('treble'),
+    baca.dls_staff_padding(8),
     baca.note_head_style_harmonic(),
-    baca.staff_lines(5),
+    baca.string_number_spanner(
+        'IV =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
     baca.suite(
         baca.untie_to(
             selector=baca.pleaves(),
             ),
-        baca.pitches('A3 C4'),
+        baca.pitches('C3 Bb4 G3 D5 C4 Fqs5 E4 Aqf5'),
         baca.glissando(),
         baca.hairpin(
             'niente o< p >o',
