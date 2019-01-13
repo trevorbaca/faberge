@@ -108,6 +108,7 @@ maker(
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('F5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -120,10 +121,26 @@ maker(
     )
 
 maker(
+    ('fl', [4, 5]),
+    baca.pitches(
+        'A3 A3 A3 G3 G3',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
     ('fl', (4, 8)),
     baca.material_annotation_spanner(
         '1-5 / 2-1 =|',
         abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('fl', [6, 7, 8]),
+    baca.pitches(
+        'Ab3 Ab3 Ab3 G3 G3',
+        allow_repeats=True,
         ),
     )
 
@@ -170,6 +187,22 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.tuplet_bracket_down(),
+    )
+
+maker(
+    ('cl', [1, 2, 4, 5]),
+    baca.pitches(
+        'E3 E3 E3 D#3 D#3',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
+    ('cl', [6, 7, 8]),
+    baca.pitches(
+        'F3 F3 F3 E3 E3',
+        allow_repeats=True,
+        ),
     )
 
 # rh
@@ -305,6 +338,10 @@ maker(
         'p niente o< p > pp',
         pieces=baca.lparts([1, 1, 2]),
         ),
+    baca.pitches(
+        'D4 Eb4 Eb4 Eb4',
+        allow_repeats=True,
+        ),
     baca.rhythm(
         r"\times 9/5 { c'2 c'4 c'4 c'4 }",
         annotate_unpitched_music=True,
@@ -428,6 +465,10 @@ maker(
     baca.hairpin(
         'niente o< p > pp p',
         pieces=baca.lparts([1, 1, 2]),
+        ),
+    baca.pitches(
+        'D4 D4 D4 Eb4',
+        allow_repeats=True,
         ),
     baca.rhythm(
         r"\times 9/5 { c'4 c'4 c'4 c'2 }",
