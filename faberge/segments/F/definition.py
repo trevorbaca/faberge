@@ -203,7 +203,7 @@ maker(
 
 maker(
     ('eh', 8),
-    baca.pitch('F#5'),
+    baca.pitch('G#5'),
     faberge.even_tuplet_rhythm(
         extra_counts=[1],
         ),
@@ -254,11 +254,6 @@ maker(
         '2-2 / 2-3 =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.pitch_annotation_spanner(
-        'chord -|',
-        abjad.tweak('magenta').color,
-        abjad.tweak(5.5).staff_padding,
-        ),
     )
 
 maker(
@@ -271,8 +266,18 @@ maker(
     )
 
 maker(
-    ('rh', 2),
+    ('rh', [1, 5, 6, 7, 8]),
     baca.beam(),
+    baca.accent(
+        selector=baca.pleaf(1),
+        ),
+    baca.accent(
+        selector=baca.pleaf(-1),
+        ),
+    )
+
+maker(
+    ('rh', 2),
     baca.rhythm(
         "{ c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8 r8 }",
         annotate_unpitched_music=True,
@@ -280,10 +285,14 @@ maker(
     )
 
 maker(
-    ('rh', 4),
+    ('rh', (2, 3)),
     baca.beam(),
+    )
+
+maker(
+    ('rh', 3),
     baca.rhythm(
-        "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
+        "{ c''8 r8 r2. }",
         annotate_unpitched_music=True,
         ),
     )
@@ -297,19 +306,9 @@ maker(
     )
 
 maker(
-    ('rh', [1, 4, 5, 6, 7, 8]),
-    baca.beam(),
-    baca.accent(
-        selector=baca.pleaf(1),
-        ),
-    baca.accent(
-        selector=baca.pleaf(-1),
-        ),
-    )
-
-maker(
     ('rh', (5, 8)),
     baca.ottava(),
+    baca.pitch("<G6 A6 B6 C7>"),
     )
 
 maker(
@@ -330,6 +329,76 @@ maker(
 
 maker(
     ('rh', 8),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# attack
+
+maker(
+    ('attack', (5, 8)),
+    baca.mmrest_transparent(),
+    )
+
+# lh
+
+maker(
+    ('lh', [5, 6, 7, 8]),
+    baca.beam(),
+    baca.accent(
+        selector=baca.pleaf(1),
+        ),
+    baca.accent(
+        selector=baca.pleaf(-1),
+        ),
+    )
+
+maker(
+    ('lh', 5),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.not_parts(
+            baca.clef_shift('treble'),
+            ),
+        ),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (5, 8)),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
+    baca.ottava(),
+    baca.ottava_bracket_staff_padding(8),
+    baca.pitch("<F6 G6 A6>"),
+    )
+
+maker(
+    ('lh', 6),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 7),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 8),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
         annotate_unpitched_music=True,
