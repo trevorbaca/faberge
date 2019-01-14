@@ -109,6 +109,7 @@ maker(
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('G#5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -230,6 +231,7 @@ maker(
 
 maker(
     ('eh', 4),
+    baca.pitch('A#4'),
     baca.rhythm(
         r"{ \times 5/4 { c'4 c'4 c'4 c'4 } \times 5/4 { c'4 c'4 c'4 c'4 } }",
         annotate_unpitched_music=True,
@@ -253,6 +255,7 @@ maker(
 
 maker(
     ('eh', 5),
+    baca.pitch('B4'),
     baca.rhythm(
         r"{ c'4 c'4 c'4 c'4 r1 }",
         annotate_unpitched_music=True,
@@ -337,7 +340,10 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
-    faberge.downbeat_attack(denominator=2),
+    baca.pitch('F#4'),
+    faberge.downbeat_attack(
+        denominator=2,
+        ),
     )
 
 # vn
@@ -424,6 +430,11 @@ maker(
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
         ),
+    )
+
+maker(
+    ('vn', (5, 9)),
+    baca.pitch('B4'),
     )
 
 maker(
@@ -610,6 +621,11 @@ maker(
 
 maker(
     ('va', (5, 9)),
+    baca.markup(
+        '11°/E',
+        abjad.tweak(1.5).padding,
+        ),
+    baca.pitch('Aqs4'),
     baca.quadruple_staccato(
         selector=baca.plts(
             exclude=baca.const.HIDDEN,
@@ -673,10 +689,17 @@ maker(
 
 maker(
     ('vc', (5, 9)),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
     baca.material_annotation_spanner(
         '3-3 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('E2'),
     )
 
 maker(

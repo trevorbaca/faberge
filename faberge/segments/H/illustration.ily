@@ -360,8 +360,7 @@ H_Flute_Music_Voice = {                                                        %
     {
 
         % [H Flute_Music_Voice measure 224 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2.
+        gs'''!2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -373,8 +372,7 @@ H_Flute_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2.
+        gs'''!2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -392,15 +390,13 @@ H_Flute_Music_Voice = {                                                        %
     {
 
         % [H Flute_Music_Voice measure 225 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2.
+        gs'''!2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2.
+        gs'''!2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -414,8 +410,7 @@ H_Flute_Music_Voice = {                                                        %
     {
 
         % [H Flute_Music_Voice measure 226 / measure 7]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2.
+        gs'''!2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -423,8 +418,7 @@ H_Flute_Music_Voice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2.
+        gs'''!2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -614,8 +608,7 @@ H_English_Horn_Music_Voice = {                                                 %
 
             % [H English_Horn_Music_Voice measure 223 / measure 4]             %! _comment_measure_numbers
             \override TrillSpanner.staff-padding = #5.5                        %! baca_trill_spanner_staff_padding:OverrideCommand(1)
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             - \abjad-dashed-line-with-hook                                     %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "MM"                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak bound-details.right.padding #2.75                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -624,20 +617,17 @@ H_English_Horn_Music_Voice = {                                                 %
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -647,26 +637,22 @@ H_English_Horn_Music_Voice = {                                                 %
         \tweak text #tuplet-number::calc-fraction-text
         \times 5/4 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            g'4
+            es''!4
             \stopTrillSpan                                                     %! baca_trill_spanner:SpannerIndicatorCommand(2)
             - \tweak bound-details.right.padding #2                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
             \startTrillSpan                                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -678,26 +664,22 @@ H_English_Horn_Music_Voice = {                                                 %
     {
 
         % [H English_Horn_Music_Voice measure 224 / measure 5]                 %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        g'4
+        fs''!4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        g'4
+        fs''!4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        g'4
+        fs''!4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        g'4
+        fs''!4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -1263,8 +1245,7 @@ H_Percussion_Music_Voice = {                                                   %
     R1 * 5/2                                                                   %! _make_measure_silences
 
     % [H Percussion_Music_Voice measure 224 / measure 5]                       %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_downbeat_attack
+    fs'!2                                                                      %! faberge_downbeat_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-crotales-bowed }                                      %! baca_markup:IndicatorCommand
@@ -1738,16 +1719,14 @@ H_Violin_Music_Voice = {                                                       %
     \times 2/3 {
 
         % [H Violin_Music_Voice measure 224 / measure 5]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        b'2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1759,8 +1738,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1775,8 +1753,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1784,16 +1761,14 @@ H_Violin_Music_Voice = {                                                       %
 
         }
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        b'2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1805,8 +1780,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1821,8 +1795,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1835,16 +1808,14 @@ H_Violin_Music_Voice = {                                                       %
     {
 
         % [H Violin_Music_Voice measure 225 / measure 6]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        b'2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1856,8 +1827,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1872,8 +1842,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1886,16 +1855,14 @@ H_Violin_Music_Voice = {                                                       %
     \times 2/3 {
 
         % [H Violin_Music_Voice measure 226 / measure 7]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        b'2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1907,8 +1874,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1923,8 +1889,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1932,16 +1897,14 @@ H_Violin_Music_Voice = {                                                       %
 
         }
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        b'2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1953,8 +1916,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1969,8 +1931,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2004,16 +1965,14 @@ H_Violin_Music_Voice = {                                                       %
     {
 
         % [H Violin_Music_Voice measure 228 / measure 9]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        b'2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2025,8 +1984,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2041,8 +1999,7 @@ H_Violin_Music_Voice = {                                                       %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            b'2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2526,16 +2483,16 @@ H_Viola_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Viola_Music_Voice measure 224 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        aqs'!2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
+        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
+        ^ \markup { 11°/E }                                                    %! baca_markup:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2547,8 +2504,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2563,8 +2519,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2572,16 +2527,14 @@ H_Viola_Music_Voice = {                                                        %
 
         }
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        aqs'!2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2593,8 +2546,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2609,8 +2561,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2623,16 +2574,14 @@ H_Viola_Music_Voice = {                                                        %
     {
 
         % [H Viola_Music_Voice measure 225 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        aqs'!2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2644,8 +2593,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2660,8 +2608,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2674,16 +2621,14 @@ H_Viola_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Viola_Music_Voice measure 226 / measure 7]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        aqs'!2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2695,8 +2640,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2711,8 +2655,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2720,16 +2663,14 @@ H_Viola_Music_Voice = {                                                        %
 
         }
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        aqs'!2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2741,8 +2682,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2757,8 +2697,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2792,16 +2731,14 @@ H_Viola_Music_Voice = {                                                        %
     {
 
         % [H Viola_Music_Voice measure 228 / measure 9]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        aqs'!2
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
 
         \times 2/3 {
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2813,8 +2750,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \p                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2829,8 +2765,7 @@ H_Viola_Music_Voice = {                                                        %
             - \tweak staff-padding #8                                          %! SCP:baca_scp_spanner:PiecewiseCommand(1)
             \bacaStartTextSpanSCP                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-            \baca-unpitched-music-warning                                      %! _color_unpitched_notes
-            c'2
+            aqs'!2
             :32                                                                %! baca_stem_tremolo:IndicatorCommand
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2935,8 +2870,13 @@ H_Cello_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Cello_Music_Voice measure 224 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        \once \override Staff.Clef.X-extent = ##f                              %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \clef "bass"                                                           %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+        \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+        e,2
         - \tweak padding #1                                                    %! baca_down_bow:IndicatorCommand
         - \tweak parent-alignment-X #0.5                                       %! baca_down_bow:IndicatorCommand
         - \baca-full-downbow                                                   %! baca_down_bow:IndicatorCommand
@@ -2951,13 +2891,12 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        e,1
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        e,2
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
@@ -2965,8 +2904,7 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        e,1
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
     }
@@ -2974,8 +2912,7 @@ H_Cello_Music_Voice = {                                                        %
     {
 
         % [H Cello_Music_Voice measure 225 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        e,2
         - \tweak padding #1                                                    %! baca_down_bow:IndicatorCommand
         - \tweak parent-alignment-X #0.5                                       %! baca_down_bow:IndicatorCommand
         - \baca-full-downbow                                                   %! baca_down_bow:IndicatorCommand
@@ -2986,8 +2923,7 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        e,1
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
     }
@@ -2995,8 +2931,7 @@ H_Cello_Music_Voice = {                                                        %
     \times 2/3 {
 
         % [H Cello_Music_Voice measure 226 / measure 7]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        e,2
         - \tweak padding #1                                                    %! baca_down_bow:IndicatorCommand
         - \tweak parent-alignment-X #0.5                                       %! baca_down_bow:IndicatorCommand
         - \baca-full-downbow                                                   %! baca_down_bow:IndicatorCommand
@@ -3007,12 +2942,10 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        e,1
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        e,2
         - \abjad-dashed-line-with-hook                                         %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "½ clt"                                 %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-half-clt-markup %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
@@ -3020,8 +2953,7 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        e,1
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
 
     }
@@ -3050,8 +2982,7 @@ H_Cello_Music_Voice = {                                                        %
     {
 
         % [H Cello_Music_Voice measure 228 / measure 9]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2
+        e,2
         - \tweak padding #1                                                    %! baca_down_bow:IndicatorCommand
         - \tweak parent-alignment-X #0.5                                       %! baca_down_bow:IndicatorCommand
         - \baca-full-downbow                                                   %! baca_down_bow:IndicatorCommand
@@ -3062,8 +2993,7 @@ H_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanHalfCLT                                              %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1
+        e,1
         \bacaStopTextSpanHalfCLT                                               %! HALF_CLT:baca_half_clt_spanner:PiecewiseCommand(3)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
