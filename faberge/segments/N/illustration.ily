@@ -243,8 +243,7 @@ N_Flute_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''4.                                                                      %! faberge_halves_rhythm
+    cs'''!4.                                                                   %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“BassFlute”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -260,8 +259,7 @@ N_Flute_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''4.                                                                      %! faberge_halves_rhythm
+    cs'''!4.                                                                   %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -271,15 +269,13 @@ N_Flute_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Flute_Music_Voice measure 271 / measure 2]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''2                                                                       %! faberge_halves_rhythm
+    cs'''!2                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''2                                                                       %! faberge_halves_rhythm
+    cs'''!2                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -289,15 +285,13 @@ N_Flute_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Flute_Music_Voice measure 272 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''4.                                                                      %! faberge_halves_rhythm
+    cs'''!4.                                                                   %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''4.                                                                      %! faberge_halves_rhythm
+    cs'''!4.                                                                   %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -307,15 +301,13 @@ N_Flute_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Flute_Music_Voice measure 273 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''2                                                                       %! faberge_halves_rhythm
+    cs'''!2                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c''2                                                                       %! faberge_halves_rhythm
+    cs'''!2                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -327,15 +319,13 @@ N_Flute_Music_Voice = {                                                        %
     {
 
         % [N Flute_Music_Voice measure 274 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -349,15 +339,13 @@ N_Flute_Music_Voice = {                                                        %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         % [N Flute_Music_Voice measure 275 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -371,15 +359,13 @@ N_Flute_Music_Voice = {                                                        %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         % [N Flute_Music_Voice measure 276 / measure 7]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -393,15 +379,13 @@ N_Flute_Music_Voice = {                                                        %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         % [N Flute_Music_Voice measure 277 / measure 8]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''2
+        cs'''!2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1290,8 +1274,7 @@ N_Percussion_Music_Voice = {                                                   %
 
     % [N Percussion_Music_Voice measure 274 / measure 5]                       %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_downbeat_attack
+    e'2                                                                        %! faberge_downbeat_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
@@ -1496,8 +1479,7 @@ N_Violin_Music_Voice = {                                                       %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [N Violin_Music_Voice measure 273 / measure 4]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_halves_rhythm
+    <fs''! aqs''!>2
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1508,8 +1490,7 @@ N_Violin_Music_Voice = {                                                       %
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_halves_rhythm
+    <fs''! aqs''!>2
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1522,8 +1503,7 @@ N_Violin_Music_Voice = {                                                       %
     \times 5/6 {                                                               %! faberge_halves_rhythm
 
         % [N Violin_Music_Voice measure 274 / measure 5]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        <fs''! aqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1531,8 +1511,7 @@ N_Violin_Music_Voice = {                                                       %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        <fs''! aqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1544,8 +1523,7 @@ N_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge_halves_rhythm
 
     % [N Violin_Music_Voice measure 275 / measure 6]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! faberge_halves_rhythm
+    <fs''! aqs''!>2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1553,8 +1531,7 @@ N_Violin_Music_Voice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! faberge_halves_rhythm
+    <fs''! aqs''!>2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1564,8 +1541,7 @@ N_Violin_Music_Voice = {                                                       %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Violin_Music_Voice measure 276 / measure 7]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    <fs''! aqs''!>2..
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1573,8 +1549,7 @@ N_Violin_Music_Voice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    <fs''! aqs''!>2..
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1584,8 +1559,7 @@ N_Violin_Music_Voice = {                                                       %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Violin_Music_Voice measure 277 / measure 8]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    <fs''! aqs''!>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1593,8 +1567,7 @@ N_Violin_Music_Voice = {                                                       %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    <fs''! aqs''!>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1715,8 +1688,7 @@ N_Viola_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [N Viola_Music_Voice measure 273 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_halves_rhythm
+    <b' dqf''!>2
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1727,8 +1699,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_halves_rhythm
+    <b' dqf''!>2
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1741,8 +1712,7 @@ N_Viola_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! faberge_halves_rhythm
 
         % [N Viola_Music_Voice measure 274 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        <b' dqf''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1750,8 +1720,7 @@ N_Viola_Music_Voice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        <b' dqf''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1763,8 +1732,7 @@ N_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge_halves_rhythm
 
     % [N Viola_Music_Voice measure 275 / measure 6]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! faberge_halves_rhythm
+    <b' dqf''!>2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1772,8 +1740,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! faberge_halves_rhythm
+    <b' dqf''!>2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1783,8 +1750,7 @@ N_Viola_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Viola_Music_Voice measure 276 / measure 7]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    <b' dqf''!>2..
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1792,8 +1758,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    <b' dqf''!>2..
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1803,8 +1768,7 @@ N_Viola_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Viola_Music_Voice measure 277 / measure 8]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    <b' dqf''!>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1812,8 +1776,7 @@ N_Viola_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    <b' dqf''!>1
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1934,8 +1897,13 @@ N_Cello_Music_Voice = {                                                        %
     R1 * 3/4                                                                   %! _make_measure_silences
 
     % [N Cello_Music_Voice measure 273 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_halves_rhythm
+    \once \override Staff.Clef.X-extent = ##f                                  %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    e,2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1945,9 +1913,9 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2                                                                        %! faberge_halves_rhythm
+    e,2                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1960,8 +1928,7 @@ N_Cello_Music_Voice = {                                                        %
     \times 5/6 {                                                               %! faberge_halves_rhythm
 
         % [N Cello_Music_Voice measure 274 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        e,2.                                                                   %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1969,8 +1936,7 @@ N_Cello_Music_Voice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        e,2.                                                                   %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1982,8 +1948,7 @@ N_Cello_Music_Voice = {                                                        %
     }                                                                          %! faberge_halves_rhythm
 
     % [N Cello_Music_Voice measure 275 / measure 6]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! faberge_halves_rhythm
+    e,2.                                                                       %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -1991,8 +1956,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2.                                                                       %! faberge_halves_rhythm
+    e,2.                                                                       %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2002,8 +1966,7 @@ N_Cello_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Cello_Music_Voice measure 276 / measure 7]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2011,8 +1974,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2022,8 +1984,7 @@ N_Cello_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [N Cello_Music_Voice measure 277 / measure 8]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2031,8 +1992,7 @@ N_Cello_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
