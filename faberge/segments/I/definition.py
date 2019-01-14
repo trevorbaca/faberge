@@ -85,6 +85,22 @@ maker(
 
 # fl
 
+maker(
+    ('fl', [1, 2, 3]),
+    baca.pitches(
+        'A4 A4 A4 G4 G4',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
+    ('fl', [4, 5, 6, 7, 8]),
+    baca.pitches(
+        'Ab4 Ab4 Ab4 G4 G4',
+        allow_repeats=True,
+        ),
+    )
+
 # fl, cl
 
 maker(
@@ -139,6 +155,7 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.pitch('Db5'),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -156,6 +173,30 @@ maker(
     )
 
 # cl
+
+maker(
+    ('cl', [1, 2, 3]),
+    baca.pitches(
+        'Gb4 Gb4 Gb4 F4 F4',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
+    ('cl', [4, 5]),
+    baca.pitches(
+        'G4 G4 G4 F4 F4',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
+    ('cl', [6, 7, 8]),
+    baca.pitches(
+        'F#4 F#4 F#4 E4 E4',
+        allow_repeats=True,
+        ),
+    )
 
 # rh
 
@@ -184,6 +225,39 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.ottava(),
+    baca.pitch("<G6 A6 B6 C7>"),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
+        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# attack
+
+maker(
+    'attack',
+    baca.mmrest_transparent(),
+    )
+
+# lh
+
+maker(
+    ('lh', 5),
+    baca.accent(
+        selector=baca.pleaf(1),
+        ),
+    baca.accent(
+        selector=baca.pleaf(-1),
+        ),
+    baca.beam(),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
+    baca.ottava(),
+    baca.pitch("<F6 G6 A6>"),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
@@ -329,6 +403,7 @@ maker(
 maker(
     ('vn', 4),
     baca.dynamic('mp'),
+    baca.pitch('Eb5'),
     baca.rhythm(
         "{ c'2 c'2 }",
         annotate_unpitched_music=True,
@@ -354,6 +429,7 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('A6'),
     baca.rhythm(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8"
         " c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
@@ -390,6 +466,7 @@ maker(
         '3-5 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('C5'),
     )
 
 maker(
@@ -511,6 +588,7 @@ maker(
 maker(
     ('va', 4),
     baca.dynamic('mp'),
+    baca.pitch('Db4'),
     baca.rhythm(
         r"{ c'2 c'2 }",
         annotate_unpitched_music=True,
@@ -534,6 +612,7 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('D3'),
     )
 
 maker(
@@ -562,6 +641,7 @@ maker(
         '3-5 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('Bb3'),
     )
 
 maker(
@@ -639,6 +719,7 @@ maker(
 
 maker(
     ('vc', 4),
+    baca.pitch('Db2'),
     baca.rhythm(
         "{ c'2 c'2 }",
         annotate_unpitched_music=True,
@@ -654,6 +735,12 @@ maker(
         selector=baca.pleaf(-3),
         ),
     baca.beam(),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.not_parts(
+            baca.clef_shift('treble'),
+            ),
+        ),
     baca.dynamic(
         'mp',
         abjad.tweak((0, 0)).X_extent,
@@ -664,6 +751,7 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('F#5'),
     baca.rhythm(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8"
         " c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
