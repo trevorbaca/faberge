@@ -214,6 +214,7 @@ maker(
 
 maker(
     ('rh', 6),
+    baca.clef('bass'),
     baca.dynamic(
         '(mp)',
         abjad.tweak((0, 0)).X_extent,
@@ -228,10 +229,16 @@ maker(
 maker(
     ('rh', (6, 8)),
     baca.beam(),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
     baca.material_annotation_spanner(
         '2-1 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('<G3 A3 C4>'),
     )
 
 maker(
@@ -244,6 +251,45 @@ maker(
 
 maker(
     ('rh', 8),
+    baca.rhythm(
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# attack
+
+maker(
+    'attack',
+    baca.mmrest_transparent(),
+    )
+
+# lh
+
+maker(
+    ('lh', 6),
+    baca.rhythm(
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (6, 8)),
+    baca.beam(),
+    baca.pitch('<G3 A3 B3 C4>'),
+    )
+
+maker(
+    ('lh', 7),
+    baca.rhythm(
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 8),
     baca.rhythm(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,

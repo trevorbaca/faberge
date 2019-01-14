@@ -542,6 +542,7 @@ maker(
         '2-4 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('A6'),
     )
 
 maker(
@@ -603,6 +604,7 @@ maker(
         '3-1 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('A#4'),
     )
 
 maker(
@@ -666,6 +668,7 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('D3'),
     )
 
 maker(
@@ -698,6 +701,7 @@ maker(
         '3-1 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('A#4'),
     )
 
 maker(
@@ -750,6 +754,7 @@ maker(
         '2-4 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('F#5'),
     )
 
 maker(
@@ -802,6 +807,7 @@ maker(
         '3-1 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('F#5'),
     )
 
 maker(
