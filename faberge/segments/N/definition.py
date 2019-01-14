@@ -378,7 +378,7 @@ maker(
 
 maker(
     ('va', (4, 8)),
-    baca.pitch('<B4 Dqf5>'),
+    baca.pitch('<Dqf5>'),
     )
 
 # vc

@@ -155,6 +155,12 @@ maker(
         selector=baca.pleaves(),
         ),
     )
+    
+maker(
+    ('vn', (1, 4)),
+    baca.pitch('<F5 Gtqs5>'),
+    )
+
 
 maker(
     ('vn', (1, 7)),
@@ -162,6 +168,11 @@ maker(
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 3)],
         ),
+    )
+
+maker(
+    ('vn', (5, 8)),
+    baca.pitch('Eb5'),
     )
 
 maker(
@@ -199,11 +210,21 @@ maker(
     )
 
 maker(
+    ('va', (1, 4)),
+    baca.pitch('Dtqf5'),
+    )
+
+maker(
     ('va', (1, 7)),
     baca.tuplet_bracket_staff_padding(1.5),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 1)],
         ),
+    )
+
+maker(
+    ('va', (5, 8)),
+    baca.pitch('Eb5'),
     )
 
 maker(
@@ -215,6 +236,7 @@ maker(
 
 maker(
     'vc',
+    baca.pitch('Eb2'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
