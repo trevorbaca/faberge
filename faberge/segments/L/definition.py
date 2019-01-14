@@ -89,7 +89,6 @@ maker(
         abjad.tweak(2).bound_details__right__padding,
         selector=baca.leaves()[:3],
         ),
-    baca.tuplet_bracket_down(),
     faberge.suffixed_colortrill_rhythm(),
     )
 
@@ -378,7 +377,6 @@ maker(
         selector=baca.pheads(),
         ),
     baca.stem_down(),
-    baca.tuplet_bracket_down(),
     faberge.clb_staff_positions(),
     )
 

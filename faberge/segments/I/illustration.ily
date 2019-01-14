@@ -1210,12 +1210,6 @@ I_Piano_RH_Music_Voice = {                                                     %
         - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "chord"                                 %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #magenta                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5.5                                            %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
 
         r8
 
@@ -1274,7 +1268,6 @@ I_Piano_RH_Music_Voice = {                                                     %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 3/2                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-            \bacaStopTextSpanPA                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2068,7 +2061,6 @@ I_Viola_Music_Voice = {                                                        %
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-va-markup                         %! _clone_segment_initial_short_instrument_name
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
-        \override TupletBracket.direction = #up                                %! baca_tuplet_bracket_up:OverrideCommand(1)
         \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2389,7 +2381,6 @@ I_Viola_Music_Voice = {                                                        %
         \ppp                                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
-        \revert TupletBracket.direction                                        %! baca_tuplet_bracket_up:OverrideCommand(2)
 
     }
 

@@ -2060,7 +2060,6 @@ H_Viola_Music_Voice = {                                                        %
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-va-markup                         %! _clone_segment_initial_short_instrument_name
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
-        \override TupletBracket.direction = #up                                %! baca_tuplet_bracket_up:OverrideCommand(1)
         \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2771,7 +2770,6 @@ H_Viola_Music_Voice = {                                                        %
             \pp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
             \bacaStopTextSpanSCP                                               %! SCP:baca_scp_spanner:PiecewiseCommand(2)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
-            \revert TupletBracket.direction                                    %! baca_tuplet_bracket_up:OverrideCommand(2)
 
         }
 

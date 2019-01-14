@@ -253,7 +253,6 @@ L_Flute_Music_Voice = {                                                        %
     \times 7/8 {                                                               %! faberge_suffixed_colortrill_rhythm
 
         % [L Flute_Music_Voice measure 256 / measure 3]                        %! _comment_measure_numbers
-        \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! faberge_suffixed_colortrill_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -296,7 +295,6 @@ L_Flute_Music_Voice = {                                                        %
         \once \override DynamicText.self-alignment-X = #-0.75                  %! baca_dynamic_text_self_alignment_x:OverrideCommand(1)
         \baca-unpitched-music-warning                                          %! _color_unpitched_notes
         c''4                                                                   %! faberge_suffixed_colortrill_rhythm
-        \revert TupletBracket.direction                                        %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     }                                                                          %! faberge_suffixed_colortrill_rhythm
 
@@ -1539,7 +1537,6 @@ L_Violin_Music_Voice = {                                                       %
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-vn-markup                         %! _clone_segment_initial_short_instrument_name
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
-        \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1751,7 +1748,6 @@ L_Violin_Music_Voice = {                                                       %
     r2..
     \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1832,7 +1828,6 @@ L_Viola_Music_Voice = {                                                        %
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-va-markup                         %! _clone_segment_initial_short_instrument_name
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
-        \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2043,7 +2038,6 @@ L_Viola_Music_Voice = {                                                        %
     r2..
     \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     % [L Viola_Music_Voice measure 260 / measure 7]                            %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REDUNDANT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
@@ -2131,7 +2125,6 @@ L_Cello_Music_Voice = {                                                        %
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-vc-markup                         %! _clone_segment_initial_short_instrument_name
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
-        \override TupletBracket.direction = #down                              %! baca_tuplet_bracket_down:OverrideCommand(1)
         \clef "bass"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -2343,7 +2336,6 @@ L_Cello_Music_Voice = {                                                        %
     r2..
     \bacaStopTextSpanDamp                                                      %! DAMP:baca_damp_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-    \revert TupletBracket.direction                                            %! baca_tuplet_bracket_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 

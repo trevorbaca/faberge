@@ -470,7 +470,6 @@ maker(
         '3-2 / 3-3 =|',
         abjad.tweak(10.5).staff_padding,
         ),
-    baca.tuplet_bracket_up(),
     )
 
 maker(

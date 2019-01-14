@@ -1202,12 +1202,6 @@ J_Piano_RH_Music_Voice = {                                                     %
         - \tweak color #red                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "chord."                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #magenta                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5.5                                            %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r8
@@ -1259,7 +1253,6 @@ J_Piano_RH_Music_Voice = {                                                     %
     % [J Piano_RH_Music_Voice measure 240 / measure 4]                         %! _comment_measure_numbers
     r1                                                                         %! faberge_end_of_cell_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-    \bacaStopTextSpanPA                                                        %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
 
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
@@ -1989,7 +1982,6 @@ J_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_spazzolati_rhythm
 
         % [J Viola_Music_Voice measure 238 / measure 2]                        %! _comment_measure_numbers
-        \override TupletBracket.direction = #up                                %! baca_tuplet_bracket_up:OverrideCommand(1)
         r4                                                                     %! faberge_spazzolati_rhythm
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "A.3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -2023,7 +2015,6 @@ J_Viola_Music_Voice = {                                                        %
 
         e'8                                                                    %! faberge_spazzolati_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
-        \revert TupletBracket.direction                                        %! baca_tuplet_bracket_up:OverrideCommand(2)
 
     }                                                                          %! faberge_spazzolati_rhythm
 
