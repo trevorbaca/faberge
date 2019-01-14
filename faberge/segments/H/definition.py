@@ -377,6 +377,11 @@ maker(
     )
 
 maker(
+    ('vn', (1, 4)),
+    baca.pitch('A#4'),
+    )
+
+maker(
     ('vn', [(1, 7), 9]),
     baca.quadruple_staccato(
         selector=baca.plts()[abjad.index([0], 4)],
@@ -483,6 +488,11 @@ maker(
         pieces=baca.clparts([1]),
         selector=baca.leaves(),
         ),
+    )
+
+maker(
+    ('va', (1, 4)),
+    baca.pitch('A#4'),
     )
 
 maker(

@@ -261,7 +261,7 @@ maker(
     ('rh', 1),
     baca.beam(),
     baca.rhythm(
-        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        "{ c'8 r8 c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8. r16 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -278,9 +278,19 @@ maker(
     )
 
 maker(
+    ('rh', (1, 3)),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
+    baca.pitch('<G3 A3 C4>'),
+    )
+
+maker(
     ('rh', 2),
     baca.rhythm(
-        "{ c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8 r8 }",
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
         annotate_unpitched_music=True,
         ),
     )
@@ -293,13 +303,19 @@ maker(
 maker(
     ('rh', 3),
     baca.rhythm(
-        "{ c''8 r8 r2. }",
+        "{ c'8 r8 r2. }",
         annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 5),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.not_parts(
+            baca.clef_shift('treble'),
+            ),
+        ),
     baca.dynamic('mf'),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
@@ -343,11 +359,57 @@ maker(
 # attack
 
 maker(
-    ('attack', (5, 8)),
+    'attack',
     baca.mmrest_transparent(),
     )
 
 # lh
+
+maker(
+    ('lh', 1),
+    baca.beam(),
+    baca.rhythm(
+        "{ c'8 r8 c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', [1, 5, 6, 7, 8]),
+    baca.beam(),
+    baca.accent(
+        selector=baca.pleaf(1),
+        ),
+    baca.accent(
+        selector=baca.pleaf(-1),
+        ),
+    )
+
+maker(
+    ('lh', (1, 3)),
+    baca.pitch('<G3 A3 B3 C4>'),
+    )
+
+maker(
+    ('lh', 2),
+    baca.rhythm(
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (2, 3)),
+    baca.beam(),
+    )
+
+maker(
+    ('lh', 3),
+    baca.rhythm(
+        "{ c'8 r8 r2. }",
+        annotate_unpitched_music=True,
+        ),
+    )
 
 maker(
     ('lh', [5, 6, 7, 8]),
@@ -791,6 +853,7 @@ maker(
         '2-3 =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('F#5'),
     )
 
 maker(
