@@ -298,6 +298,11 @@ maker(
     )
 
 maker(
+    ('vn', (1, 3)),
+    baca.pitch('Dtqf5'),
+    )
+
+maker(
     ('vn', (1, 4)),
     baca.material_annotation_spanner(
         '3-4 =|',
@@ -459,6 +464,11 @@ maker(
     )
 
 maker(
+    ('va', (1, 3)),
+    baca.pitch('Bqs4'),
+    )
+
+maker(
     ('va', (1, 4)),
     baca.material_annotation_spanner(
         '3-4 =|',
@@ -596,6 +606,11 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.leaves()[:1].rleak(),
         ),
+    )
+
+maker(
+    ('vc', (1, 3)),
+    baca.pitch('Eb2'),
     )
 
 maker(

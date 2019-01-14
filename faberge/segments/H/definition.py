@@ -83,6 +83,7 @@ maker(
 
 maker(
     ('fl', (1, 2)),
+    baca.pitch('G3'),
     faberge.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[0, 1],
@@ -161,28 +162,6 @@ maker(
         ),
     )
 
-#maker(
-#    (['fl', 'cl'], [1, 2]),
-#    baca.dynamic_text_self_alignment_x(
-#        -1,
-#        selector=baca.pleaf(2),
-#        ),
-#    baca.dynamic_text_self_alignment_x(
-#        -0.75,
-#        selector=baca.pleaf(-1),
-#        ),
-#    baca.glissando(
-#        allow_repeats=True,
-#        selector=baca.pleaves()[2:], 
-#        ),
-#    baca.trill_spanner(
-#        None,
-#        abjad.tweak(2).bound_details__right__padding,
-#        selector=baca.leaves()[:3],
-#        ),
-#    faberge.suffixed_colortrill_rhythm(),
-#    )
-
 # tutti
 
 maker(
@@ -221,6 +200,7 @@ maker(
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('A4'),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -266,6 +246,7 @@ maker(
 
 maker(
     ('cl', (1, 2)),
+    baca.pitch('F2'),
     faberge.even_tuplet_rhythm(
         denominator=2,
         extra_counts=[1, 0],
@@ -433,7 +414,7 @@ maker(
     )
 
 maker(
-    ('vn', (5, 9)),
+    ('vn', (5, 8)),
     baca.pitch('B4'),
     )
 
@@ -456,6 +437,12 @@ maker(
 
 maker(
     ('vn', 9),
+    baca.markup(
+        r'\faberge-seven-e-flat',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
+    baca.pitch('Dtqf5'),
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
@@ -619,12 +606,16 @@ maker(
     )
 
 maker(
+    ('va', (5, 8)),
+    baca.pitch('Aqs4'),
+    )
+
+maker(
     ('va', (5, 9)),
     baca.markup(
         '11°/E',
         abjad.tweak(1.5).padding,
         ),
-    baca.pitch('Aqs4'),
     baca.quadruple_staccato(
         selector=baca.plts(
             exclude=baca.const.HIDDEN,
@@ -656,6 +647,12 @@ maker(
 
 maker(
     ('va', 9),
+    baca.markup(
+        r'\faberge-thirteen-e-flat',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
+    baca.pitch('Bqs4'),
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
@@ -687,6 +684,11 @@ maker(
     )
 
 maker(
+    ('vc', (5, 8)),
+    baca.pitch('E2'),
+    )
+
+maker(
     ('vc', (5, 9)),
     baca.chunk(
         baca.clef('bass'),
@@ -698,7 +700,6 @@ maker(
         '3-3 =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.pitch('E2'),
     )
 
 maker(
@@ -719,6 +720,7 @@ maker(
 
 maker(
     ('vc', 9),
+    baca.pitch('Eb2'),
     baca.rhythm(
         r"{ c'2 c'1 }",
         annotate_unpitched_music=True,
