@@ -51,11 +51,11 @@ breaks = baca.breaks(
         number=12,
         ),
     baca.page(
-        [210, 30, (20, 32)],
+        [208, 30, (20, 32)],
         number=13,
         ),
     baca.page(
-        [220, 32, (20, 32)],
+        [219, 32, (20, 32)],
         number=14,
         ),
     baca.page(

@@ -187,6 +187,7 @@ maker(
 maker(
     'rh',
     baca.dls_staff_padding(4.5),
+    baca.pitch("<G6 A6 B6 C7>"),
     )
 
 maker(
@@ -198,26 +199,22 @@ maker(
     )
 
 maker(
+    ('rh', [1, 3, 4, 5]),
+    baca.beam(),
+    )
+
+maker(
     ('rh', (1, 5)),
     baca.material_annotation_spanner(
         '2-4 =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
 maker(
-    ('rh', [(1, 6), (8, 10)]),
+    ('rh', (1, 10)),
     baca.ottava(),
-    baca.pitch_annotation_spanner(
-        'chord -|',
-        abjad.tweak('magenta').color,
-        abjad.tweak(5.5).staff_padding,
-        ),
-    )
-
-maker(
-    ('rh', [1, 3, 4, 5]),
-    baca.beam(),
+    baca.ottava_bracket_staff_padding(8),
     )
 
 maker(
@@ -267,7 +264,7 @@ maker(
     ('rh', (6, 10)),
     baca.material_annotation_spanner(
         '3-1 =|',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(10.5).staff_padding,
         ),
     )
 
@@ -291,6 +288,129 @@ maker(
 
 maker(
     ('rh', 10),
+    baca.rhythm(
+        "{ c''8 r8 r4 r4 r4 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# attack
+
+maker(
+    'attack',
+    baca.mmrest_transparent(),
+    )
+
+# lh
+
+maker(
+    'lh',
+    baca.dls_staff_padding(4.5),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
+    baca.pitch("<F6 G6 A6>"),
+    )
+
+maker(
+    ('lh', 1),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', [1, 3, 4, 5]),
+    baca.beam(),
+    )
+
+maker(
+    ('lh', (1, 5)),
+    baca.material_annotation_spanner(
+        '2-4 =|',
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('lh', (1, 10)),
+    baca.ottava(),
+    baca.ottava_bracket_staff_padding(8),
+    )
+
+maker(
+    ('lh', [1, 3, 4, 5, 6, 8, 9, 10]),
+    baca.accent(
+        selector=baca.pleaf(1),
+        ),
+    baca.accent(
+        selector=baca.pleaf(-1),
+        ),
+    )
+
+maker(
+    ('lh', 3),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
+        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 4),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 5),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 6),
+    baca.rhythm(
+        "{ c''8 [ r8 c''8. r16 c''8 r8 c''8 ] r8 r4 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (6, 10)),
+    baca.material_annotation_spanner(
+        '3-1 =|',
+        abjad.tweak(10.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('lh', 8),
+    baca.rhythm(
+        "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
+        " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 9),
+    baca.rhythm(
+        "{ c''8 r8 r4 r4 r4 r4 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', 10),
     baca.rhythm(
         "{ c''8 r8 r4 r4 r4 c''8. r16 }",
         annotate_unpitched_music=True,

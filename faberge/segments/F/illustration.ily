@@ -913,6 +913,7 @@ F_Piano_RH_Music_Voice = {                                                     %
         \set PianoStaff.shortInstrumentName = \faberge-pf-markup               %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
         \set PianoStaff.instrumentName = \faberge-pf-markup                    %! _clone_segment_initial_short_instrument_name
+        \override DynamicLineSpanner.staff-padding = #4                        %! baca_dls_staff_padding:OverrideCommand(1)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1045,7 +1046,10 @@ F_Piano_RH_Music_Voice = {                                                     %
 
         % [F Piano_RH_Music_Voice measure 206 / measure 5]                     %! _comment_measure_numbers
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
+        \override Staff.OttavaBracket.staff-padding = #5.5                     %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
         <g''' a''' b''' c''''>8
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
@@ -1157,9 +1161,11 @@ F_Piano_RH_Music_Voice = {                                                     %
         <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
-        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
+        \ottava 0                                                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_ottava:SpannerIndicatorCommand(2)
 
         r16
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Staff.OttavaBracket.staff-padding                              %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
 
     }
 
@@ -1384,7 +1390,7 @@ F_Piano_LH_Music_Voice = {                                                     %
         - \accent                                                              %! baca_accent:IndicatorCommand
         ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
-        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
+        \ottava 0                                                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_ottava:SpannerIndicatorCommand(2)
 
         r16
         \revert Staff.OttavaBracket.staff-padding                              %! baca_ottava_bracket_staff_padding:OverrideCommand(2)

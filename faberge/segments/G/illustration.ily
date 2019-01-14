@@ -724,58 +724,47 @@ G_Piano_RH_Music_Voice = {                                                     %
         \set PianoStaff.instrumentName = \faberge-pf-markup                    %! _clone_segment_initial_short_instrument_name
         \override DynamicLineSpanner.staff-padding = #4.5                      %! baca_dls_staff_padding:OverrideCommand(1)
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
+        \override Staff.OttavaBracket.staff-padding = #8                       %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4) %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-mp-parenthesized                                                 %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
+        \mf                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Pf.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Piano”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-4"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "chord"                                 %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #magenta                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5.5                                            %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)    %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set PianoStaff.shortInstrumentName = \faberge-pf-markup               %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
 
         r16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
@@ -807,50 +796,41 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 212 / measure 3]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
 
         r16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
@@ -861,35 +841,29 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 213 / measure 4]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
 
         r16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
@@ -900,30 +874,25 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 214 / measure 5]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
 
         r16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
@@ -934,41 +903,35 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 215 / measure 6]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         [
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
 
         r16
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         ]
 
         r8
 
         r4
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
         r16
 
@@ -982,7 +945,6 @@ G_Piano_RH_Music_Voice = {                                                     %
             % [G Piano_RH_Music_Voice measure 216 / measure 7]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanPA                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -999,23 +961,14 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 217 / measure 8]                     %! _comment_measure_numbers
-        \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         [
-        - \abjad-solid-line-with-hook                                          %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "chord"                                 %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.5                              %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #magenta                                                %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #5.5                                            %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanPA                                                   %! PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(1)
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -1023,33 +976,28 @@ G_Piano_RH_Music_Voice = {                                                     %
 
         r4
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         [
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         ]
 
         r8
 
         r4
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
         [
 
         r8
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         ]
 
@@ -1060,8 +1008,7 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 218 / measure 9]                     %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
@@ -1073,8 +1020,7 @@ G_Piano_RH_Music_Voice = {                                                     %
 
         r4
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1085,8 +1031,7 @@ G_Piano_RH_Music_Voice = {                                                     %
     {
 
         % [G Piano_RH_Music_Voice measure 219 / measure 10]                    %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8
+        <g''' a''' b''' c''''>8
 
         r8
 
@@ -1096,14 +1041,14 @@ G_Piano_RH_Music_Voice = {                                                     %
 
         r4
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c''8.
+        <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
         r16
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Staff.OttavaBracket.staff-padding                              %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
 
     }
 
@@ -1115,7 +1060,6 @@ G_Piano_RH_Music_Voice = {                                                     %
             % [G Piano_RH_Music_Voice measure 220 / measure 11]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
-            \bacaStopTextSpanPA                                                %! PHANTOM:_style_phantom_measures(5):PITCH:baca_pitch_annotation_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
@@ -1148,41 +1092,374 @@ G_Piano_RH_Music_Staff = {                                                     %
 
 G_Piano_LH_Music_Voice = {                                                     %! extern
 
-    % [G Piano_LH_Music_Voice measure 210 / measure 1]                         %! _comment_measure_numbers
-    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    R1 * 3/2                                                                   %! _call_rhythm_commands
-    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+    {
 
-    % [G Piano_LH_Music_Voice measure 211 / measure 2]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+        % [G Piano_LH_Music_Voice measure 210 / measure 1]                     %! _comment_measure_numbers
+        \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+        \override DynamicLineSpanner.staff-padding = #4.5                      %! baca_dls_staff_padding:OverrideCommand(1)
+        \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
+        \override Staff.OttavaBracket.staff-padding = #8                       %! baca_ottava_bracket_staff_padding:OverrideCommand(1)
+        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "2-4"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [G Piano_LH_Music_Voice measure 212 / measure 3]                         %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _call_rhythm_commands
+        r8
 
-    % [G Piano_LH_Music_Voice measure 213 / measure 4]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
 
-    % [G Piano_LH_Music_Voice measure 214 / measure 5]                         %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _call_rhythm_commands
+        r16
 
-    % [G Piano_LH_Music_Voice measure 215 / measure 6]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
 
-    % [G Piano_LH_Music_Voice measure 216 / measure 7]                         %! _comment_measure_numbers
-    R1 * 1/4                                                                   %! _call_rhythm_commands
+        r8
 
-    % [G Piano_LH_Music_Voice measure 217 / measure 8]                         %! _comment_measure_numbers
-    R1 * 9/4                                                                   %! _call_rhythm_commands
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
 
-    % [G Piano_LH_Music_Voice measure 218 / measure 9]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+        r8
 
-    % [G Piano_LH_Music_Voice measure 219 / measure 10]                        %! _comment_measure_numbers
-    R1 * 5/4                                                                   %! _call_rhythm_commands
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_LH_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Piano_LH_Music_Voice measure 211 / measure 2]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_LH_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Piano_LH_Rest_Voice measure 211 / measure 2]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 212 / measure 3]                     %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r16
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 213 / measure 4]                     %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r16
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 214 / measure 5]                     %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r16
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 215 / measure 6]                     %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
+        [
+        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r16
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]
+
+        r8
+
+        r4
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r16
+
+    }
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_LH_Music_Voice"                                %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Piano_LH_Music_Voice measure 216 / measure 7]                 %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Piano_LH_Rest_Voice"                                 %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [G Piano_LH_Rest_Voice measure 216 / measure 7]                  %! _comment_measure_numbers
+            R1 * 1/4                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 217 / measure 8]                     %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]
+
+        r16
+
+        r4
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]
+
+        r8
+
+        r4
+
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        [
+
+        r8
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ]
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 218 / measure 9]                     %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        r4
+
+        r4
+
+        r4
+
+        r4
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r16
+
+    }
+
+    {
+
+        % [G Piano_LH_Music_Voice measure 219 / measure 10]                    %! _comment_measure_numbers
+        <f''' g''' a'''>8
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+
+        r8
+
+        r4
+
+        r4
+
+        r4
+
+        <f''' g''' a'''>8.
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        - \accent                                                              %! baca_accent:IndicatorCommand
+        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
+
+        r16
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Staff.OttavaBracket.staff-padding                              %! baca_ottava_bracket_staff_padding:OverrideCommand(2)
+
+    }
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1192,6 +1469,7 @@ G_Piano_LH_Music_Voice = {                                                     %
             % [G Piano_LH_Music_Voice measure 220 / measure 11]                %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1216,6 +1494,7 @@ G_Piano_LH_Music_Voice = {                                                     %
 G_Piano_LH_Attack_Voice = {                                                    %! extern
 
     % [G Piano_LH_Attack_Voice measure 210 / measure 1]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.transparent = ##t                               %! baca_mmrest_transparent:OverrideCommand(1)
     R1 * 3/2                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
@@ -1246,6 +1525,7 @@ G_Piano_LH_Attack_Voice = {                                                    %
 
     % [G Piano_LH_Attack_Voice measure 219 / measure 10]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
+    \revert MultiMeasureRest.transparent                                       %! baca_mmrest_transparent:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
