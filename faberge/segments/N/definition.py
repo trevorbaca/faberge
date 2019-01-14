@@ -78,6 +78,7 @@ maker(
         '5-2 / 5-3 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('C#5'),
     baca.stem_tremolo(
         selector=baca.pleaves(
             exclude=baca.const.HIDDEN,
@@ -254,7 +255,10 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
-    faberge.downbeat_attack(denominator=2),
+    baca.pitch('E4'),
+    faberge.downbeat_attack(
+        denominator=2,
+        ),
     )
 
 maker(
@@ -297,6 +301,11 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
         ),
+    )
+
+maker(
+    ('vn', (4, 8)),
+    baca.pitch('<F#5 Aqs5>'),
     )
 
 # vn, va, vc
@@ -367,6 +376,11 @@ maker(
         ),
     )
 
+maker(
+    ('va', (4, 8)),
+    baca.pitch('<B4 Dqf5>'),
+    )
+
 # vc
 
 maker(
@@ -377,4 +391,19 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves(exclude=baca.const.HIDDEN).rleak(),
         ),
+    )
+
+maker(
+    ('vc', 4),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
+    )
+
+maker(
+    ('vc', (4, 8)),
+    baca.pitch('E2'),
     )
