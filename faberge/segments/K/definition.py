@@ -81,6 +81,7 @@ maker(
         '4-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('F3'),
     )
 
 maker(
@@ -149,6 +150,7 @@ maker(
         '4-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('Eb2'),
     )
 
 maker(
@@ -162,17 +164,17 @@ maker(
 # rh
 
 maker(
-    ('rh', (1, 4)),
+    ('rh', (1, 3)),
     baca.dls_staff_padding(2.5),
     baca.material_annotation_spanner(
         '4-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('A3'),
     )
 
 maker(
-    ('rh', [2, 3, 4]),
-    baca.dynamic('f'),
+    ('rh', [1, 2, 3]),
     baca.laissez_vibrer(
         selector=baca.ptails(),
         ),
@@ -205,6 +207,32 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.ottava(),
+    baca.pitch("<G6 A6 B6 C7>"),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
+        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+# lh
+
+maker(
+    ('lh', 5),
+    baca.accent(
+        selector=baca.pleaf(1),
+        ),
+    baca.accent(
+        selector=baca.pleaf(-1),
+        ),
+    baca.beam(),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
+    baca.ottava(),
+    baca.pitch("<F6 G6 A6>"),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
@@ -325,6 +353,7 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('A6'),
     baca.rhythm(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8"
         " c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
@@ -396,17 +425,28 @@ maker(
 # va
 
 maker(
+    ('va', (1, 4)),
+    baca.make_repeat_tied_notes(),
+    baca.pitch('Eb3'),
+    )
+
+maker(
     ('va', (1, 5)),
     baca.bow_speed_spanner(
         'XFB =|',
         abjad.tweak(3).staff_padding,
         ),
-    baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         'A.4 -|',
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    )
+
+maker(
+    ('va', 5),
+    baca.pitch('F3'),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
@@ -493,6 +533,7 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('F#5'),
     baca.rhythm(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8"
         " c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
