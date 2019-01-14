@@ -84,6 +84,10 @@ maker(
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitches(
+        'Ab3 Ab3 Ab3 G3 G3',
+        allow_repeats=True,
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -100,6 +104,11 @@ maker(
         "{ c'4. c'4. r4 }",
         annotate_unpitched_music=True,
         ),
+    )
+
+maker(
+    ('eh', (5, 6)),
+    baca.pitch('A#4'),
     )
 
 maker(
@@ -138,6 +147,11 @@ maker(
     )
 
 maker(
+    ('eh', (7, 8)),
+    baca.pitch('B4'),
+    )
+
+maker(
     ('eh', 8),
     baca.rhythm(
         "{ c'4. c'4. r4 }",
@@ -150,16 +164,20 @@ maker(
 maker(
     'cl',
     baca.dls_staff_padding(8),
-    baca.pitch(
-        'D3',
-        selector=baca.plts(
-            exclude=baca.const.HIDDEN,
-            ),
-        ),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(3.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('cl', (1, 6)),
+    baca.pitch(
+        'A2',
+        selector=baca.plts(
+            exclude=baca.const.HIDDEN,
+            ),
         ),
     )
 
@@ -209,6 +227,12 @@ maker(
         pieces=baca.plts().partition_by_ratio((1, 1)),
         selector=baca.tleaves()[:-1],
         ),
+    baca.pitch(
+        'Ab2',
+        selector=baca.plts(
+            exclude=baca.const.HIDDEN,
+            ),
+        ),
     faberge.bcl_color_fingering_rhythm(),
     )
 
@@ -216,6 +240,13 @@ maker(
 
 maker(
     ('rh', 3),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
+    baca.dls_staff_padding(4),
     baca.dynamic(
         '(mp)',
         abjad.tweak((0, 0)).X_extent,
@@ -230,12 +261,18 @@ maker(
 maker(
     ('rh', (3, 4)),
     baca.beam(),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
     baca.material_annotation_spanner(
         '2-1 -|',
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.pitch('<G3 A3 C4>'),
     )
 
 maker(
@@ -245,16 +282,46 @@ maker(
         ),
     )
 
+# attack
+
+maker(
+    'attack',
+    baca.mmrest_transparent(),
+    )
+
+# lh
+
+maker(
+    ('lh', 3),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
+    baca.rhythm(
+        "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (3, 4)),
+    baca.beam(),
+    baca.pitch('<G3 A3 B3 C4>'),
+    )
+
+maker(
+    ('lh', 4),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
+    )
+
 # perc
 
 maker(
     'perc',
-    baca.dls_staff_padding(3),
-    baca.dynamic(
-        'f-sempre',
-        abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-1, 0)).extra_offset,
-        ),
     baca.markup(
         r'\faberge-castanets',
         abjad.tweak(1.5).padding,
@@ -269,8 +336,6 @@ maker(
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
         ),
-    baca.staff_position(1),
-    baca.stem_up(),
     )
 
 maker(
@@ -279,12 +344,15 @@ maker(
     )
 
 maker(
-    ('perc', 7),
+    ('perc', (1, 6)),
+    baca.dls_staff_padding(3),
     baca.dynamic(
-        'p-sempre',
+        'f-sempre',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-1, 0)).extra_offset,
         ),
+    baca.staff_position(1),
+    baca.stem_up(),
     )
 
 maker(
@@ -298,6 +366,17 @@ maker(
         "{ c'2. r4 }",
         annotate_unpitched_music=True,
         ),
+    )
+
+maker(
+    ('perc', (7, 8)),
+    baca.dls_staff_padding(6),
+    baca.dynamic(
+        'p-sempre',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
+    baca.staff_position(0),
     )
 
 maker(
@@ -450,6 +529,7 @@ maker(
         '4-4 =|',
         abjad.tweak(8).staff_padding,
         ),
+    baca.pitch('Eb3'),
     faberge.back_incised_divisions(),
     )
 
@@ -457,12 +537,16 @@ maker(
 
 maker(
     ('vc', 1),
-    faberge.clb_rhythm(extra_counts=[4]),
+    faberge.clb_rhythm(
+        extra_counts=[4],
+        ),
     )
 
 maker(
     ('vc', 2),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
