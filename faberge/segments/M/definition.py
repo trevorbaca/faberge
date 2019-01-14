@@ -70,14 +70,34 @@ maker(
 # fl
 
 maker(
-    ('fl', (1, 4)),
+    ('fl', (1, 3)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.material_annotation_spanner(
         '1-1 -|',
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [1, 3, 5]),
+    )
+
+maker(
+    ('fl', 4),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     )
 
 maker(
@@ -110,6 +130,7 @@ maker(
         '5-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.pitch('C#5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -161,12 +182,6 @@ maker(
 
 maker(
     'cl',
-    baca.pitch(
-        'A2',
-        selector=baca.pleaves(
-            exclude=baca.const.HIDDEN,
-            ),
-        ),
     baca.material_annotation_spanner(
         '4-5 / 5-1 =|',
         abjad.tweak(5.5).staff_padding,
@@ -176,6 +191,16 @@ maker(
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(3.5).staff_padding,
         rotation=-16,
+        ),
+    )
+
+maker(
+    ('cl', (1, 2)),
+    baca.pitch(
+        'Ab2',
+        selector=baca.pleaves(
+            exclude=baca.const.HIDDEN,
+            ),
         ),
     )
 
@@ -200,6 +225,26 @@ maker(
     )
 
 maker(
+    ('cl', (3, 4)),
+    baca.pitch(
+        'Gb2',
+        selector=baca.pleaves(
+            exclude=baca.const.HIDDEN,
+            ),
+        ),
+    )
+
+maker(
+    ('cl', (5, 8)),
+    baca.pitch(
+        'F2',
+        selector=baca.pleaves(
+            exclude=baca.const.HIDDEN,
+            ),
+        ),
+    )
+
+maker(
     ('cl', (6, 8)),
     baca.hairpin(
         'pp < p > pp',
@@ -217,6 +262,11 @@ maker(
         "{ c'4. c'4. r4 }",
         annotate_unpitched_music=True,
         ),
+    )
+
+maker(
+    ('eh', (1, 2)),
+    baca.pitch('B4'),
     )
 
 maker(
@@ -255,6 +305,11 @@ maker(
     )
 
 maker(
+    ('eh', (3, 4)),
+    baca.pitch('C5'),
+    )
+
+maker(
     ('eh', 4),
     baca.rhythm(
         "{ c'4. c'4. r4 }",
@@ -271,6 +326,11 @@ maker(
     )
 
 maker(
+    ('eh', (5, 6)),
+    baca.pitch('C#5'),
+    )
+
+maker(
     ('eh', 6),
     baca.rhythm(
         "{ c'4. c'4. r4 }",
@@ -282,12 +342,37 @@ maker(
 
 maker(
     ('rh', (2, 4)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
+    baca.markup(
+        r'\faberge-woodblock',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.staff_position(0),
     faberge.even_tuplet_rhythm(
         extra_counts=[1, 0, 0],
+        ),
+    )
+
+maker(
+    ('rh', 5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
     )
 
@@ -360,27 +445,58 @@ maker(
 
 maker(
     ('vn', (1, 3)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(1),
+        ),
     baca.material_annotation_spanner(
         '1-1 -|',
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.staff_position(0),
     faberge.airtone_chain_rhythm(20, [0, 2, 4]),
     )
 
 maker(
-    ('vn', (4, 5)),
+    ('vn', (4, 6)),
+    baca.markup(
+        r'\faberge-woodblock',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(5.5).staff_padding,
         ),
+    baca.staff_position(0),
     faberge.even_tuplet_rhythm(
-        extra_counts=[1, 0],
+        extra_counts=[1, 0, 0],
+        ),
+    )
+
+maker(
+    ('vn', 7),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
     )
 
 # va
+
+maker(
+    ('va', (1, 4)),
+    baca.pitch('Eb3'),
+    )
 
 maker(
     ('va', (1, 6)),
@@ -396,6 +512,11 @@ maker(
     faberge.back_incised_divisions(),
     )
 
+maker(
+    ('va', (5, 6)),
+    baca.pitch('F3'),
+    )
+
 # vc
 
 maker(
@@ -407,11 +528,18 @@ maker(
         selector=baca.tleaves().rleak(),
         ),
     baca.note_head_style_harmonic(),
+    baca.string_number_spanner(
+        'IV =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
     baca.suite(
         baca.untie_to(
             selector=baca.pleaves(),
             ),
-        baca.pitches('A3 C4'),
+        baca.pitches(
+            'Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3',
+            persist='CELLO_GLISSANDI',
+            ),
         baca.glissando(),
         baca.hairpin(
             'niente o< p >o',
