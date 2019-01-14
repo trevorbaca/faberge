@@ -162,7 +162,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch(
-        'D3',
+        'F2',
         selector=baca.plts(
             exclude=baca.const.HIDDEN,
             ),
