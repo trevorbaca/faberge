@@ -20,13 +20,13 @@
         {   %*% Page_Layout                                                    %! _make_global_context
 
             % [Page_Layout measure 202]                                        %! _comment_measure_numbers
-            \baca-new-spacing-section #1 #24                                   %! HorizontalSpacingSpecifier(1):SPACING
+            \baca-new-spacing-section #1 #40                                   %! HorizontalSpacingSpecifier(1):SPACING
             \autoPageBreaksOff                                                 %! BreakMeasureMap(1):BREAK
             \noBreak                                                           %! BreakMeasureMap(2):BREAK
             \baca-lbsd #40 #'(18 21 21 24 21 21 24 21 21 24)                   %! BREAK:IndicatorCommand
             \pageBreak                                                         %! BREAK:IndicatorCommand
             s1 * 7/4                                                           %! _make_global_skips(1)
-        %@% - \baca-start-spm-left-only "[1/24]"                               %! SPACING_MARKUP
+        %@% - \baca-start-spm-left-only "[1/40]"                               %! SPACING_MARKUP
         %@% \bacaStartTextSpanSPM                                              %! SPACING_MARKUP
 
             % [Page_Layout measure 203]                                        %! _comment_measure_numbers
