@@ -309,7 +309,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_LH_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='bass',
+                                value='treble',
                                 ),
                             abjad.Momento(
                                 context='Piano_LH_Music_Voice',
