@@ -928,8 +928,7 @@ O_Violin_Music_Voice = {                                                       %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        <f'' gtqs''!>1
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -940,8 +939,7 @@ O_Violin_Music_Voice = {                                                       %
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1.                                                                   %! faberge_halves_rhythm
+        <f'' gtqs''!>1.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -951,13 +949,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 7/5 {                                                               %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 280 / measure 2]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_halves_rhythm
+        <f'' gtqs''!>2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        <f'' gtqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -967,13 +963,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 281 / measure 3]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        <f'' gtqs''!>1
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1.                                                                   %! faberge_halves_rhythm
+        <f'' gtqs''!>1.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -983,13 +977,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 7/5 {                                                               %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 282 / measure 4]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_halves_rhythm
+        <f'' gtqs''!>2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        <f'' gtqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -999,15 +991,13 @@ O_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 283 / measure 5]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        ef''!1                                                                 %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1.                                                                   %! faberge_halves_rhythm
+        ef''!1.                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1017,13 +1007,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 7/5 {                                                               %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 284 / measure 6]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2                                                                    %! faberge_halves_rhythm
+        ef''!2                                                                 %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2.                                                                   %! faberge_halves_rhythm
+        ef''!2.                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1033,13 +1021,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 285 / measure 7]                       %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        ef''!1                                                                 %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1.                                                                   %! faberge_halves_rhythm
+        ef''!1.                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
@@ -1047,8 +1033,7 @@ O_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge_halves_rhythm
 
     % [O Violin_Music_Voice measure 286 / measure 8]                           %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1..                                                                      %! baca_make_notes
+    ef''!1..                                                                   %! baca_make_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1110,8 +1095,7 @@ O_Viola_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'\breve                                                               %! faberge_halves_rhythm
+        dtqf''!\breve                                                          %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1122,8 +1106,7 @@ O_Viola_Music_Voice = {                                                        %
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        dtqf''!1                                                               %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1133,13 +1116,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 280 / measure 2]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1..                                                                  %! faberge_halves_rhythm
+        dtqf''!1..                                                             %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! faberge_halves_rhythm
+        dtqf''!2..                                                             %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1149,13 +1130,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 281 / measure 3]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'\breve                                                               %! faberge_halves_rhythm
+        dtqf''!\breve                                                          %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        dtqf''!1                                                               %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1165,13 +1144,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 282 / measure 4]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1..                                                                  %! faberge_halves_rhythm
+        dtqf''!1..                                                             %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! faberge_halves_rhythm
+        dtqf''!2..                                                             %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1181,15 +1158,13 @@ O_Viola_Music_Voice = {                                                        %
     \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 283 / measure 5]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'\breve                                                               %! faberge_halves_rhythm
+        ef''!\breve                                                            %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        ef''!1                                                                 %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1199,13 +1174,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 284 / measure 6]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1..                                                                  %! faberge_halves_rhythm
+        ef''!1..                                                               %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'2..                                                                  %! faberge_halves_rhythm
+        ef''!2..                                                               %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1215,13 +1188,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 285 / measure 7]                        %! _comment_measure_numbers
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'\breve                                                               %! faberge_halves_rhythm
+        ef''!\breve                                                            %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        \baca-unpitched-music-warning                                          %! _color_unpitched_notes
-        c'1                                                                    %! faberge_halves_rhythm
+        ef''!1                                                                 %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
@@ -1229,8 +1200,7 @@ O_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge_halves_rhythm
 
     % [O Viola_Music_Voice measure 286 / measure 8]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1..                                                                      %! baca_make_notes
+    ef''!1..                                                                   %! baca_make_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1288,8 +1258,7 @@ O_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1300,82 +1269,68 @@ O_Cello_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 280 / measure 2]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    ef,!2..                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    ef,!2..                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 281 / measure 3]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 282 / measure 4]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    ef,!2..                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    ef,!2..                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 283 / measure 5]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 284 / measure 6]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    ef,!2..                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'2..                                                                      %! faberge_halves_rhythm
+    ef,!2..                                                                    %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 285 / measure 7]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1                                                                        %! faberge_halves_rhythm
+    ef,!1                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 286 / measure 8]                            %! _comment_measure_numbers
-    \baca-unpitched-music-warning                                              %! _color_unpitched_notes
-    c'1..                                                                      %! baca_make_notes
+    ef,!1..                                                                    %! baca_make_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
