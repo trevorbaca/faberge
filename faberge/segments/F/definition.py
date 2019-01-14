@@ -84,6 +84,14 @@ maker(
     )
 
 maker(
+    ('fl', [2, 4]),
+    baca.pitches(
+        'Ab3 Ab3 Ab3 G3 G3',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
     ('fl', 5),
     baca.material_annotation_spanner(
         '3-7 -|',
@@ -91,6 +99,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.pitch('F#3'),
     faberge.even_tuplet_rhythm(
         extra_counts=[-2],
         ),
@@ -163,6 +172,7 @@ maker(
 maker(
     ('eh', 4),
     baca.dynamic('p'),
+    baca.pitch('F5'),
     faberge.even_tuplet_rhythm(
         extra_counts=[1],
         ),
@@ -184,6 +194,7 @@ maker(
 
 maker(
     ('eh', 5),
+    baca.pitch('F#5'),
     baca.rhythm(
         "{ c'4 c'4 c'4 r1 }",
         annotate_unpitched_music=True,
@@ -192,6 +203,7 @@ maker(
 
 maker(
     ('eh', 8),
+    baca.pitch('F#5'),
     faberge.even_tuplet_rhythm(
         extra_counts=[1],
         ),
@@ -213,6 +225,14 @@ maker(
     )
 
 maker(
+    ('cl', [2, 4]),
+    baca.pitches(
+        'F3 F3 F3 E3 E3',
+        allow_repeats=True,
+        ),
+    )
+
+maker(
     ('cl', 5),
     baca.material_annotation_spanner(
         '3-7 -|',
@@ -220,6 +240,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.pitch('D2'),
     faberge.even_tuplet_rhythm(
         extra_counts=[-1],
         ),
@@ -402,7 +423,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
-    baca.pitch('E4'),
+    baca.pitch('C#5'),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
         dmask=rmakers.silence(
@@ -541,7 +562,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
-    baca.pitch('E4'),
+    baca.pitch('C#5'),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
         extra_counts_per_division=[1],
@@ -615,6 +636,7 @@ maker(
         abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
+    baca.pitch('D3'),
     baca.staff_lines(5),
     )
 
