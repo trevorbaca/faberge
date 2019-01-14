@@ -93,7 +93,6 @@ maker(
 maker(
     'fl',
     baca.dls_staff_padding(8),
-    baca.tuplet_bracket_down(),
     )
 
 maker(
@@ -186,7 +185,6 @@ maker(
         '1-5 / 2-1 =|',
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.tuplet_bracket_down(),
     )
 
 maker(
@@ -495,7 +493,6 @@ maker(
         selector=baca.pheads(),
         ),
     baca.stem_down(),
-    baca.tuplet_bracket_down(),
     faberge.clb_staff_positions(),
     )
 
@@ -528,7 +525,6 @@ maker(
         pieces=baca.lparts([1, 2]),
         selector=baca.leaves()[:3],
         ),
-    baca.tuplet_bracket_up(),
     )
 
 maker(

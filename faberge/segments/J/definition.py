@@ -260,11 +260,6 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.ottava(),
-    baca.pitch_annotation_spanner(
-        'chord. -|',
-        abjad.tweak('magenta').color,
-        abjad.tweak(5.5).staff_padding,
-        ),
     baca.rhythm(
         "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
         " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
@@ -453,7 +448,6 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch('E4'),
-    baca.tuplet_bracket_up(),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
         extra_counts_per_division=[1],

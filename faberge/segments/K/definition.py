@@ -205,11 +205,6 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.ottava(),
-    baca.pitch_annotation_spanner(
-        'chord. -|',
-        abjad.tweak('magenta').color,
-        abjad.tweak(5.5).staff_padding,
-        ),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
