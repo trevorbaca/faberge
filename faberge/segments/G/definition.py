@@ -107,16 +107,17 @@ maker(
 
 # fl
 
+maker(
+    ('fl', (4, 5)),
+    baca.dynamic('p'),
+    baca.pitch('G#3'),
+    )
+
 # fl, eh, cl
 
 maker(
     ['fl', 'eh', 'cl'],
     baca.dls_staff_padding(3.5),
-    )
-
-maker(
-    (['fl', 'eh', 'cl'], 4),
-    baca.dynamic('p'),
     )
 
 maker(
@@ -139,6 +140,7 @@ maker(
 
 maker(
     ('eh', 1),
+    baca.pitch('G#5'),
     baca.rhythm(
         "{ c'4 c'4 c'4 r2. }",
         annotate_unpitched_music=True,
@@ -153,6 +155,11 @@ maker(
 
 maker(
     ('eh', (4, 5)),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.markup(
         r'\faberge-airtone',
         abjad.tweak(1.5).padding,
@@ -168,6 +175,12 @@ maker(
     )
 
 # cl
+
+maker(
+    ('cl', (4, 5)),
+    baca.dynamic('p'),
+    baca.pitch('C2'),
+    )
 
 # rh
 
