@@ -250,6 +250,7 @@ maker(
 
 maker(
     'rh',
+    baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
         '2-2 / 2-3 =|',
         abjad.tweak(8).staff_padding,
@@ -299,6 +300,7 @@ maker(
 
 maker(
     ('rh', 5),
+    baca.dynamic('mf'),
     baca.rhythm(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
         annotate_unpitched_music=True,
@@ -307,7 +309,10 @@ maker(
 
 maker(
     ('rh', (5, 8)),
-    baca.ottava(),
+    baca.ottava(
+        right_broken=True,
+        ),
+    baca.ottava_bracket_staff_padding(5.5),
     baca.pitch("<G6 A6 B6 C7>"),
     )
 
@@ -376,7 +381,9 @@ maker(
         literal=True,
         selector=baca.pheads(),
         ),
-    baca.ottava(),
+    baca.ottava(
+        right_broken=True,
+        ),
     baca.ottava_bracket_staff_padding(8),
     baca.pitch("<F6 G6 A6>"),
     )
