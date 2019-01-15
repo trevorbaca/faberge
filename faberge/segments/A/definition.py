@@ -189,11 +189,10 @@ maker(
         selector=baca.tleaves()[:2],
         ),
     baca.hairpin(
-        '(p) >o !',
-        selector=baca.tleaves().rleak()[-2:],
+        '(p) >o',
+        selector=baca.tleaves()[-1:],
         ),
-    faberge.single_taper(
-        stop_talea=[4],
+    faberge.single_taper( stop_talea=[4],
         ),
     )
 
