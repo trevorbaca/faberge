@@ -185,17 +185,20 @@ maker(
     baca.breathe(),
     baca.flat_glissando(
         'F#4',
-        hide_middle_stems=True,
+        ###hide_middle_stems=True,
         ),
     baca.hairpin(
         'niente o< p',
         selector=baca.tleaves()[:2],
         ),
     baca.hairpin(
-        '(p) >o',
-        selector=baca.tleaves()[-1:],
+        '(p) >o !',
+        selector=baca.tleaves().rleak()[-2:],
         ),
-    baca.make_repeat_tied_notes(),
+    #baca.make_repeat_tied_notes(),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
     )
 
 maker(
@@ -206,8 +209,13 @@ maker(
         selector=baca.tleaves()[:2],
         ),
     baca.hairpin(
-        '(p) >o niente',
+        ###'(p) >o niente',
+        '(p) >o !',
         selector=baca.tleaves().rleak()[-2:],
+        ),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
         ),
     baca.suite(
         baca.pitches(
@@ -220,10 +228,6 @@ maker(
         baca.tie_to(
             selector=baca.leaf(-2),
             ),
-        ),
-    baca.repeat_tie_extra_offset(
-        (-1.5, 0),
-        selector=baca.leaves(),
         ),
     faberge.bfl_color_fingerings(
         abjad.tweak(-0.5).parent_alignment_X,

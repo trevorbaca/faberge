@@ -2835,7 +2835,7 @@ A_Flute_Music_Voice = {                                                        %
     \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A Flute_Music_Voice measure 85 / measure 81]                            %! _comment_measure_numbers
-    fs''!2                                                                     %! baca_make_repeat_tied_notes
+    fs''!4                                                                     %! faberge_single_taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2843,40 +2843,40 @@ A_Flute_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
 
-    % [A Flute_Music_Voice measure 86 / measure 82]                            %! _comment_measure_numbers
     \hide NoteHead                                                             %! baca_glissando
     \override Accidental.stencil = ##f                                         %! baca_glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
-    \override Dots.transparent = ##t                                           %! baca_glissando
-    \override Stem.transparent = ##t                                           %! baca_glissando
-    fs''!2.                                                                    %! baca_make_repeat_tied_notes
+    fs''!4                                                                     %! faberge_single_taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
+    % [A Flute_Music_Voice measure 86 / measure 82]                            %! _comment_measure_numbers
+    fs''!2.                                                                    %! faberge_single_taper
+
     % [A Flute_Music_Voice measure 87 / measure 83]                            %! _comment_measure_numbers
-    fs''!1                                                                     %! baca_make_repeat_tied_notes
+    fs''!1                                                                     %! faberge_single_taper
 
     % [A Flute_Music_Voice measure 88 / measure 84]                            %! _comment_measure_numbers
-    fs''!2                                                                     %! baca_make_repeat_tied_notes
+    fs''!2                                                                     %! faberge_single_taper
 
     % [A Flute_Music_Voice measure 89 / measure 85]                            %! _comment_measure_numbers
-    fs''!2.                                                                    %! baca_make_repeat_tied_notes
+    fs''!2.                                                                    %! faberge_single_taper
 
     % [A Flute_Music_Voice measure 90 / measure 86]                            %! _comment_measure_numbers
-    fs''!1                                                                     %! baca_make_repeat_tied_notes
+    fs''!1                                                                     %! faberge_single_taper
 
     % [A Flute_Music_Voice measure 91 / measure 87]                            %! _comment_measure_numbers
-    fs''!2.                                                                    %! baca_make_repeat_tied_notes
+    fs''!2.                                                                    %! faberge_single_taper
 
     % [A Flute_Music_Voice measure 92 / measure 88]                            %! _comment_measure_numbers
+    fs''!2.                                                                    %! faberge_single_taper
+
     \revert Accidental.stencil                                                 %! baca_glissando
     \revert NoteColumn.glissando-skip                                          %! baca_glissando
     \revert NoteHead.no-ledgers                                                %! baca_glissando
     \undo \hide NoteHead                                                       %! baca_glissando
-    \revert Dots.transparent                                                   %! baca_glissando
-    \revert Stem.transparent                                                   %! baca_glissando
-    fs''!1                                                                     %! baca_make_repeat_tied_notes
+    fs''!4                                                                     %! faberge_single_taper
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2888,6 +2888,7 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 93 / measure 89]                            %! _comment_measure_numbers
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
     fs''!2.                                                                    %! faberge_glow_rhythm
+    \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2970,8 +2971,7 @@ A_Flute_Music_Voice = {                                                        %
             % [A Flute_Music_Voice measure 97 / measure 93]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \!                                                                 %! PHANTOM:_style_phantom_measures(5):EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+            \!                                                                 %! PHANTOM:_style_phantom_measures(5):baca_hairpin:PiecewiseCommand(2)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
