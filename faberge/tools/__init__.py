@@ -12,6 +12,7 @@ from .eh_trill_rhythm import eh_trill_rhythm
 from .end_of_cell_attack import end_of_cell_attack
 from .even_tuplet_rhythm import even_tuplet_rhythm
 from .front_incised_divisions import front_incised_divisions
+from .fused_divisions import fused_divisions
 from .glow_rhythm import glow_rhythm
 from .halves_rhythm import halves_rhythm
 from .increasing_dal_niente_hairpins import increasing_dal_niente_hairpins
