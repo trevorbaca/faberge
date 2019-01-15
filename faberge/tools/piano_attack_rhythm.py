@@ -16,7 +16,7 @@ def piano_attack_rhythm():
             prefix_counts=[1],
             talea_denominator=16,
             ),
-        replace_rests_with_skips=True,
+        ###replace_rests_with_skips=True,
         tag='faberge_piano_attack_rhythm',
         )
     return baca.rhythm(

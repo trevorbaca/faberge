@@ -4949,369 +4949,289 @@ A_Piano_RH_Music_Voice = {                                                     %
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
     \set PianoStaff.instrumentName = \faberge-pf-markup                        %! _clone_segment_initial_short_instrument_name
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)     %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    <d' e' fs'! c'' d''>2.
+    <d' e' fs'! gs'! a' b' c'' d''>2.
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-depress-silently }                                    %! baca_markup:IndicatorCommand
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \faberge-rf-one                           %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \faberge-left-broken-rf-one        %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)        %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [A Piano_RH_Music_Voice measure 6 / measure 2]                           %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Rest.transparent = ##t                                           %! baca_rest_transparent:OverrideCommand(1)
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 7 / measure 3]                           %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 8 / measure 4]                           %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 9 / measure 5]                           %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 10 / measure 6]                          %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 11 / measure 7]                          %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 12 / measure 8]                          %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 13 / measure 9]                          %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 14 / measure 10]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 15 / measure 11]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 16 / measure 12]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 17 / measure 13]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 18 / measure 14]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 19 / measure 15]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 20 / measure 16]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 21 / measure 17]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 22 / measure 18]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 23 / measure 19]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 24 / measure 20]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 25 / measure 21]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 26 / measure 22]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 27 / measure 23]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 28 / measure 24]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 29 / measure 25]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 30 / measure 26]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 31 / measure 27]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 32 / measure 28]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 33 / measure 29]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 34 / measure 30]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 35 / measure 31]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 36 / measure 32]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 37 / measure 33]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 38 / measure 34]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 39 / measure 35]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 40 / measure 36]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 41 / measure 37]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 42 / measure 38]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 43 / measure 39]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 44 / measure 40]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 45 / measure 41]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 46 / measure 42]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 47 / measure 43]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 48 / measure 44]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 49 / measure 45]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 50 / measure 46]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 51 / measure 47]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 52 / measure 48]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 53 / measure 49]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 54 / measure 50]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 55 / measure 51]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 56 / measure 52]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 57 / measure 53]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 58 / measure 54]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 59 / measure 55]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 60 / measure 56]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 61 / measure 57]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 62 / measure 58]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 63 / measure 59]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 64 / measure 60]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 65 / measure 61]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 66 / measure 62]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 67 / measure 63]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 68 / measure 64]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 69 / measure 65]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 70 / measure 66]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 71 / measure 67]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 72 / measure 68]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 73 / measure 69]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 74 / measure 70]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 75 / measure 71]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 76 / measure 72]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 77 / measure 73]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 78 / measure 74]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 79 / measure 75]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 80 / measure 76]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 81 / measure 77]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 82 / measure 78]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 83 / measure 79]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 84 / measure 80]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 85 / measure 81]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 86 / measure 82]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 87 / measure 83]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 88 / measure 84]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 89 / measure 85]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 90 / measure 86]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 91 / measure 87]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [A Piano_RH_Music_Voice measure 92 / measure 88]                         %! _comment_measure_numbers
-    <d' e' fs'! c'' d''>1
-    \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    r1                                                                         %! baca_make_rests
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Rest.transparent                                                   %! baca_rest_transparent:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5321,6 +5241,7 @@ A_Piano_RH_Music_Voice = {                                                     %
             % [A Piano_RH_Music_Voice measure 93 / measure 89]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
+            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5384,6 +5305,7 @@ A_Piano_LH_Music_Voice = {                                                     %
 
     % [A Piano_LH_Music_Voice measure 5 / measure 1]                           %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override MultiMeasureRest.transparent = ##t                               %! baca_mmrest_transparent:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -5663,6 +5585,7 @@ A_Piano_LH_Music_Voice = {                                                     %
 
     % [A Piano_LH_Music_Voice measure 96 / measure 92]                         %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
+    \revert MultiMeasureRest.transparent                                       %! baca_mmrest_transparent:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -5716,42 +5639,42 @@ A_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
-    s2                                                                         %! faberge_piano_attack_rhythm
+    r2                                                                         %! faberge_piano_attack_rhythm
 
-    s8.                                                                        %! faberge_piano_attack_rhythm
+    r8.                                                                        %! faberge_piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 6 / measure 2]                          %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 7 / measure 3]                          %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 8 / measure 4]                          %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 9 / measure 5]                          %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 10 / measure 6]                         %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 11 / measure 7]                         %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 12 / measure 8]                         %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 13 / measure 9]                         %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 14 / measure 10]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 15 / measure 11]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 16 / measure 12]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 17 / measure 13]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5773,48 +5696,48 @@ A_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
-    s2                                                                         %! faberge_piano_attack_rhythm
+    r2                                                                         %! faberge_piano_attack_rhythm
 
-    s8.                                                                        %! faberge_piano_attack_rhythm
+    r8.                                                                        %! faberge_piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 18 / measure 14]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 19 / measure 15]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 20 / measure 16]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 21 / measure 17]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 22 / measure 18]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 23 / measure 19]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 24 / measure 20]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 25 / measure 21]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 26 / measure 22]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 27 / measure 23]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 28 / measure 24]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 29 / measure 25]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 30 / measure 26]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 31 / measure 27]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5836,46 +5759,46 @@ A_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
-    s2...                                                                      %! faberge_piano_attack_rhythm
+    r2...                                                                      %! faberge_piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 32 / measure 28]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 33 / measure 29]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 34 / measure 30]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 35 / measure 31]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 36 / measure 32]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 37 / measure 33]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 38 / measure 34]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 39 / measure 35]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 40 / measure 36]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 41 / measure 37]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 42 / measure 38]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 43 / measure 39]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 44 / measure 40]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 45 / measure 41]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5897,54 +5820,54 @@ A_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
-    s2                                                                         %! faberge_piano_attack_rhythm
+    r2                                                                         %! faberge_piano_attack_rhythm
 
-    s8.                                                                        %! faberge_piano_attack_rhythm
+    r8.                                                                        %! faberge_piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 46 / measure 42]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 47 / measure 43]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 48 / measure 44]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 49 / measure 45]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 50 / measure 46]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 51 / measure 47]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 52 / measure 48]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 53 / measure 49]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 54 / measure 50]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 55 / measure 51]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 56 / measure 52]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 57 / measure 53]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 58 / measure 54]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 59 / measure 55]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 60 / measure 56]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 61 / measure 57]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5966,102 +5889,102 @@ A_Piano_LH_Attack_Voice = {                                                    %
                 }
         }
 
-    s2                                                                         %! faberge_piano_attack_rhythm
+    r2                                                                         %! faberge_piano_attack_rhythm
 
-    s8.                                                                        %! faberge_piano_attack_rhythm
+    r8.                                                                        %! faberge_piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 62 / measure 58]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 63 / measure 59]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 64 / measure 60]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 65 / measure 61]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 66 / measure 62]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 67 / measure 63]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 68 / measure 64]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 69 / measure 65]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 70 / measure 66]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 71 / measure 67]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 72 / measure 68]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 73 / measure 69]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 74 / measure 70]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 75 / measure 71]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 76 / measure 72]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 77 / measure 73]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 78 / measure 74]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 79 / measure 75]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 80 / measure 76]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 81 / measure 77]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 82 / measure 78]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 83 / measure 79]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 84 / measure 80]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 85 / measure 81]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 86 / measure 82]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 87 / measure 83]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 88 / measure 84]                        %! _comment_measure_numbers
-    s2                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 89 / measure 85]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 90 / measure 86]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 91 / measure 87]                        %! _comment_measure_numbers
-    s2.                                                                        %! faberge_piano_attack_rhythm
+    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     % [A Piano_LH_Attack_Voice measure 92 / measure 88]                        %! _comment_measure_numbers
-    s1                                                                         %! faberge_piano_attack_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     <<                                                                         %! _make_multimeasure_rest_container
 

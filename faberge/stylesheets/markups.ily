@@ -112,6 +112,17 @@ faberge-keynoise = \markup
     \box
     keynoise
 
+faberge-left-broken-rf-one = \markup
+    \upright
+    \line {
+        (
+        \hspace #-0.5
+        RF1
+        \hspace #-0.5
+        )
+        \hspace #0.75
+    }
+
 faberge-lv-possibile = \markup
     \whiteout
     \override #'(box-padding . 0.5)
@@ -149,6 +160,10 @@ faberge-remove-staple = \markup
     \override #'(box-padding . 0.5)
     \box
     "remove staple"
+
+faberge-rf-one = \markup
+    \upright
+    "resonance field 1 (RF1): depress silently; sustain with middle pedal"
 
 faberge-rub-sponge-on-bass-drum-head = \markup
     \whiteout
