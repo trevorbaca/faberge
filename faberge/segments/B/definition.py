@@ -917,14 +917,21 @@ maker(
     )
 
 maker(
-    ('perc', (2, 22)),
+    ('percx', (2, 22)),
     baca.tacet(),
     )
 
 maker(
     ('perc', (23, 48)),
     baca.clef('bass'),
+    baca.flat_glissando(
+        'Eb2',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pheads()[abjad.index([0, -1])],
+        ),
     )
 
 maker(
@@ -932,57 +939,50 @@ maker(
     baca.hairpin(
         'ppp < pp >',
         bookend=False,
-        pieces=baca.cmgroups([2, 3]),
-        ),
-    )
-
-maker(
-    ('perc', (23, 60)),
-    baca.chunk(
-        baca.new(
-            baca.pitch('Eb2'),
-            measures=(23, 48),
-            ),
-        baca.new(
-            baca.pitch('D2'),
-            measures=(49, 56),
-            ),
-        baca.new(
-            baca.pitch('C#2'),
-            measures=(57, 60),
-            ),
+        pieces=baca.mgroups([2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
         ),
     baca.markup(
         r'\faberge-attackless',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    baca.stem_tremolo(
-        selector=baca.pleaves(),
-        ),
     )
 
 maker(
     ('perc', (49, 56)),
+    baca.flat_glissando(
+        'D2',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pheads()[abjad.index([0, -1])],
+        ),
     )
 
 maker(
     ('perc', (53, 60)),
     baca.hairpin(
         'ppp < pp >o niente',
-        pieces=baca.mgroups([2, 7]),
+        pieces=baca.mgroups([2, 6 + 1]),
         selector=baca.leaves().rleak(),
         ),
     )
 
 maker(
     ('perc', (57, 60)),
+    baca.flat_glissando(
+        'C#2',
+        hide_middle_stems=True,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pheads()[abjad.index([0, -1])],
+        ),
     baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('perc', (61, 68)),
+    ('percx', (61, 68)),
     baca.tacet(),
     )
 
@@ -1011,6 +1011,11 @@ maker(
         ),
     baca.staff_position(-1),
     baca.stem_down(),
+    )
+
+maker(
+    ('percx', (73, 78)),
+    baca.tacet(),
     )
 
 maker(
