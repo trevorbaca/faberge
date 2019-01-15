@@ -560,15 +560,29 @@ maker(
 # rh
 
 maker(
-    ('rh', (1, 88)),
+    ('rh', 1),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r'\faberge-depress-silently',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.note_head_style_harmonic(),
-    baca.pitch('<D4 E4 F#4 C5 D5>'),
+    baca.pitch('<D4 E4 F#4 G#4 A4 A4 B4 C5 D5>'),
+    )
+
+maker(
+    ('rh', (1, 88)),
+    baca.text_spanner(
+        r'\faberge-rf-one =|',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        left_broken_text=r'\faberge-left-broken-rf-one',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('rh', (2, 88)),
+    baca.dots_transparent(),
+    baca.make_rests(),
+    baca.rest_transparent(),
     )
 
 # attack
@@ -610,6 +624,13 @@ maker(
 maker(
     ('attack', (57, 88)),
     faberge.piano_attack_rhythm(),
+    )
+
+# lh
+
+maker(
+    'lh',
+    baca.mmrest_transparent(),
     )
 
 # perc
