@@ -21,5 +21,7 @@ def piano_attack_rhythm():
         )
     return baca.rhythm(
         division_expression=None,
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )

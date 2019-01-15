@@ -31,6 +31,8 @@ def front_incised_divisions(
         )
 
     rhythm_specifier = baca.rhythm(
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )
     return rhythm_specifier

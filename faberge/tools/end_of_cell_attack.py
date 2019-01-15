@@ -21,5 +21,7 @@ def end_of_cell_attack(
         )
 
     return baca.rhythm(
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )

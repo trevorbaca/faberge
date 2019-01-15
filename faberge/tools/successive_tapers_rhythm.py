@@ -39,5 +39,7 @@ def successive_tapers_rhythm(
         )
     return baca.rhythm(
         division_expression=division_expression,
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )

@@ -45,5 +45,7 @@ def clb_rhythm(
         )
     return baca.rhythm(
         division_expression=expression,
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )

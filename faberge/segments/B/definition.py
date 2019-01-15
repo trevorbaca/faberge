@@ -967,7 +967,7 @@ maker(
     )
 
 maker(
-    ('vn', (1, 8)),
+    ('vn', 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
         r'\faberge-lv-possibile',

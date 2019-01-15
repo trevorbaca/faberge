@@ -26,5 +26,7 @@ def suffixed_colortrill_rhythm():
         )
 
     return baca.rhythm(
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )
