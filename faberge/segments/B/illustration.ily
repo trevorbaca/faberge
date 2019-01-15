@@ -3898,6 +3898,7 @@ B_English_Horn_Music_Voice = {                                                 %
     }                                                                          %! faberge_keynoise_rhythm
 
     % [B English_Horn_Music_Voice measure 109 / measure 13]                    %! _comment_measure_numbers
+    \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
     r4                                                                         %! faberge_eh_trill_rhythm
 
     r16                                                                        %! faberge_eh_trill_rhythm
@@ -3937,6 +3938,7 @@ B_English_Horn_Music_Voice = {                                                 %
     % [B English_Horn_Music_Voice measure 112 / measure 16]                    %! _comment_measure_numbers
     aqf'!1                                                                     %! faberge_eh_trill_rhythm
     \repeatTie
+    \revert RepeatTie.extra-offset                                             %! baca_repeat_tie_extra_offset:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 113 / measure 17]                    %! _comment_measure_numbers
     r4.                                                                        %! faberge_keynoise_rhythm
@@ -4102,6 +4104,7 @@ B_English_Horn_Music_Voice = {                                                 %
     \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 119 / measure 23]                    %! _comment_measure_numbers
+    \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
     r4                                                                         %! faberge_eh_trill_rhythm
 
     r16                                                                        %! faberge_eh_trill_rhythm
@@ -4157,8 +4160,10 @@ B_English_Horn_Music_Voice = {                                                 %
     % [B English_Horn_Music_Voice measure 126 / measure 30]                    %! _comment_measure_numbers
     R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+    \revert RepeatTie.extra-offset                                             %! baca_repeat_tie_extra_offset:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 127 / measure 31]                    %! _comment_measure_numbers
+    \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
     bf'!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -4188,14 +4193,10 @@ B_English_Horn_Music_Voice = {                                                 %
     % [B English_Horn_Music_Voice measure 132 / measure 36]                    %! _comment_measure_numbers
     bf'!2                                                                      %! baca_make_repeat_tied_notes
     \repeatTie
+    \revert RepeatTie.extra-offset                                             %! baca_repeat_tie_extra_offset:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 133 / measure 37]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-doubletrill }                                         %! baca_markup:IndicatorCommand
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
     % [B English_Horn_Music_Voice measure 134 / measure 38]                    %! _comment_measure_numbers
     b'1                                                                        %! baca_make_repeat_tied_notes
@@ -4430,10 +4431,12 @@ B_English_Horn_Music_Voice = {                                                 %
         r4                                                                     %! faberge_keynoise_rhythm
 
         e'8                                                                    %! faberge_keynoise_rhythm
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_keynoise_rhythm
 
     % [B English_Horn_Music_Voice measure 149 / measure 53]                    %! _comment_measure_numbers
+    \override DynamicLineSpanner.staff-padding = #8                            %! baca_dls_staff_padding:OverrideCommand(1)
     r8                                                                         %! faberge_keynoise_rhythm
 
     gs'!16                                                                     %! faberge_keynoise_rhythm
@@ -4636,8 +4639,11 @@ B_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! faberge_keynoise_rhythm
 
     d'8                                                                        %! faberge_keynoise_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \revert TupletBracket.staff-padding                                        %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
     \revert NoteHead.style                                                     %! baca_note_head_style_cross:OverrideCommand(2)
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4651,8 +4657,6 @@ B_English_Horn_Music_Voice = {                                                 %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             g'1 * 3/4                                                          %! _make_multimeasure_rest_container
-            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -4660,6 +4664,7 @@ B_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B English_Horn_Rest_Voice measure 157 / measure 61]             %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
             ^ \markup { \faberge-remove-staple }                               %! baca_markup:IndicatorCommand
@@ -4692,6 +4697,7 @@ B_English_Horn_Music_Voice = {                                                 %
     \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 165 / measure 69]                    %! _comment_measure_numbers
+    \override DynamicLineSpanner.staff-padding = #4                            %! baca_dls_staff_padding:OverrideCommand(1)
     b'1                                                                        %! baca_make_repeat_tied_notes
     - \tweak X-extent #'(0 . 0)                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -4712,6 +4718,7 @@ B_English_Horn_Music_Voice = {                                                 %
     % [B English_Horn_Music_Voice measure 168 / measure 72]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
     \repeatTie
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -4728,6 +4735,7 @@ B_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B English_Horn_Rest_Voice measure 169 / measure 73]             %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -4735,6 +4743,7 @@ B_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B English_Horn_Music_Voice measure 170 / measure 74]                    %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 171 / measure 75]                    %! _comment_measure_numbers
@@ -4754,7 +4763,7 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 176 / measure 80]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
