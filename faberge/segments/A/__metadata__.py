@@ -221,8 +221,8 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Flute_Music_Voice',
-                                prototype='abjad.Dynamic',
-                                value='niente',
+                                prototype='abjad.StartHairpin',
+                                value='>o',
                                 ),
                             ],
                         ),
