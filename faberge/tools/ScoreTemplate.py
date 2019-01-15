@@ -157,6 +157,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             'eh': 'English_Horn_Music_Voice',
             'ehr': 'English_Horn_Rest_Voice',
+            'ehx': [
+                'English_Horn_Music_Voice',
+                'English_Horn_Rest_Voice',
+                ],
             'cl': 'Clarinet_Music_Voice',
             'clr': 'Clarinet_Rest_Voice',
             'clx': [
@@ -180,10 +184,22 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             'vn': 'Violin_Music_Voice',
             'vnr': 'Violin_Rest_Voice',
+            'vnx': [
+                'Violin_Music_Voice',
+                'Violin_Rest_Voice',
+                ],
             'va': 'Viola_Music_Voice',
             'var': 'Viola_Rest_Voice',
+            'vax': [
+                'Viola_Music_Voice',
+                'Viola_Rest_Voice',
+                ],
             'vc': 'Cello_Music_Voice',
             'vcr': 'Cello_Rest_Voice',
+            'vcx': [
+                'Cello_Music_Voice',
+                'Cello_Rest_Voice',
+                ],
             'tutti': [
                 'Flute_Music_Voice',
                 'English_Horn_Music_Voice',
@@ -492,6 +508,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                         ),
                     ('eh', 'English_Horn_Music_Voice'),
                     ('ehr', 'English_Horn_Rest_Voice'),
+                    (
+                        'ehx',
+                        [
+                            'English_Horn_Music_Voice',
+                            'English_Horn_Rest_Voice',
+                            ],
+                        ),
                     ('cl', 'Clarinet_Music_Voice'),
                     ('clr', 'Clarinet_Rest_Voice'),
                     (
@@ -518,10 +541,22 @@ class ScoreTemplate(baca.ScoreTemplate):
                         ),
                     ('vn', 'Violin_Music_Voice'),
                     ('vnr', 'Violin_Rest_Voice'),
+                    (
+                        'vnx',
+                        ['Violin_Music_Voice', 'Violin_Rest_Voice'],
+                        ),
                     ('va', 'Viola_Music_Voice'),
                     ('var', 'Viola_Rest_Voice'),
+                    (
+                        'vax',
+                        ['Viola_Music_Voice', 'Viola_Rest_Voice'],
+                        ),
                     ('vc', 'Cello_Music_Voice'),
                     ('vcr', 'Cello_Rest_Voice'),
+                    (
+                        'vcx',
+                        ['Cello_Music_Voice', 'Cello_Rest_Voice'],
+                        ),
                     (
                         'tutti',
                         [
