@@ -661,10 +661,14 @@ i_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-spazzolato }                                          %! baca_markup:IndicatorCommand
     ^ \baca-explicit-indicator-markup "[“Vn.”]"                                %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     [                                                                          %! Duration_Specifier__rewrite_meter_
+    - \abjad-dashed-line-with-hook                                             %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-spazzolato-markup                   %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup     %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #3.25                                 %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #3                                                  %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSpazzolato                                               %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
     \override Staff.Clef.color = #(x11-color 'violet)                          %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
@@ -704,6 +708,7 @@ i_Violin_Music_Voice = {                                                       %
             % [_ Violin_Music_Voice measure 2]                                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanSpazzolato                                        %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -785,8 +790,12 @@ i_Viola_Music_Voice = {                                                        %
         e'8                                                                    %! faberge_spazzolati_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-spazzolato }                                      %! baca_markup:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-spazzolato-markup               %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #3.25                             %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #3                                              %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSpazzolato                                           %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
 
     }                                                                          %! faberge_spazzolati_rhythm
 
@@ -818,6 +827,7 @@ i_Viola_Music_Voice = {                                                        %
             % [_ Viola_Music_Voice measure 2]                                  %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
+            \bacaStopTextSpanSpazzolato                                        %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
