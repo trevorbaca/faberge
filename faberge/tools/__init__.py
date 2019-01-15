@@ -23,6 +23,7 @@ from .piano_attack_rhythm import piano_attack_rhythm
 from .piano_clusters import piano_clusters
 from .ratchet_rhythm import ratchet_rhythm
 from .shell_exchange_rhythm import shell_exchange_rhythm
+from .single_swell import single_swell
 from .single_taper import single_taper
 from .spazzolati_rhythm import spazzolati_rhythm
 from .suffixed_colortrill_rhythm import suffixed_colortrill_rhythm
