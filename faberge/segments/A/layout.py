@@ -6,7 +6,7 @@ distances = [18, (21, 21, 24), (21, 21, 24), (21, 21, 24)]
 first_measure_number = 5
 final_measure_number = 96
 measure_count = final_measure_number - first_measure_number + 1
-measures_per_page = 9
+measures_per_page = 7
 page_count = math.ceil(measure_count / measures_per_page)
 pages = []
 for page_index in range(page_count):
@@ -30,6 +30,5 @@ breaks = baca.breaks(
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
-    fallback_duration=(1, 28),
+    fallback_duration=(1, 48),
     )
-spacing.override(91, (1, 48), force_local=True)

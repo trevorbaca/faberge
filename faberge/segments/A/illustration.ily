@@ -3048,6 +3048,7 @@ A_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A English_Horn_Music_Voice measure 6 / measure 2]                       %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [A English_Horn_Music_Voice measure 7 / measure 3]                       %! _comment_measure_numbers
@@ -3079,6 +3080,7 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 16 / measure 12]                     %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A English_Horn_Music_Voice measure 17 / measure 13]                     %! _comment_measure_numbers
     r2                                                                         %! faberge_eh_trill_rhythm
@@ -3123,6 +3125,7 @@ A_English_Horn_Music_Voice = {                                                 %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A English_Horn_Music_Voice measure 20 / measure 16]                     %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3172,6 +3175,7 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 30 / measure 26]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A English_Horn_Music_Voice measure 31 / measure 27]                     %! _comment_measure_numbers
     r4                                                                         %! faberge_eh_trill_rhythm
@@ -3246,6 +3250,7 @@ A_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A English_Horn_Music_Voice measure 36 / measure 32]                     %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [A English_Horn_Music_Voice measure 37 / measure 33]                     %! _comment_measure_numbers
@@ -3271,6 +3276,7 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 44 / measure 40]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A English_Horn_Music_Voice measure 45 / measure 41]                     %! _comment_measure_numbers
     r4                                                                         %! faberge_eh_trill_rhythm
@@ -3317,6 +3323,7 @@ A_English_Horn_Music_Voice = {                                                 %
     dtqs''!2...                                                                %! faberge_eh_trill_rhythm
 
     % [A English_Horn_Music_Voice measure 50 / measure 46]                     %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
@@ -3367,6 +3374,7 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 60 / measure 56]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A English_Horn_Music_Voice measure 61 / measure 57]                     %! _comment_measure_numbers
     r4                                                                         %! faberge_eh_trill_rhythm
@@ -3405,6 +3413,7 @@ A_English_Horn_Music_Voice = {                                                 %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [A English_Horn_Music_Voice measure 66 / measure 62]                     %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3478,6 +3487,7 @@ A_English_Horn_Music_Voice = {                                                 %
 
     % [A English_Horn_Music_Voice measure 84 / measure 80]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [A English_Horn_Music_Voice measure 85 / measure 81]                     %! _comment_measure_numbers
     r4                                                                         %! faberge_keynoise_rhythm

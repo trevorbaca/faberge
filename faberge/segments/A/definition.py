@@ -251,6 +251,7 @@ maker(
 maker(
     ('eh', (1, 12)),
     baca.staff_lines(5),
+    baca.tacet(),
     )
 
 maker(
@@ -268,6 +269,11 @@ maker(
     )
 
 maker(
+    ('eh', (16, 26)),
+    baca.tacet(),
+    )
+
+maker(
     ('eh', (27, 30)),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
     baca.trill_spanner(
@@ -278,6 +284,11 @@ maker(
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 3, -1, 8, 3, -4, -1, 4, 11, -1, 3],
         ),
+    )
+
+maker(
+    ('eh', (31, 40)),
+    baca.tacet(),
     )
 
 maker(
@@ -294,6 +305,11 @@ maker(
     )
 
 maker(
+    ('eh', (46, 56)),
+    baca.tacet(),
+    )
+
+maker(
     ('eh', (57, 62)),
     baca.pitches('A#4 A+4 A#+4'),
     baca.trill_spanner(
@@ -304,6 +320,11 @@ maker(
     faberge.eh_trill_rhythm(
         counts=[-4, -1, 15, -4, -1, 4, 23],
         ),
+    )
+
+maker(
+    ('eh', (62, 80)),
+    baca.tacet(),
     )
 
 maker(
