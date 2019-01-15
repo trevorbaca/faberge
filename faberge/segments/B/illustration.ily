@@ -1665,7 +1665,7 @@ B_Flute_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-bfl-markup                            %! _clone_segment_initial_short_instrument_name
-    \override DynamicLineSpanner.staff-padding = #5                            %! baca_dls_staff_padding:OverrideCommand(1)
+    \override DynamicLineSpanner.staff-padding = #7                            %! baca_dls_staff_padding:OverrideCommand(1)
     \override TupletBracket.staff-padding = #1                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -1691,6 +1691,8 @@ B_Flute_Music_Voice = {                                                        %
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g''8                                                                       %! faberge_glow_rhythm
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1707,6 +1709,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g''4                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1726,6 +1730,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g'8                                                                    %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1739,7 +1745,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 99 / measure 3]                             %! _comment_measure_numbers
     g'2.                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1766,6 +1772,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g'4                                                                    %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1796,7 +1804,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 103 / measure 7]                            %! _comment_measure_numbers
     g''2.                                                                      %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1809,6 +1817,10 @@ B_Flute_Music_Voice = {                                                        %
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     g'2                                                                        %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1822,6 +1834,10 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 105 / measure 9]                            %! _comment_measure_numbers
     g'2.                                                                       %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1829,18 +1845,31 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     2
         }
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Flute_Music_Voice measure 106 / measure 10]                           %! _comment_measure_numbers
     g'4                                                                        %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     r4                                                                         %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [B Flute_Music_Voice measure 107 / measure 11]                           %! _comment_measure_numbers
-    \override TupletBracket.staff-padding = #3                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2.5                               %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     g'2                                                                        %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1861,6 +1890,8 @@ B_Flute_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1870,6 +1901,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g''8.                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1893,7 +1926,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 108 / measure 12]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1909,6 +1942,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -1936,6 +1971,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1946,6 +1983,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1959,6 +1998,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1983,6 +2024,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -1993,6 +2036,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2003,6 +2048,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2011,14 +2058,14 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     g''2                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
+    \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2032,6 +2079,10 @@ B_Flute_Music_Voice = {                                                        %
 
     g''2                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2047,6 +2098,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2079,6 +2132,8 @@ B_Flute_Music_Voice = {                                                        %
 
     g'16                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2089,6 +2144,8 @@ B_Flute_Music_Voice = {                                                        %
 
     g''16                                                                      %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2097,10 +2154,10 @@ B_Flute_Music_Voice = {                                                        %
                     2
         }
     ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ~                                                                          %! TieCorrectionCommand
 
     g''2                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     \times 4/5 {                                                               %! faberge_glow_rhythm
 
@@ -2111,6 +2168,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2124,6 +2183,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2135,19 +2196,19 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     % [B Flute_Music_Voice measure 115 / measure 19]                           %! _comment_measure_numbers
     g''2                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Flute_Music_Voice measure 116 / measure 20]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2162,6 +2223,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2177,6 +2240,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2187,6 +2252,8 @@ B_Flute_Music_Voice = {                                                        %
 
     g'16                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2194,11 +2261,11 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! TieCorrectionCommand
 
     % [B Flute_Music_Voice measure 117 / measure 21]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     \times 4/5 {                                                               %! faberge_glow_rhythm
 
@@ -2209,6 +2276,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2219,6 +2288,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2232,6 +2303,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2240,18 +2313,18 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     g'4                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Flute_Music_Voice measure 118 / measure 22]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2266,6 +2339,8 @@ B_Flute_Music_Voice = {                                                        %
     g'2                                                                        %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2288,6 +2363,8 @@ B_Flute_Music_Voice = {                                                        %
     \repeatTie
 
     g'8                                                                        %! faberge_glow_rhythm
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2308,7 +2385,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 122 / measure 26]                           %! _comment_measure_numbers
     g''2                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2320,10 +2397,12 @@ B_Flute_Music_Voice = {                                                        %
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [B Flute_Music_Voice measure 123 / measure 27]                           %! _comment_measure_numbers
-    \override TupletBracket.staff-padding = #3                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     g''2                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2346,6 +2425,8 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge_glow_rhythm
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2355,6 +2436,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2364,6 +2447,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2372,16 +2457,18 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     \times 4/5 {                                                               %! faberge_glow_rhythm
 
         g'16                                                                   %! faberge_glow_rhythm
-        \repeatTie
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2391,6 +2478,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2402,6 +2491,8 @@ B_Flute_Music_Voice = {                                                        %
         g'16                                                                   %! faberge_glow_rhythm
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2410,13 +2501,13 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_glow_rhythm
 
     % [B Flute_Music_Voice measure 124 / measure 28]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge_glow_rhythm
-    \repeatTie
 
     \times 2/3 {                                                               %! faberge_glow_rhythm
 
@@ -2424,6 +2515,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g''4                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2441,7 +2534,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 126 / measure 30]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-mp-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2456,6 +2549,8 @@ B_Flute_Music_Voice = {                                                        %
     g''2.                                                                      %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2468,7 +2563,7 @@ B_Flute_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Flute_Music_Voice measure 128 / measure 32]                           %! _comment_measure_numbers
-    \override TupletBracket.staff-padding = #3                                 %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
+    \override TupletBracket.staff-padding = #2.5                               %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
     g''2.                                                                      %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
@@ -2483,6 +2578,8 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge_glow_rhythm
 
         g'8.                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2511,7 +2608,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 130 / measure 34]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2525,6 +2622,8 @@ B_Flute_Music_Voice = {                                                        %
     g'4                                                                        %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2549,6 +2648,8 @@ B_Flute_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2558,6 +2659,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g'8.                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2572,7 +2675,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 132 / measure 36]                           %! _comment_measure_numbers
     g'4                                                                        %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2588,6 +2691,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2610,6 +2715,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'16                                                                   %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2623,6 +2730,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2633,6 +2742,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2641,17 +2752,19 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     % [B Flute_Music_Voice measure 134 / measure 38]                           %! _comment_measure_numbers
     g''8                                                                       %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
     g'8                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2680,7 +2793,7 @@ B_Flute_Music_Voice = {                                                        %
     g''2.                                                                      %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2696,6 +2809,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2725,6 +2840,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'4                                                                    %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2743,7 +2860,7 @@ B_Flute_Music_Voice = {                                                        %
     g'1                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2759,6 +2876,8 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2785,6 +2904,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g'4                                                                    %! faberge_glow_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2798,7 +2919,7 @@ B_Flute_Music_Voice = {                                                        %
     g'4                                                                        %! faberge_glow_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2813,6 +2934,8 @@ B_Flute_Music_Voice = {                                                        %
     g''1                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2836,6 +2959,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g''8                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2854,6 +2979,8 @@ B_Flute_Music_Voice = {                                                        %
     g''16                                                                      %! faberge_glow_rhythm
 
     g'16                                                                       %! faberge_glow_rhythm
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2862,11 +2989,11 @@ B_Flute_Music_Voice = {                                                        %
                     1
         }
     ]                                                                          %! Duration_Specifier__rewrite_meter_
+    ~                                                                          %! TieCorrectionCommand
 
     g'2                                                                        %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
+    \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2881,6 +3008,8 @@ B_Flute_Music_Voice = {                                                        %
     g''2                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2900,6 +3029,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g'4                                                                    %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2920,6 +3051,8 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge_glow_rhythm
 
         g'8.                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -2941,6 +3074,8 @@ B_Flute_Music_Voice = {                                                        %
     g'16                                                                       %! faberge_glow_rhythm
 
     g'16                                                                       %! faberge_glow_rhythm
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2953,7 +3088,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 147 / measure 51]                           %! _comment_measure_numbers
     g'2.                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2966,6 +3101,10 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 148 / measure 52]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2978,6 +3117,10 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 149 / measure 53]                           %! _comment_measure_numbers
     g''2.                                                                      %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -2985,17 +3128,30 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Flute_Music_Voice measure 150 / measure 54]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     r4                                                                         %! faberge_glow_rhythm
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [B Flute_Music_Voice measure 151 / measure 55]                           %! _comment_measure_numbers
     g''2                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3015,6 +3171,8 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g'4                                                                    %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3045,6 +3203,8 @@ B_Flute_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3054,6 +3214,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3063,6 +3225,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3079,7 +3243,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 153 / measure 57]                           %! _comment_measure_numbers
     g'2.                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-ppp-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3094,6 +3258,8 @@ B_Flute_Music_Voice = {                                                        %
     g'4                                                                        %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)
@@ -3127,6 +3293,8 @@ B_Flute_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3136,6 +3304,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3145,6 +3315,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g'16                                                                   %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3154,6 +3326,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g''16                                                                  %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3162,14 +3336,14 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     % [B Flute_Music_Voice measure 156 / measure 60]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
+    \baca-ppp-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3194,6 +3368,7 @@ B_Flute_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Flute_Rest_Voice measure 157 / measure 61]                    %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3201,6 +3376,7 @@ B_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Flute_Music_Voice measure 158 / measure 62]                           %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Flute_Music_Voice measure 159 / measure 63]                           %! _comment_measure_numbers
@@ -3220,8 +3396,10 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 164 / measure 68]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Flute_Music_Voice measure 165 / measure 69]                           %! _comment_measure_numbers
+    \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
     gs''!1                                                                     %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3270,12 +3448,12 @@ B_Flute_Music_Voice = {                                                        %
 
         gs''!16                                                                %! faberge_glow_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
+        ~                                                                      %! TieCorrectionCommand
 
     }                                                                          %! faberge_glow_rhythm
 
     % [B Flute_Music_Voice measure 167 / measure 71]                           %! _comment_measure_numbers
     gs''!8                                                                     %! faberge_glow_rhythm
-    \repeatTie
 
     gs'!4.                                                                     %! faberge_glow_rhythm
     ^ \markup {
@@ -3289,7 +3467,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 168 / measure 72]                           %! _comment_measure_numbers
     gs'!4                                                                      %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-ppp-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -3299,6 +3477,7 @@ B_Flute_Music_Voice = {                                                        %
     r2                                                                         %! faberge_glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \revert RepeatTie.extra-offset                                             %! baca_repeat_tie_extra_offset:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3320,6 +3499,7 @@ B_Flute_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Flute_Rest_Voice measure 169 / measure 73]                    %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3327,6 +3507,7 @@ B_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Flute_Music_Voice measure 170 / measure 74]                           %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Flute_Music_Voice measure 171 / measure 75]                           %! _comment_measure_numbers
@@ -3347,6 +3528,7 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 176 / measure 80]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
