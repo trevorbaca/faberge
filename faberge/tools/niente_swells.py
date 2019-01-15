@@ -22,5 +22,5 @@ def niente_swells(dynamic):
             f'{dynamic} >o niente',
             selector=baca.leaves().rleak()[-2:],
             ),
-        map=baca.ntruns().filter_length('<', 2),
+        map=baca.ntruns().filter_length('>', 2),
         )

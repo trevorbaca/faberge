@@ -172,8 +172,12 @@ maker(
 maker(
     ('fl', (57, 62)),
     baca.instrument(faberge.instruments['BassFlute']),
-    baca.tacet(),
     faberge.margin_markup('B. fl.'),
+    )
+
+maker(
+    ('fl', (57, 80)),
+    baca.tacet(),
     )
 
 maker(
