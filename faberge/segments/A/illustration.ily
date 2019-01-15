@@ -2888,7 +2888,6 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 93 / measure 89]                            %! _comment_measure_numbers
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
     fs''!2.                                                                    %! faberge_glow_rhythm
-    \!                                                                         %! baca_hairpin:PiecewiseCommand(2)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
