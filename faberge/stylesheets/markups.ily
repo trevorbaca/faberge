@@ -123,6 +123,17 @@ faberge-left-broken-rf-one = \markup
         \hspace #0.75
     }
 
+faberge-left-broken-rf-two = \markup
+    \upright
+    \line {
+        (
+        \hspace #-0.5
+        RF2
+        \hspace #-0.5
+        )
+        \hspace #0.75
+    }
+
 faberge-lv-possibile = \markup
     \whiteout
     \override #'(box-padding . 0.5)
@@ -164,6 +175,10 @@ faberge-remove-staple = \markup
 faberge-rf-one = \markup
     \upright
     "resonance field 1 (RF1): depress silently; sustain with middle pedal"
+
+faberge-rf-two = \markup
+    \upright
+    "resonance field 2 (RF2)"
 
 faberge-rub-sponge-on-bass-drum-head = \markup
     \whiteout

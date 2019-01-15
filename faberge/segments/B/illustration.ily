@@ -5449,6 +5449,7 @@ B_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Clarinet_Rest_Voice measure 157 / measure 61]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -5456,6 +5457,7 @@ B_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Clarinet_Music_Voice measure 158 / measure 62]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Clarinet_Music_Voice measure 159 / measure 63]                        %! _comment_measure_numbers
@@ -5475,6 +5477,7 @@ B_Clarinet_Music_Voice = {                                                     %
 
     % [B Clarinet_Music_Voice measure 164 / measure 68]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Clarinet_Music_Voice measure 165 / measure 69]                        %! _comment_measure_numbers
     d4                                                                         %! faberge_single_taper
@@ -5536,6 +5539,7 @@ B_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Clarinet_Rest_Voice measure 169 / measure 73]                 %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -5543,6 +5547,7 @@ B_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Clarinet_Music_Voice measure 170 / measure 74]                        %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Clarinet_Music_Voice measure 171 / measure 75]                        %! _comment_measure_numbers
@@ -5563,6 +5568,7 @@ B_Clarinet_Music_Voice = {                                                     %
     % [B Clarinet_Music_Voice measure 176 / measure 80]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -5607,191 +5613,157 @@ B_Piano_RH_Music_Voice = {                                                     %
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
     \set PianoStaff.instrumentName = \faberge-pf-markup                        %! _clone_segment_initial_short_instrument_name
-    \override NoteHead.style = #'harmonic                                      %! baca_note_head_style_harmonic:OverrideCommand(1)
+    \once \override NoteHead.style = #'harmonic                                %! baca_note_head_style_harmonic:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override PianoStaff.InstrumentName.color = #(x11-color 'green4)     %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    <ef'! f' g' df''! ef''!>2.
+    <ef'! f' g' af'! c'' df''! ef''!>2.
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \abjad-dashed-line-with-hook                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \faberge-rf-two                           %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \faberge-left-broken-rf-two        %! baca_text_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! baca_text_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #5.5                                                %! baca_text_spanner:PiecewiseCommand(1)
+    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
     \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)        %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Piano_RH_Music_Voice measure 98 / measure 2]                          %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    \override Dots.transparent = ##t                                           %! baca_dots_transparent:OverrideCommand(1)
+    \override Rest.transparent = ##t                                           %! baca_rest_transparent:OverrideCommand(1)
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 99 / measure 3]                          %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 100 / measure 4]                         %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 101 / measure 5]                         %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 102 / measure 6]                         %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 103 / measure 7]                         %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 104 / measure 8]                         %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 105 / measure 9]                         %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 106 / measure 10]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 107 / measure 11]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 108 / measure 12]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 109 / measure 13]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 110 / measure 14]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 111 / measure 15]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 112 / measure 16]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 113 / measure 17]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 114 / measure 18]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 115 / measure 19]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 116 / measure 20]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 117 / measure 21]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 118 / measure 22]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 119 / measure 23]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 120 / measure 24]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 121 / measure 25]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 122 / measure 26]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 123 / measure 27]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 124 / measure 28]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 125 / measure 29]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 126 / measure 30]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 127 / measure 31]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 128 / measure 32]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 129 / measure 33]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 130 / measure 34]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 131 / measure 35]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 132 / measure 36]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 133 / measure 37]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 134 / measure 38]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 135 / measure 39]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 136 / measure 40]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 137 / measure 41]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2.
-    \repeatTie
+    r2.                                                                        %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 138 / measure 42]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
+    r1                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 139 / measure 43]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>2
-    \repeatTie
+    r2                                                                         %! baca_make_rests
 
     % [B Piano_RH_Music_Voice measure 140 / measure 44]                        %! _comment_measure_numbers
-    <ef'! f' g' df''! ef''!>1
-    \repeatTie
-    \revert NoteHead.style                                                     %! baca_note_head_style_harmonic:OverrideCommand(2)
+    r1                                                                         %! baca_make_rests
+    \revert Dots.transparent                                                   %! baca_dots_transparent:OverrideCommand(2)
+    \revert Rest.transparent                                                   %! baca_rest_transparent:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5801,6 +5773,7 @@ B_Piano_RH_Music_Voice = {                                                     %
             % [B Piano_RH_Music_Voice measure 141 / measure 45]                %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1                                                            %! _make_multimeasure_rest_container
+            \stopTextSpan                                                      %! baca_text_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -5960,6 +5933,7 @@ B_Piano_LH_Music_Voice = {                                                     %
 
     % [B Piano_LH_Music_Voice measure 97 / measure 1]                          %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
+    \override MultiMeasureRest.transparent = ##t                               %! baca_mmrest_transparent:OverrideCommand(1)
     \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
@@ -6203,6 +6177,7 @@ B_Piano_LH_Music_Voice = {                                                     %
 
     % [B Piano_LH_Music_Voice measure 176 / measure 80]                        %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
+    \revert MultiMeasureRest.transparent                                       %! baca_mmrest_transparent:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

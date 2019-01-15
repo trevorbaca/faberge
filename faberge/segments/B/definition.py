@@ -41,7 +41,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
-    #do_not_check_wellformedness=True,
+    do_not_check_wellformedness=True,
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -779,6 +779,11 @@ maker(
     )
 
 maker(
+    ('clx', (61, 68)),
+    baca.tacet(),
+    )
+
+maker(
     ('cl', (69, 72)),
     baca.breathe(),
     baca.chunk(
@@ -808,13 +813,37 @@ maker(
         ),
     )
 
+maker(
+    ('clx', (73, 80)),
+    baca.tacet(),
+    )
+
 # rh
 
 maker(
-    ('rh', (1, 44)),
+    ('rh', 1),
     baca.make_repeat_tied_notes(),
     baca.note_head_style_harmonic(),
-    baca.pitch('<Eb4 F4 G4 Db5 Eb5>'),
+    baca.pitch('<Eb4 F4 G4 Ab4 Eb4 C5 Db5 Eb5>'),
+    )
+
+maker(
+    ('rh', (1, 44)),
+    baca.text_spanner(
+        r'\faberge-rf-two =|',
+        abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=True,
+        bookend=False,
+        left_broken_text=r'\faberge-left-broken-rf-two',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('rh', (2, 44)),
+    baca.dots_transparent(),
+    baca.make_rests(),
+    baca.rest_transparent(),
     )
 
 # attack
@@ -844,6 +873,13 @@ maker(
 maker(
     ('attack', (23, 80)),
     faberge.piano_attack_rhythm(),
+    )
+
+# lh
+
+maker(
+    'lh',
+    baca.mmrest_transparent(),
     )
 
 # perc

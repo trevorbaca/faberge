@@ -5630,6 +5630,7 @@ A_Piano_LH_Attack_Voice = {                                                    %
     <c, e, g, b,>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
     ^ \markup {
         \center-align
             \concat
@@ -5687,6 +5688,7 @@ A_Piano_LH_Attack_Voice = {                                                    %
     <c, e, g, b,>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
     ^ \markup {
         \center-align
             \concat
@@ -5750,6 +5752,7 @@ A_Piano_LH_Attack_Voice = {                                                    %
     <c, e, g, b,>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
     ^ \markup {
         \center-align
             \concat
@@ -5811,6 +5814,7 @@ A_Piano_LH_Attack_Voice = {                                                    %
     <c, e, g, b,>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
     ^ \markup {
         \center-align
             \concat
@@ -5880,6 +5884,7 @@ A_Piano_LH_Attack_Voice = {                                                    %
     <c, e, g, b,>16
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \marcato                                                                 %! baca_marcato:IndicatorCommand
     ^ \markup {
         \center-align
             \concat
@@ -9901,8 +9906,8 @@ A_Cello_Music_Voice = {                                                        %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
+    - \tweak staff-padding #5.5                                                %! baca_markup:IndicatorCommand
     ^ \markup { "poco vib. (sempre)" }                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
