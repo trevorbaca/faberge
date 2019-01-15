@@ -183,10 +183,7 @@ maker(
 maker(
     ('fl', (81, 88)),
     baca.breathe(),
-    baca.flat_glissando(
-        'F#4',
-        ###hide_middle_stems=True,
-        ),
+    baca.flat_glissando('F#4'),
     baca.hairpin(
         'niente o< p',
         selector=baca.tleaves()[:2],
@@ -195,7 +192,6 @@ maker(
         '(p) >o !',
         selector=baca.tleaves().rleak()[-2:],
         ),
-    #baca.make_repeat_tied_notes(),
     faberge.single_taper(
         stop_talea=[4],
         ),
@@ -209,7 +205,6 @@ maker(
         selector=baca.tleaves()[:2],
         ),
     baca.hairpin(
-        ###'(p) >o niente',
         '(p) >o !',
         selector=baca.tleaves().rleak()[-2:],
         ),
@@ -251,6 +246,10 @@ maker(
 maker(
     ('eh', (1, 12)),
     baca.staff_lines(5),
+    )
+
+maker(
+    ('ehx', (1, 12)),
     baca.tacet(),
     )
 
@@ -269,13 +268,17 @@ maker(
     )
 
 maker(
-    ('eh', (16, 26)),
+    ('ehx', (17, 26)),
     baca.tacet(),
     )
 
 maker(
     ('eh', (27, 30)),
     baca.pitches('F#4 F#+4 E#4 E#+4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -287,13 +290,17 @@ maker(
     )
 
 maker(
-    ('eh', (31, 40)),
+    ('ehx', (31, 40)),
     baca.tacet(),
     )
 
 maker(
     ('eh', (41, 46)),
     baca.pitches('G#4 F#+4 G4 G+4 G#+4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -305,13 +312,17 @@ maker(
     )
 
 maker(
-    ('eh', (46, 56)),
+    ('ehx', (47, 56)),
     baca.tacet(),
     )
 
 maker(
     ('eh', (57, 62)),
     baca.pitches('A#4 A+4 A#+4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -323,7 +334,7 @@ maker(
     )
 
 maker(
-    ('eh', (62, 80)),
+    ('ehx', (63, 80)),
     baca.tacet(),
     )
 
@@ -347,6 +358,10 @@ maker(
     ('eh', (89, 92)),
     baca.dynamic('f'),
     baca.pitches('C4 C+4 C~4 C#4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,

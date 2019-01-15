@@ -30,11 +30,5 @@ breaks = baca.breaks(
 spacing = baca.scorewide_spacing(
     __file__,
     breaks=breaks,
-    fallback_duration=(1, 28),
+    fallback_duration=(1, 48),
     )
-
-spacing.override((1, 8), (1, 48))
-spacing.override((9, 12), (1, 48))
-spacing.override((17, 22), (1, 48))
-spacing.override((45, 60), (1, 48))
-spacing.override(70, (1, 48))
