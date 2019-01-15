@@ -6080,7 +6080,7 @@ A_Percussion_Music_Voice = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-crotales-bowed }                                      %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -6964,7 +6964,6 @@ A_Percussion_Music_Voice = {                                                   %
             % [A Percussion_Music_Voice measure 67 / measure 63]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 3/4                                                          %! _make_multimeasure_rest_container
-            - \laissezVibrer                                                   %! baca_laissez_vibrer:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6979,6 +6978,7 @@ A_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Percussion_Music_Voice measure 68 / measure 64]                       %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [A Percussion_Music_Voice measure 69 / measure 65]                       %! _comment_measure_numbers
@@ -6998,6 +6998,7 @@ A_Percussion_Music_Voice = {                                                   %
 
     % [A Percussion_Music_Voice measure 74 / measure 70]                       %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_shell_exchange_rhythm
     \times 4/3 {                                                               %! faberge_shell_exchange_rhythm
@@ -7220,57 +7221,100 @@ A_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     r8
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
-    % [A Percussion_Music_Voice measure 85 / measure 81]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Percussion_Music_Voice measure 85 / measure 81]               %! _comment_measure_numbers
+            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \once \override Staff.StaffSymbol.line-count = 1                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+            c'1 * 1/2                                                          %! _make_multimeasure_rest_container
+            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Percussion_Rest_Voice measure 85 / measure 81]                %! _comment_measure_numbers
+            R1 * 1/2                                                           %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [A Percussion_Music_Voice measure 86 / measure 82]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [A Percussion_Music_Voice measure 87 / measure 83]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [A Percussion_Music_Voice measure 88 / measure 84]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
+    R1 * 1/2                                                                   %! _make_measure_silences
 
-    % [A Percussion_Music_Voice measure 89 / measure 85]                       %! _comment_measure_numbers
-    r4                                                                         %! faberge_front_incised_divisions
+    {
 
-    \override Stem.direction = #up                                             %! baca_stem_up:OverrideCommand(1)
-    c''2                                                                       %! faberge_front_incised_divisions
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-castanets }                                           %! baca_markup:IndicatorCommand
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        % [A Percussion_Music_Voice measure 89 / measure 85]                   %! _comment_measure_numbers
+        \override DynamicLineSpanner.staff-padding = #3.5                      %! baca_dls_staff_padding:OverrideCommand(1)
+        r4
 
-    % [A Percussion_Music_Voice measure 90 / measure 86]                       %! _comment_measure_numbers
-    r16                                                                        %! faberge_front_incised_divisions
-    \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
+        \override Stem.direction = #up                                         %! baca_stem_up:OverrideCommand(1)
+        c''2
+        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+        - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
+        ^ \markup { \faberge-castanets }                                       %! baca_markup:IndicatorCommand
+        - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
+        \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-    c''2...                                                                    %! faberge_front_incised_divisions
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    \revert Stem.direction                                                     %! baca_stem_up:OverrideCommand(2)
+        % [A Percussion_Music_Voice measure 90 / measure 86]                   %! _comment_measure_numbers
+        c''1
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Stem.direction                                                 %! baca_stem_up:OverrideCommand(2)
+
+    }
 
     % [A Percussion_Music_Voice measure 91 / measure 87]                       %! _comment_measure_numbers
+    \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
     \once \override Stem.direction = #down                                     %! baca_stem_down:OverrideCommand(1)
-    a'2.                                                                       %! faberge_front_incised_divisions
-    - \accent                                                                  %! baca_accent:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    a'4                                                                        %! faberge_downbeat_attack
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
+    - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
+    - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-bd-struck }                                           %! baca_markup:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
-    % [A Percussion_Music_Voice measure 92 / measure 88]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
+    r2
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Percussion_Music_Voice measure 92 / measure 88]               %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [A Percussion_Rest_Voice measure 92 / measure 88]                %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge_shell_exchange_rhythm
@@ -7280,6 +7324,7 @@ A_Percussion_Music_Voice = {                                                   %
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 5                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \override DynamicLineSpanner.staff-padding = #5                        %! baca_dls_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         r8                                                                     %! faberge_shell_exchange_rhythm
 
@@ -7287,7 +7332,7 @@ A_Percussion_Music_Voice = {                                                   %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
+        - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
         ^ \markup { \faberge-crotales-bowed }                                  %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
