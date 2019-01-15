@@ -545,49 +545,195 @@ maker(
 # cl
 
 maker(
-    ('cl', (1, 44)),
-    baca.pitches('Eb2 E~2'),
+    'cl',
+    baca.dls_staff_padding(8),
     )
 
 maker(
     ('cl', (1, 52)),
-    faberge.niente_swells('p'),
-    )
-
-maker(
-    ('cl', (1, 56)),
-    faberge.successive_tapers_rhythm(
-        denominator=16,
-        fuse_counts=(3, 3, 5, 3, 2, 5, 5),
-        start_talea=[4],
-        stop_talea=[3, -1],
+    baca.chunk(
+        baca.hairpin(
+            f'niente o< p',
+            selector=baca.tleaves()[:2],
+            ),
+        baca.hairpin(
+            f'(p) >o',
+            selector=baca.tleaves()[-1:],
+            ),
+        map=baca.plts().filter_length('>', 2),
         ),
     )
 
 maker(
-    ('cl', (45, 48)),
-    baca.pitches('Eb2'),
+    ('cl', (1, 3)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
     )
 
 maker(
-    ('cl', (49, 56)),
-    baca.pitches('D2'),
+    ('cl', (4, 6)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
     )
 
 maker(
-    ('cl', (53, 60)),
-    faberge.niente_swells('pp'),
+    ('cl', (7, 11)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (12, 14)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (15, 16)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (17, 21)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (22, 26)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (27, 29)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (30, 32)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+
+maker(
+    ('cl', (33, 37)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (38, 40)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (41, 42)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (43, 47)),
+    baca.breathe(),
+    baca.flat_glissando('Eb2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (48, 52)),
+    baca.breathe(),
+    baca.flat_glissando('Eqf2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+    
+maker(
+    ('cl', (53, 56)),
+    baca.breathe(),
+    baca.chunk(
+        baca.hairpin(
+            f'niente o< pp',
+            selector=baca.tleaves()[:2],
+            ),
+        baca.hairpin(
+            f'(pp) >o !',
+            selector=baca.tleaves().rleak()[-2:],
+            ),
+        map=baca.plts().filter_length('>', 2),
+        ),
+    baca.flat_glissando('D2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
     )
 
 maker(
     ('cl', (57, 60)),
-    baca.pitch('C#2'),
-    faberge.successive_tapers_rhythm(
-        denominator=16,
-        fuse_counts=(3, 3, 5, 3, 2, 5, 5),
-        start_talea=[4],
-        stop_talea=[3, -1],
+    baca.breathe(),
+    baca.chunk(
+        baca.hairpin(
+            f'niente o< pp',
+            selector=baca.tleaves()[:2],
+            ),
+        baca.hairpin(
+            f'(pp) >o !',
+            selector=baca.tleaves().rleak()[-2:],
+            ),
+        map=baca.plts().filter_length('>', 2),
         ),
+    baca.flat_glissando('C#2'),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', 61),
+    baca.dynamic('niente'),
     )
 
 maker(
@@ -604,7 +750,6 @@ maker(
 maker(
     ('cl', 73),
     baca.chunk(
-        ###baca.bar_extent((-2, 2)),
         baca.bar_extent_persistent(
             (0, 2),
             after=True,
