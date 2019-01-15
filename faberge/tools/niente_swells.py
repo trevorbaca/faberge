@@ -19,7 +19,7 @@ def niente_swells(dynamic):
             selector=baca.tleaves()[:2],
             ),
         baca.hairpin(
-            f'{dynamic} >o niente',
+            f'({dynamic}) >o niente',
             selector=baca.leaves().rleak()[-2:],
             ),
         map=baca.ntruns().filter_length('>', 2),

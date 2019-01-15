@@ -80,69 +80,15 @@ maker(
 
 maker(
     'fl',
-    baca.dls_staff_padding(5),
-    )
-
-maker(
-    'fl',
-    baca.chunk(
-        baca.new(
-            faberge.niente_swells('p'),
-            measures=(1, 8),
-            ),
-        baca.new(
-            faberge.niente_swells('mp'),
-            measures=(9, 10),
-            ),
-        baca.new(
-            faberge.niente_swells('mf'),
-            measures=(11, 12),
-            ),
-        baca.new(
-            faberge.niente_swells('f'),
-            measures=(13, 22),
-            ),
-        baca.new(
-            faberge.niente_swells('mf'),
-            measures=(23, 26),
-            ),
-        baca.new(
-            faberge.niente_swells('mp'),
-            measures=(27, 30),
-            ),
-        baca.new(
-            faberge.niente_swells('mf'),
-            measures=(31, 36),
-            ),
-        baca.new(
-            faberge.niente_swells('f'),
-            measures=(37, 44),
-            ),
-        baca.new(
-            faberge.niente_swells('mf'),
-            measures=(45, 48),
-            ),
-        baca.new(
-            faberge.niente_swells('p'),
-            measures=(49, 52),
-            ),
-        baca.new(
-            faberge.niente_swells('pp'),
-            measures=(53, 54),
-            ),
-        baca.new(
-            faberge.niente_swells('ppp'),
-            measures=(55, 60),
-            ),
-        baca.new(
-            faberge.niente_swells('ppp'),
-            measures=(69, 72),
-            ),
-        ),
+    baca.dls_staff_padding(7),
     )
 
 maker(
     ('fl', (1, 8)),
+    baca.dynamic(
+        'p',
+        measures=8,
+        ),
     baca.tuplet_bracket_staff_padding(1),
     faberge.glow_rhythm(
         dmask=[
@@ -154,6 +100,7 @@ maker(
             ],
         tuplet_ratio_rotation=0,
         ),
+    faberge.niente_swells('p'),
     )
 
 maker(
@@ -162,11 +109,19 @@ maker(
         'G4 G4 G4 G3 G4 G3 G4 G3 G3 G3',
         allow_repeats=True,
         ),
-    faberge.bfl_color_fingerings(),
+    faberge.bfl_color_fingerings(
+        abjad.tweak(-0.5).parent_alignment_X,
+        abjad.tweak(3.5).staff_padding,
+        ),
     )
 
 maker(
     ('fl', (9, 10)),
+    baca.hairpin(
+        'niente o< mp >o niente',
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
@@ -191,11 +146,20 @@ maker(
             ],
         tuplet_ratio_rotation=-2,
         ),
+    faberge.niente_swells('mf'),
     )
 
 maker(
     ('fl', (11, 15)),
-    baca.tuplet_bracket_staff_padding(3),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=15,
+        selector=baca.pleaf(-1),
+        ),
+    #baca.tuplet_bracket_staff_padding(3),
+    #baca.tuplet_bracket_staff_padding(2),
+    baca.tuplet_bracket_staff_padding(2.5),
     )
 
 maker(
@@ -214,13 +178,42 @@ maker(
 
 maker(
     ('fl', (13, 22)),
+    baca.dynamic(
+        'f',
+        measures=16,
+        ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
+    faberge.niente_swells('f'),
     )
 
 maker(
     ('fl', (17, 22)),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=18,
+        selector=baca.pleaf(3),
+        ),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=19,
+        selector=baca.pleaf(0),
+        ),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=21,
+        selector=baca.pleaf(0),
+        ),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=21,
+        selector=baca.pleaf(-1),
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
@@ -245,15 +238,29 @@ maker(
             ],
         tuplet_ratio_rotation=-5,
         ),
+    faberge.niente_swells('mf'),
     )
 
 maker(
     ('fl', 27),
-    baca.tuplet_bracket_staff_padding(3),
+    #baca.tuplet_bracket_staff_padding(3),
+    baca.tuplet_bracket_staff_padding(2),
     )
 
 maker(
     ('fl', (27, 30)),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=27,
+        selector=baca.pleaf(-5),
+        ),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=28,
+        selector=baca.pleaf(0),
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
@@ -264,6 +271,7 @@ maker(
             ],
         tuplet_ratio_rotation=-6,
         ),
+    faberge.niente_swells('mp'),
     )
 
 maker(
@@ -278,15 +286,24 @@ maker(
             ],
         tuplet_ratio_rotation=-7,
         ),
+    faberge.niente_swells('mf'),
     )
 
 maker(
     ('fl', (32, 33)),
-    baca.tuplet_bracket_staff_padding(3),
+    #baca.tuplet_bracket_staff_padding(3),
+    #baca.tuplet_bracket_staff_padding(2),
+    baca.tuplet_bracket_staff_padding(2.5),
     )
 
 maker(
     ('fl', (37, 44)),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=38,
+        selector=baca.pleaf(0),
+        ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
@@ -300,10 +317,17 @@ maker(
             ],
         tuplet_ratio_rotation=-8,
         ),
+    faberge.niente_swells('f'),
     )
 
 maker(
     ('fl', (45, 48)),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=47,
+        selector=baca.pleaf(-1),
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
@@ -314,10 +338,15 @@ maker(
             ],
         tuplet_ratio_rotation=-9,
         ),
+    faberge.niente_swells('mf'),
     )
 
 maker(
     ('fl', (49, 52)),
+    baca.dynamic(
+        'p',
+        measures=52,
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
@@ -328,10 +357,16 @@ maker(
             ],
         tuplet_ratio_rotation=-10,
         ),
+    faberge.niente_swells('p'),
     )
 
 maker(
     ('fl', (53, 54)),
+    baca.hairpin(
+        'niente o< pp >o niente',
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.tleaves().rleak(),
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([0, 6, 7], 9),
@@ -346,6 +381,12 @@ maker(
 
 maker(
     ('fl', (55, 60)),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=60,
+        selector=baca.pleaf(0),
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([2, 3, 6], 9),
@@ -356,13 +397,29 @@ maker(
             ],
         tuplet_ratio_rotation=-12,
         ),
+    faberge.niente_swells('ppp'),
+    )
+
+maker(
+    ('flx', (61, 68)),
+    baca.tacet(),
     )
 
 maker(
     ('fl', (69, 72)),
+    baca.chunk(
+        baca.untie_to(),
+        baca.tie_to(),
+        measures=71,
+        selector=baca.pleaf(0),
+        ),
     baca.pitches(
         'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',
         allow_repeats=True,
+        ),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
         ),
     faberge.bfl_color_fingerings(),
     faberge.glow_rhythm(
@@ -375,12 +432,12 @@ maker(
             ],
         tuplet_ratio_rotation=-13,
         ),
+    faberge.niente_swells('ppp'),
     )
 
 maker(
     ('fl', 73),
     baca.chunk(
-        ###baca.bar_extent((-2, 2)),
         baca.bar_extent_persistent(
             (-2, 0),
             after=True,
@@ -388,6 +445,11 @@ maker(
             ),
         baca.staff_lines(1),
         ),
+    )
+
+maker(
+    ('flx', (73, 80)),
+    baca.tacet(),
     )
 
 # eh
