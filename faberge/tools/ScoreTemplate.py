@@ -151,10 +151,18 @@ class ScoreTemplate(baca.ScoreTemplate):
         self.voice_abbreviations.update({
             'fl': 'Flute_Music_Voice',
             'flr': 'Flute_Rest_Voice',
+            'flx': [
+                'Flute_Music_Voice',
+                'Flute_Rest_Voice',
+                ],
             'eh': 'English_Horn_Music_Voice',
             'ehr': 'English_Horn_Rest_Voice',
             'cl': 'Clarinet_Music_Voice',
             'clr': 'Clarinet_Rest_Voice',
+            'clx': [
+                'Clarinet_Music_Voice',
+                'Clarinet_Rest_Voice',
+                ],
             'rh': 'Piano_RH_Music_Voice',
             'rhr': 'Piano_RH_Rest_Voice',
             'rhx': [
@@ -478,10 +486,18 @@ class ScoreTemplate(baca.ScoreTemplate):
                 [
                     ('fl', 'Flute_Music_Voice'),
                     ('flr', 'Flute_Rest_Voice'),
+                    (
+                        'flx',
+                        ['Flute_Music_Voice', 'Flute_Rest_Voice'],
+                        ),
                     ('eh', 'English_Horn_Music_Voice'),
                     ('ehr', 'English_Horn_Rest_Voice'),
                     ('cl', 'Clarinet_Music_Voice'),
                     ('clr', 'Clarinet_Rest_Voice'),
+                    (
+                        'clx',
+                        ['Clarinet_Music_Voice', 'Clarinet_Rest_Voice'],
+                        ),
                     ('rh', 'Piano_RH_Music_Voice'),
                     ('rhr', 'Piano_RH_Rest_Voice'),
                     (

@@ -72,7 +72,7 @@ maker(
 
 maker(
     'fl',
-    baca.dls_staff_padding(5),
+    baca.dls_staff_padding(6),
     )
 
 maker(
@@ -176,40 +176,62 @@ maker(
     )
 
 maker(
-    ('fl', (57, 80)),
+    ('flx', (57, 80)),
     baca.tacet(),
     )
 
 maker(
     ('fl', (81, 88)),
-    faberge.single_taper(
-        start_talea=[4],
-        stop_talea=[3, -1],
-        denominator=16,
+    baca.breathe(),
+    baca.flat_glissando(
+        'F#4',
+        hide_middle_stems=True,
         ),
-    )
-
-maker(
-    ('fl', (81, 88)),
-    baca.pitch('F#4'),
-    )
-
-maker(
-    ('fl', (81, 92)),
-    faberge.niente_swells('p'),
+    baca.hairpin(
+        'niente o< p',
+        selector=baca.tleaves()[:2],
+        ),
+    baca.hairpin(
+        '(p) >o',
+        selector=baca.tleaves()[-1:],
+        ),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
     ('fl', (89, 92)),
-    baca.pitches(
-        'F#4 F#3',
-        allow_repeats=True,
+    baca.breathe(),
+    baca.hairpin(
+        'niente o< p',
+        selector=baca.tleaves()[:2],
         ),
-    faberge.bfl_color_fingerings(),
+    baca.hairpin(
+        '(p) >o niente',
+        selector=baca.tleaves().rleak()[-2:],
+        ),
+    baca.suite(
+        baca.pitches(
+            'F#4 F#3',
+            allow_repeats=True,
+            ),
+        baca.untie_to(
+            selector=baca.leaf(-2),
+            ),
+        baca.tie_to(
+            selector=baca.leaf(-2),
+            ),
+        ),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
+    faberge.bfl_color_fingerings(
+        abjad.tweak(-0.5).parent_alignment_X,
+        abjad.tweak(3.5).staff_padding,
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([6, 7], 18),
-            rmakers.silence([-1]),
             ],
         tuplet_ratio_rotation=0,
         ),
@@ -313,11 +335,6 @@ maker(
 # cl
 
 maker(
-    'cl',
-    baca.dls_staff_padding(5),
-    )
-
-maker(
     ('cl', (1, 12)),
     baca.markup(
         r'\faberge-match-sound-of-crotales',
@@ -330,6 +347,7 @@ maker(
 
 maker(
     ('cl', (1, 40)),
+    baca.dls_staff_padding(6),
     faberge.shell_exchange_rhythm(
         total_parts=4,
         this_part=1,
@@ -389,23 +407,74 @@ maker(
 maker(
     ('cl', (41, 46)),
     baca.instrument(faberge.instruments['BassClarinet']),
-    baca.tacet(),
     faberge.margin_markup('B. cl.'),
     )
 
 maker(
+    ('clx', (41, 46)),
+    baca.tacet(),
+    )
+
+maker(
     ('cl', (47, 62)),
-    faberge.niente_swells('p'),
-    faberge.successive_tapers_rhythm(
-        denominator=16,
-        fuse_counts=(3, 3, 5, 3, 2, 5, 5),
-        start_talea=[4],
-        stop_talea=[3, -1],
+    baca.chunk(
+        baca.hairpin(
+            f'niente o< p',
+            selector=baca.tleaves()[:2],
+            ),
+        baca.hairpin(
+            f'(p) >o',
+            selector=baca.tleaves()[-1:],
+            ),
+        map=baca.plts().filter_length('>', 2),
         ),
     )
 
 maker(
+    ('cl', (47, 49)),
+    baca.breathe(),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (50, 52)),
+    baca.breathe(),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (53, 57)),
+    baca.breathe(),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (58, 60)),
+    baca.breathe(),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+maker(
+    ('cl', (61, 62)),
+    baca.breathe(),
+    faberge.single_taper(
+        stop_talea=[4],
+        ),
+    )
+
+# HERE
+
+maker(
     ('cl', (47, 92)),
+    baca.dls_staff_padding(8),
     baca.pitches('D2 D+2'),
     )
 
