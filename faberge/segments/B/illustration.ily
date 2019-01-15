@@ -2873,7 +2873,7 @@ B_Flute_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Flute_Music_Voice measure 144 / measure 48]                           %! _comment_measure_numbers
-    r2                                                                         %! faberge_glow_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
@@ -3973,7 +3973,7 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     % [B English_Horn_Music_Voice measure 126 / measure 30]                    %! _comment_measure_numbers
-    r2                                                                         %! faberge_eh_trill_rhythm
+    R1 * 1/2                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [B English_Horn_Music_Voice measure 127 / measure 31]                    %! _comment_measure_numbers
@@ -6950,28 +6950,46 @@ B_Violin_Music_Voice = {                                                       %
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    % [B Violin_Music_Voice measure 98 / measure 2]                            %! _comment_measure_numbers
-    r1                                                                         %! baca_make_single_attack
-    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    <<                                                                         %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_Music_Voice"                                  %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Violin_Music_Voice measure 98 / measure 2]                    %! _comment_measure_numbers
+            \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            c'1 * 1                                                            %! _make_multimeasure_rest_container
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \ff                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+        \context Voice = "Violin_Rest_Voice"                                   %! _make_multimeasure_rest_container
+        {                                                                      %! _make_multimeasure_rest_container
+
+            % [B Violin_Rest_Voice measure 98 / measure 2]                     %! _comment_measure_numbers
+            R1 * 1                                                             %! _make_multimeasure_rest_container
+
+        }                                                                      %! _make_multimeasure_rest_container
+
+    >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_Music_Voice measure 99 / measure 3]                            %! _comment_measure_numbers
-    r1                                                                         %! baca_make_single_attack
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 100 / measure 4]                           %! _comment_measure_numbers
-    r2                                                                         %! baca_make_single_attack
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 101 / measure 5]                           %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_single_attack
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 102 / measure 6]                           %! _comment_measure_numbers
-    r2                                                                         %! baca_make_single_attack
+    R1 * 1/2                                                                   %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 103 / measure 7]                           %! _comment_measure_numbers
-    r2.                                                                        %! baca_make_single_attack
+    R1 * 3/4                                                                   %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 104 / measure 8]                           %! _comment_measure_numbers
-    r1                                                                         %! baca_make_single_attack
+    R1 * 1                                                                     %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 105 / measure 9]                           %! _comment_measure_numbers
     f'16                                                                       %! faberge_spazzolati_rhythm

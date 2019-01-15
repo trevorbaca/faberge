@@ -2632,12 +2632,10 @@ G_Cello_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [G Cello_Music_Voice measure 214 / measure 5]                            %! _comment_measure_numbers
-    r2.                                                                        %! faberge_airtone_chain_rhythm
+    R1 * 5/4                                                                   %! rmakers_DurationSpecifier__rewrite_rest_filled_
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-
-    r2
 
     {
 

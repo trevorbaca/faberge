@@ -36,6 +36,8 @@ def glow_rhythm(
         )
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
+        multimeasure_rests=True,
         rewrite_meter=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )

@@ -1730,7 +1730,7 @@ M_Violin_Music_Voice = {                                                       %
     \repeatTie
 
     % [M Violin_Music_Voice measure 264 / measure 3]                           %! _comment_measure_numbers
-    r1                                                                         %! faberge_airtone_chain_rhythm
+    R1 * 1                                                                     %! rmakers_DurationSpecifier__rewrite_rest_filled_
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)

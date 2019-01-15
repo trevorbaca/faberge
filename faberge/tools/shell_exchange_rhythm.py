@@ -124,5 +124,7 @@ def shell_exchange_rhythm(
             ),
         )
     return baca.rhythm(
+        multimeasure_rests=True,
+        rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
         )
