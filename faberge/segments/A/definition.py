@@ -603,6 +603,9 @@ maker(
         'sfz',
         selector=baca.pheads(),
         ),
+    baca.marcato(
+        selector=baca.pheads(),
+        ),
     faberge.piano_clusters(),
     )
 
@@ -1238,9 +1241,8 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.markup(
         'poco vib. (sempre)',
-        abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
-        #abjad.tweak(5.5).staff_padding,
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
