@@ -738,12 +738,21 @@ maker(
 
 maker(
     ('cl', (69, 72)),
-    baca.pitch('C2'),
-    faberge.niente_swells('ppp'),
+    baca.breathe(),
+    baca.chunk(
+        baca.hairpin(
+            f'niente o< ppp',
+            selector=baca.tleaves()[:2],
+            ),
+        baca.hairpin(
+            f'(ppp) >o !',
+            selector=baca.tleaves().rleak()[-2:],
+            ),
+        map=baca.plts().filter_length('>', 2),
+        ),
+    baca.flat_glissando('C2'),
     faberge.single_taper(
-        denominator=16,
-        start_talea=[4],
-        stop_talea=[3, -1],
+        stop_talea=[4],
         ),
     )
 
