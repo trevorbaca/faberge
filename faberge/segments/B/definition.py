@@ -568,81 +568,63 @@ maker(
     ('cl', (1, 3)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (4, 6)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (7, 11)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (12, 14)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (15, 16)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (17, 21)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (22, 26)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (27, 29)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (30, 32)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 
@@ -650,45 +632,35 @@ maker(
     ('cl', (33, 37)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (38, 40)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (41, 42)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (43, 47)),
     baca.breathe(),
     baca.flat_glissando('Eb2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
     ('cl', (48, 52)),
     baca.breathe(),
     baca.flat_glissando('Eqf2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
     
 maker(
@@ -706,9 +678,7 @@ maker(
         map=baca.plts().filter_length('>', 2),
         ),
     baca.flat_glissando('D2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
@@ -726,9 +696,7 @@ maker(
         map=baca.plts().filter_length('>', 2),
         ),
     baca.flat_glissando('C#2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(
@@ -751,9 +719,7 @@ maker(
         map=baca.plts().filter_length('>', 2),
         ),
     baca.flat_glissando('C2'),
-    faberge.single_taper(
-        stop_talea=[4],
-        ),
+    faberge.single_taper(),
     )
 
 maker(

@@ -7,10 +7,10 @@ def single_taper(
     *,
     denominator=16,
     start_talea=[4],
-    stop_talea=[3, -1],
+    stop_talea=[4],
     ):
     """
-    Makes single tapers.
+    Makes single taper.
     """
 
     return baca.rhythm(
