@@ -746,11 +746,6 @@ maker(
     )
 
 maker(
-    ('perc', (64, 70)),
-    baca.tacet(),
-    )
-
-maker(
     ('perc', (71, 76)),
     faberge.increasing_dal_niente_hairpins(),
     )
@@ -943,13 +938,15 @@ maker(
     )
 
 maker(
+    ('vn', (63, 65)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('vn', (63, 70)),
     baca.dynamic('"f"'),
-    baca.markup(
-        r'\faberge-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-10,
@@ -961,12 +958,14 @@ maker(
     )
 
 maker(
-    ('vn', (71, 76)),
-    baca.markup(
-        r'\faberge-non-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    ('vn', (69, 70)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
         ),
+    )
+
+maker(
+    ('vn', (71, 76)),
     faberge.increasing_dal_niente_hairpins(),
     )
 
@@ -986,13 +985,24 @@ maker(
     )
 
 maker(
-    ('vn', (81, 88)),
-    baca.dynamic('"f"'),
-    baca.markup(
-        r'\faberge-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    ('vn', (81, 83)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
         ),
+    )
+
+maker(
+    ('vn', (81, 88)),
+    baca.chunk(
+        baca.beam(
+            selector=baca.pleaves()[:2],
+            ),
+        baca.beam(
+            selector=baca.leaves()[-4:],
+            ),
+        measures=87,
+        ),
+    baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
@@ -1004,12 +1014,14 @@ maker(
     )
 
 maker(
-    ('vn', (89, 92)),
-    baca.markup(
-        r'\faberge-non-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    ('vn', (87, 88)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
         ),
+    )
+
+maker(
+    ('vn', (89, 92)),
     baca.pitch('F#6'),
     faberge.dal_niente_hairpins('f'),
     faberge.shell_exchange_rhythm(
@@ -1024,26 +1036,28 @@ maker(
 maker(
     'va',
     baca.dls_staff_padding(5),
-    baca.text_spanner_staff_padding(4),
     )
 
 maker(
     ('va', (1, 62)),
     baca.dynamic('mp'),
+    baca.flat_glissando(
+        'D3',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r'\faberge-xfb-sempre',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.scp_spanner(
+        'tasto -> pont. ->',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
+        pieces=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 6]),
+        selector=baca.leaves(),
         ),
-    baca.pitch('D3'),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.pleaves()[abjad.index([0, -1])],
         ),
-    baca.text_spanner(
-        'tasto => pont. =>',
-        pieces=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 7]),
-        selector=baca.leaves().rleak(),
+    baca.xfb_spanner(
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -1104,13 +1118,15 @@ maker(
     )
 
 maker(
+    ('va', (63, 65)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('va', (63, 70)),
     baca.dynamic('"f"'),
-    baca.markup(
-        r'\faberge-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-11,
@@ -1124,6 +1140,13 @@ maker(
     )
 
 maker(
+    ('va', (69, 70)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('va', (71, 76)),
     baca.hairpin(
         'pp < mp',
@@ -1133,27 +1156,35 @@ maker(
 
 maker(
     ('va', (71, 80)),
+    baca.flat_glissando(
+        'D3',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r'\faberge-xfb',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.scp_spanner(
+        'tasto -> pont.',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
+        selector=baca.ltleaves(),
         ),
-    baca.pitch('D3'),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.pleaves()[abjad.index([0, -1])],
         ),
-    baca.text_spanner('tasto => pont.'),
+    baca.xfb_spanner(
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
+    ('va', (81, 83)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
     )
 
 maker(
     ('va', (81, 88)),
     baca.dynamic('"f"'),
-    baca.markup(
-        r'\faberge-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-12,
@@ -1167,19 +1198,32 @@ maker(
     )
 
 maker(
+    ('va', (87, 88)),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('va', (89, 92)),
     baca.dynamic('pp'),
+    baca.flat_glissando(
+        'D3',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r'\faberge-xfb',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.scp_spanner(
+        'pont. -> tasto',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
+        selector=baca.ltleaves(),
         ),
-    baca.pitch('D3'),
     baca.stem_tremolo(
-        selector=baca.pleaves(),
+        selector=baca.pleaves()[abjad.index([0, -1])],
         ),
-    baca.text_spanner('pont. => tasto'),
+    baca.xfb_spanner(
+        abjad.tweak(5.5).staff_padding,
+        ),
     )
 
 # vc
@@ -1187,9 +1231,17 @@ maker(
 maker(
     'vc',
     baca.dls_staff_padding(6),
+    baca.flat_glissando(
+        'D2',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
-    baca.pitch('D2'),
-    baca.text_spanner_staff_padding(4),
+    baca.markup(
+        'poco vib. (sempre)',
+        abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
+        #abjad.tweak(5.5).staff_padding,
+        ),
     )
 
 maker(
@@ -1198,9 +1250,10 @@ maker(
         'p < f',
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        'tasto + poco vib. => PO (+poco vib.)',
-        selector=baca.leaves().rleak(),
+    baca.scp_spanner(
+        'tasto -> PO',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
         ),
     )
 
@@ -1210,9 +1263,10 @@ maker(
         'f > p',
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '(PO+) poco vib. => tasto (+poco vib)',
-        selector=baca.leaves().rleak(),
+    baca.scp_spanner(
+        '(PO) -> tasto',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
         ),
     )
 
@@ -1222,9 +1276,15 @@ maker(
         'p < ff',
         selector=baca.leaves().rleak(),
         ),
-    baca.text_spanner(
-        '(tasto + poco vib.) => poco pont. + vib. mod.',
-        selector=baca.leaves().rleak(),
+    baca.scp_spanner(
+        '(tasto) -> poco pont.',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
+        ),
+    baca.vibrato_spanner(
+        '(poco vib.) -> vib. mod.',
+        abjad.tweak(5.5).staff_padding,
+        bookend=-1,
         ),
     )
 
@@ -1235,7 +1295,7 @@ maker(
         selector=baca.pleaf(0),
         ),
     baca.markup(
-        r'\faberge-poco-pont-plus-sub-non-vib',
+        r'\baca-sub-non-vib-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -1243,16 +1303,22 @@ maker(
 
 maker(
     ('vc', (71, 80)),
-    baca.text_spanner(
-        [
-            '(poco pont.+) sub. vib. mod.',
-            '=>',
-            'tasto + non vib.',
-            '=>',
-            '(tasto+) poco vib.',
-            ],
-        pieces=baca.cmgroups([10, 9]),
-        selector=baca.leaves().rleak(),
+    baca.scp_spanner(
+        '(poco pont.) -> tasto',
+        abjad.tweak(3).staff_padding,
+        bookend=-1,
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
+    ('vc', (71, 89)),
+    baca.vibrato_spanner(
+        'sub. vib. mod. -> non vib. -> poco vib.',
+        abjad.tweak(5.5).staff_padding,
+        bookend=-1,
+        pieces=baca.mgroups([9, 10]),
+        selector=baca.leaves(),
         ),
     )
 

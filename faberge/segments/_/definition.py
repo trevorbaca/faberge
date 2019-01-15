@@ -157,12 +157,10 @@ maker(
 maker(
     ('vn', 1),
     baca.dynamic('"f"'),
-    baca.markup(
-        r'\faberge-spazzolato',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('E4'),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
     faberge.spazzolati_rhythm(
         counts_rotation=0,
         ),
@@ -184,12 +182,10 @@ maker(
 maker(
     ('va', 1),
     baca.dynamic('"f"'),
-    baca.markup(
-        r'\faberge-spazzolato',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('E4'),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
         extra_counts_per_division=[1],
