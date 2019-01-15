@@ -41,6 +41,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
+    #do_not_check_wellformedness=True,
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -157,8 +158,6 @@ maker(
         measures=15,
         selector=baca.pleaf(-1),
         ),
-    #baca.tuplet_bracket_staff_padding(3),
-    #baca.tuplet_bracket_staff_padding(2),
     baca.tuplet_bracket_staff_padding(2.5),
     )
 
@@ -243,7 +242,6 @@ maker(
 
 maker(
     ('fl', 27),
-    #baca.tuplet_bracket_staff_padding(3),
     baca.tuplet_bracket_staff_padding(2),
     )
 
@@ -291,8 +289,6 @@ maker(
 
 maker(
     ('fl', (32, 33)),
-    #baca.tuplet_bracket_staff_padding(3),
-    #baca.tuplet_bracket_staff_padding(2),
     baca.tuplet_bracket_staff_padding(2.5),
     )
 
@@ -455,11 +451,6 @@ maker(
 # eh
 
 maker(
-    'eh',
-    baca.dls_staff_padding(4),
-    )
-
-maker(
     ('eh', (1, 12)),
     baca.dynamic('"ff"'),
     baca.note_head_style_cross(),
@@ -472,6 +463,11 @@ maker(
     )
 
 maker(
+    ('eh', (1, 52)),
+    baca.dls_staff_padding(4),
+    )
+
+maker(
     ('eh', (1, 60)),
     baca.tuplet_bracket_staff_padding(1),
     )
@@ -480,6 +476,10 @@ maker(
     ('eh', (13, 16)),
     baca.dynamic('f'),
     baca.pitches('Db4 Db~4 Db4 Db~4 D~4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -507,6 +507,10 @@ maker(
     ('eh', (23, 30)),
     baca.dynamic('ff'),
     baca.pitches('D4 D+4 D~4 Db4 D~4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -528,27 +532,24 @@ maker(
         literal=True,
         ),
     baca.pitch('Eb4'),
+    baca.repeat_tie_extra_offset(
+        (-1.5, 0),
+        selector=baca.leaves(),
+        ),
+    )
+
+maker(
+    ('eh', (31, 44)),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
         ),
     )
 
 maker(
     ('eh', (37, 44)),
     baca.make_repeat_tied_notes(),
-    baca.markup(
-        r'\faberge-doubletrill',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('E4'),
-    baca.trill_spanner(
-        None,
-        abjad.tweak(2).bound_details__right__padding,
-        map=baca.runs(),
-        ),
     )
 
 maker(
@@ -565,9 +566,10 @@ maker(
 
 maker(
     ('eh', (53, 60)),
+    baca.dls_staff_padding(8),
     baca.hairpin(
         '"ff" >o niente',
-        selector=baca.tleaves().rleak(),
+        selector=baca.tleaves(),
         ),
     )
 
@@ -584,11 +586,16 @@ maker(
 maker(
     ('eh', (61, 68)),
     baca.staff_lines(1),
+    )
+
+maker(
+    ('ehx', (61, 68)),
     baca.tacet(),
     )
 
 maker(
     ('eh', (69, 72)),
+    baca.dls_staff_padding(4),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -602,6 +609,11 @@ maker(
         literal=True,
         ),
     baca.staff_position(0),
+    )
+
+maker(
+    ('ehx', (73, 80)),
+    baca.tacet(),
     )
 
 # cl
