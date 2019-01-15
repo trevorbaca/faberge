@@ -636,11 +636,6 @@ maker(
 # perc
 
 maker(
-    'perc',
-    baca.dls_staff_padding(5),
-    )
-
-maker(
     ('perc', (1, 12)),
     baca.pitch('F#4'),
     faberge.dal_niente_hairpins('f'),
@@ -656,12 +651,15 @@ maker(
 
 maker(
     ('perc', (1, 80)),
+    baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=baca.ptails(),
+        selector=baca.ptails(
+            exclude=baca.const.HIDDEN,
+            ),
         ),
     baca.markup(
         r'\faberge-crotales-bowed',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(6).staff_padding,
         literal=True,
         selector=baca.pleaf(0),
         ),
@@ -748,6 +746,11 @@ maker(
     )
 
 maker(
+    ('perc', (64, 70)),
+    baca.tacet(),
+    )
+
+maker(
     ('perc', (71, 76)),
     faberge.increasing_dal_niente_hairpins(),
     )
@@ -764,9 +767,6 @@ maker(
 
 maker(
     ('perc', (81, 88)),
-    baca.accent(
-        selector=baca.pheads(),
-        ),
     baca.chunk(
         baca.bar_extent_persistent(
             (0, 2),
@@ -775,42 +775,45 @@ maker(
             ),
         baca.staff_lines(1),
         ),
-    baca.dynamic('ff'),
-    baca.markup(
-        r'\faberge-castanets',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
-    baca.markup(
-        r'\faberge-bd-struck',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        selector=baca.plt(-1),
-        ),
-    baca.staff_positions([1, 1, -1]),
-    baca.trill_spanner(
-        None,
-        abjad.tweak(2).bound_details__right__padding,
-        map=baca.plts()[:2],
-        ),
-    faberge.front_incised_divisions(
-        dmask=~rmakers.silence([-4, -3, -2]),
-        start_rest_durations=[
-            (0, 1), (0, 1), (0, 1), (0, 1),
-            (1, 4), (1, 16), (0, 1),
-            (0, 1),
-            ],
-        ),
     )
 
 maker(
-    ('perc', (81, 86)),
+    ('perc', (85, 86)),
+    baca.dls_staff_padding(3.5),
+    baca.dynamic('ff'),
+    baca.markup(
+        r'\faberge-castanets',
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
+    baca.rhythm(
+        "{ r4 c'2 c'1 }",
+        annotate_unpitched_music=True,
+        ),
+    baca.staff_position(1),
     baca.stem_up(),
+    baca.trill_spanner(
+        None,
+        abjad.tweak(2).bound_details__right__padding,
+        selector=baca.tleaves().rleak(),
+        ),
     )
 
 maker(
     ('perc', 87),
+    baca.dls_staff_padding(6),
+    baca.dynamic('mf'),
+    baca.laissez_vibrer(),
+    baca.markup(
+        r'\faberge-bd-struck',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        selector=baca.plt(-1),
+        ),
+    baca.staff_position(-1),
     baca.stem_down(),
+    faberge.downbeat_attack(),
     )
 
 maker(
@@ -822,13 +825,16 @@ maker(
             ),
         baca.staff_lines(5),
         ),
+    baca.dls_staff_padding(5),
     baca.laissez_vibrer(
-        selector=baca.ptails(),
+        selector=baca.ptails(
+            exclude=baca.const.HIDDEN,
+            ),
         ),
     baca.pitch('F#4'),
     baca.markup(
         r'\faberge-crotales-bowed',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
     faberge.dal_niente_hairpins('f'),
