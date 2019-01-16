@@ -574,16 +574,6 @@ maker(
     )
 
 maker(
-    ('ehr', 61),
-    baca.markup(
-        r'\baca-remove-staple-markup',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        selector=baca.mmrest(0),
-        ),
-    )
-
-maker(
     ('eh', (61, 68)),
     baca.staff_lines(1),
     )

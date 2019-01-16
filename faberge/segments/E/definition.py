@@ -211,8 +211,61 @@ maker(
     )
 
 maker(
+    ('rh', 4),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 1),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(3),
+        ),
+    faberge.clb_rhythm(
+        extra_counts=[7],
+        ),
+    )
+
+maker(
+    ('rh', (4, 5)),
+    baca.beam(),
+    baca.markup(
+        r'\baca-tuning-pegs-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
+    baca.note_head_stencil_false(
+        selector=baca.pleaves(),
+        ),
+    baca.tuplet_bracket_transparent(),
+    baca.tuplet_number_transparent(),
+    faberge.tuning_peg_staff_positions(
+        rotation=-3,
+        ),
+    )
+
+maker(
+    ('rh', 5),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
+    )
+
+maker(
     ('rh', 6),
-    baca.clef('bass'),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
     baca.dynamic(
         '(mp)',
         abjad.tweak((0, 0)).X_extent,
@@ -307,7 +360,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         r'\baca-bd-struck-markup',
-        abjad.tweak(0).parent_aignment_X,
+        abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
@@ -328,7 +381,7 @@ maker(
     baca.dynamic('f'),
     baca.markup(
         r'\baca-castanets-markup',
-        abjad.tweak(0).parent_aignment_X,
+        abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
@@ -362,7 +415,7 @@ maker(
     baca.dynamic('mp'),
     baca.markup(
         r'\baca-woodblock-markup',
-        abjad.tweak(0).parent_aignment_X,
+        abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
