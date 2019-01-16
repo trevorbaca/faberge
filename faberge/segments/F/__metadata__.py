@@ -100,7 +100,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='f',
                                 ),
                             ],
                         ),
@@ -193,7 +193,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='f',
                                 ),
                             ],
                         ),
@@ -348,7 +348,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mf',
+                                value='f',
                                 ),
                             ],
                         ),
