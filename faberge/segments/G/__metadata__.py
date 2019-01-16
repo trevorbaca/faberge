@@ -276,7 +276,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Clef',
-                                value='treble',
+                                value='bass',
                                 ),
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
@@ -291,7 +291,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-f',
+                                value='p',
                                 ),
                             ],
                         ),
