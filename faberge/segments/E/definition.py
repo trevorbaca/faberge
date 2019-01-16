@@ -612,4 +612,10 @@ maker(
             ),
         baca.staff_lines(5),
         ),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
     )
