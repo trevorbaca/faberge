@@ -250,20 +250,6 @@ maker(
 
 maker(
     ('rh', 1),
-    baca.chunk(
-        baca.bar_extent_persistent(
-            (-2, 0),
-            after=True,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(3),
-        ),
-    baca.markup(
-        r'\baca-tuning-pegs-markup',
-        abjad.tweak(0).parent_alignment_X,
-        abjad.tweak(8).staff_padding,
-        literal=True,
-        ),
     baca.note_head_stencil_false(
         selector=baca.pleaves(),
         ),
@@ -334,7 +320,7 @@ maker(
     ('rh', 5),
     baca.chunk(
         baca.bar_extent_persistent(
-            (-2, 0),
+            (-2, 1),
             after=True,
             tag=baca.const.NOT_PARTS,
             ),

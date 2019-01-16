@@ -175,6 +175,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                 ],
             'lh': 'Piano_LH_Music_Voice',
             'lhr': 'Piano_LH_Rest_Voice',
+            'lhx': [
+                'Piano_LH_Music_Voice',
+                'Piano_LH_Rest_Voice',
+                ],
             'attack': 'Piano_LH_Attack_Voice',
             'perc': 'Percussion_Music_Voice',
             'percr': 'Percussion_Rest_Voice',
@@ -529,6 +533,10 @@ class ScoreTemplate(baca.ScoreTemplate):
                         ),
                     ('lh', 'Piano_LH_Music_Voice'),
                     ('lhr', 'Piano_LH_Rest_Voice'),
+                    (
+                        'lhx',
+                        ['Piano_LH_Music_Voice', 'Piano_LH_Rest_Voice'],
+                        ),
                     ('attack', 'Piano_LH_Attack_Voice'),
                     ('perc', 'Percussion_Music_Voice'),
                     ('percr', 'Percussion_Rest_Voice'),
