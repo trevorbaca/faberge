@@ -1235,7 +1235,7 @@ N_Percussion_Music_Voice = {                                                   %
             \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \set Staff.instrumentName = \faberge-perc-markup                   %! _clone_segment_initial_short_instrument_name
-            \clef "treble"                                                     %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+            \clef "bass"                                                       %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.InstrumentName.color = #(x11-color 'green4)  %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
             \once \override Staff.Clef.color = #(x11-color 'green4)            %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -1330,7 +1330,7 @@ N_Percussion_Music_Voice = {                                                   %
             \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \override DynamicLineSpanner.staff-padding = #8                    %! baca_dls_staff_padding:OverrideCommand(1)
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-            b'4
+            d4
             - \tweak color #(x11-color 'DeepPink1)                             %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak parent-alignment-X #0                                     %! baca_markup:IndicatorCommand
@@ -1343,27 +1343,27 @@ N_Percussion_Music_Voice = {                                                   %
             \bacaStartTextSpanMA                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
-            b'4
+            d4
 
-            b'4
+            d4
 
-            b'4
+            d4
 
-            b'4
+            d4
 
         }
 
         \times 4/5 {
 
-            b'4
+            d4
 
-            b'4
+            d4
 
-            b'4
+            d4
 
-            b'4
+            d4
 
-            b'4
+            d4
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
 
         }

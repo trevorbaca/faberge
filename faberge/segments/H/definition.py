@@ -327,6 +327,24 @@ maker(
         ),
     )
 
+maker(
+    ('perc', 9),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
+    baca.dynamic('p'),
+    baca.flat_glissando(
+        'Eb2',
+        right_broken=True,
+        selector=baca.pleaves().rleak(),
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(),
+    )
+
 # vn
 
 maker(

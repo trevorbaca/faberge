@@ -1265,8 +1265,21 @@ H_Percussion_Music_Voice = {                                                   %
     R1 * 1/4                                                                   %! _make_measure_silences
 
     % [H Percussion_Music_Voice measure 228 / measure 9]                       %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _make_measure_silences
+    \once \override Staff.Clef.X-extent = ##f                                  %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.X-extent = ##f                                  %! MEASURE_228:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                    %! MEASURE_228:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+    \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+    \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+    ef,!1.                                                                     %! baca_make_repeat_tied_notes
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \glissando                                                                 %! baca_glissando
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
+    \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1275,7 +1288,15 @@ H_Percussion_Music_Voice = {                                                   %
 
             % [H Percussion_Music_Voice measure 229 / measure 10]              %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \hide NoteHead                                                     %! PHANTOM:_style_phantom_measures(5):baca_glissando
+            \override Accidental.stencil = ##f                                 %! PHANTOM:_style_phantom_measures(5):baca_glissando
+            \override NoteColumn.glissando-skip = ##t                          %! PHANTOM:_style_phantom_measures(5):baca_glissando
+            \override NoteHead.no-ledgers = ##t                                %! PHANTOM:_style_phantom_measures(5):baca_glissando
+            \revert Accidental.stencil                                         %! PHANTOM:_style_phantom_measures(5):HIDE_TO_JOIN_BROKEN_SPANNERS
+            \revert NoteColumn.glissando-skip                                  %! PHANTOM:_style_phantom_measures(5):HIDE_TO_JOIN_BROKEN_SPANNERS
+            \revert NoteHead.no-ledgers                                        %! PHANTOM:_style_phantom_measures(5):HIDE_TO_JOIN_BROKEN_SPANNERS
+            \undo \hide NoteHead                                               %! PHANTOM:_style_phantom_measures(5):HIDE_TO_JOIN_BROKEN_SPANNERS
+            ef,!1 * 1/4                                                        %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

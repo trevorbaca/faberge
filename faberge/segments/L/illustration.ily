@@ -1544,13 +1544,13 @@ L_Percussion_Music_Voice = {                                                   %
     \set Staff.instrumentName = \faberge-perc-markup                           %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #4                            %! baca_dls_staff_padding:OverrideCommand(1)
     \override Stem.direction = #up                                             %! baca_stem_up:OverrideCommand(1)
-    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c''4                                                                       %! faberge_downbeat_attack
+    e4                                                                         %! faberge_downbeat_attack
     - \tweak X-extent #'(0 . 0)                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak extra-offset #'(-1 . 0)                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1576,7 +1576,7 @@ L_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 255 / measure 2]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
+    e4                                                                         %! faberge_downbeat_attack
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -1584,7 +1584,7 @@ L_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 256 / measure 3]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
+    e4                                                                         %! faberge_downbeat_attack
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -1592,7 +1592,7 @@ L_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 257 / measure 4]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
+    e4                                                                         %! faberge_downbeat_attack
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -1600,7 +1600,7 @@ L_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 258 / measure 5]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
+    e4                                                                         %! faberge_downbeat_attack
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -1608,7 +1608,7 @@ L_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 259 / measure 6]                       %! _comment_measure_numbers
-    c''4                                                                       %! faberge_downbeat_attack
+    e4                                                                         %! faberge_downbeat_attack
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \revert Stem.direction                                                     %! baca_stem_up:OverrideCommand(2)
@@ -1621,7 +1621,7 @@ L_Percussion_Music_Voice = {                                                   %
 
         % [L Percussion_Music_Voice measure 260 / measure 7]                   %! _comment_measure_numbers
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
-        b'2.
+        d2.
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1640,7 +1640,7 @@ L_Percussion_Music_Voice = {                                                   %
     {
 
         % [L Percussion_Music_Voice measure 261 / measure 8]                   %! _comment_measure_numbers
-        b'2.
+        d2.
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
