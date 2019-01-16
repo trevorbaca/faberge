@@ -539,15 +539,14 @@ maker(
 
 maker(
     'va',
-    baca.bow_speed_spanner(
-        'XFB =|',
-        abjad.tweak(3).staff_padding,
-        map=baca.plts(),
-        ),
     baca.dls_staff_padding(5),
     baca.material_annotation_spanner(
         '4-5 / 5-1 =|',
         abjad.tweak(8).staff_padding,
+        ),
+    baca.xfb_spanner(
+        abjad.tweak(3).staff_padding,
+        map=baca.plts(),
         ),
     faberge.back_incised_divisions(),
     )

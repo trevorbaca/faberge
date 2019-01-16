@@ -597,10 +597,6 @@ maker(
 
 maker(
     ('va', 5),
-    baca.bow_speed_spanner(
-        'XFB =|',
-        abjad.tweak(3).staff_padding,
-        ),
     baca.dynamic(
         'mp-ancora',
         abjad.tweak((0, 0)).X_extent,
@@ -613,6 +609,9 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch('D3'),
+    baca.xfb_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
     )
 
 maker(

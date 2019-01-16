@@ -374,12 +374,11 @@ maker(
 
 maker(
     ('va', (1, 4)),
-    baca.bow_speed_spanner(
-        'XFB =|',
+    baca.pitch('F3'),
+    baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
         map=baca.plts(),
         ),
-    baca.pitch('F3'),
     faberge.back_incised_divisions(),
     )
 
