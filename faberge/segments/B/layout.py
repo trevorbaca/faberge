@@ -2,7 +2,7 @@ import baca
 import math
 
 
-distances = [18, (21, 21, 24), (21, 21, 24), (21, 21, 24)]
+distances = [18, (21, 21, 24), (21, 21, 24), (24, 24, 24)]
 first_measure_number = 97
 final_measure_number = 176
 measure_count = final_measure_number - first_measure_number + 1

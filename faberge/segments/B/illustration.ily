@@ -7110,6 +7110,7 @@ B_Violin_Music_Voice = {                                                       %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Violin_Rest_Voice measure 98 / measure 2]                     %! _comment_measure_numbers
+            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -7117,6 +7118,7 @@ B_Violin_Music_Voice = {                                                       %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_Music_Voice measure 99 / measure 3]                            %! _comment_measure_numbers
+    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 100 / measure 4]                           %! _comment_measure_numbers
@@ -7133,14 +7135,19 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 104 / measure 8]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
+    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Violin_Music_Voice measure 105 / measure 9]                           %! _comment_measure_numbers
     f'16                                                                       %! faberge_spazzolati_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-spazz }                                               %! baca_markup:IndicatorCommand
     [                                                                          %! Duration_Specifier__rewrite_meter_
+    - \abjad-dashed-line-with-hook                                             %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \baca-spazzolato-markup                   %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup     %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #3                                                  %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSpazzolato                                               %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
 
     f'16                                                                       %! faberge_spazzolati_rhythm
 
@@ -7574,132 +7581,117 @@ B_Violin_Music_Voice = {                                                       %
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-pochiss-scratch }                                     %! baca_markup:IndicatorCommand
+    \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
 
     % [B Violin_Music_Voice measure 120 / measure 24]                          %! _comment_measure_numbers
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 121 / measure 25]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 122 / measure 26]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 123 / measure 27]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 124 / measure 28]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 125 / measure 29]                          %! _comment_measure_numbers
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 126 / measure 30]                          %! _comment_measure_numbers
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 127 / measure 31]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 128 / measure 32]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 129 / measure 33]                          %! _comment_measure_numbers
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 130 / measure 34]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 131 / measure 35]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 132 / measure 36]                          %! _comment_measure_numbers
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 133 / measure 37]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Violin_Music_Voice measure 134 / measure 38]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 135 / measure 39]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 136 / measure 40]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 137 / measure 41]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 138 / measure 42]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 139 / measure 43]                          %! _comment_measure_numbers
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 140 / measure 44]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 141 / measure 45]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Violin_Music_Voice measure 142 / measure 46]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 143 / measure 47]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 144 / measure 48]                          %! _comment_measure_numbers
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 145 / measure 49]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 146 / measure 50]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 147 / measure 51]                          %! _comment_measure_numbers
     eqf'!1                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Violin_Music_Voice measure 148 / measure 52]                          %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
     \times 10/12 {                                                             %! faberge_clb_rhythm
@@ -7708,16 +7700,22 @@ B_Violin_Music_Voice = {                                                       %
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
+        \override DynamicLineSpanner.staff-padding = #10                       %! baca_dls_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         b'8                                                                    %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-col-legno-battuto }                               %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! faberge_clb_rhythm
+        - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup           %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! CLB:baca_clb_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5.5                                            %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCLB                                                  %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
         b'8                                                                    %! faberge_clb_rhythm
@@ -7740,6 +7738,7 @@ B_Violin_Music_Voice = {                                                       %
 
         a'8                                                                    %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
         c''8                                                                   %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -8166,6 +8165,7 @@ B_Violin_Music_Voice = {                                                       %
         c''8                                                                   %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! faberge_clb_rhythm
+        \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
 
     }                                                                          %! faberge_clb_rhythm
 
@@ -8177,6 +8177,7 @@ B_Violin_Music_Voice = {                                                       %
     \baca-effort-mf-parenthesized                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-bow-directly-on-bridge-noise-only }                   %! baca_markup:IndicatorCommand
+    \bacaStopTextSpanCLB                                                       %! CLB:baca_clb_spanner:PiecewiseCommand(3)
 
     % [B Violin_Music_Voice measure 166 / measure 70]                          %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
@@ -8194,17 +8195,22 @@ B_Violin_Music_Voice = {                                                       %
     \times 14/16 {                                                             %! faberge_clb_rhythm
 
         % [B Violin_Music_Voice measure 169 / measure 73]                      %! _comment_measure_numbers
+        \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         b'8                                                                    %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-col-legno-battuto }                               %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! faberge_clb_rhythm
+        - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-clb-three-markup           %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! CLB:baca_clb_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5.5                                            %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCLB                                                  %! CLB:baca_clb_spanner:PiecewiseCommand(1)
 
         b'8                                                                    %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -8426,6 +8432,7 @@ B_Violin_Music_Voice = {                                                       %
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! faberge_clb_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
 
     }                                                                          %! faberge_clb_rhythm
 
@@ -8437,6 +8444,7 @@ B_Violin_Music_Voice = {                                                       %
             % [B Violin_Music_Voice measure 177 / measure 81]                  %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanCLB                                               %! PHANTOM:_style_phantom_measures(5):CLB:baca_clb_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -8484,44 +8492,44 @@ B_Viola_Music_Voice = {                                                        %
     \pp                                                                        %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Va.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-va-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Viola_Music_Voice measure 98 / measure 2]                             %! _comment_measure_numbers
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     ef!1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Viola_Music_Voice measure 99 / measure 3]                             %! _comment_measure_numbers
     ef!1                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Viola_Music_Voice measure 100 / measure 4]                            %! _comment_measure_numbers
     ef!2                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Viola_Music_Voice measure 101 / measure 5]                            %! _comment_measure_numbers
     ef!2.                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Viola_Music_Voice measure 102 / measure 6]                            %! _comment_measure_numbers
     ef!2                                                                       %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Viola_Music_Voice measure 103 / measure 7]                            %! _comment_measure_numbers
     ef!2.                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Viola_Music_Voice measure 104 / measure 8]                            %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     ef!1                                                                       %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     \times 2/3 {                                                               %! faberge_spazzolati_rhythm
 
@@ -8531,8 +8539,12 @@ B_Viola_Music_Voice = {                                                        %
         f'8                                                                    %! faberge_spazzolati_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-spazz }                                           %! baca_markup:IndicatorCommand
+        - \abjad-dashed-line-with-hook                                         %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-spazzolato-markup               %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.75                             %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #3                                              %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanSpazzolato                                           %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
 
     }                                                                          %! faberge_spazzolati_rhythm
 
@@ -8983,132 +8995,118 @@ B_Viola_Music_Voice = {                                                        %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-tasto-plus-pochiss-scratch }                          %! baca_markup:IndicatorCommand
+    \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
 
     % [B Viola_Music_Voice measure 120 / measure 24]                           %! _comment_measure_numbers
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 121 / measure 25]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 122 / measure 26]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 123 / measure 27]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 124 / measure 28]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 125 / measure 29]                           %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 126 / measure 30]                           %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 127 / measure 31]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 128 / measure 32]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 129 / measure 33]                           %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 130 / measure 34]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 131 / measure 35]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 132 / measure 36]                           %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 133 / measure 37]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Viola_Music_Voice measure 134 / measure 38]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 135 / measure 39]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 136 / measure 40]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 137 / measure 41]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 138 / measure 42]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 139 / measure 43]                           %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 140 / measure 44]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 141 / measure 45]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
     % [B Viola_Music_Voice measure 142 / measure 46]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 143 / measure 47]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 144 / measure 48]                           %! _comment_measure_numbers
     g2                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 145 / measure 49]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 146 / measure 50]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 147 / measure 51]                           %! _comment_measure_numbers
     g1                                                                         %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Viola_Music_Voice measure 148 / measure 52]                           %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     g2                                                                         %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
     \times 6/8 {                                                               %! faberge_clb_rhythm
@@ -9117,16 +9115,22 @@ B_Viola_Music_Voice = {                                                        %
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \override DynamicLineSpanner.staff-padding = #10                       %! baca_dls_staff_padding:OverrideCommand(1)
+        \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         b8                                                                     %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-p                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-col-legno-battuto }                               %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         [                                                                      %! faberge_clb_rhythm
+        - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! CLB:baca_clb_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5.5                                            %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCLB                                                  %! CLB:baca_clb_spanner:PiecewiseCommand(1)
 
         b8                                                                     %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -9900,6 +9904,7 @@ B_Viola_Music_Voice = {                                                        %
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! faberge_clb_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
 
     }                                                                          %! faberge_clb_rhythm
 
@@ -9911,6 +9916,7 @@ B_Viola_Music_Voice = {                                                        %
             % [B Viola_Music_Voice measure 177 / measure 81]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanCLB                                               %! PHANTOM:_style_phantom_measures(5):CLB:baca_clb_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -9957,44 +9963,43 @@ B_Cello_Music_Voice = {                                                        %
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Cello”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [B Cello_Music_Voice measure 98 / measure 2]                             %! _comment_measure_numbers
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 99 / measure 3]                             %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 100 / measure 4]                            %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 101 / measure 5]                            %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 102 / measure 6]                            %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 103 / measure 7]                            %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 104 / measure 8]                            %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 105 / measure 9]                            %! _comment_measure_numbers
     \override TextSpanner.staff-padding = #3                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
@@ -10006,64 +10011,50 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 106 / measure 10]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 107 / measure 11]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 108 / measure 12]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 109 / measure 13]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [B Cello_Music_Voice measure 110 / measure 14]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 111 / measure 15]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 112 / measure 16]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 113 / measure 17]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 114 / measure 18]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 115 / measure 19]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 116 / measure 20]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 117 / measure 21]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 118 / measure 22]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 119 / measure 23]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
@@ -10075,58 +10066,51 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 120 / measure 24]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 121 / measure 25]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 122 / measure 26]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 123 / measure 27]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \repeatTie
 
     % [B Cello_Music_Voice measure 124 / measure 28]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 125 / measure 29]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 126 / measure 30]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 127 / measure 31]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
     \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
 
     % [B Cello_Music_Voice measure 128 / measure 32]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 129 / measure 33]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 130 / measure 34]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 131 / measure 35]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     % [B Cello_Music_Voice measure 132 / measure 36]                           %! _comment_measure_numbers
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
     ef,!2                                                                      %! baca_make_repeat_tied_notes
-    \repeatTie
 
     \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
     \times 27/28 {                                                             %! baca_make_fused_tuplet_monads
@@ -10185,6 +10169,7 @@ B_Cello_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
+        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
     }                                                                          %! baca_make_fused_tuplet_monads
 
@@ -10195,15 +10180,20 @@ B_Cello_Music_Voice = {                                                        %
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \override DynamicLineSpanner.staff-padding = #10                       %! baca_dls_staff_padding:OverrideCommand(1)
         \override TextScript.staff-padding = #8                                %! baca_script_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         e8                                                                     %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-col-legno-battuto }                               %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_clb_rhythm
+        - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        - \tweak bound-details.right.padding #2.5                              %! CLB:baca_clb_spanner:PiecewiseCommand(1):autodetect
+        - \tweak staff-padding #5.5                                            %! CLB:baca_clb_spanner:PiecewiseCommand(1)
+        \bacaStartTextSpanCLB                                                  %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
         e8                                                                     %! faberge_clb_rhythm
@@ -10720,6 +10710,7 @@ B_Cello_Music_Voice = {                                                        %
             % [B Cello_Music_Voice measure 177 / measure 81]                   %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
+            \bacaStopTextSpanCLB                                               %! PHANTOM:_style_phantom_measures(5):CLB:baca_clb_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
