@@ -249,6 +249,44 @@ maker(
 # rh
 
 maker(
+    ('rh', 1),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(3),
+        ),
+    baca.markup(
+        r'\baca-tuning-pegs-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
+    baca.note_head_stencil_false(
+        selector=baca.pleaves(),
+        ),
+    baca.tuplet_bracket_transparent(),
+    baca.tuplet_number_transparent(),
+    faberge.clb_rhythm(
+        extra_counts=[7],
+        ),
+    faberge.tuning_peg_staff_positions(),
+    )
+
+maker(
+    ('rh', 2),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
+    )
+
+maker(
     ('rh', 3),
     baca.chunk(
         baca.clef('bass'),
@@ -289,6 +327,49 @@ maker(
     ('rh', 4),
     faberge.downbeat_attack(
         denominator=8,
+        ),
+    )
+
+maker(
+    ('rh', 5),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 0),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(3),
+        ),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
+    baca.markup(
+        r'\baca-tuning-pegs-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
+    baca.note_head_stencil_false(
+        selector=baca.pleaves(),
+        ),
+    baca.tuplet_bracket_transparent(),
+    baca.tuplet_number_transparent(),
+    faberge.clb_rhythm(
+        extra_counts=[7],
+        ),
+    faberge.tuning_peg_staff_positions(),
+    )
+
+maker(
+    ('rh', 6),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
         ),
     )
 
@@ -356,7 +437,7 @@ maker(
 
 maker(
     ('perc', (1, 6)),
-    baca.dls_staff_padding(3),
+    baca.dls_staff_padding(4),
     baca.dynamic(
         'f-sempre',
         abjad.tweak((0, 0)).X_extent,
@@ -403,12 +484,16 @@ maker(
 
 maker(
     ('vn', 1),
-    faberge.clb_rhythm(extra_counts=[2]),
+    faberge.clb_rhythm(
+        extra_counts=[2],
+        ),
     )
 
 maker(
     ('vn', 2),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -421,17 +506,22 @@ maker(
     baca.clb_spanner(
         3,
         abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
         ),
     )
 
 maker(
     ('vn', 3),
-    faberge.clb_rhythm(extra_counts=[4]),
+    faberge.clb_rhythm(
+        extra_counts=[4],
+        ),
     )
 
 maker(
     ('vn', 4),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -441,12 +531,16 @@ maker(
 
 maker(
     ('vn', 5),
-    faberge.clb_rhythm(extra_counts=[6]),
+    faberge.clb_rhythm(
+        extra_counts=[6],
+        ),
     )
 
 maker(
     ('vn', 6),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -458,15 +552,6 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (1, 6)),
-#    baca.damp_spanner(
-#        abjad.tweak(7).staff_padding,
-#        selector=baca.tleaves().rleak(),
-#        ),
-#    baca.markup(
-#        r'\baca-col-legno-battuto-markup',
-#        abjad.tweak(1.5).padding,
-#        literal=True,
-#        ),
     baca.material_annotation_spanner(
         '4-3 =|',
         abjad.tweak(7 + 2.5).staff_padding,
@@ -499,12 +584,16 @@ maker(
 
 maker(
     ('va', 1),
-    faberge.clb_rhythm(extra_counts=[6]),
+    faberge.clb_rhythm(
+        extra_counts=[6],
+        ),
     )
 
 maker(
     ('va', 2),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -514,12 +603,16 @@ maker(
 
 maker(
     ('va', 3),
-    faberge.clb_rhythm(extra_counts=[2]),
+    faberge.clb_rhythm(
+        extra_counts=[2],
+        ),
     )
 
 maker(
     ('va', 4),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -529,12 +622,16 @@ maker(
 
 maker(
     ('va', 5),
-    faberge.clb_rhythm(extra_counts=[4]),
+    faberge.clb_rhythm(
+        extra_counts=[4],
+        ),
     )
 
 maker(
     ('va', 6),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -569,6 +666,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
         ),
     )
 
@@ -595,12 +693,16 @@ maker(
 
 maker(
     ('vc', 3),
-    faberge.clb_rhythm(extra_counts=[6]),
+    faberge.clb_rhythm(
+        extra_counts=[6],
+        ),
     )
 
 maker(
     ('vc', 4),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 maker(
@@ -610,7 +712,9 @@ maker(
 
 maker(
     ('vc', 5),
-    faberge.clb_rhythm(extra_counts=[2]),
+    faberge.clb_rhythm(
+        extra_counts=[2],
+        ),
     )
 
 maker(
@@ -620,5 +724,39 @@ maker(
 
 maker(
     ('vc', 6),
-    faberge.downbeat_attack(denominator=8),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
+
+maker(
+    ('vc', (7, 8)),
+    baca.dls_staff_padding(8),
+    baca.note_head_style_harmonic(),
+    baca.string_number_spanner(
+        'IV =|',
+        abjad.tweak(5.5).staff_padding,
+        ),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.pleaves(),
+            ),
+        baca.pitches(
+            'Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3',
+            persist='CELLO_GLISSANDI',
+            ),
+        baca.glissando(),
+        baca.hairpin(
+            'niente o< pp >o',
+            final_hairpin=False,
+            map=baca.runs().map(baca.rleak())[0],
+            pieces=baca.clparts([1]),
+            ),
+        ),
+    faberge.airtone_chain_rhythm(
+        20,
+        [2, 3, 4],
+        do_not_overlap_counts=True,
+        ),
+    )
+

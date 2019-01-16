@@ -25,15 +25,6 @@ faberge-col-legno-battuto-first-appearance = \markup
         "(mute string with left hand)"
     }
 
-faberge-depress-silently = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    \column {
-        "depress silently;"
-        "sustain with middle pedal"
-    }
-
 faberge-glissando-lentissimo-do-not-reattack-note-heads = \markup
     \whiteout
     \override #'(box-padding . 0.5)

@@ -517,7 +517,7 @@ metadata = abjad.OrderedDict(
                                     abjad.OrderedDict(
                                         [
                                             ('name', 'CELLO_GLISSANDI'),
-                                            ('pitches_consumed', 8),
+                                            ('pitches_consumed', 14),
                                             ]
                                         ),
                                     ),
