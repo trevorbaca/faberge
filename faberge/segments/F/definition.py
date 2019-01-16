@@ -551,7 +551,7 @@ maker(
     baca.dls_staff_padding(4),
     baca.dynamic('"f"'),
     baca.markup(
-        r'\faberge-spazzolato',
+        r'\baca-spazzolato-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -587,7 +587,7 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        r'\faberge-col-legno-battuto',
+        r'\baca-col-legno-battuto-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -690,7 +690,7 @@ maker(
     ('va', 1),
     baca.dynamic('"f"'),
     baca.markup(
-        r'\faberge-spazzolato',
+        r'\baca-spazzolato-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -721,7 +721,7 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        r'\faberge-col-legno-battuto',
+        r'\baca-col-legno-battuto-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -790,7 +790,7 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        r'\faberge-col-legno-battuto',
+        r'\baca-col-legno-battuto-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

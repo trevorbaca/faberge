@@ -348,7 +348,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-mp-parenthesized',
+                                value='mp',
                                 ),
                             ],
                         ),
@@ -426,7 +426,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Viola_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='p',
+                                value='\\baca-p-sempre',
                                 ),
                             ],
                         ),

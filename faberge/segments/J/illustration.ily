@@ -1737,7 +1737,7 @@ J_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-spazzolato }                                          %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-spazzolato-markup }                                      %! baca_markup:IndicatorCommand
     [                                                                          %! Duration_Specifier__rewrite_meter_
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A.3"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1954,7 +1954,7 @@ J_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-spazzolato }                                      %! baca_markup:IndicatorCommand
+        ^ \markup { \baca-spazzolato-markup }                                  %! baca_markup:IndicatorCommand
 
     }                                                                          %! faberge_spazzolati_rhythm
 

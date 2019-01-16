@@ -442,7 +442,7 @@ maker(
     ('vn', 2),
     baca.dynamic('"f"'),
     baca.markup(
-        r'\faberge-spazzolato',
+        r'\baca-spazzolato-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -500,7 +500,7 @@ maker(
     ('va', 2),
     baca.dynamic('"f"'),
     baca.markup(
-        r'\faberge-spazzolato',
+        r'\baca-spazzolato-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
