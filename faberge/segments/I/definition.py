@@ -285,7 +285,7 @@ maker(
     baca.dynamic('p'),
     baca.laissez_vibrer(),
     baca.markup(
-        r'\faberge-bd-struck',
+        r'\baca-bd-struck-markup',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
         literal=True,
@@ -325,7 +325,7 @@ maker(
         ),
     baca.dynamic('f'),
     baca.markup(
-        r'\faberge-woodblock',
+        r'\baca-woodblock-markup',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
         literal=True,

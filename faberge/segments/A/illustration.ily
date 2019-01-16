@@ -6086,7 +6086,7 @@ A_Percussion_Music_Voice = {                                                   %
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-crotales-bowed }                                      %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-crotales-bowed-markup }                                  %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7272,7 +7272,7 @@ A_Percussion_Music_Voice = {                                                   %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-castanets }                                       %! baca_markup:IndicatorCommand
+        ^ \markup { \baca-castanets-markup }                                   %! baca_markup:IndicatorCommand
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -7292,7 +7292,7 @@ A_Percussion_Music_Voice = {                                                   %
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-bd-struck }                                           %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-bd-struck-markup }                                       %! baca_markup:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     r2
@@ -7336,7 +7336,7 @@ A_Percussion_Music_Voice = {                                                   %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-crotales-bowed }                                  %! baca_markup:IndicatorCommand
+        ^ \markup { \baca-crotales-bowed-markup }                              %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

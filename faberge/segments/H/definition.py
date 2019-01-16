@@ -260,7 +260,7 @@ maker(
 maker(
     ('perc', [1, 2]),
     baca.markup(
-        r'\faberge-castanets',
+        r'\baca-castanets-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         match=0,
@@ -312,7 +312,7 @@ maker(
         ),
     baca.laissez_vibrer(),
     baca.markup(
-        r'\faberge-crotales-bowed',
+        r'\baca-crotales-bowed-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

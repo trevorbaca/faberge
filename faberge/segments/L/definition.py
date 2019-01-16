@@ -323,7 +323,7 @@ maker(
 maker(
     'perc',
     baca.markup(
-        r'\faberge-castanets',
+        r'\baca-castanets-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -358,7 +358,7 @@ maker(
 maker(
     ('perc', 7),
     baca.markup(
-        r'\faberge-woodblock',
+        r'\baca-woodblock-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
