@@ -83,6 +83,7 @@ maker(
 
 maker(
     ('fl', (1, 2)),
+    baca.dls_staff_padding(6),
     baca.pitch('G3'),
     faberge.even_tuplet_rhythm(
         denominator=2,
@@ -93,7 +94,7 @@ maker(
 maker(
     ('fl', 5),
     baca.hairpin(
-        'o< mp >o niente',
+        'o< f >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves(),
         ),
@@ -105,6 +106,7 @@ maker(
 
 maker(
     ('fl', (5, 7)),
+    baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
         '5-2 -|',
         abjad.tweak('darkgreen').color,
@@ -119,7 +121,7 @@ maker(
 maker(
     ('fl', 6),
     baca.hairpin(
-        'o< p >o niente',
+        'o< mf >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
@@ -132,7 +134,7 @@ maker(
 maker(
     ('fl', 7),
     baca.hairpin(
-        'o< pp >o niente',
+        'o< mp >o niente',
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves(),
         ),
@@ -162,13 +164,6 @@ maker(
         ),
     )
 
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
-
 # eh
 
 maker(
@@ -189,6 +184,7 @@ maker(
 
 maker(
     ('eh', (1, 2)),
+    baca.dls_staff_padding(4),
     baca.hairpin(
         'o< mf >o niente',
         map=baca.pleaves().partition_by_counts([2], cyclic=True),
@@ -220,6 +216,11 @@ maker(
 
 maker(
     ('eh', (4, 5)),
+    baca.dls_staff_padding(6),
+    baca.hairpin(
+        'f >o niente',
+        selector=baca.tleaves().rleak(),
+        ),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(8).staff_padding,
@@ -246,6 +247,7 @@ maker(
 
 maker(
     ('cl', (1, 2)),
+    baca.dls_staff_padding(8),
     baca.pitch('F2'),
     faberge.even_tuplet_rhythm(
         denominator=2,
@@ -256,6 +258,11 @@ maker(
 # rh
 
 # perc
+
+maker(
+    'perc',
+    baca.dls_staff_padding(4),
+    )
 
 maker(
     ('perc', [1, 2]),
@@ -284,6 +291,7 @@ maker(
             ),
         baca.staff_lines(1),
         ),
+    baca.dynamic('f'),
     baca.material_annotation_spanner(
         '4-5 -|',
         abjad.tweak('darkgreen').color,
@@ -313,7 +321,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         r'\baca-crotales-bowed-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -342,6 +350,12 @@ maker(
         selector=baca.pleaves().rleak(),
         ),
     baca.make_repeat_tied_notes(),
+    baca.markup(
+        r'\baca-marimba-attackless-markup',
+        abjad.tweak(6).staff_padding,
+        abjad.tweak(0).parent_alignment_X,
+        literal=True,
+        ),
     baca.stem_tremolo(),
     )
 
@@ -357,6 +371,11 @@ maker(
 
 maker(
     ('vn', 1),
+    baca.hairpin(
+        'p niente o< p > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
@@ -365,11 +384,6 @@ maker(
 
 maker(
     ('vn', [1, 2, 3, 4, 5, 6, 7, 9]),
-    baca.hairpin(
-        'p niente o< p > pp',
-        map=baca.clparts([4]),
-        pieces=baca.lparts([1, 1, 2]),
-        ),
     baca.scp_spanner(
         'ord. -> pont. -> ord.',
         abjad.tweak(8).staff_padding,
@@ -383,6 +397,7 @@ maker(
 
 maker(
     ('vn', (1, 4)),
+    baca.dls_staff_padding(4),
     baca.pitch('A#4'),
     )
 
@@ -398,6 +413,11 @@ maker(
 
 maker(
     ('vn', 2),
+    baca.hairpin(
+        'mp niente o< mp > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
     baca.rhythm(
         r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
@@ -407,6 +427,11 @@ maker(
 
 maker(
     ('vn', 3),
+    baca.hairpin(
+        'mf niente o< mf > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
     baca.rhythm(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
         annotate_unpitched_music=True,
@@ -415,6 +440,11 @@ maker(
 
 maker(
     ('vn', 4),
+    baca.hairpin(
+        'f niente o< f > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
     baca.rhythm(
         r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
@@ -434,6 +464,11 @@ maker(
 maker(
     ('vn', (5, 8)),
     baca.pitch('B4'),
+    )
+
+maker(
+    ('vn', (5, 9)),
+    baca.dls_staff_padding(9),
     )
 
 maker(
@@ -467,10 +502,31 @@ maker(
         ),
     )
 
+# vn, va
+
+maker(
+    (['vn', 'va'], [5, 6, 7]),
+    baca.hairpin(
+        '"ff" niente o< ff > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    )
+
+maker(
+    (['vn', 'va'], 9),
+    baca.hairpin(
+        'mp niente o< mp > pp',
+        map=baca.clparts([4]),
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    )
+
 # va
 
 maker(
     'va',
+    baca.dls_staff_padding(9),
     baca.material_annotation_spanner(
         '3-2 / 3-3 =|',
         abjad.tweak(10.5).staff_padding,
@@ -521,7 +577,7 @@ maker(
             ),
         ),
     baca.hairpin(
-        'niente o< p > pp p niente o< p > pp p',
+        'niente o< mp > pp mp niente o< mp > pp mp',
         pieces=baca.clparts([1]),
         ),
     baca.rhythm(
@@ -550,7 +606,7 @@ maker(
             ),
         ),
     baca.hairpin(
-        'p niente o< p > pp niente o< p > pp p',
+        'mp niente o< mf > pp niente o< mf > pp mf',
         pieces=baca.clparts([1]),
         ),
     baca.rhythm(
@@ -578,7 +634,7 @@ maker(
             ),
         ),
     baca.hairpin(
-        'niente o< p > pp p p niente o< p > pp',
+        'niente o< f > pp f f niente o< f > pp',
         pieces=baca.clparts([1]),
         ),
     baca.rhythm(
@@ -607,11 +663,6 @@ maker(
 
 maker(
     ('va', [5, 6, 7, 9]),
-    baca.hairpin(
-        'p niente o< p > pp',
-        map=baca.clparts([4]),
-        pieces=baca.lparts([1, 1, 2]),
-        ),
     baca.scp_spanner(
         'ord. -> pont. -> ord.',
         abjad.tweak(8).staff_padding,
@@ -680,6 +731,26 @@ maker(
 # vc
 
 maker(
+    ('vc', (1, 3)),
+    baca.clef('bass'),
+    baca.hairpin(
+        'p < f-poco-scratch',
+        selector=baca.leaves().rleak(),
+        ),
+    )
+
+maker(
+    ('vc', (1, 4)),
+    baca.dls_staff_padding(5),
+    baca.flat_glissando('F2'),
+    baca.make_repeat_tied_notes(),
+    baca.scp_spanner(
+        'tasto =|',
+        abjad.tweak(3).staff_padding,
+        ),
+    )
+
+maker(
     ('vc', 5),
     baca.rhythm(
         r"\times 8/12 { c'2 c'1 c'2 c'1 }",
@@ -688,11 +759,27 @@ maker(
     )
 
 maker(
+    ('vc', [5, 6, 7]),
+    baca.hairpin(
+        'p f >o',
+        pieces=baca.clparts([1]),
+        ),
+    )
+
+maker(
     ('vc', [5, 6, 7, 9]),
-    baca.down_bow(
-        abjad.tweak(1).padding,
-        abjad.tweak(0.5).parent_alignment_X,
-        full=True,
+    baca.chunk(
+        baca.down_bow(
+            abjad.tweak(1).padding,
+            abjad.tweak(0.5).parent_alignment_X,
+            full=True,
+            selector=baca.pheads()[abjad.index([0], 2)],
+            ),
+        baca.up_bow(
+            abjad.tweak(1).padding,
+            abjad.tweak(0.5).parent_alignment_X,
+            selector=baca.pheads()[abjad.index([1], 2)],
+            ),
         ),
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,
@@ -702,18 +789,18 @@ maker(
     )
 
 maker(
+    ('vc', (5, 7)),
+    baca.dls_staff_padding(8),
+    baca.tuplet_bracket_down(),
+    )
+
+maker(
     ('vc', (5, 8)),
     baca.pitch('E2'),
     )
 
 maker(
     ('vc', (5, 9)),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
     baca.material_annotation_spanner(
         '3-3 =|',
         abjad.tweak(8).staff_padding,
@@ -737,7 +824,21 @@ maker(
     )
 
 maker(
+    ('vc', 8),
+    baca.dynamic('!'),
+    )
+
+maker(
     ('vc', 9),
+    baca.dls_staff_padding(6),
+    baca.dynamic(
+        '!',
+        selector=baca.leaves().rleak()[-1],
+        ),
+    baca.hairpin(
+        'pp p >o',
+        pieces=baca.clparts([1]),
+        ),
     baca.pitch('Eb2'),
     baca.rhythm(
         r"{ c'2 c'1 }",
