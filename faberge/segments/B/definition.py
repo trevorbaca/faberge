@@ -41,7 +41,7 @@ maker = baca.SegmentMaker(
         abjad.Tags().LOCAL_MEASURE_NUMBER_MARKUP,
         abjad.Tags().STAGE_NUMBER_MARKUP,
         ],
-    do_not_check_wellformedness=True,
+    #do_not_check_wellformedness=True,
     ignore_repeat_pitch_classes=True,
     phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
@@ -1043,11 +1043,6 @@ maker(
 # vn
 
 maker(
-    'vn',
-    baca.dls_staff_padding(5),
-    )
-
-maker(
     ('vn', 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
@@ -1061,16 +1056,24 @@ maker(
     )
 
 maker(
+    ('vn', (1, 53)),
+    baca.dls_staff_padding(5),
+    )
+
+maker(
+    ('vnx', (2, 8)),
+    baca.tacet(),
+    )
+
+maker(
     ('vn', (9, 22)),
     baca.dynamic('"ff"'),
-    baca.markup(
-        r'\faberge-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('F4'),
     faberge.spazzolati_rhythm(
         counts_rotation=-20,
+        ),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
         ),
     )
 
@@ -1082,13 +1085,17 @@ maker(
 maker(
     ('vn', (23, 52)),
     baca.dynamic('ppp'),
+    baca.flat_glissando(
+        'Eqf4',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
     baca.markup(
         r'\faberge-pochiss-scratch',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    baca.pitch('E~4'),
+    ##baca.pitch('E~4'),
     )
 
 maker(
@@ -1117,20 +1124,25 @@ maker(
             ),
         baca.staff_lines(1),
         ),
-    baca.markup(
-        r'\faberge-col-legno-battuto',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.clb_spanner(
+        3,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.staccato(
         selector=baca.pheads(),
         ),
+    baca.stem_down(),
     faberge.clb_rhythm(
         fuse_counts=[2, 2, 1],
         ),
     faberge.clb_staff_positions(
         rotation=-3,
         ),
+    )
+
+maker(
+    ('vn', (53, 80)),
+    baca.dls_staff_padding(10),
     )
 
 maker(
@@ -1151,15 +1163,15 @@ maker(
 
 maker(
     ('vn', (73, 80)),
-    baca.markup(
-        r'\faberge-col-legno-battuto',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.clb_spanner(
+        3,
+        abjad.tweak(5.5).staff_padding,
         ),
     baca.hairpin('"mf" >o niente'),
     baca.staccato(
         selector=baca.pheads(),
         ),
+    baca.stem_down(),
     faberge.clb_rhythm(
         fuse_counts=[2, 2, 1],
         ),
@@ -1171,28 +1183,29 @@ maker(
 # va
 
 maker(
-    'va',
-    baca.dls_staff_padding(5),
+    ('va', (1, 8)),
+    baca.flat_glissando(
+        'Eb3',
+        hide_middle_stems=True,
+        ),
+    baca.make_repeat_tied_notes(),
+    baca.stem_tremolo(
+        selector=baca.pleaves()[abjad.index([0, -1])],
+        ),
     )
 
 maker(
-    ('va', (1, 8)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('Eb3'),
-    baca.stem_tremolo(
-        selector=baca.pleaves(),
-        ),
+    ('va', (1, 52)),
+    baca.dls_staff_padding(5),
     )
 
 maker(
     ('va', (9, 22)),
     baca.dynamic('"ff"'),
-    baca.markup(
-        r'\faberge-spazz',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
     baca.pitch('F4'),
+    baca.spazzolato_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
     faberge.spazzolati_rhythm(
         counts_rotation=-21,
         denominator=8,
@@ -1211,13 +1224,16 @@ maker(
 maker(
     ('va', (23, 52)),
     baca.dynamic('pp'),
+    baca.flat_glissando(
+        'G3',
+        hide_middle_stems=True,
+        ),
     baca.make_repeat_tied_notes(),
     baca.markup(
         r'\faberge-tasto-plus-pochiss-scratch',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
-    baca.pitch('G3'),
     )
 
 maker(
@@ -1238,15 +1254,16 @@ maker(
 
 maker(
     ('va', (53, 80)),
-    baca.markup(
-        r'\faberge-col-legno-battuto',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.clb_spanner(
+        2,
+        abjad.tweak(5.5).staff_padding,
         ),
+    baca.dls_staff_padding(10),
     baca.staccato(
         selector=baca.pheads(),
         ),
     baca.staff_lines(1),
+    baca.stem_down(),
     faberge.clb_rhythm(
         fuse_counts=[1, 2, 2],
         ),
@@ -1263,14 +1280,17 @@ maker(
 # vc
 
 maker(
-    'vc',
-    baca.dls_staff_padding(6),
+    ('vc', (1, 36)),
+    baca.flat_glissando(
+        'Eb2',
+        hide_middle_stems=True,
+        ),
+    baca.make_repeat_tied_notes(),
     )
 
 maker(
-    ('vc', (1, 36)),
-    baca.make_repeat_tied_notes(),
-    baca.pitch('Eb2'),
+    ('vc', (1, 60)),
+    baca.dls_staff_padding(6),
     )
 
 maker(
@@ -1379,12 +1399,12 @@ maker(
             ),
         baca.staff_lines(1),
         ),
-    baca.dynamic('"mf"'),
-    baca.markup(
-        r'\faberge-col-legno-battuto',
-        abjad.tweak(1.5).padding,
-        literal=True,
+    baca.clb_spanner(
+        2,
+        abjad.tweak(5.5).staff_padding,
         ),
+    baca.dls_staff_padding(10),
+    baca.dynamic('"mf"'),
     baca.staccato(
         selector=baca.pheads(),
         ),
