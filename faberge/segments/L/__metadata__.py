@@ -100,7 +100,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Cello_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-effort-mf',
+                                value='niente',
                                 ),
                             ],
                         ),
@@ -327,11 +327,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
-                                prototype='abjad.Clef',
-                                value='bass',
-                                ),
-                            abjad.Momento(
-                                context='Piano_RH_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
                                     attribute='bar_extent',
@@ -339,6 +335,16 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='abjad.Clef',
+                                value='bass',
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
@@ -348,7 +354,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='\\baca-effort-mf',
                                 ),
                             ],
                         ),
@@ -497,6 +503,29 @@ metadata = abjad.OrderedDict(
                 '4/4',
                 '4/4',
                 ],
+            ),
+        (
+            'voice_metadata',
+            abjad.OrderedDict(
+                [
+                    (
+                        'Cello_Music_Voice',
+                        abjad.OrderedDict(
+                            [
+                                (
+                                    'PITCH',
+                                    abjad.OrderedDict(
+                                        [
+                                            ('name', 'CELLO_GLISSANDI'),
+                                            ('pitches_consumed', 6),
+                                            ]
+                                        ),
+                                    ),
+                                ]
+                            ),
+                        ),
+                    ]
+                ),
             ),
         ]
     )

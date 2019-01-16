@@ -27,3 +27,4 @@ from .single_swell import single_swell
 from .single_taper import single_taper
 from .spazzolati_rhythm import spazzolati_rhythm
 from .suffixed_colortrill_rhythm import suffixed_colortrill_rhythm
+from .tuning_peg_staff_positions import tuning_peg_staff_positions
