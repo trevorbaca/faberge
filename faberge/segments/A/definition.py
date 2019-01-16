@@ -162,7 +162,7 @@ maker(
 maker(
     ('flr', 57),
     baca.markup(
-        r'\faberge-to-bass-flute',
+        r'\baca-to-bass-flute-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.mmrest(0),
@@ -340,7 +340,7 @@ maker(
     ('eh', (81, 88)),
     baca.dynamic('"ff"'),
     baca.markup(
-        r'\faberge-keynoise',
+        r'\baca-keynoise-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -435,7 +435,7 @@ maker(
 maker(
     ('clr', 41),
     baca.markup(
-        r'\faberge-to-bass-clarinet',
+        r'\baca-to-bass-clarinet-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.mmrest(0),

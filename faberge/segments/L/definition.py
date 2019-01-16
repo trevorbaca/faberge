@@ -62,6 +62,11 @@ maker(
 # fl
 
 maker(
+    'fl',
+    baca.dls_staff_padding(4),
+    )
+
+maker(
     ('fl', 3),
     baca.dynamic_text_self_alignment_x(
         -1,
@@ -97,6 +102,11 @@ maker(
     )
 
 # eh
+
+maker(
+    'eh',
+    baca.dls_staff_padding(4),
+    )
 
 maker(
     ('eh', 5),
@@ -163,11 +173,11 @@ maker(
 
 maker(
     'cl',
-    baca.dls_staff_padding(8),
+    baca.dls_staff_padding(10),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(3.5).staff_padding,
+        abjad.tweak(5).staff_padding,
         ),
     )
 
@@ -246,9 +256,9 @@ maker(
             baca.clef_shift('bass'),
             ),
         ),
-    baca.dls_staff_padding(4),
+    baca.dls_staff_padding(6),
     baca.dynamic(
-        '(mp)',
+        'mp',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-2, 0)).extra_offset,
         ),
@@ -324,7 +334,8 @@ maker(
     'perc',
     baca.markup(
         r'\baca-castanets-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -359,7 +370,8 @@ maker(
     ('perc', 7),
     baca.markup(
         r'\baca-woodblock-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.rhythm(
@@ -405,6 +417,14 @@ maker(
     )
 
 maker(
+    ('vn', (1, 6)),
+    baca.clb_spanner(
+        3,
+        abjad.tweak(5.5).staff_padding,
+        ),
+    )
+
+maker(
     ('vn', 3),
     faberge.clb_rhythm(extra_counts=[4]),
     )
@@ -438,15 +458,15 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (1, 6)),
-    baca.damp_spanner(
-        abjad.tweak(7).staff_padding,
-        selector=baca.tleaves().rleak(),
-        ),
-    baca.markup(
-        r'\faberge-col-legno-battuto',
-        abjad.tweak(1.5).padding,
-        literal=True,
-        ),
+#    baca.damp_spanner(
+#        abjad.tweak(7).staff_padding,
+#        selector=baca.tleaves().rleak(),
+#        ),
+#    baca.markup(
+#        r'\baca-col-legno-battuto-markup',
+#        abjad.tweak(1.5).padding,
+#        literal=True,
+#        ),
     baca.material_annotation_spanner(
         '4-3 =|',
         abjad.tweak(7 + 2.5).staff_padding,
@@ -471,6 +491,11 @@ maker(
     )
 
 # va
+
+maker(
+    'va',
+    baca.dls_staff_padding(5),
+    )
 
 maker(
     ('va', 1),
@@ -524,13 +549,27 @@ maker(
         abjad.tweak(5).staff_padding,
         map=baca.plts(),
         ),
-    baca.dynamic('p'),
+    baca.dynamic(
+        'p-sempre',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-1, 0)).extra_offset,
+        ),
     baca.material_annotation_spanner(
         '4-4 =|',
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch('Eb3'),
     faberge.back_incised_divisions(),
+    )
+
+# va, vc
+
+maker(
+    (['va', 'vc'], (1, 6)),
+    baca.clb_spanner(
+        2,
+        abjad.tweak(5.5).staff_padding,
+        ),
     )
 
 # vc

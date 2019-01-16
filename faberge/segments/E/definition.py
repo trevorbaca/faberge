@@ -480,7 +480,7 @@ maker(
         abjad.tweak((-2, 0)).extra_offset,
         ),
     baca.markup(
-        r'\faberge-col-legno-battuto',
+        r'\baca-col-legno-battuto-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

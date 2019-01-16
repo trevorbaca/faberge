@@ -2757,7 +2757,7 @@ A_Flute_Music_Voice = {                                                        %
             \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup { \faberge-to-bass-flute }                               %! baca_markup:IndicatorCommand
+            ^ \markup { \baca-to-bass-flute-markup }                           %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3511,7 +3511,7 @@ A_English_Horn_Music_Voice = {                                                 %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-keynoise }                                        %! baca_markup:IndicatorCommand
+        ^ \markup { \baca-keynoise-markup }                                    %! baca_markup:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f'16                                                                   %! faberge_keynoise_rhythm
@@ -4418,7 +4418,7 @@ A_Clarinet_Music_Voice = {                                                     %
             \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup { \faberge-to-bass-clarinet }                            %! baca_markup:IndicatorCommand
+            ^ \markup { \baca-to-bass-clarinet-markup }                        %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 

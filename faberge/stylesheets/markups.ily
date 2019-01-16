@@ -15,33 +15,6 @@ faberge-colophon-markup = \markup {
 
 %%% DIRECTIVES %%%
 
-faberge-airtone = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    airtone
-
-faberge-attackless = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    attackless
-
-faberge-bow-directly-on-bridge-noise-only = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    \column {
-        "bow directly on bridge;"
-        "noise only: no pitch"
-    }
-
-faberge-col-legno-battuto = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "col legno battuto"
-
 faberge-col-legno-battuto-first-appearance = \markup
     \whiteout
     \override #'(box-padding . 0.5)
@@ -61,12 +34,6 @@ faberge-depress-silently = \markup
         "sustain with middle pedal"
     }
 
-faberge-doubletrill = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    doubletrill
-
 faberge-glissando-lentissimo-do-not-reattack-note-heads = \markup
     \whiteout
     \override #'(box-padding . 0.5)
@@ -75,12 +42,6 @@ faberge-glissando-lentissimo-do-not-reattack-note-heads = \markup
         "glissando lentissimo"
         "do not reattack not heads"
     }
-
-faberge-keynoise = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    keynoise
 
 faberge-left-broken-rf-one = \markup
     \upright
@@ -104,37 +65,11 @@ faberge-left-broken-rf-two = \markup
         \hspace #0.75
     }
 
-faberge-lv-possibile = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "lv possibile"
-
 faberge-match-sound-of-crotales = \markup
     \whiteout
     \override #'(box-padding . 0.5)
     \box
     "match sound of crotales"
-
-faberge-non-spazz = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "non spazz."
-
-faberge-pochiss-scratch = \markup
-    \whiteout
-    "pochiss. scratch"
-
-faberge-poco-pont-plus-sub-non-vib = \markup
-    \whiteout
-    "(poco pont.+) sub. non vib."
-
-faberge-remove-staple = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "remove staple"
 
 faberge-rf-one = \markup
     \upright
@@ -152,52 +87,6 @@ faberge-rub-sponge-on-bass-drum-head = \markup
         "rub sponge on bass drum head;"
         "noise only: no pitch"
     }
-
-faberge-spazz = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    spazz.
-
-faberge-spazzolato = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    spazzolato
-
-faberge-tasto-plus-pochiss-scratch = \markup
-    \whiteout
-    "tasto + pochiss. scratch"
-
-faberge-to-bass-clarinet = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "to bass clarinet"
-
-faberge-to-bass-flute = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "to bass flute"
-
-faberge-to-marimba = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "to marimba"
-
-faberge-xfb = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    XFB
-
-faberge-xfb-sempre = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "XFB sempre"
 
 %%% MARGIN MARKUP %%%
 

@@ -527,7 +527,7 @@ maker(
     baca.dynamic('fff'),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\faberge-doubletrill',
+        r'\baca-doubletrill-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -576,7 +576,7 @@ maker(
 maker(
     ('ehr', 61),
     baca.markup(
-        r'\faberge-remove-staple',
+        r'\baca-remove-staple-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.mmrest(0),
@@ -603,7 +603,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\faberge-airtone',
+        r'\baca-airtone-markup',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
         literal=True,
@@ -897,7 +897,7 @@ maker(
         ),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
-        r'\faberge-lv-possibile',
+        r'\baca-lv-possibile-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.ptail(0),
@@ -909,7 +909,7 @@ maker(
 maker(
     ('percr', 2),
     baca.markup(
-        r'\faberge-to-marimba',
+        r'\baca-to-marimba-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.mmrest(0),
@@ -1046,7 +1046,7 @@ maker(
     ('vn', 1),
     baca.make_single_attack(abjad.Duration(3, 4)),
     baca.markup(
-        r'\faberge-lv-possibile',
+        r'\baca-lv-possibile-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         selector=baca.ptail(0),
@@ -1091,7 +1091,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
-        r'\faberge-tasto-plus-pochiss-scratch =|',
+        r'\baca-tasto-plus-pochiss-scratch-markup =|',
         abjad.tweak(3).staff_padding,
         ),
     )
@@ -1152,7 +1152,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\faberge-bow-directly-on-bridge-noise-only',
+        r'\baca-bow-directly-on-bridge-noise-only-markup',
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
         literal=True,
@@ -1229,7 +1229,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.scp_spanner(
-        r'\faberge-tasto-plus-pochiss-scratch =|',
+        r'\baca-tasto-plus-pochiss-scratch-markup =|',
         abjad.tweak(3).staff_padding,
         ),
     )

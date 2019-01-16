@@ -79,6 +79,13 @@ maker(
             ),
         baca.staff_lines(1),
         ),
+    baca.dls_staff_padding(6),
+    baca.markup(
+        r'\baca-airtone-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-1 -|',
         abjad.tweak('red').color,
@@ -90,7 +97,7 @@ maker(
     )
 
 maker(
-    ('fl', 4),
+    ('fl', 5),
     baca.chunk(
         baca.bar_extent_persistent(
             (-2, 2),
@@ -98,10 +105,6 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    )
-
-maker(
-    ('fl', 5),
     baca.hairpin(
         'o< p >o niente',
         pieces=baca.lparts([1, 1 + 1]),
@@ -110,6 +113,11 @@ maker(
         "{ c'4. c'4. r4 }",
         annotate_unpitched_music=True,
         ),
+    )
+
+maker(
+    ('fl', (5, 8)),
+    baca.dls_staff_padding(4),
     )
 
 maker(
@@ -160,21 +168,24 @@ maker(
         ),
     )
 
-# tutti
-
-maker(
-    'tutti',
-    baca.dls_staff_padding(6),
-    )
-
 # fl, vn
 
 maker(
     (['fl', 'vn'], (1, 3)),
     baca.hairpin(
+        'o< "mf"',
+        selector=baca.leaves().rleak(),
+        map=baca.plts()[0],
+        ),
+    baca.hairpin(
         'o< "f"',
         selector=baca.leaves().rleak(),
-        map=baca.plts(),
+        map=baca.plts()[1],
+        ),
+    baca.hairpin(
+        'o< "ff"',
+        selector=baca.leaves().rleak(),
+        map=baca.plts()[2],
         ),
     )
 
@@ -182,6 +193,7 @@ maker(
 
 maker(
     'cl',
+    baca.dls_staff_padding(10),
     baca.material_annotation_spanner(
         '4-5 / 5-1 =|',
         abjad.tweak(5.5).staff_padding,
@@ -189,7 +201,7 @@ maker(
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
-        abjad.tweak(3.5).staff_padding,
+        abjad.tweak(5).staff_padding,
         rotation=-16,
         ),
     )
@@ -255,6 +267,11 @@ maker(
     )
 
 # eh
+
+maker(
+    'eh',
+    baca.dls_staff_padding(4),
+    )
 
 maker(
     ('eh', 1),
@@ -350,9 +367,11 @@ maker(
             ),
         baca.staff_lines(1),
         ),
+    baca.dls_staff_padding(8),
+    baca.dynamic('f'),
     baca.markup(
         r'\baca-woodblock-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -379,15 +398,8 @@ maker(
 # perc
 
 maker(
-    ('perc', 1),
-    baca.rhythm(
-        "{ c'2. r4 }",
-        annotate_unpitched_music=True,
-        ),
-    )
-
-maker(
     'perc',
+    baca.dls_staff_padding(6),
     baca.material_annotation_spanner(
         '4-5 / 5-1 =|',
         abjad.tweak(8).staff_padding,
@@ -397,6 +409,14 @@ maker(
         None,
         abjad.tweak(2).bound_details__right__padding,
         map=baca.plts(),
+        ),
+    )
+
+maker(
+    ('perc', 1),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
         ),
     )
 
@@ -468,6 +488,13 @@ maker(
             ),
         baca.staff_lines(1),
         ),
+    baca.dls_staff_padding(6),
+    baca.markup(
+        r'\baca-ob-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-1 -|',
         abjad.tweak('red').color,
@@ -480,9 +507,11 @@ maker(
 
 maker(
     ('vn', (4, 6)),
+    baca.dls_staff_padding(8),
+    baca.dynamic('f'),
     baca.markup(
         r'\baca-woodblock-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -515,6 +544,7 @@ maker(
         abjad.tweak(3).staff_padding,
         map=baca.plts(),
         ),
+    baca.dls_staff_padding(5),
     baca.material_annotation_spanner(
         '4-5 / 5-1 =|',
         abjad.tweak(8).staff_padding,
@@ -535,11 +565,12 @@ maker(
 # vc
 
 maker(
-    ('vc', (1, 3)),
+    ('vc', (1, 4)),
+    baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         '1-1 -|',
         abjad.tweak('red').color,
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     baca.note_head_style_harmonic(),
@@ -557,15 +588,27 @@ maker(
             ),
         baca.glissando(),
         baca.hairpin(
-            'niente o< p >o',
+            'niente o< mp >o',
             final_hairpin=False,
-            map=baca.runs().map(baca.rleak()),
+            map=baca.runs().map(baca.rleak())[0],
+            pieces=baca.clparts([1]),
+            ),
+        baca.hairpin(
+            'niente o< mf >o',
+            final_hairpin=False,
+            map=baca.runs().map(baca.rleak())[1],
+            pieces=baca.clparts([1]),
+            ),
+        baca.hairpin(
+            'niente o< f >o',
+            final_hairpin=False,
+            map=baca.runs().map(baca.rleak())[2],
             pieces=baca.clparts([1]),
             ),
         ),
     faberge.airtone_chain_rhythm(
         20,
-        [0, 1, 2, 3, 5],
+        [0, 1, 4, 5, 7, 8],
         do_not_overlap_counts=True,
         ),
     )
@@ -578,4 +621,23 @@ maker(
             baca.clef_shift('bass'),
             ),
         ),
+    )
+
+maker(
+    ('vc', (5, 8)),
+    baca.dls_staff_padding(6),
+    )
+
+maker(
+    ('vc', [5, 6, 7, 8]),
+    baca.hairpin(
+        'o< p >o niente',
+        pieces=baca.lparts([1, 1 + 1]),
+        selector=baca.leaves().rleak(),
+        ),
+    baca.pitch('F2'),
+    baca.stem_tremolo(
+        selector=baca.pleaves(),
+        ),
+    faberge.halves_rhythm(),
     )
