@@ -71,7 +71,7 @@ maker(
 
 maker(
     'fl',
-    baca.dls_staff_padding(6),
+    baca.dls_staff_padding(4),
     baca.material_annotation_spanner(
         '1-3 / 1-4 =|',
         abjad.tweak(8).staff_padding,
@@ -228,6 +228,27 @@ maker(
     faberge.downbeat_attack(),
     )
 
+maker(
+    ('perc', (3, 8)),
+    baca.dls_staff_padding(6),
+    baca.dynamic('p'),
+    # TODO: use staff position instead of pitch
+    baca.flat_glissando(
+        'A4',
+        ),
+    baca.make_notes(),
+    baca.markup(
+        r'\baca-bd-rolled-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
+    baca.stem_down(),
+    baca.stem_tremolo(
+        selector=baca.pheads()[abjad.index([0, -1])],
+        ),
+    )
+
 # vn
 
 maker(
@@ -242,8 +263,30 @@ maker(
 
 maker(
     ('vn', (1, 8)),
+    baca.chunk(
+        baca.hairpin(
+            'o< "f"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[0],
+            ),
+        baca.hairpin(
+            'o< "mf"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[1],
+            ),
+        baca.hairpin(
+            'o< "mp"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[2:4],
+            ),
+        baca.hairpin(
+            'o< "p"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[4:6],
+            ),
+        ),
     baca.dynamic(
-        '"f"',
+        '"ff"',
         selector=baca.rest(0),
         ),
     faberge.airtone_chain_rhythm(20, [1, 4, 7, 10, 14, 18]),
@@ -260,11 +303,6 @@ maker(
             ),
         baca.staff_lines(5),
         selector=baca.leaves().rleak()[-1],
-        ),
-    baca.hairpin(
-        'o< "f"',
-        selector=baca.leaves().rleak(),
-        map=baca.plts(),
         ),
     baca.staff_position(0),
     )
@@ -283,6 +321,28 @@ maker(
 
 maker(
     ('va', (1, 8)),
+    baca.chunk(
+        baca.hairpin(
+            'o< "f"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[0],
+            ),
+        baca.hairpin(
+            'o< "mf"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[1],
+            ),
+        baca.hairpin(
+            'o< "mp"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[2:4],
+            ),
+        baca.hairpin(
+            'o< "p"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[4:6],
+            ),
+        ),
     faberge.airtone_chain_rhythm(20, [0, 3, 6, 9, 13, 17]),
     )
 
@@ -314,11 +374,31 @@ maker(
             persist='CELLO_GLISSANDI',
             ),
         baca.glissando(),
-        baca.hairpin(
-            'niente o< p >o',
-            final_hairpin=False,
-            map=baca.runs().map(baca.rleak()),
-            pieces=baca.clparts([1]),
+        baca.chunk(
+            baca.hairpin(
+                'niente o< mf >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[0],
+                pieces=baca.clparts([1]),
+                ),
+            baca.hairpin(
+                'niente o< mp >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[1],
+                pieces=baca.clparts([1]),
+                ),
+            baca.hairpin(
+                'niente o< p >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[2:4],
+                pieces=baca.clparts([1]),
+                ),
+            baca.hairpin(
+                'niente o< pp >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[4:6],
+                pieces=baca.clparts([1]),
+                ),
             ),
         ),
     faberge.airtone_chain_rhythm(
