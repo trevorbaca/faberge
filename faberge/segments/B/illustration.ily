@@ -7252,7 +7252,7 @@ B_Violin_Music_Voice = {                                                       %
     % [B Violin_Music_Voice measure 109 / measure 13]                          %! _comment_measure_numbers
     f'16                                                                       %! faberge_spazzolati_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-effort-ff-parenthesized                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7579,10 +7579,13 @@ B_Violin_Music_Voice = {                                                       %
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-pochiss-scratch }                                     %! baca_markup:IndicatorCommand
     \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(3)
     \glissando                                                                 %! baca_glissando
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \faberge-tasto-plus-pochiss-scratch       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #3                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [B Violin_Music_Voice measure 120 / measure 24]                          %! _comment_measure_numbers
     \hide NoteHead                                                             %! baca_glissando
@@ -7632,7 +7635,7 @@ B_Violin_Music_Voice = {                                                       %
     % [B Violin_Music_Voice measure 133 / measure 37]                          %! _comment_measure_numbers
     eqf'!2.                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-ppp-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -7692,6 +7695,7 @@ B_Violin_Music_Voice = {                                                       %
     eqf'!2                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
     \times 10/12 {                                                             %! faberge_clb_rhythm
@@ -7709,6 +7713,7 @@ B_Violin_Music_Voice = {                                                       %
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
         [                                                                      %! faberge_clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup           %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -7738,7 +7743,6 @@ B_Violin_Music_Voice = {                                                       %
 
         a'8                                                                    %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
         c''8                                                                   %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -8176,6 +8180,7 @@ B_Violin_Music_Voice = {                                                       %
     - \tweak extra-offset #'(-2 . 0)                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-effort-mf-parenthesized                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     ^ \markup { \faberge-bow-directly-on-bridge-noise-only }                   %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCLB                                                       %! CLB:baca_clb_spanner:PiecewiseCommand(3)
 
@@ -8198,7 +8203,7 @@ B_Violin_Music_Voice = {                                                       %
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         b'8                                                                    %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-effort-mf-parenthesized                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8480,7 +8485,7 @@ B_Viola_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-va-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-va-markup                             %! _clone_segment_initial_short_instrument_name
-    \override DynamicLineSpanner.staff-padding = #5                            %! baca_dls_staff_padding:OverrideCommand(1)
+    \override DynamicLineSpanner.staff-padding = #7                            %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "alto"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
@@ -8654,7 +8659,7 @@ B_Viola_Music_Voice = {                                                        %
 
         f'8                                                                    %! faberge_spazzolati_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-effort-ff-parenthesized                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8993,10 +8998,13 @@ B_Viola_Music_Voice = {                                                        %
     g2                                                                         %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-tasto-plus-pochiss-scratch }                          %! baca_markup:IndicatorCommand
     \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(3)
     \glissando                                                                 %! baca_glissando
+    - \abjad-dashed-line-with-hook                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-markup \faberge-tasto-plus-pochiss-scratch       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak staff-padding #3                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
     % [B Viola_Music_Voice measure 120 / measure 24]                           %! _comment_measure_numbers
     \hide NoteHead                                                             %! baca_glissando
@@ -9046,7 +9054,7 @@ B_Viola_Music_Voice = {                                                        %
     % [B Viola_Music_Voice measure 133 / measure 37]                           %! _comment_measure_numbers
     g2.                                                                        %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-pp-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
@@ -9124,6 +9132,7 @@ B_Viola_Music_Voice = {                                                        %
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \bacaStopTextSpanSCP                                                   %! SCP:baca_scp_spanner:PiecewiseCommand(3)
         [                                                                      %! faberge_clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -9676,7 +9685,7 @@ B_Viola_Music_Voice = {                                                        %
         % [B Viola_Music_Voice measure 169 / measure 73]                       %! _comment_measure_numbers
         d'8                                                                    %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-effort-mf-parenthesized                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -9996,18 +10005,25 @@ B_Cello_Music_Voice = {                                                        %
     ef,!1                                                                      %! baca_make_repeat_tied_notes
 
     % [B Cello_Music_Voice measure 105 / measure 9]                            %! _comment_measure_numbers
-    \override TextSpanner.staff-padding = #3                                   %! baca_text_spanner_staff_padding:OverrideCommand(1)
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "(tasto + poco vib.)"                       %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "molto pont. + vib. molto"                 %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "(tasto)"                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "molto pont."                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "(poco vib.)"                               %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "vib. molto"                               %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanVibrato                                                  %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
 
     % [B Cello_Music_Voice measure 106 / measure 10]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
@@ -10022,7 +10038,8 @@ B_Cello_Music_Voice = {                                                        %
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(2)
+    \bacaStopTextSpanVibrato                                                   %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(2)
 
     % [B Cello_Music_Voice measure 110 / measure 14]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
@@ -10054,15 +10071,23 @@ B_Cello_Music_Voice = {                                                        %
     % [B Cello_Music_Voice measure 119 / measure 23]                           %! _comment_measure_numbers
     ef,!2                                                                      %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \baca-ff-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-dashed-line-with-arrow                                            %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "(molto pont. + vib. molto)"                %! baca_text_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-right-text "tasto + poco vib."                        %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #0.5                                  %! baca_text_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.stencil-align-dir-y #center                   %! baca_text_spanner:PiecewiseCommand(1)
-    \startTextSpan                                                             %! baca_text_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "(molto pont.)"                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto"                                    %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "(vib. molto)"                              %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "poco vib."                                %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanVibrato                                                  %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(1)
 
     % [B Cello_Music_Voice measure 120 / measure 24]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
@@ -10089,7 +10114,8 @@ B_Cello_Music_Voice = {                                                        %
 
     % [B Cello_Music_Voice measure 127 / measure 31]                           %! _comment_measure_numbers
     ef,!2.                                                                     %! baca_make_repeat_tied_notes
-    \stopTextSpan                                                              %! baca_text_spanner:PiecewiseCommand(2)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(2)
+    \bacaStopTextSpanVibrato                                                   %! VIBRATO:baca_vibrato_spanner:PiecewiseCommand(2)
 
     % [B Cello_Music_Voice measure 128 / measure 32]                           %! _comment_measure_numbers
     ef,!1                                                                      %! baca_make_repeat_tied_notes
@@ -10111,67 +10137,219 @@ B_Cello_Music_Voice = {                                                        %
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
     ef,!2                                                                      %! baca_make_repeat_tied_notes
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
-    \times 27/28 {                                                             %! baca_make_fused_tuplet_monads
+    % [B Cello_Music_Voice measure 133 / measure 37]                           %! _comment_measure_numbers
+    \override DynamicLineSpanner.staff-padding = #8                            %! baca_dls_staff_padding:OverrideCommand(1)
+    ef,!4                                                                      %! baca_make_repeated_duration_notes
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak staff-padding #5.5                                                %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-non-vib-markup }                                         %! baca_markup:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \glissando                                                                 %! baca_glissando
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "(tasto)"                                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
 
-        % [B Cello_Music_Voice measure 133 / measure 37]                       %! _comment_measure_numbers
-        ef,!\longa..                                                           %! baca_make_fused_tuplet_monads
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-glissando-lentissimo-do-not-reattack-note-heads } %! baca_markup:IndicatorCommand
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
-        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "(tasto+non vib.)"                      %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #6                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    e,4                                                                        %! baca_make_repeated_duration_notes
 
-    }                                                                          %! baca_make_fused_tuplet_monads
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 134 / measure 38]                           %! _comment_measure_numbers
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 135 / measure 39]                           %! _comment_measure_numbers
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 136 / measure 40]                           %! _comment_measure_numbers
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 137 / measure 41]                           %! _comment_measure_numbers
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 138 / measure 42]                           %! _comment_measure_numbers
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    e,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 139 / measure 43]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 140 / measure 44]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
     % [B Cello_Music_Voice measure 141 / measure 45]                           %! _comment_measure_numbers
-    ff,!\breve.                                                                %! baca_make_fused_tuplet_monads
-    \glissando                                                                 %! baca_glissando
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
-    \times 25/28 {                                                             %! baca_make_fused_tuplet_monads
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-        % [B Cello_Music_Voice measure 145 / measure 49]                       %! _comment_measure_numbers
-        d,\longa..                                                             %! baca_make_fused_tuplet_monads
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(1)
-        \glissando                                                             %! baca_glissando
-        - \abjad-dashed-line-with-arrow                                        %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "PO"                                    %! baca_text_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-right-text "tasto poss."                          %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #0.5                              %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.stencil-align-dir-y #center               %! baca_text_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #6                                              %! baca_text_spanner:PiecewiseCommand(1)
-        \startTextSpan                                                         %! baca_text_spanner:PiecewiseCommand(1)
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-    }                                                                          %! baca_make_fused_tuplet_monads
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! baca_make_fused_tuplet_monads
-    \times 11/16 {                                                             %! baca_make_fused_tuplet_monads
+    % [B Cello_Music_Voice measure 142 / measure 46]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-        % [B Cello_Music_Voice measure 153 / measure 57]                       %! _comment_measure_numbers
-        cs,!\breve....                                                         %! baca_make_fused_tuplet_monads
-        \glissando                                                             %! baca_glissando
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-        bs,,!8                                                                 %! baca_make_fused_tuplet_monads
-        - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
-        \stopTextSpan                                                          %! baca_text_spanner:PiecewiseCommand(2)
-        \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+    d,4                                                                        %! baca_make_repeated_duration_notes
 
-    }                                                                          %! baca_make_fused_tuplet_monads
+    % [B Cello_Music_Voice measure 143 / measure 47]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 144 / measure 48]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 145 / measure 49]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \abjad-solid-line-with-arrow                                             %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-left-text "PO"                                        %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \baca-text-spanner-right-text "tasto poss."                              %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak bound-details.right.padding #2.75                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):autodetect
+    - \tweak bound-details.right.stencil-align-dir-y #center                   %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    - \tweak staff-padding #3                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+    \bacaStartTextSpanSCP                                                      %! SCP:baca_scp_spanner:PiecewiseCommand(1)
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 146 / measure 50]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 147 / measure 51]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 148 / measure 52]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 149 / measure 53]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 150 / measure 54]                           %! _comment_measure_numbers
+    d,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 151 / measure 55]                           %! _comment_measure_numbers
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 152 / measure 56]                           %! _comment_measure_numbers
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 153 / measure 57]                           %! _comment_measure_numbers
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 154 / measure 58]                           %! _comment_measure_numbers
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 155 / measure 59]                           %! _comment_measure_numbers
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    % [B Cello_Music_Voice measure 156 / measure 60]                           %! _comment_measure_numbers
+    c,4                                                                        %! baca_make_repeated_duration_notes
+
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    c,4                                                                        %! baca_make_repeated_duration_notes
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
+    \bacaStopTextSpanSCP                                                       %! SCP:baca_scp_spanner:PiecewiseCommand(2)
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
     \times 20/22 {                                                             %! faberge_clb_rhythm
@@ -10181,7 +10359,9 @@ B_Cello_Music_Voice = {                                                        %
         \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \override DynamicLineSpanner.staff-padding = #10                       %! baca_dls_staff_padding:OverrideCommand(1)
+        \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TextScript.staff-padding = #8                                %! baca_script_staff_padding:OverrideCommand(1)
+        \override TupletBracket.staff-padding = #3                             %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
         e8                                                                     %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -10400,7 +10580,6 @@ B_Cello_Music_Voice = {                                                        %
 
         d8                                                                     %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        \revert TextSpanner.staff-padding                                      %! baca_text_spanner_staff_padding:OverrideCommand(2)
 
         d8                                                                     %! faberge_clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -10488,7 +10667,7 @@ B_Cello_Music_Voice = {                                                        %
         % [B Cello_Music_Voice measure 169 / measure 73]                       %! _comment_measure_numbers
         e8                                                                     %! faberge_clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
+        \baca-effort-mf-parenthesized                                          %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak to-barline ##t                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10698,7 +10877,9 @@ B_Cello_Music_Voice = {                                                        %
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         ]                                                                      %! faberge_clb_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
+        \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
         \revert TextScript.staff-padding                                       %! baca_script_staff_padding:OverrideCommand(2)
+        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_clb_rhythm
 
