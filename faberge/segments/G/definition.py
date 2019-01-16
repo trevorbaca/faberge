@@ -657,10 +657,6 @@ maker(
 
 maker(
     ('va', (3, 6)),
-    baca.bow_speed_spanner(
-        'XFB =|',
-        abjad.tweak(3).staff_padding,
-        ),
     baca.dynamic('mp'),
     baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
@@ -669,6 +665,9 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch('D3'),
+    baca.xfb_spanner(
+        abjad.tweak(3).staff_padding,
+        ),
     )
 
 maker(

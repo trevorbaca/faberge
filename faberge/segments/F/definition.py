@@ -760,10 +760,6 @@ maker(
 
 maker(
     ('va', 5),
-    baca.bow_speed_spanner(
-        'XFB =|',
-        abjad.tweak(5.5).staff_padding,
-        ),
     baca.breathe(),
     baca.dls_staff_padding(5),
     baca.dynamic('mp'),
@@ -776,6 +772,9 @@ maker(
         ),
     baca.pitch('D3'),
     baca.staff_lines(5),
+    baca.xfb_spanner(
+        abjad.tweak(5.5).staff_padding,
+        ),
     )
 
 maker(

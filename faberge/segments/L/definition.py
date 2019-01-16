@@ -627,11 +627,6 @@ maker(
 
 maker(
     ('va', (7, 8)),
-    baca.bow_speed_spanner(
-        'XFB =|',
-        abjad.tweak(5).staff_padding,
-        map=baca.plts(),
-        ),
     baca.dynamic(
         'p-sempre',
         abjad.tweak((0, 0)).X_extent,
@@ -642,6 +637,10 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch('Eb3'),
+    baca.xfb_spanner(
+        abjad.tweak(5).staff_padding,
+        map=baca.plts(),
+        ),
     faberge.back_incised_divisions(),
     )
 

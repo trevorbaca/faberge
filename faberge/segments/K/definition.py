@@ -485,14 +485,13 @@ maker(
 
 maker(
     ('va', (1, 5)),
-    baca.bow_speed_spanner(
-        'XFB =|',
-        abjad.tweak(3).staff_padding,
-        ),
     baca.material_annotation_spanner(
         'A.4 -|',
         abjad.tweak('red').color,
         abjad.tweak(5.5).staff_padding,
+        ),
+    baca.xfb_spanner(
+        abjad.tweak(3).staff_padding,
         ),
     )
 
