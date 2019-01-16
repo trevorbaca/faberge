@@ -213,12 +213,21 @@ maker(
     baca.accent(
         selector=baca.pleaf(-1),
         ),
-    baca.beam(),
     baca.dynamic(
-        'mp',
+        'f',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-1, 0)).extra_offset,
         ),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
+        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('rh', (5, 6)),
+    baca.beam(),
     baca.material_annotation_spanner(
         '2-4 -|',
         abjad.tweak('red').color,
@@ -226,10 +235,12 @@ maker(
         ),
     baca.ottava(),
     baca.pitch("<G6 A6 B6 C7>"),
-    baca.rhythm(
-        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
-        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
+    )
+
+maker(
+    ('rh', 6),
+    faberge.downbeat_attack(
+        denominator=8,
         ),
     )
 
@@ -250,6 +261,15 @@ maker(
     baca.accent(
         selector=baca.pleaf(-1),
         ),
+    baca.rhythm(
+        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
+        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (5, 6)),
     baca.beam(),
     baca.markup(
         r'\baca-sharp-markup',
@@ -258,10 +278,12 @@ maker(
         ),
     baca.ottava(),
     baca.pitch("<F6 G6 A6>"),
-    baca.rhythm(
-        "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
-        " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
+    )
+
+maker(
+    ('lh', 6),
+    faberge.downbeat_attack(
+        denominator=8,
         ),
     )
 
@@ -274,6 +296,13 @@ maker(
 
 maker(
     ('perc', 5),
+    faberge.downbeat_attack(
+        denominator=2,
+        ),
+    )
+
+maker(
+    ('perc', (5, 6)),
     baca.chunk(
         baca.bar_extent_persistent(
             (0, 2),
@@ -283,11 +312,13 @@ maker(
         baca.staff_lines(1),
         ),
     baca.dynamic('p'),
-    baca.laissez_vibrer(),
+    baca.laissez_vibrer(
+        selector=baca.ptails(),
+        ),
     baca.markup(
         r'\baca-bd-struck-markup',
-        abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -297,13 +328,17 @@ maker(
         ),
     baca.staff_position(-1),
     baca.stem_down(),
+    )
+
+maker(
+    ('perc', 6),
     faberge.downbeat_attack(
         denominator=2,
         ),
     )
 
 maker(
-    ('perc', 6),
+    ('perc', 7),
     baca.chunk(
         baca.bar_extent_persistent(
             (-2, 2),
@@ -326,8 +361,8 @@ maker(
     baca.dynamic('f'),
     baca.markup(
         r'\baca-woodblock-markup',
-        abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -420,7 +455,7 @@ maker(
         ),
     baca.beam(),
     baca.dynamic(
-        'mp-ancora',
+        'f',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-0.75, 0)).extra_offset,
         ),
@@ -741,7 +776,7 @@ maker(
             ),
         ),
     baca.dynamic(
-        'mp',
+        'f',
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-1, 0)).extra_offset,
         ),
@@ -760,3 +795,42 @@ maker(
         selector=baca.pleaves(),
         ),
     )
+
+maker(
+    ('vc', (6, 8)),
+    baca.dls_staff_padding(8),
+    baca.material_annotation_spanner(
+        '1-1 -|',
+        abjad.tweak('red').color,
+        abjad.tweak(8).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.note_head_style_harmonic(),
+    baca.string_number_spanner(
+        'IV =|',
+        abjad.tweak(5.5).staff_padding,
+        right_broken=True,
+        ),
+    baca.suite(
+        baca.untie_to(
+            selector=baca.pleaves(),
+            ),
+        baca.pitches(
+            'Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3',
+            persist='CELLO_GLISSANDI',
+            ),
+        baca.glissando(),
+        baca.hairpin(
+            'niente o< p >o',
+            final_hairpin=False,
+            map=baca.runs().map(baca.rleak()),
+            pieces=baca.clparts([1]),
+            ),
+        ),
+    faberge.airtone_chain_rhythm(
+        20,
+        [0, 1, 3, 4, 6, 7, 8, 9],
+        do_not_overlap_counts=True,
+        ),
+    )
+
