@@ -118,11 +118,10 @@ metadata = abjad.OrderedDict(
                                 edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
-                                    after=True,
                                     attribute='bar_extent',
                                     context='Staff',
                                     grob='bar_line',
-                                    value=(0, 2),
+                                    value=(-2, 2),
                                     ),
                                 ),
                             abjad.Momento(
@@ -138,7 +137,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 prototype='baca.StaffLines',
-                                value=1,
+                                value=5,
                                 ),
                             ],
                         ),
@@ -148,7 +147,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Clarinet_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='p',
                                 ),
                             ],
                         ),
@@ -194,7 +193,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='English_Horn_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='\\baca-effort-ff',
                                 ),
                             ],
                         ),
@@ -242,7 +241,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Flute_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='\\baca-effort-ff',
                                 ),
                             ],
                         ),
@@ -290,7 +289,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='pp',
                                 ),
                             ],
                         ),
@@ -357,7 +356,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='ff',
+                                value='\\baca-effort-ff',
                                 ),
                             ],
                         ),

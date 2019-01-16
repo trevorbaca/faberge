@@ -216,9 +216,12 @@ O_Flute_Music_Voice = {                                                        %
     b'\breve                                                                   %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“BassFlute”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-very-small-maraca-boxed }                                %! baca_markup:IndicatorCommand
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -336,9 +339,12 @@ O_English_Horn_Music_Voice = {                                                 %
     b'\breve                                                                   %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“EnglishHorn”)"                       %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-very-small-maraca-boxed }                                %! baca_markup:IndicatorCommand
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -437,79 +443,60 @@ O_Clarinet_Music_Voice = {                                                     %
 
     % [O Clarinet_Music_Voice measure 279 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-bcl-markup                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+    \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.line-count = 5                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-bcl-markup                            %! _clone_segment_initial_short_instrument_name
-    \override DynamicLineSpanner.staff-padding = #7                            %! baca_dls_staff_padding:OverrideCommand(1)
+    \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
     \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+    g\breve                                                                    %! baca_make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
+    \glissando                                                                 %! baca_glissando
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-bcl-markup                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [O Clarinet_Music_Voice measure 280 / measure 2]                         %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
+    g1..                                                                       %! baca_make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 281 / measure 3]                         %! _comment_measure_numbers
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    g\breve                                                                    %! baca_make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 282 / measure 4]                         %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    g1..                                                                       %! baca_make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 283 / measure 5]                         %! _comment_measure_numbers
-    b'4                                                                        %! faberge_downbeat_attack
-    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    g\breve                                                                    %! baca_make_repeat_tied_notes
 
-    r1..
-
-    <<                                                                         %! _make_multimeasure_rest_container
-
-        \context Voice = "Clarinet_Music_Voice"                                %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [O Clarinet_Music_Voice measure 284 / measure 6]                 %! _comment_measure_numbers
-            \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            d''1 * 7/4                                                         %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-        \context Voice = "Clarinet_Rest_Voice"                                 %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [O Clarinet_Rest_Voice measure 284 / measure 6]                  %! _comment_measure_numbers
-            R1 * 7/4                                                           %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-    >>                                                                         %! _make_multimeasure_rest_container
+    % [O Clarinet_Music_Voice measure 284 / measure 6]                         %! _comment_measure_numbers
+    g1..                                                                       %! baca_make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 285 / measure 7]                         %! _comment_measure_numbers
-    R1 * 2                                                                     %! _make_measure_silences
+    g\breve                                                                    %! baca_make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 286 / measure 8]                         %! _comment_measure_numbers
-    R1 * 7/4                                                                   %! _make_measure_silences
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
+    g1..                                                                       %! baca_make_repeat_tied_notes
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -567,9 +554,12 @@ O_Piano_RH_Music_Voice = {                                                     %
     d\breve                                                                    %! baca_make_repeat_tied_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-    \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Piano”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-very-small-maraca-boxed }                                %! baca_markup:IndicatorCommand
     \override Staff.BarLine.bar-extent = #'(-2 . 0)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
     \override PianoStaff.InstrumentName.color = #(x11-color 'OliveDrab)        %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
@@ -796,80 +786,68 @@ O_Piano_LH_Music_Staff = <<                                                    %
 
 O_Percussion_Music_Voice = {                                                   %! extern
 
-    {
+    % [O Percussion_Music_Voice measure 279 / measure 1]                       %! _comment_measure_numbers
+    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \stopStaff                                                                 %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.line-count = 1                           %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
+    \set Staff.instrumentName = \faberge-perc-markup                           %! _clone_segment_initial_short_instrument_name
+    \override DynamicLineSpanner.staff-padding = #4                            %! baca_dls_staff_padding:OverrideCommand(1)
+    \clef "treble"                                                             %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
+%@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+    \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
+    \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
+    a'\breve                                                                   %! baca_make_notes
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+    \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+    ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
+    ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
+    - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
+    - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-bd-rolled-markup }                                       %! baca_markup:IndicatorCommand
+    \glissando                                                                 %! baca_glissando
+    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
+    \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
+    \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        % [O Percussion_Music_Voice measure 279 / measure 1]                   %! _comment_measure_numbers
-        \set Staff.shortInstrumentName = \faberge-perc-markup                  %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \stopStaff                                                             %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.StaffSymbol.line-count = 1                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
-        \set Staff.instrumentName = \faberge-perc-markup                       %! _clone_segment_initial_short_instrument_name
-        \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
-        \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
-        \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b'4
-        - \tweak color #(x11-color 'green4)                                    %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-        \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
-        ^ \baca-reapplied-indicator-markup "[“Perc.”]"                         %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
-        ^ \baca-reapplied-indicator-markup "(“Percussion”)"                    %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        \set Staff.shortInstrumentName = \faberge-perc-markup                  %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
-        \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
-
-        b'4
-
-        b'4
-
-        b'4
-
-        b'4
-
-        r2.
-
-    }
-
-    <<                                                                         %! _make_multimeasure_rest_container
-
-        \context Voice = "Percussion_Music_Voice"                              %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [O Percussion_Music_Voice measure 280 / measure 2]               %! _comment_measure_numbers
-            \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            c'1 * 7/4                                                          %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-        \context Voice = "Percussion_Rest_Voice"                               %! _make_multimeasure_rest_container
-        {                                                                      %! _make_multimeasure_rest_container
-
-            % [O Percussion_Rest_Voice measure 280 / measure 2]                %! _comment_measure_numbers
-            R1 * 7/4                                                           %! _make_multimeasure_rest_container
-
-        }                                                                      %! _make_multimeasure_rest_container
-
-    >>                                                                         %! _make_multimeasure_rest_container
+    % [O Percussion_Music_Voice measure 280 / measure 2]                       %! _comment_measure_numbers
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \override Dots.transparent = ##t                                           %! baca_glissando
+    \override Stem.transparent = ##t                                           %! baca_glissando
+    a'1..                                                                      %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 281 / measure 3]                       %! _comment_measure_numbers
-    R1 * 2                                                                     %! _make_measure_silences
+    a'\breve                                                                   %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 282 / measure 4]                       %! _comment_measure_numbers
-    R1 * 7/4                                                                   %! _make_measure_silences
+    a'1..                                                                      %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 283 / measure 5]                       %! _comment_measure_numbers
-    R1 * 2                                                                     %! _make_measure_silences
+    a'\breve                                                                   %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 284 / measure 6]                       %! _comment_measure_numbers
-    R1 * 7/4                                                                   %! _make_measure_silences
+    a'1..                                                                      %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 285 / measure 7]                       %! _comment_measure_numbers
-    R1 * 2                                                                     %! _make_measure_silences
+    a'\breve                                                                   %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 286 / measure 8]                       %! _comment_measure_numbers
-    R1 * 7/4                                                                   %! _make_measure_silences
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
+    \revert Dots.transparent                                                   %! baca_glissando
+    \revert Stem.transparent                                                   %! baca_glissando
+    a'1..                                                                      %! baca_make_notes
+    :32                                                                        %! baca_stem_tremolo:IndicatorCommand
+    \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -920,7 +898,6 @@ O_Violin_Music_Voice = {                                                       %
         \once \override Staff.StaffSymbol.line-count = 5                       %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-vn-markup                         %! _clone_segment_initial_short_instrument_name
-        \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
         \clef "treble"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
@@ -928,7 +905,7 @@ O_Violin_Music_Voice = {                                                       %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        <f'' gtqs''!>1
+        <fs''! aqs''!>1
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -939,7 +916,7 @@ O_Violin_Music_Voice = {                                                       %
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        <f'' gtqs''!>1.
+        <fs''! aqs''!>1.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -949,11 +926,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 7/5 {                                                               %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 280 / measure 2]                       %! _comment_measure_numbers
-        <f'' gtqs''!>2
+        <fs''! aqs''!>2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        <f'' gtqs''!>2.
+        <fs''! aqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -963,11 +940,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 281 / measure 3]                       %! _comment_measure_numbers
-        <f'' gtqs''!>1
+        <fs''! aqs''!>1
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        <f'' gtqs''!>1.
+        <fs''! aqs''!>1.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -977,11 +954,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 7/5 {                                                               %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 282 / measure 4]                       %! _comment_measure_numbers
-        <f'' gtqs''!>2
+        <fs''! aqs''!>2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        <f'' gtqs''!>2.
+        <fs''! aqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -991,13 +968,13 @@ O_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 283 / measure 5]                       %! _comment_measure_numbers
-        ef''!1                                                                 %! faberge_halves_rhythm
+        <fs''! aqs''!>1
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        ef''!1.                                                                %! faberge_halves_rhythm
+        <fs''! aqs''!>1.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1007,11 +984,11 @@ O_Violin_Music_Voice = {                                                       %
     \times 7/5 {                                                               %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 284 / measure 6]                       %! _comment_measure_numbers
-        ef''!2                                                                 %! faberge_halves_rhythm
+        <fs''! aqs''!>2
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        ef''!2.                                                                %! faberge_halves_rhythm
+        <fs''! aqs''!>2.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1021,19 +998,18 @@ O_Violin_Music_Voice = {                                                       %
     \times 8/10 {                                                              %! faberge_halves_rhythm
 
         % [O Violin_Music_Voice measure 285 / measure 7]                       %! _comment_measure_numbers
-        ef''!1                                                                 %! faberge_halves_rhythm
+        <fs''! aqs''!>1
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        ef''!1.                                                                %! faberge_halves_rhythm
+        <fs''! aqs''!>1.
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_halves_rhythm
 
     % [O Violin_Music_Voice measure 286 / measure 8]                           %! _comment_measure_numbers
-    ef''!1..                                                                   %! baca_make_notes
+    <fs''! aqs''!>1..
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1088,14 +1064,13 @@ O_Viola_Music_Voice = {                                                        %
         \startStaff                                                            %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
         \set Staff.instrumentName = \faberge-va-markup                         %! _clone_segment_initial_short_instrument_name
         \override DynamicLineSpanner.staff-padding = #6                        %! baca_dls_staff_padding:OverrideCommand(1)
-        \override TupletBracket.staff-padding = #1.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \clef "alto"                                                           %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
         \once \override Staff.InstrumentName.color = #(x11-color 'green4)      %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \once \override Staff.Clef.color = #(x11-color 'green4)                %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        dtqf''!\breve                                                          %! faberge_halves_rhythm
+        dqf''!\breve                                                           %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1106,7 +1081,7 @@ O_Viola_Music_Voice = {                                                        %
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        dtqf''!1                                                               %! faberge_halves_rhythm
+        dqf''!1                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1116,11 +1091,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 280 / measure 2]                        %! _comment_measure_numbers
-        dtqf''!1..                                                             %! faberge_halves_rhythm
+        dqf''!1..                                                              %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        dtqf''!2..                                                             %! faberge_halves_rhythm
+        dqf''!2..                                                              %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1130,11 +1105,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 281 / measure 3]                        %! _comment_measure_numbers
-        dtqf''!\breve                                                          %! faberge_halves_rhythm
+        dqf''!\breve                                                           %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        dtqf''!1                                                               %! faberge_halves_rhythm
+        dqf''!1                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1144,11 +1119,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 282 / measure 4]                        %! _comment_measure_numbers
-        dtqf''!1..                                                             %! faberge_halves_rhythm
+        dqf''!1..                                                              %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        dtqf''!2..                                                             %! faberge_halves_rhythm
+        dqf''!2..                                                              %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1158,13 +1133,13 @@ O_Viola_Music_Voice = {                                                        %
     \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 283 / measure 5]                        %! _comment_measure_numbers
-        ef''!\breve                                                            %! faberge_halves_rhythm
+        dqf''!\breve                                                           %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        ef''!1                                                                 %! faberge_halves_rhythm
+        dqf''!1                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1174,11 +1149,11 @@ O_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 284 / measure 6]                        %! _comment_measure_numbers
-        ef''!1..                                                               %! faberge_halves_rhythm
+        dqf''!1..                                                              %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        ef''!2..                                                               %! faberge_halves_rhythm
+        dqf''!2..                                                              %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
@@ -1188,19 +1163,18 @@ O_Viola_Music_Voice = {                                                        %
     \times 8/12 {                                                              %! faberge_halves_rhythm
 
         % [O Viola_Music_Voice measure 285 / measure 7]                        %! _comment_measure_numbers
-        ef''!\breve                                                            %! faberge_halves_rhythm
+        dqf''!\breve                                                           %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
 
-        ef''!1                                                                 %! faberge_halves_rhythm
+        dqf''!1                                                                %! faberge_halves_rhythm
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_halves_rhythm
 
     % [O Viola_Music_Voice measure 286 / measure 8]                            %! _comment_measure_numbers
-    ef''!1..                                                                   %! baca_make_notes
+    dqf''!1..                                                                  %! baca_make_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1258,7 +1232,7 @@ O_Cello_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ff                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1269,68 +1243,68 @@ O_Cello_Music_Voice = {                                                        %
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 280 / measure 2]                            %! _comment_measure_numbers
-    ef,!2..                                                                    %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    ef,!2..                                                                    %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 281 / measure 3]                            %! _comment_measure_numbers
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 282 / measure 4]                            %! _comment_measure_numbers
-    ef,!2..                                                                    %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    ef,!2..                                                                    %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 283 / measure 5]                            %! _comment_measure_numbers
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 284 / measure 6]                            %! _comment_measure_numbers
-    ef,!2..                                                                    %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    ef,!2..                                                                    %! faberge_halves_rhythm
+    e,2..                                                                      %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 285 / measure 7]                            %! _comment_measure_numbers
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
-    ef,!1                                                                      %! faberge_halves_rhythm
+    e,1                                                                        %! faberge_halves_rhythm
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 286 / measure 8]                            %! _comment_measure_numbers
-    ef,!1..                                                                    %! baca_make_notes
+    e,1..                                                                      %! baca_make_notes
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca_accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)

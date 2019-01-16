@@ -74,29 +74,35 @@ maker(
         ),
     )
 
-# fl, eh, cl, pf, perc
+# fl, eh, pf
 
 maker(
-    ['fl', 'eh', 'cl', 'rh'],
+    ['fl', 'eh', 'rh'],
     baca.dls_staff_padding(7),
     baca.staff_position(0),
     )
 
 maker(
-    (['fl', 'eh', 'cl', 'rh'], (1, 4)),
-    baca.dynamic('ff'),
+    (['fl', 'eh', 'rh'], (1, 4)),
+    baca.dynamic('"ff"'),
     baca.make_repeat_tied_notes(),
+    baca.markup(
+        r'\baca-very-small-maraca-boxed',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     )
 
 maker(
-    (['fl', 'eh', 'cl', 'rh'], (1, 5)),
+    (['fl', 'eh', 'rh'], (1, 5)),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
     )
 
 maker(
-    (['fl', 'eh', 'cl', 'rh'], 5),
+    (['fl', 'eh', 'rh'], 5),
     baca.repeat_tie_to(),
     faberge.downbeat_attack()
     )
@@ -112,14 +118,13 @@ maker(
 
 maker(
     'cl',
-    baca.chunk(
-        baca.bar_extent_persistent(
-            (0, 2),
-            after=True,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
+    baca.dls_staff_padding(6),
+    baca.dynamic('p'),
+    baca.flat_glissando(
+        'F2',
+        hide_middle_stems=True,
         ),
+    baca.make_repeat_tied_notes(),
     )
 
 # rh
@@ -139,40 +144,42 @@ maker(
 # perc
 
 maker(
-    ('perc', 1),
-    baca.rhythm(
-        r"{ c'4 c'4 c'4 c'4 c'4 r2. }",
-        annotate_unpitched_music=True,
+    'perc',
+    baca.dls_staff_padding(4),
+    baca.dynamic('pp'),
+    # TODO: implement flat glissando based on staff position
+    # TODO: change A4 here to staff position -1
+    baca.flat_glissando(
+        'A4',
+        hide_middle_stems=True,
         ),
-    baca.staff_position(0),
+    baca.make_notes(),
+    baca.markup(
+        r'\baca-bd-rolled-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
+    baca.stem_tremolo(
+        selector=baca.pheads()[abjad.index([0, -1])],
+        ),
     )
 
 # vn
 
 maker(
     'vn',
+    baca.pitch('<F#5 Aqs5>'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
     )
     
 maker(
-    ('vn', (1, 4)),
-    baca.pitch('<F5 Gtqs5>'),
-    )
-
-
-maker(
     ('vn', (1, 7)),
-    baca.tuplet_bracket_staff_padding(1.5),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 3)],
         ),
-    )
-
-maker(
-    ('vn', (5, 8)),
-    baca.pitch('Eb5'),
     )
 
 maker(
@@ -204,27 +211,17 @@ maker(
 
 maker(
     'va',
+    baca.pitch('Dqf5'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
     )
 
 maker(
-    ('va', (1, 4)),
-    baca.pitch('Dtqf5'),
-    )
-
-maker(
     ('va', (1, 7)),
-    baca.tuplet_bracket_staff_padding(1.5),
     faberge.halves_rhythm(
         tuplet_ratios=[(2, 1)],
         ),
-    )
-
-maker(
-    ('va', (5, 8)),
-    baca.pitch('Eb5'),
     )
 
 maker(
@@ -236,7 +233,7 @@ maker(
 
 maker(
     'vc',
-    baca.pitch('Eb2'),
+    baca.pitch('E2'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),
