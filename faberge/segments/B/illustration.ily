@@ -4666,8 +4666,6 @@ B_English_Horn_Music_Voice = {                                                 %
             % [B English_Horn_Rest_Voice measure 157 / measure 61]             %! _comment_measure_numbers
             \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
-            - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup { \baca-remove-staple-markup }                           %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 

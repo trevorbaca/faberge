@@ -17,8 +17,8 @@ def tuning_peg_staff_positions(
         [4, 5, 6, 7, 8, 9, 10],
         ]
     staff_positions = baca.sequence(staff_positions)
-    staff_positions = staff_positions.rotate(n=rotation)
     staff_positions = staff_positions.flatten()
+    staff_positions = staff_positions.rotate(n=rotation)
 
     return baca.staff_positions(
         staff_positions,

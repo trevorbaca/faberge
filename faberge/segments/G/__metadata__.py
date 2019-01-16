@@ -330,11 +330,7 @@ metadata = abjad.OrderedDict(
                         [
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
-                                prototype='abjad.Clef',
-                                value='treble',
-                                ),
-                            abjad.Momento(
-                                context='Piano_RH_Music_Voice',
+                                edition=abjad.Tag('-PARTS'),
                                 prototype='abjad.PersistentOverride',
                                 value=abjad.PersistentOverride(
                                     attribute='bar_extent',
@@ -342,6 +338,16 @@ metadata = abjad.OrderedDict(
                                     grob='bar_line',
                                     value=(-2, 2),
                                     ),
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='abjad.Clef',
+                                value='treble',
+                                ),
+                            abjad.Momento(
+                                context='Piano_RH_Music_Voice',
+                                prototype='baca.StaffLines',
+                                value=5,
                                 ),
                             ],
                         ),
