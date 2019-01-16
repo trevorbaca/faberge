@@ -128,9 +128,17 @@ maker(
     )
 
 maker(
-    (['fl', 'cl'], [1, 3, 4]),
+    (['fl', 'cl'], 1),
     baca.hairpin(
-        'o< mp >o p > pp',
+        'o< p >o pp > ppp',
+        pieces=baca.lparts([1, 1, 2]),
+        ),
+    )
+
+maker(
+    (['fl', 'cl'], [2, 3, 4]),
+    baca.hairpin(
+        'o< pp >o ppp > pppp',
         pieces=baca.lparts([1, 1, 2]),
         ),
     )
@@ -140,14 +148,6 @@ maker(
     baca.material_annotation_spanner(
         '3-6 =|',
         abjad.tweak(8).staff_padding,
-        ),
-    )
-
-maker(
-    (['fl', 'cl'], 2),
-    baca.hairpin(
-        'o< mp >o p',
-        pieces=baca.lparts([1, 2]),
         ),
     )
 
