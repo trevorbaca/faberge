@@ -7010,7 +7010,7 @@ B_Percussion_Music_Voice = {                                                   %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup { \faberge-woodblock }                                   %! baca_markup:IndicatorCommand
+            ^ \markup { \baca-woodblock-markup }                               %! baca_markup:IndicatorCommand
             - \abjad-dashed-line-with-hook                                     %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
             - \baca-text-spanner-left-text "MM"                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
             - \tweak bound-details.right.padding #2.5                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken:autodetect

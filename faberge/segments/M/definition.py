@@ -351,7 +351,7 @@ maker(
         baca.staff_lines(1),
         ),
     baca.markup(
-        r'\faberge-woodblock',
+        r'\baca-woodblock-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -387,13 +387,12 @@ maker(
     )
 
 maker(
-    ('perc', (1, 6)),
+    'perc',
     baca.material_annotation_spanner(
         '4-5 / 5-1 =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.staff_position(1),
-    baca.stem_up(),
+    baca.staff_position(0),
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
@@ -441,6 +440,22 @@ maker(
         ),
     )
 
+maker(
+    ('perc', 7),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('perc', 8),
+    baca.rhythm(
+        "{ c'2. r4 }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
 # vn
 
 maker(
@@ -466,7 +481,7 @@ maker(
 maker(
     ('vn', (4, 6)),
     baca.markup(
-        r'\faberge-woodblock',
+        r'\baca-woodblock-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -494,12 +509,7 @@ maker(
 # va
 
 maker(
-    ('va', (1, 4)),
-    baca.pitch('Eb3'),
-    )
-
-maker(
-    ('va', (1, 6)),
+    'va',
     baca.bow_speed_spanner(
         'XFB =|',
         abjad.tweak(3).staff_padding,
@@ -513,7 +523,12 @@ maker(
     )
 
 maker(
-    ('va', (5, 6)),
+    ('va', (1, 4)),
+    baca.pitch('Eb3'),
+    )
+
+maker(
+    ('va', (5, 8)),
     baca.pitch('F3'),
     )
 
@@ -552,5 +567,15 @@ maker(
         20,
         [0, 1, 2, 3, 5],
         do_not_overlap_counts=True,
+        ),
+    )
+
+maker(
+    ('vc', 5),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
         ),
     )

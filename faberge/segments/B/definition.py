@@ -1023,7 +1023,7 @@ maker(
     baca.dls_staff_padding(8),
     baca.dynamic('f'),
     baca.markup(
-        r'\faberge-woodblock',
+        r'\baca-woodblock-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

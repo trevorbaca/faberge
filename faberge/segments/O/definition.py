@@ -146,7 +146,7 @@ maker(
 maker(
     'perc',
     baca.dls_staff_padding(4),
-    baca.dynamic('pp'),
+    baca.dynamic('p'),
     # TODO: implement flat glissando based on staff position
     # TODO: change A4 here to staff position -1
     baca.flat_glissando(
@@ -155,13 +155,10 @@ maker(
         ),
     baca.make_notes(),
     baca.markup(
-        r'\baca-bd-rolled-markup',
+        r'\baca-bd-sponge-markup',
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
         literal=True,
-        ),
-    baca.stem_tremolo(
-        selector=baca.pheads()[abjad.index([0, -1])],
         ),
     )
 

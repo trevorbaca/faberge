@@ -287,7 +287,7 @@ maker(
     baca.dynamic('p'),
     baca.laissez_vibrer(),
     baca.markup(
-        r'\faberge-bd-struck',
+        r'\baca-bd-struck-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

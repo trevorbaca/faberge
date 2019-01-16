@@ -27,24 +27,6 @@ faberge-attackless = \markup
     \box
     attackless
 
-faberge-bd-sponge = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "BD (sponge)"
-
-faberge-bd-struck = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "BD (struck)"
-
-faberge-bd-superball = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "BD (superball)"
-
 faberge-bow-directly-on-bridge-noise-only = \markup
     \whiteout
     \override #'(box-padding . 0.5)
@@ -53,12 +35,6 @@ faberge-bow-directly-on-bridge-noise-only = \markup
         "bow directly on bridge;"
         "noise only: no pitch"
     }
-
-faberge-castanets = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    castanets
 
 faberge-col-legno-battuto = \markup
     \whiteout
@@ -75,12 +51,6 @@ faberge-col-legno-battuto-first-appearance = \markup
         "as bright and pointlike as possible;"
         "(mute string with left hand)"
     }
-
-faberge-crotales-bowed = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    "crotales (bowed)"
 
 faberge-depress-silently = \markup
     \whiteout
@@ -160,12 +130,6 @@ faberge-poco-pont-plus-sub-non-vib = \markup
     \whiteout
     "(poco pont.+) sub. non vib."
 
-faberge-ratchet = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    ratchet
-
 faberge-remove-staple = \markup
     \whiteout
     \override #'(box-padding . 0.5)
@@ -222,12 +186,6 @@ faberge-to-marimba = \markup
     \override #'(box-padding . 0.5)
     \box
     "to marimba"
-
-faberge-woodblock = \markup
-    \whiteout
-    \override #'(box-padding . 0.5)
-    \box
-    woodblock
 
 faberge-xfb = \markup
     \whiteout

@@ -661,7 +661,7 @@ maker(
             ),
         ),
     baca.markup(
-        r'\faberge-crotales-bowed',
+        r'\baca-crotales-bowed-markup',
         abjad.tweak(6).staff_padding,
         literal=True,
         selector=baca.pleaf(0),
@@ -780,7 +780,7 @@ maker(
     baca.dls_staff_padding(3.5),
     baca.dynamic('ff'),
     baca.markup(
-        r'\faberge-castanets',
+        r'\baca-castanets-markup',
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
@@ -803,7 +803,7 @@ maker(
     baca.dynamic('mf'),
     baca.laissez_vibrer(),
     baca.markup(
-        r'\faberge-bd-struck',
+        r'\baca-bd-struck-markup',
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(8).staff_padding,
         literal=True,
@@ -831,7 +831,7 @@ maker(
         ),
     baca.pitch('F#4'),
     baca.markup(
-        r'\faberge-crotales-bowed',
+        r'\baca-crotales-bowed-markup',
         abjad.tweak(6).staff_padding,
         literal=True,
         ),

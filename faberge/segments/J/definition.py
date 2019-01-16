@@ -371,7 +371,7 @@ maker(
         abjad.tweak(0).parent_alignment_X,
         ),
     baca.markup(
-        r'\faberge-castanets',
+        r'\baca-castanets-markup',
         abjad.tweak(10).staff_padding,
         abjad.tweak(0).parent_alignment_X,
         literal=True,
@@ -418,7 +418,7 @@ maker(
 maker(
     ('perc', (5, 8)),
     baca.markup(
-        r'\faberge-bd-superball',
+        r'\baca-bd-superball-markup',
         abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
         literal=True,

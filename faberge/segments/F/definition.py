@@ -498,7 +498,7 @@ maker(
 maker(
     ('perc', (3, 4)),
     baca.markup(
-        r'\faberge-castanets',
+        r'\baca-castanets-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),
@@ -530,7 +530,7 @@ maker(
 maker(
     ('perc', 5),
     baca.markup(
-        r'\faberge-bd-superball',
+        r'\baca-bd-superball-markup',
         abjad.tweak(1.5).padding,
         literal=True,
         ),

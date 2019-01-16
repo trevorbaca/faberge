@@ -1522,7 +1522,7 @@ J_Percussion_Music_Voice = {                                                   %
         \baca-pp-whiteout                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #10                                             %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-castanets }                                       %! baca_markup:IndicatorCommand
+        ^ \markup { \baca-castanets-markup }                                   %! baca_markup:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4-5"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1601,7 +1601,7 @@ J_Percussion_Music_Voice = {                                                   %
     a'2                                                                        %! faberge_downbeat_attack
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-bd-superball }                                        %! baca_markup:IndicatorCommand
+    ^ \markup { \baca-bd-superball-markup }                                    %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

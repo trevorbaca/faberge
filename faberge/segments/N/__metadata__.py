@@ -293,7 +293,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Percussion_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='mp',
+                                value='f',
                                 ),
                             ],
                         ),
@@ -359,7 +359,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-mp-whiteout',
+                                value='\\baca-f-whiteout',
                                 ),
                             ],
                         ),
