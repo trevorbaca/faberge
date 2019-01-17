@@ -32,16 +32,17 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.chunk(
-        baca.rehearsal_mark(
-            'J',
-            abjad.tweak(
-                (0, 14),
-                tag=baca.const.ONLY_SCORE,
-                ).extra_offset,
-            abjad.tweak(
-                (-9, 18),
-                tag=baca.const.ONLY_SEGMENT,
-                ).extra_offset,
+        baca.only_score(
+            baca.rehearsal_mark(
+                'J',
+                abjad.tweak((0, 14)).extra_offset,
+                ),
+            ),
+        baca.only_segment(
+            baca.rehearsal_mark(
+                'J',
+                abjad.tweak((0, 18)).extra_offset,
+                ),
             ),
         ),
     )
@@ -568,6 +569,7 @@ maker(
     baca.flat_glissando(
         'Eb3',
         hide_middle_stems=True,
+        right_broken=True,
         ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(

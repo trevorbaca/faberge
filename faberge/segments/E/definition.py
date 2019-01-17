@@ -228,6 +228,7 @@ maker(
 maker(
     ('rh', (4, 5)),
     baca.beam(),
+    baca.beam_positions(-3),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -417,7 +418,7 @@ maker(
 maker(
     ('perc', 8),
     baca.dls_staff_padding(8),
-    baca.dynamic('mp'),
+    baca.dynamic('f'),
     baca.markup(
         r'\baca-woodblock-markup',
         abjad.tweak(0).parent_alignment_X,
@@ -551,6 +552,7 @@ maker(
 
 maker(
     (['vn', 'va', 'vc'], (4, 7)),
+    baca.beam_positions(-3.5),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -722,15 +724,16 @@ maker(
     baca.dynamic('p'),
     baca.flat_glissando(
         'B2',
-        selector=baca.leaves().rleak(),
+        hide_middle_stems=True,
         right_broken=True,
         ),
-    baca.make_notes(),
+    baca.rhythm(
+        "{ c'1 c'1 }",
+        annotate_unpitched_music=True,
+        ),
     baca.scp_spanner(
-        'tasto -> poco pont.',
+        'tasto ->',
         abjad.tweak(3).staff_padding,
-        autodetect_right_padding=False,
-        bookend=-1,
         right_broken=True,
         ),
     baca.stem_tremolo(),

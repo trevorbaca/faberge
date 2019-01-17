@@ -56,7 +56,7 @@ maker(
         baca.only_score(
             baca.rehearsal_mark(
                 'A',
-                abjad.tweak((0, 14)).extra_offset,
+                abjad.tweak((0, 6)).extra_offset,
                 ),
             ),
         baca.only_segment(
@@ -662,6 +662,7 @@ maker(
         ),
     baca.markup(
         r'\baca-crotales-bowed-markup',
+        abjad.tweak((-6, 0)).extra_offset,
         abjad.tweak(6).staff_padding,
         literal=True,
         selector=baca.pleaf(0),
@@ -1053,6 +1054,7 @@ maker(
         'tasto -> pont. ->',
         abjad.tweak(3).staff_padding,
         bookend=-1,
+        autodetect_right_padding=False,
         pieces=baca.cmgroups([12, 4, 10, 4, 10, 6, 10, 6]),
         selector=baca.leaves(),
         ),
@@ -1167,6 +1169,7 @@ maker(
     baca.scp_spanner(
         'tasto -> pont.',
         abjad.tweak(3).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         selector=baca.ltleaves(),
         ),
@@ -1218,6 +1221,7 @@ maker(
     baca.scp_spanner(
         'pont. -> tasto',
         abjad.tweak(3).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         selector=baca.ltleaves(),
         ),
@@ -1226,6 +1230,7 @@ maker(
         ),
     baca.xfb_spanner(
         abjad.tweak(5.5).staff_padding,
+        right_broken=True,
         ),
     )
 
@@ -1255,6 +1260,7 @@ maker(
     baca.scp_spanner(
         'tasto -> PO',
         abjad.tweak(3).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         ),
     )
@@ -1268,6 +1274,7 @@ maker(
     baca.scp_spanner(
         '(PO) -> tasto',
         abjad.tweak(3).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         ),
     )
@@ -1281,11 +1288,13 @@ maker(
     baca.scp_spanner(
         '(tasto) -> poco pont.',
         abjad.tweak(3).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         ),
     baca.vibrato_spanner(
         '(poco vib.) -> vib. mod.',
         abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         ),
     )
@@ -1308,6 +1317,7 @@ maker(
     baca.scp_spanner(
         '(poco pont.) -> tasto',
         abjad.tweak(3).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         selector=baca.leaves(),
         ),
@@ -1318,6 +1328,7 @@ maker(
     baca.vibrato_spanner(
         'sub. vib. mod. -> non vib. -> poco vib.',
         abjad.tweak(5.5).staff_padding,
+        autodetect_right_padding=False,
         bookend=-1,
         pieces=baca.mgroups([9, 10]),
         selector=baca.leaves(),

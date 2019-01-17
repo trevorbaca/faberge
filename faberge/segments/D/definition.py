@@ -364,6 +364,7 @@ maker(
     baca.string_number_spanner(
         'IV =|',
         abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
         ),
     baca.suite(
         baca.untie_to(

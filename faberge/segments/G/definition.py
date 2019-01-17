@@ -431,7 +431,6 @@ maker(
     baca.trill_spanner(
         None,
         abjad.tweak(2).bound_details__right__padding,
-        abjad.tweak(8).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     )
@@ -586,6 +585,11 @@ maker(
         baca.staff_lines(1),
         ),
     baca.dls_staff_padding(6),
+    baca.markup(
+        r'\baca-ob-markup',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-2 -|',
         abjad.tweak('red').color,
@@ -800,6 +804,12 @@ maker(
         baca.staff_lines(1),
         ),
     baca.dls_staff_padding(6),
+    baca.markup(
+        r'\baca-ob-markup',
+        abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-2 -|',
         abjad.tweak('red').color,
