@@ -123,16 +123,6 @@ maker(
         ),
     )
 
-# fl, cl, eh, pf, perc
-
-maker(
-    (
-        ['fl', 'cl', 'eh', 'lhx', 'attack'],
-        (6, 9),
-        ),
-    baca.tacet(),
-    )
-
 # eh
 
 # cl

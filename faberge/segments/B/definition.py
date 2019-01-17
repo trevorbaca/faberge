@@ -398,7 +398,7 @@ maker(
 
 maker(
     ('flx', (61, 68)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -445,7 +445,7 @@ maker(
 
 maker(
     ('flx', (73, 80)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 # eh
@@ -580,7 +580,7 @@ maker(
 
 maker(
     ('ehx', (61, 68)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -603,7 +603,7 @@ maker(
 
 maker(
     ('ehx', (73, 78)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -626,7 +626,7 @@ maker(
 
 maker(
     ('ehx', 80),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 # cl
@@ -793,7 +793,7 @@ maker(
 
 maker(
     ('clx', (61, 68)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -828,7 +828,7 @@ maker(
 
 maker(
     ('clx', (73, 80)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 # rh
@@ -981,7 +981,7 @@ maker(
 
 maker(
     ('percx', (2, 22)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -1046,7 +1046,7 @@ maker(
 
 maker(
     ('percx', (61, 68)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -1078,7 +1078,7 @@ maker(
 
 maker(
     ('percx', (73, 78)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -1125,7 +1125,7 @@ maker(
 
 maker(
     ('vnx', (2, 8)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(

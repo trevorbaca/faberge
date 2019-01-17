@@ -392,7 +392,6 @@ K_Flute_Music_Voice = {                                                        %
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
     % [K Flute_Music_Voice measure 250 / measure 6]                            %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [K Flute_Music_Voice measure 251 / measure 7]                            %! _comment_measure_numbers
@@ -404,7 +403,6 @@ K_Flute_Music_Voice = {                                                        %
     % [K Flute_Music_Voice measure 253 / measure 9]                            %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -483,7 +481,6 @@ K_English_Horn_Music_Voice = {                                                 %
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K English_Horn_Music_Voice measure 250 / measure 6]                     %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K English_Horn_Music_Voice measure 251 / measure 7]                     %! _comment_measure_numbers
@@ -494,7 +491,6 @@ K_English_Horn_Music_Voice = {                                                 %
 
     % [K English_Horn_Music_Voice measure 253 / measure 9]                     %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -692,7 +688,6 @@ K_Clarinet_Music_Voice = {                                                     %
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
     % [K Clarinet_Music_Voice measure 250 / measure 6]                         %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [K Clarinet_Music_Voice measure 251 / measure 7]                         %! _comment_measure_numbers
@@ -704,7 +699,6 @@ K_Clarinet_Music_Voice = {                                                     %
     % [K Clarinet_Music_Voice measure 253 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1127,7 +1121,6 @@ K_Piano_LH_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [K Piano_LH_Rest_Voice measure 250 / measure 6]                  %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1/2                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -1135,7 +1128,6 @@ K_Piano_LH_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Piano_LH_Music_Voice measure 251 / measure 7]                         %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/2                                                                   %! _make_measure_silences
 
     % [K Piano_LH_Music_Voice measure 252 / measure 8]                         %! _comment_measure_numbers
@@ -1143,7 +1135,6 @@ K_Piano_LH_Music_Voice = {                                                     %
 
     % [K Piano_LH_Music_Voice measure 253 / measure 9]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1194,7 +1185,6 @@ K_Piano_LH_Attack_Voice = {                                                    %
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 250 / measure 6]                        %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1/2                                                                   %! _call_rhythm_commands
 
     % [K Piano_LH_Attack_Voice measure 251 / measure 7]                        %! _comment_measure_numbers
@@ -1205,7 +1195,6 @@ K_Piano_LH_Attack_Voice = {                                                    %
 
     % [K Piano_LH_Attack_Voice measure 253 / measure 9]                        %! _comment_measure_numbers
     R1 * 1/1                                                                   %! _call_rhythm_commands
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
