@@ -228,6 +228,11 @@ maker(
 maker(
     ('rh', (4, 5)),
     baca.beam(),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.markup(
         r'\baca-tuning-pegs-markup',
         abjad.tweak(0).parent_alignment_X,
@@ -267,9 +272,9 @@ maker(
             ),
         ),
     baca.dynamic(
-        '(mp)',
+        'mp',
         abjad.tweak((0, 0)).X_extent,
-        abjad.tweak((-2, 0)).extra_offset,
+        abjad.tweak((-1, 0)).extra_offset,
         ),
     baca.rhythm(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",

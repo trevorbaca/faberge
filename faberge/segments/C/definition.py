@@ -102,6 +102,18 @@ maker(
 
 maker(
     (['fl', 'eh', 'cl'], (1, 4)),
+    baca.chunk(
+        baca.hairpin(
+            'o< "mp"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[0],
+            ),
+        baca.hairpin(
+            'o< "mf"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[1],
+            ),
+        ),
     baca.dls_staff_padding(6),
     )
 
@@ -109,21 +121,6 @@ maker(
     (['fl', 'eh', 'cl'], [5, 6]),
     baca.breathe(),
     baca.make_repeat_tied_notes(),
-    )
-
-# fl, eh, cl, vn, va
-
-maker(
-    [
-        (['fl', 'eh', 'cl'], (1, 4)),
-        'vn',
-        'va',
-        ],
-    baca.hairpin(
-        'o< "f"',
-        selector=baca.leaves().rleak(),
-        map=baca.plts(),
-        ),
     )
 
 # eh
@@ -190,6 +187,12 @@ maker(
 
 maker(
     ('rh', (3, 4)),
+    baca.chunk(
+        baca.clef('bass'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
     baca.dynamic('mp'),
     baca.material_annotation_spanner(
         '2-1 -|',
@@ -206,6 +209,12 @@ maker(
 maker(
     ('rh', (3, 5)),
     baca.beam(),
+    baca.markup(
+        r'\baca-sharp-markup',
+        literal=True,
+        selector=baca.pheads(),
+        ),
+    baca.pitch('<G3 A3 C4>'),
     )
 
 maker(
@@ -215,11 +224,42 @@ maker(
         ),
     )
 
+# attack
+
+maker(
+    'attack',
+    baca.mmrest_transparent(),
+    )
+
+# lh
+
+maker(
+    ('lh', (3, 4)),
+    baca.rhythm(
+        r"{ \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }"
+        r" \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 } }",
+        annotate_unpitched_music=True,
+        ),
+    )
+
+maker(
+    ('lh', (3, 5)),
+    baca.beam(),
+    baca.pitch('<G3 A3 B3 C4>'),
+    )
+
+maker(
+    ('lh', 5),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
+    )
+
 # perc
 
 maker(
     'perc',
-    baca.dls_staff_padding(8),
+    baca.dls_staff_padding(9),
     baca.staff_position(0),
     )
 
@@ -273,8 +313,41 @@ maker(
     )
 
 maker(
-    ('vn', (1, 8)),
-    faberge.airtone_chain_rhythm(20, [11, 13, 15, 17, 19]),
+    ('vn', (1, 3)),
+    faberge.clb_rhythm(
+        extra_counts=[6, 2],
+        fuse_counts=[2, 1],
+        ),
+    )
+
+maker(
+    ('vn', (1, 4)),
+    baca.clb_spanner(
+        3,
+        abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
+        ),
+    baca.staccato(
+        selector=baca.pheads(),
+        ),
+    faberge.clb_staff_positions(),
+    )
+
+maker(
+    ('vn', (3, 4)),
+    baca.beam(),
+    )
+
+maker(
+    ('vn', 4),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
+    )
+
+maker(
+    ('vn', (5, 8)),
+    faberge.airtone_chain_rhythm(20, [1, 3, 5, 7, 9]),
     )
 
 # va
@@ -292,6 +365,28 @@ maker(
 
 maker(
     ('va', (1, 8)),
+    baca.chunk(
+        baca.hairpin(
+            'o< "mp"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[0],
+            ),
+        baca.hairpin(
+            'o< "mf"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[1:3],
+            ),
+        baca.hairpin(
+            'o< "f"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[3:5],
+            ),
+        baca.hairpin(
+            'o< "ff"',
+            selector=baca.leaves().rleak(),
+            map=baca.plts()[5:7],
+            ),
+        ),
     faberge.airtone_chain_rhythm(20, [0, 4, 8, 12, 14, 16, 18]),
     )
 
@@ -325,11 +420,31 @@ maker(
             persist='CELLO_GLISSANDI',
             ),
         baca.glissando(),
-        baca.hairpin(
-            'niente o< p >o',
-            final_hairpin=False,
-            map=baca.runs().map(baca.rleak()),
-            pieces=baca.clparts([1]),
+        baca.chunk(
+            baca.hairpin(
+                'niente o< p >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[0],
+                pieces=baca.clparts([1]),
+                ),
+            baca.hairpin(
+                'niente o< mp >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[1],
+                pieces=baca.clparts([1]),
+                ),
+            baca.hairpin(
+                'niente o< mf >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[2],
+                pieces=baca.clparts([1]),
+                ),
+            baca.hairpin(
+                'niente o< f >o',
+                final_hairpin=False,
+                map=baca.runs().map(baca.rleak())[3],
+                pieces=baca.clparts([1]),
+                ),
             ),
         ),
     faberge.airtone_chain_rhythm(

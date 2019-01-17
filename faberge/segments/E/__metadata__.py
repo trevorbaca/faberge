@@ -358,7 +358,7 @@ metadata = abjad.OrderedDict(
                             abjad.Momento(
                                 context='Piano_RH_Music_Voice',
                                 prototype='abjad.Dynamic',
-                                value='\\baca-mp-parenthesized',
+                                value='mp',
                                 ),
                             ],
                         ),
