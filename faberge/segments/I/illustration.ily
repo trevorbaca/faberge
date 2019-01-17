@@ -1536,8 +1536,18 @@ I_Percussion_Music_Voice = {                                                   %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [I Percussion_Music_Voice measure 232 / measure 4]               %! _comment_measure_numbers
+            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \once \override Staff.StaffSymbol.line-count = 1                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+            \clef "percussion"                                                 %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
+            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
+            \once \override Staff.Clef.color = #(x11-color 'blue)              %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+        %@% \override Staff.Clef.color = ##f                                   %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+            \set Staff.forceClef = ##t                                         %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
             c'1 * 1                                                            %! _make_multimeasure_rest_container
+            \override Staff.BarLine.bar-extent = #'(0 . 2)                     %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
+            \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1552,12 +1562,8 @@ I_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [I Percussion_Music_Voice measure 233 / measure 5]                       %! _comment_measure_numbers
-    \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \once \override Staff.StaffSymbol.line-count = 1                           %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-    \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
     \override Stem.direction = #down                                           %! baca_stem_down:OverrideCommand(1)
-    \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    c2                                                                         %! faberge_downbeat_attack
+    b2                                                                         %! faberge_downbeat_attack
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
@@ -1570,12 +1576,11 @@ I_Percussion_Music_Voice = {                                                   %
     - \tweak color #red                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak staff-padding #8                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
     r1..
 
     % [I Percussion_Music_Voice measure 234 / measure 6]                       %! _comment_measure_numbers
-    c2                                                                         %! faberge_downbeat_attack
+    b2                                                                         %! faberge_downbeat_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     \revert Stem.direction                                                     %! baca_stem_down:OverrideCommand(2)
 
@@ -1587,12 +1592,7 @@ I_Percussion_Music_Voice = {                                                   %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [I Percussion_Music_Voice measure 235 / measure 7]               %! _comment_measure_numbers
-            \override Staff.BarLine.bar-extent = #'(-2 . 2)                    %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
-            \stopStaff                                                         %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-            \once \override Staff.StaffSymbol.line-count = 5                   %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-            \startStaff                                                        %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
-            \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 3/2                                                          %! _make_multimeasure_rest_container
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
             \revert DynamicLineSpanner.staff-padding                           %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1613,12 +1613,12 @@ I_Percussion_Music_Voice = {                                                   %
     \times 5/4 {                                                               %! faberge_even_tuplet_rhythm
 
         % [I Percussion_Music_Voice measure 236 / measure 8]                   %! _comment_measure_numbers
-        \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \once \override Staff.StaffSymbol.line-count = 1                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
-        \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \stopStaff                                                             %! REDUNDANT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \once \override Staff.StaffSymbol.line-count = 1                       %! REDUNDANT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
+        \startStaff                                                            %! REDUNDANT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \override DynamicLineSpanner.staff-padding = #8                        %! baca_dls_staff_padding:OverrideCommand(1)
-        \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        \once \override Staff.StaffSymbol.color = #(x11-color 'DeepPink1)      %! REDUNDANT_STAFF_LINES_COLOR:_attach_color_literal(2)
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \f                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
@@ -1629,13 +1629,13 @@ I_Percussion_Music_Voice = {                                                   %
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
+        \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! REDUNDANT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
 
-        d4                                                                     %! faberge_even_tuplet_rhythm
+        c'4                                                                    %! faberge_even_tuplet_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge_even_tuplet_rhythm
@@ -2260,6 +2260,7 @@ I_Viola_Music_Voice = {                                                        %
     - \tweak extra-offset #'(-1 . 0)                                           %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \baca-mp-ancora                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
+    \glissando                                                                 %! baca_glissando
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A.4"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -2273,9 +2274,16 @@ I_Viola_Music_Voice = {                                                        %
     - \tweak staff-padding #3                                                  %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanBowSpeed                                                 %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1)
 
+    \hide NoteHead                                                             %! baca_glissando
+    \override Accidental.stencil = ##f                                         %! baca_glissando
+    \override NoteColumn.glissando-skip = ##t                                  %! baca_glissando
+    \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
+    \revert Accidental.stencil                                                 %! baca_glissando
+    \revert NoteColumn.glissando-skip                                          %! baca_glissando
+    \revert NoteHead.no-ledgers                                                %! baca_glissando
+    \undo \hide NoteHead                                                       %! baca_glissando
     d2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
-    \repeatTie
 
     {
 

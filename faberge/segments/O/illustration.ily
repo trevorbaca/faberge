@@ -793,13 +793,13 @@ O_Percussion_Music_Voice = {                                                   %
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-perc-markup                           %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #4                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    a'\breve                                                                   %! baca_make_notes
+    c'\breve                                                                   %! baca_make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -820,22 +820,22 @@ O_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! baca_glissando
     \override Dots.transparent = ##t                                           %! baca_glissando
     \override Stem.transparent = ##t                                           %! baca_glissando
-    a'1..                                                                      %! baca_make_notes
+    c'1..                                                                      %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 281 / measure 3]                       %! _comment_measure_numbers
-    a'\breve                                                                   %! baca_make_notes
+    c'\breve                                                                   %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 282 / measure 4]                       %! _comment_measure_numbers
-    a'1..                                                                      %! baca_make_notes
+    c'1..                                                                      %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 283 / measure 5]                       %! _comment_measure_numbers
-    a'\breve                                                                   %! baca_make_notes
+    c'\breve                                                                   %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 284 / measure 6]                       %! _comment_measure_numbers
-    a'1..                                                                      %! baca_make_notes
+    c'1..                                                                      %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 285 / measure 7]                       %! _comment_measure_numbers
-    a'\breve                                                                   %! baca_make_notes
+    c'\breve                                                                   %! baca_make_notes
 
     % [O Percussion_Music_Voice measure 286 / measure 8]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca_glissando
@@ -844,7 +844,7 @@ O_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca_glissando
     \revert Dots.transparent                                                   %! baca_glissando
     \revert Stem.transparent                                                   %! baca_glissando
-    a'1..                                                                      %! baca_make_notes
+    c'1..                                                                      %! baca_make_notes
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container

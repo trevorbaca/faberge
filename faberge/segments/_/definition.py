@@ -86,8 +86,8 @@ maker(
         ),
     baca.markup(
         r'\baca-ratchet-markup',
-        abjad.tweak(1.5).padding,
         abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
     baca.staff_lines(1),

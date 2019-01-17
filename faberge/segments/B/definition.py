@@ -973,7 +973,7 @@ maker(
     ('percr', 2),
     baca.markup(
         r'\baca-to-marimba-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(6).staff_padding,
         literal=True,
         selector=baca.mmrest(0),
         ),
@@ -1005,8 +1005,8 @@ maker(
         pieces=baca.mgroups([2, 2, 2, 2, 3, 3, 4, 4, 2, 2, 2, 2]),
         ),
     baca.markup(
-        r'\faberge-attackless',
-        abjad.tweak(1.5).padding,
+        r'\baca-marimba-attackless-markup',
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
     )
@@ -1059,7 +1059,7 @@ maker(
             ),
         baca.staff_lines(1),
         ),
-    baca.clef('treble'),
+    baca.clef('percussion'),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -1067,9 +1067,9 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\faberge-rub-sponge-on-bass-drum-head',
-        abjad.tweak(1.5).padding,
+        r'\baca-bd-sponge-markup',
         abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
     baca.staff_position(-1),
@@ -1203,6 +1203,7 @@ maker(
 
 maker(
     ('vn', (53, 80)),
+    baca.beam_positions(-3.5),
     baca.dls_staff_padding(10),
     )
 
@@ -1215,7 +1216,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.markup(
-        r'\baca-bow-directly-on-bridge-noise-only-markup',
+        r'\baca-ob-markup',
         abjad.tweak(0).parent_alignment_X,
         abjad.tweak(1.5).padding,
         literal=True,
@@ -1229,7 +1230,11 @@ maker(
         3,
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.dynamic('("mf")'),
+    baca.dynamic(
+        '("mf")',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
     baca.staccato(
         selector=baca.pheads(),
         ),
@@ -1253,6 +1258,9 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
         selector=baca.pleaves()[abjad.index([0, -1])],
+        ),
+    baca.xfb_spanner(
+        abjad.tweak(5.5).staff_padding,
         ),
     )
 
@@ -1322,9 +1330,11 @@ maker(
 
 maker(
     ('va', (53, 80)),
+    baca.beam_positions(-3.5),
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
         ),
     baca.dls_staff_padding(10),
     baca.staccato(
@@ -1441,6 +1451,7 @@ maker(
 
 maker(
     ('vc', (61, 80)),
+    baca.beam_positions(-3.5),
     baca.chunk(
         baca.bar_extent_persistent(
             (0, 2),
@@ -1452,6 +1463,7 @@ maker(
     baca.clb_spanner(
         2,
         abjad.tweak(5.5).staff_padding,
+        selector=baca.tleaves().rleak(),
         ),
     baca.dls_staff_padding(10),
     baca.dynamic('"mf"'),

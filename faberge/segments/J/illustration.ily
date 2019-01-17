@@ -5,8 +5,10 @@ J_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 1                                                                     %! _make_global_skips(1)
-    - \tweak extra-offset #'(-9 . 18)                                          %! +SEGMENT
-    - \baca-rehearsal-mark-markup "J"                                          %! baca_rehearsal_mark:IndicatorCommand
+%%% - \tweak extra-offset #'(0 . 14)                                           %! baca_rehearsal_mark:+SCORE:IndicatorCommand
+%%% - \baca-rehearsal-mark-markup "J"                                          %! baca_rehearsal_mark:+SCORE:IndicatorCommand
+    - \tweak extra-offset #'(0 . 18)                                           %! baca_rehearsal_mark:+SEGMENT:IndicatorCommand
+    - \baca-rehearsal-mark-markup "J"                                          %! baca_rehearsal_mark:+SEGMENT:IndicatorCommand
 %@% - \baca-start-lmi-left-only "0"                                            %! LOCAL_MEASURE_INDEX_MARKUP
 %@% \bacaStartTextSpanLMI                                                      %! LOCAL_MEASURE_INDEX_MARKUP
     - \baca-start-lmn-left-only "1"                                            %! LOCAL_MEASURE_NUMBER_MARKUP
@@ -1492,13 +1494,13 @@ J_Percussion_Music_Voice = {                                                   %
     \startStaff                                                                %! REAPPLIED_STAFF_LINES:_set_status_tag:_reapply_persistent_indicators(3)
     \set Staff.instrumentName = \faberge-perc-markup                           %! _clone_segment_initial_short_instrument_name
     \override DynamicLineSpanner.staff-padding = #6                            %! baca_dls_staff_padding:OverrideCommand(1)
-    \clef "bass"                                                               %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
+    \clef "percussion"                                                         %! REAPPLIED_CLEF:_set_status_tag:_reapply_persistent_indicators(3)
     \once \override Staff.InstrumentName.color = #(x11-color 'green4)          %! REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \once \override Staff.Clef.color = #(x11-color 'green4)                    %! REAPPLIED_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1513,14 +1515,14 @@ J_Percussion_Music_Voice = {                                                   %
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
-    d4                                                                         %! faberge_even_tuplet_rhythm
+    c'4                                                                        %! faberge_even_tuplet_rhythm
 
     % [J Percussion_Music_Voice measure 238 / measure 2]                       %! _comment_measure_numbers
-    d4                                                                         %! faberge_downbeat_attack
+    c'4                                                                        %! faberge_downbeat_attack
 
     r2
 
@@ -1528,7 +1530,7 @@ J_Percussion_Music_Voice = {                                                   %
 
         % [J Percussion_Music_Voice measure 239 / measure 3]                   %! _comment_measure_numbers
         \override Stem.direction = #up                                         %! baca_stem_up:OverrideCommand(1)
-        e4
+        d'4
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1.5 . 0)                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1548,49 +1550,49 @@ J_Percussion_Music_Voice = {                                                   %
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
-        e4
+        d'4
         \stopTrillSpan                                                         %! baca_trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -1599,7 +1601,7 @@ J_Percussion_Music_Voice = {                                                   %
     }
 
     % [J Percussion_Music_Voice measure 240 / measure 4]                       %! _comment_measure_numbers
-    e4                                                                         %! faberge_downbeat_attack
+    d'4                                                                        %! faberge_downbeat_attack
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     - \tweak staff-padding #7                                                  %! baca_trill_spanner:SpannerIndicatorCommand(1)
@@ -1612,7 +1614,7 @@ J_Percussion_Music_Voice = {                                                   %
 
     % [J Percussion_Music_Voice measure 241 / measure 5]                       %! _comment_measure_numbers
     \override Stem.direction = #down                                           %! baca_stem_down:OverrideCommand(1)
-    c2                                                                         %! faberge_downbeat_attack
+    b2                                                                         %! faberge_downbeat_attack
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #10                                                 %! baca_markup:IndicatorCommand
     ^ \markup { \baca-bd-superball-markup }                                    %! baca_markup:IndicatorCommand
@@ -1631,7 +1633,7 @@ J_Percussion_Music_Voice = {                                                   %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [J Percussion_Music_Voice measure 242 / measure 6]                       %! _comment_measure_numbers
-    c2                                                                         %! faberge_downbeat_attack
+    b2                                                                         %! faberge_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1642,7 +1644,7 @@ J_Percussion_Music_Voice = {                                                   %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [J Percussion_Music_Voice measure 243 / measure 7]                       %! _comment_measure_numbers
-    c2                                                                         %! faberge_downbeat_attack
+    b2                                                                         %! faberge_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1653,7 +1655,7 @@ J_Percussion_Music_Voice = {                                                   %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
 
     % [J Percussion_Music_Voice measure 244 / measure 8]                       %! _comment_measure_numbers
-    c2                                                                         %! faberge_downbeat_attack
+    b2                                                                         %! faberge_downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2125,12 +2127,12 @@ J_Viola_Music_Voice = {                                                        %
     % [J Viola_Music_Voice measure 244 / measure 8]                            %! _comment_measure_numbers
     ef!2.
 
-    \revert Accidental.stencil                                                 %! baca_glissando
-    \revert NoteColumn.glissando-skip                                          %! baca_glissando
-    \revert NoteHead.no-ledgers                                                %! baca_glissando
-    \undo \hide NoteHead                                                       %! baca_glissando
-    \revert Dots.transparent                                                   %! baca_glissando
-    \revert Stem.transparent                                                   %! baca_glissando
+    \revert Accidental.stencil                                                 %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteColumn.glissando-skip                                          %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert NoteHead.no-ledgers                                                %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \undo \hide NoteHead                                                       %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert Dots.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
+    \revert Stem.transparent                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
     ef!2
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)

@@ -261,6 +261,7 @@ maker(
 
 maker(
     'perc',
+    baca.clef('percussion'),
     baca.dls_staff_padding(4),
     )
 
@@ -302,7 +303,7 @@ maker(
     )
 
 maker(
-    ('perc', 3),
+    ('perc', 5),
     baca.chunk(
         baca.bar_extent_persistent(
             (-2, 2),
@@ -310,10 +311,12 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    )
-
-maker(
-    ('perc', 5),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.not_parts(
+            baca.clef_shift('treble'),
+            ),
+        ),
     baca.hairpin(
         'o<| f',
         selector=baca.leaves()[:2],

@@ -345,14 +345,7 @@ maker(
     )
 
 maker(
-    ('perc', 5),
-    faberge.downbeat_attack(
-        denominator=2,
-        ),
-    )
-
-maker(
-    ('perc', (5, 6)),
+    ('perc', 4),
     baca.chunk(
         baca.bar_extent_persistent(
             (0, 2),
@@ -361,6 +354,18 @@ maker(
             ),
         baca.staff_lines(1),
         ),
+    baca.clef('percussion'),
+    )
+
+maker(
+    ('perc', 5),
+    faberge.downbeat_attack(
+        denominator=2,
+        ),
+    )
+
+maker(
+    ('perc', (5, 6)),
     baca.dynamic('p'),
     baca.laissez_vibrer(
         selector=baca.ptails(),
@@ -384,17 +389,6 @@ maker(
     ('perc', 6),
     faberge.downbeat_attack(
         denominator=2,
-        ),
-    )
-
-maker(
-    ('perc', 7),
-    baca.chunk(
-        baca.bar_extent_persistent(
-            (-2, 2),
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(5),
         ),
     )
 
@@ -694,13 +688,15 @@ maker(
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-1, 0)).extra_offset,
         ),
+    baca.flat_glissando(
+        'D3',
+        ),
     baca.make_repeat_tied_notes(),
     baca.material_annotation_spanner(
         'A.4 -|',
         abjad.tweak('red').color,
         abjad.tweak(8).staff_padding,
         ),
-    baca.pitch('D3'),
     baca.stem_tremolo(
         selector=baca.pleaves(),
         ),

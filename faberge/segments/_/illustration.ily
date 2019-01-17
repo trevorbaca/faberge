@@ -271,8 +271,8 @@ i_English_Horn_Music_Voice = {                                                 %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-f-parenthesized                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
+        - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
         ^ \markup { \baca-ratchet-markup }                                     %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_ratchet_rhythm
 

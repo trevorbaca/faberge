@@ -71,6 +71,12 @@ maker(
 
 maker(
     'fl',
+    baca.markup(
+        r'\baca-airtone-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-1 / 1-2 =|',
         abjad.tweak(8).staff_padding,
@@ -86,7 +92,7 @@ maker(
 
 maker(
     ('fl', (5, 6)),
-    baca.dls_staff_padding(2.5),
+    baca.dls_staff_padding(4),
     baca.dynamic('p'),
     baca.pitch('G#3'),
     baca.chunk(
@@ -127,6 +133,11 @@ maker(
 
 maker(
     'eh',
+    baca.markup(
+        r'\baca-airtone-markup',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-1 / 1-2 =|',
         abjad.tweak(8).staff_padding,
@@ -151,6 +162,11 @@ maker(
 
 maker(
     'cl',
+    baca.markup(
+        r'\baca-airtone-markup',
+        abjad.tweak(1.5).padding,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-1 / 1-2 =|',
         abjad.tweak(8).staff_padding,
@@ -283,7 +299,7 @@ maker(
 
 maker(
     ('perc', (4, 5)),
-    baca.dynamic('mf'),
+    baca.dynamic('f'),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(8).staff_padding,
@@ -295,7 +311,7 @@ maker(
 
 maker(
     ('perc', 8),
-    baca.dynamic('mp'),
+    baca.dynamic('f'),
     baca.material_annotation_spanner(
         'MM =|',
         abjad.tweak(8).staff_padding,
@@ -321,6 +337,7 @@ maker(
 
 maker(
     ('vn', (1, 3)),
+    baca.beam_positions(-3.5),
     faberge.clb_rhythm(
         extra_counts=[6, 2],
         fuse_counts=[2, 1],
@@ -362,6 +379,12 @@ maker(
 maker(
     'va',
     baca.dls_staff_padding(6),
+    baca.markup(
+        r'\baca-ob-markup',
+        abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
+        literal=True,
+        ),
     baca.material_annotation_spanner(
         '1-1 / 1-2 =|',
         abjad.tweak(8).staff_padding,
@@ -407,7 +430,12 @@ maker(
             ),
         baca.staff_lines(5),
         ),
-    baca.clef('treble'),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.only_score(
+            baca.clef_shift('treble'),
+            ),
+        ),
     baca.dls_staff_padding(8),
     baca.material_annotation_spanner(
         '1-1 / 1-2 =|',

@@ -321,7 +321,7 @@ maker(
     baca.laissez_vibrer(),
     baca.markup(
         r'\baca-bd-struck-markup',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -337,8 +337,9 @@ maker(
 
 maker(
     ('perc', (6, 8)),
+    # TODO: use staff position instead of pitch
     baca.flat_glissando(
-        'A4',
+        'C3',
         hide_middle_stems=True,
         ),
     baca.hairpin(
@@ -348,9 +349,10 @@ maker(
     baca.make_repeat_tied_notes(),
     baca.markup(
         r'\baca-bd-sponge-markup',
-        abjad.tweak(8).staff_padding,
+        abjad.tweak(6).staff_padding,
         literal=True,
         ),
+    baca.stem_down(),
     )
 
 # vn
@@ -476,6 +478,7 @@ maker(
     baca.flat_glissando(
         'Eb3',
         hide_middle_stems=True,
+        left_broken=True,
         ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
@@ -544,6 +547,12 @@ maker(
             tag=baca.const.NOT_PARTS,
             ),
         baca.staff_lines(1),
+        ),
+    baca.chunk(
+        baca.clef('treble'),
+        baca.not_parts(
+            baca.clef_shift('treble'),
+            ),
         ),
     baca.clb_spanner(
         2,
