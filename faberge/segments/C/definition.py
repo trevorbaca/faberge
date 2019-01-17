@@ -182,6 +182,13 @@ maker(
 
 maker(
     'rh',
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 2),
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(5),
+        ),
     baca.dls_staff_padding(4.5),
     )
 

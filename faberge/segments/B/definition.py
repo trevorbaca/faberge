@@ -602,7 +602,30 @@ maker(
     )
 
 maker(
-    ('ehx', (73, 80)),
+    ('ehx', (73, 78)),
+    baca.tacet(),
+    )
+
+maker(
+    ('eh', 79),
+    baca.dls_staff_padding(8.5),
+    baca.dynamic(
+        '(f)',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
+    baca.markup(
+        r'\baca-ratchet-markup',
+        abjad.tweak(1.5).padding,
+        abjad.tweak(0).parent_alignment_X,
+        literal=True,
+        ),
+    baca.staff_position(0),
+    faberge.ratchet_rhythm(),
+    )
+
+maker(
+    ('ehx', 80),
     baca.tacet(),
     )
 
@@ -836,6 +859,56 @@ maker(
     baca.rest_transparent(),
     )
 
+maker(
+    ('rh', (53, 79)),
+    baca.chunk(
+        baca.bar_extent_persistent(
+            (-2, 1),
+            after=True,
+            tag=baca.const.NOT_PARTS,
+            ),
+        baca.staff_lines(3),
+        ),
+    baca.dynamic(
+        '"mf"',
+        abjad.tweak((0, 0)).X_extent,
+        abjad.tweak((-2, 0)).extra_offset,
+        ),
+    baca.markup(
+        r'\baca-tuning-pegs-markup',
+        abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(8).staff_padding,
+        literal=True,
+        ),
+    faberge.clb_rhythm(
+        extra_counts=[16, 20, 8],
+        fuse_counts=[2, 3],
+        ),
+    )
+
+maker(
+    ('rh', (53, 80)),
+    baca.beam_positions(-3),
+    baca.note_head_stencil_false(
+        selector=baca.pleaves(),
+        ),
+    baca.tuplet_bracket_transparent(),
+    baca.tuplet_number_transparent(),
+    faberge.tuning_peg_staff_positions(),
+    )
+
+maker(
+    ('rh', (79, 80)),
+    baca.beam(),
+    )
+
+maker(
+    ('rh', 80),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
+    )
+
 # attack
 
 maker(
@@ -1010,11 +1083,11 @@ maker(
 
 maker(
     ('perc', (79, 80)),
-    baca.dls_staff_padding(8),
+    baca.dls_staff_padding(9),
     baca.dynamic('f'),
     baca.markup(
         r'\baca-woodblock-markup',
-        abjad.tweak(1.5).padding,
+        abjad.tweak(8).staff_padding,
         literal=True,
         ),
     baca.material_annotation_spanner(
@@ -1156,7 +1229,7 @@ maker(
         3,
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.hairpin('("mf") >o niente'),
+    baca.dynamic('("mf")'),
     baca.staccato(
         selector=baca.pheads(),
         ),
@@ -1241,6 +1314,13 @@ maker(
     )
 
 maker(
+    ('va', (53, 79)),
+    faberge.clb_rhythm(
+        fuse_counts=[1, 2, 2],
+        ),
+    )
+
+maker(
     ('va', (53, 80)),
     baca.clb_spanner(
         2,
@@ -1252,17 +1332,22 @@ maker(
         ),
     baca.staff_lines(1),
     baca.stem_down(),
-    faberge.clb_rhythm(
-        fuse_counts=[1, 2, 2],
-        ),
     faberge.clb_staff_positions(
         rotation=-4,
         ),
     )
 
 maker(
-    ('va', (73, 80)),
-    baca.hairpin('("mf") >o niente'),
+    ('va', (79, 80)),
+    baca.beam(),
+    )
+
+
+maker(
+    ('va', 80),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
 
 # vc
@@ -1348,6 +1433,13 @@ maker(
     )
 
 maker(
+    ('vc', (61, 79)),
+    faberge.clb_rhythm(
+        fuse_counts=[3],
+        ),
+    )
+
+maker(
     ('vc', (61, 80)),
     baca.chunk(
         baca.bar_extent_persistent(
@@ -1369,15 +1461,19 @@ maker(
     baca.stem_down(),
     baca.text_script_staff_padding(8),
     baca.tuplet_bracket_staff_padding(3),
-    faberge.clb_rhythm(
-        fuse_counts=[3],
-        ),
     faberge.clb_staff_positions(
         rotation=-5,
         ),
     )
 
 maker(
-    ('vc', (73, 80)),
-    baca.hairpin('("mf") >o niente'),
+    ('vc', (79, 80)),
+    baca.beam(),
+    )
+
+maker(
+    ('vc', 80),
+    faberge.downbeat_attack(
+        denominator=8,
+        ),
     )
