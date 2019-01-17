@@ -417,7 +417,10 @@ maker(
         (-1.5, 0),
         selector=baca.leaves(),
         ),
-    faberge.bfl_color_fingerings(),
+    faberge.bfl_color_fingerings(
+        abjad.tweak(-0.5).parent_alignment_X,
+        abjad.tweak(3.5).staff_padding,
+        ),
     faberge.glow_rhythm(
         dmask=[
             ~rmakers.sustain([0, 6, 7], 9),

@@ -70,7 +70,7 @@
     composer = \markup {
         \override #'(font-name . "Palatino")
         \fontsize #5
-        \line { Trevor Bača (*1975) \hspace #15 }
+        \line { Trevor Bača (*1975) }
     }
     tagline = \markup { "" }
     title = \markup \column {

@@ -62,9 +62,11 @@ maker(
 maker(
     'Global_Skips',
     baca.chunk(
-        baca.bar_line_x_extent(
-            (-1, 2),
-            selector=baca.skip(0),
+        baca.not_score(
+            baca.bar_line_x_extent(
+                (-1, 2),
+                selector=baca.skip(0),
+                ),
             ),
         baca.bar_line_x_extent(
             (0, 3),
@@ -307,7 +309,9 @@ maker(
     baca.markup(
         r'\baca-sharp-markup',
         literal=True,
-        selector=baca.pheads(),
+        selector=baca.pheads(
+            exclude=baca.const.HIDDEN,
+            ),
         ),
     baca.pitch("<F6 G6 A6>"),
     )

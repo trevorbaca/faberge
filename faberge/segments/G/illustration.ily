@@ -47,7 +47,7 @@ G_Global_Skips = {                                                             %
     {
 
         % [G Global_Skips measure 212 / measure 3]                             %! _comment_measure_numbers
-        \once \override Score.BarLine.X-extent = #'(-1 . 2)                    %! baca_bar_line_x_extent:OverrideCommand(1)
+        \once \override Score.BarLine.X-extent = #'(-1 . 2)                    %! -SCORE:baca_bar_line_x_extent:OverrideCommand(1)
         \time 9/4                                                              %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
         \baca-time-signature-color #'blue                                      %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
         s1 * 9/4                                                               %! _make_global_skips(1)
@@ -1119,7 +1119,6 @@ G_Piano_LH_Music_Voice = {                                                     %
             % [G Piano_LH_Music_Voice measure 211 / measure 2]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1304,7 +1303,6 @@ G_Piano_LH_Music_Voice = {                                                     %
             % [G Piano_LH_Music_Voice measure 216 / measure 7]                 %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
