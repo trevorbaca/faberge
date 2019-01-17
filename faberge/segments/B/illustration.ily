@@ -3368,7 +3368,6 @@ B_Flute_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Flute_Rest_Voice measure 157 / measure 61]                    %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3376,7 +3375,6 @@ B_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Flute_Music_Voice measure 158 / measure 62]                           %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Flute_Music_Voice measure 159 / measure 63]                           %! _comment_measure_numbers
@@ -3396,7 +3394,6 @@ B_Flute_Music_Voice = {                                                        %
 
     % [B Flute_Music_Voice measure 164 / measure 68]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Flute_Music_Voice measure 165 / measure 69]                           %! _comment_measure_numbers
     \override RepeatTie.extra-offset = #'(-1.5 . 0)                            %! baca_repeat_tie_extra_offset:OverrideCommand(1)
@@ -3499,7 +3496,6 @@ B_Flute_Music_Voice = {                                                        %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Flute_Rest_Voice measure 169 / measure 73]                    %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -3507,7 +3503,6 @@ B_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Flute_Music_Voice measure 170 / measure 74]                           %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Flute_Music_Voice measure 171 / measure 75]                           %! _comment_measure_numbers
@@ -3528,7 +3523,6 @@ B_Flute_Music_Voice = {                                                        %
     % [B Flute_Music_Voice measure 176 / measure 80]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -4664,7 +4658,6 @@ B_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B English_Horn_Rest_Voice measure 157 / measure 61]             %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -4672,7 +4665,6 @@ B_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B English_Horn_Music_Voice measure 158 / measure 62]                    %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 159 / measure 63]                    %! _comment_measure_numbers
@@ -4692,7 +4684,6 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 164 / measure 68]                    %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 165 / measure 69]                    %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #4                            %! baca_dls_staff_padding:OverrideCommand(1)
@@ -4733,7 +4724,6 @@ B_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B English_Horn_Rest_Voice measure 169 / measure 73]             %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -4741,7 +4731,6 @@ B_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B English_Horn_Music_Voice measure 170 / measure 74]                    %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B English_Horn_Music_Voice measure 171 / measure 75]                    %! _comment_measure_numbers
@@ -4755,7 +4744,6 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 174 / measure 78]                    %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     \override TupletNumber.text = \markup {
         \scale
@@ -4839,7 +4827,6 @@ B_English_Horn_Music_Voice = {                                                 %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B English_Horn_Rest_Voice measure 176 / measure 80]             %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -5530,7 +5517,6 @@ B_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Clarinet_Rest_Voice measure 157 / measure 61]                 %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -5538,7 +5524,6 @@ B_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Clarinet_Music_Voice measure 158 / measure 62]                        %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Clarinet_Music_Voice measure 159 / measure 63]                        %! _comment_measure_numbers
@@ -5558,7 +5543,6 @@ B_Clarinet_Music_Voice = {                                                     %
 
     % [B Clarinet_Music_Voice measure 164 / measure 68]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Clarinet_Music_Voice measure 165 / measure 69]                        %! _comment_measure_numbers
     d4                                                                         %! faberge_single_taper
@@ -5620,7 +5604,6 @@ B_Clarinet_Music_Voice = {                                                     %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Clarinet_Rest_Voice measure 169 / measure 73]                 %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -5628,7 +5611,6 @@ B_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Clarinet_Music_Voice measure 170 / measure 74]                        %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Clarinet_Music_Voice measure 171 / measure 75]                        %! _comment_measure_numbers
@@ -5649,7 +5631,6 @@ B_Clarinet_Music_Voice = {                                                     %
     % [B Clarinet_Music_Voice measure 176 / measure 80]                        %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -7158,7 +7139,6 @@ B_Percussion_Music_Voice = {                                                   %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Percussion_Rest_Voice measure 98 / measure 2]                 %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
             - \tweak staff-padding #6                                          %! baca_markup:IndicatorCommand
             ^ \markup { \baca-to-marimba-markup }                              %! baca_markup:IndicatorCommand
@@ -7168,7 +7148,6 @@ B_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Percussion_Music_Voice measure 99 / measure 3]                        %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Percussion_Music_Voice measure 100 / measure 4]                       %! _comment_measure_numbers
@@ -7227,7 +7206,6 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 118 / measure 22]                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Percussion_Music_Voice measure 119 / measure 23]                      %! _comment_measure_numbers
     \clef "bass"                                                               %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
@@ -7470,7 +7448,6 @@ B_Percussion_Music_Voice = {                                                   %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Percussion_Rest_Voice measure 157 / measure 61]               %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -7478,7 +7455,6 @@ B_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Percussion_Music_Voice measure 158 / measure 62]                      %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Percussion_Music_Voice measure 159 / measure 63]                      %! _comment_measure_numbers
@@ -7498,7 +7474,6 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 164 / measure 68]                      %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Percussion_Music_Voice measure 165 / measure 69]                      %! _comment_measure_numbers
     \stopStaff                                                                 %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -7549,7 +7524,6 @@ B_Percussion_Music_Voice = {                                                   %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Percussion_Rest_Voice measure 169 / measure 73]               %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -7557,7 +7531,6 @@ B_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Percussion_Music_Voice measure 170 / measure 74]                      %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Percussion_Music_Voice measure 171 / measure 75]                      %! _comment_measure_numbers
@@ -7571,7 +7544,6 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 174 / measure 78]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     {
 
@@ -7686,7 +7658,6 @@ B_Violin_Music_Voice = {                                                       %
         {                                                                      %! _make_multimeasure_rest_container
 
             % [B Violin_Rest_Voice measure 98 / measure 2]                     %! _comment_measure_numbers
-            \once \override MultiMeasureRest.color = #green                    %! TACET:baca_tacet:OverrideCommand(1)
             R1 * 1                                                             %! _make_multimeasure_rest_container
 
         }                                                                      %! _make_multimeasure_rest_container
@@ -7694,7 +7665,6 @@ B_Violin_Music_Voice = {                                                       %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [B Violin_Music_Voice measure 99 / measure 3]                            %! _comment_measure_numbers
-    \override MultiMeasureRest.color = #green                                  %! TACET:baca_tacet:OverrideCommand(1)
     R1 * 1                                                                     %! _make_measure_silences
 
     % [B Violin_Music_Voice measure 100 / measure 4]                           %! _comment_measure_numbers
@@ -7711,7 +7681,6 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 104 / measure 8]                           %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
-    \revert MultiMeasureRest.color                                             %! TACET:baca_tacet:OverrideCommand(2)
 
     % [B Violin_Music_Voice measure 105 / measure 9]                           %! _comment_measure_numbers
     f'16                                                                       %! faberge_spazzolati_rhythm

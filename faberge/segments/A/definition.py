@@ -177,7 +177,7 @@ maker(
 
 maker(
     ('flx', (57, 80)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -248,7 +248,7 @@ maker(
 
 maker(
     ('ehx', (1, 12)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -267,7 +267,7 @@ maker(
 
 maker(
     ('ehx', (17, 26)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -289,7 +289,7 @@ maker(
 
 maker(
     ('ehx', (31, 40)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -311,7 +311,7 @@ maker(
 
 maker(
     ('ehx', (47, 56)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -333,7 +333,7 @@ maker(
 
 maker(
     ('ehx', (63, 80)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
@@ -450,7 +450,7 @@ maker(
 
 maker(
     ('clx', (41, 46)),
-    baca.tacet(),
+    #baca.tacet(),
     )
 
 maker(
