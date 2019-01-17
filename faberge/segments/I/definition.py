@@ -335,7 +335,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(  
-        selector=baca.pheads()[abjad.index([0, -1])],
+        selector=baca.phead(-1),
         ),
     )
 
@@ -394,14 +394,6 @@ maker(
 
 maker(
     ('perc', 8),
-    baca.chunk(
-        baca.bar_extent_persistent(
-            (0, 2),
-            after=True,
-            tag=baca.const.NOT_PARTS,
-            ),
-        baca.staff_lines(1),
-        ),
     baca.dls_staff_padding(8),
     baca.dynamic('f'),
     baca.markup(

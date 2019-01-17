@@ -150,7 +150,7 @@ maker(
     # TODO: implement flat glissando based on staff position
     # TODO: change A4 here to staff position -1
     baca.flat_glissando(
-        'C4',
+        'B3',
         hide_middle_stems=True,
         ),
     baca.make_notes(),

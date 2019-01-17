@@ -572,9 +572,7 @@ maker(
         right_broken=True,
         ),
     baca.make_repeat_tied_notes(),
-    baca.stem_tremolo(
-        selector=baca.pleaves()[abjad.index([0, -1])],
-        ),
+    baca.stem_tremolo(),
     )
 
 # vc

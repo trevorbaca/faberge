@@ -329,7 +329,7 @@ maker(
     ('perc', (6, 8)),
     # TODO: use staff position instead of pitch
     baca.flat_glissando(
-        'C3',
+        'B3',
         hide_middle_stems=True,
         ),
     baca.hairpin(

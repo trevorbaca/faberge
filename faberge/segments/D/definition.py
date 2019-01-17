@@ -234,7 +234,7 @@ maker(
     baca.dynamic('p'),
     # TODO: use staff position instead of pitch
     baca.flat_glissando(
-        'A4',
+        'B3',
         ),
     baca.make_notes(),
     baca.markup(
