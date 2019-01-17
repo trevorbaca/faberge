@@ -3417,6 +3417,8 @@ B_Flute_Music_Voice = {                                                        %
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         gs''!16                                                                %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3426,6 +3428,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         gs''!16                                                                %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3435,6 +3439,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         gs'!16                                                                 %! faberge_glow_rhythm
+        - \tweak parent-alignment-X #-0.5
+        - \tweak staff-padding #3.5
         ^ \markup {
             \override
                 #'(circle-padding . 0.25)
@@ -3453,6 +3459,8 @@ B_Flute_Music_Voice = {                                                        %
     gs''!8                                                                     %! faberge_glow_rhythm
 
     gs'!4.                                                                     %! faberge_glow_rhythm
+    - \tweak parent-alignment-X #-0.5
+    - \tweak staff-padding #3.5
     ^ \markup {
         \override
             #'(circle-padding . 0.25)

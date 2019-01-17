@@ -72,7 +72,9 @@ maker(
 maker(
     'Global_Skips',
     baca.chunk(
-        baca.bar_line_x_extent((-1, 3)),
+        baca.not_score(
+            baca.bar_line_x_extent((-1, 3)),
+            ),
         baca.literal(r'\bar ".|:"'),
         measures=4,
         ),

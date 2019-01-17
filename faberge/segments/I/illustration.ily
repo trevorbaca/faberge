@@ -57,7 +57,7 @@ I_Global_Skips = {                                                             %
 %@% \bacaStartTextSpanCT                                                       %! CLOCK_TIME_MARKUP
 
     % [I Global_Skips measure 232 / measure 4]                                 %! _comment_measure_numbers
-    \once \override Score.BarLine.X-extent = #'(-1 . 3)                        %! baca_bar_line_x_extent:OverrideCommand(1)
+    \once \override Score.BarLine.X-extent = #'(-1 . 3)                        %! -SCORE:baca_bar_line_x_extent:OverrideCommand(1)
     \bar ".|:"                                                                 %! baca_literal:IndicatorCommand
     \time 4/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
     \baca-time-signature-color #'blue                                          %! EXPLICIT_TIME_SIGNATURE_COLOR:_attach_color_literal(2)

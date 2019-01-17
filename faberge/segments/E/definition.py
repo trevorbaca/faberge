@@ -70,10 +70,12 @@ maker(
             (-1, 2),
             selector=baca.skip(0),
             ),
-        baca.bar_line_x_extent(
-            (-2, 3),
-            after=True,
-            selector=baca.skip(-1),
+        baca.not_score(
+            baca.bar_line_x_extent(
+                (-2, 3),
+                after=True,
+                selector=baca.skip(-1),
+                ),
             ),
         baca.volta(),
         measures=(2, 4),
