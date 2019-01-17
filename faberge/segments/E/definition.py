@@ -731,14 +731,9 @@ maker(
         "{ c'1 c'1 }",
         annotate_unpitched_music=True,
         ),
-    baca.scp_spanner(
-        'tasto ->',
-        abjad.tweak(3).staff_padding,
-        right_broken=True,
-        ),
     baca.stem_tremolo(),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(3).staff_padding,
         right_broken=True,
         ),
     )

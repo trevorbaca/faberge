@@ -762,7 +762,7 @@ maker(
     baca.pitch('D3'),
     baca.staff_lines(5),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(3).staff_padding,
         ),
     )
 
@@ -818,15 +818,8 @@ maker(
         hide_middle_stems=True,
         left_broken=True,
        ),
-     baca.scp_spanner(
-        'tasto -> poco pont.',
-        abjad.tweak(3).staff_padding,
-        autodetect_right_padding=False,
-        bookend=-1,
-        selector=baca.tleaves(),
-        ),
     baca.xfb_spanner(
-        abjad.tweak(5.5).staff_padding,
+        abjad.tweak(3).staff_padding,
         selector=baca.tleaves().rleak(),
         ),
     )

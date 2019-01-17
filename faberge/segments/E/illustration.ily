@@ -249,12 +249,6 @@ E_Flute_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "5-2"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-    - \tweak color #darkgreen                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #5.5                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)             %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -299,7 +293,6 @@ E_Flute_Music_Voice = {                                                        %
             c''1 * 1/4                                                         %! _make_multimeasure_rest_container
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \!                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -321,11 +314,6 @@ E_Flute_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "1-5 / 2-1"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -505,7 +493,6 @@ E_Flute_Music_Voice = {                                                        %
             % [E Flute_Music_Voice measure 202 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -647,11 +634,6 @@ E_Clarinet_Music_Voice = {                                                     %
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "1-5 / 2-1"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #5.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.InstrumentName.color = #(x11-color 'OliveDrab)         %! REDRAWN_REAPPLIED_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \faberge-bcl-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
@@ -923,7 +905,6 @@ E_Clarinet_Music_Voice = {                                                     %
             % [E Clarinet_Music_Voice measure 202 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             d''1 * 1/4                                                         %! PHANTOM:_make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1086,11 +1067,6 @@ E_Piano_RH_Music_Voice = {                                                     %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
-        - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "2-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepPink4)                   %! REDUNDANT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r8
@@ -1212,7 +1188,6 @@ E_Piano_RH_Music_Voice = {                                                     %
             % [E Piano_RH_Music_Voice measure 202 / measure 9]                 %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! PHANTOM:_style_phantom_measures(5):MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1531,12 +1506,6 @@ E_Percussion_Music_Voice = {                                                   %
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
     ^ \markup { \baca-bd-struck-markup }                                       %! baca_markup:IndicatorCommand
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "A.2"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-    - \tweak color #red                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #10.5                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
     r1..
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1549,7 +1518,6 @@ E_Percussion_Music_Voice = {                                                   %
             % [E Percussion_Music_Voice measure 196 / measure 3]               %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1574,12 +1542,6 @@ E_Percussion_Music_Voice = {                                                   %
     ^ \markup { \baca-castanets-markup }                                       %! baca_markup:IndicatorCommand
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
-    - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \baca-text-spanner-left-text "4-3"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-    - \tweak color #darkgreen                                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    - \tweak staff-padding #10.5                                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-    \bacaStartTextSpanMA                                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
     r2.
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
@@ -1622,7 +1584,6 @@ E_Percussion_Music_Voice = {                                                   %
             - \tweak parent-alignment-X #0                                     %! baca_markup:IndicatorCommand
             - \tweak staff-padding #8                                          %! baca_markup:IndicatorCommand
             ^ \markup { \baca-woodblock-markup }                               %! baca_markup:IndicatorCommand
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
             c'4
 
@@ -1739,12 +1700,6 @@ E_Violin_Music_Voice = {                                                       %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
         ef'!4
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
@@ -1790,7 +1745,6 @@ E_Violin_Music_Voice = {                                                       %
             % [E Violin_Music_Voice measure 196 / measure 3]                   %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -1828,12 +1782,6 @@ E_Violin_Music_Voice = {                                                       %
         - \tweak bound-details.right.padding #2.75                             %! CLB:baca_clb_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #5.5                                            %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanCLB                                                  %! CLB:baca_clb_spanner:PiecewiseCommand(1)
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "4-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
         a'8                                                                    %! faberge_clb_rhythm
@@ -1961,7 +1909,6 @@ E_Violin_Music_Voice = {                                                       %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 2                                                            %! _make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2066,12 +2013,6 @@ E_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "3-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #3.25                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "ord."                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1)
         - \tweak staff-padding #5.5                                            %! SCP:baca_scp_spanner:PiecewiseCommand(1)
@@ -2114,7 +2055,6 @@ E_Viola_Music_Voice = {                                                        %
             % [E Viola_Music_Voice measure 196 / measure 3]                    %! _comment_measure_numbers
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             c'1 * 1/4                                                          %! _make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2145,12 +2085,6 @@ E_Viola_Music_Voice = {                                                        %
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "4-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -2289,7 +2223,6 @@ E_Viola_Music_Voice = {                                                        %
             \baca-invisible-music                                              %! _make_multimeasure_rest_container
             \once \override Staff.StaffSymbol.color = #(x11-color 'blue)       %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
             c'1 * 2                                                            %! _make_multimeasure_rest_container
-            \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -2405,12 +2338,6 @@ E_Cello_Music_Voice = {                                                        %
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \baca-text-spanner-left-text "4-3"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
-        - \tweak color #darkgreen                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        - \tweak staff-padding #10.5                                           %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -2563,18 +2490,12 @@ E_Cello_Music_Voice = {                                                        %
         :32                                                                    %! baca_stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         \glissando                                                             %! baca_glissando
-        - \abjad-solid-line-with-arrow                                         %! SCP:baca_scp_spanner:PiecewiseCommand(1):right_broken
-        - \baca-text-spanner-left-text "tasto"                                 %! SCP:baca_scp_spanner:PiecewiseCommand(1):right_broken
-        - \tweak bound-details.right.padding #2.5                              %! SCP:baca_scp_spanner:PiecewiseCommand(1):right_broken:autodetect
-        - \tweak staff-padding #3                                              %! SCP:baca_scp_spanner:PiecewiseCommand(1):right_broken
-        \bacaStartTextSpanSCP                                                  %! SCP:baca_scp_spanner:PiecewiseCommand(1):right_broken
         - \abjad-dashed-line-with-hook                                         %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken
         - \baca-text-spanner-left-text "XFB"                                   %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken
         - \tweak bound-details.left-broken.text \baca-left-broken-xfb-markup   %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken
         - \tweak bound-details.right.padding #2.5                              %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken:autodetect
-        - \tweak staff-padding #5.5                                            %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken
+        - \tweak staff-padding #3                                              %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken
         \bacaStartTextSpanBowSpeed                                             %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(1):right_broken
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -2603,7 +2524,6 @@ E_Cello_Music_Voice = {                                                        %
             % [E Cello_Music_Voice measure 202 / measure 9]                    %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
             c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
-            \bacaStopTextSpanSCP                                               %! PHANTOM:_style_phantom_measures(5):SCP:baca_scp_spanner:PiecewiseCommand(3)
             \bacaStopTextSpanBowSpeed                                          %! PHANTOM:_style_phantom_measures(5):BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(3)
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container

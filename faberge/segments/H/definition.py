@@ -340,24 +340,22 @@ maker(
 
 maker(
     ('perc', 9),
-    baca.chunk(
-        baca.clef('bass'),
-        baca.not_parts(
-            baca.clef_shift('bass'),
-            ),
-        ),
+    baca.clef('bass'),
     baca.dynamic('p'),
     baca.flat_glissando(
         'Eb2',
+        hide_middle_stems=True,
         right_broken=True,
-        selector=baca.pleaves().rleak(),
         ),
-    baca.make_repeat_tied_notes(),
     baca.markup(
         r'\baca-marimba-attackless-markup',
-        abjad.tweak(6).staff_padding,
         abjad.tweak(0).parent_alignment_X,
+        abjad.tweak(6).staff_padding,
         literal=True,
+        ),
+    baca.rhythm(
+        "{ c'2 c'1 }",
+        annotate_unpitched_music=True,
         ),
     baca.stem_tremolo(),
     )
