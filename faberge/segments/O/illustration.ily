@@ -434,8 +434,6 @@ O_English_Horn_Music_Voice = {                                                 %
 
 
 O_English_Horn_Music_Staff = <<                                                %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
     \O_English_Horn_Music_Voice                                                %! extern
@@ -533,8 +531,6 @@ O_Clarinet_Music_Voice = {                                                     %
 
 
 O_Clarinet_Music_Staff = <<                                                    %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
     \O_Clarinet_Music_Voice                                                    %! extern
@@ -654,8 +650,6 @@ O_Piano_RH_Music_Voice = {                                                     %
 
 
 O_Piano_RH_Music_Staff = <<                                                    %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
     \O_Piano_RH_Music_Voice                                                    %! extern
@@ -885,8 +879,6 @@ O_Percussion_Music_Voice = {                                                   %
 
 
 O_Percussion_Music_Staff = <<                                                  %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
     \O_Percussion_Music_Voice                                                  %! extern
@@ -1052,8 +1044,6 @@ O_Violin_Music_Voice = {                                                       %
 
 
 O_Violin_Music_Staff = <<                                                      %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
     \O_Violin_Music_Voice                                                      %! extern
@@ -1219,8 +1209,6 @@ O_Viola_Music_Voice = {                                                        %
 
 
 O_Viola_Music_Staff = <<                                                       %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
     \O_Viola_Music_Voice                                                       %! extern
@@ -1355,8 +1343,6 @@ O_Cello_Music_Voice = {                                                        %
 
 
 O_Cello_Music_Staff = <<                                                       %! extern
-    \context GlobalRests = "Global_Rests"
-    \O_Global_Rests
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
     \O_Cello_Music_Voice                                                       %! extern

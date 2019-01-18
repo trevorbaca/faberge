@@ -262,13 +262,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='English_Horn_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, english_horn_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, english_horn_music_staff)
         abjad.annotate(
             english_horn_music_staff,
             'default_instrument',
@@ -292,13 +292,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Clarinet_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, clarinet_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, clarinet_music_staff)
         abjad.annotate(
             clarinet_music_staff,
             'default_instrument',
@@ -322,13 +322,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Piano_RH_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, piano_rh_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, piano_rh_music_staff)
         abjad.annotate(
             piano_rh_music_staff,
             'default_clef',
@@ -380,13 +380,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Percussion_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, percussion_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, percussion_music_staff)
         abjad.annotate(
             percussion_music_staff,
             'default_instrument',
@@ -410,13 +410,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Violin_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, violin_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, violin_music_staff)
         abjad.annotate(
             violin_music_staff,
             'default_instrument',
@@ -440,13 +440,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Viola_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, viola_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, viola_music_staff)
         abjad.annotate(
             viola_music_staff,
             'default_instrument',
@@ -470,13 +470,13 @@ class ScoreTemplate(baca.ScoreTemplate):
             name='Cello_Music_Staff',
             tag=tag,
             )
-        literal = abjad.LilyPondLiteral(
-            [ r'\context GlobalRests = "Global_Rests"',
-            r'\X_Global_Rests',
-            ],
-            format_slot='opening',
-            )
-        abjad.attach(literal, cello_music_staff)
+#        literal = abjad.LilyPondLiteral(
+#            [ r'\context GlobalRests = "Global_Rests"',
+#            r'\X_Global_Rests',
+#            ],
+#            format_slot='opening',
+#            )
+#        abjad.attach(literal, cello_music_staff)
         abjad.annotate(
             cello_music_staff,
             'default_instrument',
