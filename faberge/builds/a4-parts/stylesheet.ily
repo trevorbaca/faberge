@@ -38,18 +38,6 @@
                 "for ensemble recherche"
             }
         }
-    subtitle = \markup
-        \column {
-            \fontsize #3
-            " "
-            \null
-            \override #'(font-name . "Palatino")
-            \fontsize #3
-            "(cello part)"
-            \fontsize #3
-            " "
-            \null
-        }
 }
 
 \layout {
