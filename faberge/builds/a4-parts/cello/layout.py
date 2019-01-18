@@ -2,14 +2,14 @@ import baca
 
 
 distances = (6,)
-y_offset_1 = 10
-y_offset_2 = 38
-y_offset_3 = 66
-y_offset_4 = 94
-y_offset_5 = 122
-y_offset_6 = 150
-y_offset_7 = 178
-y_offset_8 = 206
+y_offset_1 = 12
+y_offset_2 = 40
+y_offset_3 = 68
+y_offset_4 = 96
+y_offset_5 = 124
+y_offset_6 = 152
+y_offset_7 = 180
+y_offset_8 = 208
 
 breaks = baca.breaks(
 
@@ -17,7 +17,8 @@ breaks = baca.breaks(
         baca.system(
             distances,
             measure=1,
-            y_offset=57,
+            #y_offset=57,
+            y_offset=y_offset_3,
             ),
         baca.system(
             distances,

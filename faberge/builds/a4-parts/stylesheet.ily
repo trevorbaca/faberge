@@ -97,5 +97,5 @@
     }
 
     indent = 0
-    %ragged-right = ##f
+    ragged-right = ##f
 }
