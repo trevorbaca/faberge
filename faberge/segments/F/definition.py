@@ -33,6 +33,12 @@ maker = baca.SegmentMaker(
 maker(
     'Global_Skips',
     baca.chunk(
+        baca.only_parts(
+            baca.rehearsal_mark(
+                'F',
+                abjad.tweak((0, 9)).extra_offset,
+                ),
+            ),
         baca.only_score(
             baca.rehearsal_mark(
                 'F',

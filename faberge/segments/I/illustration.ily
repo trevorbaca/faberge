@@ -5,6 +5,8 @@ I_Global_Skips = {                                                             %
     \bar ""                                                                    %! _make_global_skips(3):+SEGMENT:EMPTY_START_BAR
     \baca-time-signature-color #'green4                                        %! REAPPLIED_TIME_SIGNATURE_COLOR:_attach_color_literal(2)
     s1 * 3/2                                                                   %! _make_global_skips(1)
+%%% - \tweak extra-offset #'(0 . 9)                                            %! baca_rehearsal_mark:+PARTS:IndicatorCommand
+%%% - \baca-rehearsal-mark-markup "I"                                          %! baca_rehearsal_mark:+PARTS:IndicatorCommand
 %%% - \tweak extra-offset #'(0 . 14)                                           %! baca_rehearsal_mark:+SCORE:IndicatorCommand
 %%% - \baca-rehearsal-mark-markup "I"                                          %! baca_rehearsal_mark:+SCORE:IndicatorCommand
     - \tweak extra-offset #'(0 . 18)                                           %! baca_rehearsal_mark:+SEGMENT:IndicatorCommand
@@ -713,6 +715,8 @@ I_English_Horn_Music_Voice = {                                                 %
 
 
 I_English_Horn_Music_Staff = <<                                                %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
     \I_English_Horn_Music_Voice                                                %! extern
@@ -1051,6 +1055,8 @@ I_Clarinet_Music_Voice = {                                                     %
 
 
 I_Clarinet_Music_Staff = <<                                                    %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
     \I_Clarinet_Music_Voice                                                    %! extern
@@ -1225,6 +1231,8 @@ I_Piano_RH_Music_Voice = {                                                     %
 
 
 I_Piano_RH_Music_Staff = <<                                                    %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
     \I_Piano_RH_Music_Voice                                                    %! extern
@@ -1627,6 +1635,8 @@ I_Percussion_Music_Voice = {                                                   %
 
 
 I_Percussion_Music_Staff = <<                                                  %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
     \I_Percussion_Music_Voice                                                  %! extern
@@ -2001,6 +2011,8 @@ I_Violin_Music_Voice = {                                                       %
 
 
 I_Violin_Music_Staff = <<                                                      %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
     \I_Violin_Music_Voice                                                      %! extern
@@ -2342,6 +2354,8 @@ I_Viola_Music_Voice = {                                                        %
 
 
 I_Viola_Music_Staff = <<                                                       %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
     \I_Viola_Music_Voice                                                       %! extern
@@ -2697,6 +2711,8 @@ I_Cello_Music_Voice = {                                                        %
 
 
 I_Cello_Music_Staff = <<                                                       %! extern
+    \context GlobalRests = "Global_Rests"
+    \I_Global_Rests
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
     \I_Cello_Music_Voice                                                       %! extern
