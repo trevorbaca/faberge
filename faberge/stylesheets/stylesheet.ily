@@ -45,12 +45,6 @@
         (padding . 0)
         (stretchability . 0)
     )
-%    system-system-spacing = #'(
-%        (basic-distance . 0)
-%        (minimum-distance . 0) % space after each system
-%        (padding . 0)
-%        (stretchability . 0)
-%    )
     top-markup-spacing = #'(
         (basic-distance . 0)
         (minimum-distance . 18)
