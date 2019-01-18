@@ -534,12 +534,12 @@ N_English_Horn_Music_Voice = {                                                 %
 }                                                                              %! extern
 
 
-N_English_Horn_Music_Staff = {                                                 %! extern
+N_English_Horn_Music_Staff = <<                                                %! extern
 
     \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
     \N_English_Horn_Music_Voice                                                %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 N_Clarinet_Music_Voice = {                                                     %! extern
@@ -899,12 +899,12 @@ N_Clarinet_Music_Voice = {                                                     %
 }                                                                              %! extern
 
 
-N_Clarinet_Music_Staff = {                                                     %! extern
+N_Clarinet_Music_Staff = <<                                                    %! extern
 
     \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
     \N_Clarinet_Music_Voice                                                    %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 N_Piano_RH_Music_Voice = {                                                     %! extern
@@ -1060,12 +1060,12 @@ N_Piano_RH_Music_Voice = {                                                     %
 }                                                                              %! extern
 
 
-N_Piano_RH_Music_Staff = {                                                     %! extern
+N_Piano_RH_Music_Staff = <<                                                    %! extern
 
     \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
     \N_Piano_RH_Music_Voice                                                    %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 N_Piano_LH_Music_Voice = {                                                     %! extern
@@ -1407,12 +1407,12 @@ N_Percussion_Music_Voice = {                                                   %
 }                                                                              %! extern
 
 
-N_Percussion_Music_Staff = {                                                   %! extern
+N_Percussion_Music_Staff = <<                                                  %! extern
 
     \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
     \N_Percussion_Music_Voice                                                  %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 N_Violin_Music_Voice = {                                                       %! extern
@@ -1597,12 +1597,12 @@ N_Violin_Music_Voice = {                                                       %
 }                                                                              %! extern
 
 
-N_Violin_Music_Staff = {                                                       %! extern
+N_Violin_Music_Staff = <<                                                      %! extern
 
     \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
     \N_Violin_Music_Voice                                                      %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 N_Viola_Music_Voice = {                                                        %! extern
@@ -1805,12 +1805,12 @@ N_Viola_Music_Voice = {                                                        %
 }                                                                              %! extern
 
 
-N_Viola_Music_Staff = {                                                        %! extern
+N_Viola_Music_Staff = <<                                                       %! extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
     \N_Viola_Music_Voice                                                       %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
 
 
 N_Cello_Music_Voice = {                                                        %! extern
@@ -2033,9 +2033,9 @@ N_Cello_Music_Voice = {                                                        %
 }                                                                              %! extern
 
 
-N_Cello_Music_Staff = {                                                        %! extern
+N_Cello_Music_Staff = <<                                                       %! extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
     \N_Cello_Music_Voice                                                       %! extern
 
-}                                                                              %! extern
+>>                                                                             %! extern
