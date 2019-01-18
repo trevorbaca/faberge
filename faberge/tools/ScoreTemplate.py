@@ -39,31 +39,31 @@ class ScoreTemplate(baca.ScoreTemplate):
                 <<                                                                               %! ScoreTemplate
                     \tag Flute                                                                   %! ScoreTemplate(5)
                     \context Staff = "Flute_Music_Staff"                                         %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "Flute_Music_Voice"                                     %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "treble"                                                       %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                     \tag EnglishHorn                                                             %! ScoreTemplate(5)
                     \context Staff = "English_Horn_Music_Staff"                                  %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "English_Horn_Music_Voice"                              %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "treble"                                                       %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                     \tag Clarinet                                                                %! ScoreTemplate(5)
                     \context Staff = "Clarinet_Music_Staff"                                      %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "Clarinet_Music_Voice"                                  %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "treble"                                                       %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                 >>                                                                               %! ScoreTemplate
                 \context PercussionSectionStaffGroup = "Percussion_Section_Staff_Group"          %! ScoreTemplate
                 <<                                                                               %! ScoreTemplate
@@ -71,13 +71,13 @@ class ScoreTemplate(baca.ScoreTemplate):
                     \context PianoStaff = "Piano_Staff_Group"                                    %! ScoreTemplate
                     <<                                                                           %! ScoreTemplate
                         \context Staff = "Piano_RH_Music_Staff"                                  %! ScoreTemplate
-                        {                                                                        %! ScoreTemplate
+                        <<                                                                       %! ScoreTemplate
                             \context Voice = "Piano_RH_Music_Voice"                              %! ScoreTemplate
                             {                                                                    %! ScoreTemplate
                                 \clef "treble"                                                   %! attach_defaults
                                 s1                                                               %! ScoreTemplate.__illustrate__
                             }                                                                    %! ScoreTemplate
-                        }                                                                        %! ScoreTemplate
+                        >>                                                                       %! ScoreTemplate
                         \context Staff = "Piano_LH_Music_Staff"                                  %! ScoreTemplate
                         <<                                                                       %! ScoreTemplate
                             \context Voice = "Piano_LH_Music_Voice"                              %! ScoreTemplate
@@ -93,43 +93,43 @@ class ScoreTemplate(baca.ScoreTemplate):
                     >>                                                                           %! ScoreTemplate
                     \tag Percussion                                                              %! ScoreTemplate(5)
                     \context Staff = "Percussion_Music_Staff"                                    %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "Percussion_Music_Voice"                                %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "treble"                                                       %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                 >>                                                                               %! ScoreTemplate
                 \context StringSectionStaffGroup = "String_Section_Staff_Group"                  %! ScoreTemplate
                 <<                                                                               %! ScoreTemplate
                     \tag Violin                                                                  %! ScoreTemplate(5)
                     \context Staff = "Violin_Music_Staff"                                        %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "Violin_Music_Voice"                                    %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "treble"                                                       %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                     \tag Viola                                                                   %! ScoreTemplate(5)
                     \context Staff = "Viola_Music_Staff"                                         %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "Viola_Music_Voice"                                     %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "alto"                                                         %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                     \tag Cello                                                                   %! ScoreTemplate(5)
                     \context Staff = "Cello_Music_Staff"                                         %! ScoreTemplate
-                    {                                                                            %! ScoreTemplate
+                    <<                                                                           %! ScoreTemplate
                         \context Voice = "Cello_Music_Voice"                                     %! ScoreTemplate
                         {                                                                        %! ScoreTemplate
                             \clef "bass"                                                         %! attach_defaults
                             s1                                                                   %! ScoreTemplate.__illustrate__
                         }                                                                        %! ScoreTemplate
-                    }                                                                            %! ScoreTemplate
+                    >>                                                                           %! ScoreTemplate
                 >>                                                                               %! ScoreTemplate
             >>                                                                                   %! ScoreTemplate
         >>                                                                                       %! ScoreTemplate
@@ -235,6 +235,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         flute_music_staff = abjad.Staff(
             [flute_music_voice],
+            is_simultaneous=True,
             name='Flute_Music_Staff',
             tag=tag,
             )
@@ -257,6 +258,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         english_horn_music_staff = abjad.Staff(
             [english_horn_music_voice],
+            is_simultaneous=True,
             name='English_Horn_Music_Staff',
             tag=tag,
             )
@@ -279,6 +281,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         clarinet_music_staff = abjad.Staff(
             [clarinet_music_voice],
+            is_simultaneous=True,
             name='Clarinet_Music_Staff',
             tag=tag,
             )
@@ -301,6 +304,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         piano_rh_music_staff = abjad.Staff(
             [piano_rh_music_voice],
+            is_simultaneous=True,
             name='Piano_RH_Music_Staff',
             tag=tag,
             )
@@ -351,6 +355,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         percussion_music_staff = abjad.Staff(
             [percussion_music_voice],
+            is_simultaneous=True,
             name='Percussion_Music_Staff',
             tag=tag,
             )
@@ -373,6 +378,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         violin_music_staff = abjad.Staff(
             [violin_music_voice],
+            is_simultaneous=True,
             name='Violin_Music_Staff',
             tag=tag,
             )
@@ -395,6 +401,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         viola_music_staff = abjad.Staff(
             [viola_music_voice],
+            is_simultaneous=True,
             name='Viola_Music_Staff',
             tag=tag,
             )
@@ -417,6 +424,7 @@ class ScoreTemplate(baca.ScoreTemplate):
             )
         cello_music_staff = abjad.Staff(
             [cello_music_voice],
+            is_simultaneous=True,
             name='Cello_Music_Staff',
             tag=tag,
             )
