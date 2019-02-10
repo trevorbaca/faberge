@@ -1919,7 +1919,7 @@ A_Flute_Music_Voice = {                                                        %
     ^ \baca-reapplied-indicator-markup "[“Fl.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Flute”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-match-sound-of-crotales }                             %! baca_markup:IndicatorCommand
+    ^ \faberge-match-sound-of-crotales                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -2758,7 +2758,7 @@ A_Flute_Music_Voice = {                                                        %
             % [A Flute_Rest_Voice measure 61 / measure 57]                     %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup { \baca-to-bass-flute-markup }                           %! baca_markup:IndicatorCommand
+            ^ \baca-to-bass-flute-markup                                       %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -3495,7 +3495,7 @@ A_English_Horn_Music_Voice = {                                                 %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-keynoise-markup }                                    %! baca_markup:IndicatorCommand
+        ^ \baca-keynoise-markup                                                %! baca_markup:IndicatorCommand
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
         f'16                                                                   %! faberge_keynoise_rhythm
@@ -3793,7 +3793,7 @@ A_Clarinet_Music_Voice = {                                                     %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-match-sound-of-crotales }                             %! baca_markup:IndicatorCommand
+    ^ \faberge-match-sound-of-crotales                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -4401,7 +4401,7 @@ A_Clarinet_Music_Voice = {                                                     %
             % [A Clarinet_Rest_Voice measure 45 / measure 41]                  %! _comment_measure_numbers
             R1 * 3/4                                                           %! _make_multimeasure_rest_container
             - \tweak padding #1.5                                              %! baca_markup:IndicatorCommand
-            ^ \markup { \baca-to-bass-clarinet-markup }                        %! baca_markup:IndicatorCommand
+            ^ \baca-to-bass-clarinet-markup                                    %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -6068,7 +6068,7 @@ A_Percussion_Music_Voice = {                                                   %
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak extra-offset #'(-6 . 0)                                           %! baca_markup:IndicatorCommand
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-crotales-bowed-markup }                                  %! baca_markup:IndicatorCommand
+    ^ \baca-crotales-bowed-markup                                              %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7254,7 +7254,7 @@ A_Percussion_Music_Voice = {                                                   %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-castanets-markup }                                   %! baca_markup:IndicatorCommand
+        ^ \baca-castanets-markup                                               %! baca_markup:IndicatorCommand
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -7274,7 +7274,7 @@ A_Percussion_Music_Voice = {                                                   %
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-struck-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-bd-struck-markup                                                   %! baca_markup:IndicatorCommand
     \stopTrillSpan                                                             %! baca_trill_spanner:SpannerIndicatorCommand(2)
 
     r2
@@ -7318,7 +7318,7 @@ A_Percussion_Music_Voice = {                                                   %
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \laissezVibrer                                                       %! baca_laissez_vibrer:IndicatorCommand
         - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-crotales-bowed-markup }                              %! baca_markup:IndicatorCommand
+        ^ \baca-crotales-bowed-markup                                          %! baca_markup:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7474,7 +7474,7 @@ A_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \faberge-match-sound-of-crotales }                             %! baca_markup:IndicatorCommand
+    ^ \faberge-match-sound-of-crotales                                         %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -10138,7 +10138,7 @@ A_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-sub-non-vib-markup }                                     %! baca_markup:IndicatorCommand
+    ^ \baca-sub-non-vib-markup                                                 %! baca_markup:IndicatorCommand
 
     % [A Cello_Music_Voice measure 68 / measure 64]                            %! _comment_measure_numbers
     d,1                                                                        %! baca_make_repeat_tied_notes

@@ -1122,7 +1122,7 @@ D_Percussion_Music_Voice = {                                                   %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-rolled-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-bd-rolled-markup                                                   %! baca_markup:IndicatorCommand
     \glissando                                                                 %! baca_glissando
 
     % [D Percussion_Music_Voice measure 188 / measure 4]                       %! _comment_measure_numbers

@@ -1023,7 +1023,7 @@ E_Piano_RH_Music_Voice = {                                                     %
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-tuning-pegs-markup }                                 %! baca_markup:IndicatorCommand
+        ^ \baca-tuning-pegs-markup                                             %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
@@ -1086,7 +1086,7 @@ E_Piano_RH_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1098,32 +1098,32 @@ E_Piano_RH_Music_Voice = {                                                     %
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
@@ -1133,27 +1133,27 @@ E_Piano_RH_Music_Voice = {                                                     %
 
         % [E Piano_RH_Music_Voice measure 200 / measure 7]                     %! _comment_measure_numbers
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
@@ -1163,42 +1163,42 @@ E_Piano_RH_Music_Voice = {                                                     %
 
         % [E Piano_RH_Music_Voice measure 201 / measure 8]                     %! _comment_measure_numbers
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
         r8
@@ -1532,7 +1532,7 @@ E_Percussion_Music_Voice = {                                                   %
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-struck-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-bd-struck-markup                                                   %! baca_markup:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A.2"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -1573,7 +1573,7 @@ E_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-castanets-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-castanets-markup                                                   %! baca_markup:IndicatorCommand
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1623,7 +1623,7 @@ E_Percussion_Music_Voice = {                                                   %
             \f                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak parent-alignment-X #0                                     %! baca_markup:IndicatorCommand
             - \tweak staff-padding #8                                          %! baca_markup:IndicatorCommand
-            ^ \markup { \baca-woodblock-markup }                               %! baca_markup:IndicatorCommand
+            ^ \baca-woodblock-markup                                           %! baca_markup:IndicatorCommand
             \bacaStopTextSpanMA                                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
 
             c'4

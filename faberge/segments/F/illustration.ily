@@ -934,7 +934,7 @@ F_Piano_RH_Music_Voice = {                                                     %
         \mp                                                                    %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
         ^ \baca-reapplied-indicator-markup "[“Pf.”]"                           %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“Piano”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-2 / 2-3"                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -949,33 +949,33 @@ F_Piano_RH_Music_Voice = {                                                     %
 
         <g a c'>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r16
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
         r16
@@ -986,33 +986,33 @@ F_Piano_RH_Music_Voice = {                                                     %
 
         % [F Piano_RH_Music_Voice measure 203 / measure 2]                     %! _comment_measure_numbers
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
@@ -1022,7 +1022,7 @@ F_Piano_RH_Music_Voice = {                                                     %
 
         % [F Piano_RH_Music_Voice measure 204 / measure 3]                     %! _comment_measure_numbers
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
         r8
@@ -1344,7 +1344,7 @@ F_Piano_LH_Music_Voice = {                                                     %
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -1353,34 +1353,34 @@ F_Piano_LH_Music_Voice = {                                                     %
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r16
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
         r16
@@ -1391,7 +1391,7 @@ F_Piano_LH_Music_Voice = {                                                     %
 
         % [F Piano_LH_Music_Voice measure 207 / measure 6]                     %! _comment_measure_numbers
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
@@ -1399,29 +1399,29 @@ F_Piano_LH_Music_Voice = {                                                     %
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r16
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
         r16
@@ -1432,7 +1432,7 @@ F_Piano_LH_Music_Voice = {                                                     %
 
         % [F Piano_LH_Music_Voice measure 208 / measure 7]                     %! _comment_measure_numbers
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
@@ -1440,19 +1440,19 @@ F_Piano_LH_Music_Voice = {                                                     %
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r16
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
 
         r16
@@ -1463,7 +1463,7 @@ F_Piano_LH_Music_Voice = {                                                     %
 
         % [F Piano_LH_Music_Voice measure 209 / measure 8]                     %! _comment_measure_numbers
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
@@ -1471,19 +1471,19 @@ F_Piano_LH_Music_Voice = {                                                     %
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r16
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
         \ottava 0                                                              %! HIDE_TO_JOIN_BROKEN_SPANNERS %! baca_ottava:SpannerIndicatorCommand(2)
 
@@ -1654,7 +1654,7 @@ F_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-castanets-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-castanets-markup                                                   %! baca_markup:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "4-3"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -1682,7 +1682,7 @@ F_Percussion_Music_Voice = {                                                   %
     b2                                                                         %! faberge_downbeat_attack
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-superball-markup }                                    %! baca_markup:IndicatorCommand
+    ^ \baca-bd-superball-markup                                                %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

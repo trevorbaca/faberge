@@ -896,7 +896,7 @@ K_Piano_RH_Music_Voice = {                                                     %
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-tuning-pegs-markup }                                 %! baca_markup:IndicatorCommand
+        ^ \baca-tuning-pegs-markup                                             %! baca_markup:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         [                                                                      %! faberge_clb_rhythm
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
@@ -1057,50 +1057,50 @@ K_Piano_LH_Music_Voice = {                                                     %
         % [K Piano_LH_Music_Voice measure 249 / measure 5]                     %! _comment_measure_numbers
         \ottava 1                                                              %! baca_ottava:SpannerIndicatorCommand(1)
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
 
         r8
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r16
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca_accent:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         ]                                                                      %! baca_beam:SpannerIndicatorCommand(2)
         \ottava 0                                                              %! baca_ottava:SpannerIndicatorCommand(2)
 
@@ -1336,7 +1336,7 @@ K_Percussion_Music_Voice = {                                                   %
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-struck-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-bd-struck-markup                                                   %! baca_markup:IndicatorCommand
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "A.2"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1354,7 +1354,7 @@ K_Percussion_Music_Voice = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-sponge-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-bd-sponge-markup                                                   %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)

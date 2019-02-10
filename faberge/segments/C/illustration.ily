@@ -236,7 +236,7 @@ C_Flute_Music_Voice = {                                                        %
     b'2                                                                        %! faberge_airtone_chain_rhythm
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-airtone-markup }                                         %! baca_markup:IndicatorCommand
+    ^ \baca-airtone-markup                                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -383,7 +383,7 @@ C_English_Horn_Music_Voice = {                                                 %
 
     b'2                                                                        %! faberge_airtone_chain_rhythm
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-airtone-markup }                                         %! baca_markup:IndicatorCommand
+    ^ \baca-airtone-markup                                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -530,7 +530,7 @@ C_Clarinet_Music_Voice = {                                                     %
 
     b'4.                                                                       %! faberge_airtone_chain_rhythm
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-airtone-markup }                                         %! baca_markup:IndicatorCommand
+    ^ \baca-airtone-markup                                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -700,7 +700,7 @@ C_Piano_RH_Music_Voice = {                                                     %
             <g a c'>8
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \mp                                                                %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
             - \abjad-solid-line-with-hook                                      %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \baca-text-spanner-left-text "2-1"                               %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
             - \tweak bound-details.right.padding #2.75                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -713,22 +713,22 @@ C_Piano_RH_Music_Voice = {                                                     %
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
@@ -737,27 +737,27 @@ C_Piano_RH_Music_Voice = {                                                     %
         \times 4/5 {
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
             <g a c'>8
-            ^ \markup { \baca-sharp-markup }                                   %! baca_markup:IndicatorCommand
+            ^ \baca-sharp-markup                                               %! baca_markup:IndicatorCommand
 
             r8
 
@@ -767,7 +767,7 @@ C_Piano_RH_Music_Voice = {                                                     %
 
     % [C Piano_RH_Music_Voice measure 181 / measure 5]                         %! _comment_measure_numbers
     <g a c'>8
-    ^ \markup { \baca-sharp-markup }                                           %! baca_markup:IndicatorCommand
+    ^ \baca-sharp-markup                                                       %! baca_markup:IndicatorCommand
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
 
@@ -1476,7 +1476,7 @@ C_Viola_Music_Voice = {                                                        %
     ^ \baca-reapplied-indicator-markup "(“Viola”)"                             %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-ob-markup }                                              %! baca_markup:IndicatorCommand
+    ^ \baca-ob-markup                                                          %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
