@@ -4172,7 +4172,7 @@ B_English_Horn_Music_Voice = {                                                 %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \fff                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-doubletrill-markup }                                     %! baca_markup:IndicatorCommand
+    ^ \baca-doubletrill-markup                                                 %! baca_markup:IndicatorCommand
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
@@ -4704,7 +4704,7 @@ B_English_Horn_Music_Voice = {                                                 %
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-airtone-markup }                                         %! baca_markup:IndicatorCommand
+    ^ \baca-airtone-markup                                                     %! baca_markup:IndicatorCommand
 
     % [B English_Horn_Music_Voice measure 166 / measure 70]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca_make_repeat_tied_notes
@@ -4807,7 +4807,7 @@ B_English_Horn_Music_Voice = {                                                 %
         \baca-f-parenthesized                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-ratchet-markup }                                     %! baca_markup:IndicatorCommand
+        ^ \baca-ratchet-markup                                                 %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_ratchet_rhythm
 
         b'16 * 111/32                                                          %! faberge_ratchet_rhythm
@@ -5899,7 +5899,7 @@ B_Piano_RH_Music_Voice = {                                                     %
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-tuning-pegs-markup }                                 %! baca_markup:IndicatorCommand
+        ^ \baca-tuning-pegs-markup                                             %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_clb_rhythm
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
@@ -7124,7 +7124,7 @@ B_Percussion_Music_Voice = {                                                   %
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-lv-possibile-markup }                                    %! baca_markup:IndicatorCommand
+    ^ \baca-lv-possibile-markup                                                %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -7151,7 +7151,7 @@ B_Percussion_Music_Voice = {                                                   %
             % [B Percussion_Rest_Voice measure 98 / measure 2]                 %! _comment_measure_numbers
             R1 * 1                                                             %! _make_multimeasure_rest_container
             - \tweak staff-padding #6                                          %! baca_markup:IndicatorCommand
-            ^ \markup { \baca-to-marimba-markup }                              %! baca_markup:IndicatorCommand
+            ^ \baca-to-marimba-markup                                          %! baca_markup:IndicatorCommand
 
         }                                                                      %! _make_multimeasure_rest_container
 
@@ -7227,7 +7227,7 @@ B_Percussion_Music_Voice = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \ppp                                                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-marimba-attackless-markup }                              %! baca_markup:IndicatorCommand
+    ^ \baca-marimba-attackless-markup                                          %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando
@@ -7502,7 +7502,7 @@ B_Percussion_Music_Voice = {                                                   %
     \baca-effort-mf                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-bd-sponge-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-bd-sponge-markup                                                   %! baca_markup:IndicatorCommand
     \override Staff.BarLine.bar-extent = #'(0 . 2)                             %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
     \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                    %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -7568,7 +7568,7 @@ B_Percussion_Music_Voice = {                                                   %
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak staff-padding #8                                          %! baca_markup:IndicatorCommand
-            ^ \markup { \baca-woodblock-markup }                               %! baca_markup:IndicatorCommand
+            ^ \baca-woodblock-markup                                           %! baca_markup:IndicatorCommand
             - \abjad-dashed-line-with-hook                                     %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
             - \baca-text-spanner-left-text "MM"                                %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken
             - \tweak bound-details.right.padding #2.5                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):right_broken:autodetect
@@ -7643,7 +7643,7 @@ B_Violin_Music_Voice = {                                                       %
     ^ \baca-reapplied-indicator-markup "[“Vn.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Violin”)"                            %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-lv-possibile-markup }                                    %! baca_markup:IndicatorCommand
+    ^ \baca-lv-possibile-markup                                                %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -8737,7 +8737,7 @@ B_Violin_Music_Voice = {                                                       %
     \baca-effort-mf-parenthesized                                              %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-ob-markup }                                              %! baca_markup:IndicatorCommand
+    ^ \baca-ob-markup                                                          %! baca_markup:IndicatorCommand
     \bacaStopTextSpanCLB                                                       %! CLB:baca_clb_spanner:PiecewiseCommand(3)
 
     % [B Violin_Music_Voice measure 166 / measure 70]                          %! _comment_measure_numbers
@@ -10658,7 +10658,7 @@ B_Cello_Music_Voice = {                                                        %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak staff-padding #5.5                                                %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-non-vib-markup }                                         %! baca_markup:IndicatorCommand
+    ^ \baca-non-vib-markup                                                     %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \glissando                                                                 %! baca_glissando

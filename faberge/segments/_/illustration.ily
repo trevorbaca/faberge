@@ -273,7 +273,7 @@ i_English_Horn_Music_Voice = {                                                 %
         \baca-f-parenthesized                                                  %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-ratchet-markup }                                     %! baca_markup:IndicatorCommand
+        ^ \baca-ratchet-markup                                                 %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_ratchet_rhythm
 
         b'16 * 139/32                                                          %! faberge_ratchet_rhythm

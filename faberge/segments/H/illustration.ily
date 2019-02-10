@@ -1168,7 +1168,7 @@ H_Percussion_Music_Voice = {                                                   %
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak padding #1.5                                                      %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-castanets-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-castanets-markup                                                   %! baca_markup:IndicatorCommand
     - \tweak bound-details.right.padding #2                                    %! baca_trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca_trill_spanner:SpannerIndicatorCommand(1)
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1238,7 +1238,7 @@ H_Percussion_Music_Voice = {                                                   %
     fs'!2                                                                      %! faberge_downbeat_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \tweak staff-padding #6                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-crotales-bowed-markup }                                  %! baca_markup:IndicatorCommand
+    ^ \baca-crotales-bowed-markup                                              %! baca_markup:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1298,7 +1298,7 @@ H_Percussion_Music_Voice = {                                                   %
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-marimba-attackless-markup }                          %! baca_markup:IndicatorCommand
+        ^ \baca-marimba-attackless-markup                                      %! baca_markup:IndicatorCommand
         \glissando                                                             %! baca_glissando
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
@@ -1995,7 +1995,7 @@ H_Violin_Music_Voice = {                                                       %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-seven-e-flat }                                    %! baca_markup:IndicatorCommand
+        ^ \faberge-seven-e-flat                                                %! baca_markup:IndicatorCommand
 
         \times 2/3 {
 
@@ -2762,7 +2762,7 @@ H_Viola_Music_Voice = {                                                        %
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca_quadruple_staccato:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca_markup:IndicatorCommand
-        ^ \markup { \faberge-thirteen-e-flat }                                 %! baca_markup:IndicatorCommand
+        ^ \faberge-thirteen-e-flat                                             %! baca_markup:IndicatorCommand
 
         \times 2/3 {
 

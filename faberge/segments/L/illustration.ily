@@ -1150,7 +1150,7 @@ L_Piano_RH_Music_Voice = {                                                     %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         - \abjad-solid-line-with-hook                                          %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "2-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
@@ -1163,32 +1163,32 @@ L_Piano_RH_Music_Voice = {                                                     %
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
 
         <g a c'>8
-        ^ \markup { \baca-sharp-markup }                                       %! baca_markup:IndicatorCommand
+        ^ \baca-sharp-markup                                                   %! baca_markup:IndicatorCommand
 
         r8
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
@@ -1197,7 +1197,7 @@ L_Piano_RH_Music_Voice = {                                                     %
 
     % [L Piano_RH_Music_Voice measure 257 / measure 4]                         %! _comment_measure_numbers
     <g a c'>8
-    ^ \markup { \baca-sharp-markup }                                           %! baca_markup:IndicatorCommand
+    ^ \baca-sharp-markup                                                       %! baca_markup:IndicatorCommand
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
 
     r2..
@@ -1221,7 +1221,7 @@ L_Piano_RH_Music_Voice = {                                                     %
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-tuning-pegs-markup }                                 %! baca_markup:IndicatorCommand
+        ^ \baca-tuning-pegs-markup                                             %! baca_markup:IndicatorCommand
         [                                                                      %! faberge_clb_rhythm
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
@@ -1561,7 +1561,7 @@ L_Percussion_Music_Voice = {                                                   %
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak parent-alignment-X #0                                             %! baca_markup:IndicatorCommand
     - \tweak staff-padding #8                                                  %! baca_markup:IndicatorCommand
-    ^ \markup { \baca-castanets-markup }                                       %! baca_markup:IndicatorCommand
+    ^ \baca-castanets-markup                                                   %! baca_markup:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "4-3 / 4-4"                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.5                                  %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -1630,7 +1630,7 @@ L_Percussion_Music_Voice = {                                                   %
         \baca-p-sempre                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
-        ^ \markup { \baca-woodblock-markup }                                   %! baca_markup:IndicatorCommand
+        ^ \baca-woodblock-markup                                               %! baca_markup:IndicatorCommand
         - \tweak bound-details.right.padding #2                                %! baca_trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca_trill_spanner:SpannerIndicatorCommand(1)
 
