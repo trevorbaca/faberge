@@ -531,7 +531,7 @@ E_Flute_Music_Voice = {                                                        %
 
 E_Flute_Music_Staff = <<                                                       %! extern
 
-    \context GlobalRests = "Global_Rests"                                      %! _make_global_context
+    \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
     \E_Global_Rests                                                            %! extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
