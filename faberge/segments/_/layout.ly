@@ -5,18 +5,18 @@
 %  ]
 
 
-\context Score = "Score"                                                       %! SingleStaffScoreTemplate
-\with                                                                          %! SingleStaffScoreTemplate
-{                                                                              %! SingleStaffScoreTemplate
-    currentBarNumber = #1                                                      %! SingleStaffScoreTemplate
-}                                                                              %! SingleStaffScoreTemplate
-<<                                                                             %! SingleStaffScoreTemplate
+\context Score = "Score"                                                       %! baca.SingleStaffScoreTemplate.__call__
+\with                                                                          %! baca.SingleStaffScoreTemplate.__call__
+{                                                                              %! baca.SingleStaffScoreTemplate.__call__
+    currentBarNumber = #1                                                      %! baca.SingleStaffScoreTemplate.__call__
+}                                                                              %! baca.SingleStaffScoreTemplate.__call__
+<<                                                                             %! baca.SingleStaffScoreTemplate.__call__
 
-    \context GlobalContext = "Global_Context"                                  %! _make_global_context
-    <<                                                                         %! _make_global_context
+    \context GlobalContext = "Global_Context"                                  %! abjad.ScoreTemplate._make_global_context
+    <<                                                                         %! abjad.ScoreTemplate._make_global_context
 
-        \context PageLayout = "Page_Layout"                                    %! _make_global_context
-        {   %*% Page_Layout                                                    %! _make_global_context
+        \context PageLayout = "Page_Layout"                                    %! abjad.ScoreTemplate._make_global_context
+        {   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context
 
             % [Page_Layout measure 1]                                          %! _comment_measure_numbers
             \baca-new-spacing-section #1 #28                                   %! HorizontalSpacingSpecifier(1):SPACING
@@ -61,8 +61,8 @@
             \once \override Score.BarLine.transparent = ##t                    %! PHANTOM:_style_phantom_measures(3)
             \once \override Score.SpanBar.transparent = ##t                    %! PHANTOM:_style_phantom_measures(3)
 
-        }   %*% Page_Layout                                                    %! _make_global_context
+        }   %*% Page_Layout                                                    %! abjad.ScoreTemplate._make_global_context
 
-    >>                                                                         %! _make_global_context
+    >>                                                                         %! abjad.ScoreTemplate._make_global_context
 
->>                                                                             %! SingleStaffScoreTemplate
+>>                                                                             %! baca.SingleStaffScoreTemplate.__call__
