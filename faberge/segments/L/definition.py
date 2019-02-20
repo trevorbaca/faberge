@@ -192,7 +192,7 @@ maker(
     baca.pitch(
         'A2',
         selector=baca.plts(
-            exclude=baca.const.HIDDEN,
+            exclude=abjad.const.HIDDEN,
             ),
         ),
     )
@@ -246,7 +246,7 @@ maker(
     baca.pitch(
         'Ab2',
         selector=baca.plts(
-            exclude=baca.const.HIDDEN,
+            exclude=abjad.const.HIDDEN,
             ),
         ),
     faberge.bcl_color_fingering_rhythm(),

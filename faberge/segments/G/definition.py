@@ -316,7 +316,7 @@ maker(
         r'\baca-sharp-markup',
         literal=True,
         selector=baca.pheads(
-            exclude=baca.const.HIDDEN,
+            exclude=abjad.const.HIDDEN,
             ),
         ),
     baca.pitch("<F6 G6 A6>"),
