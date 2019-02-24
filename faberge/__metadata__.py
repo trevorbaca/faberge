@@ -406,6 +406,6 @@ metadata = abjad.OrderedDict(
                 ),
             ),
         ('title', 'Fabergé Investigations'),
-        ('year', 2019),
+        ('year', '2016/19'),
         ]
     )
