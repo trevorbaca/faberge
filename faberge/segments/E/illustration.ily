@@ -534,7 +534,7 @@ E_Flute_Music_Staff = <<                                                       %
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
     \E_Global_Rests                                                            %! abjad.Path.extern
 
-    \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
+    \context Voice = "Flute_Music_Voice"                                       %! faberge.ScoreTemplate.__call__
     \E_Flute_Music_Voice                                                       %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -616,7 +616,7 @@ E_English_Horn_Music_Voice = {                                                 %
 
 E_English_Horn_Music_Staff = <<                                                %! abjad.Path.extern
 
-    \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
+    \context Voice = "English_Horn_Music_Voice"                                %! faberge.ScoreTemplate.__call__
     \E_English_Horn_Music_Voice                                                %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -949,7 +949,7 @@ E_Clarinet_Music_Voice = {                                                     %
 
 E_Clarinet_Music_Staff = <<                                                    %! abjad.Path.extern
 
-    \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
+    \context Voice = "Clarinet_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
     \E_Clarinet_Music_Voice                                                    %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -1238,7 +1238,7 @@ E_Piano_RH_Music_Voice = {                                                     %
 
 E_Piano_RH_Music_Staff = <<                                                    %! abjad.Path.extern
 
-    \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
+    \context Voice = "Piano_RH_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
     \E_Piano_RH_Music_Voice                                                    %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -1472,10 +1472,10 @@ E_Piano_LH_Attack_Voice = {                                                    %
 
 E_Piano_LH_Music_Staff = <<                                                    %! abjad.Path.extern
 
-    \context Voice = "Piano_LH_Music_Voice"                                    %! ScoreTemplate
+    \context Voice = "Piano_LH_Music_Voice"                                    %! faberge.ScoreTemplate.__call__
     \E_Piano_LH_Music_Voice                                                    %! abjad.Path.extern
 
-    \context Voice = "Piano_LH_Attack_Voice"                                   %! ScoreTemplate
+    \context Voice = "Piano_LH_Attack_Voice"                                   %! faberge.ScoreTemplate.__call__
     \E_Piano_LH_Attack_Voice                                                   %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -1684,7 +1684,7 @@ E_Percussion_Music_Voice = {                                                   %
 
 E_Percussion_Music_Staff = <<                                                  %! abjad.Path.extern
 
-    \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
+    \context Voice = "Percussion_Music_Voice"                                  %! faberge.ScoreTemplate.__call__
     \E_Percussion_Music_Voice                                                  %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -2008,7 +2008,7 @@ E_Violin_Music_Voice = {                                                       %
 
 E_Violin_Music_Staff = <<                                                      %! abjad.Path.extern
 
-    \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
+    \context Voice = "Violin_Music_Voice"                                      %! faberge.ScoreTemplate.__call__
     \E_Violin_Music_Voice                                                      %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -2336,7 +2336,7 @@ E_Viola_Music_Voice = {                                                        %
 
 E_Viola_Music_Staff = <<                                                       %! abjad.Path.extern
 
-    \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
+    \context Voice = "Viola_Music_Voice"                                       %! faberge.ScoreTemplate.__call__
     \E_Viola_Music_Voice                                                       %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
@@ -2624,7 +2624,7 @@ E_Cello_Music_Voice = {                                                        %
 
 E_Cello_Music_Staff = <<                                                       %! abjad.Path.extern
 
-    \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
+    \context Voice = "Cello_Music_Voice"                                       %! faberge.ScoreTemplate.__call__
     \E_Cello_Music_Voice                                                       %! abjad.Path.extern
 
 >>                                                                             %! abjad.Path.extern
