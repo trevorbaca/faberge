@@ -1,9 +1,9 @@
-\version "2.19.82"                                                                       %! LilyPondFile
-\language "english"                                                                      %! LilyPondFile
+\version "2.19.82"                                                                       %! abjad.LilyPondFile
+\language "english"                                                                      %! abjad.LilyPondFile
 
-\header {                                                                                %! LilyPondFile
+\header {                                                                                %! abjad.LilyPondFile
     tagline = ##f
-}                                                                                        %! LilyPondFile
+}                                                                                        %! abjad.LilyPondFile
 
 \layout {}
 
