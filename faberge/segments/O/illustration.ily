@@ -1,4 +1,4 @@
-O_Global_Skips = {                                                             %! extern
+O_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [O Global_Skips measure 279 / measure 1]                                 %! _comment_measure_numbers
     \time 8/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -165,10 +165,10 @@ O_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Global_Rests = {                                                             %! extern
+O_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [O Global_Rests measure 279 / measure 1]                                 %! _comment_measure_numbers
     R1 * 2                                                                     %! _make_global_rests(1)
@@ -197,10 +197,10 @@ O_Global_Rests = {                                                             %
     % [O Global_Rests measure 287 / measure 9]                                 %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Flute_Music_Voice = {                                                        %! extern
+O_Flute_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [O Flute_Music_Voice measure 279 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-bfl-markup                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -308,21 +308,21 @@ O_Flute_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Flute_Music_Staff = <<                                                       %! extern
+O_Flute_Music_Staff = <<                                                       %! abjad.Path.extern
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
-    \O_Global_Rests                                                            %! extern
+    \O_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
-    \O_Flute_Music_Voice                                                       %! extern
+    \O_Flute_Music_Voice                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_English_Horn_Music_Voice = {                                                 %! extern
+O_English_Horn_Music_Voice = {                                                 %! abjad.Path.extern
 
     % [O English_Horn_Music_Voice measure 279 / measure 1]                     %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-eh-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -430,18 +430,18 @@ O_English_Horn_Music_Voice = {                                                 %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_English_Horn_Music_Staff = <<                                                %! extern
+O_English_Horn_Music_Staff = <<                                                %! abjad.Path.extern
 
     \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
-    \O_English_Horn_Music_Voice                                                %! extern
+    \O_English_Horn_Music_Voice                                                %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Clarinet_Music_Voice = {                                                     %! extern
+O_Clarinet_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [O Clarinet_Music_Voice measure 279 / measure 1]                         %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-bcl-markup                       %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -527,18 +527,18 @@ O_Clarinet_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Clarinet_Music_Staff = <<                                                    %! extern
+O_Clarinet_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
-    \O_Clarinet_Music_Voice                                                    %! extern
+    \O_Clarinet_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Piano_RH_Music_Voice = {                                                     %! extern
+O_Piano_RH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [O Piano_RH_Music_Voice measure 279 / measure 1]                         %! _comment_measure_numbers
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -646,18 +646,18 @@ O_Piano_RH_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Piano_RH_Music_Staff = <<                                                    %! extern
+O_Piano_RH_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
-    \O_Piano_RH_Music_Voice                                                    %! extern
+    \O_Piano_RH_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Piano_LH_Music_Voice = {                                                     %! extern
+O_Piano_LH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [O Piano_LH_Music_Voice measure 279 / measure 1]                         %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! REAPPLIED_PERSISTENT_OVERRIDE:_set_status_tag:_reapply_persistent_indicators(3)
@@ -715,10 +715,10 @@ O_Piano_LH_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Piano_LH_Attack_Voice = {                                                    %! extern
+O_Piano_LH_Attack_Voice = {                                                    %! abjad.Path.extern
 
     % [O Piano_LH_Attack_Voice measure 279 / measure 1]                        %! _comment_measure_numbers
     R1 * 2/1                                                                   %! _call_rhythm_commands
@@ -772,21 +772,21 @@ O_Piano_LH_Attack_Voice = {                                                    %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Piano_LH_Music_Staff = <<                                                    %! extern
+O_Piano_LH_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context Voice = "Piano_LH_Music_Voice"                                    %! ScoreTemplate
-    \O_Piano_LH_Music_Voice                                                    %! extern
+    \O_Piano_LH_Music_Voice                                                    %! abjad.Path.extern
 
     \context Voice = "Piano_LH_Attack_Voice"                                   %! ScoreTemplate
-    \O_Piano_LH_Attack_Voice                                                   %! extern
+    \O_Piano_LH_Attack_Voice                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Percussion_Music_Voice = {                                                   %! extern
+O_Percussion_Music_Voice = {                                                   %! abjad.Path.extern
 
     % [O Percussion_Music_Voice measure 279 / measure 1]                       %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -875,18 +875,18 @@ O_Percussion_Music_Voice = {                                                   %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Percussion_Music_Staff = <<                                                  %! extern
+O_Percussion_Music_Staff = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
-    \O_Percussion_Music_Voice                                                  %! extern
+    \O_Percussion_Music_Voice                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Violin_Music_Voice = {                                                       %! extern
+O_Violin_Music_Voice = {                                                       %! abjad.Path.extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
     \times 8/10 {                                                              %! faberge_halves_rhythm
@@ -1040,18 +1040,18 @@ O_Violin_Music_Voice = {                                                       %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Violin_Music_Staff = <<                                                      %! extern
+O_Violin_Music_Staff = <<                                                      %! abjad.Path.extern
 
     \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
-    \O_Violin_Music_Voice                                                      %! extern
+    \O_Violin_Music_Voice                                                      %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Viola_Music_Voice = {                                                        %! extern
+O_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge_halves_rhythm
     \times 8/12 {                                                              %! faberge_halves_rhythm
@@ -1205,18 +1205,18 @@ O_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Viola_Music_Staff = <<                                                       %! extern
+O_Viola_Music_Staff = <<                                                       %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \O_Viola_Music_Voice                                                       %! extern
+    \O_Viola_Music_Voice                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-O_Cello_Music_Voice = {                                                        %! extern
+O_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [O Cello_Music_Voice measure 279 / measure 1]                            %! _comment_measure_numbers
     \set Staff.shortInstrumentName = \faberge-vc-markup                        %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1339,12 +1339,12 @@ O_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-O_Cello_Music_Staff = <<                                                       %! extern
+O_Cello_Music_Staff = <<                                                       %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \O_Cello_Music_Voice                                                       %! extern
+    \O_Cello_Music_Voice                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern

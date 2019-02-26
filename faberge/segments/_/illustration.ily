@@ -1,4 +1,4 @@
-i_Global_Skips = {                                                             %! extern
+i_Global_Skips = {                                                             %! abjad.Path.extern
 
     % [_ Global_Skips measure 1]                                               %! _comment_measure_numbers
     \time 3/4                                                                  %! EXPLICIT_TIME_SIGNATURE:_set_status_tag:_make_global_skips(2)
@@ -84,10 +84,10 @@ i_Global_Skips = {                                                             %
     \once \override Score.BarLine.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
     \once \override Score.SpanBar.transparent = ##t                            %! PHANTOM:_style_phantom_measures(3)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Global_Rests = {                                                             %! extern
+i_Global_Rests = {                                                             %! abjad.Path.extern
 
     % [_ Global_Rests measure 1]                                               %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_global_rests(1)
@@ -108,10 +108,10 @@ i_Global_Rests = {                                                             %
     % [_ Global_Rests measure 5]                                               %! PHANTOM:_style_phantom_measures(4):_comment_measure_numbers
     R1 * 1/4                                                                   %! PHANTOM:_make_global_rests(2)
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Flute_Music_Voice = {                                                        %! extern
+i_Flute_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Flute_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -164,21 +164,21 @@ i_Flute_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Flute_Music_Staff = <<                                                       %! extern
+i_Flute_Music_Staff = <<                                                       %! abjad.Path.extern
 
     \context GlobalRests = "Global_Rests"                                      %! abjad.ScoreTemplate._make_global_context
-    \i_Global_Rests                                                            %! extern
+    \i_Global_Rests                                                            %! abjad.Path.extern
 
     \context Voice = "Flute_Music_Voice"                                       %! ScoreTemplate
-    \i_Flute_Music_Voice                                                       %! extern
+    \i_Flute_Music_Voice                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_English_Horn_Music_Voice = {                                                 %! extern
+i_English_Horn_Music_Voice = {                                                 %! abjad.Path.extern
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -339,18 +339,18 @@ i_English_Horn_Music_Voice = {                                                 %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_English_Horn_Music_Staff = <<                                                %! extern
+i_English_Horn_Music_Staff = <<                                                %! abjad.Path.extern
 
     \context Voice = "English_Horn_Music_Voice"                                %! ScoreTemplate
-    \i_English_Horn_Music_Voice                                                %! extern
+    \i_English_Horn_Music_Voice                                                %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Clarinet_Music_Voice = {                                                     %! extern
+i_Clarinet_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Clarinet_Music_Voice measure 1]                                       %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -403,18 +403,18 @@ i_Clarinet_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Clarinet_Music_Staff = <<                                                    %! extern
+i_Clarinet_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context Voice = "Clarinet_Music_Voice"                                    %! ScoreTemplate
-    \i_Clarinet_Music_Voice                                                    %! extern
+    \i_Clarinet_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Piano_RH_Music_Voice = {                                                     %! extern
+i_Piano_RH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Piano_RH_Music_Voice measure 1]                                       %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -467,18 +467,18 @@ i_Piano_RH_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Piano_RH_Music_Staff = <<                                                    %! extern
+i_Piano_RH_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context Voice = "Piano_RH_Music_Voice"                                    %! ScoreTemplate
-    \i_Piano_RH_Music_Voice                                                    %! extern
+    \i_Piano_RH_Music_Voice                                                    %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Piano_LH_Music_Voice = {                                                     %! extern
+i_Piano_LH_Music_Voice = {                                                     %! abjad.Path.extern
 
     % [_ Piano_LH_Music_Voice measure 1]                                       %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -524,10 +524,10 @@ i_Piano_LH_Music_Voice = {                                                     %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Piano_LH_Attack_Voice = {                                                    %! extern
+i_Piano_LH_Attack_Voice = {                                                    %! abjad.Path.extern
 
     % [_ Piano_LH_Attack_Voice measure 1]                                      %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
@@ -567,21 +567,21 @@ i_Piano_LH_Attack_Voice = {                                                    %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Piano_LH_Music_Staff = <<                                                    %! extern
+i_Piano_LH_Music_Staff = <<                                                    %! abjad.Path.extern
 
     \context Voice = "Piano_LH_Music_Voice"                                    %! ScoreTemplate
-    \i_Piano_LH_Music_Voice                                                    %! extern
+    \i_Piano_LH_Music_Voice                                                    %! abjad.Path.extern
 
     \context Voice = "Piano_LH_Attack_Voice"                                   %! ScoreTemplate
-    \i_Piano_LH_Attack_Voice                                                   %! extern
+    \i_Piano_LH_Attack_Voice                                                   %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Percussion_Music_Voice = {                                                   %! extern
+i_Percussion_Music_Voice = {                                                   %! abjad.Path.extern
 
     % [_ Percussion_Music_Voice measure 1]                                     %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -634,18 +634,18 @@ i_Percussion_Music_Voice = {                                                   %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Percussion_Music_Staff = <<                                                  %! extern
+i_Percussion_Music_Staff = <<                                                  %! abjad.Path.extern
 
     \context Voice = "Percussion_Music_Voice"                                  %! ScoreTemplate
-    \i_Percussion_Music_Voice                                                  %! extern
+    \i_Percussion_Music_Voice                                                  %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Violin_Music_Voice = {                                                       %! extern
+i_Violin_Music_Voice = {                                                       %! abjad.Path.extern
 
     % [_ Violin_Music_Voice measure 1]                                         %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -755,18 +755,18 @@ i_Violin_Music_Voice = {                                                       %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Violin_Music_Staff = <<                                                      %! extern
+i_Violin_Music_Staff = <<                                                      %! abjad.Path.extern
 
     \context Voice = "Violin_Music_Voice"                                      %! ScoreTemplate
-    \i_Violin_Music_Voice                                                      %! extern
+    \i_Violin_Music_Voice                                                      %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Viola_Music_Voice = {                                                        %! extern
+i_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
     \times 2/3 {                                                               %! faberge_spazzolati_rhythm
 
@@ -874,18 +874,18 @@ i_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Viola_Music_Staff = <<                                                       %! extern
+i_Viola_Music_Staff = <<                                                       %! abjad.Path.extern
 
     \context Voice = "Viola_Music_Voice"                                       %! ScoreTemplate
-    \i_Viola_Music_Voice                                                       %! extern
+    \i_Viola_Music_Voice                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
 
 
-i_Cello_Music_Voice = {                                                        %! extern
+i_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
     % [_ Cello_Music_Voice measure 1]                                          %! _comment_measure_numbers
     \override Staff.BarLine.bar-extent = #'(-2 . 2)                            %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -938,12 +938,12 @@ i_Cello_Music_Voice = {                                                        %
 
     >>                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
-}                                                                              %! extern
+}                                                                              %! abjad.Path.extern
 
 
-i_Cello_Music_Staff = <<                                                       %! extern
+i_Cello_Music_Staff = <<                                                       %! abjad.Path.extern
 
     \context Voice = "Cello_Music_Voice"                                       %! ScoreTemplate
-    \i_Cello_Music_Voice                                                       %! extern
+    \i_Cello_Music_Voice                                                       %! abjad.Path.extern
 
->>                                                                             %! extern
+>>                                                                             %! abjad.Path.extern
