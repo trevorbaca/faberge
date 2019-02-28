@@ -43,7 +43,6 @@ maker = baca.SegmentMaker(
         ],
     do_not_check_wellformedness=True,
     ignore_repeat_pitch_classes=True,
-    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=time_signatures,

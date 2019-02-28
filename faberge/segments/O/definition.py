@@ -19,7 +19,6 @@ maker = baca.SegmentMaker(
         abjad.const.STAGE_NUMBER,
         ],
     final_segment=True,
-    phantom=True,
     segment_directory=abjad.Path(os.path.realpath(__file__)).parent,
     stage_markup=stage_markup,
     time_signatures=[
