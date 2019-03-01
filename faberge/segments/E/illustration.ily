@@ -988,11 +988,19 @@ E_Piano_RH_Music_Voice = {                                                     %
         \once \override Staff.StaffSymbol.line-count = 3                       %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \override Beam.positions = #'(-3 . -3)                                 %! baca_beam_positions:OverrideCommand(1)
+        \once \override Staff.Clef.X-extent = ##f                              %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \override NoteHead.stencil = ##f                                       %! baca_note_head_stencil_false:OverrideCommand(1)
         \override TupletBracket.transparent = ##t                              %! baca_tuplet_bracket_transparent:OverrideCommand(1)
         \override TupletNumber.transparent = ##t                               %! baca_tuplet_number_transparent:OverrideCommand(1)
+        \once \override Staff.Clef.X-extent = ##f                              %! MEASURE_197:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \once \override Staff.Clef.extra-offset = #'(-2.5 . 0)                 %! MEASURE_197:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
+        \clef "percussion"                                                     %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        e8                                                                     %! faberge_clb_rhythm
+        \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+        d'8                                                                    %! faberge_clb_rhythm
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1002,39 +1010,40 @@ E_Piano_RH_Music_Voice = {                                                     %
         ^ \baca-tuning-pegs-markup                                             %! baca_markup:IndicatorCommand
         [                                                                      %! baca_beam:SpannerIndicatorCommand(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        f8                                                                     %! faberge_clb_rhythm
+        e'8                                                                    %! faberge_clb_rhythm
 
-        g8                                                                     %! faberge_clb_rhythm
+        f'8                                                                    %! faberge_clb_rhythm
 
-        a8                                                                     %! faberge_clb_rhythm
-
-        d8                                                                     %! faberge_clb_rhythm
-
-        e8                                                                     %! faberge_clb_rhythm
-
-        f8                                                                     %! faberge_clb_rhythm
-
-        g8                                                                     %! faberge_clb_rhythm
-
-        a8                                                                     %! faberge_clb_rhythm
-
-        b8                                                                     %! faberge_clb_rhythm
+        g'8                                                                    %! faberge_clb_rhythm
 
         c'8                                                                    %! faberge_clb_rhythm
 
-        f8                                                                     %! faberge_clb_rhythm
+        d'8                                                                    %! faberge_clb_rhythm
 
-        g8                                                                     %! faberge_clb_rhythm
+        e'8                                                                    %! faberge_clb_rhythm
 
-        a8                                                                     %! faberge_clb_rhythm
+        f'8                                                                    %! faberge_clb_rhythm
 
-        b8                                                                     %! faberge_clb_rhythm
+        g'8                                                                    %! faberge_clb_rhythm
+
+        a'8                                                                    %! faberge_clb_rhythm
+
+        b'8                                                                    %! faberge_clb_rhythm
+
+        e'8                                                                    %! faberge_clb_rhythm
+
+        f'8                                                                    %! faberge_clb_rhythm
+
+        g'8                                                                    %! faberge_clb_rhythm
+
+        a'8                                                                    %! faberge_clb_rhythm
 
     }                                                                          %! faberge_clb_rhythm
 
     % [E Piano_RH_Music_Voice measure 198 / measure 5]                         %! _comment_measure_numbers
-    c'8                                                                        %! faberge_downbeat_attack
+    b'8                                                                        %! faberge_downbeat_attack
     ]                                                                          %! baca_beam:SpannerIndicatorCommand(2)
     \revert NoteHead.stencil                                                   %! baca_note_head_stencil_false:OverrideCommand(2)
 
@@ -1052,11 +1061,11 @@ E_Piano_RH_Music_Voice = {                                                     %
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \once \override Staff.Clef.X-extent = ##f                              %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
         \once \override Staff.Clef.extra-offset = #'(-2.75 . 0)                %! -PARTS:SHIFTED_CLEF:baca_clef_shift:OverrideCommand(1)
-        \clef "bass"                                                           %! REDUNDANT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
+        \clef "bass"                                                           %! EXPLICIT_CLEF:_set_status_tag:baca_clef:IndicatorCommand
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        \once \override Staff.Clef.color = #(x11-color 'DeepPink1)             %! REDUNDANT_CLEF_COLOR:_attach_color_literal(2)
-    %@% \override Staff.Clef.color = ##f                                       %! REDUNDANT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
-        \set Staff.forceClef = ##t                                             %! REDUNDANT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
+        \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
+    %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
+        \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
         <g a c'>8
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1069,7 +1078,7 @@ E_Piano_RH_Music_Voice = {                                                     %
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
         - \tweak staff-padding #8                                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
-        \override Staff.Clef.color = #(x11-color 'DeepPink4)                   %! REDUNDANT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
+        \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
         r8
 
@@ -1595,8 +1604,8 @@ E_Percussion_Music_Voice = {                                                   %
             % [E Percussion_Music_Voice measure 201 / measure 8]               %! _comment_measure_numbers
             \override DynamicLineSpanner.staff-padding = #8                    %! baca_dls_staff_padding:OverrideCommand(1)
             c'4
-            - \tweak color #(x11-color 'DeepPink1)                             %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
-            \f                                                                 %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
+            - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
+            \baca-f-ancora                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
             - \tweak parent-alignment-X #0                                     %! baca_markup:IndicatorCommand
             - \tweak staff-padding #8                                          %! baca_markup:IndicatorCommand
             ^ \baca-woodblock-markup                                           %! baca_markup:IndicatorCommand

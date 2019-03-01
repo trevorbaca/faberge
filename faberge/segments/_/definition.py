@@ -127,7 +127,6 @@ maker(
 maker(
     'lh',
     baca.bar_extent_persistent((-2, 2)),
-    baca.clef('bass'),
     )
 
 # perc
@@ -170,7 +169,6 @@ maker(
 maker(
     'va',
     baca.bar_extent_persistent((-2, 2)),
-    baca.clef('alto'),
     baca.dls_staff_padding(6),
     baca.chunk(
         baca.start_markup(r'\faberge-viola-markup'),
@@ -197,7 +195,6 @@ maker(
 maker(
     'vc',
     baca.bar_extent_persistent((-2, 2)),
-    baca.clef('bass'),
     baca.chunk(
         baca.start_markup(r'\faberge-cello-markup'),
         faberge.margin_markup('Vc.'),

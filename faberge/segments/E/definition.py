@@ -236,6 +236,12 @@ maker(
     ('rh', (4, 5)),
     baca.beam(),
     baca.beam_positions(-3),
+    baca.chunk(
+        baca.clef('percussion'),
+        baca.not_parts(
+            baca.clef_shift('bass'),
+            ),
+        ),
     baca.dynamic(
         '"mf"',
         abjad.tweak((0, 0)).X_extent,
@@ -425,7 +431,7 @@ maker(
 maker(
     ('perc', 8),
     baca.dls_staff_padding(8),
-    baca.dynamic('f'),
+    baca.dynamic('f-ancora'),
     baca.markup(
         r'\baca-woodblock-markup',
         abjad.tweak(0).parent_alignment_X,
