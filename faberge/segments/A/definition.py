@@ -29,12 +29,12 @@ stage_markup = (
     ('[A.17]', 89),
     )
 
-maker = baca.TimeSignatureMaker(
+maker_ = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
     count=92,
     rotation=0,
     )
-time_signatures = maker.run()
+time_signatures = maker_.run()
 
 maker = baca.SegmentMaker(
     activate=[

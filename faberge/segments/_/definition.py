@@ -13,13 +13,13 @@ stage_markup = (
     ('[2]', 3),
     )
 
-maker = baca.TimeSignatureMaker(
+maker_ = baca.TimeSignatureMaker(
     faberge.time_signatures_b,
     count=4,
     fermata_measures=[2, 4],
     rotation=0,
     )
-time_signatures = maker.run()
+time_signatures = maker_.run()
 
 maker = baca.SegmentMaker(
     activate=[
