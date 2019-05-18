@@ -3,11 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def even_tuplet_rhythm(
-    *,
-    denominator=4,
-    extra_counts=(0,),
-    ):
+def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
     """
     Makes even tuplet rhythm.
     """
@@ -16,11 +12,8 @@ def even_tuplet_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts,
-        tag='faberge_even_tuplet_rhythm',
-        talea=rmakers.Talea(
-            counts=[1],
-            denominator=denominator,
-            ),
+        tag="faberge_even_tuplet_rhythm",
+        talea=rmakers.Talea(counts=[1], denominator=denominator),
         tuplet_specifier=rmakers.TupletSpecifier(
             denominator=(1, denominator),
             extract_trivial=True,
@@ -28,11 +21,11 @@ def even_tuplet_rhythm(
             rewrite_dots=True,
             rewrite_rest_filled=True,
             trivialize=True,
-            ),
-        )
+        ),
+    )
 
     return baca.rhythm(
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

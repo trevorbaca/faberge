@@ -9,7 +9,7 @@ def eh_trill_rhythm(
     division_fuse_counts=None,
     dmask=None,
     extra_counts_per_division=None,
-    ):
+):
     """
     Makes English horn trill rhythm.
     """
@@ -19,10 +19,8 @@ def eh_trill_rhythm(
     if division_fuse_counts is not None:
         division_expression = baca.DivisionSequenceExpression()
         division_expression = division_expression.partition_by_counts(
-            counts=division_fuse_counts,
-            cyclic=True,
-            overhang=True,
-            )
+            counts=division_fuse_counts, cyclic=True, overhang=True
+        )
         division_expression = division_expression.map()
         division_expression = division_expression.sum()
         division_expression = division_expression.flatten()
@@ -30,22 +28,16 @@ def eh_trill_rhythm(
         division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
         read_talea_once_only=True,
-        tag='faberge_eh_trill_rhythm',
-        talea=rmakers.Talea(
-            counts=counts,
-            denominator=16,
-            ),
-        tie_specifier=rmakers.TieSpecifier(
-            repeat_ties=True,
-            ),
+        tag="faberge_eh_trill_rhythm",
+        talea=rmakers.Talea(counts=counts, denominator=16),
+        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
         tuplet_specifier=rmakers.TupletSpecifier(
-            rewrite_rest_filled=True,
-            trivialize=True,
-            ),
-        )
+            rewrite_rest_filled=True, trivialize=True
+        ),
+    )
     return baca.rhythm(
         division_expression=division_expression,
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

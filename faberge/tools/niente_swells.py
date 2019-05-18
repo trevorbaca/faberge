@@ -14,13 +14,9 @@ def niente_swells(dynamic):
     #        pieces=baca.leaves().partition([2, 'most', 2])
     #        )
     return baca.chunk(
+        baca.hairpin(f"niente o< {dynamic}", selector=baca.tleaves()[:2]),
         baca.hairpin(
-            f'niente o< {dynamic}',
-            selector=baca.tleaves()[:2],
-            ),
-        baca.hairpin(
-            f'({dynamic}) >o niente',
-            selector=baca.leaves().rleak()[-2:],
-            ),
-        map=baca.ntruns().filter_length('>', 2),
-        )
+            f"({dynamic}) >o niente", selector=baca.leaves().rleak()[-2:]
+        ),
+        map=baca.ntruns().filter_length(">", 2),
+    )

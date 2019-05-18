@@ -3,12 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def single_taper(
-    *,
-    denominator=16,
-    start_talea=[4],
-    stop_talea=[4],
-    ):
+def single_taper(*, denominator=16, start_talea=[4], stop_talea=[4]):
     """
     Makes single taper.
     """
@@ -22,11 +17,10 @@ def single_taper(
                 suffix_talea=stop_talea,
                 suffix_counts=[len(stop_talea)],
                 talea_denominator=denominator,
-                ),
-            tag='faberge_single_taper',
+            ),
+            tag="faberge_single_taper",
             tie_specifier=rmakers.TieSpecifier(
-                tie_consecutive_notes=True,
-                repeat_ties=True,
-                ),
+                tie_consecutive_notes=True, repeat_ties=True
             ),
         )
+    )
