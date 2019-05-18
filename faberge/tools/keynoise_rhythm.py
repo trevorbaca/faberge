@@ -5,11 +5,8 @@ from abjadext import rmakers
 
 
 def keynoise_rhythm(
-    *,
-    dmask=None,
-    tuplet_ratios=None,
-    tuplet_ratio_rotation=None,
-    ):
+    *, dmask=None, tuplet_ratios=None, tuplet_ratio_rotation=None
+):
     """
     Makes keynoise rhythm.
     """
@@ -29,18 +26,16 @@ def keynoise_rhythm(
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rmakers.TupletRhythmMaker(
         division_masks=dmask,
-        tag='faberge_keynoise_rhythm',
+        tag="faberge_keynoise_rhythm",
         tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(
-            extract_trivial=True,
-            rewrite_rest_filled=True,
-            trivialize=True,
-            ),
-        )
+            extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+        ),
+    )
     return baca.rhythm(
         division_expression=baca.strict_quarter_divisions(),
         multimeasure_rests=True,
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

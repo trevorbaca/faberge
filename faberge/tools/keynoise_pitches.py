@@ -1,10 +1,7 @@
 import baca
 
 
-def keynoise_pitches(
-    *,
-    rotation=None,
-    ):
+def keynoise_pitches(*, rotation=None):
     """
     Makes keynoise pitches.
     """

@@ -9,7 +9,7 @@ def shell_exchange_rhythm(
     *,
     extra_counts_per_division_rotation=None,
     rotation=None,
-    ):
+):
     """
     Makes shell exchange rhythm.
     """
@@ -49,7 +49,7 @@ def shell_exchange_rhythm(
         [1, 1, 1, -2],
         [1, 1, -2],
         [1, 1, 1, -1],
-        ]
+    ]
     counts = baca.sequence(counts)
     counts = counts.rotate(n=rotation)
     counts = counts.flatten()
@@ -57,19 +57,36 @@ def shell_exchange_rhythm(
     if total_parts == 2:
         interaction_series = [0, 1]
     elif total_parts == 3:
-        interaction_series = [
-            0, 1, 2,
-            0, 1,
-            0, 1, 2, 0, 2,
-            0, 1, 2,
-            ]
+        interaction_series = [0, 1, 2, 0, 1, 0, 1, 2, 0, 2, 0, 1, 2]
     elif total_parts == 4:
         interaction_series = [
-            0, 1, 2, 3,
-            0, 1, 2, 1, 2, 3,
-            0, 1, 2, 3, 2, 3, 0, 1,
-            0, 1, 2, 3, 0, 3, 0, 1,
-            ]
+            0,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            1,
+            2,
+            3,
+            0,
+            1,
+            2,
+            3,
+            2,
+            3,
+            0,
+            1,
+            0,
+            1,
+            2,
+            3,
+            0,
+            3,
+            0,
+            1,
+        ]
     else:
         raise ValueError(total_parts)
     interaction_series = abjad.CyclicTuple(interaction_series)
@@ -88,8 +105,9 @@ def shell_exchange_rhythm(
             filtered_counts.append(count)
 
     assert len(filtered_counts) == len(counts)
-    assert abjad.mathtools.weight(filtered_counts) == \
-        abjad.mathtools.weight(counts)
+    assert abjad.mathtools.weight(filtered_counts) == abjad.mathtools.weight(
+        counts
+    )
     counts = filtered_counts
 
     grouped_counts = baca.sequence(counts).group_by_sign()
@@ -101,8 +119,9 @@ def shell_exchange_rhythm(
             rest_count = sum(group)
             grouped_rests.append(rest_count)
 
-    assert abjad.mathtools.weight(grouped_rests) == \
-        abjad.mathtools.weight(counts)
+    assert abjad.mathtools.weight(grouped_rests) == abjad.mathtools.weight(
+        counts
+    )
     counts = grouped_rests
 
     extras = [0, 0, -1, 0, 0, -1, -1]
@@ -112,19 +131,14 @@ def shell_exchange_rhythm(
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extras,
         logical_tie_masks=rmakers.silence([-1]),
-        tag='faberge_shell_exchange_rhythm',
-        talea=rmakers.Talea(
-            counts=counts,
-            denominator=8,
-            ),
+        tag="faberge_shell_exchange_rhythm",
+        talea=rmakers.Talea(counts=counts, denominator=8),
         tuplet_specifier=rmakers.TupletSpecifier(
-            extract_trivial=True,
-            rewrite_rest_filled=True,
-            trivialize=True,
-            ),
-        )
+            extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+        ),
+    )
     return baca.rhythm(
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

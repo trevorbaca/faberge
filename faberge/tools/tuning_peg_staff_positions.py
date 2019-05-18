@@ -2,10 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def tuning_peg_staff_positions(
-    *,
-    rotation=None,
-    ):
+def tuning_peg_staff_positions(*, rotation=None):
     """
     Makes tuning peg staff positions.
     """
@@ -15,12 +12,9 @@ def tuning_peg_staff_positions(
         [0, 1, 2, 3, 4, 5, 6],
         [2, 3, 4, 5, 6, 7, 8],
         [4, 5, 6, 7, 8, 9, 10],
-        ]
+    ]
     staff_positions = baca.sequence(staff_positions)
     staff_positions = staff_positions.flatten()
     staff_positions = staff_positions.rotate(n=rotation)
 
-    return baca.staff_positions(
-        staff_positions,
-        allow_repeats=True,
-        )
+    return baca.staff_positions(staff_positions, allow_repeats=True)

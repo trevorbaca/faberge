@@ -10,7 +10,7 @@ def airtone_chain_rhythm(
     counts=(4, 8, 6, 4, 8, 8, 6),
     do_not_overlap_counts=False,
     prolong_last_count=False,
-    ):
+):
     """
     Makes airtone chain rhythm.
     """
@@ -22,7 +22,7 @@ def airtone_chain_rhythm(
 
     for index in my_event_indices:
         if total_events <= index:
-            message = f'only {total_events} total events (not {index} + 1).'
+            message = f"only {total_events} total events (not {index} + 1)."
             raise Exception(message)
 
     my_counts = []
@@ -47,14 +47,15 @@ def airtone_chain_rhythm(
 
     if not prolong_last_count:
         # extend last count
-        if (not do_not_overlap_counts and
-            last_event_index in my_event_indices):
+        if not do_not_overlap_counts and last_event_index in my_event_indices:
             my_counts[-1] += 2
     else:
         # extend penultimate count
-        if (not do_not_overlap_counts and
-            (penultimate_event_index in my_event_indices) and
-            (last_event_index not in my_event_indices)):
+        if (
+            not do_not_overlap_counts
+            and (penultimate_event_index in my_event_indices)
+            and (last_event_index not in my_event_indices)
+        ):
             my_counts[-1] += 2
 
     if prolong_last_count and (last_event_index in my_event_indices):
@@ -69,18 +70,13 @@ def airtone_chain_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         read_talea_once_only=True,
-        tag='faberge_airtone_chain_rhythm',
-        talea=rmakers.Talea(
-            counts=my_counts,
-            denominator=16,
-            ),
-        tie_specifier=rmakers.TieSpecifier(
-            repeat_ties=True,
-            ),
-        )
+        tag="faberge_airtone_chain_rhythm",
+        talea=rmakers.Talea(counts=my_counts, denominator=16),
+        tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
+    )
     return baca.rhythm(
         multimeasure_rests=True,
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
-        )
+    )

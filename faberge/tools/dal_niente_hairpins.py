@@ -7,7 +7,5 @@ def dal_niente_hairpins(stop):
     """
 
     return baca.hairpin(
-        f'niente o< {stop}',
-        map=baca.runs(),
-        selector=baca.leaves().rleak(),
-        )
+        f"niente o< {stop}", map=baca.runs(), selector=baca.leaves().rleak()
+    )
