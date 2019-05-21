@@ -9,7 +9,7 @@ def end_of_cell_attack(*, denominator=4):
 
     rhythm_maker = rmakers.IncisedRhythmMaker(
         incise_specifier=rmakers.InciseSpecifier(
-            fill_with_notes=False,
+            fill_with_rests=True,
             suffix_talea=[1],
             suffix_counts=[1],
             talea_denominator=denominator,
