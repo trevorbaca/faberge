@@ -10,7 +10,7 @@ def piano_attack_rhythm():
 
     rhythm_maker = rmakers.IncisedRhythmMaker(
         incise_specifier=rmakers.InciseSpecifier(
-            fill_with_notes=False,
+            fill_with_rests=True,
             outer_divisions_only=True,
             prefix_talea=[1],
             prefix_counts=[1],
