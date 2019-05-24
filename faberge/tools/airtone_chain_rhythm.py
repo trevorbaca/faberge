@@ -10,7 +10,7 @@ def airtone_chain_rhythm(
     counts=(4, 8, 6, 4, 8, 8, 6),
     do_not_overlap_counts=False,
     prolong_last_count=False,
-):
+) -> baca.RhythmCommand:
     """
     Makes airtone chain rhythm.
     """

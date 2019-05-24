@@ -1,7 +1,7 @@
 import baca
 
 
-def bcl_color_fingerings(*tweaks, rotation=None):
+def bcl_color_fingerings(*tweaks, rotation=None) -> baca.ColorFingeringCommand:
     """
     Makes bass clarinet color fingerings.
     """

@@ -6,7 +6,7 @@ from abjadext import rmakers
 
 def keynoise_rhythm(
     *, dmask=None, tuplet_ratios=None, tuplet_ratio_rotation=None
-):
+) -> baca.RhythmCommand:
     """
     Makes keynoise rhythm.
     """

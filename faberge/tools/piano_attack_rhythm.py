@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def piano_attack_rhythm():
+def piano_attack_rhythm() -> baca.RhythmCommand:
     """
     Makes piano attack rhythm.
     """

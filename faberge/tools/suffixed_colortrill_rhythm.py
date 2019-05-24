@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def suffixed_colortrill_rhythm():
+def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
     """
     Makes suffixed colortrill rhtyhm.
     """

@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def downbeat_attack(*, count=1, denominator=4):
+def downbeat_attack(*, count=1, denominator=4) -> baca.RhythmCommand:
     """
     Makes downbeat attack.
     """

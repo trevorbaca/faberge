@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def back_incised_divisions():
+def back_incised_divisions() -> baca.RhythmCommand:
     """
     Makes back-incised divisions.
     """

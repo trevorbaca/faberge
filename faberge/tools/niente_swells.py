@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def niente_swells(dynamic):
+def niente_swells(dynamic) -> baca.Suite:
     """
     Makes niente swells.
     """

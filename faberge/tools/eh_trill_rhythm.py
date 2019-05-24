@@ -9,7 +9,7 @@ def eh_trill_rhythm(
     division_fuse_counts=None,
     dmask=None,
     extra_counts_per_division=None,
-):
+) -> baca.RhythmCommand:
     """
     Makes English horn trill rhythm.
     """
@@ -21,8 +21,11 @@ def eh_trill_rhythm(
         division_expression = division_expression.partition_by_counts(
             counts=division_fuse_counts, cyclic=True, overhang=True
         )
+        assert division_expression is not None
         division_expression = division_expression.map()
+        assert division_expression is not None
         division_expression = division_expression.sum()
+        assert division_expression is not None
         division_expression = division_expression.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=dmask,

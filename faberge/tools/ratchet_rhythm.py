@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def ratchet_rhythm():
+def ratchet_rhythm() -> baca.RhythmCommand:
     """
     Makes ratchet rhythm.
     """

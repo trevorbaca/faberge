@@ -2,7 +2,7 @@ import abjad
 import baca
 
 
-def increasing_dal_niente_hairpins():
+def increasing_dal_niente_hairpins() -> baca.Suite:
     """
     Makes increasing dal niente hairpins.
     """
