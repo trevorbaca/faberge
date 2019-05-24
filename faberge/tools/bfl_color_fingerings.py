@@ -1,7 +1,7 @@
 import baca
 
 
-def bfl_color_fingerings(*tweaks,):
+def bfl_color_fingerings(*tweaks,) -> baca.ColorFingeringCommand:
     """
     Makes bass flute color fingerings.
     """

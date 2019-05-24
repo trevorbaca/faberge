@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def clb_rhythm(*, extra_counts=None, fuse_counts=None, rotation=None):
+def clb_rhythm(
+    *, extra_counts=None, fuse_counts=None, rotation=None
+) -> baca.RhythmCommand:
     """
     Makes clb rhythm.
     """

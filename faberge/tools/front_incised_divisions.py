@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def front_incised_divisions(*, dmask=None, start_rest_durations=None):
+def front_incised_divisions(
+    *, dmask=None, start_rest_durations=None
+) -> baca.RhythmCommand:
     """
     Makes front-incised divisions.
     """

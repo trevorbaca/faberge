@@ -4,7 +4,9 @@ import faberge
 from abjadext import rmakers
 
 
-def glow_rhythm(*, dmask=None, tuplet_ratios=None, tuplet_ratio_rotation=None):
+def glow_rhythm(
+    *, dmask=None, tuplet_ratios=None, tuplet_ratio_rotation=None
+) -> baca.RhythmCommand:
     """
     Makes glow rhythm.
     """

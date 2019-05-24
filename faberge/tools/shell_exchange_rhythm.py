@@ -1,5 +1,6 @@
 import abjad
 import baca
+import typing
 from abjadext import rmakers
 
 
@@ -9,7 +10,7 @@ def shell_exchange_rhythm(
     *,
     extra_counts_per_division_rotation=None,
     rotation=None,
-):
+) -> baca.RhythmCommand:
     """
     Makes shell exchange rhythm.
     """
@@ -19,7 +20,7 @@ def shell_exchange_rhythm(
         this_part = (this_part,)
     assert isinstance(this_part, tuple), repr(this_part)
     assert all(_ in (0, 1, 2, 3) for _ in this_part), repr(this_part)
-    counts = [
+    counts_ = [
         [1, 1, -1],
         [1, 1, 1, -2],
         [1, 1, -2],
@@ -50,16 +51,16 @@ def shell_exchange_rhythm(
         [1, 1, -2],
         [1, 1, 1, -1],
     ]
-    counts = baca.sequence(counts)
+    counts = baca.sequence(counts_)
     counts = counts.rotate(n=rotation)
     counts = counts.flatten()
 
     if total_parts == 2:
-        interaction_series = [0, 1]
+        interaction_series_ = [0, 1]
     elif total_parts == 3:
-        interaction_series = [0, 1, 2, 0, 1, 0, 1, 2, 0, 2, 0, 1, 2]
+        interaction_series_ = [0, 1, 2, 0, 1, 0, 1, 2, 0, 2, 0, 1, 2]
     elif total_parts == 4:
-        interaction_series = [
+        interaction_series_ = [
             0,
             1,
             2,
@@ -89,7 +90,7 @@ def shell_exchange_rhythm(
         ]
     else:
         raise ValueError(total_parts)
-    interaction_series = abjad.CyclicTuple(interaction_series)
+    interaction_series = abjad.CyclicTuple(interaction_series_)
 
     filtered_counts = []
     positive_count_index = -1
@@ -111,7 +112,7 @@ def shell_exchange_rhythm(
     counts = filtered_counts
 
     grouped_counts = baca.sequence(counts).group_by_sign()
-    grouped_rests = []
+    grouped_rests: typing.List[int] = []
     for group in grouped_counts:
         if 0 < group[0]:
             grouped_rests.extend(group)
@@ -124,8 +125,8 @@ def shell_exchange_rhythm(
     )
     counts = grouped_rests
 
-    extras = [0, 0, -1, 0, 0, -1, -1]
-    extras = abjad.sequence(extras)
+    extras_ = [0, 0, -1, 0, 0, -1, -1]
+    extras = abjad.sequence(extras_)
     extras = extras.rotate(n=extra_counts_per_division_rotation)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(

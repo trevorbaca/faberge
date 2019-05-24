@@ -3,7 +3,9 @@ import baca
 from abjadext import rmakers
 
 
-def even_tuplet_rhythm(*, denominator=4, extra_counts=(0,)):
+def even_tuplet_rhythm(
+    *, denominator=4, extra_counts=(0,)
+) -> baca.RhythmCommand:
     """
     Makes even tuplet rhythm.
     """

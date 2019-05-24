@@ -3,7 +3,7 @@ import baca
 from abjadext import rmakers
 
 
-def halves_rhythm(*, tuplet_ratios=[(1, 1)]):
+def halves_rhythm(*, tuplet_ratios=[(1, 1)]) -> baca.RhythmCommand:
     """
     Makes halves rhythm.
     """

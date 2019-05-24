@@ -9,12 +9,12 @@ def spazzolati_rhythm(
     denominator=16,
     dmask=None,
     extra_counts_per_division=None,
-):
+) -> baca.RhythmCommand:
     """
     Makes spazzolati rhythm.
     """
 
-    counts = [
+    counts_ = [
         [1, 1, 1],
         [-2],
         [1, 1],
@@ -26,7 +26,7 @@ def spazzolati_rhythm(
         [1, 1],
         [-2],
     ]
-    counts = abjad.sequence(counts)
+    counts = abjad.sequence(counts_)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
 

@@ -1,7 +1,7 @@
 import baca
 
 
-def single_swell(dynamic):
+def single_swell(dynamic) -> baca.Suite:
     """
     Makes single swell.
     """

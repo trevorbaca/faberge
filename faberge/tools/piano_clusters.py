@@ -1,7 +1,7 @@
 import baca
 
 
-def piano_clusters():
+def piano_clusters() -> baca.ClusterCommand:
     """
     Makes piano clusters.
     """

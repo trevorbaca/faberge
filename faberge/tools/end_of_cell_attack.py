@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def end_of_cell_attack(*, denominator=4):
+def end_of_cell_attack(*, denominator=4) -> baca.RhythmCommand:
     """
     Makes end-of-cell attack.
     """

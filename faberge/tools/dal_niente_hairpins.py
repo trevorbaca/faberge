@@ -1,7 +1,7 @@
 import baca
 
 
-def dal_niente_hairpins(stop):
+def dal_niente_hairpins(stop) -> baca.PiecewiseCommand:
     """
     Makes dal niente hairpins.
     """
