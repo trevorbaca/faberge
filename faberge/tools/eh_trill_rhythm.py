@@ -15,18 +15,6 @@ def eh_trill_rhythm(
     """
 
     counts.append(-1000)
-    division_expression = None
-    if division_fuse_counts is not None:
-        division_expression = baca.DivisionSequenceExpression()
-        division_expression = division_expression.partition_by_counts(
-            counts=division_fuse_counts, cyclic=True, overhang=True
-        )
-        assert division_expression is not None
-        division_expression = division_expression.map()
-        assert division_expression is not None
-        division_expression = division_expression.sum()
-        assert division_expression is not None
-        division_expression = division_expression.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
@@ -39,7 +27,6 @@ def eh_trill_rhythm(
         ),
     )
     return baca.rhythm(
-        division_expression=division_expression,
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
