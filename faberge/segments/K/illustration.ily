@@ -210,8 +210,8 @@ K_Global_Rests = {                                                             %
 
 K_Flute_Music_Voice = {                                                        %! abjad.Path.extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 10/12 {                                                             %! faberge_even_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.even_tuplet_rhythm
+    \times 10/12 {                                                             %! faberge.even_tuplet_rhythm
 
         % [K Flute_Music_Voice measure 245 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-bfl-markup                   %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -227,14 +227,14 @@ K_Flute_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'green4)         %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         ^ \baca-reapplied-indicator-markup "[“B. fl.”]"                        %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         ^ \baca-reapplied-indicator-markup "(“BassFlute”)"                     %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! faberge_even_tuplet_rhythm
+        [                                                                      %! faberge.even_tuplet_rhythm
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4-1"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.75                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -244,19 +244,19 @@ K_Flute_Music_Voice = {                                                        %
         \set Staff.shortInstrumentName = \faberge-bfl-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
@@ -265,26 +265,26 @@ K_Flute_Music_Voice = {                                                        %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f'8                                                                    %! faberge_even_tuplet_rhythm
+        f'8                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ]                                                                      %! faberge_even_tuplet_rhythm
+        ]                                                                      %! faberge.even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_tuplet_rhythm
+    }                                                                          %! faberge.even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -310,20 +310,20 @@ K_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Flute_Music_Voice measure 247 / measure 3]                            %! _comment_measure_numbers
-    f'8                                                                        %! faberge_even_tuplet_rhythm
+    f'8                                                                        %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! faberge_even_tuplet_rhythm
+    [                                                                          %! faberge.even_tuplet_rhythm
 
-    f'8                                                                        %! faberge_even_tuplet_rhythm
+    f'8                                                                        %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f'8                                                                        %! faberge_even_tuplet_rhythm
+    f'8                                                                        %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f'8                                                                        %! faberge_even_tuplet_rhythm
+    f'8                                                                        %! faberge.even_tuplet_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
@@ -332,12 +332,12 @@ K_Flute_Music_Voice = {                                                        %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    f'8                                                                        %! faberge_even_tuplet_rhythm
+    f'8                                                                        %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f'8                                                                        %! faberge_even_tuplet_rhythm
+    f'8                                                                        %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ]                                                                          %! faberge_even_tuplet_rhythm
+    ]                                                                          %! faberge.even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -520,14 +520,14 @@ K_Clarinet_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“BassClarinet”)"                      %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-    [                                                                          %! faberge_even_tuplet_rhythm
+    [                                                                          %! faberge.even_tuplet_rhythm
     - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "4-1"                                       %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #2.75                                 %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -537,16 +537,16 @@ K_Clarinet_Music_Voice = {                                                     %
     \set Staff.shortInstrumentName = \faberge-bcl-markup                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
@@ -555,21 +555,21 @@ K_Clarinet_Music_Voice = {                                                     %
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
 
-    f8                                                                         %! faberge_even_tuplet_rhythm
+    f8                                                                         %! faberge.even_tuplet_rhythm
     - \espressivo                                                              %! baca_espressivo:IndicatorCommand
-    ]                                                                          %! faberge_even_tuplet_rhythm
+    ]                                                                          %! faberge.even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -594,27 +594,27 @@ K_Clarinet_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_even_tuplet_rhythm
-    \times 6/4 {                                                               %! faberge_even_tuplet_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.even_tuplet_rhythm
+    \times 6/4 {                                                               %! faberge.even_tuplet_rhythm
 
         % [K Clarinet_Music_Voice measure 247 / measure 3]                     %! _comment_measure_numbers
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! faberge_even_tuplet_rhythm
+        [                                                                      %! faberge.even_tuplet_rhythm
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
@@ -623,17 +623,17 @@ K_Clarinet_Music_Voice = {                                                     %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
 
-        f16                                                                    %! faberge_even_tuplet_rhythm
+        f16                                                                    %! faberge.even_tuplet_rhythm
         - \espressivo                                                          %! baca_espressivo:IndicatorCommand
-        ]                                                                      %! faberge_even_tuplet_rhythm
+        ]                                                                      %! faberge.even_tuplet_rhythm
 
-    }                                                                          %! faberge_even_tuplet_rhythm
+    }                                                                          %! faberge.even_tuplet_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -728,7 +728,7 @@ K_Piano_RH_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    r1                                                                         %! faberge_end_of_cell_attack
+    r1                                                                         %! faberge.end_of_cell_attack
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-sempre                                                             %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Pf.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -742,25 +742,25 @@ K_Piano_RH_Music_Voice = {                                                     %
     \set PianoStaff.shortInstrumentName = \faberge-pf-markup                   %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r8                                                                         %! faberge_end_of_cell_attack
+    r8                                                                         %! faberge.end_of_cell_attack
 
-    a8                                                                         %! faberge_end_of_cell_attack
+    a8                                                                         %! faberge.end_of_cell_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \stopped                                                                 %! baca_stoppped:IndicatorCommand
 
     % [K Piano_RH_Music_Voice measure 246 / measure 2]                         %! _comment_measure_numbers
-    r2..                                                                       %! faberge_end_of_cell_attack
+    r2..                                                                       %! faberge.end_of_cell_attack
 
-    a8                                                                         %! faberge_end_of_cell_attack
+    a8                                                                         %! faberge.end_of_cell_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \stopped                                                                 %! baca_stoppped:IndicatorCommand
 
     % [K Piano_RH_Music_Voice measure 247 / measure 3]                         %! _comment_measure_numbers
-    r2                                                                         %! faberge_end_of_cell_attack
+    r2                                                                         %! faberge.end_of_cell_attack
 
-    r8                                                                         %! faberge_end_of_cell_attack
+    r8                                                                         %! faberge.end_of_cell_attack
 
-    a8                                                                         %! faberge_end_of_cell_attack
+    a8                                                                         %! faberge.end_of_cell_attack
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
     - \stopped                                                                 %! baca_stoppped:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca_dls_staff_padding:OverrideCommand(2)
@@ -851,8 +851,8 @@ K_Piano_RH_Music_Voice = {                                                     %
 
     }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 8/13 {                                                              %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 8/13 {                                                              %! faberge.clb_rhythm
 
         % [K Piano_RH_Music_Voice measure 250 / measure 6]                     %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -862,7 +862,7 @@ K_Piano_RH_Music_Voice = {                                                     %
         \override TupletBracket.transparent = ##t                              %! baca_tuplet_bracket_transparent:OverrideCommand(1)
         \override TupletNumber.transparent = ##t                               %! baca_tuplet_number_transparent:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        g'8                                                                    %! faberge_clb_rhythm
+        g'8                                                                    %! faberge.clb_rhythm
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -871,84 +871,84 @@ K_Piano_RH_Music_Voice = {                                                     %
         - \tweak staff-padding #8                                              %! baca_markup:IndicatorCommand
         ^ \baca-tuning-pegs-markup                                             %! baca_markup:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
         \override Staff.BarLine.bar-extent = #'(-2 . 1)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
 
-        d''8                                                                   %! faberge_clb_rhythm
+        d''8                                                                   %! faberge.clb_rhythm
 
-        e''8                                                                   %! faberge_clb_rhythm
+        e''8                                                                   %! faberge.clb_rhythm
 
-        f''8                                                                   %! faberge_clb_rhythm
+        f''8                                                                   %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
 
-        d''8                                                                   %! faberge_clb_rhythm
+        d''8                                                                   %! faberge.clb_rhythm
 
-        e''8                                                                   %! faberge_clb_rhythm
+        e''8                                                                   %! faberge.clb_rhythm
 
-        f''8                                                                   %! faberge_clb_rhythm
+        f''8                                                                   %! faberge.clb_rhythm
 
-        g''8                                                                   %! faberge_clb_rhythm
-        ]                                                                      %! faberge_clb_rhythm
+        g''8                                                                   %! faberge.clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 14/19 {                                                             %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 14/19 {                                                             %! faberge.clb_rhythm
 
         % [K Piano_RH_Music_Voice measure 252 / measure 8]                     %! _comment_measure_numbers
-        a''8                                                                   %! faberge_clb_rhythm
-        [                                                                      %! faberge_clb_rhythm
+        a''8                                                                   %! faberge.clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        d''8                                                                   %! faberge_clb_rhythm
+        d''8                                                                   %! faberge.clb_rhythm
 
-        e''8                                                                   %! faberge_clb_rhythm
+        e''8                                                                   %! faberge.clb_rhythm
 
-        f''8                                                                   %! faberge_clb_rhythm
+        f''8                                                                   %! faberge.clb_rhythm
 
-        g''8                                                                   %! faberge_clb_rhythm
+        g''8                                                                   %! faberge.clb_rhythm
 
-        a''8                                                                   %! faberge_clb_rhythm
+        a''8                                                                   %! faberge.clb_rhythm
 
-        b''8                                                                   %! faberge_clb_rhythm
+        b''8                                                                   %! faberge.clb_rhythm
 
-        c'''8                                                                  %! faberge_clb_rhythm
+        c'''8                                                                  %! faberge.clb_rhythm
 
-        f''8                                                                   %! faberge_clb_rhythm
+        f''8                                                                   %! faberge.clb_rhythm
 
-        g''8                                                                   %! faberge_clb_rhythm
+        g''8                                                                   %! faberge.clb_rhythm
 
-        a''8                                                                   %! faberge_clb_rhythm
+        a''8                                                                   %! faberge.clb_rhythm
 
-        b''8                                                                   %! faberge_clb_rhythm
+        b''8                                                                   %! faberge.clb_rhythm
 
-        c'''8                                                                  %! faberge_clb_rhythm
+        c'''8                                                                  %! faberge.clb_rhythm
 
-        d'''8                                                                  %! faberge_clb_rhythm
+        d'''8                                                                  %! faberge.clb_rhythm
 
-        e'''8                                                                  %! faberge_clb_rhythm
+        e'''8                                                                  %! faberge.clb_rhythm
 
-        g'8                                                                    %! faberge_clb_rhythm
+        g'8                                                                    %! faberge.clb_rhythm
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
 
-        c''8                                                                   %! faberge_clb_rhythm
-        ]                                                                      %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
         \revert NoteHead.stencil                                               %! baca_note_head_stencil_false:OverrideCommand(2)
         \revert TupletBracket.transparent                                      %! baca_tuplet_bracket_transparent:OverrideCommand(2)
         \revert TupletNumber.transparent                                       %! baca_tuplet_number_transparent:OverrideCommand(2)
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1227,7 +1227,7 @@ K_Percussion_Music_Voice = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    b4                                                                         %! faberge_downbeat_attack
+    b4                                                                         %! faberge.downbeat_attack
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
     ^ \baca-reapplied-indicator-markup "(“Percussion”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -1270,7 +1270,7 @@ K_Percussion_Music_Voice = {                                                   %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [K Percussion_Music_Voice measure 247 / measure 3]                       %! _comment_measure_numbers
-    b4                                                                         %! faberge_downbeat_attack
+    b4                                                                         %! faberge.downbeat_attack
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
     - \tweak stencil #abjad-flared-hairpin                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
@@ -1304,7 +1304,7 @@ K_Percussion_Music_Voice = {                                                   %
 
     % [K Percussion_Music_Voice measure 249 / measure 5]                       %! _comment_measure_numbers
     \once \override Stem.direction = #down                                     %! baca_stem_down:OverrideCommand(1)
-    b4                                                                         %! faberge_downbeat_attack
+    b4                                                                         %! faberge.downbeat_attack
     - \tweak color #(x11-color 'DeepPink1)                                     %! REDUNDANT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     - \laissezVibrer                                                           %! baca_laissez_vibrer:IndicatorCommand
@@ -1416,8 +1416,8 @@ K_Percussion_Music_Staff = <<                                                  %
 
 K_Violin_Music_Voice = {                                                       %! abjad.Path.extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 18/20 {                                                             %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 18/20 {                                                             %! faberge.clb_rhythm
 
         % [K Violin_Music_Voice measure 245 / measure 1]                       %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -1434,7 +1434,7 @@ K_Violin_Music_Voice = {                                                       %
     %@% \override Staff.Clef.color = ##f                                       %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-pp                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -1442,7 +1442,7 @@ K_Violin_Music_Voice = {                                                       %
         ^ \baca-reapplied-indicator-markup "(“Violin”)"                        %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup           %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -1459,117 +1459,117 @@ K_Violin_Music_Voice = {                                                       %
         \set Staff.shortInstrumentName = \faberge-vn-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'OliveDrab)                   %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     % [K Violin_Music_Voice measure 247 / measure 3]                           %! _comment_measure_numbers
-    c''8                                                                       %! faberge_clb_rhythm
+    c''8                                                                       %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! faberge_clb_rhythm
+    [                                                                          %! faberge.clb_rhythm
 
-    c''8                                                                       %! faberge_clb_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
-
-    c''8                                                                       %! faberge_clb_rhythm
+    c''8                                                                       %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c''8                                                                       %! faberge_clb_rhythm
+    c''8                                                                       %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c''8                                                                       %! faberge_clb_rhythm
+    c''8                                                                       %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    c''8                                                                       %! faberge_clb_rhythm
+    c''8                                                                       %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! faberge_clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 4/6 {                                                               %! faberge_clb_rhythm
+    c''8                                                                       %! faberge.clb_rhythm
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    ]                                                                          %! faberge.clb_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 4/6 {                                                               %! faberge.clb_rhythm
 
         % [K Violin_Music_Voice measure 248 / measure 4]                       %! _comment_measure_numbers
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c''8                                                                   %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+
+        c''8                                                                   %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     {
 
@@ -1642,8 +1642,8 @@ K_Violin_Music_Voice = {                                                       %
 
     }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 8/10 {                                                              %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 8/10 {                                                              %! faberge.clb_rhythm
 
         % [K Violin_Music_Voice measure 250 / measure 6]                       %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1653,14 +1653,14 @@ K_Violin_Music_Voice = {                                                       %
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-three-markup           %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -1674,98 +1674,98 @@ K_Violin_Music_Voice = {                                                       %
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.BarLine.bar-extent = #'(-2 . 0)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
         % [K Violin_Music_Voice measure 251 / measure 7]                       %! _comment_measure_numbers
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     % [K Violin_Music_Voice measure 252 / measure 8]                           %! _comment_measure_numbers
-    a'8                                                                        %! faberge_clb_rhythm
+    a'8                                                                        %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    [                                                                          %! faberge_clb_rhythm
+    [                                                                          %! faberge.clb_rhythm
 
-    a'8                                                                        %! faberge_clb_rhythm
-    - \staccato                                                                %! baca_staccato:IndicatorCommand
-
-    b'8                                                                        %! faberge_clb_rhythm
+    a'8                                                                        %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    b'8                                                                        %! faberge_clb_rhythm
+    b'8                                                                        %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    b'8                                                                        %! faberge_clb_rhythm
+    b'8                                                                        %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
 
-    b'8                                                                        %! faberge_clb_rhythm
+    b'8                                                                        %! faberge.clb_rhythm
     - \staccato                                                                %! baca_staccato:IndicatorCommand
-    ]                                                                          %! faberge_clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 8/10 {                                                              %! faberge_clb_rhythm
+    b'8                                                                        %! faberge.clb_rhythm
+    - \staccato                                                                %! baca_staccato:IndicatorCommand
+    ]                                                                          %! faberge.clb_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 8/10 {                                                              %! faberge.clb_rhythm
 
         % [K Violin_Music_Voice measure 253 / measure 9]                       %! _comment_measure_numbers
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        a'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+
+        c''8                                                                   %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1883,8 +1883,8 @@ K_Viola_Music_Voice = {                                                        %
     f2.
     :32                                                                        %! baca_stem_tremolo:IndicatorCommand
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 4/6 {                                                               %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 4/6 {                                                               %! faberge.clb_rhythm
 
         % [K Viola_Music_Voice measure 250 / measure 6]                        %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -1894,7 +1894,7 @@ K_Viola_Music_Voice = {                                                        %
         \override Stem.direction = #down                                       %! baca_stem_down:OverrideCommand(1)
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -1902,7 +1902,7 @@ K_Viola_Music_Voice = {                                                        %
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
         \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca_xfb_spanner:PiecewiseCommand(3)
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -1915,120 +1915,120 @@ K_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #9.5                                            %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 10/16 {                                                             %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 10/16 {                                                             %! faberge.clb_rhythm
 
         % [K Viola_Music_Voice measure 251 / measure 7]                        %! _comment_measure_numbers
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        c'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b8                                                                     %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        b8                                                                     %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 8/10 {                                                              %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 8/10 {                                                              %! faberge.clb_rhythm
 
         % [K Viola_Music_Voice measure 253 / measure 9]                        %! _comment_measure_numbers
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        d'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        c'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        d'8                                                                    %! faberge_clb_rhythm
+        d'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+
+        d'8                                                                    %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -2071,8 +2071,8 @@ K_Viola_Music_Staff = <<                                                       %
 
 K_Cello_Music_Voice = {                                                        %! abjad.Path.extern
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 10/12 {                                                             %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 10/12 {                                                             %! faberge.clb_rhythm
 
         % [K Cello_Music_Voice measure 245 / measure 1]                        %! _comment_measure_numbers
         \set Staff.shortInstrumentName = \faberge-vc-markup                    %! REAPPLIED_MARGIN_MARKUP:_set_status_tag:-PARTS:_reapply_persistent_indicators(3)
@@ -2091,7 +2091,7 @@ K_Cello_Music_Voice = {                                                        %
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca_clef:IndicatorCommand
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-pp                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
@@ -2099,7 +2099,7 @@ K_Cello_Music_Voice = {                                                        %
         ^ \baca-reapplied-indicator-markup "(“Cello”)"                         %! REAPPLIED_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(1)
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-damp-clb-two-markup             %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-clb-markup   %! CLB:baca_clb_spanner:PiecewiseCommand(1)
@@ -2116,140 +2116,140 @@ K_Cello_Music_Voice = {                                                        %
         \set Staff.shortInstrumentName = \faberge-vc-markup                    %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 8/14 {                                                              %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 8/14 {                                                              %! faberge.clb_rhythm
 
         % [K Cello_Music_Voice measure 246 / measure 2]                        %! _comment_measure_numbers
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_hairpin:PiecewiseCommand(2)
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 10/12 {                                                             %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 10/12 {                                                             %! faberge.clb_rhythm
 
         % [K Cello_Music_Voice measure 247 / measure 3]                        %! _comment_measure_numbers
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        c''8                                                                   %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+
+        b'8                                                                    %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     {
 
@@ -2322,8 +2322,8 @@ K_Cello_Music_Voice = {                                                        %
 
     }
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 4/6 {                                                               %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 4/6 {                                                               %! faberge.clb_rhythm
 
         % [K Cello_Music_Voice measure 250 / measure 6]                        %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -2333,14 +2333,14 @@ K_Cello_Music_Voice = {                                                        %
         \override TupletBracket.staff-padding = #3.5                           %! baca_tuplet_bracket_staff_padding:OverrideCommand(1)
         \override DynamicLineSpanner.staff-padding = #9                        %! baca_dls_staff_padding:OverrideCommand(1)
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         \baca-effort-mf                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \staccato                                                            %! baca_staccato:IndicatorCommand
         \bacaStopTextSpanMA                                                    %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(3)
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
         - \abjad-dashed-line-with-hook                                         %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-text "4-2"                                   %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2.5                              %! MATERIAL:baca_material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -2354,108 +2354,108 @@ K_Cello_Music_Voice = {                                                        %
         \bacaStartTextSpanCLB                                                  %! CLB:baca_clb_spanner:PiecewiseCommand(1)
         \override Staff.BarLine.bar-extent = #'(0 . 2)                         %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+        ]                                                                      %! faberge.clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 4/6 {                                                               %! faberge_clb_rhythm
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 4/6 {                                                               %! faberge.clb_rhythm
 
         % [K Cello_Music_Voice measure 251 / measure 7]                        %! _comment_measure_numbers
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
 
-    }                                                                          %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
 
-    \tweak text #tuplet-number::calc-fraction-text                             %! faberge_clb_rhythm
-    \times 14/16 {                                                             %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
+
+    \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
+    \times 14/16 {                                                             %! faberge.clb_rhythm
 
         % [K Cello_Music_Voice measure 252 / measure 8]                        %! _comment_measure_numbers
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        [                                                                      %! faberge_clb_rhythm
+        [                                                                      %! faberge.clb_rhythm
 
-        b'8                                                                    %! faberge_clb_rhythm
-        - \staccato                                                            %! baca_staccato:IndicatorCommand
-
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        a'8                                                                    %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        a'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        c''8                                                                   %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        c''8                                                                   %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
 
-        b'8                                                                    %! faberge_clb_rhythm
+        b'8                                                                    %! faberge.clb_rhythm
         - \staccato                                                            %! baca_staccato:IndicatorCommand
-        ]                                                                      %! faberge_clb_rhythm
+
+        b'8                                                                    %! faberge.clb_rhythm
+        - \staccato                                                            %! baca_staccato:IndicatorCommand
+        ]                                                                      %! faberge.clb_rhythm
         \revert Stem.direction                                                 %! baca_stem_down:OverrideCommand(2)
         \revert TupletBracket.staff-padding                                    %! baca_tuplet_bracket_staff_padding:OverrideCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
-    }                                                                          %! faberge_clb_rhythm
+    }                                                                          %! faberge.clb_rhythm
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

@@ -23,7 +23,7 @@ def front_incised_divisions(
         incise_specifier=rmakers.InciseSpecifier(
             prefix_talea=prefix_talea, prefix_counts=[1], talea_denominator=lcm
         ),
-        tag="faberge_front_incised_divisions",
+        tag="faberge.front_incised_divisions",
     )
 
     rhythm_specifier = baca.rhythm(

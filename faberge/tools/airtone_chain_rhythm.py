@@ -70,7 +70,7 @@ def airtone_chain_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         read_talea_once_only=True,
-        tag="faberge_airtone_chain_rhythm",
+        tag="faberge.airtone_chain_rhythm",
         talea=rmakers.Talea(counts=my_counts, denominator=16),
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )

@@ -11,7 +11,7 @@ def downbeat_attack(*, count=1, denominator=4) -> baca.RhythmCommand:
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=[rmakers.silence([0], inverted=True)],
         logical_tie_masks=[rmakers.silence([0], inverted=True)],
-        tag="faberge_downbeat_attack",
+        tag="faberge.downbeat_attack",
         talea=rmakers.Talea(counts=[count], denominator=denominator),
     )
 

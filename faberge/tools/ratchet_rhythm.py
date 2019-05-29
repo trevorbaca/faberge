@@ -26,7 +26,7 @@ def ratchet_rhythm() -> baca.RhythmCommand:
                 beam_rests=True, stemlet_length=0.75, use_feather_beams=True
             ),
             interpolation_specifiers=interpolation_specifiers,
-            tag="faberge_ratchet_rhythm",
+            tag="faberge.ratchet_rhythm",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
         )
     )

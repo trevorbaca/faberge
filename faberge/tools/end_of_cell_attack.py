@@ -14,7 +14,7 @@ def end_of_cell_attack(*, denominator=4) -> baca.RhythmCommand:
             suffix_counts=[1],
             talea_denominator=denominator,
         ),
-        tag="faberge_end_of_cell_attack",
+        tag="faberge.end_of_cell_attack",
     )
 
     return baca.rhythm(

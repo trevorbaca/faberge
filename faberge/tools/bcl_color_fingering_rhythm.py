@@ -18,7 +18,7 @@ def bcl_color_fingering_rhythm(
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=[2],
         logical_tie_masks=ltmask,
-        tag="faberge_bcl_color_fingering_rhythm",
+        tag="faberge.bcl_color_fingering_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=8),
         tuplet_specifier=rmakers.TupletSpecifier(
             rewrite_dots=True,
