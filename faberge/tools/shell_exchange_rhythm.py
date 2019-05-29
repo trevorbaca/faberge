@@ -132,7 +132,7 @@ def shell_exchange_rhythm(
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extras,
         logical_tie_masks=rmakers.silence([-1]),
-        tag="faberge_shell_exchange_rhythm",
+        tag="faberge.shell_exchange_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=8),
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True, rewrite_rest_filled=True, trivialize=True

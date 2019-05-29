@@ -26,7 +26,7 @@ def keynoise_rhythm(
     tuplet_ratios = list(tuplet_ratios)
     rhythm_maker = rmakers.TupletRhythmMaker(
         division_masks=dmask,
-        tag="faberge_keynoise_rhythm",
+        tag="faberge.keynoise_rhythm",
         tuplet_ratios=tuplet_ratios,
         tuplet_specifier=rmakers.TupletSpecifier(
             extract_trivial=True, rewrite_rest_filled=True, trivialize=True

@@ -23,7 +23,7 @@ def clb_rhythm(
         expression = expression.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
         extra_counts_per_division=extra_counts,
-        tag="faberge_clb_rhythm",
+        tag="faberge.clb_rhythm",
         talea=rmakers.Talea(counts=[1], denominator=8),
         tuplet_specifier=rmakers.TupletSpecifier(
             rewrite_dots=True,

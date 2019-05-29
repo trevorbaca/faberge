@@ -249,7 +249,7 @@ i_English_Horn_Music_Voice = {                                                 %
                     }
                 }
         }
-    \times 1/1 {                                                               %! faberge_ratchet_rhythm
+    \times 1/1 {                                                               %! faberge.ratchet_rhythm
 
         % [_ English_Horn_Music_Voice measure 3]                               %! _comment_measure_numbers
         \stopStaff                                                             %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
@@ -257,9 +257,9 @@ i_English_Horn_Music_Voice = {                                                 %
         \startStaff                                                            %! EXPLICIT_STAFF_LINES:_set_status_tag:baca_staff_lines:IndicatorCommand
         \override DynamicLineSpanner.staff-padding = #8.5                      %! baca_dls_staff_padding:OverrideCommand(1)
         \once \override Beam.grow-direction = #right
-        \override Staff.Stem.stemlet-length = 0.75                             %! faberge_ratchet_rhythm
+        \override Staff.Stem.stemlet-length = 0.75                             %! faberge.ratchet_rhythm
         \once \override Staff.StaffSymbol.color = #(x11-color 'blue)           %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-        b'16 * 187/32                                                          %! faberge_ratchet_rhythm
+        b'16 * 187/32                                                          %! faberge.ratchet_rhythm
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-2 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
@@ -267,22 +267,22 @@ i_English_Horn_Music_Voice = {                                                 %
         - \tweak parent-alignment-X #0                                         %! baca_markup:IndicatorCommand
         - \tweak staff-padding #6                                              %! baca_markup:IndicatorCommand
         ^ \baca-ratchet-markup                                                 %! baca_markup:IndicatorCommand
-        [                                                                      %! faberge_ratchet_rhythm
+        [                                                                      %! faberge.ratchet_rhythm
 
-        b'16 * 139/32                                                          %! faberge_ratchet_rhythm
+        b'16 * 139/32                                                          %! faberge.ratchet_rhythm
 
-        b'16 * 73/32                                                           %! faberge_ratchet_rhythm
+        b'16 * 73/32                                                           %! faberge.ratchet_rhythm
 
-        b'16 * 23/16                                                           %! faberge_ratchet_rhythm
+        b'16 * 23/16                                                           %! faberge.ratchet_rhythm
 
-        b'16 * 71/64                                                           %! faberge_ratchet_rhythm
+        b'16 * 71/64                                                           %! faberge.ratchet_rhythm
 
-        \revert Staff.Stem.stemlet-length                                      %! faberge_ratchet_rhythm
-        b'16 * 63/64                                                           %! faberge_ratchet_rhythm
-        ]                                                                      %! faberge_ratchet_rhythm
+        \revert Staff.Stem.stemlet-length                                      %! faberge.ratchet_rhythm
+        b'16 * 63/64                                                           %! faberge.ratchet_rhythm
+        ]                                                                      %! faberge.ratchet_rhythm
         \revert DynamicLineSpanner.staff-padding                               %! baca_dls_staff_padding:OverrideCommand(2)
 
-    }                                                                          %! faberge_ratchet_rhythm
+    }                                                                          %! faberge.ratchet_rhythm
     \revert TupletNumber.text
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -650,7 +650,7 @@ i_Violin_Music_Voice = {                                                       %
 %@% \override Staff.Clef.color = ##f                                           %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
     \once \override Staff.InstrumentName.color = #(x11-color 'blue)            %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
     ^ \baca-default-indicator-markup "(“Violin”)"                              %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
@@ -666,31 +666,31 @@ i_Violin_Music_Voice = {                                                       %
     \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)          %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
     \set Staff.shortInstrumentName = \faberge-vn-markup                        %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    r16                                                                        %! faberge_spazzolati_rhythm
+    r16                                                                        %! faberge.spazzolati_rhythm
 
-    r16                                                                        %! faberge_spazzolati_rhythm
+    r16                                                                        %! faberge.spazzolati_rhythm
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
-    r16                                                                        %! faberge_spazzolati_rhythm
+    r16                                                                        %! faberge.spazzolati_rhythm
 
-    r16                                                                        %! faberge_spazzolati_rhythm
+    r16                                                                        %! faberge.spazzolati_rhythm
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
     [                                                                          %! Duration_Specifier__rewrite_meter_
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
 
-    e'16                                                                       %! faberge_spazzolati_rhythm
+    e'16                                                                       %! faberge.spazzolati_rhythm
     ]                                                                          %! Duration_Specifier__rewrite_meter_
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -761,7 +761,7 @@ i_Violin_Music_Staff = <<                                                      %
 
 i_Viola_Music_Voice = {                                                        %! abjad.Path.extern
 
-    \times 2/3 {                                                               %! faberge_spazzolati_rhythm
+    \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         % [_ Viola_Music_Voice measure 1]                                      %! _comment_measure_numbers
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:baca_bar_extent_persistent:IndicatorCommand
@@ -773,14 +773,14 @@ i_Viola_Music_Voice = {                                                        %
     %@% \override Staff.Clef.color = ##f                                       %! DEFAULT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! DEFAULT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):abjad.ScoreTemplate.attach_defaults
         \once \override Staff.InstrumentName.color = #(x11-color 'blue)        %! EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
-        r4                                                                     %! faberge_spazzolati_rhythm
+        r4                                                                     %! faberge.spazzolati_rhythm
         ^ \baca-default-indicator-markup "(“Viola”)"                           %! DEFAULT_INSTRUMENT_ALERT:_attach_latent_indicator_alert
         ^ \baca-explicit-indicator-markup "[“Va.”]"                            %! EXPLICIT_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
         \override Staff.Clef.color = #(x11-color 'violet)                      %! DEFAULT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
         \override Staff.InstrumentName.color = #(x11-color 'DeepSkyBlue2)      %! REDRAWN_EXPLICIT_MARGIN_MARKUP_COLOR:_attach_color_literal(2)
         \set Staff.shortInstrumentName = \faberge-va-markup                    %! REDRAWN_EXPLICIT_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):baca_margin_markup:-PARTS:IndicatorCommand
 
-        e'8                                                                    %! faberge_spazzolati_rhythm
+        e'8                                                                    %! faberge.spazzolati_rhythm
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca_dynamic:IndicatorCommand
         - \abjad-dashed-line-with-hook                                         %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
@@ -790,27 +790,27 @@ i_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #3                                              %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSpazzolato                                           %! SPAZZOLATO:baca_spazzolato_spanner:PiecewiseCommand(1)
 
-    }                                                                          %! faberge_spazzolati_rhythm
+    }                                                                          %! faberge.spazzolati_rhythm
 
-    \times 2/3 {                                                               %! faberge_spazzolati_rhythm
+    \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
-        e'8                                                                    %! faberge_spazzolati_rhythm
+        e'8                                                                    %! faberge.spazzolati_rhythm
 
-        r4                                                                     %! faberge_spazzolati_rhythm
+        r4                                                                     %! faberge.spazzolati_rhythm
 
-    }                                                                          %! faberge_spazzolati_rhythm
+    }                                                                          %! faberge.spazzolati_rhythm
 
-    \times 2/3 {                                                               %! faberge_spazzolati_rhythm
+    \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
-        e'8                                                                    %! faberge_spazzolati_rhythm
+        e'8                                                                    %! faberge.spazzolati_rhythm
         [                                                                      %! Duration_Specifier__rewrite_meter_
 
-        e'8                                                                    %! faberge_spazzolati_rhythm
+        e'8                                                                    %! faberge.spazzolati_rhythm
 
-        e'8                                                                    %! faberge_spazzolati_rhythm
+        e'8                                                                    %! faberge.spazzolati_rhythm
         ]                                                                      %! Duration_Specifier__rewrite_meter_
 
-    }                                                                          %! faberge_spazzolati_rhythm
+    }                                                                          %! faberge.spazzolati_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 

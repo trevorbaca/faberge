@@ -33,7 +33,7 @@ def spazzolati_rhythm(
     rhythm_maker = rmakers.TaleaRhythmMaker(
         division_masks=dmask,
         extra_counts_per_division=extra_counts_per_division,
-        tag="faberge_spazzolati_rhythm",
+        tag="faberge.spazzolati_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=denominator),
     )
 
