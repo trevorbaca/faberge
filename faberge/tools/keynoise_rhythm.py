@@ -33,7 +33,7 @@ def keynoise_rhythm(
         ),
     )
     return baca.rhythm(
-        divisions=baca.quarter_split_each(),
+        divisions=baca.divisions().quarters_each(),
         multimeasure_rests=True,
         rewrite_meter=True,
         rewrite_rest_filled=True,
