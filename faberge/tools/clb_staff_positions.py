@@ -2,7 +2,7 @@ import baca
 from abjadext import rmakers
 
 
-def clb_staff_positions(*, rotation=None) -> baca.StaffPositionCommand:
+def clb_staff_positions(*, rotation: int = None) -> baca.StaffPositionCommand:
     """
     Makes clb staff positions.
     """

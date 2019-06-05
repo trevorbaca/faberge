@@ -2,11 +2,10 @@ import abjad
 import baca
 
 
-def niente_swells(dynamic) -> baca.Suite:
+def niente_swells(dynamic: str) -> baca.Suite:
     """
     Makes niente swells.
     """
-
     assert isinstance(dynamic, str), repr(dynamic)
     # TODO: allow:
     #   baca.hairpin(
