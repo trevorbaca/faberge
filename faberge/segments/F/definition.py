@@ -702,12 +702,12 @@ maker(
         ),
     faberge.spazzolati_rhythm(
         counts_rotation=-1,
-        extra_counts_per_division=[1],
         denominator=8,
         dmask=rmakers.silence(
             [0, 1, 2],
             inverted=True,
             ),
+        extra_counts=[1],
         ),
     )
 

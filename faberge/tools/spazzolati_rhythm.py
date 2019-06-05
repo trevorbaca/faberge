@@ -5,15 +5,14 @@ from abjadext import rmakers
 
 def spazzolati_rhythm(
     *,
-    counts_rotation=None,
-    denominator=16,
-    dmask=None,
-    extra_counts_per_division=None,
+    counts_rotation: int = None,
+    denominator: int = 16,
+    dmask: rmakers.MasksTyping = None,
+    extra_counts: abjad.IntegerSequence = None,
 ) -> baca.RhythmCommand:
     """
     Makes spazzolati rhythm.
     """
-
     counts_ = [
         [1, 1, 1],
         [-2],
@@ -29,18 +28,15 @@ def spazzolati_rhythm(
     counts = abjad.sequence(counts_)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
-
-    rhythm_maker = rmakers.TaleaRhythmMaker(
-        division_masks=dmask,
-        extra_counts_per_division=extra_counts_per_division,
-        tag="faberge.spazzolati_rhythm",
-        talea=rmakers.Talea(counts=counts, denominator=denominator),
-    )
-
     return baca.rhythm(
         divisions=baca.divisions().fuse().quarters(),
         multimeasure_rests=True,
         rewrite_meter=True,
         rewrite_rest_filled=True,
-        rhythm_maker=rhythm_maker,
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            division_masks=dmask,
+            extra_counts_per_division=extra_counts,
+            talea=rmakers.Talea(counts=counts, denominator=denominator),
+        ),
+        tag="faberge.spazzolati_rhythm",
     )

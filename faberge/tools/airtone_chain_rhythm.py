@@ -4,12 +4,12 @@ from abjadext import rmakers
 
 
 def airtone_chain_rhythm(
-    total_events,
-    my_event_indices,
+    total_events: int,
+    my_event_indices: abjad.IntegerSequence,
     *,
-    counts=(4, 8, 6, 4, 8, 8, 6),
-    do_not_overlap_counts=False,
-    prolong_last_count=False,
+    counts: abjad.IntegerSequence = (4, 8, 6, 4, 8, 8, 6),
+    do_not_overlap_counts: bool = False,
+    prolong_last_count: bool = False,
 ) -> baca.RhythmCommand:
     """
     Makes airtone chain rhythm.
@@ -18,7 +18,7 @@ def airtone_chain_rhythm(
     assert isinstance(total_events, int), repr(total_events)
     assert isinstance(my_event_indices, (list, tuple)), repr(my_event_indices)
     counts = baca.sequence(counts)
-    counts = abjad.CyclicTuple(counts)
+    counts_ = abjad.CyclicTuple(counts)
 
     for index in my_event_indices:
         if total_events <= index:
@@ -31,7 +31,7 @@ def airtone_chain_rhythm(
     else:
         upper_bound = total_events - 1
     for event_index in range(upper_bound):
-        count = counts[event_index]
+        count = counts_[event_index]
         if event_index in my_event_indices:
             my_counts.append(count)
         elif not do_not_overlap_counts and my_counts and 0 < my_counts[-1]:
@@ -70,7 +70,6 @@ def airtone_chain_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         read_talea_once_only=True,
-        tag="faberge.airtone_chain_rhythm",
         talea=rmakers.Talea(counts=my_counts, denominator=16),
         tie_specifier=rmakers.TieSpecifier(repeat_ties=True),
     )
@@ -79,4 +78,5 @@ def airtone_chain_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
+        tag="faberge.airtone_chain_rhythm",
     )

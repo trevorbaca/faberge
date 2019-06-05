@@ -7,17 +7,16 @@ def ratchet_rhythm() -> baca.RhythmCommand:
     """
     Makes ratchet rhythm.
     """
-
     interpolation_specifiers = [
         rmakers.InterpolationSpecifier(
-            start_duration=abjad.Duration(3, 8),
-            stop_duration=abjad.Duration(1, 16),
-            written_duration=abjad.Duration(1, 16),
+            start_duration=(3, 8),
+            stop_duration=(1, 16),
+            written_duration=(1, 16),
         ),
         rmakers.InterpolationSpecifier(
-            start_duration=abjad.Duration(1, 16),
-            stop_duration=abjad.Duration(3, 8),
-            written_duration=abjad.Duration(1, 16),
+            start_duration=(1, 16),
+            stop_duration=(3, 8),
+            written_duration=(1, 16),
         ),
     ]
     return baca.rhythm(
@@ -26,7 +25,7 @@ def ratchet_rhythm() -> baca.RhythmCommand:
                 beam_rests=True, stemlet_length=0.75, use_feather_beams=True
             ),
             interpolation_specifiers=interpolation_specifiers,
-            tag="faberge.ratchet_rhythm",
             tuplet_specifier=rmakers.TupletSpecifier(duration_bracket=True),
-        )
+        ),
+        tag="faberge.ratchet_rhythm",
     )

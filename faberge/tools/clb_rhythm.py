@@ -4,26 +4,27 @@ from abjadext import rmakers
 
 
 def clb_rhythm(
-    *, extra_counts=None, fuse_counts=None, rotation=None
+    *,
+    extra_counts: abjad.IntegerSequence = None,
+    fuse_counts: abjad.IntegerSequence = None,
+    rotation: int = None,
 ) -> baca.RhythmCommand:
     """
     Makes clb rhythm.
     """
     extra_counts = extra_counts or (2, 6, 2, 0, 4)
-    extra_counts = baca.sequence(extra_counts)
-    extra_counts = extra_counts.rotate(n=rotation)
-
-    expression = None
+    extra_counts_ = baca.sequence(extra_counts)
+    extra_counts_ = extra_counts_.rotate(n=rotation)
+    divisions = None
     if fuse_counts is not None:
-        expression = baca.sequence()
-        expression = expression.partition_by_counts(
+        divisions = baca.sequence()
+        divisions = divisions.partition_by_counts(
             fuse_counts, cyclic=True, overhang=True
         )
-        expression = expression.map(baca.sequence().sum())
-        expression = expression.flatten()
+        divisions = divisions.map(baca.sequence().sum())
+        divisions = divisions.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        extra_counts_per_division=extra_counts,
-        tag="faberge.clb_rhythm",
+        extra_counts_per_division=extra_counts_,
         talea=rmakers.Talea(counts=[1], denominator=8),
         tuplet_specifier=rmakers.TupletSpecifier(
             rewrite_dots=True,
@@ -36,8 +37,9 @@ def clb_rhythm(
         ),
     )
     return baca.rhythm(
-        divisions=expression,
+        divisions=divisions,
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rhythm_maker,
+        tag="faberge.clb_rhythm",
     )

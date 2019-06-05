@@ -5,11 +5,11 @@ from abjadext import rmakers
 
 
 def shell_exchange_rhythm(
-    total_parts,
-    this_part,
+    total_parts: int,
+    this_part: typing.Union[int, typing.Tuple[int, ...]],
     *,
-    extra_counts_per_division_rotation=None,
-    rotation=None,
+    extra_counts_per_division_rotation: int = None,
+    rotation: int = None,
 ) -> baca.RhythmCommand:
     """
     Makes shell exchange rhythm.

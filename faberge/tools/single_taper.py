@@ -4,12 +4,14 @@ from abjadext import rmakers
 
 
 def single_taper(
-    *, denominator=16, start_talea=[4], stop_talea=[4]
+    *,
+    denominator: int = 16,
+    start_talea: abjad.IntegerSequence = (4,),
+    stop_talea: abjad.IntegerSequence = (4,),
 ) -> baca.RhythmCommand:
     """
     Makes single taper.
     """
-
     return baca.rhythm(
         rhythm_maker=rmakers.IncisedRhythmMaker(
             incise_specifier=rmakers.InciseSpecifier(
@@ -20,9 +22,9 @@ def single_taper(
                 suffix_counts=[len(stop_talea)],
                 talea_denominator=denominator,
             ),
-            tag="faberge.single_taper",
             tie_specifier=rmakers.TieSpecifier(
                 tie_consecutive_notes=True, repeat_ties=True
             ),
+            tag="faberge.single_taper",
         )
     )
