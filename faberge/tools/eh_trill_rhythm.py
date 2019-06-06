@@ -18,6 +18,9 @@ def eh_trill_rhythm(
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(
+                beam_each_division=True,
+            ),
             division_masks=dmask,
             extra_counts_per_division=extra_counts,
             read_talea_once_only=True,

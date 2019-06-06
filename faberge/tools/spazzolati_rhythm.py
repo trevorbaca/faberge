@@ -34,6 +34,9 @@ def spazzolati_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(
+                beam_each_division=True,
+            ),
             division_masks=dmask,
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(counts=counts, denominator=denominator),
