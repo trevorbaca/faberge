@@ -22,6 +22,7 @@ def ratchet_rhythm() -> baca.RhythmCommand:
     return baca.rhythm(
         rhythm_maker=rmakers.AccelerandoRhythmMaker(
             beam_specifier=rmakers.BeamSpecifier(
+                beam_each_division=True,
                 beam_rests=True, stemlet_length=0.75, use_feather_beams=True
             ),
             interpolation_specifiers=interpolation_specifiers,

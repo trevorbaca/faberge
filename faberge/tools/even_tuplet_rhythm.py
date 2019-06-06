@@ -14,6 +14,9 @@ def even_tuplet_rhythm(
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            beam_specifier=rmakers.BeamSpecifier(
+                beam_each_division=True,
+            ),
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(counts=[1], denominator=denominator),
             tuplet_specifier=rmakers.TupletSpecifier(
