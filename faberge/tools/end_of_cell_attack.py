@@ -10,15 +10,13 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
-                beam_each_division=True,
-            ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 fill_with_rests=True,
                 suffix_talea=[1],
                 suffix_counts=[1],
                 talea_denominator=denominator,
-            )
+            ),
         ),
         tag="faberge.end_of_cell_attack",
     )

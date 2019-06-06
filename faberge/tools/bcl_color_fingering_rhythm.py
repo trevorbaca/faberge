@@ -13,9 +13,7 @@ def bcl_color_fingering_rhythm(
     counts = counts.rotate(n=rotation)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        beam_specifier=rmakers.BeamSpecifier(
-            beam_each_division=True,
-        ),
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=[2],
         logical_tie_masks=ltmask,
         talea=rmakers.Talea(counts=counts, denominator=8),

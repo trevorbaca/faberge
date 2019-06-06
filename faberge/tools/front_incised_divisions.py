@@ -23,9 +23,7 @@ def front_incised_divisions(
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
-                beam_each_division=True,
-            ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=prefix_talea,

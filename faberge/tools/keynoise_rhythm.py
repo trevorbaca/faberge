@@ -32,9 +32,7 @@ def keynoise_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
-                beam_each_division=True,
-            ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=tuplet_ratios_,
             tuplet_specifier=rmakers.TupletSpecifier(

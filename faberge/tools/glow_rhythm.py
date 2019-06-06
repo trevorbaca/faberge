@@ -25,9 +25,7 @@ def glow_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
-                beam_each_division=True,
-            ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tie_specifier=rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=(1, 2)
