@@ -10,9 +10,7 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(
-                beam_each_division=True,
-            ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=[1],
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_counts=[2],

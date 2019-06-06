@@ -130,9 +130,7 @@ def shell_exchange_rhythm(
     extras = extras.rotate(n=extra_counts_per_division_rotation)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        beam_specifier=rmakers.BeamSpecifier(
-            beam_each_division=True,
-        ),
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extras,
         logical_tie_masks=rmakers.silence([-1]),
         tag="faberge.shell_exchange_rhythm",
