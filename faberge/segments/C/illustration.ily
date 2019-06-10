@@ -747,9 +747,9 @@ C_Piano_RH_Music_Voice = {                                                     %
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r8
+    r8                                                                         %! faberge.downbeat_attack
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -906,9 +906,9 @@ C_Piano_LH_Music_Voice = {                                                     %
     <g a b c'>8
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r8
+    r8                                                                         %! faberge.downbeat_attack
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1353,12 +1353,12 @@ C_Violin_Music_Voice = {                                                       %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r8
+    r8                                                                         %! faberge.downbeat_attack
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
 
     % [C Violin_Music_Voice measure 181 / measure 5]                           %! _comment_measure_numbers
     r4                                                                         %! faberge.airtone_chain_rhythm

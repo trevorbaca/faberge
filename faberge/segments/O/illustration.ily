@@ -228,7 +228,7 @@ O_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    r1..
+    r1..                                                                       %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -350,7 +350,7 @@ O_English_Horn_Music_Voice = {                                                 %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    r1..
+    r1..                                                                       %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -566,7 +566,7 @@ O_Piano_RH_Music_Voice = {                                                     %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \repeatTie                                                                 %! TieCorrectionCommand
 
-    r1..
+    r1..                                                                       %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 

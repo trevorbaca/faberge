@@ -6214,7 +6214,7 @@ B_Piano_RH_Music_Voice = {                                                     %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \revert NoteHead.stencil                                                   %! baca.note_head_stencil_false:OverrideCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
     \revert TupletBracket.transparent                                          %! baca.tuplet_bracket_transparent:OverrideCommand(2)
     \revert TupletNumber.transparent                                           %! baca.tuplet_number_transparent:OverrideCommand(2)
@@ -10186,7 +10186,7 @@ B_Viola_Music_Voice = {                                                        %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
     \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
@@ -11103,7 +11103,7 @@ B_Cello_Music_Voice = {                                                        %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
     \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)

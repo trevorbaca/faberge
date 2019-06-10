@@ -1610,7 +1610,7 @@ G_Percussion_Music_Voice = {                                                   %
     - \tweak staff-padding #8                                                  %! baca.markup:IndicatorCommand
     ^ \baca-bd-struck-markup                                                   %! baca.markup:IndicatorCommand
 
-    r\breve
+    r\breve                                                                    %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     % [G Percussion_Music_Voice measure 213 / measure 4]                       %! _comment_measure_numbers

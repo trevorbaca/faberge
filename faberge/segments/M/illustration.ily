@@ -697,7 +697,7 @@ M_Clarinet_Music_Voice = {                                                     %
     \set Staff.shortInstrumentName = \faberge-bcl-markup                       %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge.bcl_color_fingering_rhythm
@@ -935,7 +935,7 @@ M_Clarinet_Music_Voice = {                                                     %
                     3
         }
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge.bcl_color_fingering_rhythm

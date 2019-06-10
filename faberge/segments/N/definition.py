@@ -162,26 +162,28 @@ maker(
         'pp < p > pp',
         map=baca.runs(),
         pieces=baca.plts().partition_by_ratio((2, 3)),
-        ),
+    ),
     baca.material_annotation_spanner(
         '5-2 =|',
         abjad.tweak(8).staff_padding,
-        ),
+    ),
     baca.pitch(
         'F2',
         selector=baca.plts(
             exclude=abjad.const.HIDDEN,
-            ),
         ),
+    ),
     faberge.bcl_color_fingering_rhythm(
-        ltmask=rmakers.silence([6, 7, 12, 17]),
-        ),
+        rmakers.SilenceMask(
+            selector=baca.lts()[abjad.index([6, 7, 12, 17])],
+        )
+    ),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
         abjad.tweak(-0.5).parent_alignment_X,
         abjad.tweak(4.5).staff_padding,
-        ),
-    )
+    ),
+)
 
 # rh
 
