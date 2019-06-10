@@ -1640,7 +1640,7 @@ F_Percussion_Music_Voice = {                                                   %
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [F Percussion_Music_Voice measure 205 / measure 4]                       %! _comment_measure_numbers
@@ -1649,7 +1649,7 @@ F_Percussion_Music_Voice = {                                                   %
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \revert Stem.direction                                                     %! baca.stem_up:OverrideCommand(2)
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
@@ -1905,7 +1905,7 @@ F_Violin_Music_Voice = {                                                       %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
@@ -2282,7 +2282,7 @@ F_Viola_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
@@ -2540,7 +2540,7 @@ F_Cello_Music_Voice = {                                                        %
     b,4                                                                        %! faberge.downbeat_attack
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \bacaStopTextSpanBowSpeed                                                  %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
 
     {

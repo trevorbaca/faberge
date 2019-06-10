@@ -739,7 +739,7 @@ L_Clarinet_Music_Voice = {                                                     %
     % [L Clarinet_Music_Voice measure 257 / measure 4]                         %! _comment_measure_numbers
     b8                                                                         %! faberge.downbeat_attack
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge.bcl_color_fingering_rhythm
@@ -824,7 +824,7 @@ L_Clarinet_Music_Voice = {                                                     %
                     1
         }
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.bcl_color_fingering_rhythm
     \times 4/5 {                                                               %! faberge.bcl_color_fingering_rhythm
@@ -1176,7 +1176,7 @@ L_Piano_RH_Music_Voice = {                                                     %
     ^ \baca-sharp-markup                                                       %! baca.markup:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
@@ -1381,7 +1381,7 @@ L_Piano_LH_Music_Voice = {                                                     %
     <g a b c'>8
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1550,7 +1550,7 @@ L_Percussion_Music_Voice = {                                                   %
     \set Staff.shortInstrumentName = \faberge-perc-markup                      %! REDRAWN_REAPPLIED_MARGIN_MARKUP:_set_status_tag:_treat_persistent_wrapper(3):-PARTS:_reapply_persistent_indicators(3)
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-    r1.
+    r1.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 255 / measure 2]                       %! _comment_measure_numbers
@@ -1558,7 +1558,7 @@ L_Percussion_Music_Voice = {                                                   %
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 256 / measure 3]                       %! _comment_measure_numbers
@@ -1566,7 +1566,7 @@ L_Percussion_Music_Voice = {                                                   %
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    r1.
+    r1.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 257 / measure 4]                       %! _comment_measure_numbers
@@ -1574,7 +1574,7 @@ L_Percussion_Music_Voice = {                                                   %
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 258 / measure 5]                       %! _comment_measure_numbers
@@ -1582,7 +1582,7 @@ L_Percussion_Music_Voice = {                                                   %
     - \tweak bound-details.right.padding #2                                    %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [L Percussion_Music_Voice measure 259 / measure 6]                       %! _comment_measure_numbers
@@ -1591,7 +1591,7 @@ L_Percussion_Music_Voice = {                                                   %
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
     \revert Stem.direction                                                     %! baca.stem_up:OverrideCommand(2)
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
@@ -1759,7 +1759,7 @@ L_Violin_Music_Voice = {                                                       %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 14/18 {                                                             %! faberge.clb_rhythm
@@ -1827,7 +1827,7 @@ L_Violin_Music_Voice = {                                                       %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 8/14 {                                                              %! faberge.clb_rhythm
@@ -1884,7 +1884,7 @@ L_Violin_Music_Voice = {                                                       %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
@@ -2060,7 +2060,7 @@ L_Viola_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 14/16 {                                                             %! faberge.clb_rhythm
@@ -2122,7 +2122,7 @@ L_Viola_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 8/12 {                                                              %! faberge.clb_rhythm
@@ -2173,7 +2173,7 @@ L_Viola_Music_Voice = {                                                        %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
 
@@ -2353,7 +2353,7 @@ L_Cello_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 14/20 {                                                             %! faberge.clb_rhythm
@@ -2427,7 +2427,7 @@ L_Cello_Music_Voice = {                                                        %
     - \staccato                                                                %! baca.staccato:IndicatorCommand
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 8/10 {                                                              %! faberge.clb_rhythm
@@ -2472,7 +2472,7 @@ L_Cello_Music_Voice = {                                                        %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
-    r2..
+    r2..                                                                       %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
     \bacaStopTextSpanCLB                                                       %! CLB:baca.clb_spanner:PiecewiseCommand(3)
 

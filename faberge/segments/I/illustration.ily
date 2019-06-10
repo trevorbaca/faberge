@@ -1166,11 +1166,11 @@ I_Piano_RH_Music_Voice = {                                                     %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
-    r8
+    r8                                                                         %! faberge.downbeat_attack
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1333,11 +1333,11 @@ I_Piano_LH_Music_Voice = {                                                     %
     ]                                                                          %! baca.beam:SpannerIndicatorCommand(2)
     \ottava 0                                                                  %! baca.ottava:SpannerIndicatorCommand(2)
 
-    r8
+    r8                                                                         %! faberge.downbeat_attack
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1554,14 +1554,14 @@ I_Percussion_Music_Voice = {                                                   %
     - \tweak staff-padding #8                                                  %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
     \bacaStartTextSpanMA                                                       %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
 
-    r1..
+    r1..                                                                       %! faberge.downbeat_attack
 
     % [I Percussion_Music_Voice measure 234 / measure 6]                       %! _comment_measure_numbers
     b2                                                                         %! faberge.downbeat_attack
     - \laissezVibrer                                                           %! baca.laissez_vibrer:IndicatorCommand
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
-    r1
+    r1                                                                         %! faberge.downbeat_attack
 
     <<                                                                         %! _make_multimeasure_rest_container
 

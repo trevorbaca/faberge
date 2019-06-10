@@ -1082,7 +1082,7 @@ D_Percussion_Music_Voice = {                                                   %
     % [D Percussion_Music_Voice measure 186 / measure 2]                       %! _comment_measure_numbers
     c'4                                                                        %! faberge.downbeat_attack
 
-    r2.
+    r2.                                                                        %! faberge.downbeat_attack
     \bacaStopTextSpanMA                                                        %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
     % [D Percussion_Music_Voice measure 187 / measure 3]                       %! _comment_measure_numbers

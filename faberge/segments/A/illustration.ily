@@ -6929,7 +6929,7 @@ A_Percussion_Music_Voice = {                                                   %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r8
+    r8                                                                         %! faberge.shell_exchange_rhythm
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -7001,7 +7001,7 @@ A_Percussion_Music_Voice = {                                                   %
     ^ \baca-bd-struck-markup                                                   %! baca.markup:IndicatorCommand
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
-    r2
+    r2                                                                         %! faberge.downbeat_attack
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -8099,7 +8099,7 @@ A_Violin_Music_Voice = {                                                       %
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
-    r8
+    r8                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 67 / measure 63]                           %! _comment_measure_numbers
     e'16                                                                       %! faberge.spazzolati_rhythm
