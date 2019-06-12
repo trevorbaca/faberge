@@ -130,14 +130,14 @@ def shell_exchange_rhythm(
     extras = extras.rotate(n=extra_counts_per_division_rotation)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        rmakers.TupletSpecifier(
+            extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+        ),
         rmakers.SilenceMask(selector=baca.lt(-1)),
         beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extras,
         tag="faberge.shell_exchange_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=8),
-        tuplet_specifier=rmakers.TupletSpecifier(
-            extract_trivial=True, rewrite_rest_filled=True, trivialize=True
-        ),
     )
     return baca.rhythm(
         multimeasure_rests=True,

@@ -14,9 +14,6 @@ def even_tuplet_rhythm(
         multimeasure_rests=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
-            extra_counts_per_division=extra_counts,
-            talea=rmakers.Talea(counts=[1], denominator=denominator),
             tuplet_specifier=rmakers.TupletSpecifier(
                 denominator=(1, denominator),
                 extract_trivial=True,
@@ -25,6 +22,9 @@ def even_tuplet_rhythm(
                 rewrite_rest_filled=True,
                 trivialize=True,
             ),
+            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            extra_counts_per_division=extra_counts,
+            talea=rmakers.Talea(counts=[1], denominator=denominator),
         ),
         tag="faberge.even_tuplet_rhythm",
     )
