@@ -14,6 +14,7 @@ def downbeat_attack(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.SilenceMask(
                 selector=baca.lts()[abjad.index([0], inverted=True)]
             ),

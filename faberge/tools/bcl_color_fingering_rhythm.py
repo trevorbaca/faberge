@@ -14,10 +14,7 @@ def bcl_color_fingering_rhythm(
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
         *specifiers,
-        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
-        extra_counts_per_division=[2],
-        talea=rmakers.Talea(counts=counts, denominator=8),
-        tuplet_specifier=rmakers.TupletSpecifier(
+        rmakers.TupletSpecifier(
             rewrite_dots=True,
             denominator=(1, 4),
             diminution=True,
@@ -26,6 +23,9 @@ def bcl_color_fingering_rhythm(
             rewrite_rest_filled=True,
             trivialize=True,
         ),
+        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+        extra_counts_per_division=[2],
+        talea=rmakers.Talea(counts=counts, denominator=8),
     )
 
     return baca.rhythm(
