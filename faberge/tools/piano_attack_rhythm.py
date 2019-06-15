@@ -13,7 +13,7 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 fill_with_rests=True,
                 outer_divisions_only=True,
