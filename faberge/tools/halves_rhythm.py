@@ -15,7 +15,7 @@ def halves_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=tuplet_ratios,
             tuplet_specifier=rmakers.TupletSpecifier(
                 denominator=(1, 4),

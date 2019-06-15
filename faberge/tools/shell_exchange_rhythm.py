@@ -134,7 +134,7 @@ def shell_exchange_rhythm(
             extract_trivial=True, rewrite_rest_filled=True, trivialize=True
         ),
         rmakers.SilenceMask(selector=baca.lt(-1)),
-        beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+        rmakers.BeamSpecifier(beam_each_division=True),
         extra_counts_per_division=extras,
         tag="faberge.shell_exchange_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=8),

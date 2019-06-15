@@ -18,7 +18,7 @@ def downbeat_attack(
             rmakers.SilenceMask(
                 selector=baca.lts()[abjad.index([0], inverted=True)]
             ),
-            beam_specifier=rmakers.BeamSpecifier(beam_each_division=True),
+            rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=[rmakers.silence([0], inverted=True)],
             talea=rmakers.Talea(counts=[count], denominator=denominator),
         ),
