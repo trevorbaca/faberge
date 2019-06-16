@@ -191,7 +191,7 @@ O_Flute_Music_Voice = {                                                        %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
+    b'\breve                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -206,19 +206,19 @@ O_Flute_Music_Voice = {                                                        %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [O Flute_Music_Voice measure 280 / measure 2]                            %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
+    b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Flute_Music_Voice measure 281 / measure 3]                            %! _comment_measure_numbers
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
+    b'\breve                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Flute_Music_Voice measure 282 / measure 4]                            %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
+    b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -314,7 +314,7 @@ O_English_Horn_Music_Voice = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
+    b'\breve                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -328,19 +328,19 @@ O_English_Horn_Music_Voice = {                                                 %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [O English_Horn_Music_Voice measure 280 / measure 2]                     %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
+    b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O English_Horn_Music_Voice measure 281 / measure 3]                     %! _comment_measure_numbers
-    b'\breve                                                                   %! baca_make_repeat_tied_notes
+    b'\breve                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O English_Horn_Music_Voice measure 282 / measure 4]                     %! _comment_measure_numbers
-    b'1..                                                                      %! baca_make_repeat_tied_notes
+    b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -433,7 +433,7 @@ O_Clarinet_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    g\breve                                                                    %! baca_make_repeat_tied_notes
+    g\breve                                                                    %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“B. cl.”]"                            %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -450,22 +450,22 @@ O_Clarinet_Music_Voice = {                                                     %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    g1..                                                                       %! baca_make_repeat_tied_notes
+    g1..                                                                       %! baca.make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 281 / measure 3]                         %! _comment_measure_numbers
-    g\breve                                                                    %! baca_make_repeat_tied_notes
+    g\breve                                                                    %! baca.make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 282 / measure 4]                         %! _comment_measure_numbers
-    g1..                                                                       %! baca_make_repeat_tied_notes
+    g1..                                                                       %! baca.make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 283 / measure 5]                         %! _comment_measure_numbers
-    g\breve                                                                    %! baca_make_repeat_tied_notes
+    g\breve                                                                    %! baca.make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 284 / measure 6]                         %! _comment_measure_numbers
-    g1..                                                                       %! baca_make_repeat_tied_notes
+    g1..                                                                       %! baca.make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 285 / measure 7]                         %! _comment_measure_numbers
-    g\breve                                                                    %! baca_make_repeat_tied_notes
+    g\breve                                                                    %! baca.make_repeat_tied_notes
 
     % [O Clarinet_Music_Voice measure 286 / measure 8]                         %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -474,7 +474,7 @@ O_Clarinet_Music_Voice = {                                                     %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    g1..                                                                       %! baca_make_repeat_tied_notes
+    g1..                                                                       %! baca.make_repeat_tied_notes
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -529,7 +529,7 @@ O_Piano_RH_Music_Voice = {                                                     %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    d\breve                                                                    %! baca_make_repeat_tied_notes
+    d\breve                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-ff                                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -544,19 +544,19 @@ O_Piano_RH_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [O Piano_RH_Music_Voice measure 280 / measure 2]                         %! _comment_measure_numbers
-    d1..                                                                       %! baca_make_repeat_tied_notes
+    d1..                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Piano_RH_Music_Voice measure 281 / measure 3]                         %! _comment_measure_numbers
-    d\breve                                                                    %! baca_make_repeat_tied_notes
+    d\breve                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
 
     % [O Piano_RH_Music_Voice measure 282 / measure 4]                         %! _comment_measure_numbers
-    d1..                                                                       %! baca_make_repeat_tied_notes
+    d1..                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak direction #up
     \repeatTie
@@ -777,7 +777,7 @@ O_Percussion_Music_Voice = {                                                   %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    b\breve                                                                    %! baca_make_notes
+    b\breve                                                                    %! baca.make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -798,22 +798,22 @@ O_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    b1..                                                                       %! baca_make_notes
+    b1..                                                                       %! baca.make_notes
 
     % [O Percussion_Music_Voice measure 281 / measure 3]                       %! _comment_measure_numbers
-    b\breve                                                                    %! baca_make_notes
+    b\breve                                                                    %! baca.make_notes
 
     % [O Percussion_Music_Voice measure 282 / measure 4]                       %! _comment_measure_numbers
-    b1..                                                                       %! baca_make_notes
+    b1..                                                                       %! baca.make_notes
 
     % [O Percussion_Music_Voice measure 283 / measure 5]                       %! _comment_measure_numbers
-    b\breve                                                                    %! baca_make_notes
+    b\breve                                                                    %! baca.make_notes
 
     % [O Percussion_Music_Voice measure 284 / measure 6]                       %! _comment_measure_numbers
-    b1..                                                                       %! baca_make_notes
+    b1..                                                                       %! baca.make_notes
 
     % [O Percussion_Music_Voice measure 285 / measure 7]                       %! _comment_measure_numbers
-    b\breve                                                                    %! baca_make_notes
+    b\breve                                                                    %! baca.make_notes
 
     % [O Percussion_Music_Voice measure 286 / measure 8]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -822,7 +822,7 @@ O_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    b1..                                                                       %! baca_make_notes
+    b1..                                                                       %! baca.make_notes
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -1150,7 +1150,7 @@ O_Viola_Music_Voice = {                                                        %
     }                                                                          %! faberge.halves_rhythm
 
     % [O Viola_Music_Voice measure 286 / measure 8]                            %! _comment_measure_numbers
-    dqf''!1..                                                                  %! baca_make_notes
+    dqf''!1..                                                                  %! baca.make_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca.accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
@@ -1280,7 +1280,7 @@ O_Cello_Music_Voice = {                                                        %
     - \accent                                                                  %! baca.accent:IndicatorCommand
 
     % [O Cello_Music_Voice measure 286 / measure 8]                            %! _comment_measure_numbers
-    e,1..                                                                      %! baca_make_notes
+    e,1..                                                                      %! baca.make_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \accent                                                                  %! baca.accent:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)

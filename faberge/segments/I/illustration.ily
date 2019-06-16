@@ -1483,7 +1483,7 @@ I_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Dots.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Stem.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    ef,!1.                                                                     %! baca_make_repeat_tied_notes
+    ef,!1.                                                                     %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Perc.”]"                             %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -1495,7 +1495,7 @@ I_Percussion_Music_Voice = {                                                   %
 
     % [I Percussion_Music_Voice measure 230 / measure 2]                       %! _comment_measure_numbers
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    ef,!1.                                                                     %! baca_make_repeat_tied_notes
+    ef,!1.                                                                     %! baca.make_repeat_tied_notes
 
     % [I Percussion_Music_Voice measure 231 / measure 3]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1504,7 +1504,7 @@ I_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    ef,!1.                                                                     %! baca_make_repeat_tied_notes
+    ef,!1.                                                                     %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container

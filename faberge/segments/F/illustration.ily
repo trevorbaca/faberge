@@ -2292,7 +2292,7 @@ F_Viola_Music_Voice = {                                                        %
     \startStaff                                                                %! EXPLICIT_STAFF_LINES:_set_status_tag:baca.staff_lines:IndicatorCommand
     \once \override DynamicLineSpanner.staff-padding = #5                      %! baca.dls_staff_padding:OverrideCommand(1)
     \once \override Staff.StaffSymbol.color = #(x11-color 'blue)               %! EXPLICIT_STAFF_LINES_COLOR:_attach_color_literal(2)
-    d1..                                                                       %! baca_make_repeat_tied_notes
+    d1..                                                                       %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \abjad-solid-line-with-hook                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
@@ -2507,7 +2507,7 @@ F_Cello_Music_Voice = {                                                        %
     \override NoteHead.no-ledgers = ##t                                        %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Dots.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
     \override Stem.transparent = ##t                                           %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    b,1..                                                                      %! baca_make_notes
+    b,1..                                                                      %! baca.make_notes
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2525,10 +2525,10 @@ F_Cello_Music_Voice = {                                                        %
 
     % [F Cello_Music_Voice measure 203 / measure 2]                            %! _comment_measure_numbers
     \override NoteColumn.glissando-skip = ##t                                  %! HIDE_TO_JOIN_BROKEN_SPANNERS
-    b,1.                                                                       %! baca_make_notes
+    b,1.                                                                       %! baca.make_notes
 
     % [F Cello_Music_Voice measure 204 / measure 3]                            %! _comment_measure_numbers
-    b,1                                                                        %! baca_make_notes
+    b,1                                                                        %! baca.make_notes
 
     % [F Cello_Music_Voice measure 205 / measure 4]                            %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando

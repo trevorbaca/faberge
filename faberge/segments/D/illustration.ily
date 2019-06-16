@@ -230,7 +230,7 @@ D_Flute_Music_Voice = {                                                        %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Flute_Music_Voice measure 186 / measure 2]                            %! _comment_measure_numbers
-    gs'!1                                                                      %! baca_make_notes
+    gs'!1                                                                      %! baca.make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
@@ -276,13 +276,13 @@ D_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.suffixed_colortrill_rhythm
 
     % [D Flute_Music_Voice measure 188 / measure 4]                            %! _comment_measure_numbers
-    gs'!2.                                                                     %! baca_make_notes
+    gs'!2.                                                                     %! baca.make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     % [D Flute_Music_Voice measure 189 / measure 5]                            %! _comment_measure_numbers
-    a'1                                                                        %! baca_make_notes
+    a'1                                                                        %! baca.make_notes
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm
@@ -356,7 +356,7 @@ D_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.suffixed_colortrill_rhythm
 
     % [D Flute_Music_Voice measure 192 / measure 8]                            %! _comment_measure_numbers
-    b'2.                                                                       %! baca_make_notes
+    b'2.                                                                       %! baca.make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \breathe                                                                   %! baca.breathe:IndicatorCommand
@@ -467,7 +467,7 @@ D_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D English_Horn_Music_Voice measure 186 / measure 2]                     %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_notes
+    b'1                                                                        %! baca.make_notes
     - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-text "1-3 / 1-4"                                 %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
     - \tweak bound-details.right.padding #3.25                                 %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):autodetect
@@ -497,11 +497,11 @@ D_English_Horn_Music_Voice = {                                                 %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D English_Horn_Music_Voice measure 188 / measure 4]                     %! _comment_measure_numbers
-    b'2.                                                                       %! baca_make_notes
+    b'2.                                                                       %! baca.make_notes
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     % [D English_Horn_Music_Voice measure 189 / measure 5]                     %! _comment_measure_numbers
-    b'1                                                                        %! baca_make_notes
+    b'1                                                                        %! baca.make_notes
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -529,7 +529,7 @@ D_English_Horn_Music_Voice = {                                                 %
     R1 * 1                                                                     %! _make_measure_silences
 
     % [D English_Horn_Music_Voice measure 192 / measure 8]                     %! _comment_measure_numbers
-    b'2.                                                                       %! baca_make_notes
+    b'2.                                                                       %! baca.make_notes
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -635,7 +635,7 @@ D_Clarinet_Music_Voice = {                                                     %
     >>                                                                         %! _make_multimeasure_rest_container
 
     % [D Clarinet_Music_Voice measure 186 / measure 2]                         %! _comment_measure_numbers
-    d1                                                                         %! baca_make_notes
+    d1                                                                         %! baca.make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! REDUNDANT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     - \abjad-dashed-line-with-hook                                             %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
@@ -681,13 +681,13 @@ D_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.suffixed_colortrill_rhythm
 
     % [D Clarinet_Music_Voice measure 188 / measure 4]                         %! _comment_measure_numbers
-    d2.                                                                        %! baca_make_notes
+    d2.                                                                        %! baca.make_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     % [D Clarinet_Music_Voice measure 189 / measure 5]                         %! _comment_measure_numbers
-    cs!1                                                                       %! baca_make_notes
+    cs!1                                                                       %! baca.make_notes
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.suffixed_colortrill_rhythm
@@ -761,7 +761,7 @@ D_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.suffixed_colortrill_rhythm
 
     % [D Clarinet_Music_Voice measure 192 / measure 8]                         %! _comment_measure_numbers
-    c2.                                                                        %! baca_make_notes
+    c2.                                                                        %! baca.make_notes
     \breathe                                                                   %! baca.breathe:IndicatorCommand
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1088,7 +1088,7 @@ D_Percussion_Music_Voice = {                                                   %
     % [D Percussion_Music_Voice measure 187 / measure 3]                       %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #6                            %! baca.dls_staff_padding:OverrideCommand(1)
     \override Stem.direction = #down                                           %! baca.stem_down:OverrideCommand(1)
-    b1                                                                         %! baca_make_notes
+    b1                                                                         %! baca.make_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1102,23 +1102,23 @@ D_Percussion_Music_Voice = {                                                   %
     \override Accidental.stencil = ##f                                         %! baca.glissando
     \override NoteColumn.glissando-skip = ##t                                  %! baca.glissando
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
-    b2.                                                                        %! baca_make_notes
+    b2.                                                                        %! baca.make_notes
 
     % [D Percussion_Music_Voice measure 189 / measure 5]                       %! _comment_measure_numbers
-    b1                                                                         %! baca_make_notes
+    b1                                                                         %! baca.make_notes
 
     % [D Percussion_Music_Voice measure 190 / measure 6]                       %! _comment_measure_numbers
-    b1                                                                         %! baca_make_notes
+    b1                                                                         %! baca.make_notes
 
     % [D Percussion_Music_Voice measure 191 / measure 7]                       %! _comment_measure_numbers
-    b1                                                                         %! baca_make_notes
+    b1                                                                         %! baca.make_notes
 
     % [D Percussion_Music_Voice measure 192 / measure 8]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    b2.                                                                        %! baca_make_notes
+    b2.                                                                        %! baca.make_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
