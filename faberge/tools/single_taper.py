@@ -15,6 +15,7 @@ def single_taper(
     return baca.rhythm(
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.TieSpecifier(tie_consecutive_notes=True, repeat_ties=True),
             rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 outer_divisions_only=True,
@@ -23,9 +24,6 @@ def single_taper(
                 suffix_talea=stop_talea,
                 suffix_counts=[len(stop_talea)],
                 talea_denominator=denominator,
-            ),
-            tie_specifier=rmakers.TieSpecifier(
-                tie_consecutive_notes=True, repeat_ties=True
             ),
             tag="faberge.single_taper",
         )
