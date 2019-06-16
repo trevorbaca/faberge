@@ -1323,7 +1323,7 @@ K_Percussion_Music_Voice = {                                                   %
 
     % [K Percussion_Music_Voice measure 250 / measure 6]                       %! _comment_measure_numbers
     \override Stem.direction = #down                                           %! baca.stem_down:OverrideCommand(1)
-    b2                                                                         %! baca_make_repeat_tied_notes
+    b2                                                                         %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak staff-padding #6                                                  %! baca.markup:IndicatorCommand
@@ -1341,7 +1341,7 @@ K_Percussion_Music_Voice = {                                                   %
     \override NoteHead.no-ledgers = ##t                                        %! baca.glissando
     \override Dots.transparent = ##t                                           %! baca.glissando
     \override Stem.transparent = ##t                                           %! baca.glissando
-    b2                                                                         %! baca_make_repeat_tied_notes
+    b2                                                                         %! baca.make_repeat_tied_notes
 
     % [K Percussion_Music_Voice measure 252 / measure 8]                       %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1350,7 +1350,7 @@ K_Percussion_Music_Voice = {                                                   %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    b2.                                                                        %! baca_make_repeat_tied_notes
+    b2.                                                                        %! baca.make_repeat_tied_notes
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -1852,10 +1852,10 @@ K_Viola_Music_Voice = {                                                        %
     ef!2
 
     % [K Viola_Music_Voice measure 246 / measure 2]                            %! _comment_measure_numbers
-    ef!1                                                                       %! baca_make_repeat_tied_notes
+    ef!1                                                                       %! baca.make_repeat_tied_notes
 
     % [K Viola_Music_Voice measure 247 / measure 3]                            %! _comment_measure_numbers
-    ef!2.                                                                      %! baca_make_repeat_tied_notes
+    ef!2.                                                                      %! baca.make_repeat_tied_notes
 
     % [K Viola_Music_Voice measure 248 / measure 4]                            %! _comment_measure_numbers
     \revert Accidental.stencil                                                 %! baca.glissando
@@ -1864,7 +1864,7 @@ K_Viola_Music_Voice = {                                                        %
     \undo \hide NoteHead                                                       %! baca.glissando
     \revert Dots.transparent                                                   %! baca.glissando
     \revert Stem.transparent                                                   %! baca.glissando
-    ef!2                                                                       %! baca_make_repeat_tied_notes
+    ef!2                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
 
     % [K Viola_Music_Voice measure 249 / measure 5]                            %! _comment_measure_numbers

@@ -2831,7 +2831,7 @@ H_Cello_Music_Voice = {                                                        %
     \once \override Staff.Clef.color = #(x11-color 'blue)                      %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
 %@% \override Staff.Clef.color = ##f                                           %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-    f,\breve.                                                                  %! baca_make_repeat_tied_notes
+    f,\breve.                                                                  %! baca.make_repeat_tied_notes
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     ^ \baca-reapplied-indicator-markup "[“Vc.”]"                               %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -2859,10 +2859,10 @@ H_Cello_Music_Voice = {                                                        %
 
     f,2.
 
-    f,2                                                                        %! baca_make_repeat_tied_notes
+    f,2                                                                        %! baca.make_repeat_tied_notes
 
     % [H Cello_Music_Voice measure 222 / measure 3]                            %! _comment_measure_numbers
-    f,\breve.                                                                  %! baca_make_repeat_tied_notes
+    f,\breve.                                                                  %! baca.make_repeat_tied_notes
 
     % [H Cello_Music_Voice measure 223 / measure 4]                            %! _comment_measure_numbers
     f,2.
@@ -2877,7 +2877,7 @@ H_Cello_Music_Voice = {                                                        %
     \revert NoteColumn.glissando-skip                                          %! baca.glissando
     \revert NoteHead.no-ledgers                                                %! baca.glissando
     \undo \hide NoteHead                                                       %! baca.glissando
-    f,2                                                                        %! baca_make_repeat_tied_notes
+    f,2                                                                        %! baca.make_repeat_tied_notes
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     \times 2/3 {
