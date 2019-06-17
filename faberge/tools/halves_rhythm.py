@@ -15,15 +15,15 @@ def halves_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
-            rmakers.BeamSpecifier(beam_each_division=True),
-            tuplet_ratios=tuplet_ratios,
-            tuplet_specifier=rmakers.TupletSpecifier(
+            rmakers.TupletSpecifier(
                 denominator=(1, 4),
                 extract_trivial=True,
                 force_fraction=True,
                 rewrite_rest_filled=True,
                 trivialize=True,
             ),
+            rmakers.BeamSpecifier(beam_each_division=True),
+            tuplet_ratios=tuplet_ratios,
         ),
         tag="faberge.halves_rhythm",
     )

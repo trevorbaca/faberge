@@ -24,10 +24,7 @@ def clb_rhythm(
         divisions = divisions.map(baca.sequence().sum())
         divisions = divisions.flatten()
     rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.BeamSpecifier(beam_each_division=True),
-        extra_counts_per_division=extra_counts_,
-        talea=rmakers.Talea(counts=[1], denominator=8),
-        tuplet_specifier=rmakers.TupletSpecifier(
+        rmakers.TupletSpecifier(
             rewrite_dots=True,
             denominator=(1, 8),
             diminution=True,
@@ -36,6 +33,9 @@ def clb_rhythm(
             rewrite_rest_filled=True,
             trivialize=True,
         ),
+        rmakers.BeamSpecifier(beam_each_division=True),
+        extra_counts_per_division=extra_counts_,
+        talea=rmakers.Talea(counts=[1], denominator=8),
     )
     return baca.rhythm(
         divisions=divisions,

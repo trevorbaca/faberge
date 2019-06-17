@@ -4443,3 +4443,13 @@ LilyPond runtime: 4 seconds
  Segment-maker runtime: 11 seconds
  Abjad format time: 0 seconds
  LilyPond runtime: 2 seconds
+
+2019-06-17 12:51:25
+ Segment-maker runtime: 7 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 2 seconds
+
+2019-06-17 13:08:45
+ Segment-maker runtime: 11 seconds
+ Abjad format time: 0 seconds
+ LilyPond runtime: 3 seconds

@@ -32,12 +32,12 @@ def keynoise_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+            ),
             rmakers.BeamSpecifier(beam_each_division=True),
             division_masks=dmask,
             tuplet_ratios=tuplet_ratios_,
-            tuplet_specifier=rmakers.TupletSpecifier(
-                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
-            ),
         ),
         tag="faberge.keynoise_rhythm",
     )
