@@ -32,7 +32,7 @@ def spazzolati_rhythm(
         divisions=baca.divisions().fuse().quarters(),
         multimeasure_rests=True,
         rewrite_meter=True,
-        rewrite_rest_filled=True,
+        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),

@@ -12,7 +12,7 @@ def downbeat_attack(
     return baca.rhythm(
         multimeasure_rests=True,
         rewrite_meter=True,
-        rewrite_rest_filled=True,
+        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.SilenceMask(

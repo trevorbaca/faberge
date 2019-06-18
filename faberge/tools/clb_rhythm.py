@@ -40,7 +40,7 @@ def clb_rhythm(
     return baca.rhythm(
         divisions=divisions,
         multimeasure_rests=True,
-        rewrite_rest_filled=True,
+        rewrite_rest_filled_divisions=True,
         rhythm_maker=rhythm_maker,
         tag="faberge.clb_rhythm",
     )

@@ -21,7 +21,7 @@ def front_incised_divisions(
     prefix_talea = [-_.numerator for _ in start_rest_durations]
     return baca.rhythm(
         multimeasure_rests=True,
-        rewrite_rest_filled=True,
+        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),

@@ -10,7 +10,7 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
     return baca.rhythm(
         divisions=None,
         multimeasure_rests=True,
-        rewrite_rest_filled=True,
+        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),
