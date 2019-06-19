@@ -2644,7 +2644,7 @@ A_Flute_Music_Voice = {                                                        %
     % [A Flute_Music_Voice measure 95 / measure 91]                            %! _comment_measure_numbers
     fs'!8                                                                      %! faberge.glow_rhythm
     \repeatTie
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fs''!16                                                                    %! faberge.glow_rhythm
     - \tweak parent-alignment-X #-0.5
@@ -2667,7 +2667,7 @@ A_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
     ~                                                                          %! TieCorrectionCommand
 
     fs'!4                                                                      %! faberge.glow_rhythm
@@ -3220,14 +3220,14 @@ A_English_Horn_Music_Voice = {                                                 %
         \baca-effort-ff                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \tweak padding #1.5                                                  %! baca.markup:IndicatorCommand
         ^ \baca-keynoise-markup                                                %! baca.markup:IndicatorCommand
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         f'16                                                                   %! faberge.keynoise_rhythm
 
         d'16                                                                   %! faberge.keynoise_rhythm
 
         cs'!16                                                                 %! faberge.keynoise_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm
 
@@ -3266,24 +3266,24 @@ A_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! faberge.keynoise_rhythm
 
     aqf'!16                                                                    %! faberge.keynoise_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     bf'!16                                                                     %! faberge.keynoise_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5 {                                                               %! faberge.keynoise_rhythm
 
         r16                                                                    %! faberge.keynoise_rhythm
 
         a'16                                                                   %! faberge.keynoise_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         eqs'!16                                                                %! faberge.keynoise_rhythm
 
         ef'!16                                                                 %! faberge.keynoise_rhythm
 
         e'16                                                                   %! faberge.keynoise_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm
 
@@ -3295,14 +3295,14 @@ A_English_Horn_Music_Voice = {                                                 %
         r16                                                                    %! faberge.keynoise_rhythm
 
         a'16                                                                   %! faberge.keynoise_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         gs'!16                                                                 %! faberge.keynoise_rhythm
 
         aqf'!16                                                                %! faberge.keynoise_rhythm
 
         bf'!16                                                                 %! faberge.keynoise_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm
 
@@ -3341,24 +3341,24 @@ A_English_Horn_Music_Voice = {                                                 %
     r8                                                                         %! faberge.keynoise_rhythm
 
     bf'!16                                                                     %! faberge.keynoise_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     a'16                                                                       %! faberge.keynoise_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 4/5 {                                                               %! faberge.keynoise_rhythm
 
         r16                                                                    %! faberge.keynoise_rhythm
 
         gs'!16                                                                 %! faberge.keynoise_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         aqf'!16                                                                %! faberge.keynoise_rhythm
 
         d'16                                                                   %! faberge.keynoise_rhythm
 
         cs'!16                                                                 %! faberge.keynoise_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm
 
@@ -3370,14 +3370,14 @@ A_English_Horn_Music_Voice = {                                                 %
         r16                                                                    %! faberge.keynoise_rhythm
 
         fqs'!16                                                                %! faberge.keynoise_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         f'16                                                                   %! faberge.keynoise_rhythm
 
         e'16                                                                   %! faberge.keynoise_rhythm
 
         eqs'!16                                                                %! faberge.keynoise_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.keynoise_rhythm
 
@@ -8105,7 +8105,7 @@ A_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! faberge.spazzolati_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     - \abjad-dashed-line-with-hook                                             %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-spazzolato-markup                   %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup     %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
@@ -8116,62 +8116,62 @@ A_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [A Violin_Music_Voice measure 68 / measure 64]                           %! _comment_measure_numbers
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
@@ -8179,22 +8179,22 @@ A_Violin_Music_Voice = {                                                       %
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r4                                                                         %! faberge.spazzolati_rhythm
 
@@ -8212,7 +8212,7 @@ A_Violin_Music_Voice = {                                                       %
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     - \abjad-dashed-line-with-hook                                             %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-spazzolato-markup                   %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup     %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
@@ -8223,62 +8223,62 @@ A_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 74 / measure 70]                           %! _comment_measure_numbers
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 4/3 {                                                               %! faberge.shell_exchange_rhythm
@@ -8508,7 +8508,7 @@ A_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! faberge.spazzolati_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-f                                                             %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
     - \abjad-dashed-line-with-hook                                             %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
     - \baca-text-spanner-left-markup \baca-spazzolato-markup                   %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
     - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup     %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
@@ -8517,15 +8517,15 @@ A_Violin_Music_Voice = {                                                       %
     \bacaStartTextSpanSpazzolato                                               %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [A Violin_Music_Voice measure 86 / measure 82]                           %! _comment_measure_numbers
     e'16                                                                       %! faberge.spazzolati_rhythm
@@ -8537,22 +8537,22 @@ A_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
@@ -8560,20 +8560,20 @@ A_Violin_Music_Voice = {                                                       %
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r2                                                                         %! faberge.spazzolati_rhythm
 
@@ -8614,42 +8614,42 @@ A_Violin_Music_Voice = {                                                       %
 
     % [A Violin_Music_Voice measure 92 / measure 88]                           %! _comment_measure_numbers
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     r16                                                                        %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     r8                                                                         %! faberge.spazzolati_rhythm
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    [                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     e'16                                                                       %! faberge.spazzolati_rhythm
-    ]                                                                          %! rmakers.DurationSpecifier._rewrite_meter_
+    ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -9117,12 +9117,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9138,12 +9138,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9167,12 +9167,12 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 69 / measure 65]                        %! _comment_measure_numbers
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9200,7 +9200,7 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 73 / measure 69]                        %! _comment_measure_numbers
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
         - \abjad-dashed-line-with-hook                                         %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-spazzolato-markup               %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
@@ -9211,7 +9211,7 @@ A_Viola_Music_Voice = {                                                        %
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9234,12 +9234,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9263,12 +9263,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9345,7 +9345,7 @@ A_Viola_Music_Voice = {                                                        %
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \baca-effort-f                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         \bacaStopTextSpanBowSpeed                                              %! BOW_SPEED:baca.xfb_spanner:PiecewiseCommand(3)
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
         - \abjad-dashed-line-with-hook                                         %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-spazzolato-markup               %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
@@ -9354,7 +9354,7 @@ A_Viola_Music_Voice = {                                                        %
         \bacaStartTextSpanSpazzolato                                           %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! faberge.spazzolati_rhythm
 
@@ -9365,10 +9365,10 @@ A_Viola_Music_Voice = {                                                        %
         r8                                                                     %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9384,12 +9384,12 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9405,10 +9405,10 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 87 / measure 83]                        %! _comment_measure_numbers
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! faberge.spazzolati_rhythm
 
@@ -9419,10 +9419,10 @@ A_Viola_Music_Voice = {                                                        %
         r8                                                                     %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9444,7 +9444,7 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
         - \abjad-dashed-line-with-hook                                         %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
         - \baca-text-spanner-left-markup \baca-spazzolato-markup               %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
         - \tweak bound-details.left-broken.text \baca-left-broken-spazz-markup %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(1)
@@ -9455,7 +9455,7 @@ A_Viola_Music_Voice = {                                                        %
         e'8                                                                    %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9471,10 +9471,10 @@ A_Viola_Music_Voice = {                                                        %
 
         % [A Viola_Music_Voice measure 92 / measure 88]                        %! _comment_measure_numbers
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! faberge.spazzolati_rhythm
 
@@ -9485,10 +9485,10 @@ A_Viola_Music_Voice = {                                                        %
         r8                                                                     %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.spazzolati_rhythm
 
@@ -9503,10 +9503,10 @@ A_Viola_Music_Voice = {                                                        %
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        [                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         e'8                                                                    %! faberge.spazzolati_rhythm
-        ]                                                                      %! rmakers.DurationSpecifier._rewrite_meter_
+        ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         r8                                                                     %! faberge.spazzolati_rhythm
 
