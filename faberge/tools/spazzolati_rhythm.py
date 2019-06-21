@@ -4,10 +4,9 @@ from abjadext import rmakers
 
 
 def spazzolati_rhythm(
-    *,
+    *specifiers: rmakers.SpecifierTyping,
     counts_rotation: int = None,
     denominator: int = 16,
-    dmask: rmakers.MasksTyping = None,
     extra_counts: abjad.IntegerSequence = None,
 ) -> baca.RhythmCommand:
     """
@@ -34,9 +33,11 @@ def spazzolati_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True),
+            *specifiers,
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True
+            ),
             rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=dmask,
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(counts=counts, denominator=denominator),
         ),

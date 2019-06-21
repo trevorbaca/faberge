@@ -232,9 +232,15 @@ maker(
         abjad.tweak(3.5).staff_padding,
         ),
     faberge.glow_rhythm(
+
+#        rmakers.SustainMask(
+#            selector=baca.tuplets()[abjad.index([6, 7], 18, inverted=True)],
+#        ),
+
         dmask=[
             ~rmakers.sustain([6, 7], 18),
             ],
+
         tuplet_ratio_rotation=0,
         ),
     )
@@ -352,7 +358,7 @@ maker(
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=0),
     faberge.keynoise_rhythm(
-        dmask=rmakers.silence([0, 4], 9),
+        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([0, 4], 9)]),
         tuplet_ratio_rotation=0,
         ),
     )
@@ -958,13 +964,15 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
-        counts_rotation=-10,
-        dmask=~rmakers.silence([
-            0, 1, 2, 3, 4, 5, 6, 7, 8,
-            -7, -6, -5, -4, -3, -2, -1
-            ]),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index(
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1],
+            inverted=True,
+            )]
         ),
-    )
+        counts_rotation=-10,
+    ),
+)
 
 maker(
     ('vn', (69, 70)),
@@ -1014,13 +1022,15 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
-        counts_rotation=-11,
-        dmask=~rmakers.silence([
-            0, 1, 2, 3, 4, 5, 6,
-            -6, -5, -4, -3, -2, -1,
-            ]),
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index(
+            [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1],
+            inverted=True,
+            )]
         ),
-    )
+        counts_rotation=-11,
+    ),
+)
 
 maker(
     ('vn', (87, 88)),
@@ -1139,15 +1149,17 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index(
+            [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1],
+            inverted=True,
+            )]
+        ),
         counts_rotation=-11,
         denominator=8,
-        dmask=~rmakers.silence([
-            0, 1, 2, 3, 4, 5, 6, 7, 8,
-            -7, -6, -5, -4, -3, -2, -1
-            ]),
         extra_counts=[1],
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', (69, 70)),
@@ -1198,15 +1210,17 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
+        rmakers.SilenceMask(
+            selector=baca.tuplets()[abjad.index(
+            [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1],
+            inverted=True,
+            )]
+        ),
         counts_rotation=-12,
         denominator=8,
-        dmask=~rmakers.silence([
-            0, 1, 2, 3, 4, 5, 6,
-            -6, -5, -4, -3, -2, -1,
-            ]),
         extra_counts=[1],
-        ),
-    )
+    ),
+)
 
 maker(
     ('va', (87, 88)),

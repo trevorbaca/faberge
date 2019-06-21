@@ -5,8 +5,7 @@ from abjadext import rmakers
 
 
 def front_incised_divisions(
-    *,
-    dmask: rmakers.MasksTyping = None,
+    *specifiers: rmakers.SpecifierTyping,
     start_rest_durations: abjad.DurationSequenceTyping = (),
 ) -> baca.RhythmCommand:
     """
@@ -23,9 +22,9 @@ def front_incised_divisions(
         multimeasure_rests=True,
         rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            *specifiers,
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=dmask,
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=prefix_talea,
                 prefix_counts=[1],
