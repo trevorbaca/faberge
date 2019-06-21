@@ -7,7 +7,6 @@ from abjadext import rmakers
 
 def glow_rhythm(
     *specifiers: rmakers.SpecifierTyping,
-    dmask: rmakers.MasksTyping = None,
     tuplet_ratios: abjad.RatioSequenceTyping = None,
     tuplet_ratio_rotation: int = None,
 ) -> baca.RhythmCommand:
@@ -36,7 +35,6 @@ def glow_rhythm(
                 tie_across_divisions=True, repeat_ties=(1, 2)
             ),
             rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=dmask,
             tuplet_ratios=tuplet_ratios_,
         ),
         tag="faberge.glow_rhythm",

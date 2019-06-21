@@ -232,15 +232,15 @@ maker(
         abjad.tweak(3.5).staff_padding,
         ),
     faberge.glow_rhythm(
-
-#        rmakers.SustainMask(
-#            selector=baca.tuplets()[abjad.index([6, 7], 18, inverted=True)],
-#        ),
-
-        dmask=[
-            ~rmakers.sustain([6, 7], 18),
-            ],
-
+        rmakers.SustainMask(
+            selector=baca.tuplets()[abjad.index([6, 7], 18, inverted=True)],
+        ),
+        rmakers.TieSpecifier(
+            attach_ties=True,
+            selector=baca.tuplets()[
+                abjad.index([6, 7], 18, inverted=True)
+                ].map(baca.leaves()[:-1]),
+        ),
         tuplet_ratio_rotation=0,
         ),
     )
