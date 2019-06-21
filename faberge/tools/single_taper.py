@@ -15,7 +15,9 @@ def single_taper(
     return baca.rhythm(
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.TieSpecifier(tie_consecutive_notes=True, repeat_ties=True),
+            rmakers.TieSpecifier(
+                attach_repeat_ties=True, selector=baca.notes()[1:]
+            ),
             rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 outer_divisions_only=True,
