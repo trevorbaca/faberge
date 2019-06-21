@@ -568,11 +568,8 @@ maker(
         selector=baca.tleaves().rleak(),
         ),
     faberge.spazzolati_rhythm(
+        rmakers.SilenceMask(selector=baca.tuplets()[3:]),
         counts_rotation=0,
-        dmask=rmakers.silence(
-            [0, 1, 2],
-            inverted=True,
-            ),
         ),
     )
 
@@ -701,12 +698,9 @@ maker(
         selector=baca.tleaves().rleak(),
         ),
     faberge.spazzolati_rhythm(
+        rmakers.SilenceMask(selector=baca.tuplets()[3:]),
         counts_rotation=-1,
         denominator=8,
-        dmask=rmakers.silence(
-            [0, 1, 2],
-            inverted=True,
-            ),
         extra_counts=[1],
         ),
     )

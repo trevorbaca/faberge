@@ -14,12 +14,12 @@ def downbeat_attack(
         rewrite_meter=True,
         rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
-            rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.SilenceMask(
-                selector=baca.lts()[abjad.index([0], inverted=True)]
+            rmakers.SilenceMask(selector=baca.tuplets()[1:]),
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True
             ),
+            rmakers.SilenceMask(selector=baca.lts()[1:]),
             rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=[rmakers.silence([0], inverted=True)],
             talea=rmakers.Talea(counts=[count], denominator=denominator),
         ),
         tag="faberge.downbeat_attack",

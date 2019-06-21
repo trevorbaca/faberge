@@ -5,8 +5,7 @@ from abjadext import rmakers
 
 
 def keynoise_rhythm(
-    *,
-    dmask: rmakers.MasksTyping = None,
+    *specifiers: rmakers.SpecifierTyping,
     tuplet_ratios: abjad.RatioSequenceTyping = None,
     tuplet_ratio_rotation: int = None,
 ) -> baca.RhythmCommand:
@@ -32,11 +31,11 @@ def keynoise_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            *specifiers,
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
             rmakers.BeamSpecifier(beam_each_division=True),
-            division_masks=dmask,
             tuplet_ratios=tuplet_ratios_,
         ),
         tag="faberge.keynoise_rhythm",

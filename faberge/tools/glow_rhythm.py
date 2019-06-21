@@ -6,7 +6,7 @@ from abjadext import rmakers
 
 
 def glow_rhythm(
-    *,
+    *specifiers: rmakers.SpecifierTyping,
     dmask: rmakers.MasksTyping = None,
     tuplet_ratios: abjad.RatioSequenceTyping = None,
     tuplet_ratio_rotation: int = None,
@@ -25,8 +25,12 @@ def glow_rhythm(
         rewrite_meter=True,
         rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            *specifiers,
             rmakers.TupletSpecifier(
-                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+                extract_trivial=True,
+                rewrite_rest_filled=True,
+                rewrite_sustained=True,
+                trivialize=True,
             ),
             rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=(1, 2)
