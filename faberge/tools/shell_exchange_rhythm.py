@@ -139,8 +139,4 @@ def shell_exchange_rhythm(
         tag="faberge.shell_exchange_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=8),
     )
-    return baca.rhythm(
-        multimeasure_rests=True,
-        rewrite_rest_filled_divisions=True,
-        rhythm_maker=rhythm_maker,
-    )
+    return baca.rhythm(multimeasure_rests=True, rhythm_maker=rhythm_maker)

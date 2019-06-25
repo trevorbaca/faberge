@@ -29,7 +29,6 @@ def keynoise_rhythm(
         divisions=baca.divisions().fuse().quarters(),
         multimeasure_rests=True,
         rewrite_meter=True,
-        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
             rmakers.TupletSpecifier(

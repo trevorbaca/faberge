@@ -12,7 +12,6 @@ def even_tuplet_rhythm(
     assert denominator in (2, 4, 8), repr(denominator)
     return baca.rhythm(
         multimeasure_rests=True,
-        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.TupletSpecifier(
                 denominator=(1, denominator),
