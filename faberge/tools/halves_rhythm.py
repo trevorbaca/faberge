@@ -13,7 +13,6 @@ def halves_rhythm(
     return baca.rhythm(
         multimeasure_rests=True,
         rewrite_meter=True,
-        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             rmakers.TupletSpecifier(
                 denominator=(1, 4),

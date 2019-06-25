@@ -2762,7 +2762,7 @@ B_Flute_Music_Voice = {                                                        %
     \>                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [B Flute_Music_Voice measure 144 / measure 48]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \!                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -3922,7 +3922,7 @@ B_English_Horn_Music_Voice = {                                                 %
     \repeatTie
 
     % [B English_Horn_Music_Voice measure 126 / measure 30]                    %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.eh_trill_rhythm
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset:OverrideCommand(2)
 
@@ -6564,67 +6564,67 @@ B_Piano_LH_Attack_Voice = {                                                    %
     r8.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 98 / measure 2]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 99 / measure 3]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 100 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 101 / measure 5]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 102 / measure 6]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 103 / measure 7]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 104 / measure 8]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 105 / measure 9]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 106 / measure 10]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 107 / measure 11]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 108 / measure 12]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 109 / measure 13]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 110 / measure 14]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 111 / measure 15]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 112 / measure 16]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 113 / measure 17]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 114 / measure 18]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 115 / measure 19]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 116 / measure 20]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 117 / measure 21]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 118 / measure 22]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 119 / measure 23]                       %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -6650,175 +6650,175 @@ B_Piano_LH_Attack_Voice = {                                                    %
     r4..                                                                       %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 120 / measure 24]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 121 / measure 25]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 122 / measure 26]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 123 / measure 27]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 124 / measure 28]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 125 / measure 29]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 126 / measure 30]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 127 / measure 31]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 128 / measure 32]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 129 / measure 33]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 130 / measure 34]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 131 / measure 35]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 132 / measure 36]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 133 / measure 37]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 134 / measure 38]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 135 / measure 39]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 136 / measure 40]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 137 / measure 41]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 138 / measure 42]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 139 / measure 43]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 140 / measure 44]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 141 / measure 45]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 142 / measure 46]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 143 / measure 47]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 144 / measure 48]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 145 / measure 49]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 146 / measure 50]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 147 / measure 51]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 148 / measure 52]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 149 / measure 53]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 150 / measure 54]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 151 / measure 55]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 152 / measure 56]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 153 / measure 57]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 154 / measure 58]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 155 / measure 59]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 156 / measure 60]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 157 / measure 61]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 158 / measure 62]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 159 / measure 63]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 160 / measure 64]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 161 / measure 65]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 162 / measure 66]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 163 / measure 67]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 164 / measure 68]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 165 / measure 69]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 166 / measure 70]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 167 / measure 71]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 168 / measure 72]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 169 / measure 73]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 170 / measure 74]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 171 / measure 75]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 172 / measure 76]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 173 / measure 77]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 174 / measure 78]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 175 / measure 79]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [B Piano_LH_Attack_Voice measure 176 / measure 80]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
@@ -6828,7 +6828,7 @@ B_Piano_LH_Attack_Voice = {                                                    %
 
             % [B Piano_LH_Attack_Voice measure 177 / measure 81]               %! PHANTOM:_style_phantom_measures(5):_comment_measure_numbers
             \baca-invisible-music                                              %! PHANTOM:_style_phantom_measures(5):_make_multimeasure_rest_container
-            R1 * 1/4                                                           %! PHANTOM:_make_multimeasure_rest_container
+            c'1 * 1/4                                                          %! PHANTOM:_make_multimeasure_rest_container
 
         }                                                                      %! PHANTOM:_make_multimeasure_rest_container
 

@@ -1663,7 +1663,7 @@ A_Flute_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Flute_Music_Voice measure 6 / measure 2]                              %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -1687,7 +1687,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 8 / measure 4]                              %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 9 / measure 5]                              %! _comment_measure_numbers
     r4.                                                                        %! faberge.shell_exchange_rhythm
@@ -1723,7 +1723,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 11 / measure 7]                             %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 12 / measure 8]                             %! _comment_measure_numbers
     r8                                                                         %! faberge.shell_exchange_rhythm
@@ -1782,7 +1782,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 15 / measure 11]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 16 / measure 12]                            %! _comment_measure_numbers
     r8                                                                         %! faberge.shell_exchange_rhythm
@@ -1799,7 +1799,7 @@ A_Flute_Music_Voice = {                                                        %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Flute_Music_Voice measure 17 / measure 13]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 8/7 {                                                               %! faberge.shell_exchange_rhythm
@@ -1865,7 +1865,7 @@ A_Flute_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Flute_Music_Voice measure 21 / measure 17]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -1919,7 +1919,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 25 / measure 21]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 26 / measure 22]                            %! _comment_measure_numbers
     f'''8                                                                      %! faberge.shell_exchange_rhythm
@@ -1936,7 +1936,7 @@ A_Flute_Music_Voice = {                                                        %
     r8                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 27 / measure 23]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -2033,10 +2033,10 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 33 / measure 29]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 34 / measure 30]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -2127,7 +2127,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 40 / measure 36]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -2181,7 +2181,7 @@ A_Flute_Music_Voice = {                                                        %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Flute_Music_Voice measure 44 / measure 40]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -2297,7 +2297,7 @@ A_Flute_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Flute_Music_Voice measure 51 / measure 47]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -2388,7 +2388,7 @@ A_Flute_Music_Voice = {                                                        %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 56 / measure 52]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Flute_Music_Voice measure 57 / measure 53]                            %! _comment_measure_numbers
     r8                                                                         %! faberge.shell_exchange_rhythm
@@ -2412,7 +2412,7 @@ A_Flute_Music_Voice = {                                                        %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Flute_Music_Voice measure 58 / measure 54]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -2845,7 +2845,7 @@ A_English_Horn_Music_Voice = {                                                 %
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [A English_Horn_Music_Voice measure 20 / measure 16]                     %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.eh_trill_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -3025,7 +3025,7 @@ A_English_Horn_Music_Voice = {                                                 %
     \startTrillSpan                                                            %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
     % [A English_Horn_Music_Voice measure 47 / measure 43]                     %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.eh_trill_rhythm
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [A English_Horn_Music_Voice measure 48 / measure 44]                     %! _comment_measure_numbers
@@ -3042,7 +3042,7 @@ A_English_Horn_Music_Voice = {                                                 %
     dtqs''!2...                                                                %! faberge.eh_trill_rhythm
 
     % [A English_Horn_Music_Voice measure 50 / measure 46]                     %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.eh_trill_rhythm
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset:OverrideCommand(2)
 
@@ -3132,7 +3132,7 @@ A_English_Horn_Music_Voice = {                                                 %
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
     % [A English_Horn_Music_Voice measure 66 / measure 62]                     %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.eh_trill_rhythm
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -3571,10 +3571,10 @@ A_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 8 / measure 4]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 9 / measure 5]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 4/3 {                                                               %! faberge.shell_exchange_rhythm
@@ -3674,7 +3674,7 @@ A_Clarinet_Music_Voice = {                                                     %
     r8                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 16 / measure 12]                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -3847,10 +3847,10 @@ A_Clarinet_Music_Voice = {                                                     %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Clarinet_Music_Voice measure 27 / measure 23]                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 28 / measure 24]                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 29 / measure 25]                         %! _comment_measure_numbers
     g'''8                                                                      %! faberge.shell_exchange_rhythm
@@ -3876,7 +3876,7 @@ A_Clarinet_Music_Voice = {                                                     %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Clarinet_Music_Voice measure 30 / measure 26]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 8/7 {                                                               %! faberge.shell_exchange_rhythm
@@ -3942,7 +3942,7 @@ A_Clarinet_Music_Voice = {                                                     %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Clarinet_Music_Voice measure 34 / measure 30]                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -3964,7 +3964,7 @@ A_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 36 / measure 32]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 37 / measure 33]                         %! _comment_measure_numbers
     r8                                                                         %! faberge.shell_exchange_rhythm
@@ -4073,7 +4073,7 @@ A_Clarinet_Music_Voice = {                                                     %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Clarinet_Music_Voice measure 43 / measure 39]                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -5350,37 +5350,37 @@ A_Piano_LH_Attack_Voice = {                                                    %
     r8.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 6 / measure 2]                          %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 7 / measure 3]                          %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 8 / measure 4]                          %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 9 / measure 5]                          %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 10 / measure 6]                         %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 11 / measure 7]                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 12 / measure 8]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 13 / measure 9]                         %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 14 / measure 10]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 15 / measure 11]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 16 / measure 12]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 17 / measure 13]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5408,43 +5408,43 @@ A_Piano_LH_Attack_Voice = {                                                    %
     r8.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 18 / measure 14]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 19 / measure 15]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 20 / measure 16]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 21 / measure 17]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 22 / measure 18]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 23 / measure 19]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 24 / measure 20]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 25 / measure 21]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 26 / measure 22]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 27 / measure 23]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 28 / measure 24]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 29 / measure 25]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 30 / measure 26]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 31 / measure 27]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5470,43 +5470,43 @@ A_Piano_LH_Attack_Voice = {                                                    %
     r2...                                                                      %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 32 / measure 28]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 33 / measure 29]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 34 / measure 30]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 35 / measure 31]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 36 / measure 32]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 37 / measure 33]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 38 / measure 34]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 39 / measure 35]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 40 / measure 36]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 41 / measure 37]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 42 / measure 38]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 43 / measure 39]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 44 / measure 40]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 45 / measure 41]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5534,49 +5534,49 @@ A_Piano_LH_Attack_Voice = {                                                    %
     r8.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 46 / measure 42]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 47 / measure 43]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 48 / measure 44]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 49 / measure 45]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 50 / measure 46]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 51 / measure 47]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 52 / measure 48]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 53 / measure 49]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 54 / measure 50]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 55 / measure 51]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 56 / measure 52]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 57 / measure 53]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 58 / measure 54]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 59 / measure 55]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 60 / measure 56]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 61 / measure 57]                        %! _comment_measure_numbers
     \once \override Accidental.stencil = ##f
@@ -5604,97 +5604,97 @@ A_Piano_LH_Attack_Voice = {                                                    %
     r8.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 62 / measure 58]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 63 / measure 59]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 64 / measure 60]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 65 / measure 61]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 66 / measure 62]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 67 / measure 63]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 68 / measure 64]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 69 / measure 65]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 70 / measure 66]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 71 / measure 67]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 72 / measure 68]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 73 / measure 69]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 74 / measure 70]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 75 / measure 71]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 76 / measure 72]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 77 / measure 73]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 78 / measure 74]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 79 / measure 75]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 80 / measure 76]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 81 / measure 77]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 82 / measure 78]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 83 / measure 79]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 84 / measure 80]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 85 / measure 81]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 86 / measure 82]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 87 / measure 83]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 88 / measure 84]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 89 / measure 85]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 90 / measure 86]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 91 / measure 87]                        %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.piano_attack_rhythm
 
     % [A Piano_LH_Attack_Voice measure 92 / measure 88]                        %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.piano_attack_rhythm
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -5802,7 +5802,7 @@ A_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 6 / measure 2]                         %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 8/7 {                                                               %! faberge.shell_exchange_rhythm
@@ -5851,7 +5851,7 @@ A_Percussion_Music_Voice = {                                                   %
     r8                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 10 / measure 6]                        %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -5904,10 +5904,10 @@ A_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 14 / measure 10]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 15 / measure 11]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 16 / measure 12]                       %! _comment_measure_numbers
     fs'!8                                                                      %! faberge.shell_exchange_rhythm
@@ -6007,12 +6007,12 @@ A_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 22 / measure 18]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 23 / measure 19]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 8/7 {                                                               %! faberge.shell_exchange_rhythm
@@ -6083,12 +6083,12 @@ A_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Percussion_Music_Voice measure 28 / measure 24]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 29 / measure 25]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 30 / measure 26]                       %! _comment_measure_numbers
     f'8                                                                        %! faberge.shell_exchange_rhythm
@@ -6134,12 +6134,12 @@ A_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 32 / measure 28]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 33 / measure 29]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 34 / measure 30]                       %! _comment_measure_numbers
     r4.                                                                        %! faberge.shell_exchange_rhythm
@@ -6153,7 +6153,7 @@ A_Percussion_Music_Voice = {                                                   %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Percussion_Music_Voice measure 35 / measure 31]                       %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -6185,7 +6185,7 @@ A_Percussion_Music_Voice = {                                                   %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 37 / measure 33]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -6226,7 +6226,7 @@ A_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 40 / measure 36]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 41 / measure 37]                       %! _comment_measure_numbers
     fs'!8                                                                      %! faberge.shell_exchange_rhythm
@@ -6244,7 +6244,7 @@ A_Percussion_Music_Voice = {                                                   %
     r8                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 42 / measure 38]                       %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 43 / measure 39]                       %! _comment_measure_numbers
     r4                                                                         %! faberge.shell_exchange_rhythm
@@ -6395,7 +6395,7 @@ A_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 52 / measure 48]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 53 / measure 49]                       %! _comment_measure_numbers
     f'8                                                                        %! faberge.shell_exchange_rhythm
@@ -6458,7 +6458,7 @@ A_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 56 / measure 52]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 57 / measure 53]                       %! _comment_measure_numbers
     f'8                                                                        %! faberge.shell_exchange_rhythm
@@ -6486,7 +6486,7 @@ A_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 58 / measure 54]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -6564,7 +6564,7 @@ A_Percussion_Music_Voice = {                                                   %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Percussion_Music_Voice measure 62 / measure 58]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -6870,7 +6870,7 @@ A_Percussion_Music_Voice = {                                                   %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Percussion_Music_Voice measure 82 / measure 78]                       %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -7262,10 +7262,10 @@ A_Violin_Music_Voice = {                                                       %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 9 / measure 5]                             %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 10 / measure 6]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -7287,7 +7287,7 @@ A_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 12 / measure 8]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 13 / measure 9]                            %! _comment_measure_numbers
     r4.                                                                        %! faberge.shell_exchange_rhythm
@@ -7337,7 +7337,7 @@ A_Violin_Music_Voice = {                                                       %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 16 / measure 12]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -7394,7 +7394,7 @@ A_Violin_Music_Voice = {                                                       %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 20 / measure 16]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -7519,7 +7519,7 @@ A_Violin_Music_Voice = {                                                       %
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 28 / measure 24]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 29 / measure 25]                           %! _comment_measure_numbers
     r2                                                                         %! faberge.shell_exchange_rhythm
@@ -7534,7 +7534,7 @@ A_Violin_Music_Voice = {                                                       %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Violin_Music_Voice measure 30 / measure 26]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \f                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -7579,7 +7579,7 @@ A_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 33 / measure 29]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 34 / measure 30]                           %! _comment_measure_numbers
     fs'''!8                                                                    %! faberge.shell_exchange_rhythm
@@ -7594,7 +7594,7 @@ A_Violin_Music_Voice = {                                                       %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 35 / measure 31]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 36 / measure 32]                           %! _comment_measure_numbers
     r8                                                                         %! faberge.shell_exchange_rhythm
@@ -7622,7 +7622,7 @@ A_Violin_Music_Voice = {                                                       %
     \mp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 37 / measure 33]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 6/5 {                                                               %! faberge.shell_exchange_rhythm
@@ -7644,7 +7644,7 @@ A_Violin_Music_Voice = {                                                       %
     }                                                                          %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 39 / measure 35]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 40 / measure 36]                           %! _comment_measure_numbers
     r4.                                                                        %! faberge.shell_exchange_rhythm
@@ -7657,7 +7657,7 @@ A_Violin_Music_Voice = {                                                       %
     \<                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
     % [A Violin_Music_Voice measure 41 / measure 37]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
@@ -7775,7 +7775,7 @@ A_Violin_Music_Voice = {                                                       %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 47 / measure 43]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 8/7 {                                                               %! faberge.shell_exchange_rhythm
@@ -7832,7 +7832,7 @@ A_Violin_Music_Voice = {                                                       %
     \pp                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 51 / measure 47]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.shell_exchange_rhythm
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.shell_exchange_rhythm
     \times 4/3 {                                                               %! faberge.shell_exchange_rhythm
@@ -7893,7 +7893,7 @@ A_Violin_Music_Voice = {                                                       %
     \mf                                                                        %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
 
     % [A Violin_Music_Voice measure 55 / measure 51]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.shell_exchange_rhythm
 
     % [A Violin_Music_Voice measure 56 / measure 52]                           %! _comment_measure_numbers
     r8                                                                         %! faberge.shell_exchange_rhythm
@@ -8199,14 +8199,14 @@ A_Violin_Music_Voice = {                                                       %
     r4                                                                         %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 70 / measure 66]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.spazzolati_rhythm
     \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
     % [A Violin_Music_Voice measure 71 / measure 67]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 72 / measure 68]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 73 / measure 69]                           %! _comment_measure_numbers
     r16                                                                        %! faberge.spazzolati_rhythm
@@ -8578,14 +8578,14 @@ A_Violin_Music_Voice = {                                                       %
     r2                                                                         %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 88 / measure 84]                           %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.spazzolati_rhythm
     \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
     % [A Violin_Music_Voice measure 89 / measure 85]                           %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 90 / measure 86]                           %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.spazzolati_rhythm
 
     % [A Violin_Music_Voice measure 91 / measure 87]                           %! _comment_measure_numbers
     r4.                                                                        %! faberge.spazzolati_rhythm
@@ -9187,14 +9187,14 @@ A_Viola_Music_Voice = {                                                        %
     r4                                                                         %! faberge.spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 70 / measure 66]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.spazzolati_rhythm
     \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
     % [A Viola_Music_Voice measure 71 / measure 67]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 72 / measure 68]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.spazzolati_rhythm
 
     \times 2/3 {                                                               %! faberge.spazzolati_rhythm
 
@@ -9429,14 +9429,14 @@ A_Viola_Music_Voice = {                                                        %
     r2                                                                         %! faberge.spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 88 / measure 84]                            %! _comment_measure_numbers
-    R1 * 1/2                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2                                                                         %! faberge.spazzolati_rhythm
     \bacaStopTextSpanSpazzolato                                                %! SPAZZOLATO:baca.spazzolato_spanner:PiecewiseCommand(3)
 
     % [A Viola_Music_Voice measure 89 / measure 85]                            %! _comment_measure_numbers
-    R1 * 3/4                                                                   %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r2.                                                                        %! faberge.spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 90 / measure 86]                            %! _comment_measure_numbers
-    R1 * 1                                                                     %! baca.RhythmCommand._rewrite_rest_filled_divisions_
+    r1                                                                         %! faberge.spazzolati_rhythm
 
     % [A Viola_Music_Voice measure 91 / measure 87]                            %! _comment_measure_numbers
     r4                                                                         %! faberge.spazzolati_rhythm

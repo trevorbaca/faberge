@@ -15,7 +15,6 @@ def eh_trill_rhythm(
     counts = list(counts) + [-1000]
     return baca.rhythm(
         multimeasure_rests=True,
-        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
             rmakers.TupletSpecifier(

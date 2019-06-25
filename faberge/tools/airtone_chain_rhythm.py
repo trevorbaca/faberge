@@ -78,7 +78,6 @@ def airtone_chain_rhythm(
     return baca.rhythm(
         multimeasure_rests=True,
         rewrite_meter=True,
-        rewrite_rest_filled_divisions=True,
         rhythm_maker=rhythm_maker,
         tag="faberge.airtone_chain_rhythm",
     )

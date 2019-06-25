@@ -8,7 +8,6 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
     """
     return baca.rhythm(
         multimeasure_rests=True,
-        rewrite_rest_filled_divisions=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.BeamSpecifier(beam_each_division=True),
