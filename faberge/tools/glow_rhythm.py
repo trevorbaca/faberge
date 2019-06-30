@@ -24,6 +24,7 @@ def glow_rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True,
                 rewrite_rest_filled=True,
@@ -33,7 +34,6 @@ def glow_rhythm(
             rmakers.TieSpecifier(
                 tie_across_divisions=True, repeat_ties=(1, 2)
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=tuplet_ratios_,
         ),
         tag="faberge.glow_rhythm",

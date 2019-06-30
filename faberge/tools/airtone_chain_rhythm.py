@@ -69,9 +69,9 @@ def airtone_chain_rhythm(
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
 
     rhythm_maker = rmakers.TaleaRhythmMaker(
+        rmakers.BeamSpecifier(selector=baca.tuplets()),
         rmakers.TupletSpecifier(extract_trivial=True),
         rmakers.TieSpecifier(repeat_ties=True),
-        rmakers.BeamSpecifier(beam_each_division=True),
         read_talea_once_only=True,
         talea=rmakers.Talea(counts=my_counts, denominator=16),
     )

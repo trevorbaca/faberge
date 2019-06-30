@@ -11,8 +11,8 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
         divisions=None,
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 fill_with_rests=True,
                 outer_divisions_only=True,

@@ -14,6 +14,7 @@ def halves_rhythm(
         multimeasure_rests=True,
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 denominator=(1, 4),
                 extract_trivial=True,
@@ -21,7 +22,6 @@ def halves_rhythm(
                 rewrite_rest_filled=True,
                 trivialize=True,
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=tuplet_ratios,
         ),
         tag="faberge.halves_rhythm",

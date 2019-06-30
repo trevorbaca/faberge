@@ -14,11 +14,11 @@ def single_taper(
     """
     return baca.rhythm(
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.TieSpecifier(
                 attach_repeat_ties=True, selector=baca.notes()[1:]
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 outer_divisions_only=True,
                 prefix_talea=start_talea,

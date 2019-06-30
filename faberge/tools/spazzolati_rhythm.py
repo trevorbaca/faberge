@@ -33,10 +33,10 @@ def spazzolati_rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=extra_counts,
             talea=rmakers.Talea(counts=counts, denominator=denominator),
         ),

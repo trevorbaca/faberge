@@ -17,11 +17,11 @@ def eh_trill_rhythm(
         multimeasure_rests=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
             rmakers.TieSpecifier(repeat_ties=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=extra_counts,
             read_talea_once_only=True,
             talea=rmakers.Talea(counts=counts, denominator=16),
