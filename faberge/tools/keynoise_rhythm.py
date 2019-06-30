@@ -31,10 +31,10 @@ def keynoise_rhythm(
         rewrite_meter=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
-            rmakers.BeamSpecifier(beam_each_division=True),
             tuplet_ratios=tuplet_ratios_,
         ),
         tag="faberge.keynoise_rhythm",

@@ -22,8 +22,8 @@ def front_incised_divisions(
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             *specifiers,
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.BeamSpecifier(beam_each_division=True),
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_talea=prefix_talea,
                 prefix_counts=[1],

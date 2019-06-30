@@ -9,9 +9,9 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
     return baca.rhythm(
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True, force_fraction=True),
             rmakers.TieSpecifier(detach_ties=True, selector=baca.notes()),
-            rmakers.BeamSpecifier(beam_each_division=True),
             extra_counts_per_division=[1],
             incise_specifier=rmakers.InciseSpecifier(
                 prefix_counts=[2],
