@@ -28,17 +28,18 @@ def spazzolati_rhythm(
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
     return baca.rhythm(
-        divisions=baca.divisions().fuse().quarters(),
+        # TODO: replace:
         multimeasure_rests=True,
-        rewrite_meter=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
+            rmakers.RewriteMeterCommand(),
+            divisions=baca.divisions().fuse().quarters(),
             extra_counts_per_division=extra_counts,
+            tag="faberge.spazzolati_rhythm",
             talea=rmakers.Talea(counts=counts, denominator=denominator),
         ),
-        tag="faberge.spazzolati_rhythm",
     )

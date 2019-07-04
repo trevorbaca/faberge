@@ -11,6 +11,7 @@ def even_tuplet_rhythm(
     """
     assert denominator in (2, 4, 8), repr(denominator)
     return baca.rhythm(
+        # TODO: replace:
         multimeasure_rests=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
@@ -23,7 +24,7 @@ def even_tuplet_rhythm(
                 trivialize=True,
             ),
             extra_counts_per_division=extra_counts,
+            tag="faberge.even_tuplet_rhythm",
             talea=rmakers.Talea(counts=[1], denominator=denominator),
         ),
-        tag="faberge.even_tuplet_rhythm",
     )

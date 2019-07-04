@@ -20,6 +20,6 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
                 suffix_talea=[1],
                 talea_denominator=4,
             ),
+            tag="faberge.suffixed_colortrill_rhythm",
         ),
-        tag="faberge.suffixed_colortrill_rhythm",
     )

@@ -14,6 +14,7 @@ def eh_trill_rhythm(
     """
     counts = list(counts) + [-1000]
     return baca.rhythm(
+        # TODO: replace:
         multimeasure_rests=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
@@ -24,7 +25,7 @@ def eh_trill_rhythm(
             rmakers.TieSpecifier(repeat_ties=True),
             extra_counts_per_division=extra_counts,
             read_talea_once_only=True,
+            tag="faberge.eh_trill_rhythm",
             talea=rmakers.Talea(counts=counts, denominator=16),
         ),
-        tag="faberge.eh_trill_rhythm",
     )

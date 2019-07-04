@@ -19,6 +19,7 @@ def front_incised_divisions(
     ]
     prefix_talea = [-_.numerator for _ in start_rest_durations]
     return baca.rhythm(
+        # TODO: replace:
         multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             *specifiers,
@@ -29,6 +30,6 @@ def front_incised_divisions(
                 prefix_counts=[1],
                 talea_denominator=lcm,
             ),
+            tag="faberge.front_incised_divisions",
         ),
-        tag="faberge.front_incised_divisions",
     )
