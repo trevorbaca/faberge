@@ -126,7 +126,7 @@ i_Flute_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Flute_Music_Voice measure 3]                                          %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Flute_Music_Voice measure 4]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -365,7 +365,7 @@ i_Clarinet_Music_Voice = {                                                     %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Clarinet_Music_Voice measure 3]                                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Clarinet_Music_Voice measure 4]                                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -429,7 +429,7 @@ i_Piano_RH_Music_Voice = {                                                     %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Piano_RH_Music_Voice measure 3]                                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Piano_RH_Music_Voice measure 4]                                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -486,7 +486,7 @@ i_Piano_LH_Music_Voice = {                                                     %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Piano_LH_Music_Voice measure 3]                                       %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Piano_LH_Music_Voice measure 4]                                       %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -529,7 +529,7 @@ i_Piano_LH_Attack_Voice = {                                                    %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Piano_LH_Attack_Voice measure 3]                                      %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Piano_LH_Attack_Voice measure 4]                                      %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -596,7 +596,7 @@ i_Percussion_Music_Voice = {                                                   %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Music_Voice measure 3]                                     %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Percussion_Music_Voice measure 4]                                     %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -900,7 +900,7 @@ i_Cello_Music_Voice = {                                                        %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [_ Cello_Music_Voice measure 3]                                          %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [_ Cello_Music_Voice measure 4]                                          %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands

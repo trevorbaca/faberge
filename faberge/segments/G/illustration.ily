@@ -1469,7 +1469,7 @@ G_Piano_LH_Attack_Voice = {                                                    %
 
     % [G Piano_LH_Attack_Voice measure 210 / measure 1]                        %! _comment_measure_numbers
     \override MultiMeasureRest.transparent = ##t                               %! baca.mmrest_transparent:OverrideCommand(1)
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
@@ -1480,13 +1480,13 @@ G_Piano_LH_Attack_Voice = {                                                    %
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [G Piano_LH_Attack_Voice measure 213 / measure 4]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [G Piano_LH_Attack_Voice measure 214 / measure 5]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     % [G Piano_LH_Attack_Voice measure 215 / measure 6]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [G Piano_LH_Attack_Voice measure 216 / measure 7]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -1495,7 +1495,7 @@ G_Piano_LH_Attack_Voice = {                                                    %
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [G Piano_LH_Attack_Voice measure 218 / measure 9]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [G Piano_LH_Attack_Voice measure 219 / measure 10]                       %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands

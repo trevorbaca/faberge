@@ -1396,27 +1396,27 @@ I_Piano_LH_Attack_Voice = {                                                    %
 
     % [I Piano_LH_Attack_Voice measure 229 / measure 1]                        %! _comment_measure_numbers
     \override MultiMeasureRest.transparent = ##t                               %! baca.mmrest_transparent:OverrideCommand(1)
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
     % [I Piano_LH_Attack_Voice measure 230 / measure 2]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 231 / measure 3]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 232 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 233 / measure 5]                        %! _comment_measure_numbers
     R1 * 9/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 234 / measure 6]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 235 / measure 7]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [I Piano_LH_Attack_Voice measure 236 / measure 8]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands

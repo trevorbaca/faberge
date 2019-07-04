@@ -1451,25 +1451,25 @@ L_Piano_LH_Attack_Voice = {                                                    %
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
     % [L Piano_LH_Attack_Voice measure 255 / measure 2]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [L Piano_LH_Attack_Voice measure 256 / measure 3]                        %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
     % [L Piano_LH_Attack_Voice measure 257 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [L Piano_LH_Attack_Voice measure 258 / measure 5]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [L Piano_LH_Attack_Voice measure 259 / measure 6]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [L Piano_LH_Attack_Voice measure 260 / measure 7]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [L Piano_LH_Attack_Voice measure 261 / measure 8]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
     \revert MultiMeasureRest.transparent                                       %! baca.mmrest_transparent:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
