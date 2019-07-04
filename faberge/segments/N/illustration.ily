@@ -462,25 +462,25 @@ N_English_Horn_Music_Voice = {                                                 %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [N English_Horn_Music_Voice measure 271 / measure 2]                     %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 272 / measure 3]                     %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 273 / measure 4]                     %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 274 / measure 5]                     %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 275 / measure 6]                     %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 276 / measure 7]                     %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 277 / measure 8]                     %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 8/4                                                                   %! _call_rhythm_commands
 
     % [N English_Horn_Music_Voice measure 278 / measure 9]                     %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -1072,25 +1072,25 @@ N_Piano_LH_Music_Voice = {                                                     %
     \override Staff.Clef.color = #(x11-color 'OliveDrab)                       %! REAPPLIED_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
     % [N Piano_LH_Music_Voice measure 271 / measure 2]                         %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 272 / measure 3]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 273 / measure 4]                         %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 274 / measure 5]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 275 / measure 6]                         %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 276 / measure 7]                         %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 277 / measure 8]                         %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 8/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Music_Voice measure 278 / measure 9]                         %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands
@@ -1132,25 +1132,25 @@ N_Piano_LH_Attack_Voice = {                                                    %
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
     % [N Piano_LH_Attack_Voice measure 271 / measure 2]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 272 / measure 3]                        %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 273 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 274 / measure 5]                        %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 275 / measure 6]                        %! _comment_measure_numbers
-    R1 * 3/2                                                                   %! _call_rhythm_commands
+    R1 * 6/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 276 / measure 7]                        %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 277 / measure 8]                        %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 8/4                                                                   %! _call_rhythm_commands
 
     % [N Piano_LH_Attack_Voice measure 278 / measure 9]                        %! _comment_measure_numbers
     R1 * 1/4                                                                   %! _call_rhythm_commands

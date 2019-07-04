@@ -531,7 +531,7 @@ E_English_Horn_Music_Voice = {                                                 %
 %@% \override Staff.Clef.color = ##f                                           %! REAPPLIED_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
     \set Staff.forceClef = ##t                                                 %! REAPPLIED_CLEF:_set_status_tag:_treat_persistent_wrapper(2):_reapply_persistent_indicators(3)
     \once \override Staff.StaffSymbol.color = #(x11-color 'green4)             %! REAPPLIED_STAFF_LINES_COLOR:_attach_color_literal(2)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-effort-mf                                                            %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
     ^ \baca-reapplied-indicator-markup "[“Eng. hn.”]"                          %! REAPPLIED_MARGIN_MARKUP_ALERT:_attach_latent_indicator_alert
@@ -547,10 +547,10 @@ E_English_Horn_Music_Voice = {                                                 %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [E English_Horn_Music_Voice measure 197 / measure 4]                     %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E English_Horn_Music_Voice measure 198 / measure 5]                     %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E English_Horn_Music_Voice measure 199 / measure 6]                     %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
@@ -559,7 +559,7 @@ E_English_Horn_Music_Voice = {                                                 %
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     % [E English_Horn_Music_Voice measure 201 / measure 8]                     %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 8/4                                                                   %! _call_rhythm_commands
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1400,7 +1400,7 @@ E_Piano_LH_Attack_Voice = {                                                    %
 
     % [E Piano_LH_Attack_Voice measure 194 / measure 1]                        %! _comment_measure_numbers
     \override MultiMeasureRest.transparent = ##t                               %! baca.mmrest_transparent:OverrideCommand(1)
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
     - \tweak color #(x11-color 'green4)                                        %! REAPPLIED_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \sfz                                                                       %! REAPPLIED_DYNAMIC:_set_status_tag:_reapply_persistent_indicators(3)
 
@@ -1411,10 +1411,10 @@ E_Piano_LH_Attack_Voice = {                                                    %
     R1 * 1/4                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 197 / measure 4]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 198 / measure 5]                        %! _comment_measure_numbers
-    R1 * 1/1                                                                   %! _call_rhythm_commands
+    R1 * 4/4                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 199 / measure 6]                        %! _comment_measure_numbers
     R1 * 7/4                                                                   %! _call_rhythm_commands
@@ -1423,7 +1423,7 @@ E_Piano_LH_Attack_Voice = {                                                    %
     R1 * 5/4                                                                   %! _call_rhythm_commands
 
     % [E Piano_LH_Attack_Voice measure 201 / measure 8]                        %! _comment_measure_numbers
-    R1 * 2/1                                                                   %! _call_rhythm_commands
+    R1 * 8/4                                                                   %! _call_rhythm_commands
     \revert MultiMeasureRest.transparent                                       %! baca.mmrest_transparent:OverrideCommand(2)
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
