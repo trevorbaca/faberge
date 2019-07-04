@@ -14,6 +14,6 @@ def back_incised_divisions() -> baca.RhythmCommand:
             incise_specifier=rmakers.InciseSpecifier(
                 suffix_talea=[-1], suffix_counts=[1], talea_denominator=4
             ),
-        ),
-        tag="faberge.back_incised_divisions",
+            tag="faberge.back_incised_divisions",
+        )
     )

@@ -25,11 +25,12 @@ def bcl_color_fingering_rhythm(
             trivialize=True,
         ),
         extra_counts_per_division=[2],
+        tag="faberge.bcl_color_fingering_rhythm",
         talea=rmakers.Talea(counts=counts, denominator=8),
     )
 
     return baca.rhythm(
+        # TODO: replace
         multimeasure_rests=True,
         rhythm_maker=rhythm_maker,
-        tag="faberge.bcl_color_fingering_rhythm",
     )
