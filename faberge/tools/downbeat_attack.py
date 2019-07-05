@@ -10,8 +10,6 @@ def downbeat_attack(
     Makes downbeat attack.
     """
     return baca.rhythm(
-        # TODO: replace:
-        multimeasure_rests=True,
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.SilenceMask(selector=baca.tuplets()[1:]),
             rmakers.SilenceMask(selector=baca.lts()[1:]),
@@ -22,5 +20,5 @@ def downbeat_attack(
             rmakers.RewriteMeterCommand(),
             tag="faberge.downbeat_attack",
             talea=rmakers.Talea(counts=[count], denominator=denominator),
-        ),
+        )
     )

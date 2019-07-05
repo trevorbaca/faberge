@@ -8,8 +8,6 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
     Makes piano attack rhythm.
     """
     return baca.rhythm(
-        # TODO: replace:
-        multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
@@ -21,5 +19,5 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
                 talea_denominator=16,
             ),
             tag="faberge.piano_attack_rhythm",
-        ),
+        )
     )

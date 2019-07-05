@@ -29,8 +29,4 @@ def bcl_color_fingering_rhythm(
         talea=rmakers.Talea(counts=counts, denominator=8),
     )
 
-    return baca.rhythm(
-        # TODO: replace
-        multimeasure_rests=True,
-        rhythm_maker=rhythm_maker,
-    )
+    return baca.rhythm(rhythm_maker=rhythm_maker)

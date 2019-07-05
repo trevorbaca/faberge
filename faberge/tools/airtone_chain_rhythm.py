@@ -76,7 +76,6 @@ def airtone_chain_rhythm(
         talea=rmakers.Talea(counts=my_counts, denominator=16),
     )
     return baca.rhythm(
-        multimeasure_rests=True,
         rewrite_meter=True,
         rhythm_maker=rhythm_maker,
         tag="faberge.airtone_chain_rhythm",

@@ -19,8 +19,6 @@ def glow_rhythm(
     tuplet_ratios_ = abjad.sequence(tuplet_ratios)
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
     return baca.rhythm(
-        # TODO: replace:
-        multimeasure_rests=True,
         rhythm_maker=rmakers.TupletRhythmMaker(
             rmakers.TieSpecifier(
                 attach_ties=True,
@@ -39,5 +37,5 @@ def glow_rhythm(
             divisions=baca.divisions().fuse().quarters(),
             tag="faberge.glow_rhythm",
             tuplet_ratios=tuplet_ratios_,
-        ),
+        )
     )

@@ -7,8 +7,6 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
     Makes end-of-cell attack.
     """
     return baca.rhythm(
-        # TODO: replace:
-        multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
@@ -19,5 +17,5 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
                 talea_denominator=denominator,
             ),
             tag="faberge.end_of_cell_attack",
-        ),
+        )
     )
