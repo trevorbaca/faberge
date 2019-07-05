@@ -68,13 +68,14 @@ def airtone_chain_rhythm(
 
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
 
-    rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.BeamSpecifier(selector=baca.tuplets()),
-        rmakers.TupletSpecifier(extract_trivial=True),
-        rmakers.RewriteMeterCommand(),
-        rmakers.TieSpecifier(repeat_ties=True),
-        read_talea_once_only=True,
-        tag="faberge.airtone_chain_rhythm",
-        talea=rmakers.Talea(counts=my_counts, denominator=16),
+    return baca.rhythm(
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.RewriteMeterCommand(),
+            rmakers.TieSpecifier(repeat_ties=True),
+            read_talea_once_only=True,
+            tag="faberge.airtone_chain_rhythm",
+            talea=rmakers.Talea(counts=my_counts, denominator=16),
+        )
     )
-    return baca.rhythm(rhythm_maker=rhythm_maker)

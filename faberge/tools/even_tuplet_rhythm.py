@@ -10,6 +10,7 @@ def even_tuplet_rhythm(
     Makes even tuplet rhythm.
     """
     assert denominator in (2, 4, 8), repr(denominator)
+
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
