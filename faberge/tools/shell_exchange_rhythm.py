@@ -129,14 +129,15 @@ def shell_exchange_rhythm(
     extras = abjad.sequence(extras_)
     extras = extras.rotate(n=extra_counts_per_division_rotation)
 
-    rhythm_maker = rmakers.TaleaRhythmMaker(
-        rmakers.SilenceMask(selector=baca.lt(-1)),
-        rmakers.BeamSpecifier(selector=baca.tuplets()),
-        rmakers.TupletSpecifier(
-            extract_trivial=True, rewrite_rest_filled=True, trivialize=True
-        ),
-        extra_counts_per_division=extras,
-        tag="faberge.shell_exchange_rhythm",
-        talea=rmakers.Talea(counts=counts, denominator=8),
+    return baca.rhythm(
+        rhythm_maker=rmakers.TaleaRhythmMaker(
+            rmakers.SilenceMask(selector=baca.lt(-1)),
+            rmakers.BeamSpecifier(selector=baca.tuplets()),
+            rmakers.TupletSpecifier(
+                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
+            ),
+            extra_counts_per_division=extras,
+            tag="faberge.shell_exchange_rhythm",
+            talea=rmakers.Talea(counts=counts, denominator=8),
+        )
     )
-    return baca.rhythm(rhythm_maker=rhythm_maker)

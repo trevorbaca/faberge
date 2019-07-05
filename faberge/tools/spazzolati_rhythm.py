@@ -27,6 +27,7 @@ def spazzolati_rhythm(
     counts = abjad.sequence(counts_)
     counts = counts.rotate(n=counts_rotation)
     counts = counts.flatten()
+
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,

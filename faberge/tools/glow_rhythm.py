@@ -18,6 +18,7 @@ def glow_rhythm(
     tuplet_ratios = [abjad.Ratio(_) for _ in tuplet_ratios]
     tuplet_ratios_ = abjad.sequence(tuplet_ratios)
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
+
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
             rmakers.TieSpecifier(

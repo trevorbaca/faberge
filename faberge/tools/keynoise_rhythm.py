@@ -25,6 +25,7 @@ def keynoise_rhythm(
     tuplet_ratios = negated_tuplet_ratios
     tuplet_ratios_ = abjad.sequence(tuplet_ratios)
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
+
     return baca.rhythm(
         rhythm_maker=rmakers.TupletRhythmMaker(
             *specifiers,

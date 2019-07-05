@@ -13,6 +13,7 @@ def eh_trill_rhythm(
     Makes English horn trill rhythm.
     """
     counts = list(counts) + [-1000]
+
     return baca.rhythm(
         rhythm_maker=rmakers.TaleaRhythmMaker(
             *specifiers,
