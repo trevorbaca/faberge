@@ -7,7 +7,6 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
     Makes suffixed colortrill rhtyhm.
     """
     return baca.rhythm(
-        multimeasure_rests=True,
         rhythm_maker=rmakers.IncisedRhythmMaker(
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True, force_fraction=True),
@@ -21,5 +20,5 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
                 talea_denominator=4,
             ),
             tag="faberge.suffixed_colortrill_rhythm",
-        ),
+        )
     )
