@@ -115,9 +115,8 @@ maker(
 
 maker(
     ('eh', 5),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -147,17 +146,15 @@ maker(
 
 maker(
     ('eh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('eh', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -168,9 +165,8 @@ maker(
 
 maker(
     ('eh', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -291,9 +287,8 @@ maker(
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-2, 0)).extra_offset,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -381,9 +376,8 @@ maker(
             baca.clef_shift('bass'),
             ),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -446,9 +440,8 @@ maker(
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -465,9 +458,8 @@ maker(
 
 maker(
     ('perc', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 

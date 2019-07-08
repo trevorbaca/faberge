@@ -114,9 +114,8 @@ maker(
         'o< p >o niente',
         pieces=baca.lparts([1, 1 + 1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -131,9 +130,8 @@ maker(
         'o< mp >o niente',
         pieces=baca.lparts([1, 1 + 1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -155,9 +153,8 @@ maker(
         'o< mf >o niente',
         pieces=baca.lparts([1, 1 + 1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -167,9 +164,8 @@ maker(
         'o< f >o niente',
         pieces=baca.lparts([1, 1 + 1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -280,9 +276,8 @@ maker(
 
 maker(
     ('eh', 1),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -312,17 +307,15 @@ maker(
 
 maker(
     ('eh', 2),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('eh', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -333,17 +326,15 @@ maker(
 
 maker(
     ('eh', 4),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('eh', 5),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -354,9 +345,8 @@ maker(
 
 maker(
     ('eh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4. c'4. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -419,65 +409,57 @@ maker(
 
 maker(
     ('perc', 1),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 2),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 4),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 5),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('perc', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. r4 }",
-        annotate_unpitched_music=True,
         ),
     )
 

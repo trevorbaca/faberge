@@ -203,10 +203,9 @@ maker(
         ),
     baca.ottava(),
     baca.pitch("<G6 A6 B6 C7>"),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -261,10 +260,9 @@ maker(
         ),
     baca.ottava(),
     baca.pitch("<F6 G6 A6>"),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -402,10 +400,9 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.pitch('A6'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8"
         " c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -589,10 +586,9 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.pitch('F#5'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8"
         " c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 

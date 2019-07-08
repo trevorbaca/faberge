@@ -103,9 +103,8 @@ maker(
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves(),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. c'2. r2 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -130,9 +129,8 @@ maker(
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves().rleak(),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. c'2. }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -143,9 +141,8 @@ maker(
         pieces=baca.leaves().partition_by_counts([1, 1 + 1]),
         selector=baca.leaves(),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. c'2. r2 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -173,17 +170,15 @@ maker(
 
 maker(
     ('eh', 1),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'1 c'1 r1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('eh', 2),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2. c'2. r1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -213,9 +208,8 @@ maker(
 maker(
     ('eh', 4),
     baca.pitch('A#4'),
-    baca.rhythm(
+    baca.skeleton(
         r"{ \times 5/4 { c'4 c'4 c'4 c'4 } \times 5/4 { c'4 c'4 c'4 c'4 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -242,9 +236,8 @@ maker(
 maker(
     ('eh', 5),
     baca.pitch('B4'),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'4 c'4 c'4 c'4 r1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -358,9 +351,8 @@ maker(
         abjad.tweak(6).staff_padding,
         literal=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'2 c'1 }",
-        annotate_unpitched_music=True,
         ),
     baca.stem_tremolo(),
     )
@@ -382,9 +374,8 @@ maker(
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -424,10 +415,9 @@ maker(
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -438,9 +428,8 @@ maker(
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -451,19 +440,17 @@ maker(
         map=baca.clparts([4]),
         pieces=baca.lparts([1, 1, 2]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 5/6 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vn', 5),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -479,18 +466,16 @@ maker(
 
 maker(
     ('vn', 6),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vn', 7),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -502,9 +487,8 @@ maker(
         literal=True,
         ),
     baca.pitch('Dtqf5'),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -553,9 +537,8 @@ maker(
         'p niente o< p > pp niente o< p > pp p',
         pieces=baca.clparts([1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
-        annotate_unpitched_music=True,
         ),
     baca.scp_spanner(
         r'\baca-null-markup || ord. -> pont. -> ord. ||'
@@ -586,10 +569,9 @@ maker(
         'niente o< mp > pp mp niente o< mp > pp mp',
         pieces=baca.clparts([1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 5/6 { \times 2/3 { c'2 c'2 c'2 } c'2"
         r" \times 2/3 { c'2 c'2 c'2 }c'2 }",
-        annotate_unpitched_music=True,
         ),
     baca.scp_spanner(
         r'ord. -> pont. -> ord. || \baca-null-markup ||'
@@ -615,9 +597,8 @@ maker(
         'mp niente o< mf > pp niente o< mf > pp mf',
         pieces=baca.clparts([1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } \times 2/3 { c'2 c'2 c'2 } c'2 }",
-        annotate_unpitched_music=True,
         ),
     baca.scp_spanner(
         r'\baca-null-markup || ord. -> pont. -> ord. ||'
@@ -643,10 +624,9 @@ maker(
         'niente o< f > pp f f niente o< f > pp',
         pieces=baca.clparts([1]),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 5/6 { \times 2/3 {c'2 c'2 c'2 } c'2"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     baca.scp_spanner(
         r'ord. -> pont. -> ord. || \baca-null-markup ||'
@@ -660,10 +640,9 @@ maker(
 
 maker(
     ('va', 5),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -705,18 +684,16 @@ maker(
 
 maker(
     ('va', 6),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('va', 7),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 8/12 { c'2 \times 2/3 { c'2 c'2 c'2 }"
         r" c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -728,9 +705,8 @@ maker(
         literal=True,
         ),
     baca.pitch('Bqs4'),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 \times 2/3 { c'2 c'2 c'2 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -758,9 +734,8 @@ maker(
 
 maker(
     ('vc', 5),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 8/12 { c'2 c'1 c'2 c'1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -815,17 +790,15 @@ maker(
 
 maker(
     ('vc', 6),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 c'1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vc', 7),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 8/12 { c'2 c'1 c'2 c'1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -846,8 +819,7 @@ maker(
         pieces=baca.clparts([1]),
         ),
     baca.pitch('Eb2'),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 c'1 }",
-        annotate_unpitched_music=True,
         ),
     )

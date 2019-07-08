@@ -1608,9 +1608,8 @@ maker(
         right_broken=True,
         selector=baca.ltleaves().rleak(),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ r2 \times 5/4 { c'4 c'4 c'4 c'4 } }",
-        annotate_unpitched_music=True,
         ),
     baca.staff_position(0),
     )
