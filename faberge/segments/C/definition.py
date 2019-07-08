@@ -227,10 +227,9 @@ maker(
         abjad.tweak('darkgreen').color,
         abjad.tweak(5.5).staff_padding,
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }"
         r" \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 } }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -263,10 +262,9 @@ maker(
 
 maker(
     ('lh', (3, 4)),
-    baca.rhythm(
+    baca.skeleton(
         r"{ \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }"
         r" \times 4/5 { c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 } }",
-        annotate_unpitched_music=True,
         ),
     )
 

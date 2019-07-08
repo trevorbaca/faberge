@@ -796,9 +796,8 @@ maker(
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ r4 c'2 c'1 }",
-        annotate_unpitched_music=True,
         ),
     baca.staff_position(1),
     baca.stem_up(),

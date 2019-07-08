@@ -290,9 +290,8 @@ maker(
         abjad.tweak((0, 0)).X_extent,
         abjad.tweak((-1, 0)).extra_offset,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -313,17 +312,15 @@ maker(
 
 maker(
     ('rh', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -338,9 +335,8 @@ maker(
 
 maker(
     ('lh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -352,17 +348,15 @@ maker(
 
 maker(
     ('lh', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -438,10 +432,9 @@ maker(
         abjad.tweak(8).staff_padding,
         literal=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ \times 4/5 { c'4 c'4 c'4 c'4 c'4 }"
         r" \times 4/5 { c'4 c'4 c'4 c'4 c'4 } }",
-        annotate_unpitched_music=True,
         ),
     baca.staff_position(0),
     )
@@ -463,9 +456,8 @@ maker(
         'D4 Eb4 Eb4 Eb4',
         allow_repeats=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 9/5 { c'2 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         ),
     baca.scp_spanner(
         'ord. -> pont. -> ord.',
@@ -600,9 +592,8 @@ maker(
         'D4 D4 D4 Eb4',
         allow_repeats=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 9/5 { c'4 c'4 c'4 c'2 }",
-        annotate_unpitched_music=True,
         ),
     baca.scp_spanner(
         'ord. -> pont. -> ord.',
@@ -740,9 +731,8 @@ maker(
         hide_middle_stems=True,
         right_broken=True,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'1 c'1 }",
-        annotate_unpitched_music=True,
         ),
     baca.stem_tremolo(),
     baca.xfb_spanner(

@@ -200,9 +200,8 @@ maker(
 maker(
     ('eh', 5),
     baca.pitch('F#5'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4 c'4 c'4 r1 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -263,9 +262,8 @@ maker(
 maker(
     ('rh', 1),
     baca.beam(),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -292,9 +290,8 @@ maker(
 
 maker(
     ('rh', 2),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -305,9 +302,8 @@ maker(
 
 maker(
     ('rh', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 r2. }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -320,9 +316,8 @@ maker(
             ),
         ),
     baca.dynamic('f'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -337,25 +332,22 @@ maker(
 
 maker(
     ('rh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -371,9 +363,8 @@ maker(
 maker(
     ('lh', 1),
     baca.beam(),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -395,9 +386,8 @@ maker(
 
 maker(
     ('lh', 2),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -408,9 +398,8 @@ maker(
 
 maker(
     ('lh', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 r2. }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -433,9 +422,8 @@ maker(
             baca.clef_shift('treble'),
             ),
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -455,25 +443,22 @@ maker(
 
 maker(
     ('lh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -486,9 +471,8 @@ maker(
 
 maker(
     ('perc', 1),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'4 c'4 c'4 r1 }",
-        annotate_unpitched_music=True,
         ),
     baca.staff_position(0),
     )
@@ -839,9 +823,8 @@ maker(
         ),
     baca.dls_staff_padding(4),
     baca.dynamic('f'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -870,24 +853,21 @@ maker(
 
 maker(
     ('vc', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vc', 7),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vc', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )

@@ -185,9 +185,8 @@ maker(
         abjad.tweak((-1.5, 0)).extra_offset,
         abjad.tweak(0).parent_alignment_X,
         ),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         )
     )
 
@@ -281,10 +280,9 @@ maker(
     baca.ottava(),
     baca.ottava_bracket_staff_padding(5.5),
     baca.pitch("<G6 A6 B6 C7>"),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
         " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -336,10 +334,9 @@ maker(
     baca.ottava(),
     baca.ottava_bracket_staff_padding(7),
     baca.pitch("<F6 G6 A6>"),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
         " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -402,9 +399,8 @@ maker(
 
 maker(
     ('perc', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         )
     )
 
@@ -488,9 +484,8 @@ maker(
     baca.stem_tremolo(
         selector=baca.plts().filter_duration('==', (1, 4), preprolated=True),
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 9/5 { c'2 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -629,10 +624,9 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.pitch('F#5'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. [ r16 c'8 ] r8 r4 c'8 [ r8 c'8 r8"
         " c'8 ] r8 r4 c'8 [ r8 c'8 ] r8 }",
-        annotate_unpitched_music=True,
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),

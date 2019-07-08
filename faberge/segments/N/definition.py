@@ -143,13 +143,12 @@ maker(
 
 maker(
     ('fl', (5, 8)),
-    baca.rhythm("{"
+    baca.skeleton("{"
         " c'2 c'2 r4"
         " c'2 c'2 r2"
         " c'2 c'2 r2."
         " c'2 c'2 r1"
         " }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -293,10 +292,9 @@ maker(
         'MM =|',
         abjad.tweak(8).staff_padding,
         ),
-    baca.rhythm(
+    baca.skeleton(
         r"{ \times 4/5 { c'4 c'4 c'4 c'4 c'4 }"
         r" \times 4/5 { c'4 c'4 c'4 c'4 c'4} }",
-        annotate_unpitched_music=True,
         ),
     baca.staff_position(0),
     )

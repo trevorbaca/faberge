@@ -144,9 +144,8 @@ maker(
 maker(
     ('eh', 1),
     baca.pitch('G#5'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'4 c'4 c'4 r2. }",
-        annotate_unpitched_music=True,
         ),
     baca.trill_spanner(
         None,
@@ -197,9 +196,8 @@ maker(
 
 maker(
     ('rh', 1),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -234,34 +232,30 @@ maker(
 
 maker(
     ('rh', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 4),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 5),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 [ r8 c''8. r16 c''8 r8 c''8 ] r8 r4 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -276,26 +270,23 @@ maker(
 maker(
     ('rh', 8),
     baca.dynamic('pp'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
         " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 9),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 r4 r4 r4 r4 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('rh', 10),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 r4 r4 r4 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -323,9 +314,8 @@ maker(
 
 maker(
     ('lh', 1),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -360,34 +350,30 @@ maker(
 
 maker(
     ('lh', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8"
         " c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 4),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 5),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 c''8. r16 c''8 r8 c''8 r8 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 6),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 [ r8 c''8. r16 c''8 r8 c''8 ] r8 r4 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -401,26 +387,23 @@ maker(
 
 maker(
     ('lh', 8),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 [ r8 c''8. ] r16 r4 c''8 [ r8 c''8 r8"
         " c''8 ] r8 r4 c''8 [ r8 c''8. ] r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 9),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 r4 r4 r4 r4 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('lh', 10),
-    baca.rhythm(
+    baca.skeleton(
         "{ c''8 r8 r4 r4 r4 c''8. r16 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -540,9 +523,8 @@ maker(
 maker(
     ('vn', 1),
     baca.dynamic('f'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -576,10 +558,9 @@ maker(
 
 maker(
     ('vn', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8 r8 c'8. r16 c'8 r8 c'8. r16 c'8 r8"
         " c'8 r8 c'8 r8 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -611,9 +592,8 @@ maker(
 
 maker(
     ('vn', 6),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 6/5 { c'2 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -645,25 +625,22 @@ maker(
 
 maker(
     ('vn', 8),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 9/5 { c'2 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vn', 9),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 6/5 { c'2 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vn', 10),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'2 c'4 c'4 c'4 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -708,9 +685,8 @@ maker(
 
 maker(
     ('va', 8),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 9/5 { c'4 c'4 c'4 c'2 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -742,17 +718,15 @@ maker(
 
 maker(
     ('va', 9),
-    baca.rhythm(
+    baca.skeleton(
         r"\times 6/5 { c'4 c'4 c'4 c'2 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('va', 10),
-    baca.rhythm(
+    baca.skeleton(
         r"{ c'4 c'4 c'4 c'2 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -760,9 +734,8 @@ maker(
 
 maker(
     ('vc', 1),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -795,10 +768,9 @@ maker(
 
 maker(
     ('vc', 3),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 c'8 r8 c'8 r8 c'8 r8 c'8 r8"
         " c'8 r8 c'8. r16 c'8 r8 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -832,9 +804,8 @@ maker(
 maker(
     ('vc', 6),
     baca.dynamic('f'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. [ r16 c'8 r8 c'8 r8 c'8. ] r16 r4 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
@@ -858,25 +829,22 @@ maker(
 maker(
     ('vc', 8),
     baca.dynamic('pp'),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. [ r16 c'8 ] r8 r4 c'8 [ r8 c'8 r8"
         " c'8 ] r8 r4 c'8 [ r8 c'8 ] r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vc', 9),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 r4 r4 r4 r4 c'8 r8 }",
-        annotate_unpitched_music=True,
         ),
     )
 
 maker(
     ('vc', 10),
-    baca.rhythm(
+    baca.skeleton(
         "{ c'8. r16 r4 r4 r4 r4 }",
-        annotate_unpitched_music=True,
         ),
     )
