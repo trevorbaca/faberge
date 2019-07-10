@@ -24,7 +24,12 @@ def clb_rhythm(
         divisions = divisions.map(baca.sequence().sum())
 
     return baca.rhythm(
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                extra_counts_per_division=extra_counts_,
+                tag="faberge.clb_rhythm",
+                talea=rmakers.Talea(counts=[1], denominator=8),
+            ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 rewrite_dots=True,
@@ -36,8 +41,6 @@ def clb_rhythm(
                 trivialize=True,
             ),
             divisions=divisions,
-            extra_counts_per_division=extra_counts_,
             tag="faberge.clb_rhythm",
-            talea=rmakers.Talea(counts=[1], denominator=8),
         )
     )

@@ -20,7 +20,10 @@ def glow_rhythm(
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.TupletRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TupletRhythmMaker(
+                tag="faberge.glow_rhythm", tuplet_ratios=tuplet_ratios_
+            ),
             rmakers.TieSpecifier(
                 attach_ties=True,
                 selector=baca.tuplets()[:-1].map(baca.pleaf(-1)),
@@ -37,6 +40,5 @@ def glow_rhythm(
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().fuse().quarters(),
             tag="faberge.glow_rhythm",
-            tuplet_ratios=tuplet_ratios_,
         )
     )
