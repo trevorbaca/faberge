@@ -13,7 +13,12 @@ def bcl_color_fingering_rhythm(
     counts = counts.rotate(n=rotation)
 
     return baca.rhythm(
-        rhythm_maker=rmakers.TaleaRhythmMaker(
+        rmakers.RhythmCommand(
+            rmakers.TaleaRhythmMaker(
+                extra_counts_per_division=[2],
+                tag="faberge.bcl_color_fingering_rhythm",
+                talea=rmakers.Talea(counts=counts, denominator=8),
+            ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
@@ -25,8 +30,6 @@ def bcl_color_fingering_rhythm(
                 rewrite_rest_filled=True,
                 trivialize=True,
             ),
-            extra_counts_per_division=[2],
             tag="faberge.bcl_color_fingering_rhythm",
-            talea=rmakers.Talea(counts=counts, denominator=8),
         )
     )
