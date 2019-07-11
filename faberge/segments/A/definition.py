@@ -221,9 +221,7 @@ maker(
             allow_repeats=True,
             ),
         baca.untie(baca.leaf(-2)),
-        baca.tie_to(
-            selector=baca.leaf(-2),
-            ),
+        baca.tie(baca.leaf(-3)),
         ),
     faberge.bfl_color_fingerings(
         abjad.tweak(-0.5).parent_alignment_X,

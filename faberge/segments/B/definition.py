@@ -265,12 +265,17 @@ maker(
 
 maker(
     ('fl', (11, 15)),
+#    baca.chunk(
+#        ###baca.untie(baca.phead(0)),
+#        baca.tie(baca.leaf(-2)),
+#        measures=15,
+#        ###selector=baca.pleaf(-1),
+#        ),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(-1)),
+        baca.tie(baca.pleaf(-2)),
         measures=15,
-        selector=baca.pleaf(-1),
-        ),
+    ),
     baca.tuplet_bracket_staff_padding(2.5),
     )
 
@@ -339,28 +344,28 @@ maker(
 maker(
     ('fl', (17, 22)),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(3)),
+        baca.tie(baca.leaf(2)),
         measures=18,
-        selector=baca.pleaf(3),
+        ###selector=baca.pleaf(3),
         ),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(0)),
+        baca.tie(baca.lleaf(0)),
         measures=19,
-        selector=baca.pleaf(0),
+        ###selector=baca.pleaf(0),
         ),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(0)),
+        baca.tie(baca.lleaf(0)),
         measures=21,
-        selector=baca.pleaf(0),
+        ###selector=baca.pleaf(0),
         ),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(-1)),
+        baca.tie(baca.leaf(-2)),
         measures=21,
-        selector=baca.pleaf(-1),
+        ###selector=baca.pleaf(-1),
         ),
     faberge.glow_rhythm(
         rmakers.SustainMask(
@@ -469,16 +474,16 @@ maker(
 maker(
     ('fl', (27, 30)),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(-5)),
+        baca.tie(baca.pleaf(-6)),
         measures=27,
-        selector=baca.pleaf(-5),
+        ###selector=baca.pleaf(-5),
         ),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(0)),
+        baca.tie(baca.lleaf(0)),
         measures=28,
-        selector=baca.pleaf(0),
+        ###selector=baca.pleaf(0),
         ),
     faberge.glow_rhythm(
         rmakers.SustainMask(
@@ -588,10 +593,10 @@ maker(
 maker(
     ('fl', (37, 44)),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(0)),
+        baca.tie(baca.lleaf(0)),
         measures=38,
-        selector=baca.pleaf(0),
+        ###selector=baca.pleaf(0),
         ),
     baca.stem_tremolo(
         selector=baca.pleaves(),
@@ -648,10 +653,10 @@ maker(
 maker(
     ('fl', (45, 48)),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(-1)),
+        baca.tie(baca.pleaf(-2)),
         measures=47,
-        selector=baca.pleaf(-1),
+        ###selector=baca.pleaf(-1),
         ),
     faberge.glow_rhythm(
         rmakers.SustainMask(
@@ -815,10 +820,10 @@ maker(
 maker(
     ('fl', (55, 60)),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(0)),
+        baca.tie(baca.lleaf(0)),
         measures=60,
-        selector=baca.pleaf(0),
+        ###selector=baca.pleaf(0),
         ),
     faberge.glow_rhythm(
         rmakers.SustainMask(
@@ -877,10 +882,10 @@ maker(
 maker(
     ('fl', (69, 72)),
     baca.chunk(
-        baca.untie(baca.phead(0)),
-        baca.tie_to(),
+        baca.untie(baca.pleaf(0)),
+        baca.tie(baca.lleaf(0)),
         measures=71,
-        selector=baca.pleaf(0),
+        ###selector=baca.pleaf(0),
         ),
     baca.pitches(
         'G#4 G#4 G#4 G#3 G#4 G#3 G#4 G#3 G#3 G#3',

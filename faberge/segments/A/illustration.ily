@@ -2668,7 +2668,7 @@ A_Flute_Music_Voice = {                                                        %
                     1
         }
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     fs'!4                                                                      %! faberge.glow_rhythm
 
