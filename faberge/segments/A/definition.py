@@ -220,9 +220,7 @@ maker(
             'F#4 F#3',
             allow_repeats=True,
             ),
-        baca.untie_to(
-            selector=baca.leaf(-2),
-            ),
+        baca.untie(baca.leaf(-2)),
         baca.tie_to(
             selector=baca.leaf(-2),
             ),

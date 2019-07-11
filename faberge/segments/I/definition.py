@@ -858,9 +858,7 @@ maker(
         right_broken=True,
         ),
     baca.suite(
-        baca.untie_to(
-            selector=baca.pleaves(),
-            ),
+        baca.untie(baca.pleaves()),
         baca.pitches(
             'Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3',
             persist='CELLO_GLISSANDI',

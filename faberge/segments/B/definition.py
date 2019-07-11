@@ -266,7 +266,7 @@ maker(
 maker(
     ('fl', (11, 15)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=15,
         selector=baca.pleaf(-1),
@@ -339,25 +339,25 @@ maker(
 maker(
     ('fl', (17, 22)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=18,
         selector=baca.pleaf(3),
         ),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=19,
         selector=baca.pleaf(0),
         ),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=21,
         selector=baca.pleaf(0),
         ),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=21,
         selector=baca.pleaf(-1),
@@ -469,13 +469,13 @@ maker(
 maker(
     ('fl', (27, 30)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=27,
         selector=baca.pleaf(-5),
         ),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=28,
         selector=baca.pleaf(0),
@@ -588,7 +588,7 @@ maker(
 maker(
     ('fl', (37, 44)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=38,
         selector=baca.pleaf(0),
@@ -648,7 +648,7 @@ maker(
 maker(
     ('fl', (45, 48)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=47,
         selector=baca.pleaf(-1),
@@ -815,7 +815,7 @@ maker(
 maker(
     ('fl', (55, 60)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=60,
         selector=baca.pleaf(0),
@@ -877,7 +877,7 @@ maker(
 maker(
     ('fl', (69, 72)),
     baca.chunk(
-        baca.untie_to(),
+        baca.untie(baca.phead(0)),
         baca.tie_to(),
         measures=71,
         selector=baca.pleaf(0),
