@@ -450,9 +450,7 @@ maker(
         abjad.tweak(5.5).staff_padding,
         ),
     baca.suite(
-        baca.untie_to(
-            selector=baca.pleaves(),
-            ),
+        baca.untie(baca.leaves()),
         baca.pitches(
             'Bb4 G3 D5 C4 Fqs5 E4 Aqf5 C3',
             persist='CELLO_GLISSANDI',
