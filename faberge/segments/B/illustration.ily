@@ -1820,7 +1820,7 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -1916,7 +1916,7 @@ B_Flute_Music_Voice = {                                                        %
                     2
         }
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     g''2                                                                       %! faberge.glow_rhythm
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
@@ -1958,7 +1958,7 @@ B_Flute_Music_Voice = {                                                        %
         g''16                                                                  %! faberge.glow_rhythm
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2023,7 +2023,7 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     % [B Flute_Music_Voice measure 117 / measure 21]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge.glow_rhythm
@@ -2075,7 +2075,7 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2219,7 +2219,7 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2263,7 +2263,7 @@ B_Flute_Music_Voice = {                                                        %
                         1
             }
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge.glow_rhythm
@@ -2514,7 +2514,7 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2751,7 +2751,7 @@ B_Flute_Music_Voice = {                                                        %
                     1
         }
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    ~                                                                          %! TieCorrectionCommand
+    ~                                                                          %! baca.tie:IndicatorCommand
 
     g'2                                                                        %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -3098,7 +3098,7 @@ B_Flute_Music_Voice = {                                                        %
                         2
             }
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -3213,7 +3213,7 @@ B_Flute_Music_Voice = {                                                        %
 
         gs''!16                                                                %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! TieCorrectionCommand
+        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
