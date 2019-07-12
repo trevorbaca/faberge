@@ -564,10 +564,10 @@ J_English_Horn_Music_Voice = {                                                 %
     % [J English_Horn_Music_Voice measure 238 / measure 2]                     %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [J English_Horn_Music_Voice measure 239 / measure 3]                 %! _comment_measure_numbers
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1.5 . 0)                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -582,47 +582,47 @@ J_English_Horn_Music_Voice = {                                                 %
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        e'''4
+        e'''4                                                                  %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [J English_Horn_Music_Voice measure 240 / measure 4]                     %! _comment_measure_numbers
     e'''4                                                                      %! faberge.downbeat_attack
@@ -1079,7 +1079,7 @@ J_Piano_RH_Music_Voice = {                                                     %
     % [J Piano_RH_Music_Voice measure 238 / measure 2]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [J Piano_RH_Music_Voice measure 239 / measure 3]                     %! _comment_measure_numbers
         \ottava 1                                                              %! baca.ottava:SpannerIndicatorCommand(1)
@@ -1103,46 +1103,46 @@ J_Piano_RH_Music_Voice = {                                                     %
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca.accent:IndicatorCommand
         ]
 
-        r16
+        r16                                                                    %! baca.skeleton
 
-        r4
+        r4                                                                     %! baca.skeleton
 
         <g''' a''' b''' c''''>8
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g''' a''' b''' c''''>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g''' a''' b''' c''''>8
         ]
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        r4
+        r4                                                                     %! baca.skeleton
 
         <g''' a''' b''' c''''>8
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g''' a''' b''' c''''>8.
         - \accent                                                              %! baca.accent:IndicatorCommand
         ]
         \ottava 0                                                              %! baca.ottava:SpannerIndicatorCommand(2)
 
-        r16
+        r16                                                                    %! baca.skeleton
         \revert Staff.OttavaBracket.staff-padding                              %! baca.ottava_bracket_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [J Piano_RH_Music_Voice measure 240 / measure 4]                         %! _comment_measure_numbers
     r1                                                                         %! faberge.end_of_cell_attack
@@ -1275,7 +1275,7 @@ J_Piano_LH_Music_Voice = {                                                     %
     % [J Piano_LH_Music_Voice measure 238 / measure 2]                         %! _comment_measure_numbers
     R1 * 3/4                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [J Piano_LH_Music_Voice measure 239 / measure 3]                     %! _comment_measure_numbers
         \ottava 1                                                              %! baca.ottava:SpannerIndicatorCommand(1)
@@ -1284,41 +1284,41 @@ J_Piano_LH_Music_Voice = {                                                     %
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca.accent:IndicatorCommand
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         ]
 
-        r16
+        r16                                                                    %! baca.skeleton
 
-        r4
+        r4                                                                     %! baca.skeleton
 
         <f''' g''' a'''>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <f''' g''' a'''>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <f''' g''' a'''>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         ]
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        r4
+        r4                                                                     %! baca.skeleton
 
         <f''' g''' a'''>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <f''' g''' a'''>8.
         - \accent                                                              %! baca.accent:IndicatorCommand
@@ -1326,10 +1326,10 @@ J_Piano_LH_Music_Voice = {                                                     %
         ]
         \ottava 0                                                              %! baca.ottava:SpannerIndicatorCommand(2)
 
-        r16
+        r16                                                                    %! baca.skeleton
         \revert Staff.OttavaBracket.staff-padding                              %! baca.ottava_bracket_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -1504,11 +1504,11 @@ J_Percussion_Music_Voice = {                                                   %
 
     r2                                                                         %! faberge.downbeat_attack
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [J Percussion_Music_Voice measure 239 / measure 3]                   %! _comment_measure_numbers
         \override Stem.direction = #up                                         %! baca.stem_up:OverrideCommand(1)
-        d'4
+        d'4                                                                    %! baca.skeleton
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1.5 . 0)                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1528,55 +1528,55 @@ J_Percussion_Music_Voice = {                                                   %
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         - \tweak staff-padding #7                                              %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [J Percussion_Music_Voice measure 240 / measure 4]                       %! _comment_measure_numbers
     d'4                                                                        %! faberge.downbeat_attack
@@ -1771,11 +1771,11 @@ J_Violin_Music_Voice = {                                                       %
     e'16                                                                       %! faberge.spazzolati_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5 {
+    \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton
+    \times 9/5 {                                                               %! baca.skeleton
 
         % [J Violin_Music_Voice measure 239 / measure 3]                       %! _comment_measure_numbers
-        as'!2
+        as'!2                                                                  %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca.quadruple_staccato:IndicatorCommand
@@ -1788,7 +1788,7 @@ J_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
 
-        as'!4
+        as'!4                                                                  %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1800,7 +1800,7 @@ J_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
-        as'!4
+        as'!4                                                                  %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1815,13 +1815,13 @@ J_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
-        as'!4
+        as'!4                                                                  %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2234,11 +2234,11 @@ J_Cello_Music_Voice = {                                                        %
     \p                                                                         %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [J Cello_Music_Voice measure 239 / measure 3]                        %! _comment_measure_numbers
         \override DynamicLineSpanner.staff-padding = #6                        %! baca.dls_staff_padding:OverrideCommand(1)
-        fs''!8.
+        fs''!8.                                                                %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2255,48 +2255,48 @@ J_Cello_Music_Voice = {                                                        %
         - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
 
-        r16
+        r16                                                                    %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         ]
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         ]
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        r4
+        r4                                                                     %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         [
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-        fs''!8
+        fs''!8                                                                 %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         ]
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! _make_multimeasure_rest_container
 

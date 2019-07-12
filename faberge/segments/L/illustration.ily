@@ -399,10 +399,10 @@ L_English_Horn_Music_Voice = {                                                 %
     % [L English_Horn_Music_Voice measure 257 / measure 4]                     %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L English_Horn_Music_Voice measure 258 / measure 5]                 %! _comment_measure_numbers
-        es''!4.
+        es''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -414,7 +414,7 @@ L_English_Horn_Music_Voice = {                                                 %
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        es''!4.
+        es''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -422,24 +422,24 @@ L_English_Horn_Music_Voice = {                                                 %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L English_Horn_Music_Voice measure 259 / measure 6]                 %! _comment_measure_numbers
-        es''!4.
+        es''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        es''!4.
+        es''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -447,24 +447,24 @@ L_English_Horn_Music_Voice = {                                                 %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L English_Horn_Music_Voice measure 260 / measure 7]                 %! _comment_measure_numbers
-        fs''!4.
+        fs''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        fs''!4.
+        fs''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -472,24 +472,24 @@ L_English_Horn_Music_Voice = {                                                 %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L English_Horn_Music_Voice measure 261 / measure 8]                 %! _comment_measure_numbers
-        fs''!4.
+        fs''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \<                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        fs''!4.
+        fs''!4.                                                                %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \mf                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -497,13 +497,13 @@ L_English_Horn_Music_Voice = {                                                 %
         - \tweak circled-tip ##t                                               %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \>                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1111,7 +1111,7 @@ L_Piano_RH_Music_Voice = {                                                     %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L Piano_RH_Music_Voice measure 256 / measure 3]                     %! _comment_measure_numbers
         \once \override Staff.Clef.X-extent = ##f                              %! -PARTS:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
@@ -1136,40 +1136,40 @@ L_Piano_RH_Music_Voice = {                                                     %
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [L Piano_RH_Music_Voice measure 257 / measure 4]                         %! _comment_measure_numbers
     <g a c'>8
@@ -1336,7 +1336,7 @@ L_Piano_LH_Music_Voice = {                                                     %
     % [L Piano_LH_Music_Voice measure 255 / measure 2]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L Piano_LH_Music_Voice measure 256 / measure 3]                     %! _comment_measure_numbers
         \once \override Staff.Clef.X-extent = ##f                              %! -PARTS:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
@@ -1349,33 +1349,33 @@ L_Piano_LH_Music_Voice = {                                                     %
         [                                                                      %! baca.beam:SpannerIndicatorCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [L Piano_LH_Music_Voice measure 257 / measure 4]                         %! _comment_measure_numbers
     <g a b c'>8
@@ -1595,11 +1595,11 @@ L_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L Percussion_Music_Voice measure 260 / measure 7]                   %! _comment_measure_numbers
         \override DynamicLineSpanner.staff-padding = #6                        %! baca.dls_staff_padding:OverrideCommand(1)
-        c'2.
+        c'2.                                                                   %! baca.skeleton
         - \tweak X-extent #'(0 . 0)                                            %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         - \tweak extra-offset #'(-1 . 0)                                       %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -1610,23 +1610,23 @@ L_Percussion_Music_Voice = {                                                   %
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [L Percussion_Music_Voice measure 261 / measure 8]                   %! _comment_measure_numbers
-        c'2.
+        c'2.                                                                   %! baca.skeleton
         - \tweak bound-details.right.padding #2                                %! baca.trill_spanner:SpannerIndicatorCommand(1)
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
-        r4
+        r4                                                                     %! baca.skeleton
         \stopTrillSpan                                                         %! baca.trill_spanner:SpannerIndicatorCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

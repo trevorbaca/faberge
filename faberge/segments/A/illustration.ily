@@ -6967,14 +6967,14 @@ A_Percussion_Music_Voice = {                                                   %
     % [A Percussion_Music_Voice measure 88 / measure 84]                       %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [A Percussion_Music_Voice measure 89 / measure 85]                   %! _comment_measure_numbers
         \override DynamicLineSpanner.staff-padding = #3.5                      %! baca.dls_staff_padding:OverrideCommand(1)
-        r4
+        r4                                                                     %! baca.skeleton
 
         \override Stem.direction = #up                                         %! baca.stem_up:OverrideCommand(1)
-        c''2
+        c''2                                                                   %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \ff                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
         - \tweak staff-padding #8                                              %! baca.markup:IndicatorCommand
@@ -6983,11 +6983,11 @@ A_Percussion_Music_Voice = {                                                   %
         \startTrillSpan                                                        %! baca.trill_spanner:SpannerIndicatorCommand(1)
 
         % [A Percussion_Music_Voice measure 90 / measure 86]                   %! _comment_measure_numbers
-        c''1
+        c''1                                                                   %! baca.skeleton
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
         \revert Stem.direction                                                 %! baca.stem_up:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     % [A Percussion_Music_Voice measure 91 / measure 87]                       %! _comment_measure_numbers
     \override DynamicLineSpanner.staff-padding = #6                            %! baca.dls_staff_padding:OverrideCommand(1)
