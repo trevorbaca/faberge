@@ -226,7 +226,7 @@ O_Flute_Music_Voice = {                                                        %
     % [O Flute_Music_Voice measure 283 / measure 5]                            %! _comment_measure_numbers
     b'4                                                                        %! faberge.downbeat_attack
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie                                                                 %! baca.repeat_tie:IndicatorCommand
 
     r1..                                                                       %! faberge.downbeat_attack
 
@@ -348,7 +348,7 @@ O_English_Horn_Music_Voice = {                                                 %
     % [O English_Horn_Music_Voice measure 283 / measure 5]                     %! _comment_measure_numbers
     b'4                                                                        %! faberge.downbeat_attack
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie                                                                 %! baca.repeat_tie:IndicatorCommand
 
     r1..                                                                       %! faberge.downbeat_attack
 
@@ -564,7 +564,7 @@ O_Piano_RH_Music_Voice = {                                                     %
     % [O Piano_RH_Music_Voice measure 283 / measure 5]                         %! _comment_measure_numbers
     d4                                                                         %! faberge.downbeat_attack
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie                                                                 %! TieCorrectionCommand
+    \repeatTie                                                                 %! baca.repeat_tie:IndicatorCommand
 
     r1..                                                                       %! faberge.downbeat_attack
 
