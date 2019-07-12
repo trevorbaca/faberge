@@ -1052,7 +1052,7 @@ E_Piano_RH_Music_Voice = {                                                     %
     \revert TupletBracket.transparent                                          %! baca.tuplet_bracket_transparent:OverrideCommand(2)
     \revert TupletNumber.transparent                                           %! baca.tuplet_number_transparent:OverrideCommand(2)
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Piano_RH_Music_Voice measure 199 / measure 6]                     %! _comment_measure_numbers
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
@@ -1080,116 +1080,116 @@ E_Piano_RH_Music_Voice = {                                                     %
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)                %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Piano_RH_Music_Voice measure 200 / measure 7]                     %! _comment_measure_numbers
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Piano_RH_Music_Voice measure 201 / measure 8]                     %! _comment_measure_numbers
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a c'>8
         ^ \baca-sharp-markup                                                   %! baca.markup:IndicatorCommand
         ]                                                                      %! baca.beam:SpannerIndicatorCommand(2)
 
-        r8
+        r8                                                                     %! baca.skeleton
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1270,102 +1270,102 @@ E_Piano_LH_Music_Voice = {                                                     %
     % [E Piano_LH_Music_Voice measure 198 / measure 5]                         %! _comment_measure_numbers
     R1 * 1                                                                     %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Piano_LH_Music_Voice measure 199 / measure 6]                     %! _comment_measure_numbers
         <g a b c'>8
         [                                                                      %! baca.beam:SpannerIndicatorCommand(1)
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Piano_LH_Music_Voice measure 200 / measure 7]                     %! _comment_measure_numbers
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Piano_LH_Music_Voice measure 201 / measure 8]                     %! _comment_measure_numbers
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
 
-        r8
+        r8                                                                     %! baca.skeleton
 
         <g a b c'>8
         ]                                                                      %! baca.beam:SpannerIndicatorCommand(2)
 
-        r8
+        r8                                                                     %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1597,13 +1597,13 @@ E_Percussion_Music_Voice = {                                                   %
     \stopTrillSpan                                                             %! baca.trill_spanner:SpannerIndicatorCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
-    {
+    {                                                                          %! baca.skeleton
 
-        \times 4/5 {
+        \times 4/5 {                                                           %! baca.skeleton
 
             % [E Percussion_Music_Voice measure 201 / measure 8]               %! _comment_measure_numbers
             \override DynamicLineSpanner.staff-padding = #8                    %! baca.dls_staff_padding:OverrideCommand(1)
-            c'4
+            c'4                                                                %! baca.skeleton
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \baca-f-ancora                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
             - \tweak parent-alignment-X #0                                     %! baca.markup:IndicatorCommand
@@ -1611,32 +1611,32 @@ E_Percussion_Music_Voice = {                                                   %
             ^ \baca-woodblock-markup                                           %! baca.markup:IndicatorCommand
             \bacaStopTextSpanMA                                                %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(3)
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-        }
+        }                                                                      %! baca.skeleton
 
-        \times 4/5 {
+        \times 4/5 {                                                           %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
@@ -1718,11 +1718,11 @@ E_Violin_Music_Voice = {                                                       %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5 {
+    \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton
+    \times 9/5 {                                                               %! baca.skeleton
 
         % [E Violin_Music_Voice measure 195 / measure 2]                       %! _comment_measure_numbers
-        d'2
+        d'2                                                                    %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         - \baca-staccati #4                                                    %! baca.quadruple_staccato:IndicatorCommand
@@ -1733,7 +1733,7 @@ E_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #8                                              %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanMA                                                   %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1)
 
-        ef'!4
+        ef'!4                                                                  %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1745,7 +1745,7 @@ E_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
-        ef'!4
+        ef'!4                                                                  %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1760,14 +1760,14 @@ E_Violin_Music_Voice = {                                                       %
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
-        ef'!4
+        ef'!4                                                                  %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(2)
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2042,11 +2042,11 @@ E_Viola_Music_Voice = {                                                        %
 
     >>                                                                         %! _make_multimeasure_rest_container
 
-    \tweak text #tuplet-number::calc-fraction-text
-    \times 9/5 {
+    \tweak text #tuplet-number::calc-fraction-text                             %! baca.skeleton
+    \times 9/5 {                                                               %! baca.skeleton
 
         % [E Viola_Music_Voice measure 195 / measure 2]                        %! _comment_measure_numbers
-        d'4
+        d'4                                                                    %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \!                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2064,7 +2064,7 @@ E_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2079,19 +2079,19 @@ E_Viola_Music_Voice = {                                                        %
         - \tweak staff-padding #5.5                                            %! SCP:baca.scp_spanner:PiecewiseCommand(1)
         \bacaStartTextSpanSCP                                                  %! SCP:baca.scp_spanner:PiecewiseCommand(1)
 
-        d'4
+        d'4                                                                    %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \pp                                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
         \bacaStopTextSpanSCP                                                   %! SCP:baca.scp_spanner:PiecewiseCommand(2)
 
-        ef'!2
+        ef'!2                                                                  %! baca.skeleton
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(2)
         - \baca-staccati #4                                                    %! baca.quadruple_staccato:IndicatorCommand
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! _make_multimeasure_rest_container
 
@@ -2531,7 +2531,7 @@ E_Cello_Music_Voice = {                                                        %
     \revert Beam.positions                                                     %! baca.beam_positions:OverrideCommand(2)
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [E Cello_Music_Voice measure 201 / measure 8]                        %! _comment_measure_numbers
         \override Staff.BarLine.bar-extent = #'(-2 . 2)                        %! EXPLICIT_PERSISTENT_OVERRIDE:_set_status_tag:-PARTS:IndicatorCommand
@@ -2546,7 +2546,7 @@ E_Cello_Music_Voice = {                                                        %
         \once \override Staff.Clef.color = #(x11-color 'blue)                  %! EXPLICIT_CLEF_COLOR:_attach_color_literal(2)
     %@% \override Staff.Clef.color = ##f                                       %! EXPLICIT_CLEF_COLOR_CANCELLATION:_attach_color_literal(1)
         \set Staff.forceClef = ##t                                             %! EXPLICIT_CLEF:_set_status_tag:_treat_persistent_wrapper(2):baca.clef:IndicatorCommand
-        b,1
+        b,1                                                                    %! baca.skeleton
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
         - \tweak color #(x11-color 'blue)                                      %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
         \p                                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
@@ -2572,10 +2572,10 @@ E_Cello_Music_Voice = {                                                        %
         \undo \hide NoteHead                                                   %! HIDE_TO_JOIN_BROKEN_SPANNERS
         \revert Dots.transparent                                               %! HIDE_TO_JOIN_BROKEN_SPANNERS
         \revert Stem.transparent                                               %! HIDE_TO_JOIN_BROKEN_SPANNERS
-        b,1
+        b,1                                                                    %! baca.skeleton
         \revert DynamicLineSpanner.staff-padding                               %! baca.dls_staff_padding:OverrideCommand(2)
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 

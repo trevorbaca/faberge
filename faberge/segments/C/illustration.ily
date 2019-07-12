@@ -664,9 +664,9 @@ C_Piano_RH_Music_Voice = {                                                     %
     % [C Piano_RH_Music_Voice measure 178 / measure 2]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
-        \times 4/5 {
+        \times 4/5 {                                                           %! baca.skeleton
 
             % [C Piano_RH_Music_Voice measure 179 / measure 3]                 %! _comment_measure_numbers
             \once \override Staff.Clef.X-extent = ##f                          %! -PARTS:SHIFTED_CLEF:baca.clef_shift:OverrideCommand(1)
@@ -688,60 +688,60 @@ C_Piano_RH_Music_Voice = {                                                     %
             [                                                                  %! baca.beam:SpannerIndicatorCommand(1)
             \override Staff.Clef.color = #(x11-color 'DeepSkyBlue2)            %! EXPLICIT_CLEF_REDRAW_COLOR:_attach_color_literal(2)
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
-        }
+        }                                                                      %! baca.skeleton
 
-        \times 4/5 {
-
-            <g a c'>8
-            ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
-
-            r8
+        \times 4/5 {                                                           %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a c'>8
             ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-            r8
+            r8                                                                 %! baca.skeleton
 
-        }
+            <g a c'>8
+            ^ \baca-sharp-markup                                               %! baca.markup:IndicatorCommand
 
-    }
+            r8                                                                 %! baca.skeleton
+
+        }                                                                      %! baca.skeleton
+
+    }                                                                          %! baca.skeleton
 
     % [C Piano_RH_Music_Voice measure 181 / measure 5]                         %! _comment_measure_numbers
     <g a c'>8
@@ -850,59 +850,59 @@ C_Piano_LH_Music_Voice = {                                                     %
     % [C Piano_LH_Music_Voice measure 178 / measure 2]                         %! _comment_measure_numbers
     R1 * 5/4                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
-        \times 4/5 {
+        \times 4/5 {                                                           %! baca.skeleton
 
             % [C Piano_LH_Music_Voice measure 179 / measure 3]                 %! _comment_measure_numbers
             <g a b c'>8
             [                                                                  %! baca.beam:SpannerIndicatorCommand(1)
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
-        }
+        }                                                                      %! baca.skeleton
 
-        \times 4/5 {
-
-            <g a b c'>8
-
-            r8
+        \times 4/5 {                                                           %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
             <g a b c'>8
 
-            r8
+            r8                                                                 %! baca.skeleton
 
-        }
+            <g a b c'>8
 
-    }
+            r8                                                                 %! baca.skeleton
+
+        }                                                                      %! baca.skeleton
+
+    }                                                                          %! baca.skeleton
 
     % [C Piano_LH_Music_Voice measure 181 / measure 5]                         %! _comment_measure_numbers
     <g a b c'>8

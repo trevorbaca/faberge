@@ -7315,16 +7315,16 @@ B_Percussion_Music_Voice = {                                                   %
     % [B Percussion_Music_Voice measure 174 / measure 78]                      %! _comment_measure_numbers
     R1 * 1/2                                                                   %! _make_measure_silences
 
-    {
+    {                                                                          %! baca.skeleton
 
         % [B Percussion_Music_Voice measure 175 / measure 79]                  %! _comment_measure_numbers
         \override DynamicLineSpanner.staff-padding = #9                        %! baca.dls_staff_padding:OverrideCommand(1)
-        r2
+        r2                                                                     %! baca.skeleton
 
-        \tweak text #tuplet-number::calc-fraction-text
-        \times 5/4 {
+        \tweak text #tuplet-number::calc-fraction-text                         %! baca.skeleton
+        \times 5/4 {                                                           %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
             - \tweak color #(x11-color 'blue)                                  %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
             \f                                                                 %! EXPLICIT_DYNAMIC:_set_status_tag:baca.dynamic:IndicatorCommand
             - \tweak staff-padding #8                                          %! baca.markup:IndicatorCommand
@@ -7335,17 +7335,17 @@ B_Percussion_Music_Voice = {                                                   %
             - \tweak staff-padding #8                                          %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):right_broken
             \bacaStartTextSpanMA                                               %! MATERIAL:baca.material_annotation_spanner:PiecewiseCommand(1):right_broken
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
 
-            c'4
+            c'4                                                                %! baca.skeleton
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
             \revert DynamicLineSpanner.staff-padding                           %! baca.dls_staff_padding:OverrideCommand(2)
 
-        }
+        }                                                                      %! baca.skeleton
 
-    }
+    }                                                                          %! baca.skeleton
 
     <<                                                                         %! PHANTOM:_make_multimeasure_rest_container
 
