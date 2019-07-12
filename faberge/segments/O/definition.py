@@ -108,7 +108,7 @@ maker(
 
 maker(
     (['fl', 'eh', 'rh'], 5),
-    baca.repeat_tie_to(),
+    baca.repeat_tie(baca.pleaf(0)),
     faberge.downbeat_attack()
     )
 
