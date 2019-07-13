@@ -26,12 +26,11 @@ def front_incised_divisions(
                     prefix_talea=prefix_talea,
                     prefix_counts=[1],
                     talea_denominator=lcm,
-                ),
-                tag="faberge.front_incised_divisions",
+                )
             ),
             *specifiers,
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            tag="faberge.front_incised_divisions",
-        )
+        ),
+        tag="faberge.front_incised_divisions",
     )

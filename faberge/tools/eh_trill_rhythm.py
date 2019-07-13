@@ -19,7 +19,6 @@ def eh_trill_rhythm(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts,
                 read_talea_once_only=True,
-                tag="faberge.eh_trill_rhythm",
                 talea=rmakers.Talea(counts=counts, denominator=16),
             ),
             *specifiers,
@@ -28,6 +27,6 @@ def eh_trill_rhythm(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
             rmakers.TieSpecifier(repeat_ties=True),
-            tag="faberge.eh_trill_rhythm",
-        )
+        ),
+        tag="faberge.eh_trill_rhythm",
     )

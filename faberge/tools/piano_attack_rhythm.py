@@ -16,11 +16,10 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
                     prefix_talea=[1],
                     prefix_counts=[1],
                     talea_denominator=16,
-                ),
-                tag="faberge.piano_attack_rhythm",
+                )
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
-            tag="faberge.piano_attack_rhythm",
-        )
+        ),
+        tag="faberge.piano_attack_rhythm",
     )

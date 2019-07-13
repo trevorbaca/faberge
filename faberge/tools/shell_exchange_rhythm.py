@@ -133,7 +133,6 @@ def shell_exchange_rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extras,
-                tag="faberge.shell_exchange_rhythm",
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             rmakers.SilenceMask(selector=baca.lt(-1)),
@@ -141,6 +140,6 @@ def shell_exchange_rhythm(
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
-            tag="faberge.shell_exchange_rhythm",
-        )
+        ),
+        tag="faberge.shell_exchange_rhythm",
     )

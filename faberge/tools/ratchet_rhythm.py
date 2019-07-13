@@ -21,8 +21,7 @@ def ratchet_rhythm() -> baca.RhythmCommand:
                         stop_duration=(3, 8),
                         written_duration=(1, 16),
                     ),
-                ],
-                tag="faberge.ratchet_rhythm",
+                ]
             ),
             rmakers.TupletSpecifier(duration_bracket=True),
             rmakers.BeamSpecifier(
@@ -31,6 +30,6 @@ def ratchet_rhythm() -> baca.RhythmCommand:
                 stemlet_length=0.75,
                 use_feather_beams=True,
             ),
-            tag="faberge.ratchet_rhythm",
-        )
+        ),
+        tag="faberge.ratchet_rhythm",
     )
