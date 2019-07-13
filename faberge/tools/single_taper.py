@@ -22,14 +22,13 @@ def single_taper(
                     suffix_talea=stop_talea,
                     suffix_counts=[len(stop_talea)],
                     talea_denominator=denominator,
-                ),
-                tag="faberge.single_taper",
+                )
             ),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(extract_trivial=True),
             rmakers.TieSpecifier(
                 attach_repeat_ties=True, selector=baca.notes()[1:]
             ),
-            tag="faberge.single_taper",
-        )
+        ),
+        tag="faberge.single_taper",
     )

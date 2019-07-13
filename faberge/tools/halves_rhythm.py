@@ -12,9 +12,7 @@ def halves_rhythm(
     """
     return baca.rhythm(
         rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(
-                tag="faberge.halves_rhythm", tuplet_ratios=tuplet_ratios
-            ),
+            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 denominator=(1, 4),
@@ -24,6 +22,6 @@ def halves_rhythm(
                 trivialize=True,
             ),
             rmakers.RewriteMeterCommand(),
-            tag="faberge.halves_rhythm",
-        )
+        ),
+        tag="faberge.halves_rhythm",
     )

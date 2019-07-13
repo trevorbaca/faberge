@@ -32,7 +32,6 @@ def spazzolati_rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
                 extra_counts_per_division=extra_counts,
-                tag="faberge.spazzolati_rhythm",
                 talea=rmakers.Talea(counts=counts, denominator=denominator),
             ),
             *specifiers,
@@ -42,6 +41,6 @@ def spazzolati_rhythm(
             ),
             rmakers.RewriteMeterCommand(),
             divisions=baca.divisions().fuse().quarters(),
-            tag="faberge.spazzolati_rhythm",
-        )
+        ),
+        tag="faberge.spazzolati_rhythm",
     )

@@ -12,8 +12,7 @@ def downbeat_attack(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                tag="faberge.downbeat_attack",
-                talea=rmakers.Talea(counts=[count], denominator=denominator),
+                talea=rmakers.Talea(counts=[count], denominator=denominator)
             ),
             rmakers.SilenceMask(selector=baca.tuplets()[1:]),
             rmakers.SilenceMask(selector=baca.lts()[1:]),
@@ -22,6 +21,6 @@ def downbeat_attack(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
             rmakers.RewriteMeterCommand(),
-            tag="faberge.downbeat_attack",
-        )
+        ),
+        tag="faberge.downbeat_attack",
     )
