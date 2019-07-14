@@ -229,7 +229,7 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.SustainMask(
-            selector=baca.tuplets()[abjad.index([6, 7], 18, inverted=True)],
+            baca.tuplets()[abjad.index([6, 7], 18, inverted=True)],
         ),
         rmakers.TieSpecifier(
             attach_ties=True,
@@ -354,7 +354,7 @@ maker(
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=0),
     faberge.keynoise_rhythm(
-        rmakers.SilenceMask(selector=baca.tuplets()[abjad.index([0, 4], 9)]),
+        rmakers.SilenceMask(baca.tuplets()[abjad.index([0, 4], 9)]),
         tuplet_ratio_rotation=0,
         ),
     )
@@ -960,7 +960,7 @@ maker(
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         rmakers.SilenceMask(
-            selector=baca.tuplets()[abjad.index(
+            baca.tuplets()[abjad.index(
             [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1],
             inverted=True,
             )]
@@ -1018,7 +1018,7 @@ maker(
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         rmakers.SilenceMask(
-            selector=baca.tuplets()[abjad.index(
+            baca.tuplets()[abjad.index(
             [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1],
             inverted=True,
             )]
@@ -1145,7 +1145,7 @@ maker(
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         rmakers.SilenceMask(
-            selector=baca.tuplets()[abjad.index(
+            baca.tuplets()[abjad.index(
             [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1],
             inverted=True,
             )]
@@ -1206,7 +1206,7 @@ maker(
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
         rmakers.SilenceMask(
-            selector=baca.tuplets()[abjad.index(
+            baca.tuplets()[abjad.index(
             [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1],
             inverted=True,
             )]
