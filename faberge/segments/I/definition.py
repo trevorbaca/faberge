@@ -754,7 +754,7 @@ maker(
     baca.up_bow(
         abjad.tweak(1).padding,
         abjad.tweak(0.5).parent_alignment_X,
-        selector=baca.pheads()[abjad.index([1], 2)],
+        selector=baca.pheads().get([1], 2),
         ),
     )
 

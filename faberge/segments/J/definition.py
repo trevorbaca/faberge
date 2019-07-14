@@ -501,7 +501,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves()[abjad.index([0, -1])],
+        selector=baca.pleaves().get([0, -1]),
         ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,
@@ -542,7 +542,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves()[abjad.index([0, -1])],
+        selector=baca.pleaves().get([0, -1]),
         ),
     )
 
@@ -654,7 +654,7 @@ maker(
         ),
     baca.make_repeat_tied_notes(),
     baca.stem_tremolo(
-        selector=baca.pleaves()[abjad.index([0, -1])],
+        selector=baca.pleaves().get([0, -1]),
         ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,

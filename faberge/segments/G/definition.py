@@ -492,7 +492,7 @@ maker(
         literal=True,
         ),
     baca.stem_tremolo(
-        selector=baca.pheads()[abjad.index([0, -1])],
+        selector=baca.pheads().get([0, -1]),
         ),
     )
 
@@ -676,7 +676,7 @@ maker(
         abjad.tweak(8).staff_padding,
         ),
     baca.stem_tremolo(
-        selector=baca.pheads()[abjad.index([0, -1])],
+        selector=baca.pheads().get([0, -1]),
         ),
     baca.xfb_spanner(
         abjad.tweak(3).staff_padding,

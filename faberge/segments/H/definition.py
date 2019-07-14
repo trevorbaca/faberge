@@ -401,10 +401,10 @@ maker(
 maker(
     ('vn', [(1, 7), 9]),
     baca.quadruple_staccato(
-        selector=baca.plts()[abjad.index([0], 4)],
+        selector=baca.plts().get([0], 4),
         ),
     baca.stem_tremolo(
-        selector=baca.plts()[abjad.index([0], 4, inverted=True)],
+        selector=baca.plts().exclude([0], 4),
         ),
     )
 
@@ -673,12 +673,12 @@ maker(
     baca.quadruple_staccato(
         selector=baca.plts(
             exclude=abjad.const.HIDDEN,
-            )[abjad.index([0], 4)],
+            ).get([0], 4),
         ),
     baca.stem_tremolo(
         selector=baca.plts(
             exclude=abjad.const.HIDDEN,
-            )[abjad.index([0], 4, inverted=True)],
+            ).exclude([0], 4),
         ),
     )
 
@@ -754,17 +754,17 @@ maker(
             abjad.tweak(1).padding,
             abjad.tweak(0.5).parent_alignment_X,
             full=True,
-            selector=baca.pheads()[abjad.index([0], 2)],
+            selector=baca.pheads().get([0], 2),
             ),
         baca.up_bow(
             abjad.tweak(1).padding,
             abjad.tweak(0.5).parent_alignment_X,
-            selector=baca.pheads()[abjad.index([1], 2)],
+            selector=baca.pheads().get([1], 2),
             ),
         ),
     baca.half_clt_spanner(
         abjad.tweak(5.5).staff_padding,
-        map=baca.leaves()[abjad.index([0], 2)],
+        map=baca.leaves().get([0], 2),
         selector=baca.leaves()[:1].rleak(),
         ),
     )
