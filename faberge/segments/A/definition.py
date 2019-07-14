@@ -228,7 +228,7 @@ maker(
         abjad.tweak(3.5).staff_padding,
         ),
     faberge.glow_rhythm(
-        rmakers.SustainMask(baca.tuplets().exclude([6, 7], 18)),
+        rmakers.note(baca.tuplets().exclude([6, 7], 18)),
         rmakers.TieSpecifier(
             attach_ties=True,
             selector=baca.tuplets().exclude([6, 7], 18).map(baca.leaves()[:-1]),
@@ -350,7 +350,7 @@ maker(
     baca.note_head_style_cross(),
     faberge.keynoise_pitches(rotation=0),
     faberge.keynoise_rhythm(
-        rmakers.SilenceMask(baca.tuplets().get([0, 4], 9)),
+        rmakers.rest(baca.tuplets().get([0, 4], 9)),
         tuplet_ratio_rotation=0,
         ),
     )
@@ -955,10 +955,8 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
-        rmakers.SilenceMask(
-            baca.tuplets().exclude(
-                [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1],
-            )
+        rmakers.rest(baca.tuplets()
+            .exclude([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
         ),
         counts_rotation=-10,
     ),
@@ -1012,10 +1010,8 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
-        rmakers.SilenceMask(
-            baca.tuplets().exclude(
-            [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1],
-            )
+        rmakers.rest(baca.tuplets()
+            .exclude([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1])
         ),
         counts_rotation=-11,
     ),
@@ -1138,10 +1134,8 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
-        rmakers.SilenceMask(
-            baca.tuplets().exclude(
-            [0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1],
-            ),
+        rmakers.rest(baca.tuplets()
+            .exclude([0, 1, 2, 3, 4, 5, 6, 7, 8, -7, -6, -5, -4, -3, -2, -1]),
         ),
         counts_rotation=-11,
         denominator=8,
@@ -1198,10 +1192,8 @@ maker(
     baca.dynamic('"f"'),
     baca.pitch('E4'),
     faberge.spazzolati_rhythm(
-        rmakers.SilenceMask(
-            baca.tuplets().exclude(
-            [0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1],
-            ),
+        rmakers.rest(baca.tuplets()
+            .exclude([0, 1, 2, 3, 4, 5, 6, -6, -5, -4, -3, -2, -1]),
         ),
         counts_rotation=-12,
         denominator=8,

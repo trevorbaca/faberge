@@ -173,7 +173,7 @@ maker(
         ),
     ),
     faberge.bcl_color_fingering_rhythm(
-        rmakers.SilenceMask(baca.lts().get([6, 7, 12, 17])),
+        rmakers.rest(baca.lts().get([6, 7, 12, 17])),
     ),
     faberge.bcl_color_fingerings(
         abjad.tweak(abjad.Down).direction,
