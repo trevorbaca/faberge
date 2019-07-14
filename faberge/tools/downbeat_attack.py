@@ -14,8 +14,8 @@ def downbeat_attack(
             rmakers.TaleaRhythmMaker(
                 talea=rmakers.Talea(counts=[count], denominator=denominator)
             ),
-            rmakers.SilenceMask(selector=baca.tuplets()[1:]),
-            rmakers.SilenceMask(selector=baca.lts()[1:]),
+            rmakers.SilenceMask(baca.tuplets()[1:]),
+            rmakers.SilenceMask(baca.lts()[1:]),
             rmakers.BeamSpecifier(selector=baca.tuplets()),
             rmakers.TupletSpecifier(
                 extract_trivial=True, rewrite_rest_filled=True
