@@ -250,7 +250,7 @@ maker(
         ),
     baca.stem_down(),
     baca.stem_tremolo(
-        selector=baca.pheads()[abjad.index([0, -1])],
+        selector=baca.pheads().get([0, -1]),
         ),
     )
 
