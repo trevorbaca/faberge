@@ -22,11 +22,11 @@ def eh_trill_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=16),
             ),
             *specifiers,
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(
-                extract_trivial=True, rewrite_rest_filled=True, trivialize=True
-            ),
-            rmakers.TieCommand(repeat_ties=True),
+            rmakers.beam(),
+            rmakers.rewrite_rest_filled(),
+            rmakers.trivialize(),
+            rmakers.extract_trivial(),
+            rmakers.to_repeat_tie(),
         ),
         tag="faberge.eh_trill_rhythm",
     )

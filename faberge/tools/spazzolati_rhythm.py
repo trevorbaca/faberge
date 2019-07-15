@@ -35,10 +35,9 @@ def spazzolati_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=denominator),
             ),
             *specifiers,
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(
-                extract_trivial=True, rewrite_rest_filled=True
-            ),
+            rmakers.beam(),
+            rmakers.rewrite_rest_filled(),
+            rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),

@@ -18,9 +18,10 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
                     talea_denominator=4,
                 ),
             ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True, force_fraction=True),
-            rmakers.TieCommand(detach_ties=True, selector=baca.notes()),
+            rmakers.beam(),
+            rmakers.force_fraction(),
+            rmakers.extract_trivial(),
+            rmakers.untie(),
         ),
         tag="faberge.suffixed_colortrill_rhythm",
     )

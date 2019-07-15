@@ -24,11 +24,9 @@ def single_taper(
                     talea_denominator=denominator,
                 )
             ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
-            rmakers.TieCommand(
-                attach_repeat_ties=True, selector=baca.notes()[1:]
-            ),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
+            rmakers.repeat_tie(baca.notes()[1:]),
         ),
         tag="faberge.single_taper",
     )

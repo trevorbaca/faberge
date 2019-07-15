@@ -13,14 +13,12 @@ def halves_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(
-                denominator=(1, 4),
-                extract_trivial=True,
-                force_fraction=True,
-                rewrite_rest_filled=True,
-                trivialize=True,
-            ),
+            rmakers.beam(),
+            rmakers.TupletCommand(denominator=(1, 4)),
+            rmakers.force_fraction(),
+            rmakers.trivialize(),
+            rmakers.rewrite_rest_filled(),
+            rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
         ),
         tag="faberge.halves_rhythm",

@@ -22,19 +22,14 @@ def glow_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios_),
-            rmakers.TieCommand(
-                attach_ties=True,
-                selector=baca.tuplets()[:-1].map(baca.pleaf(-1)),
-            ),
+            rmakers.tie(baca.tuplets()[:-1].map(baca.pleaf(-1))),
             *specifiers,
-            rmakers.TupletCommand(
-                rewrite_rest_filled=True,
-                rewrite_sustained=True,
-                trivialize=True,
-            ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
-            rmakers.TieCommand(repeat_ties=(1, 2)),
+            rmakers.rewrite_rest_filled(),
+            rmakers.rewrite_sustained(),
+            rmakers.trivialize(),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
+            rmakers.to_repeat_tie(threshold=(1, 2)),
             rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
