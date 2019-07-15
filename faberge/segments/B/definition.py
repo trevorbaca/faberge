@@ -98,32 +98,32 @@ maker(
     baca.tuplet_bracket_staff_padding(1),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
             .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -154,32 +154,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
             .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -192,32 +192,32 @@ maker(
     ('fl', (11, 12)),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -247,33 +247,33 @@ maker(
     ('fl', (13, 16)),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11)
                 .map(baca.leaves()[:-1]),
@@ -319,32 +319,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -357,32 +357,32 @@ maker(
     ('fl', (23, 26)),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -411,32 +411,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -450,32 +450,32 @@ maker(
     ('fl', (31, 36)),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -502,32 +502,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -546,32 +546,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -589,32 +589,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -633,32 +633,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -676,32 +676,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([2, 3, 6], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([2, 3, 6], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
@@ -737,32 +737,32 @@ maker(
         ),
     faberge.glow_rhythm(
         rmakers.note(baca.tuplets().exclude([0, 6, 7], 9)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().exclude([0, 6, 7], 9)
                 .map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.rest(baca.tuplets().get([10], 11)),
         rmakers.note(baca.tuplets().get([9, 11], 11)),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             detach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),
-        rmakers.TieSpecifier(
+        rmakers.TieCommand(
             attach_ties=True,
             selector=baca.tuplets().get([9, 11], 11).map(baca.leaves()[:-1]),
         ),

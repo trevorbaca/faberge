@@ -24,9 +24,9 @@ def single_taper(
                     talea_denominator=denominator,
                 )
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.TieSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.TieCommand(
                 attach_repeat_ties=True, selector=baca.notes()[1:]
             ),
         ),

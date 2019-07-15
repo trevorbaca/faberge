@@ -136,8 +136,8 @@ def shell_exchange_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             rmakers.rest(baca.lt(-1)),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 extract_trivial=True, rewrite_rest_filled=True, trivialize=True
             ),
         ),

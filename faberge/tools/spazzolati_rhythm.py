@@ -35,11 +35,11 @@ def spazzolati_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=denominator),
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 extract_trivial=True, rewrite_rest_filled=True
             ),
-            rmakers.RewriteMeterCommand(),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="faberge.spazzolati_rhythm",

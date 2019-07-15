@@ -22,20 +22,20 @@ def glow_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios_),
-            rmakers.TieSpecifier(
+            rmakers.TieCommand(
                 attach_ties=True,
                 selector=baca.tuplets()[:-1].map(baca.pleaf(-1)),
             ),
             *specifiers,
-            rmakers.TupletSpecifier(
+            rmakers.TupletCommand(
                 rewrite_rest_filled=True,
                 rewrite_sustained=True,
                 trivialize=True,
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
-            rmakers.TieSpecifier(repeat_ties=(1, 2)),
-            rmakers.RewriteMeterCommand(),
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.TieCommand(repeat_ties=(1, 2)),
+            rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),
         tag="faberge.glow_rhythm",

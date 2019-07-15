@@ -29,8 +29,8 @@ def front_incised_divisions(
                 )
             ),
             *specifiers,
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(extract_trivial=True),
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(extract_trivial=True),
         ),
         tag="faberge.front_incised_divisions",
     )
