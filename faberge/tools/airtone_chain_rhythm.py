@@ -74,10 +74,10 @@ def airtone_chain_rhythm(
                 read_talea_once_only=True,
                 talea=rmakers.Talea(counts=my_counts, denominator=16),
             ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.TieCommand(repeat_ties=True),
+            rmakers.to_repeat_tie(),
         ),
         tag="faberge.airtone_chain_rhythm",
     )

@@ -16,8 +16,8 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
                     talea_denominator=denominator,
                 )
             ),
-            rmakers.BeamCommand(selector=baca.tuplets()),
-            rmakers.TupletCommand(extract_trivial=True),
+            rmakers.beam(),
+            rmakers.extract_trivial(),
         ),
         tag="faberge.end_of_cell_attack",
     )
