@@ -29,8 +29,8 @@ def clb_rhythm(
                 extra_counts_per_division=extra_counts_,
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
-            rmakers.BeamSpecifier(selector=baca.tuplets()),
-            rmakers.TupletSpecifier(
+            rmakers.BeamCommand(selector=baca.tuplets()),
+            rmakers.TupletCommand(
                 rewrite_dots=True,
                 denominator=(1, 8),
                 diminution=True,

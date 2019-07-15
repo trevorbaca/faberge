@@ -23,8 +23,8 @@ def ratchet_rhythm() -> baca.RhythmCommand:
                     ),
                 ]
             ),
-            rmakers.TupletSpecifier(duration_bracket=True),
-            rmakers.BeamSpecifier(
+            rmakers.TupletCommand(duration_bracket=True),
+            rmakers.BeamCommand(
                 beam_rests=True,
                 selector=baca.tuplets(),
                 stemlet_length=0.75,
