@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 
 def front_incised_divisions(
-    *specifiers: rmakers.SpecifierTyping,
+    *specifiers: rmakers.Command,
     start_rest_durations: abjad.DurationSequenceTyping = (),
 ) -> baca.RhythmCommand:
     """
