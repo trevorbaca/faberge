@@ -18,7 +18,7 @@ def even_tuplet_rhythm(
                 talea=rmakers.Talea(counts=[1], denominator=denominator),
             ),
             rmakers.beam(),
-            rmakers.TupletCommand(denominator=(1, denominator)),
+            rmakers.denominator((1, denominator)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
             rmakers.rewrite_tuplet_dots(),
