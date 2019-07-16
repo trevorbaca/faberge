@@ -14,7 +14,7 @@ def halves_rhythm(
         rmakers.RhythmCommand(
             rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
             rmakers.beam(),
-            rmakers.TupletCommand(denominator=(1, 4)),
+            rmakers.denominator((1, 4)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
             rmakers.rewrite_rest_filled(),

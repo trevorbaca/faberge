@@ -20,7 +20,7 @@ def bcl_color_fingering_rhythm(
             ),
             *specifiers,
             rmakers.beam(),
-            rmakers.TupletCommand(denominator=(1, 4)),
+            rmakers.denominator((1, 4)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
             rmakers.rewrite_tuplet_dots(),
