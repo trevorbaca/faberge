@@ -136,7 +136,7 @@ def shell_exchange_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             rmakers.rest(baca.lt(-1)),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),

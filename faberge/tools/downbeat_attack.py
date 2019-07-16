@@ -16,7 +16,7 @@ def downbeat_attack(
             ),
             rmakers.rest(baca.tuplets()[1:]),
             rmakers.rest(baca.lts()[1:]),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),

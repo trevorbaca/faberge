@@ -29,7 +29,7 @@ def clb_rhythm(
                 extra_counts_per_division=extra_counts_,
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
