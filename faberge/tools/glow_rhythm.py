@@ -27,7 +27,7 @@ def glow_rhythm(
             rmakers.rewrite_rest_filled(),
             rmakers.rewrite_sustained(),
             rmakers.trivialize(),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.extract_trivial(),
             rmakers.force_repeat_ties(threshold=(1, 2)),
             rmakers.rewrite_meter(),

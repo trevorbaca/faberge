@@ -29,7 +29,7 @@ def front_incised_divisions(
                 )
             ),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.extract_trivial(),
         ),
         tag="faberge.front_incised_divisions",

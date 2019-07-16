@@ -18,7 +18,7 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
                     talea_denominator=4,
                 ),
             ),
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.force_fraction(),
             rmakers.extract_trivial(),
             rmakers.untie(),

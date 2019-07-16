@@ -22,7 +22,7 @@ def eh_trill_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=16),
             ),
             *specifiers,
-            rmakers.beam(),
+            rmakers.simple_beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),
