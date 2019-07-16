@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 def eh_trill_rhythm(
     counts: abjad.IntegerSequence,
-    *specifiers: rmakers.SpecifierTyping,
+    *specifiers: rmakers.Command,
     division_fuse_counts: abjad.IntegerSequence = None,
     extra_counts: abjad.IntegerSequence = None,
 ) -> baca.RhythmCommand:
