@@ -33,7 +33,7 @@ def clb_rhythm(
             rmakers.denominator((1, 8)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
-            rmakers.rewrite_tuplet_dots(),
+            rmakers.rewrite_dots(),
             rmakers.rewrite_rest_filled(),
             rmakers.force_diminution(),
             rmakers.extract_trivial(),
