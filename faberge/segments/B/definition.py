@@ -514,9 +514,8 @@ maker(
             baca.tuplets().exclude([2, 3, 6], 9).map(baca.leaves()[:-1]),
         ),
         rmakers.note(baca.tuplets().get([0, -2])),
-        rmakers.TieCommand(
-            detach_ties=True,
-            selector=baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
+        rmakers.untie(
+            baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),
         ),
         rmakers.tie(
             baca.tuplets().get([0, -2]).map(baca.leaves()[:-1]),

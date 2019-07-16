@@ -29,7 +29,7 @@ def glow_rhythm(
             rmakers.trivialize(),
             rmakers.beam(),
             rmakers.extract_trivial(),
-            rmakers.to_repeat_tie(threshold=(1, 2)),
+            rmakers.force_repeat_ties(threshold=(1, 2)),
             rmakers.rewrite_meter(),
             divisions=baca.divisions().fuse().quarters(),
         ),

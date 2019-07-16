@@ -3938,25 +3938,25 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 128 / measure 32]                    %! _comment_measure_numbers
     bf'!1                                                                      %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 129 / measure 33]                    %! _comment_measure_numbers
     bf'!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 130 / measure 34]                    %! _comment_measure_numbers
     bf'!2.                                                                     %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 131 / measure 35]                    %! _comment_measure_numbers
     bf'!1                                                                      %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 132 / measure 36]                    %! _comment_measure_numbers
     bf'!2                                                                      %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \revert RepeatTie.extra-offset                                             %! baca.repeat_tie_extra_offset:OverrideCommand(2)
 
     % [B English_Horn_Music_Voice measure 133 / measure 37]                    %! _comment_measure_numbers
@@ -3964,35 +3964,35 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 134 / measure 38]                    %! _comment_measure_numbers
     b'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 135 / measure 39]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 136 / measure 40]                    %! _comment_measure_numbers
     b'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 137 / measure 41]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 138 / measure 42]                    %! _comment_measure_numbers
     b'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 139 / measure 43]                    %! _comment_measure_numbers
     b'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 140 / measure 44]                    %! _comment_measure_numbers
     b'1                                                                        %! baca.make_repeat_tied_notes
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 141 / measure 45]                    %! _comment_measure_numbers
     r4                                                                         %! faberge.keynoise_rhythm
@@ -4468,15 +4468,15 @@ B_English_Horn_Music_Voice = {                                                 %
 
     % [B English_Horn_Music_Voice measure 166 / measure 70]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 167 / measure 71]                    %! _comment_measure_numbers
     b'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B English_Horn_Music_Voice measure 168 / measure 72]                    %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \revert DynamicLineSpanner.staff-padding                                   %! baca.dls_staff_padding:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -7268,15 +7268,15 @@ B_Percussion_Music_Voice = {                                                   %
 
     % [B Percussion_Music_Voice measure 166 / measure 70]                      %! _comment_measure_numbers
     b2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 167 / measure 71]                      %! _comment_measure_numbers
     b2                                                                         %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Percussion_Music_Voice measure 168 / measure 72]                      %! _comment_measure_numbers
     b2.                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
     \revert Stem.direction                                                     %! baca.stem_down:OverrideCommand(2)
 
     <<                                                                         %! _make_multimeasure_rest_container
@@ -8502,15 +8502,15 @@ B_Violin_Music_Voice = {                                                       %
 
     % [B Violin_Music_Voice measure 166 / measure 70]                          %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Violin_Music_Voice measure 167 / measure 71]                          %! _comment_measure_numbers
     b'2                                                                        %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [B Violin_Music_Voice measure 168 / measure 72]                          %! _comment_measure_numbers
     b'2.                                                                       %! baca.make_repeat_tied_notes
-    \repeatTie
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     \tweak text #tuplet-number::calc-fraction-text                             %! faberge.clb_rhythm
     \times 14/16 {                                                             %! faberge.clb_rhythm

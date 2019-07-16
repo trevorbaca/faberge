@@ -26,7 +26,7 @@ def eh_trill_rhythm(
             rmakers.rewrite_rest_filled(),
             rmakers.trivialize(),
             rmakers.extract_trivial(),
-            rmakers.to_repeat_tie(),
+            rmakers.force_repeat_ties(),
         ),
         tag="faberge.eh_trill_rhythm",
     )

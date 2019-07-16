@@ -77,7 +77,7 @@ def airtone_chain_rhythm(
             rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
-            rmakers.to_repeat_tie(),
+            rmakers.force_repeat_ties(),
         ),
         tag="faberge.airtone_chain_rhythm",
     )
