@@ -21,7 +21,7 @@ def even_tuplet_rhythm(
             rmakers.denominator((1, denominator)),
             rmakers.force_fraction(),
             rmakers.trivialize(),
-            rmakers.rewrite_tuplet_dots(),
+            rmakers.rewrite_dots(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
         ),
