@@ -208,20 +208,20 @@ O_Flute_Music_Voice = {                                                        %
     % [O Flute_Music_Voice measure 280 / measure 2]                            %! _comment_measure_numbers
     b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O Flute_Music_Voice measure 281 / measure 3]                            %! _comment_measure_numbers
     b'\breve                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O Flute_Music_Voice measure 282 / measure 4]                            %! _comment_measure_numbers
     b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O Flute_Music_Voice measure 283 / measure 5]                            %! _comment_measure_numbers
     b'4                                                                        %! faberge.downbeat_attack
@@ -330,20 +330,20 @@ O_English_Horn_Music_Voice = {                                                 %
     % [O English_Horn_Music_Voice measure 280 / measure 2]                     %! _comment_measure_numbers
     b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O English_Horn_Music_Voice measure 281 / measure 3]                     %! _comment_measure_numbers
     b'\breve                                                                   %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O English_Horn_Music_Voice measure 282 / measure 4]                     %! _comment_measure_numbers
     b'1..                                                                      %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O English_Horn_Music_Voice measure 283 / measure 5]                     %! _comment_measure_numbers
     b'4                                                                        %! faberge.downbeat_attack
@@ -546,20 +546,20 @@ O_Piano_RH_Music_Voice = {                                                     %
     % [O Piano_RH_Music_Voice measure 280 / measure 2]                         %! _comment_measure_numbers
     d1..                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O Piano_RH_Music_Voice measure 281 / measure 3]                         %! _comment_measure_numbers
     d\breve                                                                    %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O Piano_RH_Music_Voice measure 282 / measure 4]                         %! _comment_measure_numbers
     d1..                                                                       %! baca.make_repeat_tied_notes
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    - \tweak direction #up
-    \repeatTie
+    - \tweak direction #up                                                     %! baca.make_repeat_tied_notes
+    \repeatTie                                                                 %! baca.make_repeat_tied_notes
 
     % [O Piano_RH_Music_Voice measure 283 / measure 5]                         %! _comment_measure_numbers
     d4                                                                         %! faberge.downbeat_attack
