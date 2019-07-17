@@ -74,7 +74,7 @@ def airtone_chain_rhythm(
                 read_talea_once_only=True,
                 talea=rmakers.Talea(counts=my_counts, denominator=16),
             ),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),
             rmakers.force_repeat_ties(),
