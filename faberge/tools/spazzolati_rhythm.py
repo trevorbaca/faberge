@@ -35,7 +35,7 @@ def spazzolati_rhythm(
                 talea=rmakers.Talea(counts=counts, denominator=denominator),
             ),
             *specifiers,
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.rewrite_rest_filled(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),

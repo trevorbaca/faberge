@@ -14,7 +14,7 @@ def back_incised_divisions() -> baca.RhythmCommand:
                     suffix_talea=[-1], suffix_counts=[1], talea_denominator=4
                 )
             ),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
         ),
         tag="faberge.back_incised_divisions",

@@ -24,7 +24,7 @@ def single_taper(
                     talea_denominator=denominator,
                 )
             ),
-            rmakers.simple_beam(),
+            rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.repeat_tie(baca.notes()[1:]),
         ),
