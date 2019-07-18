@@ -15,7 +15,7 @@ def single_taper(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.IncisedRhythmMaker(
-                incise_specifier=rmakers.InciseSpecifier(
+                incise_specifier=rmakers.Incise(
                     outer_divisions_only=True,
                     prefix_talea=start_talea,
                     prefix_counts=[len(start_talea)],
