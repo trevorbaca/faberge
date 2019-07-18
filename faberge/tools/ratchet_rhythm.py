@@ -11,12 +11,12 @@ def ratchet_rhythm() -> baca.RhythmCommand:
         rmakers.RhythmCommand(
             rmakers.AccelerandoRhythmMaker(
                 interpolation_specifiers=[
-                    rmakers.InterpolationSpecifier(
+                    rmakers.Interpolation(
                         start_duration=(3, 8),
                         stop_duration=(1, 16),
                         written_duration=(1, 16),
                     ),
-                    rmakers.InterpolationSpecifier(
+                    rmakers.Interpolation(
                         start_duration=(1, 16),
                         stop_duration=(3, 8),
                         written_duration=(1, 16),
