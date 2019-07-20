@@ -7,8 +7,8 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
     Makes suffixed colortrill rhtyhm.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 extra_counts=[1],
                 incise=rmakers.Incise(
                     prefix_counts=[2],

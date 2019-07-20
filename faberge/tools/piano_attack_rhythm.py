@@ -8,8 +8,8 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
     Makes piano attack rhythm.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     fill_with_rests=True,
                     outer_divisions_only=True,

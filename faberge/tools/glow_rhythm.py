@@ -20,8 +20,8 @@ def glow_rhythm(
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios_),
+        rmakers.rhythm(
+            rmakers.tuplet(tuplet_ratios=tuplet_ratios_),
             rmakers.tie(baca.tuplets()[:-1].map(baca.pleaf(-1))),
             *specifiers,
             rmakers.rewrite_rest_filled(),

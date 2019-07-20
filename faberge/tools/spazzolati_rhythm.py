@@ -29,8 +29,8 @@ def spazzolati_rhythm(
     counts = counts.flatten()
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts,
                 talea=rmakers.Talea(counts=counts, denominator=denominator),
             ),

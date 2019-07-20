@@ -13,8 +13,8 @@ def single_taper(
     Makes single taper.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     outer_divisions_only=True,
                     prefix_talea=start_talea,

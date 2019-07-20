@@ -20,8 +20,8 @@ def front_incised_divisions(
     prefix_talea = [-_.numerator for _ in start_rest_durations]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     prefix_talea=prefix_talea,
                     prefix_counts=[1],

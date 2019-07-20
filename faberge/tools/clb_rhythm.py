@@ -24,8 +24,8 @@ def clb_rhythm(
         divisions = divisions.map(baca.sequence().sum())
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts_,
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
