@@ -31,7 +31,7 @@ def glow_rhythm(
             rmakers.extract_trivial(),
             rmakers.force_repeat_ties(threshold=(1, 2)),
             rmakers.rewrite_meter(),
-            divisions=baca.divisions().fuse().quarters(),
+            preprocessor=baca.divisions().fuse().quarters(),
         ),
         tag="faberge.glow_rhythm",
     )
