@@ -26,7 +26,7 @@ def clb_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=extra_counts_,
+                extra_counts=extra_counts_,
                 talea=rmakers.Talea(counts=[1], denominator=8),
             ),
             rmakers.beam(),

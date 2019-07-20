@@ -8,7 +8,7 @@ def shell_exchange_rhythm(
     total_parts: int,
     this_part: typing.Union[int, typing.Tuple[int, ...]],
     *,
-    extra_counts_per_division_rotation: int = None,
+    extra_counts_rotation: int = None,
     rotation: int = None,
 ) -> baca.RhythmCommand:
     """
@@ -127,12 +127,12 @@ def shell_exchange_rhythm(
 
     extras_ = [0, 0, -1, 0, 0, -1, -1]
     extras = abjad.sequence(extras_)
-    extras = extras.rotate(n=extra_counts_per_division_rotation)
+    extras = extras.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=extras,
+                extra_counts=extras,
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
             rmakers.force_rest(baca.lt(-1)),
