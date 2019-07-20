@@ -14,7 +14,7 @@ def even_tuplet_rhythm(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.TaleaRhythmMaker(
-                extra_counts_per_division=extra_counts,
+                extra_counts=extra_counts,
                 talea=rmakers.Talea(counts=[1], denominator=denominator),
             ),
             rmakers.beam(),

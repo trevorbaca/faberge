@@ -22,7 +22,7 @@ def front_incised_divisions(
     return baca.rhythm(
         rmakers.RhythmCommand(
             rmakers.IncisedRhythmMaker(
-                incise_specifier=rmakers.Incise(
+                incise=rmakers.Incise(
                     prefix_talea=prefix_talea,
                     prefix_counts=[1],
                     talea_denominator=lcm,

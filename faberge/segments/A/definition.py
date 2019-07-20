@@ -148,7 +148,7 @@ maker(
     ('fl', (41, 56)),
     baca.pitch('F6'),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=1,
+        extra_counts_rotation=1,
         total_parts=3,
         this_part=0,
         ),
@@ -720,7 +720,7 @@ maker(
     ('perc', (41, 56)),
     baca.pitch('F4'),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=1,
+        extra_counts_rotation=1,
         total_parts=3,
         this_part=2,
         ),
@@ -745,7 +745,7 @@ maker(
 maker(
     ('perc', [(57, 62), (71, 80), (89, 92)]),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=2,
+        extra_counts_rotation=2,
         total_parts=2,
         this_part=1,
         ),
@@ -915,7 +915,7 @@ maker(
     ('vn', (41, 56)),
     baca.pitch('F6'),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=1,
+        extra_counts_rotation=1,
         total_parts=3,
         this_part=1,
         ),
@@ -936,7 +936,7 @@ maker(
     baca.pitch('F#6'),
     faberge.dal_niente_hairpins('pp'),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=2,
+        extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
         ),
@@ -977,7 +977,7 @@ maker(
     ('vn', (71, 80)),
     baca.pitch('F#6'),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=2,
+        extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
         ),
@@ -1028,7 +1028,7 @@ maker(
     baca.pitch('F#6'),
     faberge.dal_niente_hairpins('f'),
     faberge.shell_exchange_rhythm(
-        extra_counts_per_division_rotation=2,
+        extra_counts_rotation=2,
         total_parts=2,
         this_part=0,
         ),
