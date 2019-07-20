@@ -10,8 +10,8 @@ def downbeat_attack(
     Makes downbeat attack.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 talea=rmakers.Talea(counts=[count], denominator=denominator)
             ),
             rmakers.force_rest(baca.tuplets()[1:]),

@@ -8,8 +8,8 @@ def ratchet_rhythm() -> baca.RhythmCommand:
     Makes ratchet rhythm.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.AccelerandoRhythmMaker(
+        rmakers.rhythm(
+            rmakers.accelerando(
                 interpolations=[
                     rmakers.Interpolation(
                         start_duration=(3, 8),

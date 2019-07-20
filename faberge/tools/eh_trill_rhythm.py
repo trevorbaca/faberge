@@ -15,8 +15,8 @@ def eh_trill_rhythm(
     counts = list(counts) + [-1000]
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extra_counts,
                 read_talea_once_only=True,
                 talea=rmakers.Talea(counts=counts, denominator=16),

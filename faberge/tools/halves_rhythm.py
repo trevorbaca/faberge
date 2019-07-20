@@ -11,8 +11,8 @@ def halves_rhythm(
     Makes halves rhythm.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TupletRhythmMaker(tuplet_ratios=tuplet_ratios),
+        rmakers.rhythm(
+            rmakers.tuplet(tuplet_ratios=tuplet_ratios),
             rmakers.beam(),
             rmakers.denominator((1, 4)),
             rmakers.force_fraction(),

@@ -7,8 +7,8 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
     Makes end-of-cell attack.
     """
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     fill_with_rests=True,
                     suffix_talea=[1],

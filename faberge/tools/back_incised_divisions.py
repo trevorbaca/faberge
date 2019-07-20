@@ -8,8 +8,8 @@ def back_incised_divisions() -> baca.RhythmCommand:
     """
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.IncisedRhythmMaker(
+        rmakers.rhythm(
+            rmakers.incised(
                 incise=rmakers.Incise(
                     suffix_talea=[-1], suffix_counts=[1], talea_denominator=4
                 )

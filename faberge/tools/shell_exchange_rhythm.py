@@ -130,8 +130,8 @@ def shell_exchange_rhythm(
     extras = extras.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
-        rmakers.RhythmCommand(
-            rmakers.TaleaRhythmMaker(
+        rmakers.rhythm(
+            rmakers.talea(
                 extra_counts=extras,
                 talea=rmakers.Talea(counts=counts, denominator=8),
             ),
