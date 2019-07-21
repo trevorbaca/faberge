@@ -13,10 +13,7 @@ def even_tuplet_rhythm(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(
-                extra_counts=extra_counts,
-                talea=rmakers.Talea(counts=[1], denominator=denominator),
-            ),
+            rmakers.talea([1], denominator, extra_counts=extra_counts),
             rmakers.beam(),
             rmakers.denominator((1, denominator)),
             rmakers.force_fraction(),

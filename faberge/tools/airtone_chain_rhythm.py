@@ -70,10 +70,7 @@ def airtone_chain_rhythm(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(
-                read_talea_once_only=True,
-                talea=rmakers.Talea(counts=my_counts, denominator=16),
-            ),
+            rmakers.talea(my_counts, 16, read_talea_once_only=True),
             rmakers.beam(),
             rmakers.extract_trivial(),
             rmakers.rewrite_meter(),

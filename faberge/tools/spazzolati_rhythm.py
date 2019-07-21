@@ -30,10 +30,7 @@ def spazzolati_rhythm(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.talea(
-                extra_counts=extra_counts,
-                talea=rmakers.Talea(counts=counts, denominator=denominator),
-            ),
+            rmakers.talea(counts, denominator, extra_counts=extra_counts),
             *specifiers,
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),
