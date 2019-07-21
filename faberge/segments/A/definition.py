@@ -215,13 +215,9 @@ maker(
         (-1.5, 0),
         selector=baca.leaves(),
         ),
-    baca.suite(
-        baca.pitches(
-            'F#4 F#3',
-            allow_repeats=True,
-            ),
-        baca.untie(baca.leaf(-2)),
-        baca.tie(baca.leaf(-3)),
+    baca.pitches(
+        'F#4 F#3',
+        allow_repeats=True,
         ),
     faberge.bfl_color_fingerings(
         abjad.tweak(-0.5).parent_alignment_X,

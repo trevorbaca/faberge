@@ -2638,12 +2638,12 @@ A_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     % [A Flute_Music_Voice measure 95 / measure 91]                            %! _comment_measure_numbers
     fs'!8                                                                      %! faberge.glow_rhythm
-    \repeatTie
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     fs''!16                                                                    %! faberge.glow_rhythm
@@ -2667,8 +2667,8 @@ A_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! faberge.glow_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    ~                                                                          %! baca.tie:IndicatorCommand
 
     fs'!4                                                                      %! faberge.glow_rhythm
 
