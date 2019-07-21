@@ -1462,13 +1462,13 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! faberge.glow_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     \times 2/3 {                                                               %! faberge.glow_rhythm
 
         % [B Flute_Music_Voice measure 98 / measure 2]                         %! _comment_measure_numbers
         g''8                                                                   %! faberge.glow_rhythm
-        \repeatTie
 
         g''4                                                                   %! faberge.glow_rhythm
         - \tweak parent-alignment-X #-0.5
@@ -1480,11 +1480,11 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         2
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     g''2                                                                       %! faberge.glow_rhythm
-    \repeatTie
 
     \times 2/3 {                                                               %! faberge.glow_rhythm
 
@@ -1501,6 +1501,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -1508,7 +1509,6 @@ B_Flute_Music_Voice = {                                                        %
     g'2.                                                                       %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1543,12 +1543,12 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     % [B Flute_Music_Voice measure 101 / measure 5]                            %! _comment_measure_numbers
     g'2                                                                        %! faberge.glow_rhythm
-    \repeatTie
 
     \times 2/3 {                                                               %! faberge.glow_rhythm
 
@@ -1556,12 +1556,12 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g''8                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     % [B Flute_Music_Voice measure 102 / measure 6]                            %! _comment_measure_numbers
     g''2                                                                       %! faberge.glow_rhythm
-    \repeatTie
 
     % [B Flute_Music_Voice measure 103 / measure 7]                            %! _comment_measure_numbers
     g''2.                                                                      %! faberge.glow_rhythm
@@ -1672,6 +1672,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.glow_rhythm
@@ -1679,9 +1680,9 @@ B_Flute_Music_Voice = {                                                        %
     \times 4/5 {                                                               %! faberge.glow_rhythm
 
         g''16                                                                  %! faberge.glow_rhythm
-        \repeatTie
 
         g''4                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -1689,7 +1690,6 @@ B_Flute_Music_Voice = {                                                        %
     g''4                                                                       %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -1769,6 +1769,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.glow_rhythm
@@ -1778,7 +1779,6 @@ B_Flute_Music_Voice = {                                                        %
         % [B Flute_Music_Voice measure 111 / measure 15]                       %! _comment_measure_numbers
         g'16                                                                   %! faberge.glow_rhythm
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
-        \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         g'16                                                                   %! faberge.glow_rhythm
@@ -1819,8 +1819,8 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -1883,13 +1883,13 @@ B_Flute_Music_Voice = {                                                        %
 
         g''8                                                                   %! faberge.glow_rhythm
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     % [B Flute_Music_Voice measure 114 / measure 18]                           %! _comment_measure_numbers
     g''8                                                                       %! faberge.glow_rhythm
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g'16                                                                       %! faberge.glow_rhythm
@@ -1915,8 +1915,8 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     2
         }
+    ~                                                                          %! faberge.glow_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    ~                                                                          %! baca.tie:IndicatorCommand
 
     g''2                                                                       %! faberge.glow_rhythm
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
@@ -1957,8 +1957,8 @@ B_Flute_Music_Voice = {                                                        %
 
         g''16                                                                  %! faberge.glow_rhythm
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2023,7 +2023,7 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
-    ~                                                                          %! baca.tie:IndicatorCommand
+    ~                                                                          %! faberge.glow_rhythm
 
     % [B Flute_Music_Voice measure 117 / measure 21]                           %! _comment_measure_numbers
     g'2                                                                        %! faberge.glow_rhythm
@@ -2074,8 +2074,8 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2134,13 +2134,14 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! faberge.glow_rhythm
 
     \times 2/3 {                                                               %! faberge.glow_rhythm
 
         g'8                                                                    %! faberge.glow_rhythm
-        \repeatTie
 
         g''4                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2148,7 +2149,6 @@ B_Flute_Music_Voice = {                                                        %
     g''2                                                                       %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2218,8 +2218,8 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2262,8 +2262,8 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
         \revert TupletBracket.staff-padding                                    %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
 
     }                                                                          %! faberge.glow_rhythm
@@ -2286,12 +2286,12 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         2
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     % [B Flute_Music_Voice measure 125 / measure 29]                           %! _comment_measure_numbers
     g''2                                                                       %! faberge.glow_rhythm
-    \repeatTie
 
     % [B Flute_Music_Voice measure 126 / measure 30]                           %! _comment_measure_numbers
     g''4                                                                       %! faberge.glow_rhythm
@@ -2349,6 +2349,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.glow_rhythm
@@ -2357,14 +2358,13 @@ B_Flute_Music_Voice = {                                                        %
 
         % [B Flute_Music_Voice measure 129 / measure 33]                       %! _comment_measure_numbers
         g'16                                                                   %! faberge.glow_rhythm
-        \repeatTie
 
         g''4                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     g''4                                                                       %! faberge.glow_rhythm
-    \repeatTie
     \revert TupletBracket.staff-padding                                        %! baca.tuplet_bracket_staff_padding:OverrideCommand(2)
 
     % [B Flute_Music_Voice measure 130 / measure 34]                           %! _comment_measure_numbers
@@ -2430,6 +2430,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.glow_rhythm
@@ -2438,7 +2439,6 @@ B_Flute_Music_Voice = {                                                        %
     g'4                                                                        %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-mf-parenthesized                                                     %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2513,8 +2513,8 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         2
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2534,11 +2534,11 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! faberge.glow_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g'2                                                                        %! faberge.glow_rhythm
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
 
     \times 4/5 {                                                               %! faberge.glow_rhythm
 
@@ -2548,6 +2548,7 @@ B_Flute_Music_Voice = {                                                        %
 
         g''4                                                                   %! faberge.glow_rhythm
         :32                                                                    %! baca.stem_tremolo:IndicatorCommand
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2556,7 +2557,6 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2611,12 +2611,12 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     g'4                                                                        %! faberge.glow_rhythm
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
-    \repeatTie
 
     % [B Flute_Music_Voice measure 138 / measure 42]                           %! _comment_measure_numbers
     g'1                                                                        %! faberge.glow_rhythm
@@ -2675,6 +2675,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2682,7 +2683,6 @@ B_Flute_Music_Voice = {                                                        %
     :32                                                                        %! baca.stem_tremolo:IndicatorCommand
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-f-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2730,12 +2730,12 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     % [B Flute_Music_Voice measure 143 / measure 47]                           %! _comment_measure_numbers
     g''8                                                                       %! faberge.glow_rhythm
-    \repeatTie
     [                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     g''16                                                                      %! faberge.glow_rhythm
@@ -2750,8 +2750,8 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! faberge.glow_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
-    ~                                                                          %! baca.tie:IndicatorCommand
 
     g'2                                                                        %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
@@ -2800,6 +2800,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2807,7 +2808,6 @@ B_Flute_Music_Voice = {                                                        %
 
         % [B Flute_Music_Voice measure 146 / measure 50]                       %! _comment_measure_numbers
         g'16                                                                   %! faberge.glow_rhythm
-        \repeatTie
         [                                                                      %! rmakers.RewriteMeterCommand.__call__
 
         g''16                                                                  %! faberge.glow_rhythm
@@ -2822,12 +2822,12 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.glow_rhythm
 
     g'2                                                                        %! faberge.glow_rhythm
-    \repeatTie
 
     g'8                                                                        %! faberge.glow_rhythm
     \repeatTie
@@ -2845,13 +2845,13 @@ B_Flute_Music_Voice = {                                                        %
                 \finger
                     1
         }
+    ~                                                                          %! faberge.glow_rhythm
     ]                                                                          %! rmakers.RewriteMeterCommand.__call__
 
     % [B Flute_Music_Voice measure 147 / measure 51]                           %! _comment_measure_numbers
     g'2.                                                                       %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-p-parenthesized                                                      %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -2942,6 +2942,7 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         1
             }
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -2949,14 +2950,13 @@ B_Flute_Music_Voice = {                                                        %
 
         % [B Flute_Music_Voice measure 152 / measure 56]                       %! _comment_measure_numbers
         g'4                                                                    %! faberge.glow_rhythm
-        \repeatTie
 
         g''8                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     g''2                                                                       %! faberge.glow_rhythm
-    \repeatTie
 
     \times 4/5 {                                                               %! faberge.glow_rhythm
 
@@ -2998,6 +2998,7 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         g'16                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
 
     }                                                                          %! faberge.glow_rhythm
@@ -3006,7 +3007,6 @@ B_Flute_Music_Voice = {                                                        %
     g'2.                                                                       %! faberge.glow_rhythm
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     \baca-ppp-parenthesized                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
-    \repeatTie
     - \tweak color #(x11-color 'blue)                                          %! EXPLICIT_DYNAMIC_COLOR:_treat_persistent_wrapper(1)
     - \tweak to-barline ##t                                                    %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
     - \tweak circled-tip ##t                                                   %! EXPLICIT_DYNAMIC:_set_status_tag:baca.hairpin:PiecewiseCommand(1)
@@ -3042,11 +3042,11 @@ B_Flute_Music_Voice = {                                                        %
         \repeatTie
 
         g''8                                                                   %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
 
     }                                                                          %! faberge.glow_rhythm
 
     g''2                                                                       %! faberge.glow_rhythm
-    \repeatTie
 
     \times 4/5 {                                                               %! faberge.glow_rhythm
 
@@ -3097,8 +3097,8 @@ B_Flute_Music_Voice = {                                                        %
                     \finger
                         2
             }
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
@@ -3212,8 +3212,8 @@ B_Flute_Music_Voice = {                                                        %
             }
 
         gs''!16                                                                %! faberge.glow_rhythm
+        ~                                                                      %! faberge.glow_rhythm
         ]                                                                      %! rmakers.RewriteMeterCommand.__call__
-        ~                                                                      %! baca.tie:IndicatorCommand
 
     }                                                                          %! faberge.glow_rhythm
 
