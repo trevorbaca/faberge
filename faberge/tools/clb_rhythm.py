@@ -24,17 +24,15 @@ def clb_rhythm(
         divisions = divisions.map(baca.sequence().sum())
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea([1], 8, extra_counts=extra_counts_),
-            rmakers.beam(),
-            rmakers.denominator((1, 8)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_dots(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.force_diminution(),
-            rmakers.extract_trivial(),
-            preprocessor=divisions,
-        ),
+        rmakers.talea([1], 8, extra_counts=extra_counts_),
+        rmakers.beam(),
+        rmakers.denominator((1, 8)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_dots(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.force_diminution(),
+        rmakers.extract_trivial(),
+        preprocessor=divisions,
         tag="faberge.clb_rhythm",
     )

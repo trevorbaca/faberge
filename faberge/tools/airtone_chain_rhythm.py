@@ -69,12 +69,10 @@ def airtone_chain_rhythm(
     assert all(_ != 0 for _ in my_counts), repr(my_counts)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(my_counts, 16, read_talea_once_only=True),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie(),
-        ),
+        rmakers.talea(my_counts, 16, read_talea_once_only=True),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie(),
         tag="faberge.airtone_chain_rhythm",
     )

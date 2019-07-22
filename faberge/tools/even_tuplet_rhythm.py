@@ -12,15 +12,13 @@ def even_tuplet_rhythm(
     assert denominator in (2, 4, 8), repr(denominator)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea([1], denominator, extra_counts=extra_counts),
-            rmakers.beam(),
-            rmakers.denominator((1, denominator)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_dots(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-        ),
+        rmakers.talea([1], denominator, extra_counts=extra_counts),
+        rmakers.beam(),
+        rmakers.denominator((1, denominator)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_dots(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
         tag="faberge.even_tuplet_rhythm",
     )

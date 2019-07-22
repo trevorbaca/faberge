@@ -29,14 +29,12 @@ def spazzolati_rhythm(
     counts = counts.flatten()
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, denominator, extra_counts=extra_counts),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            preprocessor=baca.divisions().fuse().quarters(),
-        ),
+        rmakers.talea(counts, denominator, extra_counts=extra_counts),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        preprocessor=baca.divisions().fuse().quarters(),
         tag="faberge.spazzolati_rhythm",
     )

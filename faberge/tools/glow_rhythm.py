@@ -20,18 +20,16 @@ def glow_rhythm(
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios_),
-            rmakers.tie(baca.tuplets()[:-1].map(baca.pleaf(-1))),
-            *specifiers,
-            rmakers.rewrite_rest_filled(),
-            rmakers.rewrite_sustained(),
-            rmakers.trivialize(),
-            rmakers.beam(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            rmakers.force_repeat_tie((1, 4)),
-            preprocessor=baca.divisions().fuse().quarters(),
-        ),
+        rmakers.tuplet(tuplet_ratios_),
+        rmakers.tie(baca.tuplets()[:-1].map(baca.pleaf(-1))),
+        *specifiers,
+        rmakers.rewrite_rest_filled(),
+        rmakers.rewrite_sustained(),
+        rmakers.trivialize(),
+        rmakers.beam(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        rmakers.force_repeat_tie((1, 4)),
+        preprocessor=baca.divisions().fuse().quarters(),
         tag="faberge.glow_rhythm",
     )
