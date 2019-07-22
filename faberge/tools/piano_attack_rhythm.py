@@ -10,13 +10,11 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.incised(
-                incise=rmakers.Incise(
-                    fill_with_rests=True,
-                    outer_divisions_only=True,
-                    prefix_talea=[1],
-                    prefix_counts=[1],
-                    talea_denominator=16,
-                )
+                fill_with_rests=True,
+                outer_divisions_only=True,
+                prefix_talea=[1],
+                prefix_counts=[1],
+                talea_denominator=16,
             ),
             rmakers.beam(),
             rmakers.extract_trivial(),
