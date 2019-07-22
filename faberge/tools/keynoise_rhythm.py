@@ -28,7 +28,7 @@ def keynoise_rhythm(
 
     return baca.rhythm(
         rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios=tuplet_ratios_),
+            rmakers.tuplet(tuplet_ratios_),
             *specifiers,
             rmakers.beam(),
             rmakers.rewrite_rest_filled(),

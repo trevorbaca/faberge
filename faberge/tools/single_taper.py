@@ -15,14 +15,12 @@ def single_taper(
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.incised(
-                incise=rmakers.Incise(
-                    outer_divisions_only=True,
-                    prefix_talea=start_talea,
-                    prefix_counts=[len(start_talea)],
-                    suffix_talea=stop_talea,
-                    suffix_counts=[len(stop_talea)],
-                    talea_denominator=denominator,
-                )
+                outer_divisions_only=True,
+                prefix_talea=start_talea,
+                prefix_counts=[len(start_talea)],
+                suffix_talea=stop_talea,
+                suffix_counts=[len(stop_talea)],
+                talea_denominator=denominator,
             ),
             rmakers.beam(),
             rmakers.extract_trivial(),

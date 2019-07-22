@@ -9,12 +9,10 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
     return baca.rhythm(
         rmakers.rhythm(
             rmakers.incised(
-                incise=rmakers.Incise(
-                    fill_with_rests=True,
-                    suffix_talea=[1],
-                    suffix_counts=[1],
-                    talea_denominator=denominator,
-                )
+                fill_with_rests=True,
+                suffix_talea=[1],
+                suffix_counts=[1],
+                talea_denominator=denominator,
             ),
             rmakers.beam(),
             rmakers.extract_trivial(),
