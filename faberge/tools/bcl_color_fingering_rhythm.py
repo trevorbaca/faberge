@@ -13,17 +13,15 @@ def bcl_color_fingering_rhythm(
     counts = counts.rotate(n=rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, 8, extra_counts=[2]),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.denominator((1, 4)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_dots(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.force_diminution(),
-            rmakers.extract_trivial(),
-        ),
+        rmakers.talea(counts, 8, extra_counts=[2]),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.denominator((1, 4)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_dots(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.force_diminution(),
+        rmakers.extract_trivial(),
         tag="faberge.bcl_color_fingering_rhythm",
     )

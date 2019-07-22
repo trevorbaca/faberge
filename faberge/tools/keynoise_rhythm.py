@@ -27,15 +27,13 @@ def keynoise_rhythm(
     tuplet_ratios_ = tuplet_ratios_.rotate(n=tuplet_ratio_rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios_),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-            preprocessor=baca.divisions().fuse().quarters(),
-        ),
+        rmakers.tuplet(tuplet_ratios_),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
+        preprocessor=baca.divisions().fuse().quarters(),
         tag="faberge.keynoise_rhythm",
     )

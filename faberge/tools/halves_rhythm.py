@@ -11,15 +11,13 @@ def halves_rhythm(
     Makes halves rhythm.
     """
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.tuplet(tuplet_ratios),
-            rmakers.beam(),
-            rmakers.denominator((1, 4)),
-            rmakers.force_fraction(),
-            rmakers.trivialize(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.extract_trivial(),
-            rmakers.rewrite_meter(),
-        ),
+        rmakers.tuplet(tuplet_ratios),
+        rmakers.beam(),
+        rmakers.denominator((1, 4)),
+        rmakers.force_fraction(),
+        rmakers.trivialize(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.extract_trivial(),
+        rmakers.rewrite_meter(),
         tag="faberge.halves_rhythm",
     )

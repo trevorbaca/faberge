@@ -130,13 +130,11 @@ def shell_exchange_rhythm(
     extras = extras.rotate(n=extra_counts_rotation)
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(counts, 8, extra_counts=extras),
-            rmakers.force_rest(baca.lt(-1)),
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-        ),
+        rmakers.talea(counts, 8, extra_counts=extras),
+        rmakers.force_rest(baca.lt(-1)),
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
         tag="faberge.shell_exchange_rhythm",
     )

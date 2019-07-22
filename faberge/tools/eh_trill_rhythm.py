@@ -15,19 +15,14 @@ def eh_trill_rhythm(
     counts = list(counts) + [-1000]
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.talea(
-                counts,
-                16,
-                extra_counts=extra_counts,
-                read_talea_once_only=True,
-            ),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.rewrite_rest_filled(),
-            rmakers.trivialize(),
-            rmakers.extract_trivial(),
-            rmakers.force_repeat_tie(),
+        rmakers.talea(
+            counts, 16, extra_counts=extra_counts, read_talea_once_only=True
         ),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.rewrite_rest_filled(),
+        rmakers.trivialize(),
+        rmakers.extract_trivial(),
+        rmakers.force_repeat_tie(),
         tag="faberge.eh_trill_rhythm",
     )

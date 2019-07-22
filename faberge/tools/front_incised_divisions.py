@@ -20,15 +20,11 @@ def front_incised_divisions(
     prefix_talea = [-_.numerator for _ in start_rest_durations]
 
     return baca.rhythm(
-        rmakers.rhythm(
-            rmakers.incised(
-                prefix_talea=prefix_talea,
-                prefix_counts=[1],
-                talea_denominator=lcm,
-            ),
-            *specifiers,
-            rmakers.beam(),
-            rmakers.extract_trivial(),
+        rmakers.incised(
+            prefix_talea=prefix_talea, prefix_counts=[1], talea_denominator=lcm
         ),
+        *specifiers,
+        rmakers.beam(),
+        rmakers.extract_trivial(),
         tag="faberge.front_incised_divisions",
     )
