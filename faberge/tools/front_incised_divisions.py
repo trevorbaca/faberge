@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 
 def front_incised_divisions(
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     start_rest_durations: abjad.DurationSequenceTyping = (),
 ) -> baca.RhythmCommand:
     """
@@ -23,7 +23,7 @@ def front_incised_divisions(
         rmakers.incised(
             prefix_talea=prefix_talea, prefix_counts=[1], talea_denominator=lcm
         ),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.extract_trivial(),
         tag="faberge.front_incised_divisions",

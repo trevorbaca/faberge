@@ -6,7 +6,7 @@ from abjadext import rmakers
 
 
 def glow_rhythm(
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     tuplet_ratios: abjad.RatioSequenceTyping = None,
     tuplet_ratio_rotation: int = None,
 ) -> baca.RhythmCommand:
@@ -22,7 +22,7 @@ def glow_rhythm(
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios_),
         rmakers.tie(baca.tuplets()[:-1].map(baca.pleaf(-1))),
-        *specifiers,
+        *commands,
         rmakers.rewrite_rest_filled(),
         rmakers.rewrite_sustained(),
         rmakers.trivialize(),

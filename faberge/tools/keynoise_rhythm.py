@@ -5,7 +5,7 @@ from abjadext import rmakers
 
 
 def keynoise_rhythm(
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     tuplet_ratios: abjad.RatioSequenceTyping = None,
     tuplet_ratio_rotation: int = None,
 ) -> baca.RhythmCommand:
@@ -28,7 +28,7 @@ def keynoise_rhythm(
 
     return baca.rhythm(
         rmakers.tuplet(tuplet_ratios_),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.trivialize(),

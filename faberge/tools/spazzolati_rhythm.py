@@ -4,7 +4,7 @@ from abjadext import rmakers
 
 
 def spazzolati_rhythm(
-    *specifiers: rmakers.Command,
+    *commands: rmakers.Command,
     counts_rotation: int = None,
     denominator: int = 16,
     extra_counts: abjad.IntegerSequence = None,
@@ -30,7 +30,7 @@ def spazzolati_rhythm(
 
     return baca.rhythm(
         rmakers.talea(counts, denominator, extra_counts=extra_counts),
-        *specifiers,
+        *commands,
         rmakers.beam(),
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
