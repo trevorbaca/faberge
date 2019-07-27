@@ -35,18 +35,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 'F',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
                 ),
             ),
         baca.only_score(
             baca.rehearsal_mark(
                 'F',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
                 ),
             ),
         baca.only_segment(
             baca.rehearsal_mark(
                 'F',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
                 ),
             ),
@@ -153,11 +156,11 @@ maker(
 maker(
     (['fl', 'cl'], 5),
     baca.espressivo(
+        baca.pheads(),
         abjad.tweak(
             (0, 0),
             tag=baca.const.NOT_PARTS,
             ).X_extent,
-        selector=baca.pheads(),
         ),
     baca.hairpin(
         'o< mp >o niente',
