@@ -36,18 +36,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 'I',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
                 ),
             ),
         baca.only_score(
             baca.rehearsal_mark(
                 'I',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
                 ),
             ),
         baca.only_segment(
             baca.rehearsal_mark(
                 'I',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
                 ),
             ),
@@ -752,15 +755,16 @@ maker(
         pieces=baca.clparts([1]),
         ),
     baca.up_bow(
+        baca.pheads().get([1], 2),
         abjad.tweak(1).padding,
         abjad.tweak(0.5).parent_alignment_X,
-        selector=baca.pheads().get([1], 2),
         ),
     )
 
 maker(
     ('vc', [1, 2, 3, 4]),
     baca.down_bow(
+        baca.phead(0),
         abjad.tweak(1).padding,
         abjad.tweak(0.5).parent_alignment_X,
         full=True,

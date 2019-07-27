@@ -56,18 +56,21 @@ maker(
         baca.only_parts(
             baca.rehearsal_mark(
                 'B',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 9)).extra_offset,
                 ),
             ),
         baca.only_score(
             baca.rehearsal_mark(
                 'B',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 14)).extra_offset,
                 ),
             ),
         baca.only_segment(
             baca.rehearsal_mark(
                 'B',
+                baca.skip(1 - 1),
                 abjad.tweak((0, 18)).extra_offset,
                 ),
             ),
