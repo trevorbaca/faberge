@@ -23,6 +23,5 @@ def bcl_color_fingering_rhythm(
         rmakers.rewrite_rest_filled(),
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
-        stack=True,
         tag="faberge.bcl_color_fingering_rhythm",
     )

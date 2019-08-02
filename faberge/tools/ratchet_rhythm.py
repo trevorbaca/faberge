@@ -13,6 +13,5 @@ def ratchet_rhythm() -> baca.RhythmCommand:
         ),
         rmakers.duration_bracket(),
         rmakers.feather_beam(beam_rests=True, stemlet_length=0.75),
-        stack=True,
         tag="faberge.ratchet_rhythm",
     )

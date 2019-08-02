@@ -36,6 +36,5 @@ def spazzolati_rhythm(
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
         preprocessor=baca.divisions().fuse().quarters(),
-        stack=True,
         tag="faberge.spazzolati_rhythm",
     )

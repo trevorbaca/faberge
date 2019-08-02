@@ -26,6 +26,5 @@ def front_incised_divisions(
         *commands,
         rmakers.beam(),
         rmakers.extract_trivial(),
-        stack=True,
         tag="faberge.front_incised_divisions",
     )

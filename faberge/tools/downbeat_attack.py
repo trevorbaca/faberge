@@ -17,6 +17,5 @@ def downbeat_attack(
         rmakers.rewrite_rest_filled(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        stack=True,
         tag="faberge.downbeat_attack",
     )
