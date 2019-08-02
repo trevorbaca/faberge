@@ -34,5 +34,6 @@ def clb_rhythm(
         rmakers.force_diminution(),
         rmakers.extract_trivial(),
         preprocessor=divisions,
+        stack=True,
         tag="faberge.clb_rhythm",
     )

@@ -19,5 +19,6 @@ def suffixed_colortrill_rhythm() -> baca.RhythmCommand:
         rmakers.force_fraction(),
         rmakers.extract_trivial(),
         rmakers.untie(),
+        stack=True,
         tag="faberge.suffixed_colortrill_rhythm",
     )

@@ -15,5 +15,6 @@ def end_of_cell_attack(*, denominator: int = 4) -> baca.RhythmCommand:
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
+        stack=True,
         tag="faberge.end_of_cell_attack",
     )
