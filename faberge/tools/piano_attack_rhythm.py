@@ -17,6 +17,5 @@ def piano_attack_rhythm() -> baca.RhythmCommand:
         ),
         rmakers.beam(),
         rmakers.extract_trivial(),
-        stack=True,
         tag="faberge.piano_attack_rhythm",
     )

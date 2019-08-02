@@ -24,6 +24,5 @@ def single_taper(
         rmakers.beam(),
         rmakers.extract_trivial(),
         rmakers.repeat_tie(baca.notes()[1:]),
-        stack=True,
         tag="faberge.single_taper",
     )
