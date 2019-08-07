@@ -207,7 +207,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         flute_music_voice = abjad.Voice(name="Flute_Music_Voice", tag=tag)
         flute_music_staff = abjad.Staff(
             [flute_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Flute_Music_Staff",
             tag=tag,
         )
@@ -225,7 +225,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
         english_horn_music_staff = abjad.Staff(
             [english_horn_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="English_Horn_Music_Staff",
             tag=tag,
         )
@@ -252,7 +252,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
         clarinet_music_staff = abjad.Staff(
             [clarinet_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Clarinet_Music_Staff",
             tag=tag,
         )
@@ -279,7 +279,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
         piano_rh_music_staff = abjad.Staff(
             [piano_rh_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Piano_RH_Music_Staff",
             tag=tag,
         )
@@ -301,7 +301,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
         piano_lh_music_staff = abjad.Staff(
             [piano_lh_music_voice, piano_lh_attack_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Piano_LH_Music_Staff",
             tag=tag,
         )
@@ -327,7 +327,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         )
         percussion_music_staff = abjad.Staff(
             [percussion_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Percussion_Music_Staff",
             tag=tag,
         )
@@ -352,7 +352,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         violin_music_voice = abjad.Voice(name="Violin_Music_Voice", tag=tag)
         violin_music_staff = abjad.Staff(
             [violin_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Violin_Music_Staff",
             tag=tag,
         )
@@ -377,7 +377,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         viola_music_voice = abjad.Voice(name="Viola_Music_Voice", tag=tag)
         viola_music_staff = abjad.Staff(
             [viola_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Viola_Music_Staff",
             tag=tag,
         )
@@ -400,7 +400,7 @@ class ScoreTemplate(baca.ScoreTemplate):
         cello_music_voice = abjad.Voice(name="Cello_Music_Voice", tag=tag)
         cello_music_staff = abjad.Staff(
             [cello_music_voice],
-            is_simultaneous=True,
+            simultaneous=True,
             name="Cello_Music_Staff",
             tag=tag,
         )
@@ -455,7 +455,7 @@ class ScoreTemplate(baca.ScoreTemplate):
                 string_section_staff_group,
             ],
             lilypond_type="MusicContext",
-            is_simultaneous=True,
+            simultaneous=True,
             name="Music_Context",
             tag=tag,
         )
