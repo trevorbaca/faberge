@@ -34,6 +34,6 @@ def keynoise_rhythm(
         rmakers.trivialize(),
         rmakers.extract_trivial(),
         rmakers.rewrite_meter(),
-        preprocessor=baca.divisions().fuse().quarters(),
+        preprocessor=baca.sequence().fuse().quarters(),
         tag="faberge.keynoise_rhythm",
     )
