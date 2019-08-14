@@ -11,13 +11,6 @@ metronome_marks = abjad.OrderedDict(
         ("125", abjad.MetronomeMark((1, 4), 125)),
         ("156", abjad.MetronomeMark((1, 4), 156)),
         # slower
-        #        (
-        #            "4=5:4(4)",
-        #            abjad.MetricModulation(
-        #                left_rhythm=abjad.Note("c4"),
-        #                right_rhythm=abjad.Tuplet("5:4", "c4"),
-        #            ),
-        #        ),
         (
             "4:5(4)=4",
             abjad.MetricModulation(
@@ -26,13 +19,6 @@ metronome_marks = abjad.OrderedDict(
             ),
         ),
         # faster
-        #        (
-        #            "4=4:5(4)",
-        #            abjad.MetricModulation(
-        #                left_rhythm=abjad.Note("c4"),
-        #                right_rhythm=abjad.Tuplet("4:5", "c4"),
-        #            ),
-        #        ),
         (
             "5:4(4)=4",
             abjad.MetricModulation(
