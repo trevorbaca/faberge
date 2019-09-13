@@ -268,10 +268,6 @@ maker(
 maker(
     ('rh', 2),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -321,11 +317,6 @@ maker(
 maker(
     ('rh', 5),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 1),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             3,
             baca.leaves()[:1].rleak()[-1],
@@ -358,10 +349,6 @@ maker(
 maker(
     ('rh', 6),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -556,10 +543,6 @@ maker(
 maker(
     (['vn', 'va', 'vc'], 7),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,

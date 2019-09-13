@@ -210,11 +210,6 @@ maker(
 maker(
     ('rh', (6, 9)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 1),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             3,
             baca.leaves()[:1].rleak()[-1],
@@ -356,11 +351,6 @@ maker(
 maker(
     ('vn', (1, 4)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 0),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -394,10 +384,6 @@ maker(
         ),
     baca.beam(),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -421,11 +407,6 @@ maker(
 maker(
     ('vn', (6, 9)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 0),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -550,11 +531,6 @@ maker(
 maker(
     ('vc', (1, 4)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (0, 2),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -589,10 +565,6 @@ maker(
         ),
     baca.beam(),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 2),
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             5,
             tag=baca.const.NOT_PARTS,
@@ -616,11 +588,6 @@ maker(
 maker(
     ('vc', (6, 9)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (0, 2),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],

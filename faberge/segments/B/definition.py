@@ -603,11 +603,6 @@ maker(
 maker(
     ('fl', 73),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 0),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -991,11 +986,6 @@ maker(
 maker(
     ('cl', 73),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (0, 2),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -1041,11 +1031,6 @@ maker(
 maker(
     ('rh', (53, 79)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 1),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             3,
             baca.leaves()[:1].rleak()[-1],
@@ -1236,11 +1221,6 @@ maker(
 maker(
     ('perc', (69, 72)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (0, 2),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -1366,11 +1346,6 @@ maker(
 maker(
     ('vn', (53, 68)),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (-2, 0),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
@@ -1646,11 +1621,6 @@ maker(
     ('vc', (61, 80)),
     baca.beam_positions(-3.5),
     baca.chunk(
-#        baca.bar_extent_persistent(
-#            (0, 2),
-#            after=True,
-#            tag=baca.const.NOT_PARTS,
-#            ),
         baca.bar_extent_indicator(
             1,
             baca.leaves()[:1].rleak()[-1],
